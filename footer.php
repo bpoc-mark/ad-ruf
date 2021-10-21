@@ -1,5 +1,53 @@
-        <div class="page__footer">
-            footer
+<div class="page__footer">
+            <div class="l-wrap">
+                <div class="cntct">
+
+                    <div class="cntct-hdr">
+                        <p>contact</p>
+                        <p>売却から管理改善まで、まずはお気軽にご相談ください。</p>
+                    </div>
+
+                    <div class="cntct-inqrs">
+                        <div class="cntct-inqrs-dtl phone">
+                            <a class="cntct-inqrs-dtl-link" href="">
+                                <p>お電話でのお問い合わせ</p>
+                                <p>0120-173-602
+                                    <br>
+                                    受付時間：9：00～18：00（土日祝除く）
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="cntct-inqrs-dtl line">
+                            <a class="cntct-inqrs-dtl-link" href="">
+                                <p>LINEお問い合わせ</p>
+                                <p>お問い合わせ24時間受付</p>
+                            </a>
+                        </div>
+
+                        <div class="cntct-inqrs-dtl email">
+                            <a class="cntct-inqrs-dtl-link" href="">
+                                <p>メールでのお問い合わせ</p>
+                                <p>お問い合わせフォーム 
+                                    <br>
+                                    24時間受付
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cntct-top">
+                        <a class="cntct-top-link" href="">
+                            PAGE TOP
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="nav-footer">
+                    
+                </div>
+            </div>
         </div>
     </main>
     <?php wp_footer(); ?>
@@ -18,3 +66,4 @@
     </script>
 </body>
 </html>
+
