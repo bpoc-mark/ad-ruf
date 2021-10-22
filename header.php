@@ -16,8 +16,60 @@
     
 <main>
     <div class="page__header">
-        <p class="yugo_b" style="font-size:11px;font-family:cross-platform-yu-gothic; font-weight: 700; ">事業内容</p>
-        <p class="yugo_b" style="font-size:14px;font-family: century-gothic, sans-serif; font-weight: 400;letter-spacing: .32em;">OUR ENTERPRISES</p>
-        <p class="yugo_b" style="font-size:30px;font-family: yu-mincho-pr6n, sans-serif;; font-weight: 500;">丸の内ルーフの <br> 4つの事業をご紹介いたします。</p>
+       <div class="home">  
+            <div class="home-nav">
+
+                <div class="home-nav-col1">
+
+                    <div class="home-nav-col1-brand-logo">
+                         <a href="">
+                             <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo.svg" alt="">
+                             <p>丸の内 株式会社ルーフ </p>
+                         </a>
+                    </div>
+
+                    <div class="home-nav-col1-links">
+                        <div class="home-nav-col1-links-ul">
+                            <div class="home-nav-col1-links-ul-cmpny-pro">
+                                <a href="">会社概要　/  プライバシーポリシー</a>
+                            </div>
+                            <div class="home-nav-col1-links-ul-dd">
+
+                                 <div class="home-nav-col1-links-ul-dd-menu">
+                                     <a href="">TOP</a>
+                                 </div>
+                                 <div class="home-nav-col1-links-ul-dd-menu">
+                                     <a href="">事業内容</a>
+                                 </div>
+                                 <div class="home-nav-col1-links-ul-dd-menu">
+                                     <a href="">企業情報</a>
+                                 </div>
+                                 <div class="home-nav-col1-links-ul-dd-menu">
+                                     <a href="">バリューアップ事例</a>
+                                 </div>
+                                 <div class="home-nav-col1-links-ul-dd-menu">
+                                     <a href="">不動産コラム</a>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="home-nav-col1-links-mail">
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/header/mail.svg" alt="">
+                                <p>お問い合わせ・<br>
+                                ご相談</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-nav-col2">
+
+                </div>
+            </div>
+            <div class="home-banner">
+
+            </div>
+
+       </div>
     </div>
     
