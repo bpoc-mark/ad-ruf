@@ -4,7 +4,7 @@
 <div class="page__content ct08">
     <section class="sect_1">
         <div class="l-wrap">
-           <div class="sect_1--content">
+           <div class="sect_1--headers">
                 <p class="sect_1--ttl">Case Studies</p>
                 <p class="sect_1--ttl-body">
                 コンクリ打ちっ放しのデザインを活かした外観リフォームを <br>

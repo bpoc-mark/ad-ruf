@@ -3,9 +3,29 @@
 	.sect_1 {
 		background: linear-gradient(to right, #2579bf, #2593d5);
 		clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+		padding: 189px 0 147px 0;
 
-	&--content {
+        &--headers {
+			text-align: center;
+        }
 
+		&--ttl {
+			@include font-line(10);
+			color: #90C2E3;
+			line-height: 20px;
+			letter-spacing: 4px;
+			font-family: century-gothic, sans-serif;
+			font-weight: 400;
+			padding-bottom: 15px;
+		}
+
+		&--ttl-body {
+			@include font-line(30);
+			color: #FFFFFF;
+			line-height: 48px;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 500;
+			letter-spacing: 5px;
 		}
 	}
 }
