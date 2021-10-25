@@ -65,8 +65,25 @@ get_header();?>
    <div class="section_2">
         <div class="l-wrap">
             <div class="section_2-cntnt">
-                <div class="section_2-cntnt-row1">
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/page/interview/s2_img.png" alt="">
+                <div class="section_2-cntnt-rows u-d-f u-jc-sb">
+                    <div class="section_2-cntnt-rows-1">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/page/interview/sec2_img.png" alt="">
+                    </div>
+                    <div class="section_2-cntnt-rows-2">
+                    <p class="section_2-cntnt-rows-2-hdr">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="section_2-cntnt-rows-2-txt1">Dummy textDummy textDummy textDummy text <br>Dummy textDummy text<br>Dummy textDummy textDummy text</p>
+                    <p class="section_2-cntnt-rows-2-txt2">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                    </div>
+                </div>
+                <div class="u-d-f">
+                    <div class="c-buttonCase">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                    </div>
+                    <div class="c-buttonCase">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>

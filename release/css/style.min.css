@@ -622,7 +622,14 @@ template{display:none}
 .interview .section_1 .section_1-cntnt-1-biography-cntnt-yr{color:#258acf}
 .interview .section_1 .section_1-cntnt-1-biography-cntnt-txt{margin-left:18px}
 .interview .section_1-img{position:absolute;bottom:0;right:5%}
-.interview .bg-2{position:absolute;top:140px}
+.interview .section_1 .bg-2{position:absolute;top:140px}
+.interview .section_2{background-color:#fff;padding:100px 0 80px 0}
+.interview .section_2-cntnt{position:relative}
+.interview .section_2-cntnt-rows{margin-bottom:53px}
+.interview .section_2-cntnt-rows-2{width:390px}
+.interview .section_2-cntnt-rows-2-hdr{font-size:1.625rem;line-height:1.4230769231;font-family:500;font-family:yu-mincho-pr6n,sans-serif;color:#258acf}
+.interview .section_2-cntnt-rows-2-txt1{font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;color:#95c6e7;padding:23px 0 18px 0}
+.interview .section_2-cntnt-rows-2-txt2{font-family:cross-platform-yu-gothic;font-size:.75rem;line-height:2.0833333333;font-weight:500;color:#333}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}

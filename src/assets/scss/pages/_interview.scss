@@ -1,50 +1,4 @@
-// .interview-sec1 {
-//     background: linear-gradient(#257AC0, #2593D5);
 
-//     &-cols-1-hdr {
-//         padding-top:100px;
-//         text-align: center;
-//         margin-bottom: 61px;
-//         color:#fff;
-
-//         &-1 {
-//             @include font-line(10px,20px);
-         
-//         }
-
-//         &-sub1 {
-//             @include font-line(30px,48px);
-//             font-weight: 500;
-//             font-family: 'yu-mincho-pr6n', sans-serif;
-//         }
-//         &-sub2 {
-//             @include font-line(13px,26px);
-//             font-family: 'cross-platform-yu-gothic';
-//         }
-//     }
-
-//     &-cols-2 {
-//         color:#fff;
-
-//         &-cntnt-1-text1 {
-//             @include font-line(26px,37px);
-//             font-family: 'yu-mincho-pr6n', sans-serif;
-//             font-weight: 500;
-//         }
-//         &-cntnt-1-text2 {
-//             @include font-line(10px, 20px);
-//             font-family: 'cross-platform-yu-gothic';
-//             color: #000;
-
-//         }
-//         &-cntnt-1-text3 {
-//             @include font-line(13px,26px);
-//             font-weight: 500;
-//             font-family: 'cross-platform-yu-gothic';
-//             width: 392px;
-//         }
-//     }
-// }
 .interview {
     background: linear-gradient(#2579BF, #2593D5);
     color: #fff;
@@ -144,10 +98,58 @@
             bottom: 0;
             right: 5%;
         }
+        .bg-2 {
+            position: absolute;
+            top: 140px;
+           
+        }
     }
-    .bg-2 {
-        position: absolute;
-        top: 140px;
-       
+
+    .section_2 {
+       background-color: #fff;
+       padding:100px 0 80px 0;
+
+       &-cntnt {
+        //    padding:100px 0 80px 0;
+           position: relative;
+
+           &-rows {
+            // background-image: url(../../release/image/page/interview/sec2-bg.png);
+            // background-position: center;
+            // background-size: cover;
+            margin-bottom: 53px;
+
+            &-1 {
+
+            }
+
+            &-2 {
+                width: 390px;
+
+                &-hdr {
+                    @include font-line(26,37);
+                    font-family: 500;
+                    font-family: yu-mincho-pr6n, sans-serif;
+                    color: #258ACF;
+                    
+                }
+
+                &-txt1 {
+                    @include font-line(10,20);
+                    font-family: century-gothic, sans-serif;
+                    color: #95C6E7;
+                    padding:23px 0 18px 0;
+                }
+
+                &-txt2 {
+                    font-family:cross-platform-yu-gothic;
+                    @include font-line(12,25);
+                    font-weight: 500;
+                    color: #333;
+                }
+            }
+           }
+       }
     }
+   
 }
