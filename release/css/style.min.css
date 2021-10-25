@@ -414,6 +414,7 @@ template{display:none}
 .u-d-ib{display:inline-block !important}
 .u-d-n{display:none !important}
 .u-d-f{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important}
+.u-jc-sb{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .u-m-c{margin-right:auto !important;margin-left:auto !important}
 .u-my-0{margin-top:0 !important;margin-bottom:0 !important}
 .u-mx-0{margin-left:0 !important;margin-right:0 !important}
@@ -604,15 +605,24 @@ template{display:none}
 .case .section_3{padding-top:100px}
 .case .section_3 .l-wrap{position:relative}
 .case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px}
-.interview-sec1{background:-webkit-gradient(linear,left top,left bottom,from(#257ac0),to(#2593d5));background:linear-gradient(#257ac0,#2593d5)}
-.interview-sec1-cols-1-hdr{padding-top:100px;text-align:center;margin-bottom:61px;color:#fff}
-.interview-sec1-cols-1-hdr-1{font-size:.625pxrem;line-height:2}
-.interview-sec1-cols-1-hdr-sub1{font-size:1.875pxrem;line-height:1.6;font-weight:500;font-family:'yu-mincho-pr6n',sans-serif}
-.interview-sec1-cols-1-hdr-sub2{font-size:.8125pxrem;line-height:2;font-family:'cross-platform-yu-gothic'}
-.interview-sec1-cols-2{color:#fff}
-.interview-sec1-cols-2-cntnt-1-text1{font-size:1.625pxrem;line-height:1.4230769231;font-family:'yu-mincho-pr6n',sans-serif;font-weight:500}
-.interview-sec1-cols-2-cntnt-1-text2{font-size:.625pxrem;line-height:2;font-family:'cross-platform-yu-gothic';color:#000}
-.interview-sec1-cols-2-cntnt-1-text3{font-size:.8125pxrem;line-height:2;font-weight:500;font-family:'cross-platform-yu-gothic';width:392px}
+.interview{background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);color:#fff;position:relative}
+.interview .section_1 .l-wrap{position:relative}
+.interview .section_1 .l-wrap .bg-1{position:absolute;right:5%}
+.interview .section_1-ttl{padding-top:100px;text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:1em;font-weight:400}
+.interview .section_1-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500}
+.interview .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:cross-platform-yu-gothic;text-align:center}
+.interview .section_1 .section_1-cntnt{padding-top:60px;position:relative;padding-bottom:133px}
+.interview .section_1 .section_1-cntnt-1{width:395px}
+.interview .section_1 .section_1-cntnt-1-hdr{font-size:1.625rem;line-height:1.4230769231;font-weight:500;font-family:yu-mincho-pr6n,sans-serif;padding-bottom:20px}
+.interview .section_1 .section_1-cntnt-1-txt1{font-size:.625rem;line-height:2;font-weight:400;font-family:century-gothic,sans-serif;color:#95c6e7;padding-bottom:18px}
+.interview .section_1 .section_1-cntnt-1-txt2{font-size:.8125rem;line-height:2;font-weight:500;font-family:cross-platform-yu-gothic;padding-bottom:57px}
+.interview .section_1 .section_1-cntnt-1-biography{padding:41px;background-color:#fff}
+.interview .section_1 .section_1-cntnt-1-biography-hdr{font-size:.8125rem;line-height:2;font-weight:700;font-family:cross-platform-yu-gothic;color:#258acf;text-align:center}
+.interview .section_1 .section_1-cntnt-1-biography-cntnt{padding-left:40px;color:black}
+.interview .section_1 .section_1-cntnt-1-biography-cntnt-yr{color:#258acf}
+.interview .section_1 .section_1-cntnt-1-biography-cntnt-txt{margin-left:18px}
+.interview .section_1-img{position:absolute;bottom:0;right:5%}
+.interview .bg-2{position:absolute;top:140px}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}
