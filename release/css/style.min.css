@@ -258,7 +258,7 @@ template{display:none}
 .p-formSearch__icon{opacity:.6;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;color:#55595c;padding-left:calc(50px / 3)}
 .p-formSearch__input{color:#666;padding:.75em;height:auto;border-width:1px;border-style:solid;border-color:#eaeaea;border-radius:2px;background:#eceeef;-webkit-box-shadow:none;box-shadow:none;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .2s linear;transition:all .2s linear;padding-left:calc(50px / 3);padding-right:calc(50px / 3);font-size:1rem}
 .home{background:#5fa5cd;position:relative}
-.home .home-cols-col1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:20px}
+.home .home-cols-col1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;z-index:2;position:fixed;top:0;left:0;width:100%;z-index:999}
 .home .home-cols-col1-brand-logo{display:-webkit-box;display:-ms-flexbox;display:flex;width:317px;padding-left:49px}
 .home .home-cols-col1-brand-logo a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .home .home-cols-col1-brand-logo a img{width:70px}
@@ -271,7 +271,7 @@ template{display:none}
 .home .home-cols-col1-links-mail a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:10px 20px;border-left:1px solid white;border-bottom:1px solid white}
 .home .home-cols-col1-links-mail a img{width:22px;margin-bottom:5px}
 .home .home-cols-col1-links-mail a p{font:500 14px/18px 'cross-platform-yu-gothic';color:#fff;letter-spacing:2px}
-.home .home-cols-col2{background:url(../../release/image/header/image_banner.png) no-repeat;background-position:center;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;height:660px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:1100px;margin:0 auto;padding-left:60px;overflow:hidden}
+.home .home-cols-col2{background:url(../../release/image/header/image_banner.png) no-repeat;background-position:center;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;height:660px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:1100px;margin:0 auto;padding-left:60px;overflow:hidden;margin-top:97px;z-index:7}
 .home .home-cols-col2 .bnnr-hdr{z-index:999}
 .home .home-cols-col2 .home-cols-col2-cntnt01-img{margin-bottom:13px}
 .home .home-cols-col2 .home-cols-col2-cntnt01-img img{width:208px}
@@ -287,6 +287,8 @@ template{display:none}
 .home .home-cols-col2-side-ver{font:500 30px/41px yu-mincho-pr6n,sans-serif;-webkit-writing-mode:tb;-ms-writing-mode:tb;writing-mode:tb;color:#fff}
 .home .home-cols-col2-side-ver p{letter-spacing:5px}
 .home .home-cols-col2:before{position:absolute;top:0;left:0;content:'';width:100%;height:100%;-webkit-clip-path:polygon(0 0,79% 0,36.8% 100%,0 100%);clip-path:polygon(0 0,79% 0,36.8% 100%,0 100%);background:linear-gradient(95deg,#0d5089,#cee5f5);opacity:.8}
+.home:after{position:absolute;content:'';top:-97px;right:0;width:800px;height:250px;-webkit-clip-path:inset(0 0 0 0);clip-path:inset(0 0 0 0);background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5)}
+.home-bg{width:800px;height:250px;background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);position:absolute;top:0;right:0}
 .attachment{position:fixed;margin-top:120px;margin-left:1550px}
 .attachment .img{height:134.39px;width:227.39px}
 .p-introduction{padding-top:100px;padding-bottom:100px}
