@@ -288,7 +288,6 @@ template{display:none}
 .home .home-cols-col2-side-ver p{letter-spacing:5px}
 .home .home-cols-col2:before{position:absolute;top:0;left:0;content:'';width:100%;height:100%;-webkit-clip-path:polygon(0 0,79% 0,36.8% 100%,0 100%);clip-path:polygon(0 0,79% 0,36.8% 100%,0 100%);background:linear-gradient(95deg,#0d5089,#cee5f5);opacity:.8}
 .home:after{position:absolute;content:'';top:-97px;right:0;width:800px;height:250px;-webkit-clip-path:inset(0 0 0 0);clip-path:inset(0 0 0 0);background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5)}
-.home-bg{width:800px;height:250px;background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);position:absolute;top:0;right:0}
 .attachment{position:fixed;margin-top:120px;margin-left:1550px}
 .attachment .img{height:134.39px;width:227.39px}
 .p-introduction{padding-top:100px;padding-bottom:100px}
@@ -537,6 +536,15 @@ template{display:none}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
 .top .sect_1{background-color:red}
+.interview-sec1{background:-webkit-gradient(linear,left top,left bottom,from(#257ac0),to(#2593d5));background:linear-gradient(#257ac0,#2593d5)}
+.interview-sec1-cols-1-hdr{padding-top:100px;text-align:center;margin-bottom:61px;color:#fff}
+.interview-sec1-cols-1-hdr-1{font-size:.625pxrem;line-height:2}
+.interview-sec1-cols-1-hdr-sub1{font-size:1.875pxrem;line-height:1.6;font-weight:500;font-family:'yu-mincho-pr6n',sans-serif}
+.interview-sec1-cols-1-hdr-sub2{font-size:.8125pxrem;line-height:2;font-family:'cross-platform-yu-gothic'}
+.interview-sec1-cols-2{color:#fff}
+.interview-sec1-cols-2-cntnt-1-text1{font-size:1.625pxrem;line-height:1.4230769231;font-family:'yu-mincho-pr6n',sans-serif;font-weight:500}
+.interview-sec1-cols-2-cntnt-1-text2{font-size:.625pxrem;line-height:2;font-family:'cross-platform-yu-gothic';color:#000}
+.interview-sec1-cols-2-cntnt-1-text3{font-size:.8125pxrem;line-height:2;font-weight:500;font-family:'cross-platform-yu-gothic';width:392px}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}

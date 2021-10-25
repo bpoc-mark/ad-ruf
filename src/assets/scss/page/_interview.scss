@@ -1,0 +1,47 @@
+.interview-sec1 {
+    background: linear-gradient(#257AC0, #2593D5);
+
+    &-cols-1-hdr {
+        padding-top:100px;
+        text-align: center;
+        margin-bottom: 61px;
+        color:#fff;
+
+        &-1 {
+            @include font-line(10px,20px);
+         
+        }
+
+        &-sub1 {
+            @include font-line(30px,48px);
+            font-weight: 500;
+            font-family: 'yu-mincho-pr6n', sans-serif;
+        }
+        &-sub2 {
+            @include font-line(13px,26px);
+            font-family: 'cross-platform-yu-gothic';
+        }
+    }
+
+    &-cols-2 {
+        color:#fff;
+
+        &-cntnt-1-text1 {
+            @include font-line(26px,37px);
+            font-family: 'yu-mincho-pr6n', sans-serif;
+            font-weight: 500;
+        }
+        &-cntnt-1-text2 {
+            @include font-line(10px, 20px);
+            font-family: 'cross-platform-yu-gothic';
+            color: #000;
+
+        }
+        &-cntnt-1-text3 {
+            @include font-line(13px,26px);
+            font-weight: 500;
+            font-family: 'cross-platform-yu-gothic';
+            width: 392px;
+        }
+    }
+}
