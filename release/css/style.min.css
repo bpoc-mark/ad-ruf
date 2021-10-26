@@ -158,7 +158,7 @@ template{display:none}
 .c-case--items__contents--row_1 .img-2 .img_box__txt{border-top:1px solid #fff;border-right:1px solid #ffff}
 .c-case--items__contents--row_1 .img-2 .img_box__ttl{color:#90c2e3;font-family:century-gothic,sans-serif;font-weight:700;padding-top:20px;font-size:.6875rem}
 .c-case--items__contents--row_1 .img-2 .img_box__sub{color:#fff;font-family:cross-platform-yu-gothic;font-weight:700;padding-bottom:10px;font-size:.78125rem}
-.c-case--items__contents--row_2{width:calc(100% - 46.67%);padding-left:120px}
+.c-case--items__contents--row_2{width:calc(100% - 57.14%);padding-left:120px}
 .c-case--items__contents--row_2__txt{text-align:left;color:#fff}
 .c-case--items__contents--row_2__txt.ttl{font-family:cross-platform-yu-gothic;font-weight:500;line-height:1;font-size:.8125rem}
 .c-case--items__contents--row_2__txt.sub{font-family:yu-mincho-pr6n,sans-serif;font-weight:500;padding:15px 0 20px 0;line-height:1;font-size:1.875rem}
@@ -899,8 +899,6 @@ template{display:none}
 .c-case01__title{letter-spacing:.2em}
 .c-case01__title br{display:block}
 .c-case01__sub{letter-spacing:unset;padding:0 0 60px 0}
-.c-case--items:not(:first-child){padding-top:75px}
-.c-case--items:nth-of-type(odd){padding:75px 0 0 0}
 .c-case--items:nth-of-type(odd) .bg_2{width:38.67%;top:-50px;left:20px}
 .c-case--items:nth-of-type(odd) .bg_7{display:none}
 .c-case--items:nth-of-type(odd) .c-case--items__contents--row_2{padding:25px 0 0 0}

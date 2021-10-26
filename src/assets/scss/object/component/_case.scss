@@ -46,7 +46,7 @@
 
 		&:not(:first-child) {
 			@include is-sp {
-				padding-top: 75px;
+				// padding-top: 75px;
 			}
 		}
 
@@ -60,7 +60,7 @@
 			// padding: 100px 0;
 
 			@include is-sp {
-				padding: 75px 0 0 0;
+				// padding: 75px 0 0 0;
 			}
 
 			.bg_2 {
@@ -222,7 +222,7 @@
 			}
 
 			&--row_2 {
-				width: calc(100% - 46.67%);
+				width: calc(100% - 57.14%);
 				padding-left: 120px;
 
 				@include is-max(1000px) {
