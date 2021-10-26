@@ -137,9 +137,9 @@ template{display:none}
 .c-case01__title br{display:none}
 .c-case01__title br:nth-of-type(2){display:block}
 .c-case01__sub{color:#fff;font-family:cross-platform-yu-gothic;font-weight:500;letter-spacing:.6em;line-height:1;font-size:.8125rem;line-height:2}
-.c-case--items{position:relative}
-.c-case--items:nth-of-type(2){padding-top:0}
-.c-case--items:nth-of-type(odd){background-color:#fff;position:relative}
+.c-case--items{position:relative;padding-top:100px}
+.c-case--items:nth-of-type(4){padding-top:0}
+.c-case--items:nth-of-type(odd){background-color:#fff;position:relative;padding:100px 0;-webkit-clip-path:polygon(0 15%,100% 0,100% 85%,0 100%);clip-path:polygon(0 15%,100% 0,100% 85%,0 100%)}
 .c-case--items:nth-of-type(odd) .bg_2{position:absolute;top:150px;left:0;width:290px}
 .c-case--items:nth-of-type(odd) .bg_7{position:absolute;bottom:0;right:0;width:290px}
 .c-case--items:nth-of-type(odd) .c-case--items__contents--row_2__txt{color:#2d2319}
@@ -174,10 +174,6 @@ template{display:none}
 .c-case03__txt__sub{color:#258acf;font-family:yu-mincho-pr6n,sans-serif;font-weight:700;padding:15px 0 25px 0;letter-spacing:.45rem;font-size:1.625rem}
 .c-case03__txt__sub br{display:none}
 .c-case03__txt__desc{color:#333;font-family:cross-platform-yu-gothic;font-weight:500;text-align:justify;font-size:.8125rem}
-.c-clipbg__CS{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);height:90px}
-.c-clipbg__CS2{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);height:90px}
-.c-clipbg__CS2::before{background-color:#fff}
-.white_bg{background:#fff !important}
 .c-heading01{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0 0 8px;font-weight:bold;color:#000;letter-spacing:0;text-align:center;position:relative;border-bottom:solid 2px #000}
 .c-heading01:before{content:'';background:#000}
 .c-heading01--nobefore:before{display:none}
@@ -567,7 +563,9 @@ template{display:none}
 .u-pl-011em{padding-left:11em !important}
 .case .clipbg_wrap:nth-child(odd){background-color:#fff}
 .case .clipbg_wrap:nth-child(even){background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
-.case .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding:190px 0 0 0;text-align:center}
+.case .clip-top{-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center;margin-bottom:90px}
+.case .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
+.case .section_1 .clip-bottom{-webkit-clip-path:polygon(100% 0,100% 100%,0 100%);clip-path:polygon(100% 0,100% 101%,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center}
 .case .section_1 .l-wrap{position:relative}
 .case .section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
 .case .section_1__ttl{color:#90c2e3;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:1em;line-height:1;font-size:.625rem}
@@ -899,6 +897,8 @@ template{display:none}
 .c-case01__title{letter-spacing:.2em}
 .c-case01__title br{display:block}
 .c-case01__sub{letter-spacing:unset;padding:0 0 60px 0}
+.c-case--items:first-child{padding-top:75px}
+.c-case--items:nth-of-type(odd){padding:200px 0 100px 0}
 .c-case--items:nth-of-type(odd) .bg_2{width:38.67%;top:-50px;left:20px}
 .c-case--items:nth-of-type(odd) .bg_7{display:none}
 .c-case--items:nth-of-type(odd) .c-case--items__contents--row_2{padding:25px 0 0 0}
@@ -1108,6 +1108,7 @@ template{display:none}
 .u-pl-40{padding-left:20px !important}
 .u-pl-45{padding-left:22px !important}
 .u-pl-50{padding-left:25px !important}
+.case .section_1 .clip-bottom{padding:100px 0 0 0}
 .case .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .case .section_2 .photos{padding:50px 30px}
 .case .section_2 .photos img{width:calc(100% / 2)}

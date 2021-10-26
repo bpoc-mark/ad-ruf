@@ -4,8 +4,10 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
-	<div class="c-clipbg__CS"></div>
 	<div class="section_1">
+        <!-- //CLIP -->
+		<div class="clip-top"></div>
+		<div class="c-clipbg__CS"></div>
 		<div class="l-wrap">
 			<img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
 			<p class="section_1__ttl">Case Studies</p>
@@ -274,7 +276,8 @@ $imagedir = get_template_directory_uri();
 				<img class="bg_6" src="<?php echo $imagedir ?>/release/image/page/case/bg_6.png" alt="">
 			</div>
 		</div>
-		<div class="c-clipbg__CS white_bg"></div>
+		<!-- //CLIP -->
+		<div class="clip-bottom"></div>
 	</div>
 	
 	<div class="section_2">
