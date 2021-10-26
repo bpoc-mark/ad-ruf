@@ -1,0 +1,113 @@
+
+.about {
+    position: relative;
+
+    .l-wrap {
+        position: relative;
+    }
+    .section_1 {
+        background: linear-gradient(
+			90deg,
+			rgba(37, 121, 191, 1) 0%,
+			rgba(37, 147, 213, 1) 50%
+		);
+        position: relative;
+        z-index: -2;
+
+        &-ttl {
+            padding-top: 100px;
+            text-align: center;
+            @include font-line(10,20);
+            font-family: century-gothic, sans-serif;
+            letter-spacing: 1em;
+            font-weight: 400;
+            color:#fff;
+        }
+    
+        &-sub1 {
+            @include font-line(30,48);
+            text-align: center;
+            font-family: yu-mincho-pr6n, sans-serif;
+            font-weight: 500;
+            color:#fff;
+        }
+        &-sub2 {
+            @include font-line(13,26);
+            font-weight: 500;
+            font-family:cross-platform-yu-gothic;
+            text-align: center;
+            color:#fff;
+        }
+
+        .section_1-cntnt-cards-card {
+            position: relative;
+
+            &-img {
+               
+
+                &-img-bdg {
+                    position: absolute;
+                    top: 6px;
+                    left: 6px;
+                    padding: 2px;
+                    background: linear-gradient( 
+                    90deg, rgba(37, 121, 191, 1) 0%,
+                     rgba(37, 147, 213, 1) 50% );
+                    width: 40px;
+                    height: 40px;
+                    align-items: center;
+    
+                    p {
+                       border-top:1px solid #fff;
+                       border-right: 1px solid #fff; 
+                       font-weight: 700;
+                       padding:7px 10px;
+                       color:#fff;
+                       @include font-line(12.5);
+                    }
+                }
+            }
+
+            &-text {
+                text-align: center;
+                color: #fff;
+
+                &-ttl {
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-family: cross-platform-yu-gothic;
+                    font-weight: 700;
+                }
+
+                &-sub {
+                    font-size: 11px;
+                    line-height: 16px;
+                    font-family: cross-platform-yu-gothic;
+                    font-weight: 500;
+                    padding-top: 14px;
+                }
+            }
+
+        }
+
+        .sec1-bg1 {
+            position: absolute;
+            right: 9%;
+            top: 0;
+            z-index: -1;          
+        }
+
+    }
+    
+    // SECTION 2
+    .section_2 {
+
+    }
+
+
+    // SECTION 3
+
+    .section_3 {
+    
+    }
+}

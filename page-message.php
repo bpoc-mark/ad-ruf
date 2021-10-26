@@ -78,11 +78,11 @@ get_header();?>
                 </div>
                 <div class="u-d-f u-w-640">
                     <div class="c-buttonCase">
-                        <p class="txt">不動産売買の特徴を見る</p>
+                        <p class="txt">ルーフの事業内容を見る</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
                     <div class="c-buttonCase">
-                        <p class="txt">不動産管理の特徴を見る</p>
+                        <p class="txt">代表インタビューを見る</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
                 </div>

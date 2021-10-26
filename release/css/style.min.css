@@ -611,6 +611,19 @@ template{display:none}
 .u-pl-011em{padding-left:11em !important}
 .u-w-390{width:390px !important}
 .u-w-640{width:640px !important;margin:0 auto}
+.about{position:relative}
+.about .l-wrap{position:relative}
+.about .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);position:relative;z-index:-2}
+.about .section_1-ttl{padding-top:100px;text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:1em;font-weight:400;color:#fff}
+.about .section_1-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;color:#fff}
+.about .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:cross-platform-yu-gothic;text-align:center;color:#fff}
+.about .section_1 .section_1-cntnt-cards-card{position:relative}
+.about .section_1 .section_1-cntnt-cards-card-img-img-bdg{position:absolute;top:6px;left:6px;padding:2px;background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);width:40px;height:40px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.about .section_1 .section_1-cntnt-cards-card-img-img-bdg p{border-top:1px solid #fff;border-right:1px solid #fff;font-weight:700;padding:7px 10px;color:#fff;font-size:.78125rem}
+.about .section_1 .section_1-cntnt-cards-card-text{text-align:center;color:#fff}
+.about .section_1 .section_1-cntnt-cards-card-text-ttl{font-size:14px;line-height:21px;font-family:cross-platform-yu-gothic;font-weight:700}
+.about .section_1 .section_1-cntnt-cards-card-text-sub{font-size:11px;line-height:16px;font-family:cross-platform-yu-gothic;font-weight:500;padding-top:14px}
+.about .section_1 .sec1-bg1{position:absolute;right:9%;top:0;z-index:-1}
 .case .clipbg_wrap:nth-child(odd){background-color:#fff}
 .case .clipbg_wrap:nth-child(even){background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
 .case .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding:190px 0 0 0;text-align:center}
