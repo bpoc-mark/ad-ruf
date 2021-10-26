@@ -1,5 +1,43 @@
 .case08 {
-	&--ttl {
-		letter-spacing: 0.2em;
+	&--s1 {
+		padding-top: 70px !important;
+
+		@include is-sp {
+
+			&_ttl {
+				font-size: .75rem !important;
+			}
+
+			&_title {
+				letter-spacing: 0.2em;
+				@include font-line(25);
+			}
+
+			&_sub {
+				@include font-line(14);
+			}
+
+			&_hide {
+				display: none !important;
+			}
+
+			.pt65 {
+				padding-top: 65px;
+			}
+			
+			.pt160 {
+				padding-top: 160px;
+			}
+			
+		}
+
+	}
+
+	&--bg-01 {
+		position: absolute;
+		left: 0;
+		width: 290px;
+		bottom: -65px;
+		z-index: -1;
 	}
 }

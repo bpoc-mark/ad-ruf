@@ -577,7 +577,8 @@ template{display:none}
 .case .section_3{padding-top:100px}
 .case .section_3 .l-wrap{position:relative}
 .case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px}
-.case08--ttl{letter-spacing:.2em}
+.case08--s1{padding-top:70px !important}
+.case08--bg-01{position:absolute;left:0;width:290px;bottom:-65px;z-index:-1}
 .sect_1{position:relative}
 .sect_1 .l-wrap{text-align:center}
 .sect_1__clipbg--top{height:100px;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);-webkit-clip-path:polygon(0 95%,100% 0,100% 100%,0 100%);clip-path:polygon(0 95%,100% 0,100% 100%,0 100%)}
@@ -1113,6 +1114,12 @@ template{display:none}
 .case .section_2 .photos{padding:50px 30px}
 .case .section_2 .photos img{width:calc(100% / 2)}
 .case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px}
+.case08--s1_ttl{font-size:.75rem !important}
+.case08--s1_title{letter-spacing:.2em;font-size:1.5625rem}
+.case08--s1_sub{font-size:.875rem}
+.case08--s1_hide{display:none !important}
+.case08--s1 .pt65{padding-top:65px}
+.case08--s1 .pt160{padding-top:160px}
 }@media only screen and (max-width:375px){.sect_1__header{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}

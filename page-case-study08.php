@@ -3,15 +3,15 @@
 $imagedir = get_template_directory_uri();
 
 ?>
-<div class="page__content case">
+<div class="page__content case case08">
     <div class="c-clipbg__CS"></div>
-    <div class="section_1">
+    <div class="section_1 case08--s1">
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
-            <p class="section_1__ttl">Case Studies</p>
-            <h1 class="c-case01__title case08--ttl">コンクリ打ちっ放しのデザインを活かした外観リフォームを <br>
-                実施し賃料アップと満室稼働に成功した事例。</h1>
-            <p class="c-case01__sub">2000年竣工、5階建、鉄筋コンクリート</p>
+            <p class="section_1__ttl case08--s1_ttl">Case Studies</p>
+            <h1 class="c-case01__title case08--s1_title">コンクリ打ちっ放しのデザインを<br>活かした外観リフォームを <br>
+                実施し賃料アップと<br>満室稼働に成功した事例。</h1>
+            <p class="c-case01__sub case08--s1_sub">2000年竣工、5階建、鉄筋コンクリート</p>
         </div>
         <!-- //CONTENT 1 -->
         <div class="c-case--items">
@@ -46,14 +46,14 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
             </div>
-            <div class="c-clipbg__CS white_bg"></div>
         </div>
 
         <!-- //CONTENT 2 -->
         <div class="c-case--items">
+        <div class="c-clipbg__CS2"></div>
             <div class="l-wrap">
-                <img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
-                <div class="c-case--items__contents">
+                <img class="bg_2 case08--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+                <div class="c-case--items__contents  pt65">
                     <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
                     <div class="c-case--items__contents--row_1">
                         <div class="img-1">
@@ -91,8 +91,8 @@ $imagedir = get_template_directory_uri();
         <!-- //CONTENT 3 -->
         <div class="c-case--items">
             <div class="l-wrap">
-                <img class="bg_5" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
-                <div class="c-case--items__contents">
+                <img class="bg_5 " src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
+                <div class="c-case--items__contents pt160">
                     <div class="c-case--items__contents--row_1">
                         <div class="img-1">
                             <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img5.png" alt="">
@@ -128,7 +128,7 @@ $imagedir = get_template_directory_uri();
         <div class="c-case--items">
             <div class="c-clipbg__CS2"></div>
             <div class="l-wrap">
-                <img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+                <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
                 <div class="c-case--items__contents">
                     <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
                     <div class="c-case--items__contents--row_1">
