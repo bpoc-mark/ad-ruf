@@ -38,56 +38,56 @@
             text-align: center;
             color:#fff;
         }
+        &-cntnt {
 
-        .section_1-cntnt-cards-card {
-            position: relative;
-
-            &-img {
-               
-
-                &-img-bdg {
-                    position: absolute;
-                    top: 6px;
-                    left: 6px;
-                    padding: 2px;
-                    background: linear-gradient( 
-                    90deg, rgba(37, 121, 191, 1) 0%,
-                     rgba(37, 147, 213, 1) 50% );
-                    width: 40px;
-                    height: 40px;
-                    align-items: center;
+            .cards-card {
+                width: 220px;
     
-                    p {
-                       border-top:1px solid #fff;
-                       border-right: 1px solid #fff; 
-                       font-weight: 700;
-                       padding:7px 10px;
-                       color:#fff;
-                       @include font-line(12.5);
+                &-img {
+                   position: relative;
+    
+                    &-bdg {
+                        position: absolute;
+                        top: 6px;
+                        left: 6px;
+                        padding: 2px;
+                        width: 40px;
+                        height: 40px;
+                        background: linear-gradient(#2579BF, #2593D5);
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        font-weight: 700;
+        
+                        p {
+                            border-top: 1px solid #fff;
+                            border-right: 1px solid #fff;
+                            padding: 4px 8px;
+                        }
                     }
                 }
-            }
-
-            &-text {
-                text-align: center;
-                color: #fff;
-
-                &-ttl {
-                    font-size: 14px;
-                    line-height: 21px;
-                    font-family: cross-platform-yu-gothic;
-                    font-weight: 700;
+    
+                &-text {
+                    text-align: center;
+                    color: #fff;
+    
+                    &-ttl {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 21px;
+                        font-family: cross-platform-yu-gothic;
+                        margin-bottom: 14px;
+                    }
+    
+                    &-sub {
+                        font-size: 11px;
+                        line-height: 16px;
+                        font-weight: 500;
+                        font-family: cross-platform-yu-gothic;
+                    }
                 }
-
-                &-sub {
-                    font-size: 11px;
-                    line-height: 16px;
-                    font-family: cross-platform-yu-gothic;
-                    font-weight: 500;
-                    padding-top: 14px;
-                }
+    
             }
-
         }
 
         .sec1-bg1 {
