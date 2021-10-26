@@ -82,7 +82,7 @@ template{display:none}
 .c-buttonSns--fb{background:#3e63b3}
 .c-buttonSns--l{font-size:1.375rem;line-height:1;height:40px;width:40px}
 .c-buttonSns--m{font-size:1.125rem;line-height:1;height:26px;width:26px}
-.c-buttonCase{border:1px solid #81b3d4;border-radius:30px;width:290px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}
+.c-buttonCase{border:1px solid #81b3d4;border-radius:30px;width:290px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;background-color:#fff;z-index:777}
 .c-buttonCase .txt{text-align:center;font-family:cross-platform-yu-gothic;font-weight:700;padding:20px 0;line-height:1;font-size:.875rem}
 .c-buttonCase img{width:5px;height:10px;position:absolute;right:20px}
 .c-card01{display:block;background-color:white;position:relative;margin:20px auto;padding:2%}
@@ -595,6 +595,7 @@ template{display:none}
 .u-pl-09em{padding-left:9em !important}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
+.u-w-390{width:390px}
 .case .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding:190px 0 100px 0;text-align:center}
 .case .section_1 .l-wrap{position:relative}
 .case .section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
@@ -605,7 +606,8 @@ template{display:none}
 .case .section_3{padding-top:100px}
 .case .section_3 .l-wrap{position:relative}
 .case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px}
-.interview{background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);color:#fff;position:relative}
+.interview{position:relative}
+.interview .section_1{color:#fff;background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5)}
 .interview .section_1 .l-wrap{position:relative}
 .interview .section_1 .l-wrap .bg-1{position:absolute;right:5%}
 .interview .section_1-ttl{padding-top:100px;text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:1em;font-weight:400}
@@ -623,13 +625,43 @@ template{display:none}
 .interview .section_1 .section_1-cntnt-1-biography-cntnt-txt{margin-left:18px}
 .interview .section_1-img{position:absolute;bottom:0;right:5%}
 .interview .section_1 .bg-2{position:absolute;top:140px}
-.interview .section_2{background-color:#fff;padding:100px 0 80px 0}
-.interview .section_2-cntnt{position:relative}
-.interview .section_2-cntnt-rows{margin-bottom:53px}
+.interview .section_2{padding:100px 30px 100px 30px;position:relative}
+.interview .section_2-cntnt-rows{margin-bottom:60px}
 .interview .section_2-cntnt-rows-2{width:390px}
 .interview .section_2-cntnt-rows-2-hdr{font-size:1.625rem;line-height:1.4230769231;font-family:500;font-family:yu-mincho-pr6n,sans-serif;color:#258acf}
 .interview .section_2-cntnt-rows-2-txt1{font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;color:#95c6e7;padding:23px 0 18px 0}
 .interview .section_2-cntnt-rows-2-txt2{font-family:cross-platform-yu-gothic;font-size:.75rem;line-height:2.0833333333;font-weight:500;color:#333}
+.interview .section_2-cntnt-btns{width:640px;margin:0 auto}
+.interview .section_2 .sec2-bg1{position:absolute;top:18%;right:7%;z-index:-1}
+.interview .section_2 .sec2-bg2{position:absolute;bottom:0;right:8%;z-index:-1}
+.interview .section_3{padding:100px 30px 100px 30px;position:relative;z-index:-2;background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
+.interview .section_3-cntnt-rows{margin-bottom:60px;color:#fff}
+.interview .section_3-cntnt-rows-1{width:390px}
+.interview .section_3-cntnt-rows-1-hdr{font-size:1.625rem;line-height:1.4230769231;font-family:500;font-family:yu-mincho-pr6n,sans-serif}
+.interview .section_3-cntnt-rows-1-txt1{font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;padding:23px 0 18px 0}
+.interview .section_3-cntnt-rows-1-txt2{font-family:cross-platform-yu-gothic;font-size:.75rem;line-height:2.0833333333;font-weight:500}
+.interview .section_3-cntnt-btns{width:640px;margin:0 auto}
+.interview .section_3 .sec3-bg1{position:absolute;top:5%;right:32%;z-index:-1}
+.interview .section_3 .sec3-bg2{position:absolute;bottom:28%;left:6%;z-index:-1}
+.message{position:relative}
+.message .l-wrap{position:relative}
+.message .section_1{background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5)}
+.message .section_1-ttl{padding-top:100px;text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:1em;font-weight:400;color:#fff}
+.message .section_1-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;color:#fff}
+.message .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:cross-platform-yu-gothic;text-align:center;color:#fff}
+.message .section_1-cntnt{padding:60px 0 60px 0}
+.message .section_1-cntnt-rows{margin-bottom:60px}
+.message .section_1-cntnt-rows-1-txt{color:#fff;font-family:cross-platform-yu-gothic;font-size:.8125rem;line-height:2;font-weight:500}
+.message .section_1-cntnt-btns{width:640px;margin:0 auto}
+.message .section_1 .sec1-bg1{position:absolute;top:0;right:9%}
+.message .section_1 .sec1-bg2{position:absolute;top:57%;left:-6%}
+.message .section_1 .sec1-bg3{position:absolute;bottom:1%;right:1%}
+.message .section_2 .l-wrap{position:relative}
+.message .section_2 .l-wrap .sec1-bg1{position:absolute;right:6%;top:0}
+.message .section_2 .l-wrap .sec2-bg2{position:absolute;left:-2%;bottom:39%;z-index:-1}
+.message .section_2 .l-wrap .sec2-bg3{position:absolute;bottom:10%;right:8%}
+.message .section_2-rows{padding:98px 0 100px 0}
+.message .section_2-rows-2-txt{font-family:cross-platform-yu-gothic;font-size:.8125rem;line-height:2;font-weight:500}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}

@@ -353,6 +353,8 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	background-color: #fff;
+	z-index: 777;
 
 	@include is-sp {
 		width: 100%;

@@ -1,0 +1,113 @@
+
+.message {
+    position: relative;
+    // padding-bottom: 150px;
+
+    .l-wrap {
+        position: relative;
+    }
+    .section_1 {
+        background: linear-gradient(#2579BF, #2593D5);
+
+        &-ttl {
+            padding-top: 100px;
+            text-align: center;
+            @include font-line(10,20);
+            font-family: century-gothic, sans-serif;
+            letter-spacing: 1em;
+            font-weight: 400;
+            color:#fff;
+        }
+    
+        &-sub1 {
+            @include font-line(30,48);
+            text-align: center;
+            font-family: yu-mincho-pr6n, sans-serif;
+            font-weight: 500;
+            color:#fff;
+        }
+        &-sub2 {
+            @include font-line(13,26);
+            font-weight: 500;
+            font-family:cross-platform-yu-gothic;
+            text-align: center;
+            color:#fff;
+        }
+
+        &-cntnt {
+          padding:60px 0 60px 0;
+            &-rows {
+                margin-bottom: 60px;
+
+
+                &-1-txt {
+                    color: #fff;
+                    font-family:cross-platform-yu-gothic;
+                    @include font-line(13,26);
+                    font-weight: 500;
+                }
+            
+           }  
+           &-btns {
+            width: 640px;
+            margin:0 auto;
+        }
+        }
+
+        .sec1-bg1 {
+            position: absolute;
+            top: 0;
+            right: 9%;
+          
+        }
+
+        .sec1-bg2 {
+            position: absolute;
+            top: 57%;
+            left: -6%;
+                   
+        }
+        .sec1-bg3 {
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+    }
+
+    .section_2 {
+
+        .l-wrap {
+            position: relative;
+
+            .sec1-bg1 {
+                position: absolute;
+                right: 6%;
+                top: 0%;
+              
+            }
+    
+            .sec2-bg2 {
+                position: absolute;
+                left: -2%;
+                bottom: 39%;
+                z-index: -1;
+                       
+            }
+            .sec2-bg3 {
+                position: absolute;
+                bottom: 10%;
+                right: 8%;
+            }
+        }
+        
+        &-rows {
+            padding:98px 0 100px 0;
+
+            &-2-txt {
+                font-family:cross-platform-yu-gothic;
+                @include font-line(13,26);
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,11 +1,13 @@
 
 .interview {
-    background: linear-gradient(#2579BF, #2593D5);
-    color: #fff;
+  
+    // color: #fff;
     position: relative;
 
 
     .section_1 {
+        color:#fff;
+        background: linear-gradient(#2579BF, #2593D5);
 
         .l-wrap {
             position: relative;
@@ -106,50 +108,127 @@
     }
 
     .section_2 {
-       background-color: #fff;
-       padding:100px 0 80px 0;
+    //    background-color: #fff;
+       padding:100px 30px 100px 30px;
+       position: relative;
 
-       &-cntnt {
-        //    padding:100px 0 80px 0;
-           position: relative;
+        &-cntnt {
+          
+            &-rows {
+                margin-bottom: 60px;
 
-           &-rows {
-            // background-image: url(../../release/image/page/interview/sec2-bg.png);
-            // background-position: center;
-            // background-size: cover;
-            margin-bottom: 53px;
+                &-1 {
 
-            &-1 {
-
-            }
-
-            &-2 {
-                width: 390px;
-
-                &-hdr {
-                    @include font-line(26,37);
-                    font-family: 500;
-                    font-family: yu-mincho-pr6n, sans-serif;
-                    color: #258ACF;
-                    
                 }
 
-                &-txt1 {
-                    @include font-line(10,20);
-                    font-family: century-gothic, sans-serif;
-                    color: #95C6E7;
-                    padding:23px 0 18px 0;
-                }
+                &-2 {
+                    width: 390px;
 
-                &-txt2 {
-                    font-family:cross-platform-yu-gothic;
-                    @include font-line(12,25);
-                    font-weight: 500;
-                    color: #333;
+                    &-hdr {
+                        @include font-line(26,37);
+                        font-family: 500;
+                        font-family: yu-mincho-pr6n, sans-serif;
+                        color: #258ACF;
+                        
+                    }
+
+                    &-txt1 {
+                        @include font-line(10,20);
+                        font-family: century-gothic, sans-serif;
+                        color: #95C6E7;
+                        padding:23px 0 18px 0;
+                    }
+
+                    &-txt2 {
+                        font-family:cross-platform-yu-gothic;
+                        @include font-line(12,25);
+                        font-weight: 500;
+                        color: #333;
+                    }
                 }
-            }
+           }  
+
+           &-btns {
+               width: 640px;
+               margin:0 auto;
            }
-       }
+        }
+
+        .sec2-bg1 {
+            position: absolute;
+            top: 18%;
+            right: 7%;
+            z-index: -1;      
+        }
+
+        .sec2-bg2 {
+            position: absolute;
+            bottom: 0;
+            right: 8%;  
+            z-index: -1;           
+        }
+    }
+
+
+
+    .section_3 {
+        padding:100px 30px 100px 30px;
+        position: relative;
+        z-index: -2;
+        background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+    
+            &-cntnt {
+              
+
+                &-rows {
+                    margin-bottom: 60px;
+                    color:#fff;
+
+                    &-1 {
+                        width: 390px;
+    
+                        &-hdr {
+                            @include font-line(26,37);
+                            font-family: 500;
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            
+                            
+                        }
+    
+                        &-txt1 {
+                            @include font-line(10,20);
+                            font-family: century-gothic, sans-serif;
+                            
+                            padding:23px 0 18px 0;
+                        }
+    
+                        &-txt2 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(12,25);
+                            font-weight: 500;
+                        
+                        }
+                    }
+               }  
+                &-btns {
+                    width: 640px;
+                    margin:0 auto;
+                }
+            }
+    
+            .sec3-bg1 {
+                position: absolute;
+                top: 5%;
+                right: 32%;  
+                z-index: -1;  
+            }
+    
+            .sec3-bg2 {
+                position: absolute;
+                bottom: 28%;
+                left: 6%;  
+                z-index: -1;         
+            }
     }
    
 }
