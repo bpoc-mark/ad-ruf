@@ -57,7 +57,7 @@
 		&:nth-of-type(odd) {
 			background-color: #fff;
 			position: relative;
-			padding: 100px 0;
+			// padding: 100px 0;
 
 			@include is-sp {
 				padding: 75px 0 0 0;
