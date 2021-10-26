@@ -481,12 +481,13 @@
                             ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
-                    <div class="sect_8__btn--wrap">
+                </div>
+                
+                <div class="sect_8__btn--wrap">
                         <a href="#" class="btn icon_left">収益不動産の買取について</a>
 
                         <a href="#" class="btn icon_right">収益不動産の買取について</a>
                     </div>
-                </div>
             </div>
 
         </div>
