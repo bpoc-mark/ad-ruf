@@ -4,8 +4,10 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case case08">
-    <div class="c-clipbg__CS"></div>
     <div class="section_1 case08--s1">
+        <!-- //CLIP -->
+		<div class="clip-top"></div>
+		<div class="c-clipbg__CS"></div>
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl case08--s1_ttl">Case Studies</p>
@@ -53,7 +55,7 @@ $imagedir = get_template_directory_uri();
         <div class="c-clipbg__CS2"></div>
             <div class="l-wrap">
                 <img class="bg_2 case08--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
-                <div class="c-case--items__contents  pt65">
+                <div class="c-case--items__contents">
                     <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
                     <div class="c-case--items__contents--row_1">
                         <div class="img-1">
@@ -91,8 +93,8 @@ $imagedir = get_template_directory_uri();
         <!-- //CONTENT 3 -->
         <div class="c-case--items">
             <div class="l-wrap">
-                <img class="bg_5 " src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
-                <div class="c-case--items__contents pt160">
+                <img class="bg_5 l15" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
+                <div class="c-case--items__contents">
                     <div class="c-case--items__contents--row_1">
                         <div class="img-1">
                             <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img5.png" alt="">
@@ -125,8 +127,8 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
         <!-- //CONTENT 4 -->
-        <div class="c-case--items">
-            <div class="c-clipbg__CS2"></div>
+        <div class="c-case--items case08--s1_c4">
+            <!-- <div class="c-clipbg__CS2"></div> -->
             <div class="l-wrap">
                 <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
                 <div class="c-case--items__contents">
@@ -164,7 +166,7 @@ $imagedir = get_template_directory_uri();
         </div>
     </div>
 
-    <div class="section_2">
+    <div class="section_2  case08--s2">
         <div class="l-wrap">
             <div class="c-case02__txt">
                 <p class="c-case02__txt__ttl">Other photos</p>
