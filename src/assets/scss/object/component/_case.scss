@@ -43,24 +43,28 @@
 
 	&--items {
 		position: relative;
+		padding-top: 100px;
 
-		&:not(:first-child) {
+		&:first-child {
 			@include is-sp {
-				// padding-top: 75px;
+				padding-top: 75px;
 			}
 		}
 
-		&:nth-of-type(2) {
+
+		&:nth-of-type(4) {
 			padding-top: 0;
 		}
 
 		&:nth-of-type(odd) {
 			background-color: #fff;
 			position: relative;
-			// padding: 100px 0;
+			padding: 100px 0;
+			-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+			clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
 
 			@include is-sp {
-				// padding: 75px 0 0 0;
+				padding: 200px 0 100px 0;
 			}
 
 			.bg_2 {
