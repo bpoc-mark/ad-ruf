@@ -1,11 +1,23 @@
 .case {
+	.clipbg_wrap{
+		&:nth-child(odd){
+			background-color: #fff;
+		}
+		&:nth-child(even){
+			background: linear-gradient(
+			90deg,
+			rgba(37, 121, 191, 1) 0%,
+			rgba(37, 147, 213, 1) 50%
+		);
+		}
+	}
 	.section_1 {
 		background: linear-gradient(
 			90deg,
 			rgba(37, 121, 191, 1) 0%,
 			rgba(37, 147, 213, 1) 50%
 		);
-		padding: 190px 0 100px 0;
+		padding: 190px 0 0 0;
 		text-align: center;
 
 		.l-wrap {
