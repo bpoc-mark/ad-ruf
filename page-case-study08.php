@@ -6,8 +6,8 @@ $imagedir = get_template_directory_uri();
 <div class="page__content case case08">
     <div class="section_1 case08--s1">
         <!-- //CLIP -->
-		<div class="clip-top"></div>
-		<div class="c-clipbg__CS"></div>
+        <div class="clip-top"></div>
+        <div class="c-clipbg__CS"></div>
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl case08--s1_ttl">Case Studies</p>
@@ -52,7 +52,7 @@ $imagedir = get_template_directory_uri();
 
         <!-- //CONTENT 2 -->
         <div class="c-case--items">
-        <div class="c-clipbg__CS2"></div>
+            <div class="c-clipbg__CS2"></div>
             <div class="l-wrap">
                 <img class="bg_2 case08--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
                 <div class="c-case--items__contents">
@@ -91,7 +91,7 @@ $imagedir = get_template_directory_uri();
             <div class="c-clipbg__CS"></div>
         </div>
         <!-- //CONTENT 3 -->
-        <div class="c-case--items">
+        <div class="c-case--items u-pt-0">
             <div class="l-wrap">
                 <img class="bg_5 l15" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
                 <div class="c-case--items__contents">
@@ -175,15 +175,15 @@ $imagedir = get_template_directory_uri();
                     クリックしていただくと拡大されます。</p>
             </div>
             <div class="photos">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img1.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img2.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img3.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img4.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img5.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img6.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img7.png" alt="">
-            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img8.png" alt="">
-               
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img1.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img2.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img3.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img4.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img5.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img6.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img7.png" alt="">
+                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-img8.png" alt="">
+
             </div>
 
             <div class="c-buttonCase">
