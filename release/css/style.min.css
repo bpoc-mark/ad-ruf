@@ -902,7 +902,7 @@ template{display:none}
 .c-case01__title br{display:block}
 .c-case01__sub{letter-spacing:unset;padding:0 0 60px 0}
 .c-case--items:first-child{padding-top:75px}
-.c-case--items:nth-of-type(odd){padding:200px 0 100px 0}
+.c-case--items:nth-of-type(odd){padding:200px 0 100px 0;-webkit-clip-path:polygon(0 7%,100% 0,100% 93%,0 100%);clip-path:polygon(0 7%,100% 0,100% 93%,0 100%)}
 .c-case--items:nth-of-type(odd) .bg_2{width:38.67%;top:-50px;left:20px}
 .c-case--items:nth-of-type(odd) .bg_7{display:none}
 .c-case--items:nth-of-type(odd) .c-case--items__contents--row_2{padding:25px 0 0 0}
