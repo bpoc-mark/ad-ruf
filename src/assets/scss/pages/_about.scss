@@ -227,6 +227,84 @@
     // SECTION 3
 
     .section_3 {
+        padding: 124px 0 98px 0;
+        .cards{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            .cards-card {
+                width: 310px;
     
+                &-img{
+                    position: relative;
+    
+                    &-txt {
+                        position: absolute;
+                        top: 39%;
+                        left: 7%;
+    
+                        &-ttl {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            font-size: 18px;
+                            color: #fff;
+    
+                            p {
+                                line-height: 25px;
+                                font-weight: 500;
+                                letter-spacing: 0.3em;
+                                
+                            }
+                        }
+    
+                        &-sub {
+                            font-family: century-gothic, sans-serif;
+                            color: #fff;
+    
+                            p {
+                                font-size: 8px;
+                                line-height: 12px;
+                                letter-spacing: 0.26em;
+                            }
+                        }
+                    }
+    
+                    &-lnk {
+                        position: absolute;
+                        bottom: 1.5%;
+                        right: 0%;
+                        a {
+                            font-size: 10px;
+                            letter-spacing: 0.26em;
+                            line-height: 12px;
+                            color: #fff;
+                            padding: 3px 20px 3px 15px;
+                            background: linear-gradient( 
+                                90deg, rgba(2,82,133,0.9) -17%, rgba(25,64,96,0.7) 83%);
+                        }
+                    }
+                }
+    
+                &-desc {
+                    border: 1px solid #808080;
+                    text-align: center;
+                    padding: 25px 0 18px 0;
+    
+                    &-ttl {
+                        font-size: 14px;
+                        line-height: 21px;
+                        font-weight: 700;
+                        color: #1F86CB;
+                    }
+    
+                    &-txt {
+                        font-size: 11px;
+                        color: #808080;
+                        line-height: 16px;
+                        font-weight: 500;
+                        paddingd-top: 13px;
+                    }
+                }
+            }
+        }
     }
 }
