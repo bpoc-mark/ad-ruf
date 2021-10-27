@@ -142,6 +142,7 @@ get_header();?>
 
     <div class="section_3">
         <div class="l-wrap">
+            <img class="bg-2" src="<?php echo get_template_directory_uri();?>/release/image/page/about/sec3-img1.png" alt="">
             <div class="c-case02__txt">
 				<p class="c-case02__txt__ttl">About Us</p>
 				<p class="c-case02__txt__sub">企業情報</p>

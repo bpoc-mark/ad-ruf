@@ -228,10 +228,13 @@
 
     .section_3 {
         padding: 124px 0 98px 0;
+
         .cards{
             flex-wrap: wrap;
             justify-content: space-between;
             gap: 20px;
+            padding-top: 70px;
+
             .cards-card {
                 width: 310px;
     

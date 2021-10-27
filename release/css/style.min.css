@@ -645,7 +645,7 @@ template{display:none}
 .about .section_2 .bg-1{position:absolute;top:-30%;right:32%}
 .about .section_2 .bg-2{position:absolute;bottom:-27%;left:0}
 .about .section_3{padding:124px 0 98px 0}
-.about .section_3 .cards{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:20px}
+.about .section_3 .cards{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:20px;padding-top:70px}
 .about .section_3 .cards .cards-card{width:310px}
 .about .section_3 .cards .cards-card-img{position:relative}
 .about .section_3 .cards .cards-card-img-txt{position:absolute;top:39%;left:7%}
