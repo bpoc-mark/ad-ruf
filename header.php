@@ -19,96 +19,76 @@
     
 <main>
     <div class="page__header">
-       <div class="home">  
-            <div class="home-cols">
-
-                <div class="home-cols-col1">
-
-                    <div class="home-cols-col1-brand-logo">
-                         <a href="">
-                             <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo.svg" alt="">
-                             <p>丸の内 株式会社ルーフ </p>
-                         </a>
-                    </div>
-
-                    <div class="home-cols-col1-links">
-                        <div class="home-cols-col1-links-ul">
-                            <div class="home-col-col1-links-ul-cmpny-pro">
-                                <a href="">会社概要　/  プライバシーポリシー</a>
-                            </div>
-                            <div class="home-cols-col1-links-ul-dd">
-
-                                 <div class="home-cols-col1-links-ul-dd-menu">
-                                     <a href="">TOP</a>
-                                 </div>
-                                 <div class="home-cols-col1-links-ul-dd-menu">
-                                     <a href="">事業内容</a>
-                                 </div>
-                                 <div class="home-cols-col1-links-ul-dd-menu">
-                                     <a href="">企業情報</a>
-                                 </div>
-                                 <div class="home-cols-col1-links-ul-dd-menu">
-                                     <a href="">バリューアップ事例</a>
-                                 </div>
-                                 <div class="home-cols-col1-links-ul-dd-menu">
-                                     <a href="">不動産コラム</a>
-                                 </div>
-                            </div>
-                        </div>
-                        <div class="home-cols-col1-links-mail">
-                            <a href="">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/header/mail.svg" alt="">
-                                <p>お問い合わせ・<br>
-                                ご相談</p>
-                            </a>
-                        </div>
-                    </div>
+        <div class="top-header">
+            <div class="top-header-nav u-d-f u-jc-sb">
+                <div class="brnd-logo">
+                    <a class="brnd-logo-link u-d-f u-jc-sb" href="">
+                        <img class="logo" src="<?php echo get_template_directory_uri();?>/release/image/header/logo.svg" alt="">
+                        <p>丸の内 株式会社ルーフ </p>
+                    </a>
                 </div>
 
-                <div class="home-cols-col2">
-                    
-                    <div class="bnnr-hdr u-d-f">
-                        <div class="home-cols-col2-cntnt01">
-                            <div class="home-cols-col2-cntnt01-img">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo2.svg" alt="">
-                            </div>
-                            <div class="home-cols-col2-cntnt01-txt">
-                                <p>丸の内株式会社ルーフ</p>
-                            </div>
-                        </div>  
-                        <div class="home-cols-col2-cntnt02">
-                            <div class="home-cols-col2-cntnt02-hdr">
-                                <p>
-                                    選ばれし方々に選ばれ、
-                                    <br>
-                                    そして選ばれ続ける
-                                </p>
-                                <p>
-                                    Chosen by the chosen people,and continues to be chosen
-                                </p>
-                            </div>
-                            <div class="home-cols-col2-cntnt02-cont">
-                                <p class="home-cols-col2-cntnt02-cont-01">収益不動産の売買・管理・運用</p>
-                                <p class="home-cols-col2-cntnt02-cont-02">アセットマネジメント</p>
-                            </div>
-                        </div> 
-                    </div>   
-
-                    <div class="home-cols-col2-side">
-                        <div class="home-cols-col2-side-hor">
-                            <p>あなたの不動産</p>
+                <div class="nav-links">
+                    <div class="nav-links-ul">
+                        <div class="nav-links-ul-pro">
+                            <a class="nav-links-ul-pro-link" href="">会社概要　/  プライバシーポリシー</a>
                         </div>
-                        <div class="home-cols-col2-side-ver">
-                            <p>収益を最大化。</p>
+                        <div class="nav-links-ul-02">
+                            <div class="nav-links-ul-02-link">
+                                <a href="">TOP</a>
+                            </div>
+                            <div class="nav-links-ul-02-link">
+                                <a href="">事業内容</a>
+                            </div>
+                            <div class="nav-links-ul-02-link">
+                                <a href="">企業情報</a>
+                            </div>
+                            <div class="nav-links-ul-02-link">
+                                <a href="">バリューアップ事例</a>
+                            </div>
+                            <div class="nav-links-ul-02-link">
+                                <a href="">不動産コラム</a>
+                            </div>
                         </div>
                     </div>
-                
-                </div>
-
-                <div class="home-cols-bg">
-        
+                    <div class="nav-links-mail">
+                        <a class="nav-links-mail-link" href="">
+                            <img class="mail" src="<?php echo get_template_directory_uri();?>/release/image/header/mail.svg" alt="">
+                            <p>お問い合わせ・<br>
+                            ご相談</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-       </div>
+
+            <div class="top-header-bnnr">
+                <div class="top-header-bnnr-hdr u-d-f">
+                    <div class="home-cols-col2-cntnt01">
+                        <div class="home-cols-col2-cntnt01-img">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo2.svg" alt="">
+                        </div>
+                        <div class="home-cols-col2-cntnt01-txt">
+                            <p>丸の内株式会社ルーフ</p>
+                        </div>
+                    </div>  
+                    <div class="home-cols-col2-cntnt02">
+                        <div class="home-cols-col2-cntnt02-hdr">
+                            <p>
+                                選ばれし方々に選ばれ、
+                                <br>
+                                そして選ばれ続ける
+                            </p>
+                            <p>
+                                Chosen by the chosen people,and continues to be chosen
+                            </p>
+                        </div>
+                        <div class="home-cols-col2-cntnt02-cont">
+                            <p class="home-cols-col2-cntnt02-cont-01">収益不動産の売買・管理・運用</p>
+                            <p class="home-cols-col2-cntnt02-cont-02">アセットマネジメント</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
     </div>
     
