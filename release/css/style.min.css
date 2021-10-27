@@ -380,6 +380,7 @@ template{display:none}
 .u-d-ib{display:inline-block !important}
 .u-d-n{display:none !important}
 .u-d-f{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important}
+.u-d-f-jcc{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .u-m-c{margin-right:auto !important;margin-left:auto !important}
 .u-my-0{margin-top:0 !important;margin-bottom:0 !important}
 .u-mx-0{margin-left:0 !important;margin-right:0 !important}
@@ -574,6 +575,10 @@ template{display:none}
 .case .section_3{padding-top:100px}
 .case .section_3 .l-wrap{position:relative}
 .case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px}
+.case08--s1_title{letter-spacing:.18em !important}
+.case08--s2{padding-top:0 !important}
+.case08--bg-01{position:absolute !important;left:0 !important;width:290px !important;bottom:-65px !important;z-index:-1 !important}
+.case08--s1_c4{-webkit-clip-path:polygon(0 15%,100% 0,105% 100%,0 102%) !important;clip-path:polygon(0 15%,100% 0,105% 100%,0 102%) !important}
 .sect_1{position:relative}
 .sect_1 .l-wrap{text-align:center}
 .sect_1__clipbg--top{height:100px;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);-webkit-clip-path:polygon(0 95%,100% 0,100% 100%,0 100%);clip-path:polygon(0 95%,100% 0,100% 100%,0 100%)}
@@ -591,6 +596,31 @@ template{display:none}
 .sect_1__btn--wrap .icon_right::after{position:absolute;content:'';background:url("../image/groupbusiness/arrow_icon.svg") no-repeat center;background-size:cover;width:10px;height:10px;top:23px;right:20px}
 .sect_1__box-sm{position:absolute;top:117px;right:138px}
 .sect_1__box-big{position:absolute;left:0;top:285px}
+.pp__section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding-bottom:100px}
+.pp__section_1 .l-wrap{position:relative}
+.pp__section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
+.pp__title{color:#fff;font-family:cross-platform-yu-gothic;letter-spacing:.2em;padding:20px 8px 30px 8px;font-weight:500;text-align:center;z-index:1;position:relative;font-size:.8125rem;line-height:2}
+.pp__title br{display:none}
+.pp__title br:nth-child(3){display:block}
+.pp__main-content{max-width:1100px;background-color:#fff;margin:0 auto;padding:80px 0 0 0;position:relative;margin-top:20px}
+.pp__main-content--row{padding:0 20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative;padding-bottom:60px}
+.pp__main-content--row .left,.pp__main-content--row .right{width:47%}
+.pp__main-content--row .left .col,.pp__main-content--row .right .col{padding-bottom:60px}
+.pp__main-content--row .left .col--ttl,.pp__main-content--row .right .col--ttl{font-size:1rem;line-height:1.625;font-family:cross-platform-yu-gothic;font-weight:700;letter-spacing:.1em;padding-bottom:10px;border-bottom:1px solid #333}
+.pp__main-content--row .left .col--cont01,.pp__main-content--row .right .col--cont01{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;font-size:.8125rem;line-height:2;font-family:cross-platform-yu-gothic;font-weight:700;letter-spacing:0}
+.pp__main-content--row .left .col--cont01--txt,.pp__main-content--row .right .col--cont01--txt{font-weight:500;color:#000;text-align:justify;padding-left:15px}
+.pp__main-content--row .left .col--cont01--txt:nth-child(2),.pp__main-content--row .right .col--cont01--txt:nth-child(2){padding-top:30px}
+.pp__main-content--row .left .col--cont-info,.pp__main-content--row .right .col--cont-info{margin-top:30px;border:1px solid #000;padding:27px 0 30px 28px}
+.pp__main-content--row .left .col--cont-info p,.pp__main-content--row .right .col--cont-info p{font-size:.8125rem;line-height:2;font-family:cross-platform-yu-gothic;font-weight:500;letter-spacing:.08em;color:#000}
+.pp__main-content--row .left .col:last-child,.pp__main-content--row .right .col:last-child{padding-bottom:0}
+.pp__main-content--row .right{width:50%;padding-left:3%;border-left:1px solid #000}
+.pp__main-content--row .right .col:last-child{padding-bottom:30px}
+.pp__bg_1{position:absolute;top:-62px;right:63px;width:316px}
+.pp__bg_2{position:absolute;top:77px;left:-60px;width:316px}
+.pp .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center}
+.pp--btn{background-color:#fff;margin:0}
+.pp--btn:first-child{margin-right:30px}
+.pp--btn:last-child{margin-left:30px}
 .real_estate_purchase .sect_1{position:relative}
 .real_estate_purchase .sect_1 .l-wrap{text-align:center}
 .real_estate_purchase .sect_1__clipbg--top{height:100px;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);-webkit-clip-path:polygon(0 95%,100% 0,100% 100%,0 100%);clip-path:polygon(0 95%,100% 0,100% 100%,0 100%)}
@@ -791,6 +821,7 @@ template{display:none}
 .u-d-n-pc{display:none !important}
 }@media(max-width:1000px) and (min-width:767px){.sect_1__center{padding:150px 0}
 .real_estate_purchase .sect_1__center{padding:150px 0}
+}@media only screen and (max-width:1100px){.pp__main-content{margin:0 20px}
 }@media only screen and (max-width:1000px){.c-card06{width:48%;padding-bottom:20px;height:auto}
 .c-card06__bottom{min-height:135px;padding:20px 0}
 .c-card07{width:100%;padding:unset;border:0}
@@ -810,6 +841,7 @@ template{display:none}
 .sect_1__btn--wrap .icon_right::after{top:33px}
 .sect_1__box-sm{width:50%;top:70px;right:15px}
 .sect_1__box-big{display:none}
+.pp__bg_2{display:none}
 .real_estate_purchase .sect_1__center{padding:75px 0}
 .real_estate_purchase .sect_1__eng_ttl{font-size:12.5px}
 .real_estate_purchase .sect_1__headers{padding-bottom:15px;font-size:1.5625rem;line-height:1.28}
@@ -1113,6 +1145,30 @@ template{display:none}
 .case .section_2 .photos{padding:50px 30px}
 .case .section_2 .photos img{width:calc(100% / 2)}
 .case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px}
+.case08--s1_ttl{font-size:.75rem !important}
+.case08--s1_title{letter-spacing:.18em !important;font-size:1.5625rem}
+.case08--s1_sub{font-size:.875rem}
+.case08--s1_hide{display:none !important}
+.case08--s1 .l15{left:15px}
+.pp__section_1{padding-bottom:55px}
+.pp__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
+.pp__title{letter-spacing:.2em;padding-top:50px}
+.pp__title br{display:block}
+.pp__main-content{margin:0 20px;padding:50px 0 0 0}
+.pp__main-content .l-wrap{padding-left:0;padding-right:0}
+.pp__main-content--row{padding:0}
+.pp__main-content--row .left,.pp__main-content--row .right{width:100%}
+.pp__main-content--row .left .col--ttl,.pp__main-content--row .right .col--ttl{padding:0 20px 10px;text-align:center}
+.pp__main-content--row .left .col--cont,.pp__main-content--row .right .col--cont{padding:0 20px}
+.pp__main-content--row .left .col--cont-info,.pp__main-content--row .right .col--cont-info{text-align:center;padding:27px 0 30px 0}
+.pp__main-content--row .left .col--cont-info p,.pp__main-content--row .right .col--cont-info p{font-size:.84375rem;line-height:1.9259259259}
+.pp__main-content--row .left .col:last-child,.pp__main-content--row .right .col:last-child{padding-bottom:60px !important}
+.pp__main-content--row .right{width:100%;padding-left:0;border-left:0}
+.pp .clip-top{padding:60px 0 0 0}
+.pp--fd{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.pp--btn:first-child{margin:0}
+.pp--btn:last-child{margin:25px 0 0 0}
+}@media only screen and (max-width:500px){.pp__bg_1{right:10px;width:188px}
 }@media only screen and (max-width:375px){.sect_1__header{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}
