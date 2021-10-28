@@ -1193,9 +1193,15 @@ template{display:none}
 .case08--s1 .l15{left:15px}
 .oe__section_1{padding-bottom:55px}
 .oe__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
-.oe__title{letter-spacing:.2em}
-.oe__sub{letter-spacing:unset;padding:0 0 60px 0}
+.oe__ttl{font-size:.75rem;color:#9fc4e3}
+.oe__title{letter-spacing:.2em;line-height:42px;font-size:1.5625rem}
+.oe__sub{letter-spacing:unset;padding:0 0 60px 0;font-size:.8375rem;padding-bottom:0}
 .oe-main-content .row .col{width:100%}
+.oe-main-content .row .heading01{font-size:1.5625rem}
+.oe-main-content .row .heading02{font-size:.75rem}
+.oe-main-content .row .heading03{font-size:.8375rem}
+.oe__bg_1{top:-68px;right:11px;width:179px}
+.oe__bg_2{display:none}
 .clip-top{padding:60px 0 0 0}
 .pp__section_1{padding-bottom:55px}
 .pp__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}

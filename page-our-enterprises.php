@@ -11,9 +11,9 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="oe__bg_1" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
             <p class="oe__ttl">OUR ENTERPRISES</p>
-            <h1 class="oe__title">丸の内ルーフの4つの 事業紹介</h1>
-            <p class="oe__sub">私たち丸の内ルーフはコンサルティング会社ではありません。<br>
-                自社で収益不動産を所有する「プロのオーナー」として、オーナー様と同じ目線でサービスを提供します。</p>
+            <h1 class="oe__title">丸の内ルーフの<br class="u-d-n-pc">4つの 事業紹介</h1>
+            <p class="oe__sub">私たち丸の内ルーフは<br class="u-d-n-pc">コンサルティング会社ではありません。<br>
+                自社で収益不動産を所有する<br class="u-d-n-pc">「プロのオーナー」として、<br class="u-d-n-pc">オーナー様と同じ目線でサービスを提供します。</p>
         </div>
         <img class="oe__bg_2" src="<?php echo $imagedir ?>/release/image/background/rect_big.png" alt="">
 
