@@ -19,10 +19,170 @@ $imagedir = get_template_directory_uri();
         <div class="c-case--items">
             <div class="l-wrap">
                 <div class="c-case--items__contents">
+
                     <div class="csm--contents">
-                        
+                        <div class="csm--content-row">
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case01.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        築30年の大規模リノベーション<br>
+                                        室内フルリフォームで快適空間
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1988年竣工、4階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case02.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                        
+                                    </div>
+                                    <p class="c-card08__center">
+                                        エントランスのバリューアップ<br>
+                                        住宅地エリアで目を引く存在に
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1993年竣工、4階建、鉄筋コンクリート<br>
+                                        共用部リノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case03.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        境界部分にもアプローチ<br>
+                                        居住者の満足度向上も叶えた事例
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1995年竣工、3階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case04.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        居室部分のリノーベションが好評<br>
+                                        空室率の大幅改善につながった成功例
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1995年竣工、4階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case05.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        オートロック新規設置により<br>
+                                        賃料アップと満室稼働を実現した事例
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1991年竣工、3階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case06.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        大規模リノベーションにより<br>
+                                        収入アップと満室稼働を実現した事例
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1991年竣工、6階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case07.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        築30年の大規模リノベーション<br>
+                                        室内フルリフォームで快適空間
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1988年竣工、4階建、鉄筋コンクリート<br>
+                                        フルリノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="c-card08">
+                                    <div class="c-card08__top">
+                                        <div class="num">
+                                        <p>08</p>
+                                        </div>
+                                        
+                                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case08.png" alt="">
+                                        <a href="#" class="view_more">
+                                            <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
+                                        </a>
+                                    </div>
+                                    <p class="c-card08__center">
+                                        エントランスのバリューアップ<br>
+                                        住宅地エリアで目を引く存在に
+                                    </p>
+                                    <p class="c-card08__bottom">
+                                        1993年竣工、4階建、鉄筋コンクリート<br>
+                                        共用部リノベーション
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="c-clipbg__CS white_bg"></div>
@@ -34,35 +194,8 @@ $imagedir = get_template_directory_uri();
                 <img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
                 <div class="c-case--items__contents">
                     <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
-                    <div class="c-case--items__contents--row_1">
-                        <div class="img-1">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/case_2-img1.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">Before</p>
-                                    <p class="img_box__sub">外観</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-2">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/case_2-img2.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">After</p>
-                                    <p class="img_box__sub">外観</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-case--items__contents--row_2">
-                        <div class="c-case--items__contents--row_2__txt">
-                            <p class="c-case--items__contents--row_2__txt ttl">1995年竣工、4階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub">エントランスの<br>ビフォーアフター</p>
-                            <p class="c-case--items__contents--row_2__txt desc">エントランス周りはタイルやドアを全て交換いたしました。自転車置き場をアップグレードした上で、花壇も整えました。</p>
-                        </div>
-                    </div>
+
                 </div>
-                <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
             </div>
         </div>
 

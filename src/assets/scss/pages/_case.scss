@@ -109,16 +109,24 @@
 			}
 		}
 	}
+
+	
+	.csm--content-row {
+		display: flex;
+		flex-wrap: wrap ;
+		width: 100%;
+		// justify-content: space-between;
+		.col {
+			width: 31.63265306122449%;
+			margin-bottom: 60px;
+			&:nth-child(3n+2) {
+				margin: 0 25px;
+			}
+		}
+		
+	}
 }
 
 // case study main
 
-.csm {
-	.c-case--items:nth-of-type(odd) {
-		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
-	}
 
-	// &--contents {
-
-	// }
-}
