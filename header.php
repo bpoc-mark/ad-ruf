@@ -83,16 +83,21 @@
                             </p>
                         </div>
                         <div class="top-header-bnnr-hdr-02-desc">
-                            <p class="top-header-bnnr-hdr-02-desc-01">収益不動産の売買・管理・運用</p>
-                            <p class="top-header-bnnr-hdr-02-desc-02">アセットマネジメント</p>
+                            <div class="top-header-bnnr-hdr-02-desc-01">
+                                <p class="top-header-bnnr-hdr-02-desc-01-txt">収益不動産の売買・管理・運用</p>
+                            </div>
+                            <div class="top-header-bnnr-hdr-02-desc-02">
+                                <p class="top-header-bnnr-hdr-02-desc-02-txt">アセットマネジメント</p>
+                            </div>
                         </div>
                     </div> 
                 </div>
             </div>
-            <!-- CLIP -->
+              <!-- CLIP -->
             <div class="clip">
-                
+            
             </div>
         </div>
+       
     </div>
     

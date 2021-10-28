@@ -336,12 +336,28 @@
 
             &-desc {
                 margin-top: 20px;
+              
 
                 &-01 {
                     @include font-line(11,15);
                     font-weight: 700;
                     letter-spacing: 0.54em;
                     color:#fff;
+                    position: relative;
+                    
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 12px;
+                        background-color: #fff;
+                    }
+
+                    &-txt {
+                        padding-left: 10px;
+                        margin-bottom: 5px;
+                    }
                 }
 
                 
@@ -350,6 +366,21 @@
                     font-weight: 700;
                     letter-spacing: 0.54em;
                     color:#fff;
+                    position: relative;
+                    margin-bottom: 4px;
+                    
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 12px;
+                        background-color: #fff;
+                    }
+                    
+                    &-txt {
+                        padding-left: 10px;
+                    }
                 }
             }
         }

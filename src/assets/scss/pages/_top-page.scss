@@ -1,0 +1,785 @@
+.top {
+    .l-wrap {
+        position: relative;
+    }
+    .sect_1 {
+        background: linear-gradient(to right, #2579BF,#2593D5);
+        padding:92px 0 138px 0;
+        clip-path: polygon(0 0%, 100% 0%, 100% 91%, 0% 100%);
+        &-hdr {
+            text-align: center;
+
+            &-ttl {
+                font-family: century-gothic, sans-serif;
+
+                &-txt {
+                    @include font-line(10,20);
+                    letter-spacing: 0.32em;
+                    color: #fff;
+                    font-weight: 400;
+                }
+            }
+            &-sub {
+                font-family: yu-mincho-pr6n, sans-serif;
+
+                &-txt {
+                    @include font-line(30,48);
+                    font-weight: 500;
+                    letter-spacing: 0.28em;
+                    color: #fff;
+                }
+            }
+
+            &-desc {
+                font-family:cross-platform-yu-gothic;
+
+                &-txt {
+                    @include font-line(13,26);
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+        }
+
+        &-cntnt {
+            padding-top: 95px;
+
+            &-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-01 {
+                    width: 420px;
+
+                    .col--box {
+                        width: 100%;
+                        height: 345px;
+                        position: relative;
+                
+                        img {
+                            object-fit: cover;
+                            position: absolute;
+                            inset: 0;
+                            height: 100%;
+                            width: 100%;
+                        }
+                
+                        .top-text01 {
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                            color: $color-text03;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .top-text02 {
+                            color: $color-text03;
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 32px;
+                            right: 7px;
+                            -webkit-writing-mode: vertical-lr;
+                            writing-mode: vertical-lr;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .num {
+                            @include font-line(108);
+                            font-family: BebasNeue;
+                            color: #b7d4e4;
+                            position: absolute;
+                            top: 98px;
+                            z-index: 1;
+                            left: 20px;
+                            
+                            
+                        }
+                
+                        .info {
+                            position: absolute;
+                            bottom: 32px;
+                            left: 0;
+                            width: 56%;
+                            background: linear-gradient(100deg, rgba(114,159,223,0.8130602582830007) 0%, rgba(36,77,126,1) 100%);
+                        
+                            padding: 20px 0;
+                            text-align: left;
+                            padding-left: 25px;
+                        
+                
+                            @include is-max(960px) {
+                                padding-left: 20px;
+                            }
+                
+                            @include is-max(930px) {
+                                padding-left: 10px;
+                            }
+                
+                            @include is-max(836px) {
+                                width: 60%;
+                            }
+                
+                
+                            &-ttl {
+                                @include font-line(26);
+                                color: $color-text03;
+                                font-family: yu-mincho-pr6n, sans-serif;
+                                letter-spacing: 0.03em;
+                                line-height: 1;
+                                padding-bottom: 7px;
+                
+                                @include is-max(900px) {
+                                    @include font-line(22);
+                                }
+                            }
+                
+                            &-sub {
+                                @include font-line(12);
+                                color: $color-text03;
+                                font-family: cross-platform-yu-gothic;
+                                letter-spacing: 0.3em;
+                            }
+                        }
+                        
+                    }
+                }
+                &-02 {
+                    width: 489px;
+    
+                    &-txt {
+                        text-align: left;
+
+                        &-01 {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(26,37);
+                            font-weight: 500;
+                            letter-spacing: 0.5em;
+                            color:#fff;
+
+
+                        }
+
+                        &-02 {
+                            font-family: century-gothic, sans-serif;
+                            @include font-line(10,20);
+                                font-weight: 400;
+                                letter-spacing: 0.32em;
+                                color:#fff;
+                                padding:19px 0 28px 0;
+
+                     
+                        }
+
+                        &-03 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            letter-spacing: 0.2em;
+                            color:#fff;
+                            margin-bottom: 45px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+        .bg_1 {
+            position: absolute;
+            top: -15%;
+            right: 7%;
+        }
+
+        .bg_2 {
+            position: absolute;
+            left: -6%;
+            top: 10%;
+        }
+        .bg_3 {
+            position: absolute;
+            right: 2.3%;
+            bottom: 4%;
+        }
+
+    }
+
+
+    .sect_2 {
+        position: relative;
+        background: linear-gradient(to right, #2579BF,#2593D5);
+
+        .clipPath {
+            clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+            background-color: #fff;
+        }
+        
+        .sect_2-cntnt {
+            padding-top: 95px;
+            padding-bottom: 50px;
+        
+
+            &-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-02 {
+                    width: 420px;
+
+                    .col--box {
+                        width: 100%;
+                        height: 345px;
+                        position: relative;
+                
+                        img {
+                            object-fit: cover;
+                            position: absolute;
+                            inset: 0;
+                            height: 100%;
+                            width: 100%;
+                        }
+                
+                        .top-text01 {
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                            color: $color-text03;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .top-text02 {
+                            color: $color-text03;
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 32px;
+                            right: 7px;
+                            -webkit-writing-mode: vertical-lr;
+                            writing-mode: vertical-lr;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .num {
+                            @include font-line(108);
+                            font-family: BebasNeue;
+                            color: #b7d4e4;
+                            position: absolute;
+                            top: 98px;
+                            z-index: 1;
+                            left: 20px;
+                            
+                            
+                        }
+                
+                        .info {
+                            position: absolute;
+                            bottom: 32px;
+                            left: 0;
+                            width: 87%;
+                            background: linear-gradient(100deg, rgba(114,159,223,0.8130602582830007) 0%, rgba(36,77,126,1) 100%);
+                        
+                            padding: 20px 0;
+                            text-align: left;
+                            padding-left: 25px;
+                        
+                
+                            @include is-max(960px) {
+                                padding-left: 20px;
+                            }
+                
+                            @include is-max(930px) {
+                                padding-left: 10px;
+                            }
+                
+                            @include is-max(836px) {
+                                width: 60%;
+                            }
+                
+                
+                            &-ttl {
+                                @include font-line(26);
+                                color: $color-text03;
+                                font-family: yu-mincho-pr6n, sans-serif;
+                                letter-spacing: 0.03em;
+                                line-height: 1;
+                                padding-bottom: 7px;
+                
+                                @include is-max(900px) {
+                                    @include font-line(22);
+                                }
+                            }
+                
+                            &-sub {
+                                @include font-line(12);
+                                color: $color-text03;
+                                font-family: cross-platform-yu-gothic;
+                                letter-spacing: 0.3em;
+                            }
+                        }
+                        
+                    }
+                }
+                
+                &-01 {
+                    width: 489px;
+
+                    &-txt {
+                        text-align: left;
+
+                        &-01 {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(26,37);
+                            font-weight: 500;
+                            letter-spacing: 0.5em;
+                            color:#258ACF;
+
+
+                        }
+
+                        &-02 {
+                            font-family: century-gothic, sans-serif;
+                            @include font-line(10,20);
+                                font-weight: 400;
+                                letter-spacing: 0.32em;
+                                color:#258ACF;
+                                padding:19px 0 28px 0;
+
+                     
+                        }
+
+                        &-03 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            letter-spacing: 0.2em;
+                            color:#333;
+                            margin-bottom: 45px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+
+        .bg_4 {
+            position: absolute;
+            top: 1%;
+            right: 7%;
+        }
+
+        .bg_5 {
+            position: absolute;
+            left: -6%;
+            top: 49%;
+            z-index: -1;
+        }
+        .bg_6 {
+            position: absolute;
+            right: 0;
+            bottom:0;
+        }
+    }
+
+    .sect_3 {
+        // background-color: #fff;
+      
+        .clipPath {
+            clip-path: polygon(0 17%, 100% 0%, 100% 88%, 0% 100%);
+            background: linear-gradient(to right, #2579BF,#2593D5);
+        }
+
+        &-cntnt {
+            padding-top: 158px;
+            padding-bottom: 144px;
+
+            &-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-01 {
+                    width: 420px;
+
+                    .col--box {
+                        width: 100%;
+                        height: 345px;
+                        position: relative;
+                
+                        img {
+                            object-fit: cover;
+                            position: absolute;
+                            inset: 0;
+                            height: 100%;
+                            width: 100%;
+                        }
+                
+                        .top-text01 {
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                            color: $color-text03;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .top-text02 {
+                            color: $color-text03;
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 32px;
+                            right: 7px;
+                            -webkit-writing-mode: vertical-lr;
+                            writing-mode: vertical-lr;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .num {
+                            @include font-line(108);
+                            font-family: BebasNeue;
+                            color: #b7d4e4;
+                            position: absolute;
+                            top: 98px;
+                            z-index: 1;
+                            left: 20px;
+                            
+                            
+                        }
+                
+                        .info {
+                            position: absolute;
+                            bottom: 32px;
+                            left: 0;
+                            width: 87%;
+                            background: linear-gradient(100deg, rgba(114,159,223,0.8130602582830007) 0%, rgba(36,77,126,1) 100%);
+                        
+                            padding: 20px 0;
+                            text-align: left;
+                            padding-left: 25px;
+                        
+                
+                            @include is-max(960px) {
+                                padding-left: 20px;
+                            }
+                
+                            @include is-max(930px) {
+                                padding-left: 10px;
+                            }
+                
+                            @include is-max(836px) {
+                                width: 60%;
+                            }
+                
+                
+                            &-ttl {
+                                @include font-line(26);
+                                color: $color-text03;
+                                font-family: yu-mincho-pr6n, sans-serif;
+                                letter-spacing: 0.03em;
+                                line-height: 1;
+                                padding-bottom: 7px;
+                
+                                @include is-max(900px) {
+                                    @include font-line(22);
+                                }
+                            }
+                
+                            &-sub {
+                                @include font-line(12);
+                                color: $color-text03;
+                                font-family: cross-platform-yu-gothic;
+                                letter-spacing: 0.3em;
+                            }
+                        }
+                        
+                    }
+                }
+                &-02 {
+                    width: 489px;
+    
+                    &-txt {
+                        text-align: left;
+
+                        &-01 {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(26,37);
+                            font-weight: 500;
+                            letter-spacing: 0.5em;
+                            color:#fff;
+
+
+                        }
+
+                        &-02 {
+                            font-family: century-gothic, sans-serif;
+                            @include font-line(10,20);
+                                font-weight: 400;
+                                letter-spacing: 0.32em;
+                                color:#fff;
+                                padding:19px 0 28px 0;
+
+                     
+                        }
+
+                        &-03 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            letter-spacing: 0.2em;
+                            color:#fff;
+                            margin-bottom: 45px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+
+
+        .bg_2 {
+            position: absolute;
+            top: 17%;
+            left: -6%;
+        }
+        .bg_3 {
+            position: absolute;
+            bottom: 27%;
+            right: 3%;
+        }
+    }
+
+
+    .sect_4 {
+  
+        .clipPath {
+            // clip-path: polygon(-137% 0%, 14% 100%, 500% 0%);
+        }
+        
+        .sect_4-cntnt {
+            padding-top: 95px;
+            padding-bottom: 60px;
+            z-index: 1;
+        
+    
+            &-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                &-02 {
+                    width: 420px;
+    
+                    .col--box {
+                        width: 100%;
+                        height: 345px;
+                        position: relative;
+                
+                        img {
+                            object-fit: cover;
+                            position: absolute;
+                            inset: 0;
+                            height: 100%;
+                            width: 100%;
+                        }
+                
+                        .top-text01 {
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 0;
+                            right: 10px;
+                            color: $color-text03;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .top-text02 {
+                            color: $color-text03;
+                            font-family: century-gothic, sans-serif;
+                            font-weight: 400;
+                            position: absolute;
+                            top: 32px;
+                            right: 7px;
+                            -webkit-writing-mode: vertical-lr;
+                            writing-mode: vertical-lr;
+                            letter-spacing: 0.24em;
+                            span {
+                                color: #000;
+                            }
+                        }
+                
+                        .num {
+                            @include font-line(108);
+                            font-family: BebasNeue;
+                            color: #E3474D;
+                            position: absolute;
+                            top: 98px;
+                            z-index: 1;
+                            left: 20px;
+                            
+                            
+                        }
+                
+                        .info {
+                            position: absolute;
+                            bottom: 32px;
+                            left: 0;
+                            width: 87%;
+                            background: linear-gradient(100deg, rgba(168,88,61,0.7234244039412641) 29%, rgba(165,47,55,0.6253851882549895) 55%);
+                        
+                            padding: 20px 0;
+                            text-align: left;
+                            padding-left: 25px;
+                        
+                
+                            @include is-max(960px) {
+                                padding-left: 20px;
+                            }
+                
+                            @include is-max(930px) {
+                                padding-left: 10px;
+                            }
+                
+                            @include is-max(836px) {
+                                width: 60%;
+                            }
+                
+                
+                            &-ttl {
+                                @include font-line(26);
+                                color: $color-text03;
+                                font-family: yu-mincho-pr6n, sans-serif;
+                                letter-spacing: 0.03em;
+                                line-height: 1;
+                                padding-bottom: 7px;
+                
+                                @include is-max(900px) {
+                                    @include font-line(22);
+                                }
+                            }
+                
+                            &-sub {
+                                @include font-line(12);
+                                color: $color-text03;
+                                font-family: cross-platform-yu-gothic;
+                                letter-spacing: 0.3em;
+                            }
+                        }
+                        
+                    }
+                }
+                
+                &-01 {
+                    width: 489px;
+                    z-index: 1;
+        
+    
+                    &-txt {
+                        text-align: left;
+    
+                        &-01 {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(26,37);
+                            font-weight: 500;
+                            letter-spacing: 0.5em;
+                            color:#E3474D;
+    
+    
+                        }
+    
+                        &-02 {
+                            font-family: century-gothic, sans-serif;
+                            @include font-line(10,20);
+                                font-weight: 400;
+                                letter-spacing: 0.32em;
+                                color:#E3474D;
+                                padding:19px 0 28px 0;
+    
+                     
+                        }
+    
+                        &-03 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            letter-spacing: 0.2em;
+                            color:#333;
+                            margin-bottom: 45px;
+                        }
+                    }
+                    .rd {
+                        border: 1px solid #E3474D;
+                        
+                        .txt {
+                            color: #E3474D;;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .bg_1_rd {
+            position: absolute;
+            top: 1.5%;
+            right: 8%;
+        }
+        .bg_2_rd {
+            position: absolute;
+            top: 47%;
+            left: -6%;
+            z-index: 1;
+        }
+        .bg_3_rd {
+            position: absolute;
+            bottom: 3%;
+            right: 2%;;
+        }
+    }
+    
+    .sect_5 {
+        
+        background-color: #fff;
+
+        .clipPath {
+            clip-path: polygon(100% 0, 0 0, 18% 91%);
+            background: linear-gradient(to right, #2579BF,#2593D5);
+        }
+
+        &-cntnt {
+            padding:100px 0 100px 0;
+        }
+    }
+
+}
+
+
+
