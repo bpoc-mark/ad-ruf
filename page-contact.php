@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php get_header();
+
+$imagedir = get_template_directory_uri();
+?>
 <div class="page__content contact">
     <section class="sect_1">
         <div class="l-wrap">
@@ -22,6 +25,15 @@
                         受付時間：9：00～18：00（土日祝除く）</p>
                 </div>
             </div>
+            <div class="c-buttonCase">
+                <p class="txt">TOPに戻る</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+            </div>
+
+            <div class="c-pageTop">
+                <a href="#"><p class="txt">PAGE TOP</p></a>
+            </div>
+
         </div>
     </section>
 </div>

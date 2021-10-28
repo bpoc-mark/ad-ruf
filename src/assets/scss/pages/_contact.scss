@@ -28,6 +28,7 @@
 
         &__box{
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             background-color: #fff;
@@ -64,14 +65,18 @@
                     @include font-line(11);
                     font-family:cross-platform-yu-gothic;
                     font-weight: 600;
-
                 }
             }
-
-
-
         }
 
+        .c-buttonCase{
+            margin-top: 70px;
+            .txt{
+                letter-spacing: 0.2em;
+            }
+        }
+
+     
     
 
 
