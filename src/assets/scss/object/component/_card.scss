@@ -370,5 +370,10 @@
 	&:first-child{
 		padding-left: unset;
 	}
+
+	&.bd-pr-n{
+		border: none;
+		padding-right: unset;
+	}
 }
 

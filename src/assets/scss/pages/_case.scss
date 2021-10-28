@@ -26,12 +26,6 @@
 			rgba(37, 147, 213, 1) 50%
 		);
 		text-align: center;
-		// padding: 190px 0 0 0;
-		//
-
-		// @include is-sp {
-		// 	padding: 100px 0 0 0;
-		// }
 
 		.clip-bottom {
 			-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
@@ -66,10 +60,9 @@
 			font-weight: 400;
 			font-family: century-gothic, sans-serif;
 			text-align: center;
-			letter-spacing: 1em;
-			line-height: 1;
+			letter-spacing: .32em;
 
-			@include font-line(10);
+			@include font-line(10,20);
 		}
 	}
 

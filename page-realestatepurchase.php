@@ -1,9 +1,10 @@
 <?php /* Template Name: Real Estate Purchase */ ?>
 
-<?php get_header(); ?>
+<?php get_header();
+$imagedir = get_template_directory_uri();
+?>
 <div class="page__content real_estate_purchase">
     <section class="sect_1">
-        <div class="sect_1__clipbg--top"></div>
         <div class="sect_1__center">
             <div class="l-wrap">
                 <p class="sect_1__eng_ttl">
@@ -30,9 +31,6 @@
         </div>
     </section>
     <section class="sect_2">
-        <div class="sect_2--clipbg">
-            <div class="sect_2__clipbg--tops"></div>
-        </div>
         <div class="l-wrap">
             <div class="sect_2__inner-realestate">
                 <div class="sect_2__inner-realestate--left">
@@ -57,8 +55,9 @@
                             ● <span>首都圏エリアの動向の見極め</span>
                         </p>
                     </div>
-                    <div class="btn_wrap">
-                        <a href="#" class="btn icon_left">収益不動産の買取について</a>
+                    <div class="c-buttonREP">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
                 </div>
                 <div class="sect_2__inner-realestate--right">
@@ -70,9 +69,6 @@
                 </p>
 
             </div>
-        </div>
-        <div class="sect_2--clipbg">
-            <div class="sect_2__clipbg--bots"></div>
         </div>
     </section>
 
@@ -101,8 +97,9 @@
                             ● <span>首都圏エリアの動向の見極め</span>
                         </p>
                     </div>
-                    <div class="btn_wrap">
-                        <a href="#" class="btn icon_left">収益不動産の買取について</a>
+                    <div class="c-buttonREP">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
                 </div>
                 <div class="sect_3__inner-realestate--right">
@@ -114,9 +111,6 @@
                 </p>
 
             </div>
-        </div>
-        <div class="sect_3--clipbg">
-            <div class="sect_3__clipbg--bots"></div>
         </div>
     </section>
 
@@ -162,9 +156,6 @@
                             ● <span>圧倒的なスピードでの意思決定</span>
                         </p>
                     </div>
-                    <!-- <div class="btn_wrap">
-                    <a href="#" class="btn icon_left">収益不動産の買取について</a>
-                    </div> -->
                 </div>
                 <div class="sect_4__inner-realestate--right">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/point_img1.png" alt="">
@@ -173,14 +164,12 @@
                     20年で500棟以上の買取実績
                 </p>
 
-                <div class="btn_wrap">
-                    <a href="#" class="btn icon_left">収益不動産の買取について</a>
+                <div class="c-buttonREP">
+                    <p class="txt">その他の事例を見る</p>
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
 
             </div>
-        </div>
-        <div class="sect_4--clipbg">
-            <div class="sect_4__clipbg--tops"></div>
         </div>
     </section>
 
@@ -220,9 +209,6 @@
                 </p>
             </div>
         </div>
-        <div class="sect_5--clipbg">
-            <div class="sect_5__clipbg--bots"></div>
-        </div>
     </section>
 
     <section class="sect_6">
@@ -258,20 +244,15 @@
                     買取物件をバリューアップ
                 </p>
 
-                <div class="btn_wrap">
-                    <a href="#" class="btn icon_left">収益不動産の買取について</a>
+                <div class="c-buttonREP red">
+                    <p class="txt">その他の事例を見る</p>
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
             </div>
         </div>
-        <!-- <div class="sect_6--clipbg">
-            <div class="sect_6__clipbg--tops"></div>
-        </div> -->
     </section>
 
     <section class="sect_7">
-        <div class="sect_7--clipbg">
-            <div class="sect_7__clipbg--tops"></div>
-        </div>
         <div class="l-wrap">
             <div class="sect_7--top-casestudy">
                 <div class="sect_7__eng--ttl">
@@ -361,14 +342,12 @@
 
             </div>
 
-            <div class="btn_wrap">
-                <a href="#" class="btn icon_left">収益不動産の買取について</a>
+            <div class="c-buttonREP">
+                <p class="txt">その他の事例を見る</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </div>
         </div>
 
-        <div class="sect_7--clipbg">
-            <div class="sect_7__clipbg--bots"></div>
-        </div>
     </section>
 
     <section class="sect_8">
@@ -382,10 +361,10 @@
                     よくある質問
                 </div>
                 <div class="sect_8__header u-d-n-pc">
-                ルーフの収益不動産の売買 <br>
-よくある質問
+                    ルーフの収益不動産の売買 <br>
+                    よくある質問
                 </div>
-                
+
             </div>
         </div>
         <div class="sect_8--inner">
@@ -467,7 +446,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="c-card07">
+                <div class="c-card07 bd-pr-n">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
@@ -482,23 +461,20 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="sect_8__btn--wrap">
-                        <a href="#" class="btn icon_left">収益不動産の買取について</a>
-
-                        <a href="#" class="btn icon_right">収益不動産の買取について</a>
+                <div class="c-buttonREP">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
+
+                    <div class="c-buttonREP">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </div>
+                </div>
             </div>
-
         </div>
-
-
-        <!-- <div class="btn_wrap">
-            <a href="#" class="btn icon_left">収益不動産の買取について</a>
-        </div>
-        <div class="sect_8--clipbg">
-            <div class="sect_8__clipbg--bots"></div>
-        </div> -->
     </section>
 
 </div>

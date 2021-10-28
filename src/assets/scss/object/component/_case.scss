@@ -3,25 +3,14 @@
 		&__title {
 			color: $color-text03;
 			font-family: yu-mincho-pr6n, sans-serif;
-			letter-spacing: 0.363em;
+			letter-spacing: 0.18em;
 			line-height: 1;
-			padding: 20px 0 30px 0;
+			padding: 15px 0 20px 0;
 
 			@include font-line(30, 48);
 
 			@include is-sp {
 				letter-spacing: 0.2em;
-			}
-
-			br {
-				display: none;
-				@include is-sp {
-					display: block;
-				}
-
-				&:nth-of-type(2) {
-					display: block;
-				}
 			}
 		}
 
@@ -29,7 +18,7 @@
 			color: $color-text03;
 			font-family: cross-platform-yu-gothic;
 			font-weight: 500;
-			letter-spacing: 0.6em;
+			letter-spacing: 0.2em;
 			line-height: 1;
 
 			@include is-sp {
@@ -39,11 +28,28 @@
 
 			@include font-line(13, 26);
 		}
+		&__sub2 {
+			color: $color-text03;
+			font-family: cross-platform-yu-gothic;
+			font-weight: 500;
+			letter-spacing: 0.07em;
+			line-height: 1;
+			padding-top: 20px;
+
+			@include is-sp {
+				letter-spacing: unset;
+				padding: 20x 0 0px 0;
+			}
+
+			@include font-line(13, 18);
+		}
 	}
 
 	&--items {
 		position: relative;
-		padding-top: 100px;
+		@include is-sp {
+			padding-top: 100px;
+		}
 
 		&:first-child {
 			@include is-sp {
@@ -128,7 +134,7 @@
 			}
 
 			&--row_1 {
-				width: 46.67%;
+				width: 57.14%;
 				display: flex;
 
 				@include is-sp {
@@ -247,9 +253,9 @@
 					&.ttl {
 						font-family: cross-platform-yu-gothic;
 						font-weight: 500;
-						line-height: 1;
+						letter-spacing: .2em;
 
-						@include font-line(13);
+						@include font-line(13,26);
 
 						@include is-sp {
 							text-align: center;
@@ -259,14 +265,13 @@
 					&.sub {
 						font-family: yu-mincho-pr6n, sans-serif;
 						font-weight: 500;
-						padding: 15px 0 20px 0;
-						line-height: 1;
+						padding: 0 0 15px 0;
 
 						@include is-sp {
 							padding: 25px 0;
 						}
 
-						@include font-line(30);
+						@include font-line(30,48);
 
 						br {
 							@include is-sp {
@@ -282,7 +287,7 @@
 					&.desc {
 						font-family: cross-platform-yu-gothic;
 						font-weight: 500;
-						line-height: 1;
+						letter-spacing:0.07em;
 						text-align: justify;
 
 						@include font-line(13, 26);

@@ -12,9 +12,9 @@ $imagedir = get_template_directory_uri();
 		<div class="l-wrap">
 			<img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
 			<p class="section_1__ttl">Case Studies</p>
-			<h1 class="c-case01__title">築30年の大規模リノベーション <br>
-				室内フルリフォームで快適空間</h1>
-			<p class="c-case01__sub">1988年竣工、4階建、鉄筋コンクリート</p>
+			<h1 class="c-case01__title">エントランスのバリューアップ <br>
+住宅地エリアで目を引く存在に</h1>
+			<p class="c-case01__sub">1993年竣工、4階建て、鉄筋コンクリート</p>
 		</div>
 		<!-- //CONTENT 1 -->
 		<div class="c-case--items">
@@ -42,9 +42,9 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">築30年が経ち、2017年4月にリノベーションを行いました。共用部分だけでなく、室内のフルリフォームも行い、とてもキレイなマンションへと生まれ変わりました。ご家族で快適に暮らせるようニーズに合わせた改修を行いました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">上層部のタイルはアクセントカラーとなるネイビー系を採用し、下層部分はエントランス部分と馴染ませるためベージュにて塗装いたしました。落ち着いた印象を残しながらも明るさを加えまし</p>
 						</div>
 					</div>
 				</div>
@@ -81,9 +81,9 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">エントランスの<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">マンションの銘板もロゴをカナから英語表記に変更し、高級感ある仕上がりに。<br> ドアの色や上部の塗装で、エントランスの印象もぐっと変わりました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">東京都内の閑静な住宅地に建てられた家族向けマンションの共用部分をリノベーションいたしました。築年数が25年という事もあり、2回目の修繕工事となった今回は、重厚感のあるエントランス部分の印象アップを中心に機能面も考慮しバリューアップを図りました。<br> ドアの色や上部の塗装で、エントランスの印象もぐっと変わりました。</p>
 						</div>
 					</div>
 				</div>
@@ -119,10 +119,10 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">ポストの<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">ポストのカラーリングも赤系の木目でスタイリッシュなイメージに。<br>
-								天井部分も同じデザインで統一しています。</p>
+							<p class="c-case--items__contents--row_2__txt desc">エントランス部分に多く使われているブラウンをポストにも採用しました。<br class="u-d-n-sp">
+また、消化器に目隠しをする等、細かな点も工夫いたしました。</p>
 						</div>
 					</div>
 				</div>
@@ -158,9 +158,9 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">フェンスを目の細かいものと交換し、植え込みを整えました。また、街灯もLED照明付け替えいたしました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">冷たい印象だったエントランスのドア付近も大きく印象を変えました。重厚感を保ちながらも温かみのある雰囲気へ。</p>
 						</div>
 					</div>
 				</div>
@@ -195,10 +195,9 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">通路の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">安全面を考慮し当初の駐輪場は駐車場横へと移動し、<br>
-								すっきりした通路へ改修しました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">駐車場へのアプローチ部分は、マンホール付近の染みや汚れがあったため、タイルを貼り直しいたました。また、設備用扉は壁と同色に塗装することですっきりとした印象へ。</p>
 						</div>
 					</div>
 				</div>
@@ -234,10 +233,9 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
-							<p class="c-case--items__contents--row_2__txt sub">室内の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">キッチン、水まわり、換気扇などリノベーションで一新し、<br class="u-d-n-sp">
-								リビングはナチュラルなイメージのフローリングにしました。</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt sub">フェンスの<br>ビフォーアフター</p>
+							<p class="c-case--items__contents--row_2__txt desc">隣接する住宅との境界部分のフェンスを変え、また一部途切れていた部分もしっかりと区切りました。</p>
 						</div>
 					</div>
 				</div>
@@ -272,10 +270,10 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="c-case--items__contents--row_2">
 						<div class="c-case--items__contents--row_2__txt">
-							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
+							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">駐車場の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">駐車スペースの整備を行い、駐車場の隣には安心して自転車を停められる駐輪場も設置しました。<br class="u-d-n-sp">
-劣化したブロック塀もパネルフェンスを設置し、スタイリッシュかつ安全性も高めました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">安全面と管理についても考慮し、植木を一掃いたしました。<br class="u-d-n-sp">
+							併せて駐車エリアも塗装いたしました。</p>
 						</div>
 					</div>
 				</div>
