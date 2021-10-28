@@ -117,3 +117,15 @@
 		}
 	}
 }
+
+// case study main
+
+.csm {
+	.c-case--items:nth-of-type(odd) {
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	}
+
+	// &--contents {
+
+	// }
+}
