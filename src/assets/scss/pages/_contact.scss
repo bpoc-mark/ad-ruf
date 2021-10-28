@@ -1,0 +1,81 @@
+.contact{
+    .sect_1{
+       background-image: linear-gradient(to right, #2579bf , #2593d5);
+       padding: 100px 0 20px 0;
+    }
+
+        &__inner{
+            text-align: center;
+
+            &--txt{
+                font-family: yu-mincho-pr6n, sans-serif;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 0.2em;
+                padding: 0 0 15px 0;
+                @include font-line(20);
+            }
+
+            &--desc{
+                font-family:cross-platform-yu-gothic;
+                font-weight: 500;
+                color: #fff;
+                letter-spacing: 0.2em;
+                @include font-line(13);
+                padding: 0 0 26px 0;
+            }
+        }
+
+        &__box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px 0;
+
+            &--p1{
+                background-color: #e2f3fb;
+                padding: 10px 40px;
+                .txt{
+                    font-family:cross-platform-yu-gothic;
+                    @include font-line(15);
+                    font-weight: 700;
+                    color: #258acf;
+                    letter-spacing: 0.320em;
+                }
+            }
+
+            &--p2{
+                .txt{
+                    padding: 0 25px;
+                    a{
+                    font-family: century-gothic, sans-serif;
+                    @include font-line(36);
+                    font-weight: 700;
+                    color: #258acf;
+                    display: flex;
+                    align-items: center
+                    }
+                }
+            }
+
+            &--p3{
+                .txt{
+                    @include font-line(11);
+                    font-family:cross-platform-yu-gothic;
+                    font-weight: 600;
+
+                }
+            }
+
+
+
+        }
+
+    
+
+
+
+
+
+}

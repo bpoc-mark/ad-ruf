@@ -1,9 +1,9 @@
-<?php get_header();?>
+<?php get_header(); ?>
 <div class="page__content top">
     <section class="sect_1">
         <div class="l-wrap">
             1
-        </div>    
+        </div>
     </section>
     <section>2</section>
     <section>3</section>
@@ -17,4 +17,4 @@
     <section>11</section>
     <section>12</section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>

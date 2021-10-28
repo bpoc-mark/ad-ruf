@@ -15,9 +15,9 @@
 <body <?php body_class(); ?>>
     
 <main>
-    <div class="page__header">
+    <!-- <div class="page__header">
         <p class="yugo_b" style="font-size:11px;font-family:cross-platform-yu-gothic; font-weight: 700; ">事業内容</p>
         <p class="yugo_b" style="font-size:14px;font-family: century-gothic, sans-serif; font-weight: 400;letter-spacing: .32em;">OUR ENTERPRISES</p>
         <p class="yugo_b" style="font-size:30px;font-family: yu-mincho-pr6n, sans-serif;; font-weight: 500;">丸の内ルーフの <br> 4つの事業をご紹介いたします。</p>
-    </div>
+    </div> -->
     

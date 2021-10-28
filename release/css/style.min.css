@@ -492,7 +492,16 @@ template{display:none}
 .u-pl-09em{padding-left:9em !important}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
-.top .sect_1{background-color:red}
+.contact .sect_1{background-image:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background-image:linear-gradient(to right,#2579bf,#2593d5);padding:100px 0 20px 0}
+.contact__inner{text-align:center}
+.contact__inner--txt{font-family:yu-mincho-pr6n,sans-serif;font-weight:600;color:#fff;letter-spacing:.2em;padding:0 0 15px 0;font-size:1.25rem}
+.contact__inner--desc{font-family:cross-platform-yu-gothic;font-weight:500;color:#fff;letter-spacing:.2em;font-size:.8125rem;padding:0 0 26px 0}
+.contact__box{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#fff;padding:20px 0}
+.contact__box--p1{background-color:#e2f3fb;padding:10px 40px}
+.contact__box--p1 .txt{font-family:cross-platform-yu-gothic;font-size:.9375rem;font-weight:700;color:#258acf;letter-spacing:.320em}
+.contact__box--p2 .txt{padding:0 25px}
+.contact__box--p2 .txt a{font-family:century-gothic,sans-serif;font-size:2.25rem;font-weight:700;color:#258acf;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.contact__box--p3 .txt{font-size:.6875rem;font-family:cross-platform-yu-gothic;font-weight:600}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}
