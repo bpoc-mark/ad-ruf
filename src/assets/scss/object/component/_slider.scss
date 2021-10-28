@@ -32,15 +32,83 @@
 				}
 			}
 
+			.youtube {
+				color: #B51F32;
+				font-family: century-gothic, sans-serif;
+				font-weight: 400;
+				position: absolute;
+				top: 0;
+				letter-spacing: 0.32em;
+				right: 0;
+
+				@include font-line(8.48);
+
+				span {
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+
+			.movies {
+				color: #B51F32;
+				font-family: century-gothic, sans-serif;
+				font-weight: 400;
+				position: absolute;
+				top: 21px;
+				right: 0;
+				writing-mode: vertical-lr;
+				letter-spacing: 0.32em;
+
+				@include font-line(8.48);
+
+				span {
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+
+			.realestate {
+				color: rgba(255, 255, 255, 0.5);
+				font-family: century-gothic, sans-serif;
+				font-weight: 400;
+				position: absolute;
+				top: 0;
+				letter-spacing: 0.32em;
+				right: 0;
+
+				@include font-line(8.48);
+
+				span {
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+
+			.purchase {
+				color: rgba(255, 255, 255, 0.5);
+				font-family: century-gothic, sans-serif;
+				font-weight: 400;
+				position: absolute;
+				top: 21px;
+				right: 0;
+				writing-mode: vertical-lr;
+				letter-spacing: 0.32em;
+
+				@include font-line(8.48);
+
+				span {
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+			
+
 			.achieve {
 				color: $color-text05;
 				font-family: century-gothic, sans-serif;
 				font-weight: 400;
 				position: absolute;
 				top: 0;
+				letter-spacing: 0.23em;
 				right: 0;
 
-				@include font-line(8);
+				@include font-line(8.48);
 
 				span {
 					color: #000;
@@ -55,8 +123,9 @@
 				top: 21px;
 				right: 0;
 				writing-mode: vertical-lr;
+				letter-spacing: 0.23em;
 
-				@include font-line(8);
+				@include font-line(8.48);
 
 				span {
 					color: #000;
@@ -90,7 +159,7 @@
 			font-weight: 700;
 			line-height: 1;
 			padding: 20px 0;
-
+			line-height: 21px;
 			@include font-line(14);
 		}
 
@@ -99,8 +168,8 @@
 			text-align: justify;
 			font-family: cross-platform-yu-gothic;
 			font-weight: 500;
-
 			@include font-line(11);
+			line-height: 16.5px;
 		}
 	}
 }
