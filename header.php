@@ -62,17 +62,17 @@
             </div>
 
             <div class="top-header-bnnr">
-                <div class="top-header-bnnr-hdr u-d-f">
-                    <div class="home-cols-col2-cntnt01">
-                        <div class="home-cols-col2-cntnt01-img">
+                <div class="u-d-f">
+                    <div class="top-header-bnnr-hdr-01">
+                        <div class="top-header-bnnr-hdr-cntnt01-img">
                             <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo2.svg" alt="">
                         </div>
-                        <div class="home-cols-col2-cntnt01-txt">
+                        <div class="top-header-bnnr-hdr-01-txt">
                             <p>丸の内株式会社ルーフ</p>
                         </div>
                     </div>  
-                    <div class="home-cols-col2-cntnt02">
-                        <div class="home-cols-col2-cntnt02-hdr">
+                    <div class="top-header-bnnr-hdr-02">
+                        <div class="top-header-bnnr-hdr-02-txt">
                             <p>
                                 選ばれし方々に選ばれ、
                                 <br>
@@ -82,12 +82,16 @@
                                 Chosen by the chosen people,and continues to be chosen
                             </p>
                         </div>
-                        <div class="home-cols-col2-cntnt02-cont">
-                            <p class="home-cols-col2-cntnt02-cont-01">収益不動産の売買・管理・運用</p>
-                            <p class="home-cols-col2-cntnt02-cont-02">アセットマネジメント</p>
+                        <div class="top-header-bnnr-hdr-02-desc">
+                            <p class="top-header-bnnr-hdr-02-desc-01">収益不動産の売買・管理・運用</p>
+                            <p class="top-header-bnnr-hdr-02-desc-02">アセットマネジメント</p>
                         </div>
                     </div> 
                 </div>
+            </div>
+            <!-- CLIP -->
+            <div class="clip">
+                
             </div>
         </div>
     </div>

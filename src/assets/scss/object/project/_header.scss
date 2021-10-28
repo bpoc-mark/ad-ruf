@@ -292,8 +292,66 @@
             right: 0;
             height: 674px;
             width: 585px;
-            background: url(../../release/image/header/img-banner1.png);
-           
+            background: url(../../release/image/header/img-banner1.png);           
+        }
+
+        &-hdr-01 {
+            width: 208px;
+
+            &-txt {
+                text-align: center;
+                @include font-line(14,19);
+                font-weight: 700;
+                font-family:cross-platform-yu-gothic;
+
+                p {
+                    color: #fff;
+                    padding-top: 13px;
+                    letter-spacing: 0.3em;
+                }
+            }
+        }
+
+        &-hdr-02 {
+            margin-left: 18px;
+
+            &-txt {
+
+                p:nth-child(1) {
+                    @include font-line(30,41);
+                    font-weight: 500;
+                    font-family: yu-mincho-pr6n, sans-serif;
+                    color:#fff;
+                    letter-spacing: 0.3em;
+                }
+                
+                p:nth-child(2) {
+                    @include font-line(10,20);
+                    font-weight: 400;
+                    font-family: century-gothic, sans-serif;
+                    color:#fff;
+                    letter-spacing: 0.2em;
+                }   
+            }
+
+            &-desc {
+                margin-top: 20px;
+
+                &-01 {
+                    @include font-line(11,15);
+                    font-weight: 700;
+                    letter-spacing: 0.54em;
+                    color:#fff;
+                }
+
+                
+                &-02 {
+                    @include font-line(11,15);
+                    font-weight: 700;
+                    letter-spacing: 0.54em;
+                    color:#fff;
+                }
+            }
         }
     }
  
