@@ -101,8 +101,6 @@
                             top: 98px;
                             z-index: 1;
                             left: 20px;
-                            
-                            
                         }
                 
                         .info {
@@ -578,10 +576,6 @@
 
     .sect_4 {
   
-        .clipPath {
-            // clip-path: polygon(-137% 0%, 14% 100%, 500% 0%);
-        }
-        
         .sect_4-cntnt {
             padding-top: 95px;
             padding-bottom: 60px;
@@ -770,13 +764,148 @@
         background-color: #fff;
 
         .clipPath {
-            clip-path: polygon(100% 0, 0 0, 18% 91%);
+            // clip-path: polygon(18% 14%,274% -28%, 100% 0%, 100% 175%, -136% 0%,-10% -6%);
+            clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+
             background: linear-gradient(to right, #2579BF,#2593D5);
         }
 
         &-cntnt {
-            padding:100px 0 100px 0;
+            padding:164px 0 160px 0;
+            
+            &-txt {
+                border-left:3px solid #fff;
+                color:#fff;
+
+                &-ttl{
+                    font-family: century-gothic, sans-serif;
+                    @include font-line(10,20);
+                    letter-spacing: 0.32em;
+                }
+                &-sub {
+                    font-family: yu-mincho-pr6n, sans-serif;
+                    @include font-line(26,37);
+                    letter-spacing: 0.34;
+                }
+    
+                &-desc {
+                    font-family:cross-platform-yu-gothic;
+                    font-weight: 500;
+                    @include font-line(13,26);
+                    letter-spacing: 0.2em;
+                }
+            }
+
+            .crd-wrppr {
+                padding:69px 0 58px 0;
+            }
         }
+
+        .bg_7 {
+            position: absolute;
+            right: 31%;
+            top: 9%;
+        }
+        .bg_8 {
+            position: absolute;
+            top: 34%;
+            left: 0%;
+        }
+
+    }
+
+
+    .sect_7 {
+         
+        .clipPath{
+            clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+            background: linear-gradient(to right, #2579BF,#2593D5);
+        }
+
+        &-cntnt {
+            padding:164px 0 160px 0;
+
+            &-rows-01 {
+                width: 490px;
+                height: 400px;
+                background: linear-gradient(to left, #81B3D4, #4A93D1);
+                position: relative;
+    
+                &-txt {
+                    position: absolute;
+                    left: 0%;
+                    bottom: 27px;
+                    padding: 8px 13px 16px 23px;
+                    background: linear-gradient( 
+                    100deg, rgba(114,159,223,0.238831) 14%, #244d7e 100%);
+                    width: 384px;
+    
+                    p:nth-child(1){
+                        font-size: 10px;
+                        line-height: 20px;
+                        letter-spacing: 0.32em;
+                        color: #95C6E7;
+                    }
+                    p:nth-child(2) {
+                        font-family: yu-mincho-pr6n, sans-serif;
+                        color: #fff;
+                        font-size: 1rem;
+                        font-size: 20px;
+                        letter-spacing: 0.18em;
+                    }
+                }
+                &-bdg {
+                    position: absolute;
+                    top: 52%;
+                    background: linear-gradient(to left, #0B4E82, #3e72aa);
+                    left: 41%;
+                    font-size: 11px;
+                    line-height: 10px;
+                    color: #fff;
+                    letter-spacing: 0.20em;
+                    padding: 5px 8px 5px 8px;
+                }
+
+                &:before {
+                    content:'';
+                    position: absolute;
+                    bottom: 0;
+                    right: 10%;
+                    height: 450px;
+                    width: 390px;
+                    background: url(../../release/image/page/top-page/sec7_img.png);   
+                    background-position: center;        
+                }   
+            }
+    
+            &-rows-02 {
+                width: 446px;
+                
+                &-txt {
+                    color:#fff;
+
+                    &-01 {
+                        @include font-line(26,37);
+                        letter-spacing: 0.34em;
+                        font-family: yu-mincho-pr6n, sans-serif;
+                        font-weight: 500;
+                    }
+                    &-02 {
+                        @include font-line(10,20);
+                        letter-spacing: 0.32em;
+                       
+                    }
+                    &-03 {
+                        @include font-line(12,26);
+                        letter-spacing: 0.15em;
+                        font-weight: 500;
+                        font-family:cross-platform-yu-gothic;
+                        padding-bottom: 32px;
+                    }
+                }
+            }
+        }
+
     }
 
 }

@@ -200,13 +200,14 @@
 <section class="sect_5">
     <div class="clipPath">
         <div class="l-wrap">
-
+            <img class="bg_7" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_7.png" alt="">
+            <img class="bg_8" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_8.png" alt="">
             <div class="sect_5-cntnt">
                 <div class="sect_5-cntnt-txt">
-                    <p class="sect_5-cntnt-txt-ttl">About Us</p>
-                    <p class="sect_5-cntnt-txt-sub">企業情報</p>
-                    <p class="sect_5-cntnt-txt-desc">株式会社ルーフが大切にしていることや業績・理念を<br>
-                    ご紹介いたします。</p>
+                    <p class="sect_5-cntnt-txt-ttl">CASE STUDIES</p>
+                    <p class="sect_5-cntnt-txt-sub">バリューアップ事例</p>
+                    <p class="sect_5-cntnt-txt-desc">20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。
+                                 お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。</p>
                 </div>
 
                 <div class="crd-wrppr u-d-f u-jc-sb">
@@ -238,9 +239,9 @@
                             </div>
                         </div>
                         <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
+                            <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
                             </p>
-                            <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
+                            <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
                         </div>
                     </div>
 
@@ -255,9 +256,9 @@
                             </div>
                         </div>
                         <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
+                            <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
                             </p>
-                            <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
+                            <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
                         </div>
                     </div>
 
@@ -272,9 +273,147 @@
                             </div>
                         </div>
                         <div class="c-cards09-desc">
+                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
+                            </p>
+                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c-buttonCase">
+                    <p class="txt">その他の事例を見る</p>
+                    <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+			    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sect_6">
+    <div class="clipPath">
+        <div class="l-wrap">
+            <!-- <img class="bg_7" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_7.png" alt="">
+            <img class="bg_8" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_8.png" alt=""> -->
+            <div class="sect_6-cntnt">
+                <div class="sect_6-cntnt-txt">
+                    <p class="sect_6-cntnt-txt-ttl">CASE STUDIES</p>
+                    <p class="sect_6-cntnt-txt-sub">バリューアップ事例</p>
+                    <p class="sect_6-cntnt-txt-desc">20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。
+                                 お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。</p>
+                </div>
+
+                <div class="crd-wrppr u-d-f u-jc-sb">
+                    <div class="c-cards09"> 
+                        <div class="c-cards09-img">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img1.png" alt="">
+                            <div class="c-cards09-img-num">
+                                <p>01</p>
+                            </div>
+                            <div class="c-cards09-img-view">
+                                <p>VIEW <br>MORE</p>
+                            </div>
+                        </div>
+                        <div class="c-cards09-desc">
                             <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
                             </p>
                             <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
+                        </div>
+                    </div>
+
+                    <div class="c-cards09"> 
+                        <div class="c-cards09-img">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img2.png" alt="">
+                            <div class="c-cards09-img-num">
+                                <p>02</p>
+                            </div>
+                            <div class="c-cards09-img-view">
+                                <p>VIEW <br>MORE</p>
+                            </div>
+                        </div>
+                        <div class="c-cards09-desc">
+                            <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
+                            </p>
+                            <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
+                        </div>
+                    </div>
+
+                    <div class="c-cards09"> 
+                        <div class="c-cards09-img">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <div class="c-cards09-img-num">
+                                <p>03</p>
+                            </div>
+                            <div class="c-cards09-img-view">
+                                <p>VIEW <br>MORE</p>
+                            </div>
+                        </div>
+                        <div class="c-cards09-desc">
+                            <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
+                            </p>
+                            <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
+                        </div>
+                    </div>
+
+                    <div class="c-cards09"> 
+                        <div class="c-cards09-img">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <div class="c-cards09-img-num">
+                                <p>04</p>
+                            </div>
+                            <div class="c-cards09-img-view">
+                                <p>VIEW <br>MORE</p>
+                            </div>
+                        </div>
+                        <div class="c-cards09-desc">
+                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
+                            </p>
+                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c-buttonCase">
+                    <p class="txt">その他の事例を見る</p>
+                    <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+			    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sect_7">
+    <div class="clipPath">
+        <div class="l-wrap">
+            <div class="sect_7-cntnt">
+                <div class="u-d-f u-jc-sb">
+                    <div class="sect_7-cntnt-rows-01">
+                        <!-- <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec7_img.png" alt=""> -->
+                        <div class="sect_7-cntnt-rows-01-txt">
+                            <p>message</p>
+                            <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
+                        </div>
+                        <p class="sect_7-cntnt-rows-01-bdg">あたり</p>
+                    </div>
+                    <div class="sect_7-cntnt-rows-02">
+                        <div class="sect_7-cntnt-rows-02-txt">
+                            <p class="sect_7-cntnt-rows-02-txt-01">代表からのご挨拶</p>
+                        </div>
+                        <div class="sect_7-cntnt-rows-02-txt">
+                            <p class="sect_7-cntnt-rows-02-txt-02">message</p>
+                        </div>
+                        <div class="sect_7-cntnt-rows-02-txt">
+                            <p class="sect_7-cntnt-rows-02-txt-03">不動産投資におきまして、<br>
+                            最も大切なことは所有されている収益不動産の価値を保ちながら <br>
+                            売却時期を逃さない事。 <br>
+                            その為、当社のスタッフは専門知識は勿論、目利きの確かさ、<br>
+                            きめ細かいサービス、先任責任主義、迅速な行動、発想の展開性など <br>
+                            的確に業務を遂行するノウハウが一人残らず浸透しております。<br>
+                            収益不動産のエキスパートとして、お客様に満足して頂く為に、<br>
+                            スタッフ一同磐石の体制でお客様のニーズを現実化していきます。<br>
+                            今後とも宜しくお願い申し上げます。</p>  
+                        </div>
+
+                        <div class="c-buttonCase u-l-algn">
+                            <p class="txt">資産運用について</p>
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -282,8 +421,6 @@
         </div>
     </div>
 </section>
-<section class="sect_6">6</section>
-<section class="sect_7">7</section>
 <section class="sect_8">8</section>
 <section class="sect_9">9</section>
 <section class="sect_10">10</section>
