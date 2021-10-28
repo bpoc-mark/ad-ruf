@@ -1,18 +1,23 @@
 .real_estate_purchase {
 	.sect_1 {
 		position: relative;
+		margin-top:100px;
 		.l-wrap {
 			text-align: center;
 		}
 
-		&__clipbg--top {
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -100px;
 			height: 100px;
 			background: linear-gradient(to right, #2579bf, #2593d5);
 			clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
 		}
 
 		&__center {
-			padding: 100px 0;
+			padding: 100px 0 160px 0;
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-max(1000px) {
@@ -103,19 +108,27 @@
 	}
 
 	.sect_2 {
+		position:relative;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
-		&--clipbg {
-			background: linear-gradient(to right, #2579be, #2592d4) !important;
-		}
-		&__clipbg--tops {
+
+		&::before{
+			content:"";
+			position: absolute;
+			width: 100%;
+			top: -59px;
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 		}
 
-		&__clipbg--bots {
+		&::after{
+			content:"";
+			position: absolute;
+			width: 100%;
+			bottom: -58px;
 			height: 60px;
+			z-index: 1;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
@@ -128,7 +141,9 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.3em;
-			padding-bottom: 25px;
+			@include is-sp{
+				padding-bottom: 25px;
+			}
 		}
 
 		.l-wrap {
@@ -172,8 +187,8 @@
 					@include font-line(13, 26);
 					text-align: left;
 					color: #fff;
-					padding-top: 22px;
-					padding-bottom: 22px;
+					padding-top: 15px;
+					padding-bottom: 15px;
 					letter-spacing: 0.11em;
 					text-align: justify;
 
@@ -189,7 +204,7 @@
 					background-color: #fff;
 					padding-left: 30px;
 					padding-right: 30px;
-					padding-top: 20px;
+					padding-top: 15px;
 					padding-bottom: 15px;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
@@ -221,71 +236,12 @@
 			&--right {
 			}
 		}
-
-		.btn_wrap {
-			padding-top: 15px;
-			width: 395px;
-			display: flex;
-			justify-content: center;
-			@include is-max(1000px) {
-				padding-top: 50px;
-				width: 100%;
-			}
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #258acf;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border-radius: 50px;
-				border: 3px solid rgba(255, 255, 255, 0.8);
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-		}
 	}
 
 	.sect_3 {
+		position: relative;
 		background: linear-gradient(to right, #2579be, #2592d4);
-		&--clipbg {
-			background-color: #fff;
-		}
-
-		&__clipbg--bots {
-			height: 60px;
-			background: linear-gradient(to right, #2579be, #2592d4);
-			-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 80% 5%, 0 98%);
-			clip-path: polygon(0 0, 100% 0%, 100% 100%, 80% 5%, 0 98%);
-		}
-
+		
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -293,7 +249,9 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.3em;
-			padding-bottom: 25px;
+			@include is-sp{
+				padding-bottom: 25px;
+			}
 		}
 
 		.l-wrap {
@@ -303,7 +261,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
-			padding: 90px 0;
+			padding: 160px 0 90px 0;
 			@include is-max(1000px) {
 				flex-direction: column-reverse;
 			}
@@ -337,8 +295,8 @@
 					@include font-line(13, 26);
 					text-align: left;
 					color: #fff;
-					padding-top: 22px;
-					padding-bottom: 22px;
+					padding-top: 15px;
+					padding-bottom: 15px;
 					letter-spacing: 0.11em;
 					text-align: justify;
 
@@ -353,7 +311,7 @@
 					background-color: #fff;
 					padding-left: 30px;
 					padding-right: 30px;
-					padding-top: 20px;
+					padding-top: 15px;
 					padding-bottom: 15px;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
@@ -385,65 +343,19 @@
 			&--right {
 			}
 		}
-
-		.btn_wrap {
-			padding-top: 15px;
-			width: 395px;
-			display: flex;
-			justify-content: center;
-			@include is-max(1000px) {
-				padding-top: 50px;
-				width: 100%;
-			}
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #258acf;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border-radius: 50px;
-				border: 3px solid rgba(255, 255, 255, 0.8);
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-		}
 	}
 
 	.sect_4 {
+		position: relative;
+		margin-top: 130px;
+		margin-bottom:60px;
 		background-color: #fff;
-		&--clipbg {
-			background-color: #fff;
-		}
 
-		&__clipbg--tops {
+		&::after{
+			content:"";
+			position:absolute;
+			width:100%;
+			bottom: -61px;
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
@@ -456,9 +368,10 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.15em;
-			padding-bottom: 25px;
+
 			@include is-max(1000px) {
 				order: 1;
+				padding-bottom: 25px;
 			}
 		}
 
@@ -477,7 +390,6 @@
 			text-align: left;
 			font-weight: 500;
 			margin-bottom: 5px;
-			margin-top: 70px;
 		}
 
 		&__header {
@@ -544,8 +456,8 @@
 				@include font-line(13, 26);
 				text-align: left;
 				color: #000;
-				padding-top: 22px;
-				padding-bottom: 22px;
+				padding-top: 15px;
+				padding-bottom: 15px;
 				letter-spacing: 0.2em;
 				text-align: justify;
 				font-weight: 500;
@@ -566,7 +478,7 @@
 				background-color: #fff;
 				padding-left: 30px;
 				padding-right: 30px;
-				padding-top: 20px;
+				padding-top: 15px;
 				padding-bottom: 15px;
 				border: 2px solid #87b2db;
 				&_ttl {
@@ -602,65 +514,21 @@
 				}
 			}
 		}
-
-		.btn_wrap {
-			padding-top: 55px;
-			width: 100%;
-			display: flex;
-			justify-content: center;
-			@include is-max(1000px) {
-				order: 4;
-			}
-
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #2589ce;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border-radius: 50px;
-				border: 2px solid #8bb1d0;
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-		}
 	}
 
 	.sect_5 {
+		position: relative;
+		margin-bottom: 60px;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
 		&--clipbg {
 			background-color: #fff;
 		}
 
-		&__clipbg--bots {
+		&::after{
+			content:"";
+			position:absolute;
+			width:100%;
+			bottom: -59px;
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
@@ -674,7 +542,9 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.3em;
-			padding-bottom: 20px;
+			@include is-sp{
+				padding-bottom: 20px;
+			}
 		}
 
 		.l-wrap {
@@ -717,8 +587,8 @@
 					@include font-line(13, 26);
 					text-align: left;
 					color: #000;
-					padding-top: 22px;
-					padding-bottom: 22px;
+					padding-top: 15px;
+					padding-bottom: 15px;
 					letter-spacing: 0.2em;
 					text-align: justify;
 
@@ -733,7 +603,7 @@
 					background-color: #fff;
 					padding-left: 30px;
 					padding-right: 30px;
-					padding-top: 20px;
+					padding-top: 15px;
 					padding-bottom: 15px;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
@@ -769,23 +639,6 @@
 
 	.sect_6 {
 		background: #fff;
-		&--clipbg {
-			background-color: #fff;
-		}
-
-		&__clipbg--bots {
-			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
-			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
-			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
-		}
-
-		&__clipbg--tops {
-			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
-			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-		}
 
 		.txt_ttl {
 			@include font-line(24, 30);
@@ -840,8 +693,8 @@
 					@include font-line(13, 26);
 					text-align: left;
 					color: #000;
-					padding-top: 22px;
-					padding-bottom: 22px;
+					padding-top: 15px;
+					padding-bottom: 15px;
 					letter-spacing: 0.2em;
 					text-align: justify;
 					font-weight: 500;
@@ -857,7 +710,7 @@
 					background-color: #fff;
 					padding-left: 30px;
 					padding-right: 30px;
-					padding-top: 20px;
+					padding-top: 15px;
 					padding-bottom: 15px;
 					border: 2px solid #2589ce;
 					&_ttl {
@@ -893,70 +746,32 @@
 				}
 			}
 		}
-
-		.btn_wrap {
-			padding-top: 55px;
-			width: 100%;
-			display: flex;
-			justify-content: center;
-			@include is-max(1000px) {
-				order: 4;
-			}
-
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #fff;
-				background-color: #a72f37;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border-radius: 50px;
-				// border: 3px solid rgba(255,255,255,0.8);
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_1.svg") no-repeat center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-		}
 	}
 
 	.sect_7 {
+		position: relative;
+		margin-top: 60px;
+		margin-bottom:60px;
+		padding-top:70px;
+		padding-bottom: 33px;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
-		&--clipbg {
-			background-color: #fff;
-		}
-		&__clipbg--tops {
+
+		&::before{
+			content:" ";
+			position: absolute;
+			width: 100%;
+			top: -59px;
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
 		}
 
-		&__clipbg--bots {
+		&::after{
+			content:" ";
+			position: absolute;
+			width: 100%;
+			bottom: -59px;
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
@@ -978,7 +793,6 @@
 			text-align: left;
 			font-weight: 500;
 			margin-bottom: 5px;
-			margin-top: 70px;
 			@include is-max(1000px) {
 				@include font-line(13, 20);
 				letter-spacing: 0.21em;
@@ -1014,58 +828,12 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
+			padding-bottom: 55px;
 			@include is-max(1000px) {
 			}
 		}
 
-		.btn_wrap {
-			padding-top: 55px;
-			padding-bottom: 35px;
-			width: 100%;
-			display: flex;
-			justify-content: center;
 
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #2589ce;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				padding-left: 35px;
-				border-radius: 50px;
-				border: 2px solid #8bb1d0;
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-		}
 
 		.card_ttl {
 			font-family: cross-platform-yu-gothic;
@@ -1092,22 +860,10 @@
 	}
 
 	.sect_8 {
+		padding-top: 70px;
 		background-color: #fff;
 		&--clipbg {
 			background-color: #fff;
-		}
-		&__clipbg--tops {
-			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
-			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
-		}
-
-		&__clipbg--bots {
-			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
-			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
-			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 		}
 
 		.l-wrap {
@@ -1127,7 +883,6 @@
 			text-align: left;
 			font-weight: 500;
 			margin-bottom: 5px;
-			margin-top: 70px;
 
 			@include is-max(1000px) {
 				@include font-line(13, 20);
@@ -1158,54 +913,6 @@
 				width: 100%;
 				@include is-max(1000px) {
 					margin-top: unset;
-				}
-			}
-		}
-
-		.btn_wrap {
-			padding-top: 55px;
-			padding-bottom: 35px;
-			width: 100%;
-			display: flex;
-			justify-content: center;
-
-			.btn {
-				display: flex;
-				width: 290px;
-				text-decoration: none;
-				color: #2589ce;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				border-radius: 50px;
-				border: 2px solid #8bb1d0;
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				justify-content: center;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
 				}
 			}
 		}
@@ -1270,76 +977,10 @@
 			margin: auto;
 			z-index: 2;
 
-			@include is-max(1000px) {
-				width: 100%;
-				flex-wrap: wrap;
-				justify-content: center;
-				padding-top: 50px;
-			}
-
-			.btn {
-				display: inline-block;
-				width: 290px;
-				text-decoration: none;
-				color: #258acf;
-				background-color: #fff;
-				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
-				padding-left: 35px;
-				border-radius: 50px;
-				border: 2px solid #2589ce;
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-
-				@include is-max(1000px) {
-					width: 100%;
-					padding-top: 25px;
-					padding-bottom: 25px;
-				}
-			}
-
-			.btn:nth-of-type(1) {
-				@include is-max(1000px) {
-					margin-bottom: 25px;
-				}
-			}
-
-			.icon_left {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
-
-			.icon_right {
-				position: relative;
-				&::after {
-					position: absolute;
-					content: "";
-					background: url("../image/groupbusiness/arrow_icon.svg") no-repeat
-						center;
-					background-size: cover;
-					width: 10px;
-					height: 10px;
-					top: 23px;
-					right: 20px;
-					@include is-max(1000px) {
-						top: 33px;
-					}
-				}
-			}
 		}
 	}
+}
+
+img{
+	width: 100%;
 }
