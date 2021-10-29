@@ -26,6 +26,17 @@
         <div class="sect_1-cntnt">
             <div class="sect_1-cntnt-row">
                 <div class="sect_1-cntnt-row-01">
+
+                    <div class="row01-ttl">
+                        <div class="row01-ttl-01">
+                            <p class="row01-ttl-01-txt01">収益不動産の売買</p>
+                        </div>
+                        <div class="row01-ttl-02">
+                            <p class="row01-ttl-01-txt02">Real Estate Purchase</p>
+                        </div>                  
+                    </div>
+
+
                     <div class="col--box">
                         <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-1.png" alt="">
                         <p class="top-text01">
@@ -51,12 +62,12 @@
                     <div class="sect_1-cntnt-row-02-txt">
                         <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
                     </div>
-
+                   
                     <div class="c-buttonCase u-l-algn">
                         <p class="txt">収益不動産の管理について</p>
                         <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
                         
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -71,6 +82,7 @@
                 <div class="sect_2-cntnt">
                 <div class="sect_2-cntnt-row">
                     <div class="sect_2-cntnt-row-01">
+
                         <div class="sect_2-cntnt-row-01-txt">
                             <p class="sect_2-cntnt-row-01-txt-01">収益不動産の管理</p>
                         </div>
@@ -87,6 +99,15 @@
                         </div>
                     </div>
                     <div class="sect_2-cntnt-row-02">
+
+                        <div class="row01-ttl">
+                                <div class="row01-ttl-01">
+                                    <p class="row01-ttl-01-txt01">収益不動産の管理</p>
+                                </div>
+                                <div class="row01-ttl-02">
+                                    <p class="row01-ttl-01-txt02">Real Estate Managemente</p>
+                                </div>                  
+                        </div>
                         <div class="col--box">
                              <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-2.png" alt="">
                             <p class="top-text01">
@@ -116,6 +137,15 @@
             <div class="sect_3-cntnt">
                 <div class="sect_3-cntnt-row">
                     <div class="sect_3-cntnt-row-01">
+
+                        <div class="row01-ttl">
+                            <div class="row01-ttl-01">
+                                <p class="row01-ttl-01-txt01">収益不動産の運用</p>
+                            </div>
+                            <div class="row01-ttl-02">
+                                <p class="row01-ttl-01-txt02">Real Estate Operation</p>
+                            </div>                  
+                        </div>
                         <div class="col--box">
                             <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-3.png" alt="">
                             <p class="top-text01">
@@ -158,6 +188,7 @@
             <img class="bg_1_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1_rd.png" alt="">
             <img class="bg_2_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2_rd.png" alt="">
             <img class="bg_3_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3_rd.png" alt="">
+            <img class="bg_2_rd_sp" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2_rd_sp.png" alt="">
             <div class="sect_4-cntnt">
                 <div class="sect_4-cntnt-row">
                     <div class="sect_4-cntnt-row-01">
@@ -177,6 +208,15 @@
                         </div>
                     </div>
                     <div class="sect_4-cntnt-row-02">
+
+                         <div class="row01-ttl">
+                            <div class="row01-ttl-01">
+                                <p class="row01-ttl-01-txt01">アセットマネジメント</p>
+                            </div>
+                            <div class="row01-ttl-02">
+                                <p class="row01-ttl-01-txt02">Asset Management</p>
+                            </div>                  
+                        </div>
                         <div class="col--box">
                             <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-4.png" alt="">
                             <p class="top-text01">
@@ -289,103 +329,129 @@
     </div>
 </section>
 <section class="sect_6">
-    <div class="clipPath">
+    <!-- <div class="clipPath"> -->
+        <div class="c-case--items fp">
         <div class="l-wrap">
-            <!-- <img class="bg_7" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_7.png" alt="">
-            <img class="bg_8" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_8.png" alt=""> -->
-            <div class="sect_6-cntnt">
-                <div class="sect_6-cntnt-txt">
-                    <p class="sect_6-cntnt-txt-ttl">CASE STUDIES</p>
-                    <p class="sect_6-cntnt-txt-sub">バリューアップ事例</p>
-                    <p class="sect_6-cntnt-txt-desc">20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。
-                                 お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。</p>
+            <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_1.png" alt="">
+            <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_2.png" alt="">
+            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_3.png" alt="">
+            <img class="bg_6_sp" src="<?php echo get_template_directory_uri();?>/release/image/background/sec6_bg_sp.png" alt="">
+            <div class="c-case--items__contents">
+                    <div class="c-case03__txt u-ta-l">
+                        <p class="c-case03__txt__ttl">Real estate column</p>
+                        <p class="c-case03__txt__sub">●●●●コラム</p>
+                        <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                            情報収集をして、後悔のない不動産投資を！</p>
+                    </div>
+
+
+
                 </div>
-
-                <div class="crd-wrppr u-d-f u-jc-sb">
-                    <div class="c-cards09"> 
-                        <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img1.png" alt="">
-                            <div class="c-cards09-img-num">
-                                <p>01</p>
-                            </div>
-                            <div class="c-cards09-img-view">
-                                <p>VIEW <br>MORE</p>
+                <div class="c-slider slider u-ta-l u-pt-0">
+                    <div class="c-slider__item">
+                        <div class="bg_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case09.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/logo.svg" alt="">
+                            <p class="realestate"><span>R</span>eal Estate</p>
+                            <p class="purchase"><span>P</span>urchase</p>
+                            <div class="tl_50">
+                                <p>失敗しないための収益不動産知識</p>
+                                <p>ダミーですこの文章は
+                                </p>
+                                <p>ダミーです。</p>
                             </div>
                         </div>
-                        <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
-                            </p>
-                            <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
-                        </div>
+                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
-
-                    <div class="c-cards09"> 
-                        <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img2.png" alt="">
-                            <div class="c-cards09-img-num">
-                                <p>02</p>
-                            </div>
-                            <div class="c-cards09-img-view">
-                                <p>VIEW <br>MORE</p>
+                    <div class="c-slider__item">
+                        <div class="bg_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case10.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/logo.svg" alt="">
+                            <p class="youtube"><span>Y</span>outube</p>
+                            <p class="movies"><span>M</span>ovie</p>
+                            <div class="tl_50">
+                                <p>Youtube 動画紹介</p>
+                                <p>ダミーですこの文章は</p>
+                                <p>ダミーです。</p>
                             </div>
                         </div>
-                        <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
-                            </p>
-                            <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
-                        </div>
+                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
-
-                    <div class="c-cards09"> 
-                        <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img3.png" alt="">
-                            <div class="c-cards09-img-num">
-                                <p>03</p>
-                            </div>
-                            <div class="c-cards09-img-view">
-                                <p>VIEW <br>MORE</p>
+                    <div class="c-slider__item">
+                        <div class="bg_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/sect_3_img.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/logo.svg" alt="">
+                            <p class="achieve"><span>A</span>chievement</p>
+                            <p class="interview"><span>I</span>nterview</p>
+                            <div class="tl_50">
+                                <p>実績インタビュー</p>
+                                <p>ダミーですこの文章は</p>
+                                <p>ダミーです。</p>
                             </div>
                         </div>
-                        <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
-                            </p>
-                            <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
-                        </div>
+                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
-
-                    <div class="c-cards09"> 
-                        <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img4.png" alt="">
-                            <div class="c-cards09-img-num">
-                                <p>04</p>
-                            </div>
-                            <div class="c-cards09-img-view">
-                                <p>VIEW <br>MORE</p>
+                    <div class="c-slider__item">
+                        <div class="bg_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case09.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/logo.svg" alt="">
+                            <p class="realestate"><span>R</span>eal Estate</p>
+                            <p class="purchase"><span>P</span>urchase</p>
+                            <div class="tl_50">
+                                <p>失敗しないための収益不動産知識</p>
+                                <p>ダミーですこの文章は</p>
+                                <p>ダミーです。</p>
                             </div>
                         </div>
-                        <div class="c-cards09-desc">
-                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
-                            </p>
-                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                    </div>
+                    
+                    <div class="c-slider__item">
+                        <div class="bg_img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case10.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/logo.svg" alt="">
+                            <p class="achieve"><span>A</span>chievement</p>
+                            <p class="interview"><span>I</span>nterview</p>
+                            <div class="tl_50">
+                                <p>失敗しないための収益不動産知識</p>
+                                <p>ダミーですこの文章は
+                                </p>
+                                <p>ダミーです。</p>
+                            </div>
                         </div>
+                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
                 </div>
 
                 <div class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
-			    </div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                </div>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 </section>
+
 <section class="sect_7">
     <div class="clipPath">
         <div class="l-wrap">
              <img class="bg_11" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_11.png" alt="">
             <img class="bg_10" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_10.png" alt="">
             <div class="sect_7-cntnt">
-                <div class="u-d-f u-jc-sb">
+                <div class="sect_7-cntnt-rows u-d-f u-jc-sb">
+                         <div class="row01-ttl">
+                            <div class="row01-ttl-01">
+                                <p class="row01-ttl-01-txt01">代表からのご挨拶</p>
+                            </div>
+                            <div class="row01-ttl-02">
+                                <p class="row01-ttl-01-txt02">message</p>
+                            </div>                  
+                        </div>
                     <div class="sect_7-cntnt-rows-01">
                     <img class="bg_9" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_9.png" alt="">
                         <div class="sect_7-cntnt-rows-01-txt">
@@ -423,10 +489,74 @@
         </div>
     </div>
 </section>
-<section class="sect_8">8</section>
-<section class="sect_9">9</section>
+<section class="sect_8">
+    <div class="l-wrap">
+
+        <img class="bg_12" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_12.png" alt="">
+        <img class="bg_13" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_13.png" alt="">
+        <img class="bg_14" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_14.png" alt="">
+        <div class="sect_8-cntnt">
+            <div class="sect_8-cntnt-txt">  
+                <p class="sect_8-cntnt-txt-ttl">NEWS</p>
+                <p class="sect_8-cntnt-txt-sub">丸の内ルーフのニュース</p>
+            </div>
+
+            <div class="sect_8-cntnt-news">
+                <div class="sect_8-cntnt-news-cntnt">
+                    <div class="sect_8-cntnt-news-cntnt-date">
+                        <p>2020年9月1日</p>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt-txt">
+                        <p>事務所を移転いたしました。
+                            <br>
+                            〒100-6334 
+                            <br>
+                            東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR</p>
+                    </div>
+                </div>
+                <div class="sect_8-cntnt-news-cntnt">
+                    <div class="sect_8-cntnt-news-cntnt-date">
+                        <p>2020年9月1日</p>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt-txt">
+                        <p>事務所を移転いたしました。
+                            <br>
+                            〒100-6334 
+                            <br>
+                            東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR</p>
+                    </div>
+                </div>
+                <div class="sect_8-cntnt-news-cntnt">
+                    <div class="sect_8-cntnt-news-cntnt-date">
+                        <p>2020年9月1日</p>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt-txt">
+                        <p>事務所を移転いたしました。
+                            <br>
+                            〒100-6334 
+                            <br>
+                            東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR</p>
+                    </div>
+                </div>
+                <div class="sect_8-cntnt-news-cntnt">
+                    <div class="sect_8-cntnt-news-cntnt-date">
+                        <p>2020年9月1日</p>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt-txt">
+                        <p>事務所を移転いたしました。
+                            <br>
+                            〒100-6334 
+                            <br>
+                            東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="sect_9">9</section>
 <section class="sect_10">10</section>
 <section class="sect_11">11</section>
-<section class="sect_12">12</section>
+<section class="sect_12">12</section> -->
 </div>
 <?php get_footer(); ?>

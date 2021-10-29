@@ -18,7 +18,7 @@
 <body <?php body_class(); ?>>
     
 <main>
-    <div class="page__header">
+    <!-- <div class="page__header">
         <div class="top-header">
             <div class="top-header-nav u-d-f u-jc-sb">
                 <div class="brnd-logo">
@@ -93,11 +93,11 @@
                     </div> 
                 </div>
             </div>
-              <!-- CLIP -->
+            
             <div class="clip">
             
             </div>
-        </div>
+        </div> -->
        
     </div>
     

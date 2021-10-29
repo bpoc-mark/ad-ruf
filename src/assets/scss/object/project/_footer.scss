@@ -236,10 +236,15 @@
         padding-top: 99px;
         padding-bottom: 20px;
         flex-direction: column;
+        background-image: url(../../image/footer/footer_bg.png);
 
         &-hdr {
             text-align: center;
             color: #fff;
+
+            @include is-sp {
+                margin-bottom: 48px;
+            }
 
             p:nth-child(1) {
                 font-size:10px;
@@ -247,6 +252,12 @@
                 font-weight: 400;
                 letter-spacing: 2px;
                 font-family: century-gothic, sans-serif;
+
+                @include is-sp {
+                    @include font-line(25,20);
+                    letter-spacing: 0.32em;
+                    margin-bottom: 52px;
+                }
             }
 
             p:nth-child(2) {
@@ -254,6 +265,11 @@
                 letter-spacing: 2px;
                 line-height: 37px;
                 font-family: yu-mincho-pr6n, sans-serif;
+
+                @include is-sp {
+                    @include font-line(50,75);
+                    letter-spacing: 0.2em;
+                }
             }
         }
 
@@ -261,10 +277,26 @@
             padding-top: 44px;
             display: flex;
             justify-content: space-between;
+            
+            @include is-sp {
+                margin-bottom: 30px;
+            }
+
+            @include is-max(1051px){
+                display: block;
+                margin-bottom: 30px;
+                padding: 0 20px;
+            }
+
 
             &-dtl {
                 text-align: center;  
                 border-radius: 25px;
+
+                @include is-max(1051px){
+                    margin-bottom: 30px;
+                   
+                }
                
                 
                 &-link {
@@ -273,15 +305,27 @@
                     width: 310px;
                     padding: 27px 0 23px 0;
 
+                   
+
                     p:nth-child(1) {
                         font-size: 18px;
                         font-weight: 500;
                         font-family: yu-mincho-pr6n, sans-serif;
+
+                        @include is-sp {
+                            @include font-line(36,40);
+                            letter-spacing: 0.12em;
+                        }
                     }
 
                     p:nth-child(2) {
                         font-size: 11px;
                         font: 500  'cross-platform-yu-gothic';
+
+                        @include is-sp {
+                            @include font-line(30, 36);
+                            letter-spacing: 0.1em;
+                        }
                     }
                    
                 }

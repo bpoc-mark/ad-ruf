@@ -48,7 +48,7 @@
                       
                     </div>
 
-                    <div class="nav-footer-col2">
+                    <!-- <div class="nav-footer-col2">
                     
                             <div class="ttl">
                                 <a href="">RUF</a>
@@ -118,7 +118,7 @@
                         
                     </div>
 
-                </div>
+                </div> -->
 
                 <div class="lower-footer">
                     <p class="lower-footer-copyright">

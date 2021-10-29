@@ -45,7 +45,7 @@ $imagedir = get_template_directory_uri();
 						<div class="c-case--items__contents--row_2__txt">
 							<p class="c-case--items__contents--row_2__txt ttl">1991年竣工、6階建、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">外壁に、トーンの低いタイルを使われていることもあり、全体的に暗くどんよりとした印象でした。1F外壁に明るい化粧タイルを貼ることで、清潔感があり、明るいイメージに一新することに成功しまし</p>
+							<p class="c-case--items__contents--row_2__txt desc">外壁に、トーンの低いタイルを使われていることもあり、全体的に暗くどんよりとした印象でした。1F外壁に明るい化粧タイルを貼ることで、清潔感があり、明るいイメージに一新することに成功しまし。</p>
 						</div>
 					</div>
 				</div>

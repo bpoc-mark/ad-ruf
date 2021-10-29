@@ -60,9 +60,9 @@
 			font-weight: 400;
 			font-family: century-gothic, sans-serif;
 			text-align: center;
-			letter-spacing: .32em;
+			letter-spacing: 0.32em;
 
-			@include font-line(10,20);
+			@include font-line(10, 20);
 		}
 	}
 
@@ -107,6 +107,68 @@
 					top: -30px;
 				}
 			}
+		}
+	}
+
+	.csm--content-row {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+
+		@include is-max(1000px) {
+			justify-content: space-between;
+		}
+		// justify-content: space-between;
+		.col {
+			width: 31.63265306122449%;
+			margin-bottom: 60px;
+			&:nth-child(3n + 2) {
+				margin: 0 2.5%;
+			}
+
+			@include is-max(1000px) {
+				width: 48%;
+				margin-bottom: 49px;
+
+				&:nth-child(3n + 2) {
+					margin: 0 0 49px 0;
+				}
+
+				&:last-child {
+					margin: 0;
+				}
+			}
+
+			@include is-sp {
+				width: 100%;
+			}
+		}
+	}
+}
+
+// case study main
+.csm {
+	.c-case--items:nth-child(odd) {
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+
+		@include is-sp {
+			clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+			padding-top: 76px;
+		}
+
+		.bg_2 {
+			top: 250px;
+		}
+
+		.bg_3 {
+			top: 50px;
+		}
+
+		.bg_7 {
+			position: absolute;
+			bottom: 214px;
+			top: unset;
+			right: 59px;
 		}
 	}
 }

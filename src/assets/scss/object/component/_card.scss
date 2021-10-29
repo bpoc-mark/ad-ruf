@@ -1,327 +1,329 @@
 .c-card01 {
-    display: block;
-    background-color: white;
-    position: relative;
-    margin: 20px auto;
-    padding: 2%;
+	display: block;
+	background-color: white;
+	position: relative;
+	margin: 20px auto;
+	padding: 2%;
 
-    &--md {
-        width: calc(90%/3);
+	&--md {
+		width: calc(90% / 3);
 
-        @include is-sp {
-            width: 100%;
-            padding: 20px;
-        }
-    }
+		@include is-sp {
+			width: 100%;
+			padding: 20px;
+		}
+	}
 
-    &__top,
-    &__center,
-    &__bottom {
-        text-align: center;
-    }
+	&__top,
+	&__center,
+	&__bottom {
+		text-align: center;
+	}
 
-    &__center,
-    &__bottom {
-        height: 200px;
-    }
+	&__center,
+	&__bottom {
+		height: 200px;
+	}
 
-    &__bottom {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
+	&__bottom {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
 
-        @include is-sp {
-            width: 100%;
-            height: 240px;
-        }
+		@include is-sp {
+			width: 100%;
+			height: 240px;
+		}
 
-        @include is-tabpc {
-            max-height: 200px;
-            margin-bottom: 20px;
-        }
-    }
+		@include is-tabpc {
+			max-height: 200px;
+			margin-bottom: 20px;
+		}
+	}
 
-    &__pic {
-        width: 100%;
-        height: 100%;
-    }
+	&__pic {
+		width: 100%;
+		height: 100%;
+	}
 
-    &__title,
-    &__desc {
-        padding: 20px;
-    }
+	&__title,
+	&__desc {
+		padding: 20px;
+	}
 
-    &__title {
-        @include is-pc {
-            @include font-line(18);
-            font-weight: 600;
-        }
-    }
+	&__title {
+		@include is-pc {
+			@include font-line(18);
+			font-weight: 600;
+		}
+	}
 
-    &__desc {
-        letter-spacing: 1px;
+	&__desc {
+		letter-spacing: 1px;
 
-        @include is-tabpc {
-            @include font-line(13);
-            font-weight: 700;
-        }
-    }
+		@include is-tabpc {
+			@include font-line(13);
+			font-weight: 700;
+		}
+	}
 }
 
 .c-card02 {
-    position: relative;
-    display: inline-block;
-    padding: 30px;
-    margin: 20px;
-    transition: padding 0.3s ease-out;
+	position: relative;
+	display: inline-block;
+	padding: 30px;
+	margin: 20px;
+	transition: padding 0.3s ease-out;
 
-    /* Pre-render the bigger shadow, but hide it */
-    &::after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        -webkit-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
-        opacity: 0;
-        transition: opacity 0.3s ease-out;
-    }
+	/* Pre-render the bigger shadow, but hide it */
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		-webkit-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
+		-moz-box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
+		box-shadow: 0px 0px 20px 0px rgba(30, 144, 255, 0.3);
+		opacity: 0;
+		transition: opacity 0.3s ease-out;
+	}
 
-    &:hover {
-        padding: 35px;
+	&:hover {
+		padding: 35px;
 
-        &::after {
-            opacity: 1;
-        }
-    }
+		&::after {
+			opacity: 1;
+		}
+	}
 
-    &__pic {
-        height: 75px;
+	&__pic {
+		height: 75px;
 
-        img {
-            max-height: 100%;
-        }
-    }
+		img {
+			max-height: 100%;
+		}
+	}
 }
 
 .c-card03 {
-    position: relative;
-    padding: 30px;
-    height: 180px;
-    width: calc(100%/4);
+	position: relative;
+	padding: 30px;
+	height: 180px;
+	width: calc(100% / 4);
 
-    &__pic {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-content: center;
-        align-items: center;
+	&__pic {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-content: center;
+		align-items: center;
 
-        img {
-            max-height: 100%;
-            max-width: 100%;
-            margin: auto;
-        }
-    }
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			margin: auto;
+		}
+	}
 }
 
 .c-card04 {
-    display: block;
-    background-color: white;
-    position: relative;
-    margin: 20px auto;
-    padding: 2%;
+	display: block;
+	background-color: white;
+	position: relative;
+	margin: 20px auto;
+	padding: 2%;
 
-    &--md {
-        width: calc(90%/3);
+	&--md {
+		width: calc(90% / 3);
 
-        @include is-sp {
-            width: 100%;
-            padding: 20px;
-        }
-    }
+		@include is-sp {
+			width: 100%;
+			padding: 20px;
+		}
+	}
 
-    &__top,
-    &__center,
-    &__bottom {
-        text-align: center;
-    }
+	&__top,
+	&__center,
+	&__bottom {
+		text-align: center;
+	}
 
-    &__bottom {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+	&__bottom {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-        @include is-sp {
-            width: 100%;
-            height: 280px;
-            align-items: flex-start;
-        }
+		@include is-sp {
+			width: 100%;
+			height: 280px;
+			align-items: flex-start;
+		}
 
-        @include is-tabpc {
-            margin-bottom: 20px;
-        }
-    }
+		@include is-tabpc {
+			margin-bottom: 20px;
+		}
+	}
 
-    &__pic {
-        width: 100%;
-        height: 100%;
-    }
+	&__pic {
+		width: 100%;
+		height: 100%;
+	}
 
-    &__title,
-    &__desc {
-        padding: 20px 5px;
-        @include is-sp{
-            padding: 15px 5px;
-        }
-    }
+	&__title,
+	&__desc {
+		padding: 20px 5px;
+		@include is-sp {
+			padding: 15px 5px;
+		}
+	}
 
-    &__title {
-        @include is-tabpc {
-            @include font-line(18);
-            font-weight: 900;
-        }
-    }
+	&__title {
+		@include is-tabpc {
+			@include font-line(18);
+			font-weight: 900;
+		}
+	}
 
-    &__desc {
-        letter-spacing: 1px;
+	&__desc {
+		letter-spacing: 1px;
 
-        @include is-tabpc {
-            @include font-line(13);
-            font-weight: 700;
-        }
-    }
+		@include is-tabpc {
+			@include font-line(13);
+			font-weight: 700;
+		}
+	}
 }
 
 .c-card05 {
-    text-decoration: none;
-    color: $color-text04;
-    display: block;
-    padding: 20px;
-    word-break: break-word;
-    border-color: #ececec;
-    transition: box-shadow .2s ease, -webkit-transform .3s cubic-bezier(.34, 2, .6, 1);
-    transition: transform .3s cubic-bezier(.34, 2, .6, 1), box-shadow .2s ease;
-    transition: transform .3s cubic-bezier(.34, 2, .6, 1), box-shadow .2s ease, -webkit-transform .3s cubic-bezier(.34, 2, .6, 1);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-    margin-bottom: 20px;
+	text-decoration: none;
+	color: $color-text04;
+	display: block;
+	padding: 20px;
+	word-break: break-word;
+	border-color: #ececec;
+	transition: box-shadow 0.2s ease,
+		-webkit-transform 0.3s cubic-bezier(0.34, 2, 0.6, 1);
+	transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease;
+	transition: transform 0.3s cubic-bezier(0.34, 2, 0.6, 1), box-shadow 0.2s ease,
+		-webkit-transform 0.3s cubic-bezier(0.34, 2, 0.6, 1);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
 
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
-    }
+	&:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+	}
 
-    &--l {
-        height: 500px;
-    }
+	&--l {
+		height: 500px;
+	}
 
-    &__top {
-        height: 12rem;
-        margin-bottom: 1rem;
-        position: relative;
+	&__top {
+		height: 12rem;
+		margin-bottom: 1rem;
+		position: relative;
 
-        .feature {
-            display: block;
-            height: inherit;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50%;
-        }
+		.feature {
+			display: block;
+			height: inherit;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 50%;
+		}
 
-        .stamp {
-            position: absolute;
-            top: -10px;
-            left: -10px;
-        }
-    }
+		.stamp {
+			position: absolute;
+			top: -10px;
+			left: -10px;
+		}
+	}
 
-    &__center {
-        height: 12rem;
+	&__center {
+		height: 12rem;
 
-        .description {
-            height: inherit;
-            overflow: hidden;
-        }
+		.description {
+			height: inherit;
+			overflow: hidden;
+		}
 
-        .title {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            margin: 0;
-        }
+		.title {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			margin: 0;
+		}
 
-        .summary {
-            overflow-y: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 5;
-            -webkit-box-orient: vertical;
-        }
-    }
+		.summary {
+			overflow-y: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 5;
+			-webkit-box-orient: vertical;
+		}
+	}
 
-    &__bottom {
-        margin: 20px 0 0;
-        .info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+	&__bottom {
+		margin: 20px 0 0;
+		.info {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-        .author {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-        }
+		.author {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 10px;
+		}
 
-        .avatar {
-            height: 2.5rem;
-            width: 2.5rem;
-            border-radius: 999px;
-        }
-    }
+		.avatar {
+			height: 2.5rem;
+			width: 2.5rem;
+			border-radius: 999px;
+		}
+	}
 }
 
 .c-card06 {
-    position: relative;
+	position: relative;
 	// padding: 0 10px;
-    height: 270px;
-    width: 220px;
-	@include is-max(1000px){
+	height: 270px;
+	width: 220px;
+	@include is-max(1000px) {
 		width: 48%;
 		padding-bottom: 20px;
 		height: auto;
 	}
 
-    &__pic {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-content: center;
-        align-items: center;
+	&__pic {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-content: center;
+		align-items: center;
 
-        img {
-            max-height: 100%;
-            max-width: 100%;
-            margin: auto;
-        }
-    }
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			margin: auto;
+		}
+	}
 
 	&__top,
-    &__bottom {
-        text-align: center;
+	&__bottom {
+		text-align: center;
 		background-color: #fff;
-    }
+	}
 
-	&__bottom{
+	&__bottom {
 		padding: 20px;
-		@include is-max(1000px){
+		@include is-max(1000px) {
 			min-height: 135px;
 			padding: 20px 0;
 		}
@@ -329,46 +331,51 @@
 }
 
 .c-card07 {
-    position: relative;
-    // height: 190px;
-    width: calc(100%/3);
+	position: relative;
+	// height: 190px;
+	width: calc(100% / 3);
 	padding-right: 28px;
 	border-right: 2px dashed #aeaeae;
 	padding-left: 35px;
-	@include is-max(1000px){
+	@include is-max(1000px) {
 		width: 100%;
 		padding: unset;
 		border: none;
 	}
 
-
-	&__top,&__bottom{
+	&__top,
+	&__bottom {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 
-	&__top{
+	&__top {
 		border-bottom: 2px solid #2589ce;
-		@include is-max(1000px){
+		@include is-max(1000px) {
 			padding-top: 30px;
 		}
 	}
 
-	&__bottom{
-		@include is-max(1000px){
+	&__bottom {
+		@include is-max(1000px) {
 			padding-bottom: 25px;
 			border-bottom: 2px dashed #aeaeae;
 		}
 	}
 
-	&:last-child{
+	&:last-child {
 		padding-right: unset;
 		border: none;
 	}
 
-	&:first-child{
+	&:first-child {
 		padding-left: unset;
+	}
+
+	&.bd-pr-n {
+		border: none;
+		padding-right: unset;
 	}
 }
 
@@ -410,6 +417,21 @@
                 color: #fff;
                 padding-top: 31px;
                 padding-left: 10px;
+				position: relative;
+
+				&::before{
+					content: '';
+					position: absolute;
+					bottom: -24%;
+					left: 26%;
+					width: 26%;
+					height: 30%;
+					clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+					background-color: black;
+					transform: rotate(
+					45deg);
+				}
+			
             
             }
         }
@@ -436,4 +458,87 @@
         color: #333;
       }
     }
+}
+.c-card08 {
+	text-align: center;
+	background-color: #fff;
+
+	&__top {
+		position: relative;
+
+		img {
+			width: 100%;
+
+			&:last-child {
+				width: auto;
+				padding-left: 8px;
+			}
+		}
+
+		.num {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+			height: 62px;
+			width: 62px;
+			clip-path: polygon(0 0, 0% 100%, 100% 0);
+			font-family: 'Bebas Neue', cursive;
+
+			p {
+				@include font-line(32.69);
+				font-weight: 400;
+				letter-spacing: 0;
+				color: #fff;
+				position: absolute;
+				transform: translate(24%, -14%);
+			}
+		}
+
+		.view_more {
+			@include font-line(10.04);
+			line-height: 12.42px;
+			letter-spacing: 0.26em;
+			font-family: century-gothic, sans-serif;
+			font-weight: 700;
+			color: #fff;
+			position: absolute;
+			bottom: 8px;
+			right: 0;
+			display: flex;
+			align-items: center;
+			padding: 5px 12px 5px 19px;
+			background: linear-gradient(
+				90deg,
+				rgba(2, 82, 133, 0.9) -17%,
+				rgba(25, 64, 96, 0.7) 83%
+			);
+		}
+	}
+	&__center {
+		@include font-line(14);
+		line-height: 21px;
+		letter-spacing: 0.2em;
+		font-family: cross-platform-yu-gothic;
+		font-weight: 700;
+		color: #258acf;
+		padding: 20px 15px 30px 15px;
+
+		// @include is-sp {
+		// 	font-size: 15px;
+		// }
+	}
+	&__bottom {
+		@include font-line(11);
+		line-height: 16.5px;
+		letter-spacing: 0.2em;
+		font-family: cross-platform-yu-gothic;
+		font-weight: 500;
+		color: #808080;
+		padding: 0 15px 20px 15px;
+
+		// @include is-sp {
+		// 	font-size: 13.4px;
+		// }
+	}
 }
