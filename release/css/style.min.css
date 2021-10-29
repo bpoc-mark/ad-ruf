@@ -598,7 +598,7 @@ template{display:none}
 .acc__title{color:#fff;font-family:yu-mincho-pr6n,sans-serif;letter-spacing:.18em;line-height:1;padding:15px 0 20px 0;text-align:center;font-size:1.875rem;line-height:1.6}
 .acc__sub{color:#fff;font-family:cross-platform-yu-gothic;font-weight:500;letter-spacing:.2em;line-height:1;text-align:center;font-size:.8125rem;line-height:2}
 .acc__main-content{max-width:1100px;margin:0 auto;padding:80px 0 0 0;position:relative;margin-top:20px}
-.acc__main-content--row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.acc__main-content--row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .acc__main-content--row .col_left{width:42%;color:#fff}
 .acc__main-content--row .col_left .info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .acc__main-content--row .col_left .info_left{position:relative;width:100px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-top:1px solid #fff;padding:10px 0}

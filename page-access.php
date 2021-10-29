@@ -23,11 +23,11 @@ $imagedir = get_template_directory_uri();
                             <div class="info">
                                 <div class="info_left il01">
                                     <div>
-                                    <p>住所</p>   
+                                        <p>住所</p>
                                     </div>
-                                    
+
                                 </div>
-                                
+
                                 <div class="info_right ir01">
                                     <p>〒100-6334　東京都千代田区丸の内2-4-1<br>
                                         丸の内ビルディング34F 3401区<br>
@@ -39,7 +39,7 @@ $imagedir = get_template_directory_uri();
                                 <div class="info_left il02">
                                     <p>最寄り駅</p>
                                 </div>
-                                 
+
                                 <div class="info_right ir02">
                                     <p>JR 東京駅…丸の内南口徒歩1分<br>
                                         【東京メトロ 丸の内線】<br>
@@ -47,13 +47,13 @@ $imagedir = get_template_directory_uri();
                                         【東京メトロ 千代田線】<br>
                                         二重橋駅より直結</p>
                                 </div>
-                            </div> 
+                            </div>
 
                             <div class="info">
                                 <div class="info_left il03">
                                     <p>営業時間</p>
                                 </div>
-                                 
+
                                 <div class="info_right ir03">
                                     <p>受付時間9：00～18：00</p>
                                 </div>
@@ -63,7 +63,7 @@ $imagedir = get_template_directory_uri();
                                 <div class="info_left il03">
                                     <p>定休日</p>
                                 </div>
-                                 
+
                                 <div class="info_right ir03">
                                     <p>土日祝</p>
                                 </div>
@@ -72,7 +72,7 @@ $imagedir = get_template_directory_uri();
                     </div>
 
                     <div class="col col_right">
-                        <img class="" src="<?php echo $imagedir ?>/release/image/background/map.png" alt="">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.8300197907433!2d139.7615817!3d35.6811872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf9e8d6b29b%3A0xed2d507ceb26bf31!2sMarunouchi%20Building%2C%2034f%2C%202-ch%C5%8Dme-4-1%20Marunouchi%2C%20Chiyoda%20City%2C%20Tokyo%20100-6390%2C%20Japan!5e0!3m2!1sja!2sph!4v1635498881295!5m2!1sja!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                 </div>
