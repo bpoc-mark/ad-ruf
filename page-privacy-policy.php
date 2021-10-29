@@ -221,11 +221,11 @@ $imagedir = get_template_directory_uri();
             <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
                 <div class="c-buttonCase pp--btn">
                     <p class="txt">会社概要</p>
-                    <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
                 <div class="c-buttonCase pp--btn">
                     <p class="txt">丸の内RUFについて</p>
-                    <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
             </div>
        
