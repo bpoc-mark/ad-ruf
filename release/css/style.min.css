@@ -620,6 +620,30 @@ template{display:none}
 .acc--btn{background-color:#fff;margin:0}
 .acc--btn:first-child{margin-right:30px}
 .acc--btn:last-child{margin-left:30px}
+.acc .acc_ttl{letter-spacing:.28em}
+.acc .acc_sub{line-height:1;padding-bottom:0}
+.case .clipbg_wrap:nth-child(odd){background-color:#fff}
+.case .clipbg_wrap:nth-child(even){background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
+.case .clip-top{-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center;margin-bottom:90px}
+.case .section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);text-align:center}
+.case .section_1 .clip-bottom{-webkit-clip-path:polygon(100% 0,100% 100%,0 100%);clip-path:polygon(100% 0,100% 101%,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center}
+.case .section_1 .l-wrap{position:relative}
+.case .section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
+.case .section_1__ttl{color:#90c2e3;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;font-size:.625rem;line-height:2}
+.case .section_2{padding-top:55px}
+.case .section_2 .photos{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:70px;padding-bottom:55px}
+.case .section_2 .photos img{width:calc(100% / 5)}
+.case .section_3{padding-top:100px}
+.case .section_3 .l-wrap{position:relative}
+.case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px}
+.case .csm--content-row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%}
+.case .csm--content-row .col{width:31.63265306122449%;margin-bottom:60px}
+.case .csm--content-row .col:nth-child(3n+2){margin:0 2.5%}
+.csm .c-case--items:nth-child(odd){-webkit-clip-path:polygon(0 15%,100% 0,100% 100%,0 100%);clip-path:polygon(0 15%,100% 0,100% 100%,0 100%)}
+.csm .c-case--items:nth-child(odd) .bg_2{top:250px}
+.csm .c-case--items:nth-child(odd) .bg_3{top:50px}
+.csm .c-case--items:nth-child(odd) .bg_7{position:absolute;bottom:112px;top:unset;right:10px;z-index:-1;width:auto !important}
+.csm .c-case--items:last-child::after{content:"";width:100%;height:4px;background:#fff;position:absolute;left:0;right:0;bottom:-1px;z-index:-10}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}
@@ -688,6 +712,10 @@ template{display:none}
 .c-card07__bottom{padding-bottom:25px;border-bottom:2px dashed #aeaeae}
 .c-case--items__contents--row_2{padding-left:50px}
 .acc__bg_2{display:none}
+.case .csm--content-row{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.case .csm--content-row .col{width:48%;margin-bottom:49px}
+.case .csm--content-row .col:nth-child(3n+2){margin:0 0 49px 0}
+.case .csm--content-row .col:last-child{margin:0}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
 .l-container.is-column2 .left,.l-container.is-column2 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:30px}
@@ -937,6 +965,14 @@ template{display:none}
 .acc--fd{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .acc--btn:first-child{margin:0}
 .acc--btn:last-child{margin:25px 0 0 0}
+.case .section_1 .clip-bottom{padding:100px 0 0 0}
+.case .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
+.case .section_2 .photos{padding:50px 30px}
+.case .section_2 .photos img{width:calc(100% / 2)}
+.case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px}
+.case .csm--content-row .col{width:100%}
+.csm .c-case--items:nth-child(odd){-webkit-clip-path:polygon(0 6%,100% 0,100% 100%,0 100%);clip-path:polygon(0 6%,100% 0,100% 100%,0 100%);padding-top:76px}
+.csm .c-case--items:nth-child(odd) .bg_2{display:none}
 }@media only screen and (max-width:500px){.acc__bg_1{right:10px;width:188px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}

@@ -80,23 +80,29 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
 
+    </div>
 
-
-        <!-- <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
-            <div class="c-buttonCase pp--btn">
-                <p class="txt">会社概要</p>
-                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+    <div class="section_3">
+        <div class="l-wrap">
+            <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+            <div class="c-case03__txt">
+                <p class="c-case03__txt__ttl acc_ttl">Access</p>
+                <p class="c-case03__txt__sub acc_sub">東京駅から丸の内ルーフまでのアクセス</p>
             </div>
-            <div class="c-buttonCase pp--btn">
-                <p class="txt">丸の内RUFについて</p>
-                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+            <img src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+
+
+            <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
+                <div class="c-buttonCase pp--btn">
+                    <p class="txt">会社概要</p>
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                </div>
+                <div class="c-buttonCase pp--btn">
+                    <p class="txt">丸の内RUFについて</p>
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                </div>
             </div>
-        </div> -->
-
-
-
-
-
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
