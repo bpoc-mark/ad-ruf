@@ -828,8 +828,9 @@
             &-rows-01 {
                 width: 490px;
                 height: 400px;
-                background: linear-gradient(to left, #81B3D4, #4A93D1);
+                background: linear-gradient(to left, #59aee7, #4A93D1);
                 position: relative;
+                z-index: -2;
     
                 &-txt {
                     position: absolute;
@@ -904,6 +905,25 @@
                     }
                 }
             }
+        }
+
+        .bg_11 {
+            position: absolute;
+            top: 9.5%;
+            right: 32%;
+            z-index: -4;
+        }
+        .bg_9 {
+            position: absolute;
+            top: 12%;
+            left: 0%;
+            z-index: -1;
+        }
+        .bg_10 {
+            position: absolute;
+            top: 53%;
+            left: 0%;
+            z-index: -4;
         }
 
     }

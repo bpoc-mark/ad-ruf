@@ -382,10 +382,12 @@
 <section class="sect_7">
     <div class="clipPath">
         <div class="l-wrap">
+             <img class="bg_11" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_11.png" alt="">
+            <img class="bg_10" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_10.png" alt="">
             <div class="sect_7-cntnt">
                 <div class="u-d-f u-jc-sb">
                     <div class="sect_7-cntnt-rows-01">
-                        <!-- <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec7_img.png" alt=""> -->
+                    <img class="bg_9" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_9.png" alt="">
                         <div class="sect_7-cntnt-rows-01-txt">
                             <p>message</p>
                             <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
