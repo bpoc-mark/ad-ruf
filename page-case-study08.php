@@ -130,9 +130,8 @@ $imagedir = get_template_directory_uri();
         <div class="c-case--items case08--s1_c4">
             <!-- <div class="c-clipbg__CS2"></div> -->
             <div class="l-wrap">
-                <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
                 <div class="c-case--items__contents">
-                    <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                    <img class="bg_3 " src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
                     <div class="c-case--items__contents--row_1">
                         <div class="img-1">
                             <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img7.png" alt="">
@@ -168,6 +167,7 @@ $imagedir = get_template_directory_uri();
 
     <div class="section_2  case08--s2">
         <div class="l-wrap">
+        <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
             <div class="c-case02__txt">
                 <p class="c-case02__txt__ttl">Other photos</p>
                 <p class="c-case02__txt__sub">そのほかの写真</p>
@@ -192,7 +192,7 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
     </div>
-    <div class="section_3">
+    <div class="section_3 case08--s3">
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <div class="c-case03__txt">
@@ -201,7 +201,7 @@ $imagedir = get_template_directory_uri();
                 <p class="c-case03__txt__desc">実際にルーフでバリューアップした方に<br>
                     其の時の流れや時間走などのインタビューをご紹介いたします。</p>
             </div>
-            <img src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <img class="bg_8" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <div class="c-slider slider">
                 <div class="c-slider__item">
                     <div class="bg_img">
@@ -284,6 +284,7 @@ $imagedir = get_template_directory_uri();
                 <p class="txt">その他の事例を見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </div>
+            <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png"  alt="">
         </div>
     </div>
     <?php get_footer(); ?>

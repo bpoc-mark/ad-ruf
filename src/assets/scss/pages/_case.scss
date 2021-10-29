@@ -158,6 +158,10 @@
 
 		.bg_2 {
 			top: 250px;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.bg_3 {
@@ -166,9 +170,25 @@
 
 		.bg_7 {
 			position: absolute;
-			bottom: 214px;
+			bottom: 112px;
 			top: unset;
-			right: 59px;
+			right: 10px;
+			z-index: -1;
+			width: auto !important;
+		}
+	}
+
+	.c-case--items:last-child {
+		&::after {
+			content: "";
+			width: 100%;
+			height: 4px;
+			background: #fff;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -1px;
+			z-index: -10;
 		}
 	}
 }

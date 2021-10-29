@@ -217,6 +217,7 @@ $imagedir = get_template_directory_uri();
 
             <div class="l-wrap">
                 <img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+                <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
                 <div class="c-case--items__contents">
                     <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
 
@@ -313,10 +314,9 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt=""> 
                 </div>
             </div>
-            <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
         </div>
 
     </div>
