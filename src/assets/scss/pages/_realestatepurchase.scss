@@ -241,7 +241,7 @@
 	.sect_3 {
 		position: relative;
 		background: linear-gradient(to right, #2579be, #2592d4);
-		
+
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -979,8 +979,4 @@
 
 		}
 	}
-}
-
-img{
-	width: 100%;
 }
