@@ -74,7 +74,6 @@
 					}
 
 					&-right {
-						height: 100%;
 						position: relative;
 						img {
 							height: 100%;
@@ -86,7 +85,7 @@
 							position: absolute;
 							top: 16px;
 							right: 16px;
-							padding: 10px 12px 10px 8px;
+							padding: 4px 5px;
 							line-height: 1;
 							background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
 
@@ -183,7 +182,6 @@
 					}
 
 					&-left {
-						height: 100%;
 						position: relative;
 						img {
 							height: 100%;
@@ -196,12 +194,14 @@
 							top: 50%;
 							left: 50%;
 							transform: translate(-50%, -50%);
-							padding: 10px 12px 10px 8px;
+							padding: 4px 5px;
 							line-height: 1;
 							background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
 							color: #fff;
+							@include font-line(11);
+							font-weight: 500;
 
-                            @include is-sp {
+							@include is-sp {
 								padding: 3px 1px 3px 6px;
 							}
 						}
@@ -273,6 +273,10 @@
 			line-height: 42px;
 			@include font-line(25);
 		}
+
+		@include is-max(370px) {
+			@include font-line(21);
+		}
 	}
 
 	&__sub {
@@ -289,6 +293,10 @@
 			padding: 0 0 60px 0;
 			@include font-line(13.4);
 			padding-bottom: 0;
+		}
+
+		@include is-max(370px) {
+			@include font-line(12);
 		}
 
 		@include font-line(13, 26);
@@ -358,14 +366,16 @@
 	}
 
 	&--btns {
+		
 		@include is-sp {
 			padding: 0;
+			flex-wrap: wrap;
 		}
 	}
 
 	&--btn {
 		background-color: #fff;
-		width: 45%;
+		// width: 45%;
 		color: #4988c8;
 
 		@include is-sp {
@@ -373,18 +383,36 @@
 			@include font-line(15);
 		}
 	}
-}
 
-// globals
-.clip-top {
-	margin-bottom: 50px !important;
-	-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
-	clip-path: polygon(100% 0%, 0 0, 0% 100%);
-	padding: 100px 0 0 0;
-	background-color: #fff;
-	text-align: center;
+	&--btn:first-child {
+		margin-right: 30px;
 
-	@include is-sp {
-		padding: 60px 0 0 0;
+		@include is-sp {
+			width: 100%;
+			margin: 0 !important;
+		}
+	}
+
+	&--btn:last-child {
+		margin-left: 30px;
+
+		@include is-sp {
+			width: 100%;
+			margin: 25px 0 0 0 !important;
+		}
+	}
+
+	// globals
+	.clip-top {
+		margin-bottom: 50px !important;
+		-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
+		clip-path: polygon(100% 0%, 0 0, 0% 100%);
+		padding: 100px 0 0 0;
+		background-color: #fff;
+		text-align: center;
+
+		@include is-sp {
+			padding: 60px 0 0 0;
+		}
 	}
 }
