@@ -8,10 +8,10 @@ $imagedir = get_template_directory_uri();
         <!-- //CLIP -->
         <div class="clip-top"></div>
         <div class="l-wrap">
-            <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
+            <img class="acc__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="acc__ttl">Access</p>
-            <h1 class="acc__title">丸の内ルーフのアクセス情報</h1>
-            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでアクセス情報や最寄駅からの道順をご紹介いたします。</p>
+            <h1 class="acc__title">丸の内ルーフの<br class="u-d-n-pc">アクセス情報</h1>
+            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
         </div>
 
         <div class="acc__main-content">
@@ -29,9 +29,9 @@ $imagedir = get_template_directory_uri();
                                 </div>
 
                                 <div class="info_right ir01">
-                                    <p>〒100-6334　東京都千代田区丸の内2-4-1<br>
-                                        丸の内ビルディング34F 3401区<br>
-                                        THE PREMIER FLOOR</p>
+                                    <p>〒100-6334　<br class="u-d-n-pc">東京都千代田区丸の内2-4-1<br class="u-d-n-pc">
+                                        丸の内ビルディング34F <br class="u-d-n-pc">3401区<br br01>
+                                        THE PREMIER<br class="u-d-n-pc"> FLOOR</p>
                                 </div>
                             </div>
 
@@ -83,22 +83,77 @@ $imagedir = get_template_directory_uri();
     </div>
 
     <div class="section_3">
-        <div class="l-wrap">
-            <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
-            <div class="c-case03__txt">
+        <div class="l-wrap pt100">
+            <img class="section_3__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+            <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
-                <p class="c-case03__txt__sub acc_sub">東京駅から丸の内ルーフまでのアクセス</p>
+                <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでのアクセス</p>
             </div>
-            <img src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <img class="section_3__bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
 
 
-            <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
-                <div class="c-buttonCase pp--btn">
-                    <p class="txt">会社概要</p>
+            <div class="section_3__main-content">
+                <div class="section_3__main-content-row">
+                    <div class="col">
+                        <div class="col_left">
+                            <p>Directions</p>
+                            <p>JR 東京駅<br class="u-d-n-sp">
+                                からの道順</p>
+                        </div>
+
+                        <div class="col_right">
+                            <div class="box col_right-flex">
+                                <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_1_sp.png" alt="">
+                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <p>まずJR東京駅改札を出ていただき、M4入り口から、西方向に都道404号を進んでください。</p>
+                            </div>
+                            <div class="box col_right-flex">
+                                <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_2_sp.png" alt="">
+                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <p>ISSEY MIYAKE MARUNOUCHIの手前で左折し丸の内仲通りを進んでください。</p>
+                            </div>
+                            <div class="box col_right-flex">
+                                <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_3_sp.png" alt="">
+                                <p>丸の内仲通り左手に丸の内ビルディングが見えます。その34Fが丸の内ルーフです。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col_left">
+                            <p>Directions</p>
+                            <p>東京メトロ <br class="u-d-n-sp">
+                                二重橋前駅<br br>
+                                からの道順</p>
+                        </div>
+
+                        <div class="col_right">
+                            <div class="box col_right-flex">
+                                <img src="<?php echo $imagedir ?>/release/image/page/access/acc_img_4_sp.png" alt="">
+                                <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <p>東京メトロ 千代田線「二重橋駅」4番出口から出て直進してください。</p>
+                            </div>
+                            <div class="box col_right-flex">
+                                <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_5_sp.png" alt="">
+                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <p>交差点で左折し丸の内仲通りを進んでください。</p>
+                            </div>
+                            <div class="box col_right-flex">
+                                <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_6_sp.png" alt="">
+                                <p>丸の内仲通り右手に丸の内ビルディングが見えます。その34Fが丸の内ルーフです。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 acc--fd">
+                <div class="c-buttonCase acc--btn">
+                    <p class="txt">ルーフのオフィス風景を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
-                <div class="c-buttonCase pp--btn">
-                    <p class="txt">丸の内RUFについて</p>
+                <div class="c-buttonCase acc--btn">
+                    <p class="txt">代表メッセージを見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
             </div>
