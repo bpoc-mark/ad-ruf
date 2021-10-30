@@ -231,6 +231,13 @@
 .page__footer {
     background-color: #2790d2;
 
+    .l-wrap {
+        @include is-sp {
+            padding: 0!important;
+        }
+    }
+
+
     .cntct {
         display: flex;
         padding-top: 99px;
@@ -252,6 +259,7 @@
                 font-weight: 400;
                 letter-spacing: 2px;
                 font-family: century-gothic, sans-serif;
+                padding: 0 20px 0 20px;
 
                 @include is-sp {
                     @include font-line(25,20);
@@ -291,7 +299,7 @@
 
             &-dtl {
                 text-align: center;  
-                border-radius: 25px;
+                border-radius: 45px;
 
                 @include is-max(1051px){
                     margin-bottom: 30px;
@@ -327,6 +335,11 @@
                             letter-spacing: 0.1em;
                         }
                     }
+
+                    @include is-sp {
+                        width: 100%;
+                        padding: 45px 35px 31px 35px;
+                    }
                    
                 }
 
@@ -336,6 +349,7 @@
             .phone {
                 background-color: #fff;
                 position: relative;
+
                 a{
                     color: #2790d2 !important;
                 }
@@ -349,6 +363,10 @@
                     top: 50%;
                     right: 6px;
                     transform: translate(-18px, -50%);
+
+                    @include is-sp {
+                        display: none;
+                    }
                 }
             }
             .line {
@@ -364,6 +382,10 @@
                     top: 50%;
                     right: 6px;
                     transform: translate(-18px, -50%);
+
+                    @include is-sp {
+                        display: none;
+                    }
                 }
             }
 
@@ -380,6 +402,10 @@
                     top: 50%;
                     right: 6px;
                     transform: translate(-18px, -50%);
+
+                    @include is-sp {
+                        display: none;
+                    }
                 }
             }
 
@@ -393,6 +419,8 @@
                 color: #95C6E7;
                 position: relative;
                 letter-spacing: 4px;
+                @include font-line(13,22);
+                
 
                 &:before {
                     content:'';
@@ -404,6 +432,14 @@
                     transform:translateX(-50%);
                     background: url(../image/footer/arrow-push.png) no-repeat center;
                 }
+
+                @include is-sp {
+                    @include font-line(23,40);
+                }
+            }
+
+            @include is-sp {
+                margin-top: 33px;
             }
         }
 
@@ -414,10 +450,23 @@
         padding-top: 79px;
 
         &-col1 {
-            padding-right: 156px;
+            padding-right: 147px;
 
              img {
                 width: 104px;
+                
+                @include is-sp {
+                    width: 200px;
+                }
+
+                @include is-max(575px) {
+                    width: 100px;
+                }
+             }
+
+             @include is-sp {
+                padding: 0;
+                margin-bottom:75px;
              }
 
         }
@@ -425,29 +474,129 @@
         &-col2 {
             padding-right: 35px;
 
-            .ttl {
-                font: 500 11px/37px 'cross-platform-yu-gothic';
-                position: relative;
-                margin-bottom: 49px;
+                .ttl {
+                    font-family: cross-platform-yu-gothic;
+                    position: relative;
+                    margin-bottom: 49px;
+                    @include font-line(11,37);
+                    font-weight:500;
 
-                a {
-                    color: #fff;
-                    letter-spacing: 4px;
-                }
+                    .head-link {
+                        color: #fff;
+                        letter-spacing: 4px;
 
-                &:before {
-                    content: '';
-                    position: absolute;
-                    bottom:0;
-                    left: 0;
-                    height: 1px;
-                    width: 52px;
-                    background-color: #fff;
+                         @include is-sp {
+                            @include font-line(30, 129);
+                            letter-spacing: 0.28em;
+                        }
+
+                        @include is-max(575px) {
+                            @include font-line(15,64);
+                        }
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            bottom:0;
+                            left: 0;
+                            height: 1px;
+                            width: 52px;
+                            background-color: #fff;
+        
+                            @include is-sp {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .head-icon {
+                        display: none;
+
+                        @include is-sp {
+                            @include font-line(30, 129);
+                            letter-spacing: 0.28em;
+                            display: block;
+                            color:#fff;
+                        }
+
+                        @include is-max(575px) {
+                            @include font-line(15,64);
+                        }
+                    }
+
+                    @include is-sp {
+                        margin-bottom: 0;
+                        padding: 0 87px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-bottom: 1px solid #fff;
+                        border-top: 1px solid #fff;
+                        
+                    }
                 }
-            }
-            .c-link__inner {
-                font: 500 12px/37px 'cross-platform-yu-gothic';
-                letter-spacing: 2.8px;
+                .link {
+
+                    .link__inner {
+                    
+                        .c-link {
+
+                            @include is-sp {
+                                display: flex;
+                                justify-content: space-between;
+                                border-bottom: 1px dashed #fff;
+                                padding: 0 87px;
+                                
+                            }
+                            
+        
+                            &__inner {
+                                font-family:cross-platform-yu-gothic;
+                                letter-spacing: 2.8px;
+                                @include font-line(12,37);
+                                letter-spacing:0.26em;
+        
+            
+                                @include is-sp {
+                                    @include font-line(25,100);
+                                    letter-spacing: 0.28;
+                                    padding-left: 60px;
+                                }
+
+                                @include is-max(575px) {
+                                    @include font-line(12.5,50);
+                                    padding-left: 30px;
+                                }
+
+                                @include is-max(380px){
+                                    padding-left: 15px;
+                                    letter-spacing: 0.13em;
+                                }
+                            }
+
+                            &__arr {
+                                font-size: 1.5625rem;
+                                line-height: 4;
+                                letter-spacing: 0.28;
+                                color: #fff;
+                                display:none;
+
+                                @include is-sp{
+                                    display: block;
+                                }
+
+                                @include is-max(575px) {
+                                    @include font-line(12.5,50);
+                                }
+                            }
+                        }
+                    }
+                }
+          
+
+             @include is-sp {
+                 padding: 0;
+                 width: 100%;
              }
         }
         &-col3 {
@@ -456,41 +605,144 @@
             border-left: 1px solid #fff;
 
             .ttl {
-                font: 500 11px/37px 'cross-platform-yu-gothic';
+                font-family: cross-platform-yu-gothic;
                 position: relative;
                 margin-bottom: 49px;
+                @include font-line(11,37);
+                font-weight:500;
 
-                a {
+                .head-link {
                     color: #fff;
                     letter-spacing: 4px;
+
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                    }
+
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        bottom:0;
+                        left: 0;
+                        height: 1px;
+                        width: 52px;
+                        background-color: #fff;
+    
+                        @include is-sp {
+                            display: none;
+                            width: 100%;
+                        }
+                    }
                 }
 
-                &:before {
-                    content: '';
-                    position: absolute;
-                    bottom:0;
-                    left: 0;
-                    height: 1px;
-                    width: 52px;
-                    background-color: #fff;
+                .head-icon {
+                    display: none;
+                    
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                        display: block;
+                        color:#fff;
+                    }
+
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+                }
+
+
+                @include is-sp {
+                    margin-bottom: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
                 }
             }
-            .c-link__inner {
-                font: 500 12px/37px 'cross-platform-yu-gothic';
-                letter-spacing: 2.8px;
-             }
+
+            .link {
+
+                .link__inner {
+                  
+                    .c-link {
+
+                        @include is-sp {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px dashed #fff;
+                            padding: 0 87px;
+                            
+                        }
+                        
+    
+                        &__inner {
+                            font-family:cross-platform-yu-gothic;
+                            letter-spacing: 2.8px;
+                            @include font-line(12,37);
+                            letter-spacing:0.26em;
+    
+        
+                            @include is-sp {
+                                @include font-line(25,100);
+                                letter-spacing: 0.28;
+                                padding-left: 60px;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                                padding-left: 30px;
+                            }
+                            @include is-max(380px){
+                                padding-left: 15px;
+                                letter-spacing: 0.13em;
+                            }
+                        }
+
+                         &__arr {
+                            font-size: 1.5625rem;
+                            line-height: 4;
+                            letter-spacing: 0.28;
+                            color: #fff;
+                            display:none;
+
+                            @include is-sp{
+                                display: block;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                            }
+                         }
+                    }
+                }
+            }
+
+             @include is-sp {
+                padding: 0;  
+                border: none;  
+                width: 100%;
+            }
         }
         &-col4 {
             padding: 0 71px 0 31px;
             border-right: 1px solid #fff;
             
             .ttl {
-                font: 500 11px/37px 'cross-platform-yu-gothic';
+                font-family: cross-platform-yu-gothic;
                 position: relative;
                 margin-bottom: 49px;
+                @include font-line(11,37);
+                font-weight:500;
               
-
-                a {
+                    
+                .head-link  {
                     color: #fff;
                     letter-spacing: 4px;
                     
@@ -502,25 +754,126 @@
                         height: 1px;
                         width: 52px;
                         background-color: #fff;
+
+                        @include is-sp {
+                            display: none;
+                            width: 100%;
+                        }
+                    }
+                    
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                    }
+
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+                }
+
+                .head-icon {
+                    display: none;
+                    
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                        display: block;
+                        color:#fff;
+                    }
+
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+                }
+
+                @include is-sp {
+                    margin-bottom: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
+                }
+            }
+
+            .link {
+
+                .link__inner {
+                  
+                    .c-link {
+
+                        @include is-sp {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px dashed #fff;
+                            padding: 0 87px;
+                            
+                        }
+                        
+    
+                        &__inner {
+                            font-family:cross-platform-yu-gothic;
+                            letter-spacing: 2.8px;
+                            @include font-line(12,37);
+                            letter-spacing:0.26em;
+    
+        
+                            @include is-sp {
+                                @include font-line(25,100);
+                                letter-spacing: 0.28;
+                                padding-left: 60px;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                                padding-left: 30px;
+                            }
+
+                            @include is-max(380px){
+                                padding-left: 15px;
+                                letter-spacing: 0.13em;
+                            }
+                        }
+
+                         &__arr {
+                            font-size: 1.5625rem;
+                            line-height: 4;
+                            letter-spacing: 0.28;
+                            color: #fff;
+                            display:none;
+
+                            @include is-sp{
+                                display: block;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                            }
+                         }
                     }
                 }
             }
-            .c-link__inner {
-                font: 500 12px/37px 'cross-platform-yu-gothic';
-                letter-spacing: 2.8px;
-             }
+
+             @include is-sp {
+                padding: 0;
+                border: none;
+                width: 100%;
+            }
         }
 
         &-col5 {
             padding-left: 32px;
            
             .ttl {
-                font: 500 11px/37px 'cross-platform-yu-gothic';
+                font-family: cross-platform-yu-gothic;
                 position: relative;
                 margin-bottom: 49px;
+                @include font-line(11,37);
+                font-weight:500;
                 
 
-                a {
+                .head-link {
                     color: #fff;
                     letter-spacing: 4px;
                     
@@ -532,13 +885,124 @@
                         height: 1px;
                         width: 52px;
                         background-color: #fff;
+
+                        @include is-sp {
+                            display: none;
+                        }
+                    }
+
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                    }
+                    
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+                 
+                }
+
+                .head-icon {
+                    display: none;
+                    
+                    @include is-sp {
+                        @include font-line(30, 129);
+                        letter-spacing: 0.28em;
+                        display: block;
+                        color:#fff;
+                    }
+
+                    
+                    @include is-max(575px) {
+                        @include font-line(15,64);
+                    }
+                }
+
+                @include is-sp {
+                    margin: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
+                }
+            }
+
+            .link {
+
+                .link__inner {
+                  
+                    .c-link {
+
+                        @include is-sp {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px dashed #fff;
+                            padding: 0 87px;
+                            
+                        }
+                        
+    
+                        &__inner {
+                            font-family:cross-platform-yu-gothic;
+                            letter-spacing: 2.8px;
+                            @include font-line(12,37);
+                            letter-spacing:0.26em;
+    
+        
+                            @include is-sp {
+                                @include font-line(25,100);
+                                letter-spacing: 0.28;
+                                padding-left: 60px;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                                padding-left: 30px;
+                            }
+
+                            @include is-max(380px){
+                                padding-left: 15px;
+                                letter-spacing: 0.13em;
+                            }
+
+                        }
+
+                         &__arr {
+                            font-size: 1.5625rem;
+                            line-height: 4;
+                            letter-spacing: 0.28;
+                            color: #fff;
+                            display:none;
+
+                            @include is-sp{
+                                display: block;
+                            }
+
+                            @include is-max(575px) {
+                                @include font-line(12.5,50);
+                            }
+                         }
                     }
                 }
             }
-            .c-link__inner {
-                font: 500 12px/37px 'cross-platform-yu-gothic';
-                letter-spacing: 2.8px;
-             }
+
+             @include is-sp {
+                padding: 0;    
+                width: 100%;
+
+            }
+        }
+
+        @include is-sp {
+            flex-direction: column;
+            align-items: center;
+            padding: 150px 0 0 0;
+        }
+
+        @include is-max(375px) {
+            padding:75px 0 0 0;
         }
     }
 
@@ -551,6 +1015,22 @@
             color: #fff;
             letter-spacing: 2px;
             font: 500 12px/27.5px 'cross-platform-yu-gothic';
+
+            @include is-sp {
+                @include font-line(27,30);
+            }
+
+            @include is-max(500px){
+                @include font-line(13,20);
+            }
+        }
+
+        @include is-sp {
+            padding: 75px 0 60px 0;
+        }
+
+        @include is-max(500px) {
+            padding: 37px 0 30px 0;
         }
     }
 

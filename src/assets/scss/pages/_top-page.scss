@@ -562,7 +562,7 @@
         .bg_6 {
             position: absolute;
             right: 0;
-            top:0%;
+            bottom:0%;
 
             @include is-sp {
                 position: absolute;
@@ -1267,6 +1267,9 @@
                         color: #fff;
                         font-family: yu-mincho-pr6n, sans-serif;
                         text-align: center;
+
+
+
                     }
 
                     &-01-txt02 {
@@ -1313,6 +1316,10 @@
                         font-size: 1rem;
                         font-size: 20px;
                         letter-spacing: 0.18em;
+                    }
+
+                    @include is-max(1005px) {
+                        width: 100%;
                     }
                 }
                 &-bdg {

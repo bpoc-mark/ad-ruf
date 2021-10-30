@@ -48,17 +48,30 @@
                       
                     </div>
 
-                    <!-- <div class="nav-footer-col2">
+                         <div class="nav-footer-col2">
                     
                             <div class="ttl">
-                                <a href="">RUF</a>
+                                <a class="head-link" href="">RUF</a>
+                                <a class="head-icon" href="">+</a>
                             </div>
                             <div class="link">
                                 <ul class="link__inner">
-                                    <li class="c-link"><a class="c-link__inner" href="">TOP</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">プライバシーポリシー</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">バリューアップ事例</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">お問い合わせ・ご相談</a></li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">TOP</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">プライバシーポリシー</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">バリューアップ事例</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">お問い合わせ・ご相談</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
                                 </ul>
                             </div>
                        
@@ -67,17 +80,39 @@
                     <div class="nav-footer-col3">
                     
                             <div class="ttl">
-                                <a href="">事業内容</a>
+                                <a class="head-link" href="">事業内容</a>
+                                <a class="head-icon" href="">+</a>
                             </div>
                             <div class="link">
                                 <ul class="link__inner">
-                                    <li class="c-link"><a class="c-link__inner" href="">収益不動産の売買</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">収益不動産の買取</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">収益不動産の売却</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">収益不動産の管理</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">収益不動産の運用</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">アセットマネジメント</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">グループ事業  </a></li> 
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">収益不動産の売買</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">収益不動産の買取</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">収益不動産の売却</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">収益不動産の管理</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">収益不動産の運用</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">アセットマネジメント</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">グループ事業  </a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li> 
                                 </ul>
                             </div>
                        
@@ -86,17 +121,40 @@
                     <div class="nav-footer-col4">
                     
                             <div class="ttl">
-                                <a href="">企業情報</a>
+                                <a class="head-link" href="">企業情報</a>
+                                <a class="head-icon" href="">+</a>
                             </div>
                             <div class="link">
+
                                 <ul class="link__inner">
-                                    <li class="c-link"><a class="c-link__inner" href="">代表メッセージ</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">経営理念</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">会社概要</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">業績</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">アクセス</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">オフィス風景</a></li>
-                                    <li class="c-link"><a class="c-link__inner" href="">代表について </a></li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">代表メッセージ</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">経営理念</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">会社概要</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">業績</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">アクセス</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">オフィス風景</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">代表について </a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>
                                 </ul>
                             </div>
                        
@@ -105,20 +163,25 @@
                      <div class="nav-footer-col5">
                     
                             <div class="ttl">
-                                <a href="">コンテンツ</a>
+                                <a class="head-link" href="">コンテンツ</a>
+                                <a class="head-icon" href="">+</a>
                             </div>
                             <div class="link">
                                 <ul class="link__inner">
                                     <li class="c-link">
                                         <a class="c-link__inner" href="">記事一覧</a>
+                                        <a class="c-link__arr" href="">></a>
                                     </li>
-                                    <li class="c-link"><a class="c-link__inner" href="">YouTube</a></li>  
+                                    <li class="c-link">
+                                        <a class="c-link__inner" href="">YouTube</a>
+                                        <a class="c-link__arr" href="">></a>
+                                    </li>  
                                 </ul>
                             </div>
                         
                     </div>
 
-                </div> -->
+                </div> 
 
                 <div class="lower-footer">
                     <p class="lower-footer-copyright">

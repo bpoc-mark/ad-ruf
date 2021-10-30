@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div class="page__content top">
+ <div class="page__content top">
 <section class="sect_1">
     <div class="l-wrap">
-        <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt="">
-        <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
-        <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt="">
+        <!-- <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt=""> -->
+        <!-- <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt=""> -->
+        <!-- <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt=""> -->
     
         <div class="sect_1-hdr">
             <div class="sect_1-hdr-ttl">
@@ -329,7 +329,7 @@
     </div>
 </section>
 <section class="sect_6">
-    <!-- <div class="clipPath"> -->
+     <div class="clipPath"> 
         <div class="c-case--items fp">
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_1.png" alt="">
@@ -434,7 +434,7 @@
                 </div>
             </div>
         </div>
-    <!-- </div> -->
+     </div> 
 </section>
 
 <section class="sect_7">
@@ -553,10 +553,10 @@
             </div>
         </div>
     </div>
-</section>
-<!-- <section class="sect_9">9</section>
+</section> 
+ <section class="sect_9">9</section>
 <section class="sect_10">10</section>
 <section class="sect_11">11</section>
-<section class="sect_12">12</section> -->
+<section class="sect_12">12</section>
 </div>
 <?php get_footer(); ?>
