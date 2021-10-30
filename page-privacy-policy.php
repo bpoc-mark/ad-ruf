@@ -201,7 +201,7 @@ $imagedir = get_template_directory_uri();
                                     <p>株式会社ルーフ</p>
                                     <p>〒100-6334</p>
                                     <p>東京都千代田区丸の内2-4-1</p>
-                                    <p>丸の内ビルディング34F 3401区 THE PREMIER FLOOR</p>
+                                    <p>丸の内ビルディング34F 3401区 <br class="u-d-n-pc">THE PREMIER FLOOR</p>
                                     <p>電話 ： 03-3211-0123（代）</p>
                                     <p>FAX　： 03-3211-0234</p>
                                     <p>Email： info@ruf.jp</p>

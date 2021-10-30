@@ -49,13 +49,20 @@
         }
 
 		@include is-sp {
-			letter-spacing: 0.2em;
+			letter-spacing: 0;
             padding-top: 50px;
 
             br {
                 display: block;
             }
 		}
+
+		@include is-max(409px) {
+			font-size: 3.3vw;
+			padding-left: 10px;
+		}
+
+		
 	}
 
 	&__main-content {
@@ -115,11 +122,20 @@
 							padding: 0 20px 10px;
 							text-align: center;
 						}
+
+						@include is-max(409px) {
+							font-size: 3.7vw;
+							padding: 0 15px 10px;
+						}
 					}
 
 					&--cont {
 						@include is-sp {
 							padding: 0 20px;
+						}
+
+						@include is-max(409px) {
+							padding: 0 15px;
 						}
 
 						&01 {
@@ -130,6 +146,11 @@
 							font-family: cross-platform-yu-gothic;
 							font-weight: 700;
 							letter-spacing: 0;
+
+							@include is-max(409px) {
+								font-size: 3.3vw;
+								padding-left: 10px;
+							}
 
 							&--txt {
 								font-weight: 500;
@@ -162,6 +183,10 @@
 
 								@include is-sp {
 									@include font-line(13.5, 26);
+								}
+
+								@include is-max(409px) {
+									font-size: 3.3vw;
 								}
 							}
 						}
