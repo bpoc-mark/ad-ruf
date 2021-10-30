@@ -18,7 +18,7 @@
 <body <?php body_class(); ?>>
     
 <main>
-    <!-- <div class="page__header">
+    <div class="page__header">
         <div class="top-header">
             <div class="top-header-nav u-d-f u-jc-sb">
                 <div class="brnd-logo">
@@ -37,13 +37,13 @@
                             <div class="nav-links-ul-02-link">
                                 <a href="">TOP</a>
                             </div>
-                            <div class="nav-links-ul-02-link">
+                            <div class="nav-links-ul-02-link dd">
                                 <a href="">事業内容</a>
                             </div>
-                            <div class="nav-links-ul-02-link">
+                            <div class="nav-links-ul-02-link dd">
                                 <a href="">企業情報</a>
                             </div>
-                            <div class="nav-links-ul-02-link">
+                            <div class="nav-links-ul-02-link dd">
                                 <a href="">バリューアップ事例</a>
                             </div>
                             <div class="nav-links-ul-02-link">
@@ -62,7 +62,7 @@
             </div>
 
             <div class="top-header-bnnr">
-                <div class="u-d-f">
+                <div class=" top-header-bnnr-cnt u-d-f">
                     <div class="top-header-bnnr-hdr-01">
                         <div class="top-header-bnnr-hdr-cntnt01-img">
                             <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo2.svg" alt="">
@@ -73,14 +73,30 @@
                     </div>  
                     <div class="top-header-bnnr-hdr-02">
                         <div class="top-header-bnnr-hdr-02-txt">
-                            <p>
+                            <p class="top-header-bnnr-hdr-02-txt-1">
                                 選ばれし方々に選ばれ、
                                 <br>
                                 そして選ばれ続ける
                             </p>
-                            <p>
+                            <div class="top-header-bnnr-hdr-02-txt-sp">
+                                <div class="top-header-bnnr-hdr-02-txt-sp-cont">
+                                    <p class="top-header-bnnr-hdr-02-txt-sp-cont-1">
+                                        収益不動産の売買・管理・運用
+                                    </p>
+                                </div>
+                                <div class="top-header-bnnr-hdr-02-txt-sp-cont">
+                                    <p class="top-header-bnnr-hdr-02-txt-sp-cont-2">
+                                        アセットマネジメント
+                                    </p>
+                                </div>
+                            </div>
+                            <p top-header-bnnr-hdr-02-txt-2>
                                 Chosen by the chosen people,and continues to be chosen
                             </p>
+                        </div>
+
+                        <div class="top-header-bnnr-hdr-02-spimg">
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/header/logo2.svg" alt="">
                         </div>
                         <div class="top-header-bnnr-hdr-02-desc">
                             <div class="top-header-bnnr-hdr-02-desc-01">
@@ -92,12 +108,23 @@
                         </div>
                     </div> 
                 </div>
+
+                <div class="top-header-bnnr-txt01">
+                    <p class="top-header-bnnr-txt01-hon">
+                        あなたの不動産
+                    </p>
+                </div>
+                <div class="top-header-bnnr-txt02">
+                    <p class="top-header-bnnr-txt02-ver">
+                        収益を最大化。
+                    </p>
+                </div>
             </div>
             
-            <div class="clip">
+            <div class="top-clip">
             
             </div>
-        </div> -->
+        </div>
        
     </div>
     

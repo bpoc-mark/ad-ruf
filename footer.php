@@ -1,5 +1,5 @@
         <div class="page__footer">
-            <div class="l-wrap">
+            <!-- <div class="l-wrap">
                 <div class="cntct">
 
                     <div class="cntct-hdr">
@@ -188,7 +188,7 @@
                         Copyright © RUF Co.,Ltd. All Rights Reserved
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
         </main>
 
