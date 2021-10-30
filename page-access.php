@@ -148,14 +148,14 @@ $imagedir = get_template_directory_uri();
             </div>
 
             <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 acc--fd">
-                <div class="c-buttonCase acc--btn">
+                <a href="#" class="c-buttonCase acc--btn">
                     <p class="txt">ルーフのオフィス風景を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </div>
-                <div class="c-buttonCase acc--btn">
+                </a>
+                <a href="#" class="c-buttonCase acc--btn">
                     <p class="txt">代表メッセージを見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </div>
+                </a>
             </div>
         </div>
     </div>

@@ -497,7 +497,7 @@
 	&__bg_1 {
 		position: absolute;
 		top: -57px;
-		right: 46px;
+		right: 103px;
 		width: 316px;
 
 		@include is-max(500px) {
@@ -523,12 +523,16 @@
 	&--fd {
 		@include is-sp {
 			flex-direction: column;
+		
 		}
+
+	
 	}
 
 	&--btn {
 		background-color: #fff;
 		margin: 0;
+		color: #258acf;
 	}
 
 	&--btn:first-child {
@@ -546,6 +550,8 @@
 			margin: 25px 0 0 0;
 		}
 	}
+
+	
 
 	.acc_ttl {
 		letter-spacing: 0.28em;

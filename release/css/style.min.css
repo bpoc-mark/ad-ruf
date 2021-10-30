@@ -632,9 +632,9 @@ template{display:none}
 .acc .section_3__bg_1{position:absolute;right:29px;top:62px;z-index:-1;width:244px}
 .acc .section_3__bg_2{position:absolute;top:236px;left:-20px;z-index:-1}
 .acc .section_3__cnt01{margin-bottom:70px}
-.acc__bg_1{position:absolute;top:-57px;right:46px;width:316px}
+.acc__bg_1{position:absolute;top:-57px;right:103px;width:316px}
 .acc .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center}
-.acc--btn{background-color:#fff;margin:0}
+.acc--btn{background-color:#fff;margin:0;color:#258acf}
 .acc--btn:first-child{margin-right:30px}
 .acc--btn:last-child{margin-left:30px}
 .acc .acc_ttl{letter-spacing:.28em}
