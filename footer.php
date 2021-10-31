@@ -125,7 +125,6 @@
                                 <a class="head-icon" href="">+</a>
                             </div>
                             <div class="link">
-
                                 <ul class="link__inner">
                                     <li class="c-link">
                                         <a class="c-link__inner" href="">代表メッセージ</a>

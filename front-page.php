@@ -557,9 +557,9 @@
         </div>
     </div>
 </section>  -->
- <section class="sect_9">9</section>
+ <!-- <section class="sect_9">9</section>
 <section class="sect_10">10</section>
 <section class="sect_11">11</section>
-<section class="sect_12">12</section>
+<section class="sect_12">12</section> -->
 </div>
 <?php get_footer(); ?>
