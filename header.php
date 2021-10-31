@@ -133,110 +133,108 @@
         </div>
 
         <div class="nav-sp-wrppr">  
-
-                    <div class="nav-sp">
-                        <div class="nav-sp-link">
-                            <div class="nav-sp-link-logo">
-                                <a href="">
-                                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                                    <p>丸の内 株式会社ルーフ </p>
-                                </a>
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">TOP</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">事業内容</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">バリューアップ事例</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">不動産コラム</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">会社概要</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                            <div class="nav-sp-link-lists">
-                                <div class="nav-sp-link-lists-ttl">
-                                    <a href="">プライバシーポリシー</a>
-                                    <a href="">></a>
-                                </div>
-
-                                <div class="nav-sp-link-lists-list">
-                                    <a href="">事業内容</a>
-                                    <p>+</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="sp-close">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/close.png" alt="">
-                            <p>CLOSE</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="float-menu">
-                    <div class="brgr-mail">
-                        <div class="brgr-mail-burger">
-                            <div class="brgr-mail-burger-menu">
-                                <div class="menu-line1"></div>
-                                <div class="menu-line2"></div>
-                                <div class="menu-line3"></div>
-                            </div>
-                            <p class="brgr-mail-burger-txt">MENU</p>
-                        </div>
-                        <a class="brgr-mail-mail">
-                            <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
-                            <p class="brgr-mail-mail-txt">お問い合わせ・ご相談</p>
+            <div class="nav-sp">
+                <div class="nav-sp-link">
+                    <div class="nav-sp-link-logo">
+                        <a href="">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
+                            <p>丸の内 株式会社ルーフ </p>
                         </a>
                     </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">TOP</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">事業内容</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">バリューアップ事例</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">不動産コラム</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">会社概要</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
+                    <div class="nav-sp-link-lists">
+                        <div class="nav-sp-link-lists-ttl">
+                            <a href="">プライバシーポリシー</a>
+                            <a href="">></a>
+                        </div>
+
+                        <div class="nav-sp-link-lists-list">
+                            <a href="">事業内容</a>
+                            <p>+</p>
+                        </div>
+
+                    </div>
                 </div>
-        
+
+                <div class="sp-close">
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/close.png" alt="">
+                    <p>CLOSE</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="float-menu">
+            <div class="brgr-mail">
+                <div class="brgr-mail-burger">
+                    <div class="brgr-mail-burger-menu">
+                        <div class="menu-line1"></div>
+                        <div class="menu-line2"></div>
+                        <div class="menu-line3"></div>
+                    </div>
+                    <p class="brgr-mail-burger-txt">MENU</p>
+                </div>
+                <a class="brgr-mail-mail">
+                    <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
+                    <p class="brgr-mail-mail-txt">お問い合わせ・ご相談</p>
+                </a>
+            </div>
+        </div>
