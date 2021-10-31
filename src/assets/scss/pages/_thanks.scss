@@ -1,0 +1,35 @@
+.contact-thks{
+    .sect_1{
+        background-image: linear-gradient(to right, #2579bf , #2593d5);
+        padding: 100px 0 20px 0;
+    }
+
+    &__inner{
+        text-align: center;
+
+        &--txt{
+            font-family: yu-mincho-pr6n, sans-serif;
+            font-weight: 600;
+            color: #fff;
+            letter-spacing: 0.2em;
+            padding: 0 0 15px 0;
+            @include font-line(20);
+        }
+
+        &--desc{
+            font-family:cross-platform-yu-gothic;
+            font-weight: 500;
+            color: #fff;
+            letter-spacing: 0.2em;
+            @include font-line(13);
+            padding: 0 0 26px 0;
+        }
+    }
+
+    .c-buttonCase{
+        margin-top: 70px;
+        .txt{
+            letter-spacing: 0.2em;
+        }
+    }
+}

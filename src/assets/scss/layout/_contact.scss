@@ -1,0 +1,42 @@
+.c-contact-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	padding: 20px 0;
+
+	.p1{
+		background-color: #e2f3fb;
+		padding: 10px 40px;
+		.txt{
+			font-family:cross-platform-yu-gothic;
+			@include font-line(15);
+			font-weight: 700;
+			color: #258acf;
+			letter-spacing: 0.320em;
+		}
+	}
+
+	.p2{
+		.txt{
+			padding: 0 25px;
+			a{
+			font-family: century-gothic, sans-serif;
+			@include font-line(36);
+			font-weight: 700;
+			color: #258acf;
+			display: flex;
+			align-items: center
+			}
+		}
+	}
+
+	.p3{
+		.txt{
+			@include font-line(11);
+			font-family:cross-platform-yu-gothic;
+			font-weight: 600;
+		}
+	}
+}
