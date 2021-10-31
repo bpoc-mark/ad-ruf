@@ -5,14 +5,27 @@
     .sect_1 {
         margin-top: -109px;
         z-index: 4;
+
+        @include is-sp {
+
+        }
+
+
         .clipPath {
             clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
             background: linear-gradient(to right, #2579BF,#2593D5);
             padding:140px 0 138px 0;
 
-            @include is-sp {
-                padding:200px 0 168px 0;
+            @include is-max (867px) {
+                clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
             }
+
+            @include is-sp {
+                padding:400px 0 168px 0;
+                clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+            }
+
+          
         }
       
 
@@ -208,6 +221,10 @@
                 }
                 &-02 {
                     width: 489px;
+
+                    @include is-max (1015px) {
+                        padding-left: 20px;
+                    }
     
                     &-txt {
                         text-align: left;
@@ -284,7 +301,7 @@
             @include is-sp {
                 position: absolute;
                 top: -9%;
-                right: 0%;
+                right: 2%;
             }
         }
 
@@ -476,6 +493,10 @@
                 &-01 {
                     width: 489px;
 
+                    @include is-max (1015px) {
+                        padding-right: 20px;
+                    }
+
                     &-txt {
                         text-align: left;
 
@@ -604,7 +625,6 @@
 
                 &-01 {
                     width: 420px;
-
 
                     .row01-ttl {
                         display: none;
@@ -737,6 +757,10 @@
                 }
                 &-02 {
                     width: 489px;
+
+                    @include is-max (1015px) {
+                        padding-left: 20px;
+                    }
     
                     &-txt {
                         text-align: left;
@@ -1298,6 +1322,7 @@
                 position: relative;
                 z-index: -2;
 
+                
               
     
                 &-txt {
@@ -1307,7 +1332,7 @@
                     padding: 8px 13px 16px 23px;
                     background: linear-gradient( 
                     100deg, rgba(114,159,223,0.238831) 14%, #244d7e 100%);
-                    width: 384px;
+                    width: 65%;
     
                     p:nth-child(1){
                         font-size: 10px;
@@ -1323,9 +1348,9 @@
                         letter-spacing: 0.18em;
                     }
 
-                    @include is-max(1005px) {
-                        width: 100%;
-                    }
+                    // @include is-max(1005px) {
+                    //     width: 100%;
+                    // }
                 }
                 &-bdg {
                     position: absolute;

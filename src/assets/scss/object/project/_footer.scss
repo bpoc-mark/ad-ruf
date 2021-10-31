@@ -239,11 +239,12 @@
 
 
     .cntct {
-        display: flex;
         padding-top: 99px;
         padding-bottom: 20px;
-        flex-direction: column;
-        background-image: url(../../image/footer/footer_bg.png);
+        background-image: url(../../release/image/footer/footer_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
         &-hdr {
             text-align: center;
@@ -293,7 +294,7 @@
             @include is-max(1051px){
                 display: block;
                 margin-bottom: 30px;
-                padding: 0 20px;
+                padding: 40px 20px;
             }
 
 
@@ -317,7 +318,7 @@
 
                     p:nth-child(1) {
                         font-size: 18px;
-                        font-weight: 500;
+                        font-weight: 700;
                         font-family: yu-mincho-pr6n, sans-serif;
 
                         @include is-sp {
@@ -327,8 +328,8 @@
                     }
 
                     p:nth-child(2) {
-                        font-size: 11px;
-                        font: 500  'cross-platform-yu-gothic';
+                        @include font-line(11)
+                        font-family: cross-platform-yu-gothic;
 
                         @include is-sp {
                             @include font-line(30, 36);
@@ -364,9 +365,7 @@
                     right: 6px;
                     transform: translate(-18px, -50%);
 
-                    @include is-sp {
-                        display: none;
-                    }
+                 
                 }
             }
             .line {
@@ -383,9 +382,7 @@
                     right: 6px;
                     transform: translate(-18px, -50%);
 
-                    @include is-sp {
-                        display: none;
-                    }
+                  
                 }
             }
 
@@ -403,9 +400,7 @@
                     right: 6px;
                     transform: translate(-18px, -50%);
 
-                    @include is-sp {
-                        display: none;
-                    }
+               
                 }
             }
 

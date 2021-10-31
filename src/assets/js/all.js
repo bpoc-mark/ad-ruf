@@ -24,3 +24,19 @@ $('.slider').slick({
       }
     ]
   });
+
+
+  const slideOut = ()=> {
+    const body = document.querySelector('body');
+    const burger = document.querySelector('.brgr-mail-burger');
+    const nav2 = document.querySelector('.nav-sp-wrppr');
+
+
+   burger.addEventListener('click', ()=>{
+    nav2.classList.toggle('slide');
+    body.classList.toggle('ovf');
+       
+   });
+}
+
+slideOut();

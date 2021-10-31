@@ -23,3 +23,15 @@ $('.slider').slick({
     }
   }]
 });
+
+var slideOut = function slideOut() {
+  var body = document.querySelector('body');
+  var burger = document.querySelector('.brgr-mail-burger');
+  var nav2 = document.querySelector('.nav-sp-wrppr');
+  burger.addEventListener('click', function () {
+    nav2.classList.toggle('slide');
+    body.classList.toggle('ovf');
+  });
+};
+
+slideOut();
