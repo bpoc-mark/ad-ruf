@@ -82,6 +82,43 @@ $imagedir = get_template_directory_uri();
 
     </div>
 
+    <div class="p-cntct">
+
+        <div class="l-wrap">
+            <div class="p-cntct-hdr">
+                <p>contact</p>
+                <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
+            </div>
+
+            <div class="p-cntct-inqrs">
+                <div class="p-cntct-inqrs-dtl phone">
+                    <a class="p-cntct-inqrs-dtl-link" href="">
+                        <p>お電話でのお問い合わせ</p>
+                        <p>0120-173-602
+                            <br>
+                            受付時間：9：00～18：00<br class="u-d-n-pc">（土日祝除く）
+                        </p>
+                    </a>
+                </div>
+
+                <div class="p-cntct-inqrs-dtl line">
+                    <a class="p-cntct-inqrs-dtl-link" href="">
+                        <p>LINEお問い合わせ</p>
+                        <p>お問い合わせ24時間受付</p>
+                    </a>
+                </div>
+
+                <div class="p-cntct-inqrs-dtl email">
+                    <a class="p-cntct-inqrs-dtl-link" href="">
+                        <p>メールでのお問い合わせ</p>
+                        <p>お問い合わせフォーム<br>24時間受付</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="section_3">
         <div class="l-wrap pt100">
             <img class="section_3__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
@@ -104,12 +141,12 @@ $imagedir = get_template_directory_uri();
                         <div class="col_right">
                             <div class="box col_right-flex">
                                 <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_1_sp.png" alt="">
-                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
                                 <p>まずJR東京駅改札を出ていただき、M4入り口から、西方向に都道404号を進んでください。</p>
                             </div>
                             <div class="box col_right-flex">
                                 <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_2_sp.png" alt="">
-                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
                                 <p>ISSEY MIYAKE MARUNOUCHIの手前で左折し丸の内仲通りを進んでください。</p>
                             </div>
                             <div class="box col_right-flex">
@@ -135,7 +172,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                             <div class="box col_right-flex">
                                 <img class="" src="<?php echo $imagedir ?>/release/image/page/access/acc_img_5_sp.png" alt="">
-                                 <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
+                                <img class="pos" src="<?php echo $imagedir ?>/release/image/page/access/acc_right_arrow.png" alt="">
                                 <p>交差点で左折し丸の内仲通りを進んでください。</p>
                             </div>
                             <div class="box col_right-flex">

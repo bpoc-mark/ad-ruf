@@ -7,11 +7,11 @@
 		);
 		padding-bottom: 101px;
 
-		@include is-sp {
-			padding-bottom: 201px;
-		}
+		// @include is-sp {
+		// 	padding-bottom: 201px;
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			padding-bottom: 101px;
 		}
 
@@ -43,12 +43,12 @@
 
 		@include font-line(10, 10);
 
-		@include is-sp {
-			@include font-line(25, 20);
-			padding-top: 108px;
-		}
+		// @include is-sp {
+		// 	@include font-line(25, 20);
+		// 	padding-top: 108px;
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			@include font-line(12, 12);
 			padding-top: 27px;
 		}
@@ -64,14 +64,14 @@
 
 		@include font-line(30, 48);
 
-		@include is-sp {
-			letter-spacing: 0.215em;
-			@include font-line(50, 32);
-			line-height: 75px;
-			padding: 48px 0 41px 0;
-		}
+		// @include is-sp {
+		// 	letter-spacing: 0.215em;
+		// 	@include font-line(50, 32);
+		// 	line-height: 75px;
+		// 	padding: 48px 0 41px 0;
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			letter-spacing: 0.2em;
 			@include font-line(25, 32);
 			padding: 24px 0 20px 0;
@@ -86,14 +86,14 @@
 		line-height: 1;
 		text-align: center;
 
-		@include is-sp {
-			letter-spacing: unset;
-			padding: 0 0 52px 0;
-			@include font-line(27, 40.5);
-			letter-spacing: 0.1em;
-		}
+		// @include is-sp {
+		// 	letter-spacing: unset;
+		// 	padding: 0 0 52px 0;
+		// 	@include font-line(27, 40.5);
+		// 	letter-spacing: 0.1em;
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			letter-spacing: unset;
 			padding: 0 0 25px 0;
 			@include font-line(13.4, 20);
@@ -147,11 +147,11 @@
 						border-top: 1px solid #fff;
 						padding: 10px 0;
 
-						@include is-sp {
-							width: 230px;
-						}
+						// @include is-sp {
+						// 	width: 230px;
+						// }
 
-						@include is-max(500px) {
+						@include is-sp {
 							width: 100px;
 						}
 
@@ -163,11 +163,11 @@
 							position: absolute;
 							right: -10px;
 
-							@include is-sp {
-								height: 94%;
-							}
+							// @include is-sp {
+							// 	height: 94%;
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								height: 80%;
 							}
 						}
@@ -179,13 +179,13 @@
 							font-weight: 500;
 							width: 74px;
 
-							@include is-sp {
-								@include font-line(25, 50);
-								letter-spacing: 0.2em;
-								width: auto;
-							}
+							// @include is-sp {
+							// 	@include font-line(25, 50);
+							// 	letter-spacing: 0.2em;
+							// 	width: auto;
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								@include font-line(13, 25);
 								letter-spacing: 0.1em;
 								width: 74px;
@@ -211,13 +211,13 @@
 							font-weight: 500;
 							padding: 19px 0 19px 20px;
 
-							@include is-sp {
-								@include font-line(25, 50);
-								letter-spacing: 0.2em;
-								padding: 31px 0 31px 40px;
-							}
+							// @include is-sp {
+							// 	@include font-line(25, 50);
+							// 	letter-spacing: 0.2em;
+							// 	padding: 31px 0 31px 40px;
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								@include font-line(13, 25);
 								letter-spacing: 0.1em;
 								padding: 15px 0 15px 20px;
@@ -263,13 +263,13 @@
 			.col_right {
 				width: 50%;
 
-				@include is-sp {
-					width: 100%;
-					height: 501px;
-					padding-bottom: 40px;
-				}
+				// @include is-sp {
+				// 	width: 100%;
+				// 	height: 501px;
+				// 	padding-bottom: 40px;
+				// }
 
-				@include is-max(500px) {
+				@include is-sp {
 					width: 100%;
 					height: 250px;
 					padding-bottom: 20px;
@@ -316,18 +316,20 @@
 						flex-direction: column;
 						height: 100%;
 
-						@include is-sp {
-							width: 100%;
-							padding: 40px 0;
-							height: auto;
-							text-align: center;
-							margin-bottom: 50px;
-						}
+						// @include is-sp {
+						// 	width: 100%;
+						// 	padding: 40px 0;
+						// 	height: auto;
+						// 	text-align: center;
+						// 	margin-bottom: 50px;
+						// }
 
-						@include is-max(500px) {
+						@include is-sp {
 							width: 100%;
 							padding: 20px 0;
 							margin-bottom: 25px;
+							height: auto;
+							text-align: center;
 						}
 
 						& p:first-child {
@@ -336,11 +338,11 @@
 							@include font-line(10, 20);
 							letter-spacing: 0.26em;
 
-							@include is-sp {
-								@include font-line(20, 40);
-							}
+							// @include is-sp {
+							// 	@include font-line(20, 40);
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								@include font-line(10, 20);
 							}
 						}
@@ -351,11 +353,11 @@
 							font-family: cross-platform-yu-gothic;
 							letter-spacing: 0.3em;
 
-							@include is-sp {
-								@include font-line(32, 65);
-							}
+							// @include is-sp {
+							// 	@include font-line(32, 65);
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								@include font-line(16, 28);
 							}
 						}
@@ -389,12 +391,12 @@
 							color: #000;
 							padding-top: 15px;
 
-							@include is-sp {
-								padding-bottom: 146px;
-								@include font-line(27, 54);
-							}
+							// @include is-sp {
+							// 	padding-bottom: 146px;
+							// 	@include font-line(27, 54);
+							// }
 
-							@include is-max(500px) {
+							@include is-sp {
 								padding-bottom: 69px;
 								@include font-line(13.4, 27);
 							}
@@ -424,20 +426,24 @@
 									top: 14%;
 								}
 
-								@include is-sp {
-									width: 8%;
-									right: unset;
-									left: 48%;
-									bottom: 3%;
-									top: unset;
-									transform: translateX(-50%);
-									transform: rotate(90deg);
-								}
+								// @include is-sp {
+								// 	width: 8%;
+								// 	right: unset;
+								// 	left: 48%;
+								// 	bottom: 3%;
+								// 	top: unset;
+								// 	transform: translateX(-50%);
+								// 	transform: rotate(90deg);
+								// }
 
-								@include is-max(500px) {
+								@include is-sp {
 									width: auto;
 									left: 50%;
 									bottom: 6%;
+									top: unset;
+									transform: translateX(-50%);
+									transform: rotate(90deg);
+									right: unset;
 								}
 							}
 
@@ -470,11 +476,11 @@
 			left: -20px;
 			z-index: -1;
 
-			@include is-sp {
-				top: 414px;
-			}
+			// @include is-sp {
+			// 	top: 414px;
+			// }
 
-			@include is-max(500px) {
+			@include is-sp {
 				top: 264px;
 				width: 178px;
 			}
@@ -483,11 +489,11 @@
 		&__cnt01 {
 			margin-bottom: 70px;
 
-			@include is-sp {
-				margin-bottom: 100px;
-			}
+			// @include is-sp {
+			// 	margin-bottom: 100px;
+			// }
 
-			@include is-max(500px) {
+			@include is-sp {
 				margin-bottom: 50px;
 			}
 		}
@@ -500,7 +506,7 @@
 		right: 103px;
 		width: 316px;
 
-		@include is-max(500px) {
+		@include is-sp {
 			right: 10px;
 			width: 161px;
 		}
@@ -523,10 +529,7 @@
 	&--fd {
 		@include is-sp {
 			flex-direction: column;
-		
 		}
-
-	
 	}
 
 	&--btn {
@@ -537,6 +540,12 @@
 
 	&--btn:first-child {
 		margin-right: 30px;
+
+		@include is-max(325px) {
+			img {
+				right: 14px;
+			}
+		}
 	}
 	&--btn:last-child {
 		margin-left: 30px;
@@ -551,15 +560,13 @@
 		}
 	}
 
-	
-
 	.acc_ttl {
 		letter-spacing: 0.28em;
-		@include is-sp {
-			@include font-line(25);
-		}
+		// @include is-sp {
+		// 	@include font-line(25);
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			@include font-line(13);
 		}
 	}
@@ -569,12 +576,12 @@
 		padding-bottom: 0;
 		font-weight: 500;
 
-		@include is-sp {
-			@include font-line(50);
-			line-height: 75px;
-		}
+		// @include is-sp {
+		// 	@include font-line(50);
+		// 	line-height: 75px;
+		// }
 
-		@include is-max(500px) {
+		@include is-sp {
 			@include font-line(25);
 			letter-spacing: 0.075em;
 			line-height: 39px;

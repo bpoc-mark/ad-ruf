@@ -1,91 +1,352 @@
 .p-addons {
-    // background-image: url('https://demo.hipe.asia/public/img/bg_contact_us.jpg');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-    padding: 30px 0;
+	// background-image: url('https://demo.hipe.asia/public/img/bg_contact_us.jpg');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	padding: 30px 0;
 
-    &::before {
-        content: " ";
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-color: #000;
-        opacity: .77;
-        position: absolute;
-        z-index: -1;
-    }
+	&::before {
+		content: " ";
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: #000;
+		opacity: 0.77;
+		position: absolute;
+		z-index: -1;
+	}
 
-    &__frame {
-        @include is-sp {
-            text-align: center;
-        }
+	&__frame {
+		@include is-sp {
+			text-align: center;
+		}
 
-        .mascot {
-            width: 77%;
-            max-width: 77%;
+		.mascot {
+			width: 77%;
+			max-width: 77%;
 
-            @include is-sp {
-                width: 50%;
-                max-width: 50%;
-            }
-        }
-    }
+			@include is-sp {
+				width: 50%;
+				max-width: 50%;
+			}
+		}
+	}
 
-    &__consultation {
-        .desc {
-            height: 120px;
-            padding: 20px 0;
-        }
-    }
+	&__consultation {
+		.desc {
+			height: 120px;
+			padding: 20px 0;
+		}
+	}
 
-    &__other {
-        .frame {
-            display: flex;
-            justify-content: center;
-            height: 120px;
-            padding: 20px 0;
-        }
+	&__other {
+		.frame {
+			display: flex;
+			justify-content: center;
+			height: 120px;
+			padding: 20px 0;
+		}
 
-        .logo-hipe {
-            width: 36%;
-            max-width: 36%;
-        }
-    }
+		.logo-hipe {
+			width: 36%;
+			max-width: 36%;
+		}
+	}
 
-    .ttl,
-    .text {
-        color: #fff;
-        text-align: center;
-    }
+	.ttl,
+	.text {
+		color: #fff;
+		text-align: center;
+	}
 
-    .ttl {
-        @include font-line(24);
-    }
+	.ttl {
+		@include font-line(24);
+	}
 
-    .text {
-        @include font-line(18);
+	.text {
+		@include font-line(18);
 
-        i {
-            margin-right: 5px;
-        }
-    }
+		i {
+			margin-right: 5px;
+		}
+	}
 
-    .btnArea {
-        display: flex;
-        justify-content: center;
-        padding: 0 20px;
+	.btnArea {
+		display: flex;
+		justify-content: center;
+		padding: 0 20px;
 
-        .btn {
-            width: 100%;
-            text-align: center;
-            @include font-line(15);
-            i {
-                margin-left: 5px;
-            }
-        }
-    }
+		.btn {
+			width: 100%;
+			text-align: center;
+			@include font-line(15);
+			i {
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+.p-cntct {
+	padding: 99px 0;
+	background-image: url(../image/page/access/contact-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@include is-sp {
+		background-image: url(../image/page/access/contact-bg-sp.png);
+	}
+
+	&-hdr {
+		text-align: center;
+		color: #fff;
+
+		// @include is-sp {
+		// 	margin-bottom: 48px;
+		// }
+
+		p:nth-child(1) {
+			font-size: 10px;
+			line-height: 20px;
+			font-weight: 400;
+			letter-spacing: 2px;
+			font-family: century-gothic, sans-serif;
+			padding: 0 20px 0 20px;
+
+			@include is-sp {
+				@include font-line(12, 10);
+				letter-spacing: 0.32em;
+				margin-bottom: 25px;
+				color: #9fc4e3;
+			}
+		}
+
+		p:nth-child(2) {
+			font-size: 23px;
+			letter-spacing: 2px;
+			line-height: 37px;
+			font-family: yu-mincho-pr6n, sans-serif;
+
+			@include is-sp {
+				@include font-line(25, 32);
+				letter-spacing: 0.2em;
+			}
+
+			@include is-max(389px) {
+				font-size: 6vw;
+			}
+		}
+	}
+
+	&-inqrs {
+		padding-top: 34px;
+		display: flex;
+		justify-content: space-between;
+
+		@include is-sp {
+			margin-bottom: 30px;
+			flex-wrap: wrap;
+			padding: 24px 50px 0;
+		}
+
+		@include is-max(435px) {
+			padding: 24px 0 0;
+		}
+
+		&-dtl {
+			text-align: center;
+			border-radius: 30px;
+
+			@include is-max(1051px) {
+				margin-bottom: 30px;
+			}
+
+			&-link {
+				color: #fff;
+				display: inline-block;
+				// padding: 22px 0 22px 0;
+
+				p:nth-child(1) {
+					font-size: 18px;
+					font-weight: 700;
+					font-family: yu-mincho-pr6n, sans-serif;
+
+					@include is-max(1000px) {
+						font-size: 1.6vw;
+					}
+
+					@include is-sp {
+						@include font-line(18, 20);
+						letter-spacing: 0.12em;
+						padding-bottom: 10px;
+					}
+				}
+
+				p:nth-child(2) {
+					font-size: 11px;
+					font-family: "cross-platform-yu-gothic";
+					font-weight: 500;
+
+					@include is-max(1000px) {
+						font-size: 1.2vw;
+					}
+
+					@include is-sp {
+						@include font-line(15, 18);
+						letter-spacing: 0.1em;
+						line-height: 18px;
+					}
+				}
+
+				@include is-sp {
+					width: 100%;
+					// padding: 45px 35px 31px 35px;
+				}
+			}
+		}
+
+		.phone {
+			background-color: #fff;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 32%;
+
+			@include is-sp {
+				width: 100%;
+				min-height: 115px;
+				padding: 15px 10px 10px 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			a {
+				color: #2790d2 !important;
+			}
+
+			&:before {
+				content: "";
+				background: url(../image/page/access/arrow-blue.png) no-repeat center;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: 50%;
+				right: 20px;
+				transform: translate(0, -50%);
+
+				@include is-max(800px) {
+					right: 11px;
+				}
+
+				// @include is-sp {
+				// 	display: none;
+				// }
+			}
+		}
+		.line {
+			background-color: #00ad00;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 32%;
+			padding: 34px;
+
+			@include is-sp {
+				width: 100%;
+				min-height: 110px;
+				padding: 12px 10px 10px 10px;
+			}
+
+			&:before {
+				content: "";
+				background: url(../image/page/access/arrow-white.png) no-repeat center;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: 50%;
+				right: 20px;
+				transform: translate(0, -50%);
+
+				@include is-max(800px) {
+					right: 11px;
+				}
+
+				// @include is-sp {
+				// 	display: none;
+				// }
+			}
+		}
+
+		.email {
+			background-color: #b71e32;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 32%;
+
+			@include is-sp {
+				width: 100%;
+				min-height: 110px;
+				padding: 12px 10px 10px 10px;
+			}
+
+			&:before {
+				content: "";
+				background: url(../image/page/access/arrow-white.png) no-repeat center;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: 50%;
+				right: 20px;
+				transform: translate(0, -50%);
+
+				@include is-max(800px) {
+					right: 11px;
+				}
+
+				// @include is-sp {
+				// 	display: none;
+				// }
+			}
+		}
+	}
+
+	&-top {
+		text-align: center;
+		margin-top: 67px;
+
+		&-link {
+			color: #95c6e7;
+			position: relative;
+			letter-spacing: 4px;
+			@include font-line(13, 22);
+
+			&:before {
+				content: "";
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: -25px;
+				left: 50%;
+				transform: translateX(-50%);
+				background: url(../image/footer/arrow-push.png) no-repeat center;
+			}
+
+			@include is-sp {
+				@include font-line(23, 40);
+			}
+		}
+
+		@include is-sp {
+			margin-top: 33px;
+		}
+	}
 }
