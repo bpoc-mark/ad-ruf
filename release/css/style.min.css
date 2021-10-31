@@ -393,6 +393,7 @@ template{display:none}
 .top-header-nav .nav-links-mail-link{display:inline-block;padding:14px 22px 9px 20px;font-size:.875rem;line-height:1.2857142857;color:#fff;font-weight:500;border-left:1px solid #fff;border-bottom:1px solid #fff}
 .top-header-bnnr{height:660px;width:1100px;position:relative;background:-webkit-gradient(linear,left top,right top,from(#81b3d4),to(#4d95d1));background:linear-gradient(90deg,#81b3d4,#4d95d1);margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:60px;z-index:2}
 .top-header-bnnr::before{content:'';position:absolute;bottom:0;right:0;height:674px;width:585px;background:url(../../release/image/header/img-banner1.png)}
+.top-header-bnnr-cnt{width:100%}
 .top-header-bnnr-hdr-01{width:208px}
 .top-header-bnnr-hdr-01-txt{text-align:center;font-size:.875rem;line-height:1.3571428571;font-weight:700;font-family:cross-platform-yu-gothic}
 .top-header-bnnr-hdr-01-txt p{color:#fff;padding-top:13px;letter-spacing:.3em}
@@ -401,10 +402,12 @@ template{display:none}
 .top-header-bnnr-hdr-02-txt-1{font-size:1.875rem;line-height:1.3666666667;font-weight:500;font-family:yu-mincho-pr6n,sans-serif;color:#fff;letter-spacing:.3em}
 .top-header-bnnr-hdr-02-txt-sp{font-family:cross-platform-yu-gothic;display:none}
 .top-header-bnnr-hdr-02-txt-sp-cont{position:relative}
-.top-header-bnnr-hdr-02-txt-sp-cont:before{content:'';position:absolute;width:4px;height:30px;background-color:#fff}
-.top-header-bnnr-hdr-02-txt-sp-cont-1{font-size:1.6875rem;line-height:1.1111111111;letter-spacing:.28em;padding-left:10px;margin-bottom:22px}
-.top-header-bnnr-hdr-02-txt-sp-cont-2{font-size:1.6875rem;line-height:1.1111111111;letter-spacing:.28em;padding-left:10px}
+.top-header-bnnr-hdr-02-txt-sp-cont:before{content:'';position:absolute;width:4px;height:24px;background-color:#fff;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.top-header-bnnr-hdr-02-txt-sp-cont-1{font-size:1.25rem;line-height:1.5;letter-spacing:.28em;padding-left:10px;margin-bottom:6px}
+.top-header-bnnr-hdr-02-txt-sp-cont-2{font-size:1.25rem;line-height:1.5;letter-spacing:.28em;padding-left:10px}
+.top-header-bnnr-hdr-02-txt-sp-cont-2 br{display:none}
 .top-header-bnnr-hdr-02-txt-2{font-size:.625rem;line-height:2;font-weight:400;font-family:century-gothic,sans-serif;color:#fff;letter-spacing:.2em}
+.top-header-bnnr-hdr-02-txt-2 br{display:none}
 .top-header-bnnr-hdr-02-spimg{width:151px;display:none}
 .top-header-bnnr-hdr-02-desc{margin-top:20px}
 .top-header-bnnr-hdr-02-desc-01{font-size:.6875rem;line-height:1.3636363636;font-weight:700;letter-spacing:.54em;color:#fff;position:relative}
@@ -418,6 +421,7 @@ template{display:none}
 .top-header-bnnr-txt01-hon{font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.3666666667;font-weight:500;letter-spacing:.3em;color:#fff}
 .top-header-bnnr-txt02{position:absolute;top:58px;right:20px}
 .top-header-bnnr-txt02-ver{-webkit-writing-mode:tb;-ms-writing-mode:tb;writing-mode:tb;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.3666666667;font-weight:500;letter-spacing:.3em;color:#fff}
+.top-header::after{content:'';position:absolute;bottom:0;left:0;height:380px;width:100%;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,0,0,0)),to(#2579bf));background-image:linear-gradient(to bottom,rgba(255,0,0,0),#2579bf);z-index:5;display:none}
 .attachment{position:fixed;margin-top:120px;margin-left:1550px}
 .attachment .img{height:134.39px;width:227.39px}
 .p-introduction{padding-top:100px;padding-bottom:100px}
@@ -1050,7 +1054,8 @@ template{display:none}
 .real_estate_purchase .sect_8 .atext{font-family:cross-platform-yu-gothic;font-size:.8125rem;line-height:2;color:#333;letter-spacing:.15em;text-align:left;font-weight:700;padding-bottom:5px}
 .real_estate_purchase .sect_8__btn--wrap{position:relative;padding-top:55px;width:640px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:auto;z-index:2}
 .top .l-wrap{position:relative}
-.top .sect_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);padding:92px 0 138px 0;-webkit-clip-path:polygon(0 0,100% 0,100% 91%,0 100%);clip-path:polygon(0 0,100% 0,100% 91%,0 100%)}
+.top .sect_1{margin-top:-109px;z-index:4}
+.top .sect_1 .clipPath{-webkit-clip-path:polygon(0 12%,100% 0,100% 90%,0 100%);clip-path:polygon(0 12%,100% 0,100% 90%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);padding:140px 0 138px 0}
 .top .sect_1-hdr{text-align:center}
 .top .sect_1-hdr-ttl{font-family:century-gothic,sans-serif}
 .top .sect_1-hdr-ttl-txt{font-size:.625rem;line-height:2;letter-spacing:.32em;color:#fff;font-weight:400}
@@ -1484,14 +1489,24 @@ template{display:none}
 .p-form__container--button-area{width:100%}
 .p-form__label--textSmall{font-size:.6875rem;font-weight:500}
 .p-formSearch__inner{width:100%}
-.top-header{overflow:hidden}
-.top-header-bnnr{margin:0;width:95%;height:1005px}
-.top-header-bnnr::before{right:-15%}
+.top-header{overflow:hidden;padding-top:30px}
+.top-header-bnnr{margin:0;width:95%;height:100%;padding-left:47px;padding-top:187px;padding-bottom:100px}
+.top-header-bnnr::before{right:-15%;z-index:-4}
+.top-header-bnnr-hdr-01{display:none}
+.top-header-bnnr-hdr-02{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.top-header-bnnr-hdr-02-txt-1{-webkit-writing-mode:tb;-ms-writing-mode:tb;writing-mode:tb;font-size:2.75rem}
+.top-header-bnnr-hdr-02-txt-sp-cont-2 br{display:block}
+.top-header-bnnr-hdr-02-txt-sp{display:block}
+.top-header-bnnr-hdr-02-txt-2 br{display:block}
+.top-header-bnnr-hdr-02-txt-2{font-size:1.0625rem}
+.top-header-bnnr-hdr-02-spimg{display:block}
+.top-header-bnnr-hdr-02-desc{display:none}
 .top-header-bnnr::after{display:none}
 .top-header-bnnr-txt01{top:142px}
 .top-header-bnnr-txt01-hon{font-size:2.875rem;line-height:1.3913043478}
 .top-header-bnnr-txt02{top:200px}
 .top-header-bnnr-txt02-ver{font-size:2.875rem;line-height:1.3913043478}
+.top-header::after{display:block}
 .p-introduction__intro .headline{text-align:center}
 .p-introduction__intro .headline__text{font-size:1.125rem}
 .p-link01__link{display:block}
@@ -1729,6 +1744,7 @@ template{display:none}
 .real_estate_purchase .sect_2 .txt_ttl{padding-bottom:25px}
 .real_estate_purchase .sect_3 .txt_ttl{padding-bottom:25px}
 .real_estate_purchase .sect_5 .txt_ttl{padding-bottom:20px}
+.top .sect_1 .clipPath{padding:200px 0 168px 0}
 .top .sect_1-hdr-ttl-txt{font-size:1.5625rem;line-height:.8;letter-spacing:.32em;margin-bottom:46px}
 .top .sect_1-hdr-sub-txt{font-size:3.125rem;line-height:1.44;letter-spacing:.2em;margin-bottom:34px}
 .top .sect_1-hdr-desc-txt{font-size:1.6875rem;line-height:1.4814814815;letter-spacing:.1em}
@@ -1743,7 +1759,6 @@ template{display:none}
 .top .sect_1 .bg_1{position:absolute;top:-9%;right:0}
 .top .sect_1 .bg_2{position:absolute;left:2%;top:41%;z-index:-1;width:190px}
 .top .sect_1 .bg_3{position:absolute;right:2.3%;bottom:45%;z-index:-1;width:227px}
-.top .sect_1{padding:200px 0 168px 0}
 .top .sect_2 .sect_2-cntnt-row-02 .row01-ttl{display:block;text-align:left;margin-bottom:70px}
 .top .sect_2 .sect_2-cntnt-row-02{width:100%;margin-bottom:50px}
 .top .sect_2 .sect_2-cntnt-row-01-txt-01{font-size:3.125rem;line-height:1.5;letter-spacing:.15em;display:none}

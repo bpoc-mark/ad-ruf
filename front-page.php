@@ -1,73 +1,75 @@
 <?php get_header(); ?>
  <div class="page__content top">
 <!-- <section class="sect_1">
-    <div class="l-wrap">
-        <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt="">
-        <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
-        <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt="">
-    
-        <div class="sect_1-hdr">
-            <div class="sect_1-hdr-ttl">
-                <p class="sect_1-hdr-ttl-txt">OUR ENTERPRISES</p>
-            </div>
-            <div class="sect_1-hdr-sub">
-                <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業をご紹介いたします。
-                </p>
-            </div>
-            <div class="sect_1-hdr-desc">
-                <p class="sect_1-hdr-desc-txt">
-                    私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br>
-                    首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br>
-                    自社で収益不動産を所有する「プロのオーナー」として、お客様と同じ目線でサービスを提供します。
-                </p>
-            </div>
-        </div>
-
-        <div class="sect_1-cntnt">
-            <div class="sect_1-cntnt-row">
-                <div class="sect_1-cntnt-row-01">
-
-                    <div class="row01-ttl">
-                        <div class="row01-ttl-01">
-                            <p class="row01-ttl-01-txt01">収益不動産の売買</p>
-                        </div>
-                        <div class="row01-ttl-02">
-                            <p class="row01-ttl-01-txt02">Real Estate Purchase</p>
-                        </div>                  
-                    </div>
-
-
-                    <div class="col--box">
-                        <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-1.png" alt="">
-                        <p class="top-text01">
-                            <span>R</span>eal Estate
-                        </p>
-                        <p class="top-text02">
-                            <span>P</span>urchase
-                        </p>
-                        <p class="num">01</p>
-                        <div class="info">
-                            <p class="info-ttl">価値を見極める</p>
-                            <p class="info-sub">RUFの収益不動産の売買</p>
-                        </div>
-                    </div>
+    <div class="clipPath">
+        <div class="l-wrap">
+            <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt="">
+            <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
+            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt="">
+        
+            <div class="sect_1-hdr">
+                <div class="sect_1-hdr-ttl">
+                    <p class="sect_1-hdr-ttl-txt">OUR ENTERPRISES</p>
                 </div>
-                <div class="sect_1-cntnt-row-02">
-                    <div class="sect_1-cntnt-row-02-txt">
-                        <p class="sect_1-cntnt-row-02-txt-01">収益不動産の売買</p>
+                <div class="sect_1-hdr-sub">
+                    <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業をご紹介いたします。
+                    </p>
+                </div>
+                <div class="sect_1-hdr-desc">
+                    <p class="sect_1-hdr-desc-txt">
+                        私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br>
+                        首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br>
+                        自社で収益不動産を所有する「プロのオーナー」として、お客様と同じ目線でサービスを提供します。
+                    </p>
+                </div>
+            </div>
+
+            <div class="sect_1-cntnt">
+                <div class="sect_1-cntnt-row">
+                    <div class="sect_1-cntnt-row-01">
+
+                        <div class="row01-ttl">
+                            <div class="row01-ttl-01">
+                                <p class="row01-ttl-01-txt01">収益不動産の売買</p>
+                            </div>
+                            <div class="row01-ttl-02">
+                                <p class="row01-ttl-01-txt02">Real Estate Purchase</p>
+                            </div>                  
+                        </div>
+
+
+                        <div class="col--box">
+                            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-1.png" alt="">
+                            <p class="top-text01">
+                                <span>R</span>eal Estate
+                            </p>
+                            <p class="top-text02">
+                                <span>P</span>urchase
+                            </p>
+                            <p class="num">01</p>
+                            <div class="info">
+                                <p class="info-ttl">価値を見極める</p>
+                                <p class="info-sub">RUFの収益不動産の売買</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="sect_1-cntnt-row-02-txt">
-                        <p class="sect_1-cntnt-row-02-txt-02">Real Estate Purchase</p>
+                    <div class="sect_1-cntnt-row-02">
+                        <div class="sect_1-cntnt-row-02-txt">
+                            <p class="sect_1-cntnt-row-02-txt-01">収益不動産の売買</p>
+                        </div>
+                        <div class="sect_1-cntnt-row-02-txt">
+                            <p class="sect_1-cntnt-row-02-txt-02">Real Estate Purchase</p>
+                        </div>
+                        <div class="sect_1-cntnt-row-02-txt">
+                            <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
+                        </div>
+                    
+                        <div class="c-buttonCase u-l-algn">
+                            <p class="txt">収益不動産の管理について</p>
+                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                            
+                        </div>                    
                     </div>
-                    <div class="sect_1-cntnt-row-02-txt">
-                        <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
-                    </div>
-                   
-                    <div class="c-buttonCase u-l-algn">
-                        <p class="txt">収益不動産の管理について</p>
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
-                        
-                    </div>                    
                 </div>
             </div>
         </div>

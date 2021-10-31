@@ -188,10 +188,10 @@
 
     @include is-sp {
         overflow: hidden;
+        padding-top: 30px;
     }
  
     // clip top
-
     .top-clip {
         width: 800px;
         height: 250px;
@@ -322,7 +322,10 @@
         @include is-sp {
             margin: 0;
             width: 95%;
-            height: 1005px;
+            height: 100%;
+            padding-left: 47px;
+            padding-top: 187px;
+            padding-bottom: 100px;
         }
 
         &::before {
@@ -336,10 +339,12 @@
             
             @include is-sp {
                 right: -15%;
-
+                z-index: -4;
             }
         }
-
+        &-cnt {
+            width: 100%;
+        }
         &-hdr-01 {
             width: 208px;
 
@@ -355,11 +360,22 @@
                     letter-spacing: 0.3em;
                 }
             }
+
+            @include is-sp{
+                display: none;
+            }
         }
 
         &-hdr-02 {
             margin-left: 18px;
             color: #fff;
+
+            @include is-sp {
+                display: flex;
+                align-items: flex-end;
+                width: 100%;
+                justify-content: space-between;
+            }
 
             &-txt {
                 z-index: 2;
@@ -370,6 +386,11 @@
                     font-family: yu-mincho-pr6n, sans-serif;
                     color:#fff;
                     letter-spacing: 0.3em;
+
+                    @include is-sp {
+                        writing-mode: tb;
+                        @include font-line(44);
+                    }
                 }
 
                 &-sp {
@@ -384,21 +405,35 @@
                             content: '';
                             position: absolute;
                             width: 4px;
-                            height: 30px;
+                            height: 24px;
                             background-color: #fff;
+                            top: 50%;
+                            transform: translateY(-50%);
                         }
 
                         &-1 {
-                            @include font-line(27,30);
+                            @include font-line(20,30);
                             letter-spacing: 0.28em;
                             padding-left: 10px;
-                            margin-bottom: 22px;
+                            margin-bottom: 6px;
                         }
                         &-2 {
-                            @include font-line(27,30);
+                            @include font-line(20,30);
                             letter-spacing: 0.28em;
                             padding-left: 10px;
+
+                            br{
+                                display: none;
+
+                                @include is-sp {
+                                    display: block;
+                                }
+                            }
                         }
+                    }
+
+                    @include is-sp {
+                        display: block
                     }
                 }
 
@@ -409,6 +444,19 @@
                     font-family: century-gothic, sans-serif;
                     color:#fff;
                     letter-spacing: 0.2em;
+
+                    br {
+                        display: none;
+
+                        @include is-sp {
+                            display: block;
+
+                        }
+                    }
+
+                    @include is-sp {
+                        @include font-line(17);
+                    }
                 }  
 
                 
@@ -418,11 +466,18 @@
             &-spimg {
                 width: 151px;
                 display: none;
+
+                @include is-sp {
+                    display: block;
+                }
             }
 
             &-desc {
                 margin-top: 20px;
-              
+                
+                @include is-sp {
+                    display: none;
+                }
 
                 &-01 {
                     @include font-line(11,15);
@@ -532,9 +587,24 @@
             }
         }
     }
- 
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 380px;
+        width: 100%;
+        background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(37,121,191,1));
+        z-index: 5;
+        display: none;
 
-    // & {
+        @include is-sp {
+            display: block;
+        }
+    }
+
+    // & {#
     //     display: flex;
     //     justify-content: space-between;
     //     z-index: 2;

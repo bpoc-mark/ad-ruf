@@ -90,8 +90,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <p top-header-bnnr-hdr-02-txt-2>
-                                Chosen by the chosen people,and continues to be chosen
+                            <p class="top-header-bnnr-hdr-02-txt-2">
+                                Chosen by the chosen people, <br> and continues to be chosen
                             </p>
                         </div>
 
@@ -124,7 +124,9 @@
             <div class="top-clip">
             
             </div>
+            <div class="bottom-clip">
+            
+            </div>
         </div>
-       
     </div>
     

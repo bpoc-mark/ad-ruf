@@ -3,10 +3,18 @@
         position: relative;
     }
     .sect_1 {
-        background: linear-gradient(to right, #2579BF,#2593D5);
-        padding:92px 0 138px 0;
-        clip-path: polygon(0 0%, 100% 0%, 100% 91%, 0% 100%);
-        // clip-path: polygon(0 23%, 100% 0, 100% 78%, 0% 100%);
+        margin-top: -109px;
+        z-index: 4;
+        .clipPath {
+            clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
+            background: linear-gradient(to right, #2579BF,#2593D5);
+            padding:140px 0 138px 0;
+
+            @include is-sp {
+                padding:200px 0 168px 0;
+            }
+        }
+      
 
         &-hdr {
             text-align: center;
@@ -308,10 +316,7 @@
                 width: 227px;
             }
         }
-       
-        @include is-sp {
-            padding:200px 0 168px 0;
-        }
+    
     }
 
 
