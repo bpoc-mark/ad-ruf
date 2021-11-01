@@ -442,11 +442,16 @@
 		font-family: cross-platform-yu-gothic;
 		font-weight: 700;
 		color: #258acf;
-		padding: 20px 15px 30px 15px;
+		padding: 20px 10px 30px 10px;
 
-		// @include is-sp {
-		// 	font-size: 15px;
-		// }
+		@include is-sp {
+			font-size: 15px;
+		}
+
+		@include is-max(367px) {
+			font-size: 3.9vw;
+			padding-bottom: 15px;
+		}
 	}
 	&__bottom {
 		@include font-line(11);
@@ -457,8 +462,12 @@
 		color: #808080;
 		padding: 0 15px 20px 15px;
 
-		// @include is-sp {
-		// 	font-size: 13.4px;
-		// }
+		@include is-sp {
+			font-size: 13.4px;
+		}
+
+		@include is-max(367px) {
+			font-size: 3.5vw;
+		}
 	}
 }

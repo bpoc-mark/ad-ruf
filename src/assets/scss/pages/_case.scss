@@ -148,6 +148,43 @@
 
 // case study main
 .csm {
+	.section_1__ttl {
+		@include is-sp {
+			@include font-line(12);
+		}
+	}
+
+	.c-case01__title {
+		line-height: 48px;
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(25);
+			line-height: 32px;
+		}
+
+		@include is-max(340px) {
+			font-size: 7vw;
+		}
+	}
+
+	.c-case01__sub {
+		font-weight: 500;
+		line-height: 26px;
+		letter-spacing: 0.2em;
+		@include is-sp {
+			@include font-line(13.4);
+			letter-spacing: 0.1em;
+		}
+	}
+
+	.c-case--items__contents {
+		padding: 60px 0 0;
+
+		@include is-sp {
+			padding-bottom: 50px;
+		}
+	}
+
 	.c-case--items:nth-child(odd) {
 		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 
@@ -189,6 +226,43 @@
 			right: 0;
 			bottom: -1px;
 			z-index: -10;
+		}
+	}
+
+	.c-case03__txt {
+		margin-bottom: 82px;
+
+		@include is-sp {
+			margin-bottom: 0;
+		}
+	}
+
+	.c-case03__txt__ttl {
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(12);
+			letter-spacing: 0.15em;
+		}
+	}
+
+	.c-case03__txt__sub {
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(25);
+			letter-spacing: 0.15em;
+		}
+	}
+
+	.c-case03__txt__desc {
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(13.4);
+			letter-spacing: 0.1em;
+			line-height: 25px;
+		}
+
+		@include is-max(374px) {
+			font-size: 3.4vw;
 		}
 	}
 }

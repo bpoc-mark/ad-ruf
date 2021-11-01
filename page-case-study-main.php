@@ -11,9 +11,9 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl">Case Studies</p>
-            <h1 class="c-case01__title">丸の内ルーフのバリューアップは○○○○○</h1>
-            <p class="c-case01__sub">私たち丸の内ルーフは○○○○○○○○○○○○○○○○○。<br>
-                ○○○○○○○○○○○○○(特徴が入ります)。</p>
+            <h1 class="c-case01__title">丸の内ルーフの<br class="u-d-n-pc">バリューアップは<br class="u-d-n-pc">○○○○○<span class="u-d-n-pc">○○○○○</span></h1>
+            <p class="c-case01__sub">私たち丸の内ルーフは○○○○○○○○<br class="u-d-n-pc">○○○○○○○○○。<br>
+                ○○○○○○○○○○○○○<br class="u-d-n-pc">(特徴が入ります)。</p>
         </div>
         <!-- //CONTENT 1 -->
         <div class="c-case--items">
@@ -224,7 +224,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-case03__txt u-ta-l">
                         <p class="c-case03__txt__ttl">Real estate column</p>
                         <p class="c-case03__txt__sub">●●●●コラム</p>
-                        <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                        <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                             情報収集をして、後悔のない不動産投資を！</p>
                     </div>
 
