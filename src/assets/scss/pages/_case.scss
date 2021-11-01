@@ -203,6 +203,13 @@
 
 		.bg_3 {
 			top: 50px;
+
+			@include is-sp {
+				top: -9px;
+				width: 162px;
+				right: -9px;
+				display: block;
+			}
 		}
 
 		.bg_7 {

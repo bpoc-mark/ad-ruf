@@ -946,6 +946,7 @@ template{display:none}
 .csm .c-case--items__contents{padding-bottom:50px}
 .csm .c-case--items:nth-child(odd){-webkit-clip-path:polygon(0 6%,100% 0,100% 100%,0 100%);clip-path:polygon(0 6%,100% 0,100% 100%,0 100%);padding-top:76px}
 .csm .c-case--items:nth-child(odd) .bg_2{display:none}
+.csm .c-case--items:nth-child(odd) .bg_3{top:-9px;width:162px;right:-9px;display:block}
 .csm .c-case03__txt{margin-bottom:0}
 .csm .c-case03__txt__ttl{font-size:.75rem;letter-spacing:.15em}
 .csm .c-case03__txt__sub{font-size:1.5625rem;letter-spacing:.15em}
