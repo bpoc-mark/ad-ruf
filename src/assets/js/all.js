@@ -29,7 +29,7 @@ $('.slider').slick({
   const slideOut = ()=> {
       const body = document.querySelector('body');
       const burger = document.querySelector('.brgr-mail-burger');
-      const nav2 = document.querySelector('.nav-links');
+      const nav2 = document.querySelector('.top-header-nav');
       const menu_close = document.querySelector('.nav-links-ul-close');
 
     burger.addEventListener('click', ()=>{
@@ -48,6 +48,6 @@ $('.slider').slick({
 			clickAllowed = true;
 		}
 		else{
-      $('.nav-links').removeAttr('style');
+      $('.top-header-nav').removeAttr('style');
 		}
   })

@@ -27,7 +27,7 @@ $('.slider').slick({
 var slideOut = function slideOut() {
   var body = document.querySelector('body');
   var burger = document.querySelector('.brgr-mail-burger');
-  var nav2 = document.querySelector('.nav-links');
+  var nav2 = document.querySelector('.top-header-nav');
   var menu_close = document.querySelector('.nav-links-ul-close');
   burger.addEventListener('click', function () {
     nav2.style = "transform: translateX(0)";
@@ -44,6 +44,6 @@ $(window).on('load resize', function () {
   if (w < 750) {
     clickAllowed = true;
   } else {
-    $('.nav-links').removeAttr('style');
+    $('.top-header-nav').removeAttr('style');
   }
 });

@@ -56,22 +56,10 @@
                                 <div class="nav-links-ul-02-link dd2">
                                     <a href="">不動産コラム</a>
                                 </div>
-                                <div class="nav-links-ul-02-link dd2">
-                                    <a href="">不動産コラム</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd2">
-                                    <a href="">不動産コラム</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd2">
-                                    <a href="">不動産コラム</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd2">
-                                    <a href="">不動産コラム</a>
-                                </div>
+                                
                             </div>
 
-                        
-                            <a href="javascript:void(0)" class="nav-links-ul-close"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/sp_menu_close.svg" alt=""> CLOSE</a>
+                    
                         </div>
                         <div class="nav-links-mail">
                             <a class="nav-links-mail-link" href="">
@@ -81,6 +69,7 @@
                             </a>
                         </div>
                     </div>
+                    <a href="javascript:void(0)" class="nav-links-ul-close"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/sp_menu_close.svg" alt=""> CLOSE</a>
                 </div>
 
 

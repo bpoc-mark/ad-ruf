@@ -215,6 +215,7 @@
     }
 
     &-nav {
+        
         position: fixed;
         top: 0;
         left: 0;
@@ -224,6 +225,7 @@
         padding: 0 0 0 50px;
         z-index: 999;
         display: none;
+        
 
         
 
@@ -232,7 +234,12 @@
         }
 
         @include is-sp {
-            padding: 67px 0 0 50px;
+            // padding: 67px 0 0 50px;
+            height: 100%;
+            z-index: 800;
+            transform: translateX(-100%);
+                transition: .3s ease-in-out;
+                z-index: 1000;
         }
 
         .brnd-logo {
@@ -250,7 +257,7 @@
                 }
             
             &-link {
-                width: 100%;
+                width: calc(100% - 77px);
                 @include font-line(14,19);
                 font-weight: 700;
                 font-family:cross-platform-yu-gothic;
@@ -332,16 +339,14 @@
             @include is-sp {
                 display: block;
                 background: linear-gradient(to top, #2579BF,#2593D5);
-                position: fixed;
-                top: 0;
-                left: 0;
+                // position: fixed;
+                // top: 0;
+                // left: 0;
                 z-index: 1000;
                 height: 100%;
                 width: 100%;
                 padding: 35px 0 0 0;
                 overflow: scroll;
-                transform: translateX(-100%);
-                transition: .3s ease-in-out;
             }
     
             &-ul {
@@ -381,7 +386,7 @@
 
                 @include is-sp {
                     width: 100%;
-                    padding-right: 77px;
+                    // padding-right: 77px;
                     padding-top: 48px;
 
                 }
@@ -471,9 +476,9 @@
                     }
 
                     background-color: #81b3d4;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
+                    // position: absolute;
+                    // top: 0;
+                    // right: 0;
                     width: 77px;
                     // height: 100%;
                     text-align: center;

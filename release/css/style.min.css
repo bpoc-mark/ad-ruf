@@ -379,7 +379,7 @@ template{display:none}
 .top-header .mail{width:22px}
 .top-header-nav{position:fixed;top:0;left:0;right:0;max-width:1200px;margin:0 auto;padding:0 0 0 50px;z-index:999;display:none}
 .top-header-nav .brnd-logo{display:-webkit-box;display:-ms-flexbox;display:flex;width:267px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.top-header-nav .brnd-logo-link{width:100%;font-size:.875rem;line-height:1.3571428571;font-weight:700;font-family:cross-platform-yu-gothic;color:#fff;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.top-header-nav .brnd-logo-link{width:calc(100% - 77px);font-size:.875rem;line-height:1.3571428571;font-weight:700;font-family:cross-platform-yu-gothic;color:#fff;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .top-header-nav .nav-links{display:-webkit-box;display:-ms-flexbox;display:flex;width:728px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .top-header-nav .nav-links .brnd-logo-slide{display:-webkit-box;display:-ms-flexbox;display:flex;width:261px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;top:3%;left:0}
 .top-header-nav .nav-links .brnd-logo-slide-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;font-size:.90625rem;line-height:1.3103448276;font-weight:700;font-family:cross-platform-yu-gothic;color:#fff;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:none;letter-spacing:.24em}
@@ -392,7 +392,7 @@ template{display:none}
 .top-header-nav .nav-links-ul-02-link a{font-size:.6875rem;line-height:1.3636363636;color:#fff;font-weight:700}
 .top-header-nav .nav-links-ul-02 .dd{position:relative}
 .top-header-nav .nav-links-ul-02 .dd::before{content:'';position:absolute;top:40%;left:110%;background:url(../../release/image/header/drop-d.png);background-repeat:no-repeat;width:100%;height:100%;color:#fff}
-.top-header-nav .nav-links-ul-close{display:none;background-color:#81b3d4;position:absolute;top:0;right:0;width:77px;text-align:center}
+.top-header-nav .nav-links-ul-close{display:none;background-color:#81b3d4;width:77px;text-align:center}
 .top-header-nav .nav-links-ul-close img{width:25px}
 .top-header-nav .nav-links-mail{width:150px;height:80px;text-align:center;background-color:#b71e32;padding:0 0 2px 2px}
 .top-header-nav .nav-links-mail-link{display:inline-block;padding:14px 22px 9px 20px;font-size:.875rem;line-height:1.2857142857;color:#fff;font-weight:500;border-left:1px solid #fff;border-bottom:1px solid #fff}
@@ -904,15 +904,15 @@ template{display:none}
 .p-formSearch__inner{width:100%}
 .top-header{overflow:hidden;padding-top:30px}
 .top-header .logo{width:131px}
-.top-header-nav{padding:67px 0 0 50px}
+.top-header-nav{height:100%;z-index:800;-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out;z-index:1000}
 .top-header-nav .brnd-logo{width:530px;display:none}
 .top-header-nav .brnd-logo-link{font-size:1.8125rem}
 .top-header-nav .brnd-logo{width:450px}
 .top-header-nav .nav-links .brnd-logo-slide{padding-left:17px;width:280px}
 .top-header-nav .nav-links .brnd-logo-slide-link{display:-webkit-box;display:-ms-flexbox;display:flex}
-.top-header-nav .nav-links{display:block;background:-webkit-gradient(linear,left bottom,left top,from(#2579bf),to(#2593d5));background:linear-gradient(to top,#2579bf,#2593d5);position:fixed;top:0;left:0;z-index:1000;height:100%;width:100%;padding:35px 0 0 0;overflow:scroll;-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
+.top-header-nav .nav-links{display:block;background:-webkit-gradient(linear,left bottom,left top,from(#2579bf),to(#2593d5));background:linear-gradient(to top,#2579bf,#2593d5);z-index:1000;height:100%;width:100%;padding:35px 0 0 0;overflow:scroll}
 .top-header-nav .nav-links-ul-pro{width:100%}
-.top-header-nav .nav-links-ul-02{width:100%;padding-right:77px;padding-top:48px}
+.top-header-nav .nav-links-ul-02{width:100%;padding-top:48px}
 .top-header-nav .nav-links-ul-02-link{width:100%;border-bottom:1px solid #fff;padding:30px 0 22px 23px;font-size:.9375rem}
 .top-header-nav .nav-links-ul-02-link:first-child{border-top:1px solid #fff}
 .top-header-nav .nav-links-ul-02 .dd::before{width:9px;left:unset;right:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);top:0}
