@@ -31,10 +31,17 @@
                     <div class="nav-links">
                         <div class="nav-links-ul">
                             <div class="nav-links-ul-pro">
-                                <a class="nav-links-ul-pro-link" href="">会社概要　/ プライバシーポリシー</a>
+
+                            <div class="brnd-logo-slide u-d-n-pc">
+                                <a class="brnd-logo-slide-link u-d-f u-jc-sb" href="">
+                                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
+                                    <p>丸の内 株式会社ルーフ </p>
+                                </a>
+                            </div>
+                                <a class="nav-links-ul-pro-link u-d-n-sp" href="">会社概要　/ プライバシーポリシー</a>
                             </div>
                             <div class="nav-links-ul-02">
-                                <div class="nav-links-ul-02-link">
+                                <div class="nav-links-ul-02-link dd2">
                                     <a href="">TOP</a>
                                 </div>
                                 <div class="nav-links-ul-02-link dd">
@@ -46,16 +53,30 @@
                                 <div class="nav-links-ul-02-link dd">
                                     <a href="">バリューアップ事例</a>
                                 </div>
-                                <div class="nav-links-ul-02-link">
+                                <div class="nav-links-ul-02-link dd2">
+                                    <a href="">不動産コラム</a>
+                                </div>
+                                <div class="nav-links-ul-02-link dd2">
+                                    <a href="">不動産コラム</a>
+                                </div>
+                                <div class="nav-links-ul-02-link dd2">
+                                    <a href="">不動産コラム</a>
+                                </div>
+                                <div class="nav-links-ul-02-link dd2">
+                                    <a href="">不動産コラム</a>
+                                </div>
+                                <div class="nav-links-ul-02-link dd2">
                                     <a href="">不動産コラム</a>
                                 </div>
                             </div>
+
+                        
                             <a href="javascript:void(0)" class="nav-links-ul-close"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/sp_menu_close.svg" alt=""> CLOSE</a>
                         </div>
                         <div class="nav-links-mail">
                             <a class="nav-links-mail-link" href="">
                                 <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
-                                <p>お問い合わせ・<br>
+                                <p>お問い合わせ・<br class="u-d-n-sp">
                                     ご相談</p>
                             </a>
                         </div>
@@ -64,6 +85,13 @@
 
 
                 <div class="top-header-bnnr">
+
+                    <div class="brnd-logo-sp u-d-n-pc">
+                        <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
+                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
+                            <p>丸の内 株式会社ルーフ </p>
+                        </a>
+                    </div>
                     <div class=" top-header-bnnr-cnt u-d-f">
                         <div class="top-header-bnnr-hdr-01">
                             <div class="top-header-bnnr-hdr-cntnt01-img">
@@ -235,7 +263,7 @@
                 </a>
                 <a class="brgr-mail-mail">
                     <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
-                    <p class="brgr-mail-mail-txt">お問い合わせ・ご相談</p>
+                    <p class="brgr-mail-mail-txt">お問い合わせ・<br class="u-d-n-pc">ご相談</p>
                 </a>
             </div>
         </div>

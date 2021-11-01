@@ -246,6 +246,7 @@
 
                 @include is-sp {
                     width: 530px;
+                    display: none;
                 }
             
             &-link {
@@ -289,17 +290,55 @@
                 width: 515px;
             }
 
+            .brnd-logo-slide {
+                display: flex;
+                width: 261px;
+                align-items: center;
+                position: absolute;
+                top: 3%;
+                left: 0;
+
+                @include is-sp {
+                    padding-left: 17px;
+                    width: 280px;
+                }
+                
+                &-link {
+    
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    @include font-line(14.5,19);
+                    font-weight: 700;
+                    font-family:cross-platform-yu-gothic;
+                    color:#fff;
+                    align-items: center;
+                    display: none;
+                    letter-spacing: 0.24em;
+                    
+                    .logo {
+                        width: 65.5px;
+                    }
+                    
+                    @include is-sp {
+                        display: flex;
+                    }
+                   
+    
+                }
+    
+            }
 
             @include is-sp {
                 display: block;
-                background-color: red;
+                background: linear-gradient(to top, #2579BF,#2593D5);
                 position: fixed;
                 top: 0;
                 left: 0;
                 z-index: 1000;
                 height: 100%;
                 width: 100%;
-                padding: 100px 0;
+                padding: 35px 0 0 0;
                 overflow: scroll;
                 transform: translateX(-100%);
                 transition: .3s ease-in-out;
@@ -343,17 +382,27 @@
                 @include is-sp {
                     width: 100%;
                     padding-right: 77px;
+                    padding-top: 48px;
+
                 }
                 &-link {
                     font-family:cross-platform-yu-gothic;
                     @include is-sp {
                         width: 100%;
-                        border-bottom: 1px solid #fff
+                        border-bottom: 1px solid #fff;
+                        padding: 30px 0 22px 23px;
+                        @include font-line(15);
                     }
                     a {
                         @include font-line(11,15);
                         color:#fff;
                         font-weight: 700;
+                    }
+
+                    @include is-sp {
+                        &:first-child {
+                            border-top: 1px solid #fff;
+                        }
                     }
                 }
 
@@ -369,21 +418,56 @@
                         background-repeat: no-repeat;
                         width: 100%;
                         height: 100%; 
+                        color: #fff;
                         
                         @include is-sp {
                             width: 9px;
                             left: unset;
                             right: 0;
+                            transform: rotate(-90deg);
+                            top: 0;
                         }
                     }
+
                 }
+
+                .dd2 {
+                    @include is-sp {
+                        position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 40%;
+                        left: 110%;
+                        background: url(../../release/image/header/drop-d.png); 
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%; 
+                        color: #fff;
+                        
+                        @include is-sp {
+                            width: 9px;
+                            left: unset;
+                            right: 0;
+                            transform: rotate(-90deg);
+                            top: 0;
+                        }
+                    }
+                    }
+                }
+                
               }
+
 
                 &-close{
                     display: none;
 
                     @include is-sp{
                         display: block;
+                        padding-top: 35px;
+                        color: #fff;
+                        height: 110vh;
                     }
 
                     background-color: #81b3d4;
@@ -391,7 +475,7 @@
                     top: 0;
                     right: 0;
                     width: 77px;
-                    height: 100%;
+                    // height: 100%;
                     text-align: center;
                     img{
                         width: 25px;
@@ -409,7 +493,9 @@
                 padding:0 0 2px 2px;
 
                 @include is-max(760px) {
-                    width: 125px;
+                    width: 247px;
+                    padding: 2px;
+                    margin: 30px auto;
                 }
     
                 &-link {
@@ -423,6 +509,9 @@
 
                     @include is-max(760px) {
                          padding: 14px 0 9px 20px;
+                         width: 100%;
+                         border: 1px solid #fff;
+                         height: 100%;
                     }
                 }
             }
@@ -449,7 +538,41 @@
             width: 95%;
             height: 100%;
             padding-left: 47px; 
-            padding: 193px 0 100px 0;
+            padding: 91.5px 0 100px 0;
+        }
+
+        .brnd-logo-sp {
+            display: flex;
+            width: 261px;
+            align-items: center;
+            position: absolute;
+            top: 3%;
+            left: 9%;
+            
+            &-link {
+
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                @include font-line(14.5,19);
+                font-weight: 700;
+                font-family:cross-platform-yu-gothic;
+                color:#fff;
+                align-items: center;
+                display: none;
+                letter-spacing: 0.24em;
+                
+                .logo {
+                    width: 65.5px;
+                }
+                
+                @include is-sp {
+                    display: flex;
+                }
+               
+
+            }
+
         }
 
         .fade {
@@ -477,7 +600,14 @@
             z-index: 3;
             
             @include is-sp {
+                right: -6%;
+                width: 471.5px;
+                z-index: -4;
+            }
+
+            @include is-max (500px) {
                 right: -15%;
+                width: 411.5px;
                 z-index: -4;
             }
         }
@@ -529,7 +659,7 @@
 
                     @include is-sp {
                         writing-mode: tb;
-                        @include font-line(44);
+                        @include font-line(27.8,);
                     }
                 }
 
@@ -545,20 +675,24 @@
                             content: '';
                             position: absolute;
                             width: 4px;
-                            height: 24px;
+                            height: 16px;
                             background-color: #fff;
                             top: 50%;
                             transform: translateY(-50%);
                         }
 
                         &-1 {
-                            @include font-line(20,30);
+                            @include font-line(13.5,30);
                             letter-spacing: 0.28em;
                             padding-left: 10px;
                             margin-bottom: 6px;
+
+                            @include is-max (370px) {
+                                font-size: 3vw;
+                            }
                         }
                         &-2 {
-                            @include font-line(20,30);
+                            @include font-line(13.5,30);
                             letter-spacing: 0.28em;
                             padding-left: 10px;
 
@@ -568,6 +702,10 @@
                                 @include is-sp {
                                     display: block;
                                 }
+                            }
+
+                            @include is-max (370px) {
+                                font-size: 3vw;
                             }
                         }
                     }
@@ -595,7 +733,11 @@
                     }
 
                     @include is-sp {
-                        @include font-line(17);
+                        @include font-line(12.5);
+                    }
+
+                    @include is-max (370px) {
+                        font-size: 3vw;
                     }
                 }  
 
@@ -604,7 +746,7 @@
             }
 
             &-spimg {
-                width: 151px;
+                width: 75.5px;
                 display: none;
 
                 @include is-sp {
@@ -684,13 +826,9 @@
 
         &-txt01 {
             position: absolute;
-            top: 20px;
+            top: 40px;
             right: 9px;
             z-index: 555;
-
-            @include is-sp {
-                top: 142px;
-            }
 
             &-hon {
                 font-family: yu-mincho-pr6n, sans-serif;
@@ -700,20 +838,17 @@
                 color:#fff;
 
                 @include is-sp {
-                    @include font-line(46,64);
+                    @include font-line(23.3,64);
                 }
             }
         }
 
         &-txt02 {
             position: absolute;
-            top: 58px;
-            right: 20px;
+            top: 84px;
+            right: 16px;
             z-index: 555;
 
-            @include is-sp {
-                top: 200px;
-            }
 
             &-ver {
                 writing-mode: tb;
@@ -724,9 +859,16 @@
                 color:#fff;
 
                 @include is-sp {
-                    @include font-line(46,64);
+                    @include font-line(23.3,64);
                 }
 
+            }
+
+            @include is-sp {
+                position: absolute;
+                top: 84px;
+                right: -5px;
+                z-index: 555;
             }
         }
 
@@ -909,11 +1051,13 @@
     
         &-mail {
             width: 50%;
-            padding-left: 30px;
+            padding-left: 14px;
             background: #B71E32;
             display: flex;
             justify-content: space-around;
             cursor: pointer;
+            align-items: center;
+            justify-content: flex-start;
     
             img {
                 width: 35px;
@@ -923,7 +1067,7 @@
                 font-family:cross-platform-yu-gothic;
                 font-weight: 500;
                 color: #fff;
-                padding-left: 45px;
+                padding-left: 10px;
             }
     
         }

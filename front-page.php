@@ -1,5 +1,5 @@
 <?php get_header(); ?>
- <div class="page__content top">
+ <!-- <div class="page__content top">
 <section class="sect_1">
     <div class="clipPath">
     
@@ -557,7 +557,7 @@
             </div>
         </div>
     </div>
-</section> 
+</section>  -->
  <!-- <section class="sect_9">9</section>
 <section class="sect_10">10</section>
 <section class="sect_11">11</section>
