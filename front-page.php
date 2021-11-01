@@ -79,6 +79,7 @@
     <div class="clipPath">
         <div class="l-wrap">
             <img class="bg_4" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_4.png" alt="">
+            <img class="sec2bg" src="<?php echo get_template_directory_uri();?>/release/image/background/sec2bg_sp.png" alt="">
             <img class="bg_5" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_5.png" alt="">
             <img class="bg_6" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_6.png" alt="">
                 <div class="sect_2-cntnt">
@@ -343,7 +344,7 @@
                 <div class="c-case03__txt u-ta-l">
                     <p class="c-case03__txt__ttl">Real estate column</p>
                     <p class="c-case03__txt__sub">●●●●コラム</p>
-                    <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                    <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                         情報収集をして、後悔のない不動産投資を！</p>
                 </div>
             </div>
@@ -495,6 +496,8 @@
         <img class="bg_12" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_12.png" alt="">
         <img class="bg_13" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_13.png" alt="">
         <img class="bg_14" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_14.png" alt="">
+        <img class="sec8bg" src="<?php echo get_template_directory_uri();?>/release/image/background/sec8bg_sp.png" alt="">
+        
         <div class="sect_8-cntnt">
             <div class="sect_8-cntnt-txt">  
                 <p class="sect_8-cntnt-txt-ttl">NEWS</p>
