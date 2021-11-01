@@ -50,6 +50,7 @@
                                     <a href="">不動産コラム</a>
                                 </div>
                             </div>
+                            <a href="javascript:void(0)" class="nav-links-ul-close"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/sp_menu_close.svg" alt=""> CLOSE</a>
                         </div>
                         <div class="nav-links-mail">
                             <a class="nav-links-mail-link" href="">
@@ -132,7 +133,7 @@
             </div>
         </div>
 
-        <div class="nav-sp-wrppr">  
+        <!-- <div class="nav-sp-wrppr" style="display: none;">  
             <div class="nav-sp">
                 <div class="nav-sp-link">
                     <div class="nav-sp-link-logo">
@@ -220,18 +221,18 @@
                     <p>CLOSE</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="float-menu">
             <div class="brgr-mail">
-                <div class="brgr-mail-burger">
+                <a class="brgr-mail-burger">
                     <div class="brgr-mail-burger-menu">
                         <div class="menu-line1"></div>
                         <div class="menu-line2"></div>
                         <div class="menu-line3"></div>
                     </div>
                     <p class="brgr-mail-burger-txt">MENU</p>
-                </div>
+                </a>
                 <a class="brgr-mail-mail">
                     <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
                     <p class="brgr-mail-mail-txt">お問い合わせ・ご相談</p>

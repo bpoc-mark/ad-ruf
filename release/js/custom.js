@@ -27,11 +27,23 @@ $('.slider').slick({
 var slideOut = function slideOut() {
   var body = document.querySelector('body');
   var burger = document.querySelector('.brgr-mail-burger');
-  var nav2 = document.querySelector('.nav-sp-wrppr');
+  var nav2 = document.querySelector('.nav-links');
+  var menu_close = document.querySelector('.nav-links-ul-close');
   burger.addEventListener('click', function () {
-    nav2.classList.toggle('slide');
-    body.classList.toggle('ovf');
+    nav2.style = "transform: translateX(0)";
+  });
+  menu_close.addEventListener('click', function () {
+    nav2.style = "transform: translateX(-100%)";
   });
 };
 
 slideOut();
+$(window).on('load resize', function () {
+  var w = $(window).width();
+
+  if (w < 750) {
+    clickAllowed = true;
+  } else {
+    $('.nav-links').removeAttr('style');
+  }
+});
