@@ -298,12 +298,6 @@
 						padding-bottom: 72px;
 					}
 
-					@include is-max(384px) {
-						.num {
-							top: 87px;
-						}
-					}
-
 					.info {
 						width: 86%;
 						background: linear-gradient(

@@ -961,7 +961,6 @@ template{display:none}
 .oe__bg_1{top:-68px;right:11px;width:179px}
 .oe__bg_2{display:none}
 .clip-top{padding:60px 0 0 0}
-}@media only screen and (max-width:384px){.oe-main-content .row .col:nth-child(4) .num{top:87px}
 }@media only screen and (max-width:347px){.oe-main-content .row .col:nth-child(4) .info{font-size:1.4375rem}
 }@media only screen and (max-width:344px){.oe-main-content .row .col:nth-child(4) .heading01{font-size:7.2vw}
 }@media only screen and (max-width:341px){.oe--btn .txt{font-size:.75rem}
