@@ -1,6 +1,6 @@
         <div class="page__footer">
            
-                <div class="cntct">
+                <!-- <div class="cntct">
                     <div class="l-wrap">
                         <div class="cntct-hdr">
                             <p>contact</p>
@@ -187,7 +187,7 @@
                     <p class="lower-footer-copyright">
                         Copyright © RUF Co.,Ltd. All Rights Reserved
                     </p>
-                </div>
+                </div> -->
           
         </div>
         </main>
