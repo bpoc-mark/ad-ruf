@@ -19,7 +19,7 @@
 
     <main>
         <div class="page__header">
-            <div class="top-header">
+            <!-- <div class="top-header">
                 <div class="top-header-nav u-d-f u-jc-sb">
                     <div class="brnd-logo">
                         <a class="brnd-logo-link u-d-f u-jc-sb" href="">
@@ -237,4 +237,4 @@
                     <p class="brgr-mail-mail-txt">お問い合わせ・ご相談</p>
                 </a>
             </div>
-        </div>
+        </div> -->

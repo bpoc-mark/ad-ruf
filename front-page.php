@@ -2,7 +2,6 @@
  <div class="page__content top">
 <section class="sect_1">
     <div class="clipPath">
-    
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt="">
             <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
@@ -340,17 +339,14 @@
             <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_2.png" alt="">
             <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_3.png" alt="">
             <img class="bg_6_sp" src="<?php echo get_template_directory_uri();?>/release/image/background/sec6_bg_sp.png" alt="">
-            <div class="c-case--items__contents">
-                    <div class="c-case03__txt u-ta-l">
-                        <p class="c-case03__txt__ttl">Real estate column</p>
-                        <p class="c-case03__txt__sub">●●●●コラム</p>
-                        <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
-                            情報収集をして、後悔のない不動産投資を！</p>
-                    </div>
-
-
-
+             <div class="c-case--items__contents">
+                <div class="c-case03__txt u-ta-l">
+                    <p class="c-case03__txt__ttl">Real estate column</p>
+                    <p class="c-case03__txt__sub">●●●●コラム</p>
+                    <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                        情報収集をして、後悔のない不動産投資を！</p>
                 </div>
+            </div>
                 <div class="c-slider slider u-ta-l u-pt-0">
                     <div class="c-slider__item">
                         <div class="bg_img">
