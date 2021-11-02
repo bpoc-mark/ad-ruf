@@ -627,8 +627,7 @@
                 .link {
 
                     @include is-sp {
-                        height: 0;
-                        overflow: hidden;
+                        transition: 0.5s;
                     }
 
             
@@ -693,14 +692,29 @@
                             }
                         }
                     }
+
                 }
-          
 
              @include is-sp {
                  padding: 0;
                  width: 100%;
              }
         }
+
+            // accordion classes
+            .acc-hidden {
+                @include is-sp {
+                    height: 0;
+                    overflow: hidden;
+                }
+            }
+
+            // .acc-show {
+            //     @include is-sp {
+            //         height: 200px;
+            //         overflow: hidden;
+            //     }
+            // }
         &-col3 {
             padding: 0 41px 0 32px;
             border-right: 1px solid #fff;
@@ -779,9 +793,13 @@
             .link {
 
                 
+                // @include is-sp {
+                //     height: 0;
+                //     overflow: hidden;
+                // }
+
                 @include is-sp {
-                    height: 0;
-                    overflow: hidden;
+                    transition: 0.5s;
                 }
 
         
@@ -940,9 +958,13 @@
             .link {
 
                 
+                // @include is-sp {
+                //     height: 0;
+                //     overflow: hidden;
+                // }
+
                 @include is-sp {
-                    height: 0;
-                    overflow: hidden;
+                    transition: 0.5s;
                 }
 
             
@@ -1087,9 +1109,13 @@
             .link {
 
                 
+                // @include is-sp {
+                //     height: 0;
+                //     overflow: hidden;
+                // }
+
                 @include is-sp {
-                    height: 0;
-                    overflow: hidden;
+                    transition: 0.5s;
                 }
 
                 

@@ -91,7 +91,7 @@
                             <a class="head-link" href="">RUF</a>
                             <a class="head-icon" href="">+</a>
                         </div>
-                        <div class="link">
+                        <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
                                     <a class="c-link__inner" href="">TOP</a>
@@ -120,7 +120,7 @@
                             <a class="head-link" href="">事業内容</a>
                             <a class="head-icon" href="">+</a>
                         </div>
-                        <div class="link">
+                        <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
                                     <a class="c-link__inner" href="">収益不動産の売買</a>
@@ -161,7 +161,7 @@
                             <a class="head-link" href="">企業情報</a>
                             <a class="head-icon" href="">+</a>
                         </div>
-                        <div class="link">
+                        <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
                                     <a class="c-link__inner" href="">代表メッセージ</a>
@@ -202,7 +202,7 @@
                             <a class="head-link" href="">コンテンツ</a>
                             <a class="head-icon" href="">+</a>
                         </div>
-                        <div class="link hidden">
+                        <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
                                     <a class="c-link__inner" href="">記事一覧</a>
