@@ -5,6 +5,7 @@
 	.sect_1 {
 		margin-top: -109px;
 		z-index: 4;
+		position: relative;
 
 		@include is-sp {
 		}

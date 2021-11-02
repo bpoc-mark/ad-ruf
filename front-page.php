@@ -566,5 +566,7 @@
     <section class="sect_10">10</section>
     <section class="sect_11">11</section>
     <section class="sect_12">12</section>
-</div>
-<?php get_footer(); ?>
+    <div class="page__content top">
+
+    </div>
+    <?php get_footer(); ?>

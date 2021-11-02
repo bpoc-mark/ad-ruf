@@ -25,6 +25,50 @@ $('.slider').slick({
     ]
   });
 
+  let footerAcc = document.querySelectorAll('.f-acc-sp');
+  footerAcc.forEach(item => {
+    item.addEventListener('click', (e) => {
+    
+      e.preventDefault();
+      let nextEl = item.nextElementSibling;
+      toggleAccordion(item, item.querySelectorAll('.head-icon'), nextEl);
+    });
+  }); 
+  
+  function toggleAccordion(item, curEl, nexEl) {
+    let currentEl = document.querySelectorAll('.f-acc-sp > .active');
+    let nextEl = document.querySelectorAll('.acc-show');
+
+    document.querySelectorAll('.head-icon').forEach(op => {
+      op.textContent = '+';
+    });
+
+
+   
+
+    if(currentEl.length > 0 && nextEl.length > 0) {
+      
+      currentEl[0].classList.remove('active');
+      nextEl[0].classList.replace('acc-show', 'acc-hidden');
+      curEl[0].textContent = '+';
+     
+      if (!(currentEl[0].isSameNode(curEl[0]) && nextEl[0].isSameNode(nexEl))) {
+        curEl[0].classList.add('active');
+        nexEl.classList.replace('acc-hidden', 'acc-show');
+        curEl[0].textContent = '-';
+    }
+
+    } else {
+      curEl[0].classList.add('active');
+      nexEl.classList.replace('acc-hidden', 'acc-show');
+      curEl[0].textContent = '-';
+  
+    }
+
+
+    
+  }
+
 
   const slideOut = ()=> {
       const body = document.querySelector('body');
