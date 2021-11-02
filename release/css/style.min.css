@@ -200,6 +200,10 @@ template{display:none}
 .c-case03__txt__sub{color:#258acf;font-family:yu-mincho-pr6n,sans-serif;font-weight:700;padding:15px 0 25px 0;letter-spacing:.45rem;font-size:1.625rem}
 .c-case03__txt__sub br{display:none}
 .c-case03__txt__desc{color:#333;font-family:cross-platform-yu-gothic;font-weight:500;text-align:justify;font-size:.8125rem}
+.c-clipbg__CS{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);height:90px}
+.c-clipbg__CS2{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);height:90px}
+.c-clipbg__CS2::before{background-color:#fff}
+.white_bg{background:#fff !important}
 .clip{-webkit-clip-path:polygon(0 87%,100% 0,100% 100%,0 100%);clip-path:polygon(0 95%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);height:93px;width:100%;position:absolute;bottom:0;right:0}
 .c-heading01{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0 0 8px;font-weight:bold;color:#000;letter-spacing:0;text-align:center;position:relative;border-bottom:solid 2px #000}
 .c-heading01:before{content:'';background:#000}
@@ -730,7 +734,7 @@ template{display:none}
 .u-w-640{width:640px !important;margin:0 auto}
 .top .l-wrap{position:relative}
 .top .sect_1{margin-top:-109px;z-index:4}
-.top .sect_1 .clipPath{-webkit-clip-path:polygon(0 12%,100% 0,100% 90%,0 100%);clip-path:polygon(0 12%,100% 0,100% 90%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);padding:191px 0 141px 0}
+.top .sect_1 .clipPath{-webkit-clip-path:polygon(0 11%,100% 0,100% 90%,0 100%);clip-path:polygon(0 11%,100% 0,100% 90%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);padding:191px 0 141px 0}
 .top .sect_1-hdr{text-align:center}
 .top .sect_1-hdr-ttl{font-family:century-gothic,sans-serif}
 .top .sect_1-hdr-ttl-txt{font-size:.625rem;line-height:2;letter-spacing:.32em;color:#fff;font-weight:400}
@@ -863,8 +867,8 @@ template{display:none}
 .top .sect_7-cntnt-rows-01-txt{position:absolute;left:0;bottom:27px;padding:8px 13px 16px 23px;background:linear-gradient(100deg,rgba(114,159,223,0.238831) 14%,#244d7e 100%);width:65%}
 .top .sect_7-cntnt-rows-01-txt p:nth-child(1){font-size:10px;line-height:20px;letter-spacing:.32em;color:#95c6e7}
 .top .sect_7-cntnt-rows-01-txt p:nth-child(2){font-family:yu-mincho-pr6n,sans-serif;color:#fff;font-size:1rem;font-size:20px;letter-spacing:.18em}
-.top .sect_7-cntnt-rows-01-bdg{position:absolute;top:52%;background:-webkit-gradient(linear,right top,left top,from(#0b4e82),to(#3e72aa));background:linear-gradient(to left,#0b4e82,#3e72aa);left:41%;font-size:11px;line-height:10px;color:#fff;letter-spacing:.20em;padding:5px 8px 5px 8px}
-.top .sect_7-cntnt-rows-01:before{content:'';position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:450px;width:390px;background:url(../../release/image/page/top-page/sec7_img.png);background-position:center}
+.top .sect_7-cntnt-rows-01-bdg{position:absolute;top:52%;background:-webkit-gradient(linear,right top,left top,from(#0b4e82),to(#3e72aa));background:linear-gradient(to left,#0b4e82,#3e72aa);left:41%;font-size:11px;line-height:10px;color:#fff;letter-spacing:.2em;padding:5px 8px 5px 8px}
+.top .sect_7-cntnt-rows-01:before{content:"";position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:450px;width:390px;background:url(../../release/image/page/top-page/sec7_img.png);background-position:center}
 .top .sect_7-cntnt-rows-02{width:446px}
 .top .sect_7-cntnt-rows-02-txt{color:#fff}
 .top .sect_7-cntnt-rows-02-txt-01{font-size:1.625rem;line-height:1.4230769231;letter-spacing:.34em;font-family:yu-mincho-pr6n,sans-serif;font-weight:500}
