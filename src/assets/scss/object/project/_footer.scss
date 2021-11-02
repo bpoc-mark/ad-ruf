@@ -238,216 +238,299 @@
     }
 
 
-    .cntct {
-        padding-top: 99px;
-        padding-bottom: 20px;
-        background-image: url(../../release/image/footer/footer_bg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+    // .cntct {
+    //     padding-top: 99px;
+    //     padding-bottom: 20px;
+    //     background-image: url(../../release/image/footer/footer_bg.png);
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
 
-        &-hdr {
-            text-align: center;
-            color: #fff;
+    //     &-hdr {
+    //         text-align: center;
+    //         color: #fff;
 
-            @include is-sp {
-                margin-bottom: 24px;
-            }
+    //         @include is-sp {
+    //             margin-bottom: 24px;
+    //         }
 
-            p:nth-child(1) {
-                font-size:10px;
-                line-height: 20px;
-                font-weight: 400;
-                letter-spacing: 2px;
-                font-family: century-gothic, sans-serif;
-                padding: 0 20px 0 20px;
+    //         p:nth-child(1) {
+    //             font-size:10px;
+    //             line-height: 20px;
+    //             font-weight: 400;
+    //             letter-spacing: 2px;
+    //             font-family: century-gothic, sans-serif;
+    //             padding: 0 20px 0 20px;
 
-                @include is-sp {
-                    @include font-line(12.5,10);
-                    letter-spacing: 0.32em;
-                    margin-bottom: 26px;
-                }
-            }
+    //             @include is-sp {
+    //                 @include font-line(12.5,10);
+    //                 letter-spacing: 0.32em;
+    //                 margin-bottom: 26px;
+    //             }
+    //         }
 
-            p:nth-child(2) {
+    //         p:nth-child(2) {
 
-                @include font-line(23);
-                letter-spacing: 0.2em;
-                font-family: yu-mincho-pr6n, sans-serif;
+    //             @include font-line(23);
+    //             letter-spacing: 0.2em;
+    //             font-family: yu-mincho-pr6n, sans-serif;
 
-                @include is-sp {
-                    @include font-line(25,30);
-                    letter-spacing: 0.2em;
-                }
-            }
-        }
+    //             @include is-sp {
+    //                 @include font-line(25,30);
+    //                 letter-spacing: 0.2em;
+    //             }
 
-        &-inqrs {
-            padding-top: 44px;
-            display: flex;
-            justify-content: space-between;
+    //             @include is-max(450px) {
+    //                 font-size: 5vw;
+    //             }
+    //         }
+    //     }
+
+    //     &-inqrs {
+    //         padding-top: 44px;
+    //         display: flex;
+    //         justify-content: space-between;
             
 
-            @include is-max(1051px){
-                display: block;
-                margin-bottom: 30px;
-                padding: 40px 20px;
-            }
+    //         @include is-max(1051px){
+    //             display: block;
+    //             margin-bottom: 30px;
+    //             padding: 40px 20px;
+    //         }
 
-            @include is-sp {
-                padding: 0 22px;
-                margin-bottom: 30px;
-            }
+    //         @include is-sp {
+    //             padding: 0 22px;
+    //             margin-bottom: 30px;
+    //         }
 
 
-            &-dtl {
-                text-align: center;  
-                border-radius: 45px;
+    //         &-dtl {
+    //             text-align: center;  
+    //             border-radius: 45px;
 
-                @include is-max(1051px){
-                    margin-bottom: 30px;
+    //             @include is-max(1051px){
+    //                 margin-bottom: 30px;
                    
-                }
+    //             }
                
                 
-                &-link {
-                    color: #fff;
-                    display: inline-block;
-                    width: 310px;
-                    padding: 27px 0 23px 0;
+    //             &-link {
+    //                 color: #fff;
+    //                 display: inline-block;
+    //                 width: 310px;
+    //                 padding: 27px 0 23px 0;
 
                    
 
-                    p:nth-child(1) {
-                        font-size: 18px;
-                        font-weight: 700;
-                        font-family: yu-mincho-pr6n, sans-serif;
+    //                 p:nth-child(1) {
+    //                     font-size: 18px;
+    //                     font-weight: 700;
+    //                     font-family: yu-mincho-pr6n, sans-serif;
 
-                        @include is-sp {
-                            @include font-line(18,20);
-                            letter-spacing: 0.12em;
-                        }
-                    }
+    //                     @include is-sp {
+    //                         @include font-line(18,20);
+    //                         letter-spacing: 0.12em;
+    //                     }
 
-                    p:nth-child(2) {
-                        @include font-line(11);
-                        font-family: cross-platform-yu-gothic;
+    //                     @include is-max (340px) {
+    //                         font-size: 5vw;
+    //                     }
+    //                 }
 
-                        @include is-sp {
-                            @include font-line(15, 18);
-                            letter-spacing: 0.1em;
-                        }
-                    }
+    //                 p:nth-child(2) {
+    //                     @include font-line(11);
+    //                     font-family: cross-platform-yu-gothic;
 
-                    @include is-sp {
-                        width: 100%;
-                        padding: 45px 35px 31px 35px;
-                    }
+    //                     @include is-sp {
+    //                         @include font-line(15, 18);
+    //                         letter-spacing: 0.1em;
+    //                     }
+
+    //                     @include is-max(340px) {
+    //                         font-size: 4vw;
+    //                     }
+    //                 }
+
+    //                 @include is-sp {
+    //                     width: 100%;
+    //                     padding: 45px 35px 31px 35px;
+    //                 }
                    
-                }
+    //             }
 
                 
-            }
+    //         }
 
-            .phone {
-                background-color: #fff;
-                position: relative;
+    //         .phone {
+    //             background-color: #fff;
+    //             position: relative;
 
-                a{
-                    color: #2790d2 !important;
-                }
+    //             a{
+    //                 color: #2790d2 !important;
 
-                &:before {
-                    content: '';
-                    background: url(../image/footer/arrow-blue.png) no-repeat center;
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    top: 50%;
-                    right: 6px;
-                    transform: translate(-18px, -50%);
+                   
+    //             }
+
+    //             &:before {
+    //                 content: '';
+    //                 background: url(../image/footer/arrow-blue.png) no-repeat center;
+    //                 width: 20px;
+    //                 height: 20px;
+    //                 position: absolute;
+    //                 top: 50%;
+    //                 right: 6px;
+    //                 transform: translate(-18px, -50%);
 
                  
-                }
-            }
-            .line {
-                background-color: #00AD00;
-                position: relative;
+    //             }
+    //         }
+    //         .line {
+    //             background-color: #00AD00;
+    //             position: relative;
 
-                &:before {
-                    content: '';
-                    background: url(../image/footer/arrow-white.png) no-repeat center;
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    top: 50%;
-                    right: 6px;
-                    transform: translate(-18px, -50%);
+    //             &:before {
+    //                 content: '';
+    //                 background: url(../image/footer/arrow-white.png) no-repeat center;
+    //                 width: 20px;
+    //                 height: 20px;
+    //                 position: absolute;
+    //                 top: 50%;
+    //                 right: 6px;
+    //                 transform: translate(-18px, -50%);
 
                   
-                }
-            }
+    //             }
+    //         }
 
-            .email {
-                background-color: #B71E32;
-                position: relative;
+    //         .email {
+    //             background-color: #B71E32;
+    //             position: relative;
 
-                &:before {
-                    content: '';
-                    background: url(../image/footer/arrow-white.png) no-repeat center;
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    top: 50%;
-                    right: 6px;
-                    transform: translate(-18px, -50%);
+    //             &:before {
+    //                 content: '';
+    //                 background: url(../image/footer/arrow-white.png) no-repeat center;
+    //                 width: 20px;
+    //                 height: 20px;
+    //                 position: absolute;
+    //                 top: 50%;
+    //                 right: 6px;
+    //                 transform: translate(-18px, -50%);
 
                
-                }
-            }
+    //             }
+    //         }
 
-        }
+    //     }
         
-        &-top {
-            text-align: center;
-            margin-top:67px;
+    //     &-top {
+    //         text-align: center;
+    //         margin-top:67px;
 
-            &-link {
-                color: #95C6E7;
-                position: relative;
-                letter-spacing: 4px;
-                @include font-line(13,22);
+    //         &-link {
+    //             color: #95C6E7;
+    //             position: relative;
+    //             letter-spacing: 4px;
+    //             @include font-line(13,22);
                 
 
-                &:before {
-                    content:'';
-                    width: 20px;
-                    height: 20px;
-                    position: absolute;
-                    top: -25px;
-                    left: 50%;
-                    transform:translateX(-50%);
-                    background: url(../image/footer/arrow-push.png) no-repeat center;
-                }
+    //             &:before {
+    //                 content:'';
+    //                 width: 20px;
+    //                 height: 20px;
+    //                 position: absolute;
+    //                 top: -25px;
+    //                 left: 50%;
+    //                 transform:translateX(-50%);
+    //                 background: url(../image/footer/arrow-push.png) no-repeat center;
+    //             }
 
-                @include is-sp {
-                    @include font-line(23,40);
-                }
-            }
+    //             @include is-sp {
+    //                 @include font-line(23,40);
+    //             }
+    //         }
 
-            @include is-sp {
-                margin-top: 33px;
+    //         @include is-sp {
+    //             margin-top: 33px;
+    //         }
+    //     }
+
+    // }
+
+    .cntct {
+        background-image: url(../image/footer/footer_bg.png) !important;
+
+        @include is-sp {
+            background-image: url(../image/footer/sp_bg.png) !important;
+        }
+
+        .p-cntct-inqrs-dtl {
+            @include is-max (1051px) {
+                margin-bottom:30px;
             }
         }
 
-    }
+        .phone {
 
+            &:before {
+                background: url(../image/footer/arrow-blue.png) no-repeat center !important;
+                
+            }
+        }
+
+        .line,
+        .email {
+
+            &:before {
+                background: url(../image/footer/arrow-white.png) no-repeat center !important;  
+            }
+         
+        }
+
+        &-top {
+            text-align: center;
+            position: relative;
+            bottom: -74px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            
+            &:before {
+                content: '';
+                position: absolute;
+                top: -66%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 10%;
+                height: 100%;
+                background: url(../image/footer/arrow-push.png) no-repeat center !important;  
+            }
+
+            a {
+                color: #fff;
+                letter-spacing: 0.29em;
+                @include font-line(13);
+            }
+        }
+    }
+    .cntct-wrap {
+        @include is-sp {
+            padding:0 20px !important;
+        }
+    }
     .nav-footer {
         display: flex;
+        justify-content: space-between;
         padding-top: 79px;
 
         &-col1 {
             padding-right: 147px;
+            display: flex;
+            align-items: center;
+
+            @include is-max (1090px) {
+                padding-right: 50px;
+            }
+
 
              img {
                 width: 104px;
@@ -471,6 +554,12 @@
         &-col2 {
             padding-right: 35px;
 
+            @include is-max (854px) {
+                padding-right: 22px;
+            }
+
+         
+
                 .ttl {
                     font-family: cross-platform-yu-gothic;
                     position: relative;
@@ -481,6 +570,10 @@
                     .head-link {
                         color: #fff;
                         letter-spacing: 4px;
+                        
+                        @include is-max(985px) {
+                            font-size: 1.1vw;
+                        }
 
                          @include is-sp {
                             @include font-line(30, 129);
@@ -552,6 +645,10 @@
                                 letter-spacing: 2.8px;
                                 @include font-line(12,37);
                                 letter-spacing:0.26em;
+
+                                @include is-max(985px) {
+                                    font-size: 1.1vw;
+                                }
         
             
                                 @include is-sp {
@@ -601,6 +698,10 @@
             border-right: 1px solid #fff;
             border-left: 1px solid #fff;
 
+            @include is-max (1090px) {
+                padding: 15px;
+            }
+
             .ttl {
                 font-family: cross-platform-yu-gothic;
                 position: relative;
@@ -608,9 +709,14 @@
                 @include font-line(11,37);
                 font-weight:500;
 
-                .head-link {
+                .head-link { 
                     color: #fff;
                     letter-spacing: 4px;
+
+                      
+                    @include is-max(985px) {
+                        font-size: 1.1vw;
+                    }
 
                     @include is-sp {
                         @include font-line(30, 129);
@@ -684,6 +790,10 @@
                             letter-spacing: 2.8px;
                             @include font-line(12,37);
                             letter-spacing:0.26em;
+
+                            @include is-max(985px) {
+                                font-size: 1.1vw;
+                            }
     
         
                             @include is-sp {
@@ -730,6 +840,18 @@
         &-col4 {
             padding: 0 71px 0 31px;
             border-right: 1px solid #fff;
+
+            @include is-max (1024px) {
+                padding-right: 40px;
+            }
+
+         
+
+            @include is-sp {
+                padding: 0;
+                border: none;
+                width: 100%;
+            }
             
             .ttl {
                 font-family: cross-platform-yu-gothic;
@@ -742,6 +864,11 @@
                 .head-link  {
                     color: #fff;
                     letter-spacing: 4px;
+
+                      
+                    @include is-max(985px) {
+                        font-size: 1.1vw;
+                    }
                     
                     &:before {
                         content: '';
@@ -814,6 +941,10 @@
                             letter-spacing: 2.8px;
                             @include font-line(12,37);
                             letter-spacing:0.26em;
+
+                            @include is-max(985px) {
+                                font-size: 1.1vw;
+                            }
     
         
                             @include is-sp {
@@ -851,12 +982,6 @@
                     }
                 }
             }
-
-             @include is-sp {
-                padding: 0;
-                border: none;
-                width: 100%;
-            }
         }
 
         &-col5 {
@@ -873,6 +998,16 @@
                 .head-link {
                     color: #fff;
                     letter-spacing: 4px;
+
+                    @include is-max(985px) {
+                        font-size: 1.1vw;
+                    }
+                    @include is-max(982px) {
+                        font-size: 1.1vw;
+                    }
+                    @include is-max(980px) {
+                        font-size: 1.1vw;
+                    }
                     
                     &:before {
                         content: '';
@@ -929,6 +1064,8 @@
             .link {
 
                 .link__inner {
+
+                   
                   
                     .c-link {
 
@@ -946,6 +1083,10 @@
                             letter-spacing: 2.8px;
                             @include font-line(12,37);
                             letter-spacing:0.26em;
+
+                            @include is-max(985px) {
+                                font-size: 1.1vw;
+                            }
     
         
                             @include is-sp {
