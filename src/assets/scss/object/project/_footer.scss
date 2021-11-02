@@ -567,6 +567,21 @@
                     @include font-line(11,37);
                     font-weight:500;
 
+                    @include is-sp {
+                        margin-bottom: 0;
+                        padding: 0 87px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-bottom: 1px solid #fff;
+                        border-top: 1px solid #fff;
+                        
+                    }
+
+                    @include is-max (370px) {
+                        padding: 0 36px;
+                    }
+
                     .head-link {
                         color: #fff;
                         letter-spacing: 4px;
@@ -576,13 +591,11 @@
                         }
 
                          @include is-sp {
-                            @include font-line(15, 129);
+                            @include font-line(15, 64.5);
                             letter-spacing: 0.28em;
                         }
 
-                        @include is-max(575px) {
-                            @include font-line(15,64);
-                        }
+             
 
                         &:before {
                             content: '';
@@ -610,18 +623,15 @@
                         }
                     }
 
-                    @include is-sp {
-                        margin-bottom: 0;
-                        padding: 0 87px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        border-bottom: 1px solid #fff;
-                        border-top: 1px solid #fff;
-                        
-                    }
                 }
                 .link {
+
+                    @include is-sp {
+                        height: 0;
+                        overflow: hidden;
+                    }
+
+            
                     
                     .link__inner {
                     
@@ -634,6 +644,10 @@
                                 border-bottom: 1px dashed #fff;
                                 padding: 0 87px;
                                 
+                            }
+
+                            @include is-max (370px) {
+                                padding: 0 40px;
                             }
                             
         
@@ -649,7 +663,7 @@
         
             
                                 @include is-sp {
-                                    @include font-line(12.5,100);
+                                    @include font-line(12.5,50);
                                     letter-spacing: 0.28;
                                     padding-left: 60px;
                                 }
@@ -703,6 +717,21 @@
                 @include font-line(11,37);
                 font-weight:500;
 
+                @include is-sp {
+                    margin-bottom: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
+                }
+
+                
+                @include is-max (370px) {
+                    padding: 0 36px;
+                }
+
                 .head-link { 
                     color: #fff;
                     letter-spacing: 4px;
@@ -713,13 +742,10 @@
                     }
 
                     @include is-sp {
-                        @include font-line(15, 129);
+                        @include font-line(15, 64.5);
                         letter-spacing: 0.28em;
                     }
 
-                    @include is-max(575px) {
-                        @include font-line(15,64);
-                    }
 
                     &:before {
                         content: '';
@@ -748,19 +774,17 @@
                     }
                 }
 
-
-                @include is-sp {
-                    margin-bottom: 0;
-                    padding: 0 87px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
             }
 
             .link {
+
+                
+                @include is-sp {
+                    height: 0;
+                    overflow: hidden;
+                }
+
+        
 
                 .link__inner {
                   
@@ -773,6 +797,10 @@
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
+                        }
+
+                        @include is-max (370px) {
+                            padding: 0 40px;
                         }
                         
     
@@ -788,7 +816,7 @@
     
         
                             @include is-sp {
-                                @include font-line(12.5,100);
+                                @include font-line(12.5,50);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
@@ -846,6 +874,21 @@
                 margin-bottom: 49px;
                 @include font-line(11,37);
                 font-weight:500;
+
+                @include is-sp {
+                    margin-bottom: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
+                }
+
+                
+                @include is-max (370px) {
+                    padding: 0 36px;
+                }
               
                     
                 .head-link  {
@@ -858,7 +901,7 @@
                     }
 
                     @include is-sp {
-                        @include font-line(15, 129);
+                        @include font-line(15, 64.5);
                         letter-spacing: 0.28em;
                     }
 
@@ -891,18 +934,18 @@
                     }
                 }
 
-                @include is-sp {
-                    margin-bottom: 0;
-                    padding: 0 87px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
+               
             }
 
             .link {
+
+                
+                @include is-sp {
+                    height: 0;
+                    overflow: hidden;
+                }
+
+            
 
                 .link__inner {
                   
@@ -915,6 +958,10 @@
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
+                        }
+
+                        @include is-max (370px) {
+                            padding: 0 40px;
                         }
                         
     
@@ -930,7 +977,7 @@
     
         
                             @include is-sp {
-                                @include font-line(12.5,100);
+                                @include font-line(12.5,50);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
@@ -972,6 +1019,21 @@
                 margin-bottom: 49px;
                 @include font-line(11,37);
                 font-weight:500;
+
+                @include is-sp {
+                    margin: 0;
+                    padding: 0 87px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #fff;
+                    border-top: 1px solid #fff;
+                }
+
+                
+                @include is-max (370px) {
+                    padding: 0 36px;
+                }
                 
 
                 .head-link {
@@ -989,7 +1051,7 @@
                     }
 
                     @include is-sp {
-                        @include font-line(15, 129);
+                        @include font-line(15, 64.5);
                         letter-spacing: 0.28em;
                     }
                     
@@ -1020,23 +1082,21 @@
                     }
                 }
 
-                @include is-sp {
-                    margin: 0;
-                    padding: 0 87px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
             }
 
             .link {
 
+                
+                @include is-sp {
+                    height: 0;
+                    overflow: hidden;
+                }
+
+                
+
                 .link__inner {
 
-                   
-                  
+                
                     .c-link {
 
                         @include is-sp {
@@ -1046,6 +1106,10 @@
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
+                        }
+
+                        @include is-max (370px) {
+                            padding: 0 40px;
                         }
                         
     
@@ -1061,7 +1125,7 @@
     
         
                             @include is-sp {
-                                @include font-line(12.5,100);
+                                @include font-line(12.5,50);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
@@ -1122,12 +1186,10 @@
             font: 500 12px/27.5px 'cross-platform-yu-gothic';
 
             @include is-sp {
-                @include font-line(27,30);
+                @include font-line(13,20);
+                
             }
 
-            @include is-max(500px){
-                @include font-line(13,20);
-            }
         }
 
         @include is-sp {
