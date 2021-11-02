@@ -536,7 +536,7 @@
                 width: 104px;
                 
                 @include is-sp {
-                    width: 200px;
+                    width: 99px;
                 }
 
                 @include is-max(575px) {
@@ -576,7 +576,7 @@
                         }
 
                          @include is-sp {
-                            @include font-line(30, 129);
+                            @include font-line(15, 129);
                             letter-spacing: 0.28em;
                         }
 
@@ -603,14 +603,10 @@
                         display: none;
 
                         @include is-sp {
-                            @include font-line(30, 129);
+                            @include font-line(13.5, 65);
                             letter-spacing: 0.28em;
                             display: block;
                             color:#fff;
-                        }
-
-                        @include is-max(575px) {
-                            @include font-line(15,64);
                         }
                     }
 
@@ -626,7 +622,7 @@
                     }
                 }
                 .link {
-
+                    
                     .link__inner {
                     
                         .c-link {
@@ -634,6 +630,7 @@
                             @include is-sp {
                                 display: flex;
                                 justify-content: space-between;
+                                align-items: center;
                                 border-bottom: 1px dashed #fff;
                                 padding: 0 87px;
                                 
@@ -652,13 +649,13 @@
         
             
                                 @include is-sp {
-                                    @include font-line(25,100);
+                                    @include font-line(12.5,100);
                                     letter-spacing: 0.28;
                                     padding-left: 60px;
                                 }
 
                                 @include is-max(575px) {
-                                    @include font-line(12.5,50);
+    
                                     padding-left: 30px;
                                 }
 
@@ -675,12 +672,9 @@
                                 color: #fff;
                                 display:none;
 
-                                @include is-sp{
+                                @include is-sp {
+                                    @include font-line(13.5,50);
                                     display: block;
-                                }
-
-                                @include is-max(575px) {
-                                    @include font-line(12.5,50);
                                 }
                             }
                         }
@@ -719,7 +713,7 @@
                     }
 
                     @include is-sp {
-                        @include font-line(30, 129);
+                        @include font-line(15, 129);
                         letter-spacing: 0.28em;
                     }
 
@@ -747,14 +741,10 @@
                     display: none;
                     
                     @include is-sp {
-                        @include font-line(30, 129);
+                        @include font-line(13.5, 65);
                         letter-spacing: 0.28em;
                         display: block;
                         color:#fff;
-                    }
-
-                    @include is-max(575px) {
-                        @include font-line(15,64);
                     }
                 }
 
@@ -779,6 +769,7 @@
                         @include is-sp {
                             display: flex;
                             justify-content: space-between;
+                            align-items: center;
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
@@ -797,13 +788,12 @@
     
         
                             @include is-sp {
-                                @include font-line(25,100);
+                                @include font-line(12.5,100);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
 
                             @include is-max(575px) {
-                                @include font-line(12.5,50);
                                 padding-left: 30px;
                             }
                             @include is-max(380px){
@@ -819,12 +809,9 @@
                             color: #fff;
                             display:none;
 
-                            @include is-sp{
+                            @include is-sp {
+                                @include font-line(13.5,50);
                                 display: block;
-                            }
-
-                            @include is-max(575px) {
-                                @include font-line(12.5,50);
                             }
                          }
                     }
@@ -869,7 +856,13 @@
                     @include is-max(985px) {
                         font-size: 1.1vw;
                     }
-                    
+
+                    @include is-sp {
+                        @include font-line(15, 129);
+                        letter-spacing: 0.28em;
+                    }
+
+                                      
                     &:before {
                         content: '';
                         position: absolute;
@@ -885,28 +878,16 @@
                         }
                     }
                     
-                    @include is-sp {
-                        @include font-line(30, 129);
-                        letter-spacing: 0.28em;
-                    }
-
-                    @include is-max(575px) {
-                        @include font-line(15,64);
-                    }
                 }
 
                 .head-icon {
                     display: none;
                     
                     @include is-sp {
-                        @include font-line(30, 129);
+                        @include font-line(13.5, 65);
                         letter-spacing: 0.28em;
                         display: block;
                         color:#fff;
-                    }
-
-                    @include is-max(575px) {
-                        @include font-line(15,64);
                     }
                 }
 
@@ -930,6 +911,7 @@
                         @include is-sp {
                             display: flex;
                             justify-content: space-between;
+                            align-items: center;
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
@@ -948,7 +930,7 @@
     
         
                             @include is-sp {
-                                @include font-line(25,100);
+                                @include font-line(12.5,100);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
@@ -971,12 +953,9 @@
                             color: #fff;
                             display:none;
 
-                            @include is-sp{
+                            @include is-sp {
+                                @include font-line(13.5,50);
                                 display: block;
-                            }
-
-                            @include is-max(575px) {
-                                @include font-line(12.5,50);
                             }
                          }
                     }
@@ -1008,6 +987,11 @@
                     @include is-max(980px) {
                         font-size: 1.1vw;
                     }
+
+                    @include is-sp {
+                        @include font-line(15, 129);
+                        letter-spacing: 0.28em;
+                    }
                     
                     &:before {
                         content: '';
@@ -1022,15 +1006,6 @@
                             display: none;
                         }
                     }
-
-                    @include is-sp {
-                        @include font-line(30, 129);
-                        letter-spacing: 0.28em;
-                    }
-                    
-                    @include is-max(575px) {
-                        @include font-line(15,64);
-                    }
                  
                 }
 
@@ -1038,15 +1013,10 @@
                     display: none;
                     
                     @include is-sp {
-                        @include font-line(30, 129);
+                        @include font-line(13.5, 65);
                         letter-spacing: 0.28em;
                         display: block;
                         color:#fff;
-                    }
-
-                    
-                    @include is-max(575px) {
-                        @include font-line(15,64);
                     }
                 }
 
@@ -1072,6 +1042,7 @@
                         @include is-sp {
                             display: flex;
                             justify-content: space-between;
+                            align-items: center;
                             border-bottom: 1px dashed #fff;
                             padding: 0 87px;
                             
@@ -1090,13 +1061,12 @@
     
         
                             @include is-sp {
-                                @include font-line(25,100);
+                                @include font-line(12.5,100);
                                 letter-spacing: 0.28;
                                 padding-left: 60px;
                             }
 
                             @include is-max(575px) {
-                                @include font-line(12.5,50);
                                 padding-left: 30px;
                             }
 
@@ -1114,12 +1084,9 @@
                             color: #fff;
                             display:none;
 
-                            @include is-sp{
+                            @include is-sp {
+                                @include font-line(13.5,50);
                                 display: block;
-                            }
-
-                            @include is-max(575px) {
-                                @include font-line(12.5,50);
                             }
                          }
                     }
