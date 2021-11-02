@@ -32,7 +32,7 @@
                         <div class="nav-links-ul">
                             <div class="nav-links-ul-pro">
 
-                            <div class="brnd-logo-slide u-d-n-pc">
+                            <div class="brnd-logo-slide">
                                 <a class="brnd-logo-slide-link u-d-f u-jc-sb" href="">
                                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                                     <p>丸の内 株式会社ルーフ </p>
@@ -75,7 +75,7 @@
 
                 <div class="top-header-bnnr">
 
-                    <div class="brnd-logo-sp u-d-n-pc">
+                    <div class="brnd-logo-sp">
                         <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
                             <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                             <p>丸の内 株式会社ルーフ </p>
@@ -138,15 +138,11 @@
                             収益を最大化。
                         </p>
                     </div>
-                    <div class="fade">
-
-                    </div>
+                    <div class="fade"></div>
                 </div>
                 
-                
-                <div class="bottom-clip">
-
-                </div>
+                <div class="top-clip"></div>
+                <div class="bottom-clip"></div>
             </div>
         </div>
 

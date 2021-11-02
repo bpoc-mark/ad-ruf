@@ -200,6 +200,11 @@
         position: absolute;
         top: 0%;
         right: 0%;
+
+        @include is-sp {
+            width: 278px;
+            height: 161px;
+        }
        
     }
     // nav images
@@ -244,12 +249,8 @@
 
         .brnd-logo {
             display: flex;
-            width: 267px;
+            width: 220px;
             align-items: center;
-
-                @include is-max(1060px) {
-                    width: 220px;
-                }
 
                 @include is-sp {
                     width: 530px;
@@ -257,7 +258,8 @@
                 }
             
             &-link {
-                width: calc(100% - 77px);
+                // width: calc(100% - 77px);
+                width: 100%;
                 @include font-line(14,19);
                 font-weight: 700;
                 font-family:cross-platform-yu-gothic;
@@ -269,8 +271,6 @@
                 }
 
             }
-
-           
 
             @include is-sp {
                 width: 450px;
@@ -293,12 +293,23 @@
                 width: 538px;
             }
 
-            @include is-max(760px) {
-                width: 515px;
+            @include is-max(780px) {
+                width: 524px;
+            }
+            
+            @include is-sp {
+                display: block;
+                background: linear-gradient(to top, #2579BF,#2593D5);
+                z-index: 1000;
+                height: 100%;
+                width: 100%;
+                padding: 35px 0 0 0;
+                overflow-y: scroll;
+                overflow-x: hidden
             }
 
             .brnd-logo-slide {
-                display: flex;
+                display: none;
                 width: 261px;
                 align-items: center;
                 position: absolute;
@@ -308,6 +319,7 @@
                 @include is-sp {
                     padding-left: 17px;
                     width: 280px;
+                    display: block;
                 }
                 
                 &-link {
@@ -322,6 +334,7 @@
                     align-items: center;
                     display: none;
                     letter-spacing: 0.24em;
+
                     
                     .logo {
                         width: 65.5px;
@@ -330,23 +343,18 @@
                     @include is-sp {
                         display: flex;
                     }
+
+                    
+                    @include is-max (380px){
+                        flex-direction: column;
+                        align-items: flex-start;
+                    
+                    }
+
+                    
                    
-    
                 }
     
-            }
-
-            @include is-sp {
-                display: block;
-                background: linear-gradient(to top, #2579BF,#2593D5);
-                // position: fixed;
-                // top: 0;
-                // left: 0;
-                z-index: 1000;
-                height: 100%;
-                width: 100%;
-                padding: 35px 0 0 0;
-                overflow: scroll;
             }
     
             &-ul {
@@ -370,7 +378,7 @@
 
               }
     
-              &-02 {
+            &-02 {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
@@ -384,9 +392,12 @@
                     width: 385px;
                 }
 
+                @include is-max(780px) {
+                    width: 370px;
+                }
+
                 @include is-sp {
                     width: 100%;
-                    // padding-right: 77px;
                     padding-top: 48px;
 
                 }
@@ -397,11 +408,19 @@
                         border-bottom: 1px solid #fff;
                         padding: 30px 0 22px 23px;
                         @include font-line(15);
+
+                        &:nth-child(1) {
+                            @include is-max (380px) {
+                                margin-top: 25px;
+                            }
+                        }
                     }
                     a {
                         @include font-line(11,15);
                         color:#fff;
                         font-weight: 700;
+
+                       
                     }
 
                     @include is-sp {
@@ -497,7 +516,7 @@
                 background-color: #B71E32;
                 padding:0 0 2px 2px;
 
-                @include is-max(760px) {
+                @include is-sp {
                     width: 247px;
                     padding: 2px;
                     margin: 30px auto;
@@ -512,7 +531,7 @@
                     border-left: 1px solid #fff;
                     border-bottom: 1px solid #fff;
 
-                    @include is-max(760px) {
+                    @include is-sp {
                          padding: 14px 0 9px 20px;
                          width: 100%;
                          border: 1px solid #fff;
@@ -547,12 +566,17 @@
         }
 
         .brnd-logo-sp {
-            display: flex;
+            display: none;
             width: 261px;
             align-items: center;
             position: absolute;
             top: 3%;
             left: 9%;
+            
+            @include is-sp {
+                display: block;
+            }
+            
             
             &-link {
 
@@ -1026,7 +1050,7 @@
         &-burger {
             width: 50%;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             padding: 31.5px 0;
             background: #fff;
             align-items: center;
@@ -1051,6 +1075,7 @@
                 @include font-line(15);
                 font-family:cross-platform-yu-gothic;
                 font-weight: 500;
+                margin-left: 20px;
             }
         }
     
@@ -1062,7 +1087,7 @@
             justify-content: space-around;
             cursor: pointer;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
     
             img {
                 width: 35px;
@@ -1073,6 +1098,10 @@
                 font-weight: 500;
                 color: #fff;
                 padding-left: 10px;
+
+                @include is-max(342px) {
+                    font-size: 4vw;
+                }
             }
     
         }
