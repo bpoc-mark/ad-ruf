@@ -251,7 +251,7 @@
             color: #fff;
 
             @include is-sp {
-                margin-bottom: 48px;
+                margin-bottom: 24px;
             }
 
             p:nth-child(1) {
@@ -263,20 +263,20 @@
                 padding: 0 20px 0 20px;
 
                 @include is-sp {
-                    @include font-line(25,20);
+                    @include font-line(12.5,10);
                     letter-spacing: 0.32em;
-                    margin-bottom: 52px;
+                    margin-bottom: 26px;
                 }
             }
 
             p:nth-child(2) {
-                font-size: 23px;
-                letter-spacing: 2px;
-                line-height: 37px;
+
+                @include font-line(23);
+                letter-spacing: 0.2em;
                 font-family: yu-mincho-pr6n, sans-serif;
 
                 @include is-sp {
-                    @include font-line(50,75);
+                    @include font-line(25,30);
                     letter-spacing: 0.2em;
                 }
             }
@@ -287,14 +287,16 @@
             display: flex;
             justify-content: space-between;
             
-            @include is-sp {
-                margin-bottom: 30px;
-            }
 
             @include is-max(1051px){
                 display: block;
                 margin-bottom: 30px;
                 padding: 40px 20px;
+            }
+
+            @include is-sp {
+                padding: 0 22px;
+                margin-bottom: 30px;
             }
 
 
@@ -322,17 +324,17 @@
                         font-family: yu-mincho-pr6n, sans-serif;
 
                         @include is-sp {
-                            @include font-line(36,40);
+                            @include font-line(18,20);
                             letter-spacing: 0.12em;
                         }
                     }
 
                     p:nth-child(2) {
-                        @include font-line(11)
+                        @include font-line(11);
                         font-family: cross-platform-yu-gothic;
 
                         @include is-sp {
-                            @include font-line(30, 36);
+                            @include font-line(15, 18);
                             letter-spacing: 0.1em;
                         }
                     }

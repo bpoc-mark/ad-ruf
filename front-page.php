@@ -1,12 +1,12 @@
 <?php get_header(); ?>
- <!-- <div class="page__content top">
+<!-- <div class="page__content top">
 <section class="sect_1">
     <div class="clipPath">
     
         <div class="l-wrap">
-            <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1.png" alt="">
-            <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
-            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt="">
+            <img class="bg_1" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_1.png" alt="">
+            <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
+            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
         
             <div class="sect_1-hdr">
                 <div class="sect_1-hdr-ttl">
@@ -40,7 +40,7 @@
 
 
                         <div class="col--box">
-                            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-1.png" alt="">
+                            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                             <p class="top-text01">
                                 <span>R</span>eal Estate
                             </p>
@@ -67,7 +67,7 @@
                     
                         <div class="c-buttonCase u-l-algn">
                             <p class="txt">収益不動産の管理について</p>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             
                         </div>                    
                     </div>
@@ -79,9 +79,9 @@
 <section class="sect_2">
     <div class="clipPath">
         <div class="l-wrap">
-            <img class="bg_4" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_4.png" alt="">
-            <img class="bg_5" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_5.png" alt="">
-            <img class="bg_6" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_6.png" alt="">
+            <img class="bg_4" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_4.png" alt="">
+            <img class="bg_5" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_5.png" alt="">
+            <img class="bg_6" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_6.png" alt="">
                 <div class="sect_2-cntnt">
                 <div class="sect_2-cntnt-row">
                     <div class="sect_2-cntnt-row-01">
@@ -98,7 +98,7 @@
 
                         <div class="c-buttonCase u-l-algn">
                             <p class="txt">収益不動産の管理について</p>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </div>
                     </div>
                     <div class="sect_2-cntnt-row-02">
@@ -112,7 +112,7 @@
                                 </div>                  
                         </div>
                         <div class="col--box">
-                             <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-2.png" alt="">
+                             <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                             <p class="top-text01">
                                 <span>R</span>eal Estate
                             </p>
@@ -134,8 +134,8 @@
 <section class="sect_3">
     <div class="clipPath">
         <div class="l-wrap">
-            <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2.png" alt="">
-            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3.png" alt="">
+            <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
+            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
            
             <div class="sect_3-cntnt">
                 <div class="sect_3-cntnt-row">
@@ -150,7 +150,7 @@
                             </div>                  
                         </div>
                         <div class="col--box">
-                            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-3.png" alt="">
+                            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                             <p class="top-text01">
                                 <span>R</span>eal Estate
                             </p>
@@ -177,7 +177,7 @@
 
                         <div class="c-buttonCase u-l-algn">
                             <p class="txt">収益不動産の運用について</p>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -188,10 +188,10 @@
 <section class="sect_4">
     <div class="clipPath">
         <div class="l-wrap">
-            <img class="bg_1_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_1_rd.png" alt="">
-            <img class="bg_2_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2_rd.png" alt="">
-            <img class="bg_3_rd" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_3_rd.png" alt="">
-            <img class="bg_2_rd_sp" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_2_rd_sp.png" alt="">
+            <img class="bg_1_rd" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_1_rd.png" alt="">
+            <img class="bg_2_rd" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2_rd.png" alt="">
+            <img class="bg_3_rd" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3_rd.png" alt="">
+            <img class="bg_2_rd_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2_rd_sp.png" alt="">
             <div class="sect_4-cntnt">
                 <div class="sect_4-cntnt-row">
                     <div class="sect_4-cntnt-row-01">
@@ -207,7 +207,7 @@
 
                         <div class="c-buttonCase u-l-algn rd">
                             <p class="txt">資産運用について</p>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow_rd.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow_rd.svg" alt="">
                         </div>
                     </div>
                     <div class="sect_4-cntnt-row-02">
@@ -221,7 +221,7 @@
                             </div>                  
                         </div>
                         <div class="col--box">
-                            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/oe-img-4.png" alt="">
+                            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                             <p class="top-text01">
                                 <span>A</span>sset
                             </p>
@@ -243,8 +243,8 @@
 <section class="sect_5">
     <div class="clipPath">
         <div class="l-wrap">
-            <img class="bg_7" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_7.png" alt="">
-            <img class="bg_8" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_8.png" alt="">
+            <img class="bg_7" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_7.png" alt="">
+            <img class="bg_8" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_8.png" alt="">
             <div class="sect_5-cntnt">
                 <div class="sect_5-cntnt-txt">
                     <p class="sect_5-cntnt-txt-ttl">CASE STUDIES</p>
@@ -256,7 +256,7 @@
                 <div class="crd-wrppr u-d-f u-jc-sb">
                     <div class="c-cards09"> 
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
@@ -273,7 +273,7 @@
 
                     <div class="c-cards09"> 
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
@@ -290,7 +290,7 @@
 
                     <div class="c-cards09"> 
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -307,7 +307,7 @@
 
                     <div class="c-cards09"> 
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
@@ -325,7 +325,7 @@
 
                 <div class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
 			    </div>
             </div>
         </div>
@@ -336,10 +336,10 @@
     <div class="clipPath"> 
         <div class="c-case--items fp">
         <div class="l-wrap">
-            <img class="bg_1" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_1.png" alt="">
-            <img class="bg_2" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_2.png" alt="">
-            <img class="bg_3" src="<?php echo get_template_directory_uri();?>/release/image/page/top-page/bg_3.png" alt="">
-            <img class="bg_6_sp" src="<?php echo get_template_directory_uri();?>/release/image/background/sec6_bg_sp.png" alt="">
+            <img class="bg_1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_1.png" alt="">
+            <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_2.png" alt="">
+            <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_3.png" alt="">
+            <img class="bg_6_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec6_bg_sp.png" alt="">
             <div class="c-case--items__contents">
                     <div class="c-case03__txt u-ta-l">
                         <p class="c-case03__txt__ttl">Real estate column</p>
@@ -444,8 +444,8 @@
 <section class="sect_7">
     <div class="clipPath">
         <div class="l-wrap">
-             <img class="bg_11" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_11.png" alt="">
-            <img class="bg_10" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_10.png" alt="">
+             <img class="bg_11" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_11.png" alt="">
+            <img class="bg_10" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_10.png" alt="">
             <div class="sect_7-cntnt">
                 <div class="sect_7-cntnt-rows u-d-f u-jc-sb">
                          <div class="row01-ttl">
@@ -457,7 +457,7 @@
                             </div>                  
                         </div>
                     <div class="sect_7-cntnt-rows-01">
-                    <img class="bg_9" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_9.png" alt="">
+                    <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_9.png" alt="">
                         <div class="sect_7-cntnt-rows-01-txt">
                             <p>message</p>
                             <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
@@ -485,7 +485,7 @@
 
                         <div class="c-buttonCase u-l-algn">
                             <p class="txt">資産運用について</p>
-                            <img src="<?php echo get_template_directory_uri();?>/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -496,9 +496,9 @@
 
 <section class="sect_8">
     <div class="l-wrap">
-        <img class="bg_12" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_12.png" alt="">
-        <img class="bg_13" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_13.png" alt="">
-        <img class="bg_14" src="<?php echo get_template_directory_uri();?>/release/image/background/bg_14.png" alt="">
+        <img class="bg_12" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_12.png" alt="">
+        <img class="bg_13" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_13.png" alt="">
+        <img class="bg_14" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_14.png" alt="">
         <div class="sect_8-cntnt">
             <div class="sect_8-cntnt-txt">  
                 <p class="sect_8-cntnt-txt-ttl">NEWS</p>
@@ -558,7 +558,7 @@
         </div>
     </div>
 </section>  -->
- <!-- <section class="sect_9">9</section>
+<!-- <section class="sect_9">9</section>
 <section class="sect_10">10</section>
 <section class="sect_11">11</section>
 <section class="sect_12">12</section> -->

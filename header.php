@@ -32,12 +32,12 @@
                         <div class="nav-links-ul">
                             <div class="nav-links-ul-pro">
 
-                            <div class="brnd-logo-slide">
-                                <a class="brnd-logo-slide-link u-d-f u-jc-sb" href="">
-                                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                                    <p>丸の内 株式会社ルーフ </p>
-                                </a>
-                            </div>
+                                <div class="brnd-logo-slide">
+                                    <a class="brnd-logo-slide-link u-d-f u-jc-sb" href="">
+                                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
+                                        <p>丸の内 株式会社ルーフ </p>
+                                    </a>
+                                </div>
                                 <a class="nav-links-ul-pro-link u-d-n-sp" href="">会社概要　/ プライバシーポリシー</a>
                             </div>
                             <div class="nav-links-ul-02">
@@ -56,10 +56,10 @@
                                 <div class="nav-links-ul-02-link dd2">
                                     <a href="">不動産コラム</a>
                                 </div>
-                                
+
                             </div>
 
-                    
+
                         </div>
                         <div class="nav-links-mail">
                             <a class="nav-links-mail-link" href="">
@@ -140,7 +140,7 @@
                     </div>
                     <div class="fade"></div>
                 </div>
-                
+
                 <div class="top-clip"></div>
                 <div class="bottom-clip"></div>
             </div>
