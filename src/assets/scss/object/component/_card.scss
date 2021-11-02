@@ -383,6 +383,7 @@
 .c-cards09 {
     width: 220px;
 
+
     &-img {
         position: relative;
 
@@ -523,10 +524,6 @@
 		font-weight: 700;
 		color: #258acf;
 		padding: 20px 15px 30px 15px;
-
-		// @include is-sp {
-		// 	font-size: 15px;
-		// }
 	}
 	&__bottom {
 		@include font-line(11);
