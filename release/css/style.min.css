@@ -373,6 +373,25 @@ template{display:none}
 .p-formSearch__inner{border-color:rgba(0,0,0,0);border-radius:3px;min-height:50px;background:#eceeef;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-transition:.2s;transition:.2s;overflow:hidden;border:0 solid transparent}
 .p-formSearch__icon{opacity:.6;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;color:#55595c;padding-left:calc(50px / 3)}
 .p-formSearch__input{color:#666;padding:.75em;height:auto;border-width:1px;border-style:solid;border-color:#eaeaea;border-radius:2px;background:#eceeef;-webkit-box-shadow:none;box-shadow:none;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .2s linear;transition:all .2s linear;padding-left:calc(50px / 3);padding-right:calc(50px / 3);font-size:1rem}
+.p-header{top:0}
+.p-header__branding .logo{width:70%;height:100%}
+.p-header__frame{display:-webkit-box;display:-ms-flexbox;display:flex}
+.p-header__landingLeft,.p-header__landingRight{width:50%}
+.p-header__landingInner{display:block;padding:0 40px}
+.p-header__landingLeft .promotion{font-size:1rem;font-weight:700}
+.p-header__landingLeft .logo{max-width:50%}
+.p-header__landingTop{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0 0 30px}
+.p-header__landingTop .btn{width:100%;text-align:center}
+.p-header__landingBottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.p-header__landingBottom .text{font-size:1.125rem;font-weight:700}
+.p-header.scroll .scroll-link{color:black}
+.p-header.scroll .current{color:#000}
+.p-header.scroll .btn{border-radius:0}
+.p-header.scroll .btn:hover{background-color:#e0e0e0}
+.p-header.scroll .lp__main{height:auto !important;padding:5px 20px}
+.p-header.scroll .lp__main .promotion{display:none}
+.p-header.scroll .lp__button{border-radius:5px;-webkit-box-shadow:0 3px 7px 1px rgba(0,0,0,0);box-shadow:0 3px 7px 1px rgba(0,0,0,0)}
+.p-header.scroll .lp__landingInner{padding:0 !important}
 .top-header{background:#5fa5cd;position:relative;padding-top:100px;overflow:hidden}
 .top-header .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,right top,left top,from(#2593d5),to(#2579bf));background:linear-gradient(to left,#2593d5,#2579bf);position:absolute;top:0;right:0}
 .top-header .logo{width:70px}
@@ -905,6 +924,15 @@ template{display:none}
 .c-heading04{margin:0 0 15px;padding:0 0 0 15px;font-size:1.25rem;line-height:1.5}
 .p-error__frame{height:390px}
 .p-error li{list-style:decimal}
+.p-header{padding:20px 0}
+.p-header.scroll .p-header__main{width:100%;background:#fff;border-bottom:1px solid #e0e0e0;position:fixed;margin:0 auto;top:-61px;left:0;right:0;height:48px;-webkit-transition:.4s;transition:.4s;z-index:999}
+.p-header.scroll .p-header__frame{margin:2.5px 0;height:40px}
+.p-header.scroll .p-header__landingLeft{width:30%}
+.p-header.scroll .p-header__landingRight{width:30%}
+.p-header.scroll .p-header__landingTop{padding:0}
+.p-header.scroll .p-header__landingBottom{display:none}
+.p-header.scroll .logo{width:auto}
+.p-header.scroll-up .p-header__main{top:0;height:48px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .p-introduction__intro .headline__text{font-size:3rem}
 .p-introduction__image .image_1{height:188.56px;width:184.8px}
 .p-introduction__image .image_2{height:87px;width:190.39px}
@@ -1087,6 +1115,9 @@ template{display:none}
 .p-form__container--button-area{width:100%}
 .p-form__label--textSmall{font-size:.6875rem;font-weight:500}
 .p-formSearch__inner{width:100%}
+.p-header__branding{width:50%}
+.p-header__branding .logo{width:200px}
+.p-header__colsigation{width:50%}
 .top-header{overflow:hidden;padding-top:30px}
 .top-header .top-clip{width:278px;height:161px}
 .top-header .logo{width:131px}
