@@ -87,7 +87,7 @@
 
                     <div class="nav-footer-col2">
 
-                        <div class="ttl">
+                        <div class="ttl f-acc-sp">
                             <a class="head-link" href="">RUF</a>
                             <a class="head-icon" href="">+</a>
                         </div>
@@ -116,7 +116,7 @@
 
                     <div class="nav-footer-col3">
 
-                        <div class="ttl">
+                        <div class="ttl f-acc-sp">
                             <a class="head-link" href="">事業内容</a>
                             <a class="head-icon" href="">+</a>
                         </div>
@@ -157,7 +157,7 @@
 
                     <div class="nav-footer-col4">
 
-                        <div class="ttl">
+                        <div class="ttl f-acc-sp">
                             <a class="head-link" href="">企業情報</a>
                             <a class="head-icon" href="">+</a>
                         </div>
@@ -198,11 +198,11 @@
 
                     <div class="nav-footer-col5">
 
-                        <div class="ttl">
+                        <div class="ttl f-acc-sp">
                             <a class="head-link" href="">コンテンツ</a>
                             <a class="head-icon" href="">+</a>
                         </div>
-                        <div class="link">
+                        <div class="link hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
                                     <a class="c-link__inner" href="">記事一覧</a>

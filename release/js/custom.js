@@ -23,15 +23,26 @@ $('.slider').slick({
     }
   }]
 });
-
-var slideOut = function slideOut() {
-  var body = document.querySelector('body');
-  var burger = document.querySelector('.brgr-mail-burger');
-  var nav2 = document.querySelector('.nav-sp-wrppr');
-  burger.addEventListener('click', function () {
-    nav2.classList.toggle('slide');
-    body.classList.toggle('ovf');
+var footerAcc = document.querySelectorAll('.f-acc-sp');
+footerAcc.forEach(function (item) {
+  item.addEventListener('click', function (e) {
+    e.preventDefault();
+    var nextEl = item.nextElementSibling;
+    toggleAccordion(item, nextEl);
   });
-};
+});
 
-slideOut();
+function toggleAccordion(curEl, nexEl) {
+  var currentEl = document.querySelectorAll('.f-acc-sp > .active');
+  var nextEl = document.querySelectorAll('.link.show');
+  console.log(next[0]);
+} //   const slideOut = ()=> {
+//     const body = document.querySelector('body');
+//     const burger = document.querySelector('.brgr-mail-burger');
+//     const nav2 = document.querySelector('.nav-sp-wrppr');
+//    burger.addEventListener('click', ()=>{
+//     nav2.classList.toggle('slide');
+//     body.classList.toggle('ovf');
+//    });
+// }
+// slideOut();
