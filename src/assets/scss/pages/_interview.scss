@@ -563,7 +563,7 @@
                             @include font-line(26,37);
                             font-family: 500;
                             font-family: yu-mincho-pr6n, sans-serif;
-                            letter-spacing: 0.15em;
+                            // letter-spacing: 0.15em;
 
                             @include is-sp {
                                 @include font-line (25,37.5);
