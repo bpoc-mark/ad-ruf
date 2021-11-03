@@ -237,225 +237,6 @@
         }
     }
 
-
-    // .cntct {
-    //     padding-top: 99px;
-    //     padding-bottom: 20px;
-    //     background-image: url(../../release/image/footer/footer_bg.png);
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    //     background-position: center;
-
-    //     &-hdr {
-    //         text-align: center;
-    //         color: #fff;
-
-    //         @include is-sp {
-    //             margin-bottom: 24px;
-    //         }
-
-    //         p:nth-child(1) {
-    //             font-size:10px;
-    //             line-height: 20px;
-    //             font-weight: 400;
-    //             letter-spacing: 2px;
-    //             font-family: century-gothic, sans-serif;
-    //             padding: 0 20px 0 20px;
-
-    //             @include is-sp {
-    //                 @include font-line(12.5,10);
-    //                 letter-spacing: 0.32em;
-    //                 margin-bottom: 26px;
-    //             }
-    //         }
-
-    //         p:nth-child(2) {
-
-    //             @include font-line(23);
-    //             letter-spacing: 0.2em;
-    //             font-family: yu-mincho-pr6n, sans-serif;
-
-    //             @include is-sp {
-    //                 @include font-line(25,30);
-    //                 letter-spacing: 0.2em;
-    //             }
-
-    //             @include is-max(450px) {
-    //                 font-size: 5vw;
-    //             }
-    //         }
-    //     }
-
-    //     &-inqrs {
-    //         padding-top: 44px;
-    //         display: flex;
-    //         justify-content: space-between;
-            
-
-    //         @include is-max(1051px){
-    //             display: block;
-    //             margin-bottom: 30px;
-    //             padding: 40px 20px;
-    //         }
-
-    //         @include is-sp {
-    //             padding: 0 22px;
-    //             margin-bottom: 30px;
-    //         }
-
-
-    //         &-dtl {
-    //             text-align: center;  
-    //             border-radius: 45px;
-
-    //             @include is-max(1051px){
-    //                 margin-bottom: 30px;
-                   
-    //             }
-               
-                
-    //             &-link {
-    //                 color: #fff;
-    //                 display: inline-block;
-    //                 width: 310px;
-    //                 padding: 27px 0 23px 0;
-
-                   
-
-    //                 p:nth-child(1) {
-    //                     font-size: 18px;
-    //                     font-weight: 700;
-    //                     font-family: yu-mincho-pr6n, sans-serif;
-
-    //                     @include is-sp {
-    //                         @include font-line(18,20);
-    //                         letter-spacing: 0.12em;
-    //                     }
-
-    //                     @include is-max (340px) {
-    //                         font-size: 5vw;
-    //                     }
-    //                 }
-
-    //                 p:nth-child(2) {
-    //                     @include font-line(11);
-    //                     font-family: cross-platform-yu-gothic;
-
-    //                     @include is-sp {
-    //                         @include font-line(15, 18);
-    //                         letter-spacing: 0.1em;
-    //                     }
-
-    //                     @include is-max(340px) {
-    //                         font-size: 4vw;
-    //                     }
-    //                 }
-
-    //                 @include is-sp {
-    //                     width: 100%;
-    //                     padding: 45px 35px 31px 35px;
-    //                 }
-                   
-    //             }
-
-                
-    //         }
-
-    //         .phone {
-    //             background-color: #fff;
-    //             position: relative;
-
-    //             a{
-    //                 color: #2790d2 !important;
-
-                   
-    //             }
-
-    //             &:before {
-    //                 content: '';
-    //                 background: url(../image/footer/arrow-blue.png) no-repeat center;
-    //                 width: 20px;
-    //                 height: 20px;
-    //                 position: absolute;
-    //                 top: 50%;
-    //                 right: 6px;
-    //                 transform: translate(-18px, -50%);
-
-                 
-    //             }
-    //         }
-    //         .line {
-    //             background-color: #00AD00;
-    //             position: relative;
-
-    //             &:before {
-    //                 content: '';
-    //                 background: url(../image/footer/arrow-white.png) no-repeat center;
-    //                 width: 20px;
-    //                 height: 20px;
-    //                 position: absolute;
-    //                 top: 50%;
-    //                 right: 6px;
-    //                 transform: translate(-18px, -50%);
-
-                  
-    //             }
-    //         }
-
-    //         .email {
-    //             background-color: #B71E32;
-    //             position: relative;
-
-    //             &:before {
-    //                 content: '';
-    //                 background: url(../image/footer/arrow-white.png) no-repeat center;
-    //                 width: 20px;
-    //                 height: 20px;
-    //                 position: absolute;
-    //                 top: 50%;
-    //                 right: 6px;
-    //                 transform: translate(-18px, -50%);
-
-               
-    //             }
-    //         }
-
-    //     }
-        
-    //     &-top {
-    //         text-align: center;
-    //         margin-top:67px;
-
-    //         &-link {
-    //             color: #95C6E7;
-    //             position: relative;
-    //             letter-spacing: 4px;
-    //             @include font-line(13,22);
-                
-
-    //             &:before {
-    //                 content:'';
-    //                 width: 20px;
-    //                 height: 20px;
-    //                 position: absolute;
-    //                 top: -25px;
-    //                 left: 50%;
-    //                 transform:translateX(-50%);
-    //                 background: url(../image/footer/arrow-push.png) no-repeat center;
-    //             }
-
-    //             @include is-sp {
-    //                 @include font-line(23,40);
-    //             }
-    //         }
-
-    //         @include is-sp {
-    //             margin-top: 33px;
-    //         }
-    //     }
-
-    // }
-
     .cntct {
         background-image: url(../image/footer/footer_bg.png) !important;
 
@@ -492,6 +273,10 @@
             bottom: -74px;
             left: 50%;
             transform: translateX(-50%);
+
+            @include is-sp {
+                bottom: 7px;
+            }
 
             
             &:before {
@@ -569,17 +354,17 @@
 
                     @include is-sp {
                         margin-bottom: 0;
-                        padding: 0 87px;
+                        padding: 0 45px;
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        border-bottom: 1px solid #fff;
+                        // border-bottom: 1px solid #fff;
                         border-top: 1px solid #fff;
                         
                     }
 
-                    @include is-max (370px) {
-                        padding: 0 36px;
+                    @include is-max(370px) {
+                        padding: 0 20px;
                     }
 
                     .head-link {
@@ -626,9 +411,9 @@
                 }
                 .link {
 
-                    @include is-sp {
-                        transition: 0.5s;
-                    }
+                    // @include is-sp {
+                    //     transition: 0.5s;
+                    // }
 
             
                     
@@ -641,7 +426,7 @@
                                 justify-content: space-between;
                                 align-items: center;
                                 border-bottom: 1px dashed #fff;
-                                padding: 0 87px;
+                                padding: 0 75px;
                                 
                             }
 
@@ -664,16 +449,15 @@
                                 @include is-sp {
                                     @include font-line(12.5,50);
                                     letter-spacing: 0.28;
-                                    padding-left: 60px;
                                 }
 
-                                @include is-max(575px) {
+                                // @include is-max(575px) {
     
-                                    padding-left: 30px;
-                                }
+                                //     padding-left: 30px;
+                                // }
 
                                 @include is-max(380px){
-                                    padding-left: 15px;
+                                    // padding-left: 15px;
                                     letter-spacing: 0.13em;
                                 }
                             }
@@ -690,6 +474,10 @@
                                     display: block;
                                 }
                             }
+
+                            &:last-child {
+                                border-bottom: 0;
+                            }
                         }
                     }
 
@@ -704,17 +492,11 @@
             // accordion classes
             .acc-hidden {
                 @include is-sp {
-                    height: 0;
-                    overflow: hidden;
+                    display: none;
                 }
             }
 
-            // .acc-show {
-            //     @include is-sp {
-            //         height: 200px;
-            //         overflow: hidden;
-            //     }
-            // }
+          
         &-col3 {
             padding: 0 41px 0 32px;
             border-right: 1px solid #fff;
@@ -733,18 +515,18 @@
 
                 @include is-sp {
                     margin-bottom: 0;
-                    padding: 0 87px;
+                    padding: 0 45px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    border-bottom: 1px solid #fff;
+                    // border-bottom: 1px solid #fff;
                     border-top: 1px solid #fff;
                 }
 
-                
-                @include is-max (370px) {
-                    padding: 0 36px;
+                @include is-max(370px) {
+                    padding: 0 20px;
                 }
+               
 
                 .head-link { 
                     color: #fff;
@@ -798,9 +580,9 @@
                 //     overflow: hidden;
                 // }
 
-                @include is-sp {
-                    transition: 0.5s;
-                }
+                // @include is-sp {
+                //     transition: 0.5s;
+                // }
 
         
 
@@ -813,7 +595,7 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 87px;
+                            padding: 0 75px;
                             
                         }
 
@@ -836,14 +618,10 @@
                             @include is-sp {
                                 @include font-line(12.5,50);
                                 letter-spacing: 0.28;
-                                padding-left: 60px;
+                                
                             }
 
-                            @include is-max(575px) {
-                                padding-left: 30px;
-                            }
                             @include is-max(380px){
-                                padding-left: 15px;
                                 letter-spacing: 0.13em;
                             }
                         }
@@ -860,6 +638,10 @@
                                 display: block;
                             }
                          }
+
+                         &:last-child {
+                            border-bottom: 0;
+                        }
                     }
                 }
             }
@@ -895,17 +677,16 @@
 
                 @include is-sp {
                     margin-bottom: 0;
-                    padding: 0 87px;
+                    padding: 0 45px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    border-bottom: 1px solid #fff;
+                    // border-bottom: 1px solid #fff;
                     border-top: 1px solid #fff;
                 }
 
-                
-                @include is-max (370px) {
-                    padding: 0 36px;
+                @include is-max(370px) {
+                    padding: 0 20px;
                 }
               
                     
@@ -963,9 +744,9 @@
                 //     overflow: hidden;
                 // }
 
-                @include is-sp {
-                    transition: 0.5s;
-                }
+                // @include is-sp {
+                //     transition: 0.5s;
+                // }
 
             
 
@@ -978,7 +759,7 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 87px;
+                            padding: 0 75px;
                             
                         }
 
@@ -1001,16 +782,13 @@
                             @include is-sp {
                                 @include font-line(12.5,50);
                                 letter-spacing: 0.28;
-                                padding-left: 60px;
                             }
 
                             @include is-max(575px) {
                                 @include font-line(12.5,50);
-                                padding-left: 30px;
                             }
 
                             @include is-max(380px){
-                                padding-left: 15px;
                                 letter-spacing: 0.13em;
                             }
                         }
@@ -1027,6 +805,10 @@
                                 display: block;
                             }
                          }
+
+                         &:last-child {
+                            border-bottom: 0;
+                        }
                     }
                 }
             }
@@ -1044,7 +826,7 @@
 
                 @include is-sp {
                     margin: 0;
-                    padding: 0 87px;
+                    padding: 0 45px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -1052,10 +834,10 @@
                     border-top: 1px solid #fff;
                 }
 
-                
-                @include is-max (370px) {
-                    padding: 0 36px;
+                @include is-max(370px) {
+                    padding: 0 20px;
                 }
+
                 
 
                 .head-link {
@@ -1114,9 +896,9 @@
                 //     overflow: hidden;
                 // }
 
-                @include is-sp {
-                    transition: 0.5s;
-                }
+                // @include is-sp {
+                //     transition: 0.5s;
+                // }
 
                 
 
@@ -1130,7 +912,7 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 87px;
+                            padding: 0 75px;
                             
                         }
 
@@ -1153,15 +935,12 @@
                             @include is-sp {
                                 @include font-line(12.5,50);
                                 letter-spacing: 0.28;
-                                padding-left: 60px;
                             }
 
                             @include is-max(575px) {
-                                padding-left: 30px;
                             }
 
                             @include is-max(380px){
-                                padding-left: 15px;
                                 letter-spacing: 0.13em;
                             }
 
@@ -1179,6 +958,10 @@
                                 display: block;
                             }
                          }
+
+                        //  &:last-child {
+                        //     border-bottom: 0;
+                        // }
                     }
                 }
             }
