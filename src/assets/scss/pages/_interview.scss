@@ -7,14 +7,15 @@
 
     .section_1 {
         color:#fff;
-        background: linear-gradient(#2579BF, #2593D5);
 
+        .clipPath {
+            padding-top: 195px;
+            clip-path: polygon(100% 0, 100% 100%, 85% 91%, 0 100%, 0 10%);
+            background: linear-gradient(#2579BF, #2593D5);
+
+        }
         .l-wrap {
             position: relative;
-            .bg-1 {
-                position: absolute;
-                right: 5%;
-            }
     
         }
 
@@ -43,16 +44,18 @@
         .section_1-cntnt {
             padding-top: 60px;
             position: relative;
-            padding-bottom: 133px;
+            justify-content: space-between;
 
             &-1 {
                 width: 395px;
+                padding-bottom: 133px;
 
                 &-hdr {
                     @include font-line(26,37);
                     font-weight: 500;
                      font-family: yu-mincho-pr6n, sans-serif;
-                     padding-bottom: 20px;
+                     padding:20px 0;
+                   
                 }
 
                 &-txt1 {
@@ -94,16 +97,41 @@
                     }
                 }
             }
+
+            &-2 {
+                padding-bottom: 83px;
+                height: 100%;
+                position: relative;
+                
+                    .sec1img {
+                        transform: translateX(16%);
+                    }
+
+                    &-bdg {
+                        position: absolute;
+                        width: 56px;
+                        height: 21px;
+                        background: linear-gradient(to right,#2579BF,#2593D5);
+                    }
+            }
         }
-        &-img {
+        
+        .bg_1 {
             position: absolute;
-            bottom: 0;
-            right: 5%;
+            top: 0%;
+            right: 9%;
         }
-        .bg-2 {
+
+        .bg_2 {
             position: absolute;
-            top: 140px;
-           
+            top: 14%;
+            left: -6%;
+        }
+
+        .bg_3 {
+            position: absolute;
+            right: 4%;
+            bottom: 41.5%;        
         }
     }
 
