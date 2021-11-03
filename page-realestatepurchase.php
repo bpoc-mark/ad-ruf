@@ -61,7 +61,18 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/realestate_img.jpg" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
+                    <div class="c-img_box02">
+                        <div class="c-img_box02--ttl">
+                            見極める<br>価値を
+                        </div>
+                        <div class="c-img_box02--sub">
+                            RUFの収益不動産の売買は
+                        </div>
+                        <div class="c-img_box02--logo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
+                        </div>
+                    </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
@@ -103,7 +114,18 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_3__inner-realestate--right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/realestate_img2.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
+                    <div class="c-img_box02">
+                        <div class="c-img_box02--ttl">
+                            見極める<br>価値を
+                        </div>
+                        <div class="c-img_box02--sub">
+                            RUFの収益不動産の売買は
+                        </div>
+                        <div class="c-img_box02--logo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
+                        </div>
+                    </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
@@ -158,12 +180,18 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/point_img1.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img1.png" alt="">
+                    <div class="c-img_box03">
+                        <div class="c-img_box03__txt">
+                            <p class="c-img_box03__ttl">Point</p>
+                            <p class="c-img_box03__sub">1</p>
+                        </div>
+                    </div>
                 </div>
+
                 <p class="txt_ttl u-d-n-pc">
                     20年で500棟以上の買取実績
                 </p>
-
                 <div class="c-buttonREP">
                     <p class="txt">その他の事例を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
@@ -201,7 +229,13 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/point_img2.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_imgs_2.png" alt="">
+                    <div class="c-img_box03">
+                        <div class="c-img_box03__txt">
+                            <p class="c-img_box03__ttl">Point</p>
+                            <p class="c-img_box03__sub">2</p>
+                        </div>
+                    </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     売却時の <br>
@@ -238,7 +272,13 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/point_img3.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img3.png" alt="">
+                    <div class="c-img_box03">
+                        <div class="c-img_box03__txt">
+                            <p class="c-img_box03__ttl">Point</p>
+                            <p class="c-img_box03__sub">3</p>
+                        </div>
+                    </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     買取物件をバリューアップ
@@ -246,7 +286,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-buttonREP red">
                     <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/groupbusiness/arrow_1.svg" alt="">
                 </div>
             </div>
         </div>
@@ -414,8 +454,9 @@ $imagedir = get_template_directory_uri();
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="l-wrap">
+
+                <div class="space hide-sp"></div>
+
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
@@ -463,7 +504,7 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="sect_8__btn--wrap">
-                <div class="c-buttonREP">
+                    <div class="c-buttonREP">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </div>
