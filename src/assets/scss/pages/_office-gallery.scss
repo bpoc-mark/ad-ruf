@@ -1,0 +1,250 @@
+.office_gal {
+	.section_1 {
+		position: relative;
+		margin: 0 0 90px 0;
+		background: linear-gradient(
+			90deg,
+			rgba(37, 121, 191, 1) 0%,
+			rgba(37, 147, 213, 1) 50%
+		);
+		text-align: center;
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -89px;
+			left: 0;
+			height: 90px;
+			background: linear-gradient(
+				90deg,
+				rgba(37, 121, 191, 1) 0%,
+				rgba(37, 147, 213, 1) 50%
+			);
+			-webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+			clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+		}
+
+		.l-wrap {
+			position: relative;
+
+			.bg_1 {
+				position: absolute;
+				top: -90px;
+				right: 85px;
+
+				@include is-sp {
+					width: 46.67%;
+					top: -100px;
+					right: 0;
+				}
+			}
+		}
+
+		&__ttl {
+			color: $color-text04;
+			font-weight: 400;
+			font-family: century-gothic, sans-serif;
+			text-align: center;
+			letter-spacing: 0.32em;
+
+			@include font-line(10, 20);
+		}
+	}
+
+	
+	.bread_crumps{
+		background: rgb(95, 165, 205);
+		padding: 0 0 62px 0;
+		.txt{
+			width: 92%;
+			margin: 0 auto;
+			max-width: 1100px;
+			color: #fff;
+			font-family: yu-mincho-pr6n, sans-serif;
+		}
+	}
+
+		// clip top
+	.top-clip {
+		width: 800px;
+		height: 250px;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background: linear-gradient(to left, #2593d5, #2579bf);
+		position: absolute;
+		top: -4.5%;
+		right: 0%;
+
+		@include is-sp {
+			width: 83%;
+			height: 161px;
+			top: -30px;
+		}
+	}
+
+
+	&__bg_1 {
+		position: absolute;
+		right: 92px;
+		top: -85px;
+		z-index: 0;
+		width: 344px;
+	}
+
+	&--items {
+		position: relative;
+		padding: 100px 0 54px 0;
+
+		&:nth-of-type(even) {
+			padding: 150px 0;
+			background-color: #fff;
+			-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+			clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+
+			@include is-sp {
+				padding: 200px 0 100px 0;
+				-webkit-clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
+				clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
+			}
+
+			.office_gal--contents {
+				flex-direction: row-reverse;
+				&__col1 {
+					padding-right: 0;
+					padding-left: 98px;
+					@include is-max(750px) {
+						width: 100%;
+						padding-left: 0;
+					}
+
+					.ttl {
+						color: #258acf;
+						@include font-line(22, 37);
+					}
+					.desc {
+						color: #000;
+					}
+				}
+			}
+		}
+
+		&:last-of-type {
+			-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 105%);
+			clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 105%);
+			@include is-sp {
+				-webkit-clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 105%);
+				clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 105%);
+			}
+		}
+
+		.hide-pc {
+			display: none;
+			@include is-max(750px) {
+				display: flex;
+				margin-top: 50px;
+			}
+		}
+		.hide-tabsp {
+			display: flex;
+			@include is-max(750px) {
+				display: none;
+			}
+		}
+
+		.hide-solo {
+			display: none;
+			@include is-max(750px) {
+				display: block;
+			}
+		}
+	}
+
+	&--contents {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&:nth-of-type(2) {
+			flex-direction: column-reverse;
+		}
+
+		&__col1 {
+			width: calc(100% - 46.94%);
+			padding-right: 95px;
+			@include is-max(750px) {
+				width: 100%;
+				padding-right: 0;
+			}
+			&--text {
+				text-align: left;
+				&.ttl {
+					font-family: yu-mincho-pr6n, sans-serif;
+					@include font-line(22, 48);
+					font-weight: 500;
+					letter-spacing: 0.22em;
+					color: #fff;
+					padding-top: 40px;
+				}
+				&.ttl_sub {
+					font-family: century-gothic, sans-serif;
+					@include font-line(10, 14);
+					font-weight: 700;
+					letter-spacing: 0.28em;
+					color: #92c4e5;
+					padding: 20px 0 30px 0;
+				}
+				.desc {
+					font-family: cross-platform-yu-gothic;
+					@include font-line(13, 26);
+					font-weight: 500;
+					letter-spacing: 0.16em;
+					color: $color-text03;
+					text-align: justify;
+					@include is-max(750px) {
+						padding-bottom: 24px;
+					}
+				}
+			}
+		}
+
+		&__col2 {
+			width: 46.94%;
+			position: relative;
+			@include is-max(750px) {
+				width: 100%;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+			.top {
+				position: absolute !important;
+				top: 0;
+				left: unset !important;
+				right: 85px;
+
+				&.hide-solo {
+					top: 10px !important;
+					right: 10px;
+				}
+
+				@include is-max(750px) {
+					right: 11.76%;
+				}
+			}
+
+			.bottom {
+				position: absolute !important;
+				bottom: 0;
+				left: 67px !important;
+				top: unset;
+
+				@include is-max(750px) {
+					left: 11.76% !important;
+				}
+			}
+		}
+	}
+
+}

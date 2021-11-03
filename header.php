@@ -48,7 +48,7 @@
                                     <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">事業内容</a>
                                 </div>
                                 <div class="nav-links-ul-02-link dd">
-                                    <a href="">企業情報</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">企業情報</a>
                                 </div>
                                 <div class="nav-links-ul-02-link dd">
                                     <a href="">バリューアップ事例</a>
