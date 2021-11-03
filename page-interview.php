@@ -18,7 +18,7 @@ get_header(); ?>
                     <p class="section_1-sub2">この文章はダミーですこの文章はダミーですこの文章はダミーです<br>この文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                 </div>
                 <div class="section_1-cntnt">
-                    <div class="u-d-f">
+                    <div class="u-d-f cntnt-wrppr">
                         <div class="section_1-cntnt-1">
                             <p class="section_1-cntnt-1-hdr">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="section_1-cntnt-1-txt1">Dummy textDummy textDummy textDummy text<br> Dummy textDummy text <br>Dummy textDummy textDummytext</p>
@@ -56,8 +56,44 @@ get_header(); ?>
                         <div class="section_1-cntnt-2">
                             <img class="sec1img" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec1_img.png" alt="">
 
+
+                            <div class="biography-sp u-d-n-pc">
+                                <p class="biography-sp-hdr">代表取締役 木村武史の略歴</p>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                                <div class="biography-sp-cntnt u-d-f">
+                                    <p class="biography-sp-cntnt-yr">0000年</p>
+                                    <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
+                                </div>
+                            </div>
+
                             <div class="section_1-cntnt-2-bdg">
                                 <p>あたり</p>
+                            </div>
+                        
+                            <div class="section_1-cntnt-2-rep">
+                                 <div class="section_1-cntnt-2-rep-txt">
+                                    <p>代表取締役</p>
+                                    <p>木村 武史</p>
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -66,7 +102,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="section_2">
+    <!-- <div class="section_2">
         <div class="l-wrap">
             <div class="section_2-cntnt">
                 <div class="section_2-cntnt-rows u-d-f u-jc-sb">
@@ -125,6 +161,6 @@ get_header(); ?>
                 <img class="sec3-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg2.png" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>

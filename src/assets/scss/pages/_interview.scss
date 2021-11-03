@@ -13,6 +13,12 @@
             clip-path: polygon(100% 0, 100% 100%, 85% 91%, 0 100%, 0 10%);
             background: linear-gradient(#2579BF, #2593D5);
 
+            @include is-sp {
+                clip-path: polygon(100% 0%, 100% 100%, 89% 97%, 0% 100%, 0 4%);
+
+                padding-top: 123.5px;
+            }
+
         }
         .l-wrap {
             position: relative;
@@ -20,12 +26,17 @@
         }
 
         &-ttl {
-            padding-top: 100px;
+         
             text-align: center;
             @include font-line(10,20);
             font-family: century-gothic, sans-serif;
             letter-spacing: 1em;
             font-weight: 400;
+
+            @include is-sp {
+                @include font-line (12,10);
+                letter-spacing :0.32em;
+            }
         }
     
         &-sub1 {
@@ -33,12 +44,25 @@
             text-align: center;
             font-family: yu-mincho-pr6n, sans-serif;
             font-weight: 500;
+
+            @include is-sp {
+                @include font-line (25,37);
+                letter-spacing: 0.15em;
+                padding-top: 22px;
+              
+            }
         }
         &-sub2 {
             @include font-line(13,26);
             font-weight: 500;
             font-family:cross-platform-yu-gothic;
             text-align: center;
+
+            @include is-sp {
+                @include font-line(13.5,20);
+                letter-spacing: 0.1em;
+                padding-top: 24.5px;
+            }
         }
 
         .section_1-cntnt {
@@ -46,15 +70,39 @@
             position: relative;
             justify-content: space-between;
 
+            @include is-sp {
+                padding-top: 58px;
+            }
+
+
+            .cntnt-wrppr {
+                align-items: flex-end;
+
+                @include is-sp {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
             &-1 {
                 width: 395px;
                 padding-bottom: 133px;
+
+                @include is-sp {
+                    width: 100%;
+                    padding-bottom: 0;
+                }
 
                 &-hdr {
                     @include font-line(26,37);
                     font-weight: 500;
                      font-family: yu-mincho-pr6n, sans-serif;
                      padding:20px 0;
+
+                     @include is-sp {
+                         @include font-line(25,37.5);
+                         letter-spacing: 0.15em;
+                     }
                    
                 }
 
@@ -64,6 +112,11 @@
                     font-family: century-gothic, sans-serif;
                     color:#95C6E7;
                     padding-bottom: 18px;
+
+                    @include is-sp {
+                        @include font-line(12.5,18.5);
+                        letter-spacing: 0.21em;
+                    }
                 }
 
                 &-txt2 {
@@ -71,11 +124,21 @@
                    font-weight: 500;
                    font-family:cross-platform-yu-gothic;
                    padding-bottom: 57px;
+
+                   @include is-sp {
+                       @include font-line(13.5,20);
+                       letter-spacing: 0.08em;
+                       padding-bottom: 25.5px;
+                   }
                 }
 
                 &-biography {
                     padding:41px;
                     background-color: #fff;
+
+                    @include is-sp {
+                        display: none;
+                    }
 
                     &-hdr {
                         @include font-line(13,26);
@@ -87,12 +150,23 @@
                     &-cntnt {
                         padding-left: 40px;
                         color:black;
+
+                        @include is-max(1004px) {
+                            padding-left:0;
+                        }
                         
                         &-yr {
                             color:#258ACF;
+
+                            @include font-line (13,26);
+                            font-weight: 700;
+                            font-family:cross-platform-yu-gothic;
                         }
                         &-txt {
                             margin-left: 18px;
+                            @include font-line (13,26);
+                            font-weight: 500;
+                            font-family:cross-platform-yu-gothic;
                         }
                     }
                 }
@@ -102,17 +176,150 @@
                 padding-bottom: 83px;
                 height: 100%;
                 position: relative;
+
+                @include is-max (875px) {
+                    width: calc(100% - 395px);
+                
+                }
+
+                @include is-max (853px) {
+                    width: 58vw
+                }
+
+                @include is-sp {
+                    width: 100%;
+                }
                 
                     .sec1img {
+                        position: relative;
+                        z-index: -2;
                         transform: translateX(16%);
+
+                        @include is-max(1165px) {
+                            transform: translateX(10%);
+                        }
+
+                        @include is-max(1093px) {
+                            transform: translateX(5%);
+                        }
+
+                        @include is-sp {
+                            transform: translateX(0);
+                        }
                     }
 
                     &-bdg {
                         position: absolute;
+                        top: 23%;
+                        right: 40%;
                         width: 56px;
                         height: 21px;
                         background: linear-gradient(to right,#2579BF,#2593D5);
+                        padding: 6px 7px 2px 12px;
+
+                        @include is-sp {
+                            top: 17%;
+                            right: 54%;
+                        
+                        }
+
+                        p {
+                            @include font-line(11,10);
+                            font-family:cross-platform-yu-gothic;
+                        }
                     }
+                    
+                   &-rep {
+                      
+                       position: absolute;
+                       top: 9%;
+                       right: 1%;
+                       height: 52px;                       
+                       width: 181px;
+                       background: url(../image/page/interview/sec1_bgcntnt1.png)no-repeat center;
+                       background-size: contain;
+
+                       @include is-max(875px) {
+                           width:161px;
+                       }
+
+                       @include is-sp {
+                        top: 7%;
+                        right: 14%;
+                       }
+
+                       @include is-max(450px) {
+                         width: 105px;
+                         height: 35px;
+                       }
+
+                       &-txt {
+                           display: flex;
+                           flex-direction: column;
+                           align-items: center;
+
+                           p:nth-child(1) {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            padding-top: 3px;
+
+                                @include  is-max(450px){
+                                    @include font-line(7.5,15);
+                                    letter-spacing: 0.2em;
+                                }
+                           }
+
+                           p:nth-child(2) {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(20,12);
+                            font-weight: 500;
+
+                            @include is-max(450px) {
+                                @include font-line(11.5,15);
+                                letter-spacing: 0.2em;
+                            }
+                           }
+                       }
+                   }
+
+                   .biography-sp {
+                    padding:41px;
+                    background-color: #fff;
+
+                    &-hdr {
+                        @include font-line(15,22);
+                        font-weight: 700;
+                        font-family:cross-platform-yu-gothic;
+                        color:#258ACF;
+                        text-align: center;
+
+                        @include is-sp {
+                            padding-bottom: 19.5px;
+                        }
+                    }
+                    &-cntnt {
+                        padding-left: 40px;
+                        color:black;
+
+                        @include is-max(1004px) {
+                            padding-left:0;
+                        }
+                        
+                        &-yr {
+                            color:#258ACF;
+                            @include font-line (12.5,22.5);
+                            font-weight: 700;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                        &-txt {
+                            margin-left: 18px;
+                            @include font-line (12.5,22.5);
+                            font-weight: 500;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                    }
+                }
             }
         }
         
@@ -120,18 +327,30 @@
             position: absolute;
             top: 0%;
             right: 9%;
+
+            @include is-sp {
+                width: 176px;
+            }
         }
 
         .bg_2 {
             position: absolute;
             top: 14%;
             left: -6%;
+
+            @include is-sp {
+                display: none;
+            }
         }
 
         .bg_3 {
             position: absolute;
             right: 4%;
-            bottom: 41.5%;        
+            bottom: 47.7%;  
+            
+            @include is-sp {
+                display: none;
+            }
         }
     }
 
