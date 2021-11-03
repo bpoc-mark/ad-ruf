@@ -1,4 +1,4 @@
-.acc {
+.ci {
 	&__section_1 {
 		background: linear-gradient(
 			90deg,
@@ -6,10 +6,6 @@
 			rgba(37, 147, 213, 1) 50%
 		);
 		padding-bottom: 101px;
-
-		// @include is-sp {
-		// 	padding-bottom: 201px;
-		// }
 
 		@include is-sp {
 			padding-bottom: 101px;
@@ -64,13 +60,6 @@
 
 		@include font-line(30, 48);
 
-		// @include is-sp {
-		// 	letter-spacing: 0.215em;
-		// 	@include font-line(50, 32);
-		// 	line-height: 75px;
-		// 	padding: 48px 0 41px 0;
-		// }
-
 		@include is-sp {
 			letter-spacing: 0.2em;
 			@include font-line(25, 32);
@@ -85,13 +74,6 @@
 		letter-spacing: 0.2em;
 		line-height: 1;
 		text-align: center;
-
-		// @include is-sp {
-		// 	letter-spacing: unset;
-		// 	padding: 0 0 52px 0;
-		// 	@include font-line(27, 40.5);
-		// 	letter-spacing: 0.1em;
-		// }
 
 		@include is-sp {
 			letter-spacing: unset;
@@ -108,7 +90,6 @@
 		margin: 0 auto;
 		padding: 51px 0 0 0;
 		position: relative;
-		// margin-top: 20px;
 
 		@include is-sp {
 			padding: 0;
@@ -124,8 +105,8 @@
 				flex-direction: column-reverse;
 			}
 
-			.col_left {
-				width: 42%;
+			.col {
+				width: 100%;
 				color: #fff;
 
 				@include is-sp {
@@ -139,57 +120,51 @@
 
 					&_left {
 						position: relative;
-						width: 100px;
+						width: 226px;
 						display: flex;
-						align-items: center;
+						align-items: flex-start;
 						text-align: center;
 						justify-content: center;
 						border-top: 1px solid #fff;
-						padding: 10px 0;
+						padding-top: 19px;
 
-						// @include is-sp {
-						// 	width: 230px;
-						// }
+						@include is-max(1025px) {
+							width: 138px;
+						}
 
 						@include is-sp {
-							width: 100px;
+							width: 115.5px;
 						}
 
-						&::after {
-							content: "";
-							width: 1px;
-							height: 80%;
-							background-color: #fff;
-							position: absolute;
-							right: -10px;
-
-							// @include is-sp {
-							// 	height: 94%;
-							// }
-
-							@include is-sp {
-								height: 80%;
-							}
+						@include is-max(440px) {
+							width: 106.5px;
 						}
+
+						// @include is-max(440px) {
+						//     width: 58.5px;
+						// }
 
 						p {
 							@include font-line(13);
 							letter-spacing: 0.42em;
 							font-family: cross-platform-yu-gothic;
 							font-weight: 500;
-							width: 74px;
+							width: 184px;
+							line-height: 24px;
 
-							// @include is-sp {
-							// 	@include font-line(25, 50);
-							// 	letter-spacing: 0.2em;
-							// 	width: auto;
-							// }
+							@include is-max(820px) {
+								font-size: 1.5vw;
+							}
 
 							@include is-sp {
 								@include font-line(13, 25);
 								letter-spacing: 0.1em;
-								width: 74px;
+								width: 100%;
 							}
+
+							// @include is-max(375px) {
+							//     font-size: 3.11vw;
+							// }
 						}
 					}
 
@@ -199,29 +174,63 @@
 
 					&_right {
 						position: relative;
-						width: calc(100% - 120px);
-						margin-left: 20px;
+						width: calc(100% - 226px);
+						margin-left: 12px;
 						display: flex;
 						align-items: center;
 						border-top: 1px solid #fff;
+
+						@include is-max(1025px) {
+							width: calc(100% - 138px);
+							justify-content: space-between;
+						}
+
+						@include is-sp {
+							width: calc(100% - 115.5px);
+						}
+
+						@include is-max(440px) {
+							width: calc(100% - 106.5px);
+						}
+
 						p {
 							@include font-line(13);
 							letter-spacing: 0.12em;
 							font-family: cross-platform-yu-gothic;
 							font-weight: 500;
 							padding: 19px 0 19px 20px;
+							line-height: 24px;
 
-							// @include is-sp {
-							// 	@include font-line(25, 50);
-							// 	letter-spacing: 0.2em;
-							// 	padding: 31px 0 31px 40px;
-							// }
+							@include is-max(820px) {
+								font-size: 1.5vw;
+							}
 
 							@include is-sp {
 								@include font-line(13, 25);
 								letter-spacing: 0.1em;
 								padding: 15px 0 15px 20px;
 							}
+
+							@include is-max(440px) {
+								padding: 15px 0 15px 10px;
+							}
+
+							// @include is-max(375px) {
+							//     font-size: 3.11vw;
+							// }
+						}
+
+						&::before {
+							content: "";
+							width: 1px;
+							height: 90%;
+							background-color: #fff;
+							position: absolute;
+							left: -6px;
+
+							// @include is-sp {
+							// 	height: 80%;
+							// }
 						}
 
 						br[br01] {
@@ -231,21 +240,41 @@
 								display: none;
 							}
 						}
-					}
 
-					.il01,
-					.ir01 {
-						min-height: 100px;
-					}
+						.bullets {
+							color: #65a6cd;
+							padding-right: 12px;
+						}
 
-					.il02,
-					.ir02 {
-						min-height: 140px;
-					}
+						.flex {
+							display: flex;
+							width: 100%;
 
-					.il03,
-					.ir03 {
-						min-height: 50px;
+							@include is-sp {
+								flex-wrap: wrap;
+							}
+
+							& p:first-child {
+								// padding-left: 71px;
+								width: 281px;
+
+								@include is-max(910px) {
+									width: 50%;
+								}
+
+								@include is-sp {
+									width: 100%;
+									padding-bottom: 0;
+								}
+							}
+
+							& p:last-child {
+								@include is-sp {
+									padding-top: 0;
+									width: 100%;
+								}
+							}
+						}
 					}
 				}
 
@@ -259,250 +288,13 @@
 					}
 				}
 			}
-
-			.col_right {
-				width: 50%;
-
-				// @include is-sp {
-				// 	width: 100%;
-				// 	height: 501px;
-				// 	padding-bottom: 40px;
-				// }
-
-				@include is-sp {
-					width: 100%;
-					height: 250px;
-					padding-bottom: 20px;
-				}
-				// background: red;
-				img {
-					width: 100%;
-					object-fit: cover;
-				}
-			}
-		}
-	}
-
-	& .section_3 {
-		padding-bottom: 100px;
-
-		@include is-sp {
-			padding-bottom: 75px;
-		}
-		.pt100 {
-			position: relative;
-			padding-top: 99px;
-		}
-
-		&__main-content {
-			&-row {
-				display: flex;
-				justify-content: space-between;
-				flex-wrap: wrap;
-
-				.col {
-					display: flex;
-					justify-content: space-between;
-					flex-wrap: wrap;
-
-					&_left {
-						// width: calc(100% - 722px);
-						width: 230px;
-						background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
-						color: $color-text03;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						flex-direction: column;
-						height: 100%;
-
-						// @include is-sp {
-						// 	width: 100%;
-						// 	padding: 40px 0;
-						// 	height: auto;
-						// 	text-align: center;
-						// 	margin-bottom: 50px;
-						// }
-
-						@include is-sp {
-							width: 100%;
-							padding: 20px 0;
-							margin-bottom: 25px;
-							height: auto;
-							text-align: center;
-						}
-
-						& p:first-child {
-							font-weight: 700;
-							font-family: century-gothic, sans-serif;
-							@include font-line(10, 20);
-							letter-spacing: 0.26em;
-
-							// @include is-sp {
-							// 	@include font-line(20, 40);
-							// }
-
-							@include is-sp {
-								@include font-line(10, 20);
-							}
-						}
-
-						& p:last-child {
-							font-weight: 700;
-							@include font-line(16, 28);
-							font-family: cross-platform-yu-gothic;
-							letter-spacing: 0.3em;
-
-							// @include is-sp {
-							// 	@include font-line(32, 65);
-							// }
-
-							@include is-sp {
-								@include font-line(16, 28);
-							}
-						}
-
-						br[br] {
-							@include is-sp {
-								display: block;
-							}
-						}
-					}
-
-					&_right {
-						display: flex;
-						width: calc(100% - 297px);
-						justify-content: space-between;
-						flex-wrap: wrap;
-
-						@include is-max(900px) {
-							width: calc(100% - 250px);
-						}
-
-						@include is-sp {
-							width: 100%;
-						}
-
-						p {
-							font-weight: 500;
-							@include font-line(12, 21);
-							font-family: cross-platform-yu-gothic;
-							letter-spacing: 0;
-							color: #000;
-							padding-top: 15px;
-
-							// @include is-sp {
-							// 	padding-bottom: 146px;
-							// 	@include font-line(27, 54);
-							// }
-
-							@include is-sp {
-								padding-bottom: 69px;
-								@include font-line(13.4, 27);
-							}
-						}
-
-						&-flex {
-							width: 30%;
-							position: relative;
-
-							@include is-sp {
-								width: 100%;
-							}
-
-							img {
-								width: 100%;
-							}
-
-							.pos {
-								position: absolute;
-								width: 17px;
-								right: -27px;
-								top: 42px;
-
-								@include is-max(990px) {
-									width: 10%;
-									right: -14%;
-									top: 14%;
-								}
-
-								// @include is-sp {
-								// 	width: 8%;
-								// 	right: unset;
-								// 	left: 48%;
-								// 	bottom: 3%;
-								// 	top: unset;
-								// 	transform: translateX(-50%);
-								// 	transform: rotate(90deg);
-								// }
-
-								@include is-sp {
-									width: auto;
-									left: 50%;
-									bottom: 6%;
-									top: unset;
-									transform: translateX(-50%);
-									transform: rotate(90deg);
-									right: unset;
-								}
-							}
-
-							&:last-child {
-								p {
-									padding-bottom: 0;
-								}
-							}
-						}
-					}
-
-					&:first-child {
-						padding-bottom: 60px;
-					}
-				}
-			}
-		}
-
-		&__bg_1 {
-			position: absolute;
-			right: 29px;
-			top: 62px;
-			z-index: -1;
-			width: 244px;
-		}
-
-		&__bg_2 {
-			position: absolute;
-			top: 236px;
-			left: -20px;
-			z-index: -1;
-
-			// @include is-sp {
-			// 	top: 414px;
-			// }
-
-			@include is-sp {
-				top: 264px;
-				width: 178px;
-			}
-		}
-
-		&__cnt01 {
-			margin-bottom: 70px;
-
-			// @include is-sp {
-			// 	margin-bottom: 100px;
-			// }
-
-			@include is-sp {
-				margin-bottom: 50px;
-			}
 		}
 	}
 
 	// bg-img
 	&__bg_1 {
 		position: absolute;
-		top: -57px;
+		top: -89px;
 		right: 103px;
 		width: 316px;
 
@@ -529,6 +321,7 @@
 	&--fd {
 		@include is-sp {
 			flex-direction: column;
+			margin-top: 50px !important;
 		}
 	}
 
