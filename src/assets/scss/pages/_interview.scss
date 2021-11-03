@@ -15,8 +15,8 @@
             background: linear-gradient(#2579BF, #2593D5);
 
             @include is-sp {
-                clip-path: polygon(100% 0%, 100% 100%, 89% 97%, 0% 100%, 0 4%);
-
+                // clip-path: polygon(100% 0%, 100% 100%, 89% 97%, 0% 100%, 0 4%);
+                clip-path: polygon(100% 0%, 100% 100%, 84% 97%, 0% 100%, 0 4%);
                 padding-top: 123.5px;
             }
 
@@ -196,6 +196,7 @@
 
                 @include is-sp {
                     width: 100%;
+                    padding-bottom: 130px;
                 }
                 
                     .sec1img {
@@ -510,31 +511,63 @@
 
         .sec2-bg2-sp {
             width: 115.5px;
+            position: absolute;
+            top: 22.4%;
+            left: 7%;
+            z-index: -1;
         }
     }
 
 
 
     .section_3 {
-        padding:100px 30px 100px 30px;
         position: relative;
-        z-index: -2;
-        background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+
+
+        .clipPath {
+            clip-path: polygon(14% 9%, 100% 0, 100% 100%, 0 100%, 0 0);
+            background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+            padding:144px 0 99px 0;
+
+            @include is-sp {
+                clip-path: polygon(14% 4%, 100% 0, 100% 100%, 0 100%, 0 0);
+            }
+            
+        }
     
             &-cntnt {
               
 
                 &-rows {
                     margin-bottom: 60px;
+                    align-items: center;
                     color:#fff;
+
+                    @include is-sp {
+                        flex-direction: column;
+                    }
 
                     &-1 {
                         width: 390px;
+
+                        @include is-max (980px) {
+                            padding-right: 20px
+                        }
+
+                        @include is-sp {
+                            width: 100%;
+                            padding-right: 0;
+                        }
     
                         &-hdr {
                             @include font-line(26,37);
                             font-family: 500;
                             font-family: yu-mincho-pr6n, sans-serif;
+                            letter-spacing: 0.15em;
+
+                            @include is-sp {
+                                @include font-line (25,37.5);
+                            }
                             
                             
                         }
@@ -542,36 +575,81 @@
                         &-txt1 {
                             @include font-line(10,20);
                             font-family: century-gothic, sans-serif;
-                            
                             padding:23px 0 18px 0;
+                            letter-spacing: 0.21em;
+
+                            @include is-sp {
+                                @include font-line(12.5,18.5);
+                                letter-spacing: 0.21em;
+                                padding:16px 0 22px 0;
+                            }
+                        }
+
+                        .img-sp {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                            }
                         }
     
                         &-txt2 {
                             font-family:cross-platform-yu-gothic;
                             @include font-line(12,25);
                             font-weight: 500;
+                            letter-spacing: 0.2em;
+
+                            @include is-max(977px) {
+                                font-size: 1.2vw;
+                            }
+
+                            @include is-sp {
+                                @include font-line(13.5,20);
+                                padding-top: 24.5px;
+                            }
                         
                         }
+                    }
+
+                    &-2 {
+                        @include is-max (977px) {
+                            width: calc(100% - 390px);
+                        }   
                     }
                }  
                 &-btns {
                     width: 640px;
                     margin:0 auto;
+
+                    .txt {
+                        letter-spacing: 0.1em;
+                    }
+                    @include is-sp {
+                        flex-direction: column;
+                        height: 130px;
+                        width: 100%;
+                        justify-content: space-between;
+                        
+                    }
                 }
             }
     
             .sec3-bg1 {
                 position: absolute;
-                top: 5%;
-                right: 32%;  
-                z-index: -1;  
+                top: 8%;
+                right: 32%;
+                z-index: -1;
+
+                @include is-sp {
+                    width: 138px;
+                    right: 5%;
+                }
             }
     
             .sec3-bg2 {
                 position: absolute;
-                bottom: 28%;
-                left: 6%;  
-                z-index: -1;         
+                bottom: 25%;
+                left: 6%;
+                z-index: -1;        
             }
     }
    

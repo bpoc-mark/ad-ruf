@@ -140,34 +140,40 @@ get_header(); ?>
 
     </div>
 
-    <!-- <div class="section_3">
-        <div class="l-wrap">
-            <div class="section_3-cntnt">
-                <div class="section_3-cntnt-rows u-d-f u-jc-sb">
-                    <div class="section_3-cntnt-rows-1">
-                        <p class="section_3-cntnt-rows-1-hdr">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="section_3-cntnt-rows-1-txt1">Dummy textDummy textDummy textDummy text Dummy text</p>
-                        <p class="section_3-cntnt-rows-1-txt2">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
-                    <div class="section_3-cntnt-rows-2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img.png" alt="">
-                    </div>
-                </div>
-                <div class="u-d-f section_3-cntnt-btns">
-                    <div class="c-buttonCase">
-                        <p class="txt">ルーフの事業内容を見る</p>
-                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
-                    <div class="c-buttonCase">
-                        <p class="txt">経営理念を見る</p>
-                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
-                </div>
+    <div class="section_3">
+        <div class="clipPath">
+            <div class="l-wrap">
+                <div class="section_3-cntnt">
+                    <div class="section_3-cntnt-rows u-d-f u-jc-sb">
+                        <div class="section_3-cntnt-rows-1">
+                            <p class="section_3-cntnt-rows-1-hdr">この文章はダミーです<br>この文章はダミーです</p>
+                            <p class="section_3-cntnt-rows-1-txt1">Dummy textDummy textDummy textDummy text Dummy text</p>
 
-                <img class="sec3-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg1.png" alt="">
-                <img class="sec3-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg2.png" alt="">
+                            <div class="img-sp u-d-n-pc">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img.png" alt="">
+                            </div>
+                            <p class="section_3-cntnt-rows-1-txt2">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                        </div>
+                        <div class="section_3-cntnt-rows-2 u-d-n-sp">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="u-d-f section_3-cntnt-btns">
+                        <div class="c-buttonCase">
+                            <p class="txt">ルーフの事業内容を見る</p>
+                            <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                        </div>
+                        <div class="c-buttonCase">
+                            <p class="txt">経営理念を見る</p>
+                            <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                        </div>
+                    </div>
+
+                    <img class="sec3-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg1.png" alt="">
+                    <img class="sec3-bg2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg2.png" alt="">
+                </div>
             </div>
         </div>
-    </div>  -->
+    </div> 
 
 </div>
