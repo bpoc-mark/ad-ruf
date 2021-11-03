@@ -4,6 +4,21 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
+	<div class="c-banner">
+		<p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+		<div class="c-inner">
+			<img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case01_banner.png" alt="">
+			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/access/access_banner_sp.png" alt="">
+			<div class="c-banner--ttl">
+				<p>バリューアップ事例01</p>
+				<p>Case Studies01</p>
+			</div>
+		</div>
+	</div>
+	<div class="bread_crumps">
+		<p class="txt">TOP > バリューアップ事例 > 事例01</p>
+	</div>
+	<div class="top-clip"></div>
 	<div class="section_1">
 		<!-- //CLIP -->
 		<div class="clip-top"></div>
@@ -274,7 +289,7 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">駐車場の<br>ビフォーアフター</p>
 							<p class="c-case--items__contents--row_2__txt desc">駐車スペースの整備を行い、駐車場の隣には安心して自転車を停められる駐輪場も設置しました。<br class="u-d-n-sp">
-劣化したブロック塀もパネルフェンスを設置し、スタイリッシュかつ安全性も高めました。</p>
+								劣化したブロック塀もパネルフェンスを設置し、スタイリッシュかつ安全性も高めました。</p>
 						</div>
 					</div>
 				</div>
