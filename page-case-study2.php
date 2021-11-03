@@ -4,7 +4,6 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
-	
 	<div class="section_1">
         <!-- //CLIP -->
 		<div class="clip-top"></div>

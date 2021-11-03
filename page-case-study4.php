@@ -50,7 +50,6 @@ $imagedir = get_template_directory_uri();
 			</div>
 			<div class="c-clipbg__CS white_bg"></div>
 		</div>
-
 		<!-- //CONTENT 2 -->
 		<div class="c-case--items">
 			<div class="l-wrap">

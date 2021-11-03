@@ -49,7 +49,6 @@ $imagedir = get_template_directory_uri();
                 </div>
             </div>
         </div>
-
         <!-- //CONTENT 2 -->
         <div class="c-case--items">
             <div class="c-clipbg__CS2"></div>

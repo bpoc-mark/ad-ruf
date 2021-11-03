@@ -49,7 +49,6 @@ $imagedir = get_template_directory_uri();
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<!-- //CONTENT 2 -->
