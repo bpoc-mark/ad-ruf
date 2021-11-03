@@ -42,10 +42,10 @@
                             </div>
                             <div class="nav-links-ul-02">
                                 <div class="nav-links-ul-02-link dd2">
-                                    <a href="">TOP</a>
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
                                 </div>
                                 <div class="nav-links-ul-02-link dd">
-                                    <a href="">事業内容</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">事業内容</a>
                                 </div>
                                 <div class="nav-links-ul-02-link dd">
                                     <a href="">企業情報</a>
@@ -73,7 +73,7 @@
                 </div>
 
 
-                <div class="top-header-bnnr">
+                <!-- <div class="top-header-bnnr">
 
                     <div class="brnd-logo-sp">
                         <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
@@ -139,7 +139,7 @@
                         </p>
                     </div>
                     <div class="fade"></div>
-                </div>
+                </div> -->
 
                 <div class="top-clip"></div>
                 <div class="bottom-clip"></div>

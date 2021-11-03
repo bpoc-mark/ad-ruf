@@ -190,21 +190,21 @@
 		padding-top: 30px;
 	}
 
-	// clip top
-	.top-clip {
-		width: 800px;
-		height: 250px;
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to left, #2593d5, #2579bf);
-		position: absolute;
-		top: 0%;
-		right: 0%;
+	// // clip top
+	// .top-clip {
+	// 	width: 800px;
+	// 	height: 250px;
+	// 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	// 	background: linear-gradient(to left, #2593d5, #2579bf);
+	// 	position: absolute;
+	// 	top: 0%;
+	// 	right: 0%;
 
-		@include is-sp {
-			width: 278px;
-			height: 161px;
-		}
-	}
+	// 	@include is-sp {
+	// 		width: 278px;
+	// 		height: 161px;
+	// 	}
+	// }
 	// nav images
 	.logo {
 		width: 70px;

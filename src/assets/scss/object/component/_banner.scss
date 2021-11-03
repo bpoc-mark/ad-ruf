@@ -1,0 +1,86 @@
+.c-banner{
+		background: rgb(95, 165, 205);
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 0 15px 0;
+
+		img{
+		 position: relative;
+   		 z-index: 150;
+		}
+
+		&--ttl{
+			color: #fff;
+			position: absolute;
+			left: 70px;
+			top: 35%;
+			z-index: 150;
+			font-family: yu-mincho-pr6n, sans-serif;
+			@include font-line(30, 70);
+			text-align: left;
+
+			@include is-sp{
+				left: 20px;
+			}
+
+			p{
+				&:nth-child(2){
+					@include font-line(13);
+					letter-spacing: 0.3em;
+					font-family: century-gothic, sans-serif;
+				}
+			}
+		}
+ }
+
+ .c-ruf-txt{
+	 display: none;
+
+	 @include is-sp{
+		max-width: 1100px;
+		width: 92%;
+		display: block;
+		position: relative;
+		z-index: 150;
+		color: #fff;
+		font-family:cross-platform-yu-gothic;
+		padding: 0 0 30px 35px;
+		margin: 0 auto;
+		text-align: left;
+
+		img{
+			width: 131px;
+			margin-right: 20px;
+		}
+	 }
+
+	 @include is-max(400px){
+		font-size: 4vw;
+	 }
+
+	 img{
+		 @include is-max(400px){
+			 width: 35%;
+		 }
+	 }
+ }
+
+	.c-inner{
+		max-width: 1100px;
+		width: 92%;
+		margin: 0 auto;
+		position: relative;
+
+		.bnr_pc{
+			display: none;
+			@include is-pc{
+				display: block;
+			}
+		}
+		.bnr_sp{
+			display: none;
+			@include is-sp{
+				display: block;
+			}
+		}
+	}
