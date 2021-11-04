@@ -839,8 +839,12 @@
 		&-txt02 {
 			position: absolute;
 			top: 84px;
-			right: 16px;
+			left: 1047px;
 			z-index: 555;
+
+			@include is-max(1110px){
+				left: 95%;
+			}
 
 			&-ver {
 				writing-mode: tb;
@@ -860,6 +864,19 @@
 				top: 84px;
 				right: -5px;
 				z-index: 555;
+				left: 91%;
+			}
+
+			@include is-max(500px){
+				left: 87%;
+			}
+
+			@include is-max(430px){
+				left: 85%;
+			}
+
+			@include is-max(375px){
+				left: 83%;
 			}
 		}
 	}
