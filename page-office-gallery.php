@@ -14,12 +14,13 @@ $imagedir = get_template_directory_uri();
                 <p>Office Gallery</p>
             </div>
         </div>
-    </div>
-    <div class="bread_crumps">
-        <p class="txt">TOP > 企業情報 > オフィス風景</p>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> 企 業 情 報 <span>></span> オ フ ィ ス 風 景</p>
+        </div>
     </div>
     <div class="top-clip"></div>
     <div class="section_1">
+
         <!-- //CONTENT 1 -->
         <div class="office_gal--items">
             <div class="l-wrap">

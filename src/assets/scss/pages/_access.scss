@@ -34,13 +34,20 @@
 	}
 
 	.bread_crumps{
-		background: rgb(95, 165, 205);
+	  text-align: left;
+	  position: relative;
+	  z-index: 150;
+	  padding-top: 12px;
 		.txt{
 			width: 92%;
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: yu-mincho-pr6n, sans-serif;
+			font-family:cross-platform-yu-gothic;
+		}
+
+		span{
+			padding: 0 8px;
 		}
 	}
 
@@ -546,9 +553,10 @@
 		margin-bottom: 50px !important;
 		-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
 		clip-path: polygon(100% 0%, 0 0, 0% 100%);
-		padding: 100px 0 0 0;
+		padding: 55px 0 0 0;
 		background: rgb(95, 165, 205);
 		text-align: center;
+		margin-top: -25px;
 
 		@include is-sp {
 			padding: 60px 0 0 0;

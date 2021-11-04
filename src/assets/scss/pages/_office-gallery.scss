@@ -21,7 +21,7 @@
 				rgba(37, 147, 213, 1) 50%
 			);
 			-webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-			clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+			clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
 		}
 
 		.l-wrap {
@@ -53,15 +53,25 @@
 
 	
 	.bread_crumps{
-		background: rgb(95, 165, 205);
-		padding: 0 0 62px 0;
+		text-align: left;
+		position: relative;
+		z-index: 150;
+		padding-top: 12px;
 		.txt{
 			width: 92%;
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: yu-mincho-pr6n, sans-serif;
+			font-family:cross-platform-yu-gothic;
 		}
+
+		span{
+			padding: 0 8px;
+		}
+	}
+
+	.c-banner{
+		padding-bottom: 30px;
 	}
 
 		// clip top
@@ -93,6 +103,7 @@
 	&--items {
 		position: relative;
 		padding: 100px 0 54px 0;
+		margin-top: -2px;
 
 		&:nth-of-type(even) {
 			padding: 150px 0;

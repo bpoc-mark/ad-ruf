@@ -14,10 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Access</p>
             </div>
         </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span> ア ク セ ス</p>
+        </div>
     </div>
-    <div class="bread_crumps">
-        <p class="txt">TOP > 企業情報 ＞ アクセス</p>
-    </div>
+
     <div class="top-clip"></div>
     <div class="acc__section_1">
         <!-- //CLIP -->

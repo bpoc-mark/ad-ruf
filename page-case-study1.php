@@ -14,9 +14,9 @@ $imagedir = get_template_directory_uri();
 				<p>Case Studies01</p>
 			</div>
 		</div>
-	</div>
-	<div class="bread_crumps">
-		<p class="txt">TOP > バリューアップ事例 > 事例01</p>
+		<div class="bread_crumps">
+			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 01</p>
+		</div>
 	</div>
 	<div class="top-clip"></div>
 	<div class="section_1">

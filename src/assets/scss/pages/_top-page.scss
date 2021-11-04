@@ -10,20 +10,20 @@
 		position: relative;
 
 		// clip top
-	.top-clip {
-		width: 800px;
-		height: 250px;
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to left, #2593d5, #2579bf);
-		position: absolute;
-		top: -6.5%;
-		right: 0%;
+		.top-clip {
+			width: 800px;
+			height: 250px;
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+			background: linear-gradient(to left, hsl(203, 70%, 49%), #2579bf);
+			position: absolute;
+			top: -6.5%;
+			right: 0%;
 
-		@include is-sp {
-			width: 278px;
-			height: 161px;
+			@include is-sp {
+				width: 278px;
+				height: 161px;
+			}
 		}
-	}
 
 		@include is-sp {
 		}

@@ -22,7 +22,7 @@
             <div class="top-header">
                 <div class="top-header-nav u-d-f u-jc-sb">
                     <div class="brnd-logo">
-                        <a class="brnd-logo-link u-d-f u-jc-sb" href="">
+                        <a class="brnd-logo-link u-d-f u-jc-sb" href="<?php echo esc_url(home_url('/')); ?>">
                             <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                             <p>丸の内 株式会社ルーフ </p>
                         </a>
@@ -140,8 +140,9 @@
                     </div>
                     <div class="fade"></div>
                 </div> -->
-
-                <div class="top-clip"></div>
+                <!-- <div>
+                    <div class="top-clip"></div>
+                </div> -->
                 <div class="bottom-clip"></div>
             </div>
         </div>
