@@ -16,7 +16,7 @@
 			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 			background: linear-gradient(to left, hsl(203, 70%, 49%), #2579bf);
 			position: absolute;
-			top: -6.5%;
+			top: -7%;
 			right: 0%;
 
 			@include is-sp {
@@ -29,17 +29,26 @@
 		}
 
 		.clipPath {
-			clip-path: polygon(0 11%, 100% 0%, 100% 90%, 0% 100%);
+			// clip-path: polygon(0 11%, 100% 0%, 100% 90%, 0% 100%);
+			-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+			clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 			background: linear-gradient(to right, #2579bf, #2593d5);
-			padding: 191px 0 141px 0;
+			padding: 191px 0 40px 0;
+			margin-top: -89px;
+			position: relative;
+			z-index: 150;
 
-			@include is-max(867px) {
-				clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
-			}
+			// @include is-max(867px) {
+			// 	clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
+			// }
 
-			@include is-sp {
-				padding: 95.5px 0 70.5px 0;
-				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+			// @include is-sp {
+			// 	padding: 95.5px 0 70.5px 0;
+			// 	clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+			// }
+
+			@include is-sp{
+			clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 			}
 		}
 
@@ -99,7 +108,7 @@
 			padding-top: 95px;
 
 			@include is-sp {
-				margin-bottom: 150px;
+				margin-bottom: 40px;
 				padding-top: 55px;
 			}
 
@@ -361,17 +370,51 @@
 	.sect_2 {
 		position: relative;
 
+		&::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: -16px;
+			z-index: 150;
+            height: 100px;
+           background: linear-gradient(to right, #2579bf, #2593d5);
+            -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+			clip-path: polygon(0 0, 0% 100%, 100% 0);
+
+			@include is-sp{
+				top: 39px;
+				height: 55px;
+			}
+        }
+
 		.clipPath {
 			clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
 			padding: 150px 0;
+			margin: 15px 0 -110px 0;
 
 			@include is-max(867px) {
 				clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
 			}
+			@include is-sp {
+				padding: 160.5px 0 85.5px 0;
+				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+				margin: -40px 0 0 0;
+			}
+			
+		}
+
+		.clip-bottom {
+			// -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+			// clip-path: polygon(100% 0%, 100% 101%, 0% 100%);
+			-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+			clip-path: polygon(0 0, 0% 100%, 100% 0);
+			padding: 100px 0 0 0;
+			background: linear-gradient(to right, #2579bf, #2593d5);
+			text-align: center;
 
 			@include is-sp {
-				padding: 95.5px 0 85.5px 0;
-				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+				padding: 100px 0 0 0;
+					clip-path: polygon(0 0, -70% 100%, 100% 0);
 			}
 		}
 
@@ -629,7 +672,7 @@
 		.bg_6 {
 			position: absolute;
 			right: 0;
-			bottom: 0%;
+			bottom: -15%;
 
 			@include is-sp {
 				position: absolute;

@@ -1,75 +1,75 @@
 <?php get_header(); ?>
 <div class="page__content top">
     <section class="sect_1">
-            <div class="top-header-bnnr">
-                <div class="brnd-logo-sp">
-                    <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
-                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                        <p>丸の内 株式会社ルーフ </p>
-                    </a>
-                </div>
-                <div class=" top-header-bnnr-cnt u-d-f">
-                    <div class="top-header-bnnr-hdr-01">
-                        <div class="top-header-bnnr-hdr-cntnt01-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
-                        </div>
-                        <div class="top-header-bnnr-hdr-01-txt">
-                            <p>丸の内株式会社ルーフ</p>
-                        </div>
+        <div class="top-header-bnnr">
+            <div class="brnd-logo-sp">
+                <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
+                    <p>丸の内 株式会社ルーフ </p>
+                </a>
+            </div>
+            <div class=" top-header-bnnr-cnt u-d-f">
+                <div class="top-header-bnnr-hdr-01">
+                    <div class="top-header-bnnr-hdr-cntnt01-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
                     </div>
-                    <div class="top-header-bnnr-hdr-02">
-                        <div class="top-header-bnnr-hdr-02-txt">
-                            <p class="top-header-bnnr-hdr-02-txt-1">
-                                選ばれし方々に選ばれ、
-                                <br>
-                                そして選ばれ続ける
-                            </p>
-                            <div class="top-header-bnnr-hdr-02-txt-sp">
-                                <div class="top-header-bnnr-hdr-02-txt-sp-cont">
-                                    <p class="top-header-bnnr-hdr-02-txt-sp-cont-1">
-                                        収益不動産の売買・管理・運用
-                                    </p>
-                                </div>
-                                <div class="top-header-bnnr-hdr-02-txt-sp-cont">
-                                    <p class="top-header-bnnr-hdr-02-txt-sp-cont-2">
-                                        アセットマネジメント
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-header-bnnr-hdr-02-txt-2">
-                                Chosen by the chosen people, <br> and continues to be chosen
-                            </p>
-                        </div>
-
-                        <div class="top-header-bnnr-hdr-02-spimg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
-                        </div>
-                        <div class="top-header-bnnr-hdr-02-desc">
-                            <div class="top-header-bnnr-hdr-02-desc-01">
-                                <p class="top-header-bnnr-hdr-02-desc-01-txt">収益不動産の売買・管理・運用</p>
-                            </div>
-                            <div class="top-header-bnnr-hdr-02-desc-02">
-                                <p class="top-header-bnnr-hdr-02-desc-02-txt">アセットマネジメント</p>
-                            </div>
-                        </div>
+                    <div class="top-header-bnnr-hdr-01-txt">
+                        <p>丸の内株式会社ルーフ</p>
                     </div>
                 </div>
+                <div class="top-header-bnnr-hdr-02">
+                    <div class="top-header-bnnr-hdr-02-txt">
+                        <p class="top-header-bnnr-hdr-02-txt-1">
+                            選ばれし方々に選ばれ、
+                            <br>
+                            そして選ばれ続ける
+                        </p>
+                        <div class="top-header-bnnr-hdr-02-txt-sp">
+                            <div class="top-header-bnnr-hdr-02-txt-sp-cont">
+                                <p class="top-header-bnnr-hdr-02-txt-sp-cont-1">
+                                    収益不動産の売買・管理・運用
+                                </p>
+                            </div>
+                            <div class="top-header-bnnr-hdr-02-txt-sp-cont">
+                                <p class="top-header-bnnr-hdr-02-txt-sp-cont-2">
+                                    アセットマネジメント
+                                </p>
+                            </div>
+                        </div>
+                        <p class="top-header-bnnr-hdr-02-txt-2">
+                            Chosen by the chosen people, <br> and continues to be chosen
+                        </p>
+                    </div>
 
-                <div class="top-header-bnnr-txt01">
-                    <p class="top-header-bnnr-txt01-hon">
-                        あなたの不動産
-                    </p>
+                    <div class="top-header-bnnr-hdr-02-spimg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
+                    </div>
+                    <div class="top-header-bnnr-hdr-02-desc">
+                        <div class="top-header-bnnr-hdr-02-desc-01">
+                            <p class="top-header-bnnr-hdr-02-desc-01-txt">収益不動産の売買・管理・運用</p>
+                        </div>
+                        <div class="top-header-bnnr-hdr-02-desc-02">
+                            <p class="top-header-bnnr-hdr-02-desc-02-txt">アセットマネジメント</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="top-header-bnnr-txt02">
-                    <p class="top-header-bnnr-txt02-ver">
-                        収益を最大化。
-                    </p>
-                </div>
-                <div class="fade"></div>
             </div>
-            <div>
-                <div class="top-clip"></div>
+
+            <div class="top-header-bnnr-txt01">
+                <p class="top-header-bnnr-txt01-hon">
+                    あなたの不動産
+                </p>
             </div>
+            <div class="top-header-bnnr-txt02">
+                <p class="top-header-bnnr-txt02-ver">
+                    収益を最大化。
+                </p>
+            </div>
+            <div class="fade"></div>
+        </div>
+        <div>
+            <div class="top-clip"></div>
+        </div>
         <div class="clipPath">
 
             <div class="l-wrap">
@@ -146,6 +146,8 @@
         </div>
     </section>
     <section class="sect_2">
+        <!-- //CLIP -->
+        <!-- <div class="clip-bottom"></div> -->
         <div class="clipPath">
             <div class="l-wrap">
                 <img class="bg_4" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_4.png" alt="">
