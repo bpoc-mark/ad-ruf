@@ -4,7 +4,7 @@
 
 get_header(); ?>
 <div class="page__content about">
-    <div class="section_1">
+    <!-- <div class="section_1">
         <div class="clipPath">
             <div class="l-wrap">
             <img class="sec1-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec1-bg1.png" alt="">
@@ -89,55 +89,61 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- <div class="section_2">
-        <div class="l-wrap">
-            <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
-            <div class="section_2-cntnt">
-                <img class="cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
-                <img class="cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
-                <div class="section_2-cntnt-row1">
-                    <div class="section_2-cntnt-row1-imgs">
-                        <div class="section_2-cntnt-row1-imgs-01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img2.png" alt="">
-                        </div>
-                        <div class="section_2-cntnt-row1-imgs-02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="section_2-cntnt-row1-ttl">
-                        <div class="section_2-cntnt-row1-ttl-txt">
-                            <h1 class="section_2-cntnt-row1-ttl-txt-01">CEOof RUF</h1>
-                            <p class="section_2-cntnt-row1-ttl-txt-02">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-img1.png" alt=""> 代表インタビュー<img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-img2.png" alt="">
-                            </p>
-                            <h1 class="section_2-cntnt-row1-ttl-txt-03">Interview</h1>
-                        </div>
-
-                        <div class="section_2-cntnt-row1-ttl-btn">
-                            <a href="">VIEW MORE ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="section_2-cntn-row2">
-                    <div class="section_2-cntn-row2-imgs">
-                        <div class="section_2-cntn-row2-imgs-01">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img4.png" alt="">
-                        </div>
-                        <div class="section_2-cntn-row2-imgs-02">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <img class="section_2-cntnt-img1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img1.png" alt="">
-                <img class="cntnt-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg1.png" alt="">
-
-            </div>
-            <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
-        </div>
     </div> -->
+
+    <div class="section_2">
+        <div class="clipPath">
+            <div class="l-wrap">
+                <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
+                <div class="section_2-cntnt">
+
+                    <img class="cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
+                    <img class="cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
+
+                    <div class="section_2-cntnt-row1">
+                        <div class="section_2-cntnt-row1-imgs">
+                            <div class="section_2-cntnt-row1-imgs-01">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img2.png" alt="">
+                            </div>
+                            <div class="section_2-cntnt-row1-imgs-02">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="section_2-cntnt-row1-ttl">
+                            <div class="section_2-cntnt-row1-ttl-txt">
+                                <h1 class="section_2-cntnt-row1-ttl-txt-01">CEOof RUF</h1>
+                                <p class="section_2-cntnt-row1-ttl-txt-02">
+                                    <img class="u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2l_arr_sp.png" alt="">
+                                    <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-img1.png" alt=""> 代表インタビュー<img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-img2.png" alt="">
+                                    <img class="u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2r_arr_sp.png" alt="">
+                                </p>
+                                <h1 class="section_2-cntnt-row1-ttl-txt-03">Interview</h1>
+                            </div>
+
+                            <div class="section_2-cntnt-row1-ttl-btn">
+                                <a href="">VIEW MORE ></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section_2-cntnt-row2">
+                        <div class="section_2-cntn-row2-imgs">
+                            <div class="section_2-cntn-row2-imgs-01">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img4.png" alt="">
+                            </div>
+                            <div class="section_2-cntn-row2-imgs-02">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="section_2-cntnt-img1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img1.png" alt="">
+                    <img class="cntnt-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg1.png" alt="">
+                </div>
+                <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
+            </div>
+        </div>
+    </div>
 
     <!-- <div class="section_3">
         <div class="l-wrap">
