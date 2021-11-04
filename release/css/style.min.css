@@ -982,7 +982,7 @@ template{display:none}
 .ci__ttl{font-size:.75rem;line-height:1;padding-top:27px}
 .ci__title{letter-spacing:.2em;font-size:1.5625rem;line-height:1.28;padding:24px 0 20px 0}
 .ci__sub{letter-spacing:unset;padding:0 0 25px 0;font-size:.8375rem;line-height:1.4925373134;letter-spacing:.1em}
-.ci__main-content{padding:0;margin:0}
+.ci__main-content{margin:0;padding-top:30px 0 0 0}
 .ci__main-content--row{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
 .ci__main-content--row .col{width:100%}
 .ci__main-content--row .col .info_left{width:115.5px}
