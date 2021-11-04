@@ -91,7 +91,7 @@ get_header(); ?>
         </div>
     </div> -->
 
-    <div class="section_2">
+    <!-- <div class="section_2">
         <div class="clipPath">
             <div class="l-wrap">
                 <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
@@ -143,9 +143,9 @@ get_header(); ?>
                 <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- <div class="section_3">
+    <div class="section_3">
         <div class="l-wrap">
             <div class="c-case02__txt">
                 <p class="c-case02__txt__ttl">About Us</p>
@@ -154,11 +154,11 @@ get_header(); ?>
                     ご紹介いたします。</p>
             </div>
 
-            <div class="cards u-d-f">
-
+            <div class="cards">
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png" alt="">
+                        <img class="bg-1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png" alt="">
+                        <img class="bg-1-s[ u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg1_sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>代表メッセージ</p>
@@ -179,7 +179,8 @@ get_header(); ?>
 
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png" alt="">
+                        <img class="bg-2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png" alt="">
+                        <img class="bg-2 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg2_sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>経営理念</p>
@@ -201,7 +202,8 @@ get_header(); ?>
 
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png" alt="">
+                        <img class="bg-3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png" alt="">
+                        <img class="bg-3 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg3_sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>会社概要</p>
@@ -223,7 +225,8 @@ get_header(); ?>
 
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png" alt="">
+                        <img class="bg-4 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png" alt="">
+                        <img class="bg-4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg4_sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>業績</p>
@@ -244,7 +247,8 @@ get_header(); ?>
 
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png" alt="">
+                        <img class="bg-5 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png" alt="">
+                        <img class="bg-5 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg5_Sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>アクセス</p>
@@ -265,7 +269,8 @@ get_header(); ?>
 
                 <div class="cards-card">
                     <div class="cards-card-img">
-                        <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png" alt="">
+                        <img class="bg-6 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png" alt="">
+                        <img class="bg-6 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg6_sp.png" alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
                                 <p>オフィス風景</p>
@@ -286,5 +291,5 @@ get_header(); ?>
 
             </div>
         </div>
-    </div> -->
+    </div>
 </div>
