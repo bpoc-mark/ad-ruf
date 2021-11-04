@@ -7,16 +7,31 @@
         position: relative;
     }
     .section_1 {
-        background: linear-gradient(#2579BF, #2593D5);
+
+        .clipPath {
+            clip-path:  polygon(100% 0, 100% 100%, 85% 93%, 0 100%, 0 10%);
+            background: linear-gradient(#2579BF, #2593D5);
+
+            @include is-sp {
+                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 10%);
+            }
+        }
+
+        .cntnt {
+            padding:195px 0 145px 0;
+        }
 
         &-ttl {
-            padding-top: 100px;
             text-align: center;
             @include font-line(10,20);
             font-family: century-gothic, sans-serif;
-            letter-spacing: 1em;
+            letter-spacing: 0.32em;
             font-weight: 400;
             color:#fff;
+
+            @include is-sp {
+                @include font-line(12.5, 10);
+            }
         }
     
         &-sub1 {
@@ -24,50 +39,126 @@
             text-align: center;
             font-family: yu-mincho-pr6n, sans-serif;
             font-weight: 500;
+            letter-spacing: 0.22em;
             color:#fff;
+
+            @include is-sp {
+                @include font-line(25,37.5);
+                padding: 20.5px 0 18.5px 0;
+            }
         }
         &-sub2 {
             @include font-line(13,26);
             font-weight: 500;
             font-family:cross-platform-yu-gothic;
             text-align: center;
+            letter-spacing: 0.26em;
             color:#fff;
+
+            @include is-sp {
+                @include font-line(13.5,20);
+                
+            }
         }
 
         &-cntnt {
-          padding:60px 0 60px 0;
+          padding-top:60px;
+
             &-rows {
                 margin-bottom: 60px;
+                align-items: center;
 
-                &-1-txt {
-                    color: #fff;
-                    font-family:cross-platform-yu-gothic;
-                    @include font-line(13,26);
-                    font-weight: 500;
+                @include is-sp {
+                    flex-direction: column-reverse;
+                }
+
+                &-1 {
+
+                    @include is-max(984px) {
+                        padding-right: 20px;
+                    }
+
+                    @include is-sp {
+                        width: 100% !important;
+                        padding-top: 25px;
+                        padding-right: 0;
+                    }
+
+                    &-txt {
+                        color: #fff;
+                        font-family:cross-platform-yu-gothic;
+                        @include font-line(13,26);
+                        font-weight: 500;
+
+                        @include is-sp {
+                            @include font-line(13.5, 20);
+                        }
+                    }
+                   
+                }
+
+                &-2 {
+
+                    @include is-sp {
+                        width: 100%;
+                    }
+                    img {
+                        
+                        @include is-sp {
+                            width: 100%;
+                        }
+                    }
+
                 }
            }  
-           &-btns {
-            width: 640px;
-            margin:0 auto;
+
+            &-btns {
+                width: 640px;
+                margin:0 auto;
+
+                @include is-sp {
+                    flex-direction: column-reverse;
+                    justify-content: space-between;
+                    height: 165px;
+                    width: 100% !important;
+                }
+
+                .btn {
+                    @include is-sp {
+                        width: 100% !important;
+                    }
+                    .txt {
+                        letter-spacing:0.2em;
+                    }
+
+                }
             }
         }
 
         .sec1-bg1 {
             position: absolute;
-            top: 0;
-            right: 9%;
-          
+            top: 10%;
+            right: 8%;
+            z-index: -1;
+
+            @include is-sp {
+                width: 176px;
+                right: 3%;
+            }
         }
 
         .sec1-bg2 {
             position: absolute;
-            top: 57%;
+            top: 24%;
             left: -6%;
+            z-index: -1;
+            opacity: 0.5;
         }
         .sec1-bg3 {
             position: absolute;
-            bottom: 1%;
+            bottom: 21%;
             right: 1%;
+            opacity: 0.5;
         }
     }
     
@@ -83,25 +174,61 @@
 
         .sec2-bg2 {
             position: absolute;
-            bottom: 31%;
+            bottom: 19%;
             left: -1%;
             z-index: -1;
                    
         }
         .sec2-bg3 {
             position: absolute;
-            bottom: 12%;
-            right: 9%;
+            bottom: 0%;
+            right: 0%;
         }
         
         &-rows {
-            padding:98px 0 100px 0;
+            padding:100px 0;
+            align-items: center;
+
+            @include is-sp {
+                flex-direction:column;
+
+                padding: 59.5px 0 100.5px 0;
+            }
+
+            &-1 {
+
+                @include is-sp {
+                    width: 100%;
+
+                    img {
+                        @include is-sp {
+                            width: 100%;
+                     }
+                    }
+                }
+
+            }
 
             &-2 {
                 font-family:cross-platform-yu-gothic;
                 @include font-line(13,26);
                 font-weight: 500;
-                letter-spacing: 2px;
+                letter-spacing: 0.1em;
+
+                @include is-max(982px) {
+                    padding-left: 20px;
+                }
+                @include is-sp {
+                    width: 100% !important;
+                    padding-left: 0;
+                    padding-top: 24px;
+                }
+
+                &-txt {
+                    @include is-sp {
+                        @include font-line(13.5,20)
+                    }
+                }
             }
         }
     }
@@ -110,53 +237,77 @@
     // SECTION 3
 
     .section_3 {
-        background: linear-gradient(#2579BF, #2593D5);
         position: relative;
-        z-index: -2;
 
-        &-ttl {
-            padding-top: 100px;
-            text-align: center;
-            @include font-line(10,20);
-            font-family: century-gothic, sans-serif;
-            letter-spacing: 1em;
-            font-weight: 400;
-            color:#fff;
+        .clipPath {
+            clip-path: polygon(15% 14%, 100% 0, 100% 100%, 0 100%, 0 0);
+            background: linear-gradient(#2579BF, #2593D5);
+            padding: 144px 0 99px 0;
+
+            @include is-sp {
+                clip-path: polygon(12% 6%, 100% 0, 100% 100%, 0 100%, 0 0);
+            }
         }
-    
-        &-sub1 {
-            @include font-line(30,48);
-            text-align: center;
-            font-family: yu-mincho-pr6n, sans-serif;
-            font-weight: 500;
-            color:#fff;
-        }
-        &-sub2 {
-            @include font-line(13,26);
-            font-weight: 500;
-            font-family:cross-platform-yu-gothic;
-            text-align: center;
-            color:#fff;
-        }
+
+
 
         &-cntnt {
-          padding:98px 0 100px 0;
+
             &-rows {
                 margin-bottom: 60px;
+                align-items: center;
 
+                @include is-sp {
+                    flex-direction:column-reverse;
+                }
 
-                &-1-txt {
-                    color: #fff;
-                    font-family:cross-platform-yu-gothic;
-                    @include font-line(13,26);
-                    font-weight: 500;
+                &-1 {
+
+                    @include is-max(982px) {
+                        padding-right: 20px;
+                    }
+
+                    @include is-sp {
+                        width: 100%!important;
+                        padding-right: 0;
+                        padding-top: 25px;
+                    }
+                    &-txt {
+                        color: #fff;
+                        font-family:cross-platform-yu-gothic;
+                        @include font-line(12,25);
+                        font-weight: 500;
+                        letter-spacing: 0.2em;
+
+                        @include is-sp {
+                             @include font-line(13.5,20);
+                             letter-spacing: 0.08em;
+                        }
+                    }
+                }
+
+                &-2 {
+                    @include is-sp {
+                        width: 100%;
+                    }
+
+                    img {
+                         width: 100%;
+                    }
                 }
             
-           }  
-           &-btns {
-            width: 640px;
-            margin:0 auto;
-            }
+            }  
+                .btns {
+                    width: 640px;
+                    margin:0 auto;
+
+                    @include is-sp {
+                        width: 100%!important;
+                       flex-direction: column;
+                       justify-content: space-between;
+                       height: 165px;
+                    }
+                }
         }
 
         .sec3-bg1 {
@@ -164,12 +315,19 @@
             top: -19%;
             right: 31.4%;
             z-index: -1;
+
+            @include is-sp {
+                width: 138px;
+                top: -13%;
+                right: 3.4%;
+            }
         }
 
         .sec3-bg2 {
             position: absolute;
             top: 66%;
-            left: 0%;        
+            left: 0%;   
+            z-index: -1;     
         }
     }
 }
