@@ -4,6 +4,21 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content pp">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/privacy_policy_banner.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/privacy_policy_banner_sp.png" alt="">
+            <div class="c-banner--ttl">
+                <p>プライバシーポリシー</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> プ ラ イ バ シ ー ポ リ シ ー </p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <div class="pp__section_1">
         <!-- //CLIP -->
         <div class="clip-top"></div>
@@ -12,9 +27,9 @@ $imagedir = get_template_directory_uri();
             <img class="pp__bg_1" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
             <h1 class="pp__title">株式会社ルーフ（以下、「当社」といいます。）は、<br> 本ウェブサイト上で提供するサービス <br>（以下,「本サービス」といいます。）<br>
                 におけるプライバシー情報の取扱いについて、<br>以下のとおりプライバシーポリシー<br>（以下、「本ポリシー」といいます。）を定めます。</h1>
-                <img class="pp__bg_2" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_2.png" alt="">
+            <img class="pp__bg_2" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_2.png" alt="">
         </div>
-      
+
         <div class="pp__main-content">
             <div class="l-wrap">
                 <div class="pp__main-content--row">
@@ -217,18 +232,18 @@ $imagedir = get_template_directory_uri();
         </div>
 
 
-       
-            <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
-                <div class="c-buttonCase pp--btn">
-                    <p class="txt">会社概要</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </div>
-                <div class="c-buttonCase pp--btn">
-                    <p class="txt">丸の内RUFについて</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </div>
+
+        <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
+            <div class="c-buttonCase pp--btn">
+                <p class="txt">会社概要</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </div>
-       
+            <div class="c-buttonCase pp--btn">
+                <p class="txt">丸の内RUFについて</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+            </div>
+        </div>
+
 
 
 

@@ -4,15 +4,30 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
+	<div class="c-banner">
+		<p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+		<div class="c-inner">
+			<img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case02_banner.png" alt="">
+			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case02_banner_sp.png" alt="">
+			<div class="c-banner--ttl">
+				<p>バリューアップ<br class="br-sp">事例02</p>
+				<p>Case Studies02</p>
+			</div>
+		</div>
+		<div class="bread_crumps">
+			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 02</p>
+		</div>
+	</div>
+	<div class="top-clip"></div>
 	<div class="section_1">
-        <!-- //CLIP -->
+		<!-- //CLIP -->
 		<div class="clip-top"></div>
-        <div class="c-clipbg__CS"></div>
+		<div class="c-clipbg__CS"></div>
 		<div class="l-wrap">
 			<img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
 			<p class="section_1__ttl">Case Studies</p>
 			<h1 class="c-case01__title">エントランスのバリューアップ <br>
-住宅地エリアで目を引く存在に</h1>
+				住宅地エリアで目を引く存在に</h1>
 			<p class="c-case01__sub">1993年竣工、4階建て、鉄筋コンクリート</p>
 		</div>
 		<!-- //CONTENT 1 -->
@@ -121,7 +136,7 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">ポストの<br>ビフォーアフター</p>
 							<p class="c-case--items__contents--row_2__txt desc">エントランス部分に多く使われているブラウンをポストにも採用しました。<br class="u-d-n-sp">
-また、消化器に目隠しをする等、細かな点も工夫いたしました。</p>
+								また、消化器に目隠しをする等、細かな点も工夫いたしました。</p>
 						</div>
 					</div>
 				</div>
@@ -272,14 +287,14 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">駐車場の<br>ビフォーアフター</p>
 							<p class="c-case--items__contents--row_2__txt desc">安全面と管理についても考慮し、植木を一掃いたしました。<br class="u-d-n-sp">
-							併せて駐車エリアも塗装いたしました。</p>
+								併せて駐車エリアも塗装いたしました。</p>
 						</div>
 					</div>
 				</div>
 				<img class="bg_6" src="<?php echo $imagedir ?>/release/image/page/case/bg_6.png" alt="">
 			</div>
 		</div>
-        <!-- //CLIP -->
+		<!-- //CLIP -->
 		<div class="clip-bottom"></div>
 	</div>
 

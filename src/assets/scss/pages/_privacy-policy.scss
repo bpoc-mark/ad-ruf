@@ -28,6 +28,41 @@
 		}
 	}
 
+	.bread_crumps{
+	  text-align: left;
+	  position: relative;
+	  z-index: 150;
+	  padding-top: 12px;
+		.txt{
+			width: 92%;
+			margin: 0 auto;
+			max-width: 1100px;
+			color: #fff;
+			font-family:cross-platform-yu-gothic;
+		}
+
+		span{
+			padding: 0 8px;
+		}
+	}
+
+	// clip top
+	.top-clip {
+		width: 800px;
+		height: 250px;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background: linear-gradient(to left, #2593d5, #2579bf);
+		position: absolute;
+		top: -4.5%;
+		right: 0%;
+
+		@include is-sp {
+			width: 83%;
+			height: 161px;
+			top: -30px;
+		}
+	}
+
 	&__title {
 		color: $color-text03;
 		font-family: cross-platform-yu-gothic;
@@ -251,9 +286,10 @@
 		margin-bottom: 50px !important;
 		-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
 		clip-path: polygon(100% 0%, 0 0, 0% 100%);
-		padding: 100px 0 0 0;
-		background-color: #fff;
+		padding: 55px 0 0 0;
+		background: rgb(95, 165, 205);
 		text-align: center;
+		margin-top: -25px;
 
 		@include is-sp {
 			padding: 60px 0 0 0;

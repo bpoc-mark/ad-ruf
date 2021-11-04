@@ -8,9 +8,9 @@ $imagedir = get_template_directory_uri();
 		<p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
 		<div class="c-inner">
 			<img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case01_banner.png" alt="">
-			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/access/access_banner_sp.png" alt="">
+			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case01_banner_sp.png" alt="">
 			<div class="c-banner--ttl">
-				<p>バリューアップ事例01</p>
+				<p>バリューアップ<br class="br-sp">事例01</p>
 				<p>Case Studies01</p>
 			</div>
 		</div>

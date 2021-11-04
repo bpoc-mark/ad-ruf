@@ -827,6 +827,8 @@ template{display:none}
 .acc--btn:last-child{margin-left:30px}
 .acc .acc_ttl{letter-spacing:.28em}
 .acc .acc_sub{line-height:37px;padding-bottom:0;font-weight:500}
+.case .c-banner--ttl p{line-height:1.4em}
+.case .c-banner--ttl p .br-sp{display:none}
 .case .clipbg_wrap:nth-child(odd){background-color:#fff}
 .case .clipbg_wrap:nth-child(even){background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
 .case .clip-top{-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-bottom:90px;margin-top:-25px}
@@ -889,6 +891,10 @@ template{display:none}
 .pp__section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding-bottom:100px}
 .pp__section_1 .l-wrap{position:relative}
 .pp__section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
+.pp .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
+.pp .bread_crumps .txt{width:92%;margin:0 auto;max-width:1100px;color:#fff;font-family:cross-platform-yu-gothic}
+.pp .bread_crumps span{padding:0 8px}
+.pp .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,right top,left top,from(#2593d5),to(#2579bf));background:linear-gradient(to left,#2593d5,#2579bf);position:absolute;top:-4.5%;right:0}
 .pp__title{color:#fff;font-family:cross-platform-yu-gothic;letter-spacing:.2em;padding:20px 8px 30px 8px;font-weight:500;text-align:center;z-index:1;position:relative;font-size:.8125rem;line-height:2}
 .pp__title br{display:none}
 .pp__title br:nth-child(3){display:block}
@@ -907,7 +913,7 @@ template{display:none}
 .pp__main-content--row .right .col:last-child{padding-bottom:30px}
 .pp__bg_1{position:absolute;top:-62px;right:63px;width:316px}
 .pp__bg_2{position:absolute;top:77px;left:-60px;width:316px}
-.pp .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:100px 0 0 0;background-color:#fff;text-align:center}
+.pp .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:-25px}
 .pp--btn{background-color:#fff;margin:0}
 .pp--btn:first-child{margin-right:30px}
 .pp--btn:last-child{margin-left:30px}
@@ -1594,6 +1600,8 @@ template{display:none}
 .acc--btn:last-child{margin:25px 0 0 0}
 .acc .acc_ttl{font-size:.8125rem}
 .acc .acc_sub{font-size:1.5625rem;letter-spacing:.075em;line-height:39px}
+.case .c-banner--ttl{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding:20px 13px 20px 30px;left:0}
+.case .c-banner--ttl p .br-sp{display:block}
 .case .section_1 .clip-bottom{padding:100px 0 0 0}
 .case .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .case .section_2 .photos{padding:50px 30px}
@@ -1625,6 +1633,7 @@ template{display:none}
 .office_gal--contents__col2 .bottom{left:11.76% !important}
 .pp__section_1{padding-bottom:55px}
 .pp__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
+.pp .top-clip{width:83%;height:161px;top:-30px}
 .pp__title{letter-spacing:0;padding-top:50px}
 .pp__title br{display:block}
 .pp__main-content{margin:0 20px;padding:50px 0 0 0}
@@ -1737,6 +1746,9 @@ template{display:none}
 }@media only screen and (max-width:500px){.page__footer .lower-footer{padding:37px 0 30px 0}
 .top-header-bnnr::before{right:0;width:411.5px;z-index:-4}
 .top-header-bnnr-txt02{left:87%}
+.case .c-banner--ttl{top:25%}
+.case .c-banner--ttl p:nth-child(1){font-size:6vw}
+.case .c-banner--ttl p:nth-child(2){font-size:3vw}
 .pp__bg_1{right:10px;width:188px}
 .top .sect_2 .sect_2-cntnt-row-02 .col--box .info-ttl{font-size:6vw}
 .top .sect_2 .sect_2-cntnt-row-02 .col--box .info-sub{font-size:3vw}

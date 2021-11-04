@@ -4,15 +4,30 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
+	<div class="c-banner">
+		<p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+		<div class="c-inner">
+			<img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case03_banner.png" alt="">
+			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case03_banner_sp.png" alt="">
+			<div class="c-banner--ttl">
+				<p>バリューアップ<br class="br-sp">事例03</p>
+				<p>Case Studies03</p>
+			</div>
+		</div>
+		<div class="bread_crumps">
+			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 03</p>
+		</div>
+	</div>
+	<div class="top-clip"></div>
 	<div class="section_1">
-        <!-- //CLIP -->
+		<!-- //CLIP -->
 		<div class="clip-top"></div>
-        <div class="c-clipbg__CS"></div>
+		<div class="c-clipbg__CS"></div>
 		<div class="l-wrap">
 			<img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
 			<p class="section_1__ttl">Case Studies</p>
 			<h1 class="c-case01__title">境界部分にもアプローチ <br>
-            居住者の満足度向上も叶えた事例</h1>
+				居住者の満足度向上も叶えた事例</h1>
 			<p class="c-case01__sub">1995年竣工、3階建、鉄筋コンクリート</p>
 		</div>
 		<!-- //CONTENT 1 -->
@@ -44,7 +59,7 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1995年竣工、3階建、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">エントランスの<br>ビフォーアフター</p>
 							<p class="c-case--items__contents--row_2__txt desc">東京都内、まちづくりに注目が集まるエリアの物件をリノベーションいたしました。<br class="u-d-n-sp">
-エントランスを始めとした共用部分を中心に、タイルの張替えや塗装を中心に行い、同時に隣接する物件との境界部分にもしっかりとアプローチいたしました。</p>
+								エントランスを始めとした共用部分を中心に、タイルの張替えや塗装を中心に行い、同時に隣接する物件との境界部分にもしっかりとアプローチいたしました。</p>
 						</div>
 					</div>
 				</div>
@@ -272,14 +287,14 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1995年竣工、3階建、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">廊下の<br>ビフォーアフター</p>
 							<p class="c-case--items__contents--row_2__txt desc">廊下には防滑シートを張り、<br class="u-d-n-sp">
-							溝は塗膜防水塗料にて補修いたしました。</p>
+								溝は塗膜防水塗料にて補修いたしました。</p>
 						</div>
 					</div>
 				</div>
 				<img class="bg_6" src="<?php echo $imagedir ?>/release/image/page/case/bg_6.png" alt="">
 			</div>
 		</div>
-        <!-- //CLIP -->
+		<!-- //CLIP -->
 		<div class="clip-bottom"></div>
 	</div>
 

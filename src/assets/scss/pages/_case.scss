@@ -1,4 +1,43 @@
 .case { 
+		.c-banner{
+			&--ttl{
+			@include is-sp{
+				background: linear-gradient(
+				90deg,
+				rgba(37, 121, 191, 1) 0%,
+				rgba(37, 147, 213, 1) 50%
+				);
+				padding: 20px 13px 20px 30px;
+				left: 0;
+			}
+
+			@include is-max(500px){
+				top: 25%;
+			}
+
+			p{
+				line-height: 1.4em;
+				.br-sp{
+					display: none;
+					@include is-sp{
+						display: block;
+			 	 }
+			  }
+			  
+			  &:nth-child(1){
+				  @include is-max(500px){
+				  font-size: 6vw;
+			   }
+			  }
+			  &:nth-child(2){
+				@include is-max(500px){
+				font-size: 3vw;
+			  }
+			  }
+			}	
+		}
+	}
+
 	.clipbg_wrap {
 		&:nth-child(odd) {
 			background-color: #fff;

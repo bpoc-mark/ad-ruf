@@ -4,8 +4,23 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case">
+	<div class="c-banner">
+		<p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+		<div class="c-inner">
+			<img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case04_banner.png" alt="">
+			<img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case04_banner_sp.png" alt="">
+			<div class="c-banner--ttl">
+				<p>バリューアップ<br class="br-sp">事例04</p>
+				<p>Case Studies04</p>
+			</div>
+		</div>
+		<div class="bread_crumps">
+			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 04</p>
+		</div>
+	</div>
+	<div class="top-clip"></div>
 	<div class="section_1">
-        <!-- //CLIP -->
+		<!-- //CLIP -->
 		<div class="clip-top"></div>
 		<div class="c-clipbg__CS"></div>
 		<div class="l-wrap">
@@ -86,7 +101,7 @@ $imagedir = get_template_directory_uri();
 				</div>
 				<img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
 			</div>
-			
+
 			<div class="c-clipbg__CS"></div>
 		</div>
 		<!-- //CONTENT 3 -->
@@ -202,7 +217,7 @@ $imagedir = get_template_directory_uri();
 		</div>
 		<!-- //CONTENT 6 -->
 		<div class="c-case--items">
-		<div class="c-clipbg__CS2"></div>
+			<div class="c-clipbg__CS2"></div>
 			<div class="l-wrap">
 				<img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
 				<div class="c-case--items__contents">
@@ -240,7 +255,7 @@ $imagedir = get_template_directory_uri();
 		</div>
 		<!-- //CONTENT 7 -->
 		<div class="c-case--items">
-		<div class="c-clipbg__CS2 white_bg"></div>
+			<div class="c-clipbg__CS2 white_bg"></div>
 			<div class="l-wrap">
 				<img class="bg_5" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
 				<div class="c-case--items__contents">
@@ -278,7 +293,7 @@ $imagedir = get_template_directory_uri();
 		<!-- //CLIP -->
 		<div class="clip-bottom"></div>
 	</div>
-	
+
 	<div class="section_2">
 		<div class="l-wrap">
 			<div class="c-case02__txt">
