@@ -6,23 +6,35 @@
         position: relative;
     }
     .section_1 {
-        background: linear-gradient(
+        position: relative;
+        z-index: -2;
+
+        .clipPath {
+            clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+            background: linear-gradient(
 			90deg,
 			rgba(37, 121, 191, 1) 0%,
 			rgba(37, 147, 213, 1) 50%
-		);
-        position: relative;
-        z-index: -2;
-        padding-bottom: 63px;
+		    );
+            padding:195px 0 85px 0;
+
+            @include is-sp {
+                padding:123.5px 0 93px 0;
+                clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+            }
+        }
 
         &-ttl {
-            padding-top: 100px;
             text-align: center;
             @include font-line(10,20);
             font-family: century-gothic, sans-serif;
-            letter-spacing: 1em;
+            letter-spacing: 0.32em;
             font-weight: 400;
             color:#fff;
+
+            @include is-sp {
+                @include font-line(12.5, 10);
+            }
         }
     
         &-sub1 {
@@ -31,7 +43,16 @@
             font-family: 'yu-mincho-pr6n', sans-serif;
             font-weight: 500;
             color:#fff;
-            letter-spacing: 0.18em
+            letter-spacing: 0.18em;
+
+            @include is-sp {
+                @include font-line(25,37.5);
+                padding:23px 0 20px 0;
+            }
+
+            @include is-max(390px) {
+                font-size: 7vw;
+            }
         }
         &-sub2 {
             @include font-line(13,26);
@@ -40,6 +61,22 @@
             text-align: center;
             color:#fff;
             letter-spacing: 0.20em;
+
+            @include is-sp {
+                @include font-line(13.5,20); 
+            }
+
+            @include is-max(397px) {
+                font-size: 4vw;
+            }
+
+            .mp {
+                display: none;
+
+                @include is-max (330px) {
+                    display: block;
+                }
+            }
         }
         &-cntnt {
             margin-top:58px;
@@ -47,12 +84,30 @@
             .cards {
                 margin-bottom: 57px;
 
+                @include is-max(1001px) {
+                    flex-wrap: wrap;
+                    // gap: 20px;
+                }
+
                 .cards-card {
                     width: 220px;
+
+                    @include is-max(1001px) {
+                        width: 48%;
+                        margin-bottom: 20px;
+                    }
         
                     &-img {
                        position: relative;
                        margin-bottom: 20px;
+
+                       @include is-max(1001px) {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
         
                         &-bdg {
                             position: absolute;
@@ -68,9 +123,10 @@
                             font-weight: 700;
             
                             p {
+                              
                                 border-top: 1px solid #fff;
                                 border-right: 1px solid #fff;
-                                padding: 4px 8px;
+                                padding: 1px 7px 1px 7px;
                             }
                         }
                     }
@@ -83,6 +139,17 @@
                             @include font-line(14,21);
                             font-family:cross-platform-yu-gothic;
                             font-weight: 700;
+                            letter-spacing: 0.2em;
+
+                            @include is-sp {
+                                @include font-line(15,22.5);
+                            }
+
+                            p {
+                                @include is-max(390px) {
+                                    font-size: 4vw;
+                                }
+                            }
                         }
     
                         &-sub {
@@ -91,8 +158,25 @@
                             font-family:cross-platform-yu-gothic;
                             font-weight: 500;
                             padding-top: 14px;
+                            letter-spacing: 0.2em;
+
+                            @include is-sp {
+                                @include font-line(12.5,18.5);
+                            }
+
+                            p {
+                                @include is-max(390px) {
+                                    font-size: 3vw;
+                                }
+                            }
                         }
                     }
+                }
+            }
+
+            .btn {
+                .txt {
+                    letter-spacing: 0.2em;
                 }
             }
         }
@@ -100,7 +184,13 @@
             position: absolute;
             right: 9%;
             top: 0;
-            z-index: -1;          
+            z-index: -1;    
+            
+            @include is-sp {
+                width: 138px;
+                top: -7%;
+               
+            }
         }
 
     }
