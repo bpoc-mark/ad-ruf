@@ -23,38 +23,45 @@ $('.slider').slick({
     }
   }]
 });
-var footerAcc = document.querySelectorAll('.f-acc-sp');
-footerAcc.forEach(function (item) {
-  item.addEventListener('click', function (e) {
-    e.preventDefault();
-    var nextEl = item.nextElementSibling;
-    toggleAccordion(item, item.querySelectorAll('.head-icon'), nextEl);
-  });
-});
+var clickAllowed = true;
+$(window).on('load resize', function () {
+  var w = $(window).width();
 
-function toggleAccordion(item, curEl, nexEl) {
-  var currentEl = document.querySelectorAll('.f-acc-sp > .active');
-  var nextEl = document.querySelectorAll('.acc-show');
-  document.querySelectorAll('.head-icon').forEach(function (op) {
-    op.textContent = '+';
-  });
-
-  if (currentEl.length > 0 && nextEl.length > 0) {
-    currentEl[0].classList.remove('active');
-    nextEl[0].classList.replace('acc-show', 'acc-hidden');
-    curEl[0].textContent = '+';
-
-    if (!(currentEl[0].isSameNode(curEl[0]) && nextEl[0].isSameNode(nexEl))) {
-      curEl[0].classList.add('active');
-      nexEl.classList.replace('acc-hidden', 'acc-show');
-      curEl[0].textContent = '-';
-    }
+  if (w < 750) {
+    clickAllowed = true;
   } else {
-    curEl[0].classList.add('active');
-    nexEl.classList.replace('acc-hidden', 'acc-show');
-    curEl[0].textContent = '-';
+    clickAllowed = false;
+    $('.acc-hidden').removeAttr('style');
+    $('.f-acc-sp').removeAttr('style');
   }
-}
+});
+$('.f-acc-sp').on('click', function (e) {
+  e.preventDefault();
+
+  if (clickAllowed) {
+    if ($(this).hasClass('active')) {
+      $(this).siblings().slideUp();
+      $(this).removeClass('active');
+      $(this).children('.head-icon').text('+');
+      $(this).css('border-bottom', 'none');
+      $('.f-acc-sp').filter(function (i) {
+        return i == 3;
+      }).css('border-bottom', '1px solid #fff');
+    } else {
+      $('.f-acc-sp').siblings().slideUp();
+      $('.f-acc-sp').removeClass('active');
+      $('.head-icon').text('+');
+      $(this).children('.head-icon').text('-');
+      $(this).siblings().slideDown();
+      $('.f-acc-sp').css('border-bottom', 'none');
+      $('.f-acc-sp').filter(function (i) {
+        return i == 3;
+      }).css('border-bottom', '1px solid #fff');
+      $(this).css('border-bottom', '1px solid #fff');
+      $(this).addClass('active');
+    }
+  }
+});
 
 var slideOut = function slideOut() {
   var body = document.querySelector('body');
