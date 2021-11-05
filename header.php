@@ -16,7 +16,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
     <main>
         <div class="page__header">
             <div class="top-header">
