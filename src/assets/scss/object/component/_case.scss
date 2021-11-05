@@ -51,6 +51,12 @@
 			padding-top: 100px;
 		}
 
+		.sp_p0 {
+			@include is-sp {
+				padding: 0;
+			}
+		}
+
 		&:first-child {
 			@include is-sp {
 				padding-top: 75px;
