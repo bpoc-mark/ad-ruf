@@ -554,9 +554,6 @@
 		font-family: cross-platform-yu-gothic;
 		font-weight: 700;
 		color: #258acf;
-<<<<<<< HEAD
-		padding: 20px 15px 30px 15px;
-=======
 		padding: 20px 10px 30px 10px;
 
 		@include is-sp {
@@ -567,7 +564,6 @@
 			font-size: 3.9vw;
 			padding-bottom: 15px;
 		}
->>>>>>> 3f814163a597dddecc5e0e06361816cb148b0a34
 	}
 	&__bottom {
 		@include font-line(11);

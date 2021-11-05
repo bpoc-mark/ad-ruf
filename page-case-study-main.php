@@ -4,6 +4,21 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case csm">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case_main_bnr.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case_main_bnr_sp.png" alt="">
+            <div class="c-banner--ttl r-b">
+                <p>バ リ ュ ー ア ッ プ <br class="br-sp">事 例</p>
+                <p>Case Studies</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> バリューアップ事例</p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <div class="section_1">
         <!-- //CLIP -->
         <div class="clip-top"></div>
@@ -293,7 +308,7 @@ $imagedir = get_template_directory_uri();
                         <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
                         <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
-                    
+
                     <div class="c-slider__item">
                         <div class="bg_img">
                             <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
@@ -314,7 +329,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt=""> 
+                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </div>
             </div>
         </div>

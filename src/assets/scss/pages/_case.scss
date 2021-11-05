@@ -1,18 +1,22 @@
 .case { 
 		.c-banner{
 			&--ttl{
-			@include is-sp{
-				background: linear-gradient(
-				90deg,
-				rgba(37, 121, 191, 1) 0%,
-				rgba(37, 147, 213, 1) 50%
-				);
-				padding: 20px 13px 20px 30px;
-				left: 0;
-			}
+				@include is-sp{
+					background: linear-gradient(
+					90deg,
+					rgba(37, 121, 191, 1) 0%,
+					rgba(37, 147, 213, 1) 50%
+					);
+					padding: 20px 13px 20px 30px;
+					left: 0;
 
-			@include is-max(500px){
-				top: 25%;
+					&.r-b{
+					background: none;
+				}
+				}
+
+				@include is-max(500px){
+					top: 25%;
 			}
 
 			p{
@@ -104,6 +108,25 @@
 
 			@include font-line(10,20);
 		}
+
+		.c-clipbg__CS{
+			padding-bottom: 60px;
+		}
+
+		.c-case--items{
+			
+			&:nth-of-type(odd) {
+			background-color: #fff;
+			position: relative;
+			padding: 40px 0;
+			-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+			clip-path: polygon(0 -1%, 100% 0, 100% 100%, 0% 100%);
+
+		
+		}
+
+		}
+
 	}
 
 	.section_2 {
@@ -161,6 +184,7 @@
 			max-width: 1100px;
 			color: #fff;
 			font-family: yu-mincho-pr6n, sans-serif;
+			@include font-line(11);
 		}
 
 		span{
@@ -168,7 +192,6 @@
 		}
 	}
 
-<<<<<<< HEAD
 	// clip top
 	.top-clip {
 		width: 800px;
@@ -186,8 +209,37 @@
 		}
 	}
 
+	.csm--content-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        @include is-max(1000px) {
+            justify-content: space-between;
+        }
+        // justify-content: space-between;
+        .col {
+            width: 31.63265306122449%;
+            margin-bottom: 60px;
+            &:nth-child(3n + 2) {
+                margin: 0 2.5%;
+            }
+            @include is-max(1000px) {
+                width: 48%;
+                margin-bottom: 49px;
+                &:nth-child(3n + 2) {
+                    margin: 0 0 49px 0;
+                }
+                &:last-child {
+                    margin: 0;
+                }
+            }
+            @include is-sp {
+                width: 100%;
+            }
+        }
+    }
+
 	
-=======
 // case study main
 .csm {
 	.section_1__ttl {
@@ -314,5 +366,6 @@
 			font-size: 3.4vw;
 		}
 	}
->>>>>>> 3f814163a597dddecc5e0e06361816cb148b0a34
+ }
+
 }
