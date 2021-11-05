@@ -91,12 +91,12 @@ get_header(); ?>
         </div>
     </div> -->
 
-    <!-- <div class="section_2">
+    <div class="section_2">
         <div class="clipPath">
             <div class="l-wrap">
                 <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
                 <div class="section_2-cntnt">
-
+                    <img class="cntnt-bgimg" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2_bg_sp.png" alt="">
                     <img class="cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
                     <img class="cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
 
@@ -143,9 +143,9 @@ get_header(); ?>
                 <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <div class="section_3">
+    <!-- <div class="section_3">
         <div class="l-wrap">
 
             <img class="bg_1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg1.png" alt="">
@@ -296,5 +296,5 @@ get_header(); ?>
 
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
