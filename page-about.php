@@ -147,6 +147,11 @@ get_header(); ?>
 
     <div class="section_3">
         <div class="l-wrap">
+
+            <img class="bg_1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg1.png" alt="">
+            <img class="bg_2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg2.png" alt="">
+            <img class="bg_3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg3.png" alt="">
+            <img class="bg_4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg_1sp.png" alt="">
             <div class="c-case02__txt">
                 <p class="c-case02__txt__ttl">About Us</p>
                 <p class="c-case02__txt__sub">企業情報</p>
@@ -173,7 +178,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">代表メッセージ</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフが大切に<br>していることをご紹介いたします。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフが大切に<br class ="u-d-n-sp">していることをご紹介いたします。</p>
                     </div>
                 </div>
 
@@ -196,7 +201,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">経営理念</p>
-                        <p class="cards-card-desc-txt"> 株式会社ルーフの経営理念を<br>ご紹介いたします。</p>
+                        <p class="cards-card-desc-txt"> 株式会社ルーフの経営理念を<br class="u-d-n-sp">ご紹介いたします。</p>
                     </div>
                 </div>
 
@@ -219,7 +224,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">会社概要</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフの会社概要を<br>ご紹介いたします。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの会社概要を<br class="u-d-n-sp">ご紹介いたします。</p>
                     </div>
                 </div>
 
@@ -241,7 +246,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">業績</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフの<br>業績をご紹介いたします。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">業績をご紹介いたします。</p>
                     </div>
                 </div>
 
@@ -263,7 +268,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">アクセス</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフまでの<br>アクセスをご紹介いたします。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフまでの<br class="u-d-n-sp">アクセスをご紹介いたします。</p>
                     </div>
                 </div>
 
@@ -285,7 +290,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">オフィス風景</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフの<br>オフィス風景をご紹介します。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">オフィス風景をご紹介します。</p>
                     </div>
                 </div>
 

@@ -394,23 +394,25 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            padding-top: 70px;
 
             @include is-max(1030px) {
                 justify-content: space-around;
             }
 
             .cards-card {
-                // width: 310px;
-                // width: 100%;
+                width: 310px;
                 display: inline-block;
                 margin-bottom: 23px;
 
                 @include is-sp {
                     display: flex;
+                    justify-content: space-between;
                     align-items: center;
                     padding-bottom: 24px;
                     border-bottom: 1px dashed gray;
                     align-items: flex-end;
+                    width: 100%;
                 }
 
                 &-img {
@@ -421,6 +423,11 @@
                         top: 39%;
                         left: 7%;
 
+                        @include is-max(330px) {
+                            top: 2%;
+                            left: 3%;
+                        }
+
                         &-ttl {
                             font-family: yu-mincho-pr6n, sans-serif;
                             font-size: 18px;
@@ -430,6 +437,10 @@
                                 line-height: 25px;
                                 font-weight: 500;
                                 letter-spacing: 0.3em;
+
+                                @include is-max(330px) {
+                                    letter-spacing: 0.1em;
+                                }
                             }
                         }
 
@@ -450,7 +461,6 @@
                         bottom: 1.5%;
                         right: 0%;
                         a {
-                    
                             font-size: 10px;
                             letter-spacing: 0.26em;
                             line-height: 12px;
@@ -465,11 +475,21 @@
                     border: 1px solid #808080;
                     text-align: center;
                     padding: 25px 0 18px 0;
+                    background-color: #fff;
 
                     @include is-sp {
                         border: none;
                         text-align: left;
-                        padding-left: 16.5px;
+                        // padding-left: 16.5px;
+                        width: 204px;
+                    }
+
+                    @include is-max(702px) {
+                        padding-left: 10px;
+                    }
+
+                    @include is-max (445px) {
+                        padding-bottom:0; 
                     }
 
                     &-ttl {
@@ -478,7 +498,12 @@
                         color: #1f86cb;
 
                         @include is-sp {
-                            @include font-line(15,22.5);
+                            @include font-line(17, 22.5);
+                            text-align: justify;
+                        }
+
+                        @include is-max(445px) {
+                            font-size: 3.5vw;
                         }
                     }
 
@@ -488,9 +513,44 @@
                         line-height: 16px;
                         font-weight: 500;
                         padding-top: 13px;
+
+                        @include is-sp {
+                            @include font-line(12.5, 18.5);
+                        }
+
+                       
+                        @include is-max(445px) {
+                           padding-top: 5px;
+                        }
                     }
                 }
             }
+        }
+
+        .bg_1 {
+            position: absolute;
+            top: 0%;
+            right: 4%;
+            z-index: -1;
+        }
+        .bg_2 {
+            position: absolute;
+            top: 21%;
+            left: 0%;
+            z-index: -1;
+        }
+        .bg_3 {
+            position: absolute;
+            top: 58.9%;
+            right: -2%;
+            z-index: -1;
+        }
+        .bg_4 {
+            position: absolute;
+            top: -4%;
+            right: 4%;
+            z-index: -1;
+            width: 122px;
         }
     }
 }
