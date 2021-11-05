@@ -4,6 +4,21 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case case07">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case07_banner.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case07_banner_sp.png" alt="">
+            <div class="c-banner--ttl">
+                <p>バリューアップ<br class="br-sp">事例07</p>
+                <p>Case Studies07</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 07</p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <div class="section_1 case07--s1">
         <!-- //CLIP -->
         <div class="clip-top"></div>
@@ -12,7 +27,7 @@ $imagedir = get_template_directory_uri();
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl case07--s1_ttl">Case Studies</p>
             <h1 class="c-case01__title case07--s1_title">入居者目線の大規模修繕を<br class="u-d-n-pc">行い、住み心地の良さを実現。<br>
-入居率100%を<br class="u-d-n-pc">継続している事例。</h1>
+                入居率100%を<br class="u-d-n-pc">継続している事例。</h1>
             <p class="c-case01__sub case07--s1_sub">2003年竣工、6階建、鉄筋コンクリート、フルリノベーション</p>
         </div>
         <!-- //CONTENT 1 -->

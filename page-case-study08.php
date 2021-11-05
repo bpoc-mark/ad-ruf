@@ -4,6 +4,21 @@ $imagedir = get_template_directory_uri();
 
 ?>
 <div class="page__content case case08">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case08_banner.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case08_banner_sp.png" alt="">
+            <div class="c-banner--ttl">
+                <p>バリューアップ<br class="br-sp">事例08</p>
+                <p>Case Studies08</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 08</p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <div class="section_1 case08--s1">
         <!-- //CLIP -->
         <div class="clip-top"></div>
