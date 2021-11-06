@@ -24,10 +24,10 @@ add_action ('wp_enqueue_scripts', 'enqueue_styles');
 // add_action ('wp_enqueue_scripts', 'enqueue_scripts');
 
 // post pagination
-function your_themes_pagination(){
-    global $wp_query; 
-    echo paginate_links();
-}
+// function your_themes_pagination(){
+//     global $wp_query; 
+//     echo paginate_links();
+// }
 
 
 // Category
@@ -74,19 +74,19 @@ function my_css_attributes_filter($var) {
   return is_array($var) ? array() : '';
 }
 
-wp_link_pages( array(
-    'before'           => '',
-    'after'            => '',
-    'link_before'      => '',
-    'link_after'       => '',
-    'next_or_number'   => 'next',
-    'separator'        => ' ',
-    'nextpagelink'     => 'Next page',
-    'previouspagelink' => 'Previous page',
-    'pagelink'         => '%',
-    'echo'             => 1
-    )
-);
+// wp_link_pages( array(
+//     'before'           => '',
+//     'after'            => '',
+//     'link_before'      => '',
+//     'link_after'       => '',
+//     'next_or_number'   => 'next',
+//     'separator'        => ' ',
+//     'nextpagelink'     => 'Next page',
+//     'previouspagelink' => 'Previous page',
+//     'pagelink'         => '%',
+//     'echo'             => 1
+//     )
+// );
 
 // Add more-link text to excerpt 
 function new_excerpt_more( $excerpt ) { 
