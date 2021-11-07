@@ -1842,6 +1842,7 @@ template{display:none}
 .pp__main-content--row .left .col--cont-info p,.pp__main-content--row .right .col--cont-info p{font-size:3.3vw}
 }@media only screen and (max-width:400px){.c-ruf-txt{font-size:4vw}
 .c-ruf-txt img{width:35%}
+}@media only screen and (max-width:396px){.c-cards09-desc-ttl{font-size:3.5vw}
 }@media only screen and (max-width:389px){.p-cntct-hdr p:nth-child(2){font-size:6vw}
 .p-cntct-hdr p:nth-child(2){font-size:6vw}
 }@media only screen and (max-width:380px){.page__footer .nav-footer-col2 .link .link__inner .c-link__inner{letter-spacing:.13em}

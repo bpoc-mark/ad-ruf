@@ -1311,11 +1311,11 @@
 				@include is-max(820px) {
 					justify-content: center;
 				}
-			
-				@include is-sp {
-					padding: 200px 0 200px 0;
-				}
 			}
+			@include is-sp {
+				padding: 200px 0 200px 0;
+			}
+		}
 
 		.bg_7 {
 			position: absolute;
