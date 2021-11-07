@@ -187,25 +187,20 @@
 
 	@include is-sp {
 		overflow: hidden;
-		padding-top: 30px;
+		display: flex;
+		padding-top: 0;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+		transform: translateX(-100%);
+		transition: .3s ease-in-out;
 	}
 
-	// // clip top
-	// .top-clip {
-	// 	width: 800px;
-	// 	height: 250px;
-	// 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-	// 	background: linear-gradient(to left, #2593d5, #2579bf);
-	// 	position: absolute;
-	// 	top: 0%;
-	// 	right: 0%;
-
-	// 	@include is-sp {
-	// 		width: 278px;
-	// 		height: 161px;
-	// 	}
-	// }
-	// nav images
 	.logo {
 		width: 70px;
 
@@ -222,299 +217,276 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		max-width: 1200px;
+		max-width: 100%;
 		margin: 0 auto;
-		padding: 0 0 0 50px;
 		z-index: 999;
-		display: none;
-
-		@include is-max(985px) {
-			padding: 0;
-		}
-
-		@include is-sp {
-			// padding: 67px 0 0 50px;
+		height: 80px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		@include is-sp{
+			width: calc(100% - 75px);
+			margin: unset;
+			position: unset;
 			height: 100%;
-			z-index: 800;
-			transform: translateX(-100%);
-			transition: 0.3s ease-in-out;
-			z-index: 1000;
+			padding-bottom: 35px;
+			overflow: scroll;
 		}
 
 		.brnd-logo {
 			display: flex;
-			width: 220px;
+			width: 33.33%;
 			align-items: center;
-
-			@include is-sp {
-				width: 530px;
-				display: none;
+			padding-left: 50px;
+			padding-top: 15px;
+			@include is-max(980px){
+				padding-left: 20px;
 			}
-
-			&-link {
-				// width: calc(100% - 77px);
+			@include is-sp{
 				width: 100%;
-				@include font-line(14, 19);
-				font-weight: 700;
-				font-family: cross-platform-yu-gothic;
-				color: #fff;
-				align-items: center;
-
-				@include is-sp {
-					@include font-line(29);
-				}
+				margin-bottom: 22px;
 			}
+			&-link {
+				width: 100%;
+				align-items: center;
+				.logo{
+					margin-right: 15px;
 
-			@include is-sp {
-				width: 450px;
+					@include is-sp{
+						width: 65px;
+					}
+				}
+				p{
+					@include font-line(14, 19);
+					font-weight: 700;
+					font-family: cross-platform-yu-gothic;
+					color: #fff;
+					align-items: center;
+					letter-spacing: .3em;
+
+					@include is-max(980px){
+						font-size: 1.3vw;
+					}
+					@include is-sp{
+						@include font-line(13, 17.5);
+					}
+					@include is-max(375px){
+						@include font-line(10, 17.5);
+					}
+				}
 			}
 		}
 
 		.nav-links {
 			display: flex;
-			width: 728px;
-			justify-content: space-between;
-
-			@include is-max(1060px) {
-				width: 700px;
-			}
-
-			@include is-max(940px) {
-				width: 595px;
-			}
-			@include is-max(825px) {
-				width: 538px;
-			}
-
-			@include is-max(780px) {
-				width: 524px;
-			}
-
-			@include is-sp {
-				display: block;
-				background: linear-gradient(to top, #2579bf, #2593d5);
-				z-index: 1000;
-				height: 100%;
+			justify-content: flex-end;
+			width: 66.67%;
+			@include is-sp{
 				width: 100%;
-				padding: 35px 0 0 0;
-				overflow-y: scroll;
-				overflow-x: hidden;
+				flex-wrap: wrap;
 			}
-
-			.brnd-logo-slide {
-				display: none;
-				width: 261px;
+			&-ul{
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: center;
 				align-items: center;
-				position: absolute;
-				top: 3%;
-				left: 0;
-
-				@include is-sp {
-					padding-left: 17px;
-					width: 280px;
-					display: block;
-				}
-
-				&-link {
-					display: flex;
-					justify-content: space-between;
+				flex-direction: column;
+				width: calc(100% - 150px);
+				padding-right: 30px;
+				@include is-sp{
 					width: 100%;
-					@include font-line(14.5, 19);
+					padding-right: 0;
+				}
+				a{
+					@include font-line(11);
 					font-weight: 700;
 					font-family: cross-platform-yu-gothic;
 					color: #fff;
-					align-items: center;
-					display: none;
-					letter-spacing: 0.24em;
 
-					.logo {
-						width: 65.5px;
-					}
-
-					@include is-sp {
-						display: flex;
-					}
-
-					@include is-max(380px) {
-						flex-direction: column;
-						align-items: flex-start;
+					@include is-sp{
+						@include font-line(15);
+						font-weight: 500;
+						letter-spacing: .28em;
 					}
 				}
-			}
-
-			&-ul {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: flex-end;
-				flex-wrap: wrap;
-				&-pro {
-					font-family: cross-platform-yu-gothic;
-					position: relative;
-
-					&-link {
-						@include font-line(14, 19);
-						font-weight: 700;
-						color: #fff;
-					}
-					@include is-sp {
-						width: 100%;
-					}
-				}
-
-				&-02 {
+				&-01{
+					width: 100%;
 					display: flex;
 					flex-wrap: wrap;
-					justify-content: space-between;
-					width: 541px;
-
-					@include is-max(940px) {
-						width: 435px;
+					justify-content: flex-end;
+					@include is-sp{
+						order: 2;
 					}
-
-					@include is-max(825px) {
-						width: 385px;
-					}
-
-					@include is-max(780px) {
-						width: 370px;
-					}
-
-					@include is-sp {
-						width: 100%;
-						padding-top: 48px;
-					}
-					&-link {
-						font-family: cross-platform-yu-gothic;
-						@include is-sp {
+					li{
+						@include is-sp{
 							width: 100%;
 							border-bottom: 1px solid #fff;
-							padding: 30px 0 22px 23px;
-							@include font-line(15);
-
-							&:nth-child(1) {
-								@include is-max(380px) {
-									margin-top: 25px;
-								}
+							padding: 19px 28px;
+						}
+						&:not(:last-child){
+							&::after{
+								content: "/";
+								@include font-line(11);
+								font-weight: 500;
+								font-family: cross-platform-yu-gothic;
+								color: #fff;
+								padding: 0 15px 0 10px;
 							}
 						}
-						a {
-							@include font-line(11, 15);
-							color: #fff;
-							font-weight: 700;
+						a{
+							font-weight: 500;
+							letter-spacing: .28em;
 						}
-
-						@include is-sp {
-							&:first-child {
+					}
+				}
+				&-02{
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: flex-end;
+					line-height: 1.2;
+					&-link{
+						position: relative;
+						@include is-sp{
+							width: 100%;
+							line-height: 1.5;
+							border-bottom: 1px solid #fff;
+							padding: 19px 28px;
+						}
+						&:nth-child(1){
+							@include is-sp{
 								border-top: 1px solid #fff;
 							}
 						}
-					}
-
-					.dd {
-						position: relative;
-
-						&::before {
-							content: "";
-							position: absolute;
-							top: 40%;
-							left: 110%;
-							background: url(../../release/image/header/drop-d.png);
-							background-repeat: no-repeat;
-							width: 100%;
-							height: 100%;
-							color: #fff;
-
-							@include is-sp {
-								width: 9px;
-								left: unset;
-								right: 0;
-								transform: rotate(-90deg);
-								top: 0;
+						&:nth-child(1), &:nth-child(5){
+							img{
+								display: none;
 							}
 						}
-					}
+						&:not(:last-child){
+							margin-right: 30px;
 
-					.dd2 {
-						@include is-sp {
-							position: relative;
+							@include is-max(1100px){
+								margin-right: 20px;
+							}
+							@include is-sp{
+								margin-right: 0;
+							}
+						}
+						&:hover{
+							.nav-links-ul-02-link-submenu{
+								display: block;
+								@include is-sp{
+									display: none;
+								}
+							}
+						}
+						img{
+							width: 7px;
+							position: absolute;
+							top: 50%;
+							right: -10px;
+							transform: translate(0, -40%);
+							@include is-max(1100px){
+								right: -5px;
+							}
 
-							&::before {
-								content: "";
-								position: absolute;
-								top: 40%;
-								left: 110%;
-								background: url(../../release/image/header/drop-d.png);
-								background-repeat: no-repeat;
+							@include is-sp{
+								right:0;
+							}
+						}
+						a{
+							letter-spacing: .54em;
+						}
+
+						&-submenu{
+							display: none;
+							position: absolute;
+							bottom: -65px;
+							left: 50%;
+							transform: translate(-50%, 0);
+							background-color: #fff;
+							@include is-sp{
+								position: relative;
+								bottom: unset;
+								left: unset;
+								transform: unset;
 								width: 100%;
-								height: 100%;
-								color: #fff;
-
-								@include is-sp {
-									width: 9px;
-									left: unset;
-									right: 0;
-									transform: rotate(-90deg);
-									top: 0;
+							}
+							&::before{
+								content: "";
+								display: block;
+								width: 100%;
+								height: 10px;
+								position: absolute;
+								top: -10px;
+								left: 0;
+							}
+							li{
+								white-space: nowrap;
+								padding: 0 10px;
+								text-align: center;
+								a{
+									color: #257bc0;
 								}
 							}
 						}
 					}
 				}
-
-				&-close {
-					display: none;
-
-					@include is-sp {
-						display: block;
-						padding-top: 35px;
-						color: #fff;
-						height: 110vh;
-					}
-
-					background-color: #81b3d4;
-					// position: absolute;
-					// top: 0;
-					// right: 0;
-					width: 77px;
-					// height: 100%;
-					text-align: center;
-					img {
-						width: 25px;
-					}
-				}
 			}
-
-			&-mail {
+			&-mail{
+				background-color: pink;
 				width: 150px;
-				height: 80px;
-				text-align: center;
-				background-color: #b71e32;
-				padding: 0 0 2px 2px;
-
-				@include is-sp {
-					width: 247px;
-					padding: 2px;
-					margin: 30px auto;
+				@include is-sp{
+					width: 80%;
+					margin: 30px auto 0;
 				}
-
-				&-link {
-					display: inline-block;
-					padding: 14px 22px 9px 20px;
-					@include font-line(14, 18);
-					color: #fff;
-					font-weight: 500;
+				&-link{
+					background-color: #b71e32;
+					width: 100%;
+					height: 100%;
+					display: block;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction: column;
 					border-left: 1px solid #fff;
 					border-bottom: 1px solid #fff;
-
-					@include is-sp {
-						padding: 14px 0 9px 20px;
-						width: 100%;
-						border: 1px solid #fff;
-						height: 100%;
+					box-shadow: 0px -1px 0px 4px #b71e32;
+					-webkit-box-shadow: 0px -1px 0px 4px #b71e32;
+					-moz-box-shadow: 0px -1px 0px 4px #b71e32;
+					@include is-sp{
+						border-right: 1px solid #fff;
+						border-top: 1px solid #fff;
+						padding: 25px 0;
+					}
+					.mail{
+						width: 22px;
+					}
+					p{
+						@include font-line(14, 18);
+						font-weight: 500;
+						font-family: cross-platform-yu-gothic;
+						color: #fff;
+						text-align: center;
+						letter-spacing: .13em;
+						margin-top: 5px;
+						@include is-sp{
+							margin-top: 15px;
+						}
 					}
 				}
 			}
+		}
+	}
+
+	&-close{
+		width: 75px;
+		background-color: #81b3d4;
+		display: none;
+
+		@include is-sp{
+			display: block;
 		}
 	}
 
@@ -880,118 +852,8 @@
 			}
 		}
 	}
-	// .smple {
-	//     position: absolute;
-	//         bottom: 0;
-	//         left: 0;
-	//         height: 380px;
-	//         width: 100%;
-	//         background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(37,121,191,1));
-	//         z-index: 5;
-	//         display: non
-	// }
 }
 
-.nav-sp-wrppr {
-	transform: translateX(100%);
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 999;
-	width: 100%;
-	background: #2593d5;
-	transition: 0.2s ease-in-out;
-	height: 100vh;
-	overflow: scroll;
-
-	.nav-sp {
-		display: flex;
-
-		&-link {
-			width: calc(100% - 153px);
-
-			&-logo {
-				padding: 70px 0 43px 50px;
-
-				a {
-					display: flex;
-					align-items: center;
-
-					img {
-						width: 131px;
-					}
-
-					p {
-						margin-left: 25px;
-						@include font-line(26, 35);
-						font-weight: 700;
-						color: #fff;
-					}
-				}
-			}
-
-			&-lists {
-				&-ttl {
-					display: flex;
-					justify-content: space-between;
-					border-bottom: 1px solid #fff;
-					border-top: 1px solid #fff;
-					padding: 0 45px 0 55px;
-
-					a {
-						padding: 50px 0;
-						font-family: cross-platform-yu-gothic;
-						font-weight: 500;
-						color: #fff;
-						@include font-line(30, 28);
-					}
-				}
-
-				&-list {
-					display: flex;
-					justify-content: space-between;
-					align-items: center;
-					padding: 0 45px 0 55px;
-					height: 0;
-					overflow: hidden;
-
-					a {
-						padding: 50px 0;
-						font-family: cross-platform-yu-gothic;
-						font-weight: 500;
-						color: #fff;
-						@include font-line(30, 28);
-					}
-					p {
-						color: #fff;
-						@include font-line(30, 28);
-					}
-				}
-			}
-		}
-
-		.sp-close {
-			width: 153px;
-			background-color: #81b3d4;
-			padding: 37px 35px 0 45px;
-			color: #fff;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			cursor: pointer;
-
-			img {
-				margin-bottom: 11px;
-				width: 49px;
-			}
-
-			p {
-				font-family: cross-platform-yu-gothic;
-				@include font-line(22, 12);
-			}
-		}
-	}
-}
 .slide {
 	transform: translateX(0%);
 }
@@ -1017,7 +879,7 @@
 			width: 50%;
 			display: flex;
 			justify-content: center;
-			padding: 31.5px 0;
+			padding: 18px 0;
 			background: #fff;
 			align-items: center;
 			cursor: pointer;
@@ -1032,7 +894,7 @@
 				.menu-line1,
 				.menu-line2,
 				.menu-line3 {
-					height: 5px;
+					height: 2.5px;
 					background: #257bc0;
 					border-radius: 25px;
 				}
@@ -1056,7 +918,7 @@
 			justify-content: center;
 
 			img {
-				width: 35px;
+				width: 36.5px;
 			}
 			&-txt {
 				@include font-line(15);
@@ -1064,9 +926,11 @@
 				font-weight: 500;
 				color: #fff;
 				padding-left: 10px;
-
-				@include is-max(342px) {
-					font-size: 4vw;
+				line-height: 18.5px;
+				letter-spacing: .14em;
+				@include is-max(375px) {
+					letter-spacing: 0;
+					@include font-line(13);
 				}
 			}
 		}

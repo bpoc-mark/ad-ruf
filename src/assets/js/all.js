@@ -25,7 +25,15 @@ $('.slider').slick({
     ]
   });
   
-
+$(document).on('click', '.submenu-clk', function(){
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+    $(this).find('.nav-links-ul-02-link-submenu').slideUp();
+  }else{
+    $(this).addClass('active');
+    $(this).find('.nav-links-ul-02-link-submenu').slideDown();
+  }
+})
   
   let clickAllowed = true;
   $(window).on('load resize', function () {
@@ -75,8 +83,9 @@ $('.slider').slick({
   const slideOut = ()=> {
       const body = document.querySelector('body');
       const burger = document.querySelector('.brgr-mail-burger');
-      const nav2 = document.querySelector('.top-header-nav');
-      const menu_close = document.querySelector('.nav-links-ul-close');
+      const nav2 = document.querySelector('.top-header');
+
+      const menu_close = document.querySelector('.top-header-close a');
 
     burger.addEventListener('click', ()=>{
       nav2.style = "transform: translateX(0)"; 
@@ -94,6 +103,7 @@ $('.slider').slick({
 			clickAllowed = true;
 		}
 		else{
-      $('.top-header-nav').removeAttr('style');
+      $('.top-header').removeAttr('style');
+      $('.nav-links-ul-02-link-submenu').removeAttr('style');
 		}
   })

@@ -19,46 +19,79 @@
     <main>
         <div class="page__header">
             <div class="top-header">
-                <div class="top-header-nav u-d-f u-jc-sb">
+                <div class="top-header-nav">
                     <div class="brnd-logo">
-                        <a class="brnd-logo-link u-d-f u-jc-sb" href="<?php echo esc_url(home_url('/')); ?>">
+                        <a class="brnd-logo-link u-d-f" href="<?php echo esc_url(home_url('/')); ?>">
                             <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                            <p>丸の内 株式会社ルーフ </p>
+                            <p>丸の内 株式会社ルーフ</p>
                         </a>
                     </div>
 
                     <div class="nav-links">
                         <div class="nav-links-ul">
-                            <div class="nav-links-ul-pro">
-
-                                <div class="brnd-logo-slide">
-                                    <a class="brnd-logo-slide-link u-d-f u-jc-sb" href="">
-                                        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                                        <p>丸の内 株式会社ルーフ </p>
-                                    </a>
-                                </div>
-                                <a class="nav-links-ul-pro-link u-d-n-sp" href="">会社概要　/ プライバシーポリシー</a>
-                            </div>
-                            <div class="nav-links-ul-02">
-                                <div class="nav-links-ul-02-link dd2">
+                            <ul class="nav-links-ul-01">
+                                <li class="nav-links-ul-01-link">
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">会社概要</a>
+                                </li>
+                                <li class="nav-links-ul-01-link">
+                                    <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">プライバシーポリシー</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-links-ul-02">
+                                <li class="nav-links-ul-02-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <a href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd">
-                                    <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">事業内容</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd">
-                                    <a href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">企業情報</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd">
-                                    <a href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">バリューアップ事例</a>
-                                </div>
-                                <div class="nav-links-ul-02-link dd2">
+                                </li>
+                                <li class="nav-links-ul-02-link submenu-clk">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <a>事業内容</a>
+                                    <ul class="nav-links-ul-02-link-submenu">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-links-ul-02-link submenu-clk">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <a>企業情報</a>
+                                    <ul class="nav-links-ul-02-link-submenu">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-links-ul-02-link submenu-clk">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <a>バリューアップ事例</a>
+                                    <ul class="nav-links-ul-02-link-submenu">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-links-ul-02-link">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <a href="">不動産コラム</a>
-                                </div>
-
-                            </div>
-
-
+                                </li>
+                            </ul>
                         </div>
                         <div class="nav-links-mail">
                             <a class="nav-links-mail-link" href="">
@@ -68,174 +101,15 @@
                             </a>
                         </div>
                     </div>
-                    <a href="javascript:void(0)" class="nav-links-ul-close"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/sp_menu_close.svg" alt=""> CLOSE</a>
                 </div>
-
-
-                <!-- <div class="top-header-bnnr">
-
-                    <div class="brnd-logo-sp">
-                        <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                            <p>丸の内 株式会社ルーフ </p>
-                        </a>
-                    </div>
-                    <div class=" top-header-bnnr-cnt u-d-f">
-                        <div class="top-header-bnnr-hdr-01">
-                            <div class="top-header-bnnr-hdr-cntnt01-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
-                            </div>
-                            <div class="top-header-bnnr-hdr-01-txt">
-                                <p>丸の内株式会社ルーフ</p>
-                            </div>
-                        </div>
-                        <div class="top-header-bnnr-hdr-02">
-                            <div class="top-header-bnnr-hdr-02-txt">
-                                <p class="top-header-bnnr-hdr-02-txt-1">
-                                    選ばれし方々に選ばれ、
-                                    <br>
-                                    そして選ばれ続ける
-                                </p>
-                                <div class="top-header-bnnr-hdr-02-txt-sp">
-                                    <div class="top-header-bnnr-hdr-02-txt-sp-cont">
-                                        <p class="top-header-bnnr-hdr-02-txt-sp-cont-1">
-                                            収益不動産の売買・管理・運用
-                                        </p>
-                                    </div>
-                                    <div class="top-header-bnnr-hdr-02-txt-sp-cont">
-                                        <p class="top-header-bnnr-hdr-02-txt-sp-cont-2">
-                                            アセットマネジメント
-                                        </p>
-                                    </div>
-                                </div>
-                                <p class="top-header-bnnr-hdr-02-txt-2">
-                                    Chosen by the chosen people, <br> and continues to be chosen
-                                </p>
-                            </div>
-
-                            <div class="top-header-bnnr-hdr-02-spimg">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
-                            </div>
-                            <div class="top-header-bnnr-hdr-02-desc">
-                                <div class="top-header-bnnr-hdr-02-desc-01">
-                                    <p class="top-header-bnnr-hdr-02-desc-01-txt">収益不動産の売買・管理・運用</p>
-                                </div>
-                                <div class="top-header-bnnr-hdr-02-desc-02">
-                                    <p class="top-header-bnnr-hdr-02-desc-02-txt">アセットマネジメント</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="top-header-bnnr-txt01">
-                        <p class="top-header-bnnr-txt01-hon">
-                            あなたの不動産
-                        </p>
-                    </div>
-                    <div class="top-header-bnnr-txt02">
-                        <p class="top-header-bnnr-txt02-ver">
-                            収益を最大化。
-                        </p>
-                    </div>
-                    <div class="fade"></div>
-                </div> -->
-                <!-- <div>
-                    <div class="top-clip"></div>
-                </div> -->
-                <div class="bottom-clip"></div>
+                <div class="top-header-close">
+                    <a>
+                        close
+                    </a>
+                </div>
             </div>
         </div>
-
-        <!-- <div class="nav-sp-wrppr" style="display: none;">  
-            <div class="nav-sp">
-                <div class="nav-sp-link">
-                    <div class="nav-sp-link-logo">
-                        <a href="">
-                            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                            <p>丸の内 株式会社ルーフ </p>
-                        </a>
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">TOP</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">事業内容</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">バリューアップ事例</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">不動産コラム</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">会社概要</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                    <div class="nav-sp-link-lists">
-                        <div class="nav-sp-link-lists-ttl">
-                            <a href="">プライバシーポリシー</a>
-                            <a href="">></a>
-                        </div>
-
-                        <div class="nav-sp-link-lists-list">
-                            <a href="">事業内容</a>
-                            <p>+</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="sp-close">
-                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/close.png" alt="">
-                    <p>CLOSE</p>
-                </div>
-            </div>
-        </div> -->
-
+        
         <div class="float-menu">
             <div class="brgr-mail">
                 <a class="brgr-mail-burger">
