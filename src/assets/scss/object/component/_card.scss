@@ -489,7 +489,7 @@
     &-desc {
         text-align: center;
         background-color: #fff;
-        padding:20px 0 18px 0;
+        padding:20px 10px 18px;
         
 
       &-ttl {
@@ -497,6 +497,10 @@
         line-height: 21px;
         font-weight: 700;
         font-family: cross-platform-yu-gothic;
+
+		@include is-max(396px) {
+			font-size: 3.5vw;
+		}
       }
 
       &-txt {

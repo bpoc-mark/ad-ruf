@@ -505,12 +505,12 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="c-buttonCase">
-                    <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                <div class="l-wrap">
+                    <div class="c-buttonCase">
+                        <p class="txt">その他の事例を見る</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
