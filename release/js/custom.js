@@ -1,36 +1,33 @@
 "use strict";
 
 $('.slider').slick({
+  prevArrow: "<button class='prev-arrow slick-prev'><button>",
+  nextArrow: "<button class='next-arrow slick-next'></button>",
   dots: false,
+  infinite: true,
+  arrows: true,
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
-  infinite: true,
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       infinite: true,
-      dots: true
+      arrows: true,
+      swipe: true
     }
   }, {
-    breakpoint: 751,
+    breakpoint: 750,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      centerMode: true
+      infinite: true,
+      arrows: true,
+      swipe: true
     }
-  }, {
-    breakpoint: 480,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  } // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
-  ]
+  }]
 });
 var clickAllowed = true;
 $(window).on('load resize', function () {

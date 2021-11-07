@@ -4,7 +4,7 @@
 	display: flex;
 	position: relative;
 
-	.pc-left {
+	.prev-arrow {
 		position: absolute;
 		top: 29%;
 		left: -4%;
@@ -15,7 +15,7 @@
 		z-index: 10;
 		
 
-		@include is-max(743px) {
+	 @include is-sp {
 			background-image: url(../image/page/top-page/arr-left-sp.png);
 			width: 21px;
 			height: 36px;
@@ -26,7 +26,8 @@
 			background-color: #fff;
 		}
 	}
-	.pc-right {
+	
+	.next-arrow {
 		position: absolute;
 		top: 29%;
 		right: -2%;
@@ -37,7 +38,7 @@
 		z-index: 10;
 		
 
-		@include is-max(743px) {
+		@include is-sp {
 			background-image: url(../image/page/top-page/arr-right-sp.png);
 			right: 0;
 			width: 40px;
@@ -212,6 +213,7 @@
 			font-weight: 500;
 			@include font-line(11);
 			line-height: 16.5px;
+			text-align: center;
 		}
 	}
 }
