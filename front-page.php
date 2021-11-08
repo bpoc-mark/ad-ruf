@@ -535,16 +535,16 @@
                                 <p class="row01-ttl-01-txt01">代表からのご挨拶</p>
                             </div>
                             <div class="row01-ttl-02">
-                                <p class="row01-ttl-01-txt02">message</p>
+                                <p class="row01-ttl-01-txt02">MESSAGE</p>
                             </div>
                         </div>
                         <div class="sect_7-cntnt-rows-01">
-                            <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_9.png" alt="">
+                            <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec7_bg_sp.png" alt="">
                             <div class="sect_7-cntnt-rows-01-txt">
                                 <p>message</p>
                                 <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
                             </div>
-                            <p class="sect_7-cntnt-rows-01-bdg">あたり</p>
+                            <p class="sect_7-cntnt-rows-01-bdg u-d-n-sp">あたり</p>
                         </div>
                         <div class="sect_7-cntnt-rows-02">
                             <div class="sect_7-cntnt-rows-02-txt">
@@ -597,7 +597,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -610,7 +610,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -623,7 +623,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -636,7 +636,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
