@@ -35,7 +35,6 @@
                 </div>
             </div>
         </div>
-
         <div class="sect_1__box-sm">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/groupbusiness/rect_small.png" alt="">
         </div>
