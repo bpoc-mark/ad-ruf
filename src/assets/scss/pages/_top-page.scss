@@ -8,7 +8,7 @@
 		position: relative;
 		padding-top: 100px;
 		margin-top: -100px;
-		
+
 		// clip top
 		.top-clip {
 			width: 800px;
@@ -47,8 +47,8 @@
 			// 	clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
 			// }
 
-			@include is-sp{
-			clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+			@include is-sp {
+				clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 			}
 		}
 
@@ -371,21 +371,21 @@
 		position: relative;
 
 		&::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            top: -16px;
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -16px;
 			z-index: 150;
-            height: 100px;
-           background: linear-gradient(to right, #2579bf, #2593d5);
-            -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+			height: 100px;
+			background: linear-gradient(to right, #2579bf, #2593d5);
+			-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
 			clip-path: polygon(0 0, 0% 100%, 100% 0);
 
-			@include is-sp{
+			@include is-sp {
 				top: 39px;
 				height: 55px;
 			}
-        }
+		}
 
 		.clipPath {
 			clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
@@ -400,7 +400,6 @@
 				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
 				margin: -40px 0 0 0;
 			}
-			
 		}
 
 		.clip-bottom {
@@ -414,7 +413,7 @@
 
 			@include is-sp {
 				padding: 100px 0 0 0;
-					clip-path: polygon(0 0, -70% 100%, 100% 0);
+				clip-path: polygon(0 0, -70% 100%, 100% 0);
 			}
 		}
 
@@ -958,6 +957,10 @@
 			padding-bottom: 60px;
 			z-index: 1;
 
+			@include is-sp {
+				padding-top: 8px;
+			}
+
 			&-row {
 				display: flex;
 				justify-content: space-between;
@@ -971,9 +974,14 @@
 
 						&-01-txt01 {
 							@include font-line(25, 37.5);
-							letter-spacing: 0.15em;
+							letter-spacing: 0.5em;
 							color: #e3474d;
 							font-family: yu-mincho-pr6n, sans-serif;
+
+							@include is-sp {
+								letter-spacing: -1px;
+								padding-bottom: 10px;
+							}
 						}
 
 						&-01-txt02 {
@@ -1006,9 +1014,10 @@
 							font-family: century-gothic, sans-serif;
 							font-weight: 400;
 							position: absolute;
-							top: 0;
-							right: 10px;
+							top: 11px;
+							right: 17px;
 							color: $color-text03;
+							line-height: 1;
 							letter-spacing: 0.24em;
 							span {
 								color: #000;
@@ -1020,11 +1029,12 @@
 							font-family: century-gothic, sans-serif;
 							font-weight: 400;
 							position: absolute;
-							top: 32px;
-							right: 7px;
+							top: 37px;
+							right: 11px;
 							-webkit-writing-mode: vertical-lr;
 							writing-mode: vertical-lr;
 							letter-spacing: 0.24em;
+							line-height: 1;
 							span {
 								color: #000;
 							}
@@ -1099,7 +1109,7 @@
 
 					@include is-sp {
 						width: 100%;
-						margin-bottom: 50px;
+						margin-bottom: 25px;
 					}
 				}
 
@@ -1158,7 +1168,9 @@
 							@include is-sp {
 								@include font-line(13.5, 20);
 								letter-spacing: 0.1em;
-								margin-bottom: 10px;
+								margin-bottom: 50px;
+								line-height: 22.5px;
+								text-align: justify;
 							}
 						}
 					}
@@ -1167,6 +1179,18 @@
 
 						.txt {
 							color: #e3474d;
+							@include is-sp {
+								letter-spacing: 0.13em;
+								font-size: 15px;
+								font-weight: 700;
+							}
+						}
+
+						img {
+							@include is-sp {
+								width: 6px;
+								height: 12.3px;
+							}
 						}
 					}
 
@@ -1207,7 +1231,7 @@
 
 			@include is-sp {
 				position: absolute;
-				top: 2%;
+				top: -4%;
 				left: 3%;
 				z-index: -1;
 				display: block;
@@ -1221,8 +1245,8 @@
 
 			@include is-sp {
 				position: absolute;
-				bottom: 82%;
-				right: 2%;
+				bottom: 93%;
+				right: 1%;
 				z-index: -1;
 				width: 163px;
 			}
@@ -1307,7 +1331,7 @@
 				padding: 69px 0 58px 0;
 				row-gap: 30px;
 				column-gap: 30px;
-				
+
 				@include is-max(820px) {
 					justify-content: center;
 				}
@@ -1363,7 +1387,7 @@
 		.bg_2 {
 			position: absolute;
 			left: 0%;
-			top: -4%;		
+			top: -4%;
 
 			@include is-sp {
 				position: absolute;
