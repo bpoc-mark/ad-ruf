@@ -8,6 +8,7 @@
     }
 
     .c-banner{
+        padding: 0 0 100px 0;
 			&--ttl{
 			@include is-sp{
 				padding: 20px 13px 20px 30px;
@@ -106,20 +107,30 @@
 			padding: 90px 0 0 0;
             clip-path: none;
 		}
+
 	}
 
         .clipPath {
-            clip-path:  polygon(100% 0, 100% 100%, 85% 93%, 0 100%, 0 9%);
+            clip-path:  polygon(100% 0, 100% 100%, 85% 93%, 0 100%, 0 5%);
             background: linear-gradient(#2579BF, #2593D5);
-            margin-top: -147px;
+            margin-top: -116px;
+            padding-top: 0;
 
             @include is-sp {
-                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 10%);
+                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 5%);
             }
         }
 
         .cntnt {
             padding:195px 0 145px 0;
+
+            @include is-sp{
+                padding:125px 0 145px 0;
+            }
+
+            .txt{
+             color: #258acf;
+           }
         }
 
         &-ttl {
@@ -353,7 +364,9 @@
 
 
         &-cntnt {
-
+            .txt{
+               color: #258acf;
+           }
             &-rows {
                 margin-bottom: 60px;
                 align-items: center;

@@ -27,8 +27,6 @@ $imagedir = get_template_directory_uri();
     </div>
     <div class="top-clip"></div>
     <div class="section_1">
-        <!-- //CLIP -->
-        <div class="clip-top"></div>
         <div class="clipPath">
             <div class="l-wrap">
                 <img class="sec1-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-bg1.png" alt="">

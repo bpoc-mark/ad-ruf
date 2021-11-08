@@ -1,0 +1,272 @@
+[33mcommit 25fc013ef7826b61cb1f7895c5d699cf91b45872[m[33m ([m[1;36mHEAD -> [m[1;32mmerge-file[m[33m, [m[1;31morigin/merge-file[m[33m)[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 15:59:25 2021 +0800
+
+    added about banner page
+
+[33mcommit 3cfb4c1cb0cf289b63ecfa94a75e7642d03c9f76[m
+Merge: 578d5da 828bcdb
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 13:48:03 2021 +0800
+
+    update contact form 7
+
+[33mcommit 578d5da92368d329c052c79966055f2166afac01[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 13:45:04 2021 +0800
+
+    added baner about
+
+[33mcommit 828bcdb396e7a216a285746fc1e83ae2d5cb29bf[m[33m ([m[1;31morigin/denver[m[33m)[m
+Author: arsua-greg <gregarsua@bpoc.co.jp>
+Date:   Mon Nov 8 13:44:06 2021 +0800
+
+    edit shortcode
+
+[33mcommit 86c250d5bcc4204c75489ecaf7b451ae652675b3[m
+Merge: f34dd17 f47b924
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 13:26:59 2021 +0800
+
+    added contact form and thanks page
+
+[33mcommit f34dd17665afcaba616faf9dde46c91e9a790744[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 13:14:16 2021 +0800
+
+    added about page
+
+[33mcommit a78814626bb8ae582458a0d09fef0256a1eac367[m
+Merge: 3506029 7bc5949
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 12:00:44 2021 +0800
+
+    added about page
+
+[33mcommit 35060293cc14815c3b6970c0068057ac8a08fea3[m
+Merge: c5667f0 06dbdec
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 11:50:51 2021 +0800
+
+    added page-interview
+
+[33mcommit 7bc59492ee95209038c4179016ea12704548c471[m[33m ([m[1;31morigin/page_about-us[m[33m)[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Mon Nov 8 10:20:28 2021 +0800
+
+    update about-us page
+
+[33mcommit c5667f05b5ea635b30cd05013e585e1497d98e8d[m
+Merge: c5e3e91 57306c3
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 09:21:14 2021 +0800
+
+    added new-header branch
+
+[33mcommit c5e3e91f96568906cb8307c47ad41f9b4adce5be[m[33m ([m[1;31morigin/front_page_corrections[m[33m)[m
+Merge: 530a6eb 12d6925
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Mon Nov 8 09:13:21 2021 +0800
+
+    merging front-page-sec6 branch
+
+[33mcommit 12d692516314cb288dd519b497dd1d13d74d00c4[m[33m ([m[1;31morigin/front-page-sec6[m[33m)[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Sun Nov 7 23:17:24 2021 +0800
+
+    change:update slider btn
+
+[33mcommit 57306c3b669b7f1e539482470f1fbd7ff411a8d3[m[33m ([m[1;31morigin/new-header[m[33m)[m
+Author: bpoc-mark <markariel.maata@gmail.com>
+Date:   Sun Nov 7 23:14:18 2021 +0800
+
+    remove sp element on header / lacking close button design and arrow design on sp view
+
+[33mcommit e0cacde63902f93d274463d91e8c1a18e094bf44[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Sun Nov 7 23:12:50 2021 +0800
+
+    change:update slider btn
+
+[33mcommit 287c82082a95d28c3bb961e3077d7b365d1d8cc4[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Sun Nov 7 13:06:47 2021 +0800
+
+    change:fix slider sec6
+
+[33mcommit f8ffc4a646daa560efb3dcf618e7432bf86428e8[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Sat Nov 6 01:13:54 2021 +0800
+
+    change update about-pa sp view
+
+[33mcommit 3d281a2244384ea6fddf821c53a1b9a360d839d8[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Fri Nov 5 18:03:35 2021 +0800
+
+    change:update sec6 slick
+
+[33mcommit 530a6eb39c1647fbb5dd883ebf7bee28451bfcc1[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 17:53:30 2021 +0800
+
+    new update page-case-study-main
+
+[33mcommit 52f9a602bcbffb1ef667184e61a883836e584a79[m
+Merge: bf1d4f2 3f81416
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 16:10:17 2021 +0800
+
+    added page-case-study-main
+
+[33mcommit bf1d4f2822e501cada3bb3fb8e85fb1ed7c7a9d8[m
+Merge: fbf523b e8d3ebc
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 15:54:59 2021 +0800
+
+    added page_managementphilosophy
+
+[33mcommit fbf523b2e99d9cf68fc60e3d10a6832e50499625[m
+Merge: 6a40f33 f619564
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 13:40:53 2021 +0800
+
+    added page-message
+
+[33mcommit 6a74c05a96d2ef79250310a5b4056a3283ded6a3[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Fri Nov 5 11:43:26 2021 +0800
+
+    change: update sec 3 about page
+
+[33mcommit 255b9550c160306598a71be71f9ecc9baaf02b14[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Fri Nov 5 11:02:13 2021 +0800
+
+    change: sec-3 about page
+
+[33mcommit 6a40f331104b915ff632e46947e4734a29c08d97[m
+Merge: 7f6a090 68fd84d
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 10:28:12 2021 +0800
+
+    added our-enterprises and update privacy-policy
+
+[33mcommit 7f6a09093197a5b4ab44f5e3dedc236349e77095[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Fri Nov 5 09:47:46 2021 +0800
+
+    added cases 6 7 8 pages
+
+[33mcommit dbee83810675de754e53babacce70927c75ab949[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Fri Nov 5 01:53:12 2021 +0800
+
+    change: update sp-view sec3
+
+[33mcommit 01c1be0710029e9c77da15604968ac8d3b3c3715[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 18:04:22 2021 +0800
+
+    added case 2-5 cases
+
+[33mcommit 2b9ba04be5b1e770fb63fbb371b609f4429f56f5[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Thu Nov 4 18:02:01 2021 +0800
+
+    change:update sec2 sp view
+
+[33mcommit 1ab4c22672f2704da025f9c0ada90a97e5ad84c5[m
+Merge: 082d649 0545c36
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 15:42:15 2021 +0800
+
+    added page-privacy-policy
+
+[33mcommit 082d6494cc531b3442e48a234bfb8f840fb17560[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 15:37:01 2021 +0800
+
+    fix front page banner and footer for safari
+
+[33mcommit 86c83614453af0d032798c05878ffb8713cceeb3[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Thu Nov 4 13:49:53 2021 +0800
+
+    change:fixed sp view sec1 about-page
+
+[33mcommit 25c306f9086bcd140c3f6d07dea748589448f199[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 13:07:34 2021 +0800
+
+    merged 3 pages
+
+[33mcommit f61956447515ccdf1463efdcdd6d4d28d00e536c[m[33m ([m[1;31morigin/page_message[m[33m)[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Thu Nov 4 11:19:25 2021 +0800
+
+    change:update sp view message page
+
+[33mcommit 6f1478dfe7dafa67f03117bfd52b3f97c844bfa5[m
+Merge: 8e0dea5 b35bfb2
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 10:19:53 2021 +0800
+
+    adding updated footer area
+
+[33mcommit 8e0dea5e540c77e91f496ef4b9b3d1aaf4f3c65f[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Thu Nov 4 10:16:13 2021 +0800
+
+    fix access, office_gallery, case01 on banner are
+
+[33mcommit 06dbdec7b0f030cf00f761cb449064e74febacd6[m[33m ([m[1;31morigin/interview_page[m[33m)[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Wed Nov 3 23:16:32 2021 +0800
+
+    change: update sp view interview page
+
+[33mcommit 3c3ace03ab4fba9921dc4eaa535704d1f38bc86a[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Wed Nov 3 23:10:14 2021 +0800
+
+    change:update sec3 sp view
+
+[33mcommit ddfb009f0ec6785cd79ff2295e6c5212566da48e[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Wed Nov 3 22:21:02 2021 +0800
+
+    change: update sp view sec2
+
+[33mcommit 706ab0b02a3777ae9950208b4801813454b59f22[m
+Author: roi-louise <roi@bpoc.co.jp>
+Date:   Wed Nov 3 18:01:29 2021 +0800
+
+    change: update sec1 interviw page
+
+[33mcommit e9894a241c5e20cb1ed3c5253205cc9680f00775[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Wed Nov 3 17:46:39 2021 +0800
+
+    added case-study1
+
+[33mcommit c832caa0b17da20a8ee76576e64bca2f024509c9[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Wed Nov 3 16:44:48 2021 +0800
+
+    added case css
+
+[33mcommit c1298cfdb6f0703cc63706a5cad81fbe1b020e5b[m
+Merge: 7f01007 2f0eaed
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Wed Nov 3 16:37:09 2021 +0800
+
+    added case css
+
+[33mcommit 2f0eaedd136aac1af405e475052dd01eaebf43cd[m[33m ([m[1;31morigin/page-case-study-1-8[m[33m, [m[1;32mpage-case-study-1-8[m[33m)[m
+Author: bpoc-denver <denver.gomez@bpoc.co.jp>
+Date:   Wed Nov 3 16:35:01 2021 +0800
+
+    resave to add css case
+
+[33mcommit 7f01007970f5f4cf4a33e3d8c5cd9
