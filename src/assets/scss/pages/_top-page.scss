@@ -786,7 +786,7 @@
 						&-01-txt02 {
 							@include font-line(12.5, 10);
 							letter-spacing: 0.21em;
-							color: #95C6E7;
+							color: #95c6e7;
 							font-family: century-gothic, sans-serif;
 						}
 						@include is-sp {
@@ -947,7 +947,7 @@
 							@include font-line(10, 20);
 							font-weight: 400;
 							letter-spacing: 0.32em;
-							color: #95C6E7;
+							color: #95c6e7;
 							padding: 19px 0 28px 0;
 
 							@include is-sp {
@@ -1388,7 +1388,7 @@
 		}
 
 		&-cntnt {
-			padding: 164px 0 160px 0;
+			padding: 164px 0 120px 0;
 
 			&-txt {
 				border-left: 3px solid #fff;
@@ -1399,6 +1399,8 @@
 					font-family: century-gothic, sans-serif;
 					@include font-line(10, 20);
 					letter-spacing: 0.32em;
+					color: #95c6e7;
+					padding-bottom: 10px;
 
 					@include is-sp {
 						@include font-line(12.5, 10);
@@ -1409,10 +1411,16 @@
 					font-family: yu-mincho-pr6n, sans-serif;
 					@include font-line(26, 37);
 					letter-spacing: 0.34;
+					padding-bottom: 10px;
 
 					@include is-sp {
 						@include font-line(25, 37.5);
-						letter-spacing: 0.15;
+						letter-spacing: 0.15em;
+						padding-top: 10px;
+					}
+
+					@include is-max(345px) {
+						font-size: 7vw;
 					}
 				}
 
@@ -1426,6 +1434,7 @@
 					@include is-sp {
 						@include font-line(13.5, 20);
 						letter-spacing: 0.1em;
+						text-align: justify;
 					}
 				}
 			}
@@ -1436,13 +1445,18 @@
 				padding: 69px 0 58px 0;
 				row-gap: 30px;
 				column-gap: 30px;
+				justify-content: space-between;
 
 				@include is-max(820px) {
-					justify-content: center;
+					justify-content: space-between;
+				}
+
+				@include is-sp {
+					column-gap: 0;
 				}
 			}
 			@include is-sp {
-				padding: 200px 0 200px 0;
+				padding: 120px 0 100px 0;
 			}
 		}
 
@@ -1450,6 +1464,7 @@
 			position: absolute;
 			right: 31%;
 			top: 9%;
+			z-index: -9999;
 
 			@include is-sp {
 				position: absolute;
@@ -1467,8 +1482,8 @@
 
 			@include is-sp {
 				position: absolute;
-				top: 28%;
-				left: 10%;
+				top: 32.5%;
+				left: 3%;
 				z-index: -1;
 				width: 115px;
 			}
@@ -1478,12 +1493,29 @@
 	.sect_6 {
 		.fp {
 			clip-path: none !important;
-			padding: 38px 0 !important;
+			padding: 38px 0 97.5px !important;
+
+			.c-case--items__contents {
+				padding-bottom: 30px;
+			}
+
+			.c-case03__txt__ttl {
+				letter-spacing: 0.32em;
+			}
+
+			.c-case03__txt__desc {
+				letter-spacing: 0.2em;
+			}
 		}
+
+		.slick-slider {
+			padding-top: 0;
+		}
+
 		.bg_1 {
 			position: absolute;
-			right: 13%;
-			top: 5%;
+			right: 3%;
+			top: 22%;
 
 			@include is-sp {
 				display: none;
@@ -1496,15 +1528,15 @@
 
 			@include is-sp {
 				position: absolute;
-				left: 0%;
-				top: 25%;
+				left: 3%;
+				top: 1%;
 				width: 115px;
 			}
 		}
 		.bg_3 {
 			position: absolute;
-			bottom: 17%;
-			right: 0%;
+			bottom: 8%;
+			right: 3%;
 
 			@include is-sp {
 				display: none;
@@ -1539,8 +1571,8 @@
 
 			@include is-sp {
 				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
+					16% 3%,
+					10% 2.3%,
 					100% 0%,
 					100% 100%,
 					85% 97%,

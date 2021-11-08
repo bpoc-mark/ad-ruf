@@ -6,7 +6,7 @@
 
 	.prev-arrow {
 		position: absolute;
-		top: 36%;
+		top: 33%;
 		left: -4%;
 		width: 12px;
 		height: 25px;
@@ -28,7 +28,7 @@
 
 	.next-arrow {
 		position: absolute;
-		top: 36%;
+		top: 33%;
 		right: -2%;
 		width: 16px;
 		height: 25px;
@@ -211,7 +211,7 @@
 			font-weight: 500;
 			@include font-line(11);
 			line-height: 16.5px;
-			text-align: center;
+			text-align: left;
 		}
 	}
 }
