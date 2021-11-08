@@ -77,13 +77,15 @@
                 <img class="bg_1" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_1.png" alt="">
                 <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
                 <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
+                <img class="bg_sec1_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec1_sp.png" alt="">
+               
 
                 <div class="sect_1-hdr">
                     <div class="sect_1-hdr-ttl">
                         <p class="sect_1-hdr-ttl-txt">OUR ENTERPRISES</p>
                     </div>
                     <div class="sect_1-hdr-sub">
-                        <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業をご紹介いたします。
+                        <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業を<br class="u-d-n-pc">ご紹介いたします。
                         </p>
                     </div>
                     <div class="sect_1-hdr-desc">
