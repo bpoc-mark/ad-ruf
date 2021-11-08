@@ -23,7 +23,6 @@ $('.slider').slick({
         centerMode: true,
         infinite: true
       }
-<<<<<<< HEAD
     },
     {
       breakpoint: 480,
@@ -65,9 +64,8 @@ $('.slider').slick({
   //   ]
   // });
 
-=======
-    ]
-  });
+  //   ]
+  // });
   
 $(document).on('click', '.submenu-clk', function(){
   if($(this).hasClass('active')){
@@ -79,7 +77,6 @@ $(document).on('click', '.submenu-clk', function(){
   }
 })
   
->>>>>>> 57306c3b669b7f1e539482470f1fbd7ff411a8d3
   let clickAllowed = true;
   $(window).on('load resize', function () {
     var w = $(window).width();

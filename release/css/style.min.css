@@ -441,7 +441,7 @@ template{display:none}
 .p-header.scroll .lp__main .promotion{display:none}
 .p-header.scroll .lp__button{border-radius:5px;-webkit-box-shadow:0 3px 7px 1px rgba(0,0,0,0);box-shadow:0 3px 7px 1px rgba(0,0,0,0)}
 .p-header.scroll .lp__landingInner{padding:0 !important}
-.top-header{background:#5fa5cd;position:relative;padding-top:100px;overflow:hidden}
+.top-header{position:absolute;padding-top:100px;overflow:hidden}
 .top-header .logo{width:70px}
 .top-header .mail{width:22px}
 .top-header-nav{position:fixed;top:0;left:0;right:0;max-width:100%;margin:0 auto;z-index:999;height:80px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -1050,7 +1050,7 @@ template{display:none}
 .pp--btn:first-child{margin-right:30px}
 .pp--btn:last-child{margin-left:30px}
 .top .l-wrap{position:relative}
-.top .sect_1{z-index:4;position:relative;background:#5fa5cd;position:relative}
+.top .sect_1{z-index:4;background:#5fa5cd;position:relative;padding-top:100px}
 .top .sect_1 .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,right top,left top,from(#2591d4),to(#2579bf));background:linear-gradient(to left,#2591d4,#2579bf);position:absolute;top:-7%;right:0}
 .top .sect_1 .clipPath{-webkit-clip-path:polygon(0 10%,100% 0,100% 100%,0 100%);clip-path:polygon(0 10%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5);padding:191px 0 40px 0;margin-top:-89px;position:relative;z-index:150}
 .top .sect_1-hdr{text-align:center}
