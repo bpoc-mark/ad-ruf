@@ -90,8 +90,8 @@
                     </div>
                     <div class="sect_1-hdr-desc">
                         <p class="sect_1-hdr-desc-txt">
-                            私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br>
-                            首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br>
+                            私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br class="u-d-n-sp">
+                            首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br class="u-d-n-sp">
                             自社で収益不動産を所有する「プロのオーナー」として、お客様と同じ目線でサービスを提供します。
                         </p>
                     </div>
@@ -183,7 +183,7 @@
                                     <p class="row01-ttl-01-txt01">収益不動産の管理</p>
                                 </div>
                                 <div class="row01-ttl-02">
-                                    <p class="row01-ttl-01-txt02">Real Estate Managemente</p>
+                                    <p class="row01-ttl-01-txt02">Real Estate Management</p>
                                 </div>
                             </div>
                             <div class="col--box">

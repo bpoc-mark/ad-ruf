@@ -146,7 +146,7 @@
 						&-01-txt02 {
 							@include font-line(12.5, 10);
 							letter-spacing: 0.21em;
-							color: #fff;
+							color: #95c6e7;
 							font-family: century-gothic, sans-serif;
 						}
 						@include is-sp {
@@ -295,7 +295,7 @@
 							@include font-line(10, 20);
 							font-weight: 400;
 							letter-spacing: 0.32em;
-							color: #fff;
+							color: #95c6e7;
 							padding: 19px 0 28px 0;
 
 							@include is-sp {
@@ -317,6 +317,7 @@
 								@include font-line(13.5, 20);
 								letter-spacing: 0.1em;
 								margin-bottom: 50px;
+								text-align: justify;
 							}
 						}
 					}
@@ -346,26 +347,26 @@
 		.bg_2 {
 			position: absolute;
 			left: -6%;
-			top: 0%;
+			top: 9%;
 			z-index: -1;
 			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
 				left: 2%;
-				top: 23%;
+				top: 34%;
 				z-index: -1;
 				width: 112px;
-				opacity:1;
+				opacity: 1;
 			}
 
-			@include is-max(376px) {
-				position: absolute;
-				left: 2%;
-				top: 36%;
-				z-index: -1;
-				width: 112px;
-			}
+			// @include is-max(376px) {
+			// 	position: absolute;
+			// 	left: 2%;
+			// 	top: 36%;
+			// 	z-index: -1;
+			// 	width: 112px;
+			// }
 		}
 		.bg_3 {
 			position: absolute;
@@ -377,18 +378,18 @@
 			@include is-sp {
 				position: absolute;
 				right: 2.3%;
-				bottom: 70%;
-				z-index: -1;
-				width: 163px;
-			}
-
-			@include is-max(376px) {
-				position: absolute;
-				right: 2.3%;
-				bottom: 55%;
+				bottom: 56.5%;
 				z-index: -1;
 				width: 126px;
 			}
+
+			// @include is-max(376px) {
+			// 	position: absolute;
+			// 	right: 2.3%;
+			// 	bottom: 55%;
+			// 	z-index: -1;
+			// 	width: 126px;
+			// }
 		}
 
 		.bg_sec1_sp {
@@ -428,7 +429,7 @@
 				clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
 			}
 			@include is-sp {
-				padding: 160.5px 0 101.5px 0;
+				padding: 160.5px 0 67.5px 0;
 				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
 				margin: -40px 0 0 0;
 			}
@@ -454,6 +455,7 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				padding-bottom: 15px;
 
 				&-02 {
 					width: 420px;
@@ -481,7 +483,7 @@
 						&-01-txt02 {
 							@include font-line(12.5, 10);
 							letter-spacing: 0.21em;
-							color: #258acf;
+							color: #95c6e7;
 							font-family: century-gothic, sans-serif;
 						}
 						@include is-sp {
@@ -619,6 +621,7 @@
 							font-weight: 500;
 							letter-spacing: 0.5em;
 							color: #258acf;
+							padding-top: 30px;
 
 							@include is-sp {
 								@include font-line(50, 75);
@@ -632,7 +635,7 @@
 							@include font-line(10, 20);
 							font-weight: 400;
 							letter-spacing: 0.32em;
-							color: #258acf;
+							color: #95c6e7;
 							padding: 19px 0 28px 0;
 
 							@include is-sp {
@@ -647,8 +650,8 @@
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
-							color: #333;
-							margin-bottom: 45px;
+							color: #000000;
+							margin-bottom: 22px;
 
 							@include is-sp {
 								@include font-line(13.5, 20);
@@ -672,7 +675,7 @@
 		.bg_4 {
 			position: absolute;
 			position: absolute;
-			top: -32%;
+			top: -27%;
 			right: 7%;
 
 			@include is-sp {
@@ -708,7 +711,7 @@
 		.bg_6 {
 			position: absolute;
 			right: 0;
-			bottom: -15%;
+			bottom: -10%;
 
 			@include is-sp {
 				position: absolute;
@@ -721,8 +724,8 @@
 
 		.bg_sp {
 			position: absolute;
-			top: -32px;
-			left: 0;
+			top: -34px;
+			left: 14px;
 			z-index: -1;
 
 			@include is-sp {
@@ -783,7 +786,7 @@
 						&-01-txt02 {
 							@include font-line(12.5, 10);
 							letter-spacing: 0.21em;
-							color: #fff;
+							color: #95C6E7;
 							font-family: century-gothic, sans-serif;
 						}
 						@include is-sp {
@@ -944,7 +947,7 @@
 							@include font-line(10, 20);
 							font-weight: 400;
 							letter-spacing: 0.32em;
-							color: #fff;
+							color: #95C6E7;
 							padding: 19px 0 28px 0;
 
 							@include is-sp {
@@ -1263,7 +1266,7 @@
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
-							color: #333;
+							color: #000000;
 							margin-bottom: 45px;
 
 							@include is-sp {
@@ -1358,11 +1361,29 @@
 		background-color: #fff;
 
 		.clipPath {
-			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+			clip-path: polygon(
+				17% 9%,
+				80% 2%,
+				100% 0,
+				100% 100%,
+				85% 92%,
+				23% 98%,
+				0 100%,
+				0 0
+			);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
+				clip-path: polygon(
+					17% 4%,
+					52% 2.3%,
+					100% 0%,
+					100% 100%,
+					85% 97%,
+					31% 99%,
+					0 100%,
+					0 0
+				);
 			}
 		}
 
@@ -1504,11 +1525,29 @@
 
 	.sect_7 {
 		.clipPath {
-			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+			clip-path: polygon(
+				17% 9%,
+				80% 2%,
+				100% 0,
+				100% 100%,
+				85% 92%,
+				23% 98%,
+				0 100%,
+				0 0
+			);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
+				clip-path: polygon(
+					17% 4%,
+					52% 2.3%,
+					100% 0%,
+					100% 100%,
+					85% 97%,
+					31% 99%,
+					0 100%,
+					0 0
+				);
 			}
 		}
 
@@ -1564,7 +1603,11 @@
 					left: 0%;
 					bottom: 27px;
 					padding: 8px 13px 16px 23px;
-					background: linear-gradient(100deg, rgba(114, 159, 223, 0.238831) 14%, #244d7e 100%);
+					background: linear-gradient(
+						100deg,
+						rgba(114, 159, 223, 0.238831) 14%,
+						#244d7e 100%
+					);
 					width: 65%;
 
 					@include is-max(890px) {
