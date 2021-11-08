@@ -1,0 +1,743 @@
+
+.interview {
+  
+    // color: #fff;
+    position: relative;
+
+    .c-banner{
+        padding: 0 0 50px 0;
+
+        @include is-sp{
+            padding: 0 0 70px 0;
+        }
+
+        &--ttl{
+            line-height: 1;
+            top: 28%;
+            left: 20%;
+
+            @include is-sp{
+                left: 5%;
+            }
+
+            p{
+                @include font-line(60);
+                    font-family: century-gothic, sans-serif;
+                    font-weight: 700;
+
+                @include is-max(1110px){
+                    font-size: 4.9vw;
+                }
+
+                @include is-sp{
+                    @include font-line(37);
+                }
+
+                @include is-max(430px){
+                    font-size: 8.5vw;
+                }
+            }
+
+            img{
+
+            @include is-max(1110px){
+             width: 34vw;
+            }
+
+            @include is-sp{
+                width:50%;
+            }
+          }
+        }
+      }
+    }
+
+    .bread_crumps{
+	  text-align: left;
+	  position: relative;
+	  z-index: 150;
+	  padding-top: 12px;
+		.txt{
+			width: 92%;
+			margin: 0 auto;
+			max-width: 1100px;
+			color: #fff;
+			font-family:cross-platform-yu-gothic;
+			@include font-line(11);
+		}
+
+		span{
+			padding: 0 8px;
+		}
+	}
+
+	// clip top
+	.top-clip {
+		width: 800px;
+		height: 250px;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background: linear-gradient(to left, #2593d5, #2579bf);
+		position: absolute;
+		top: -4.5%;
+		right: 0%;
+
+		@include is-sp {
+			width: 83%;
+			height: 161px;
+			top: -30px;
+		}
+	}
+
+    .section_1 {
+        color:#fff;
+        position: relative;
+
+        	// clip path
+
+        .clipPath {
+            margin-top: -145px;
+            padding-top: 195px;
+            // clip-path: polygon(100% 0, 100% 100%, 85% 91%, 0 100%, 0 10%);
+            clip-path:  polygon(200% 0, 100% 100%, 85% 93%, 0 100%, 0 10%);
+            background: linear-gradient(#2579BF, #2593D5);
+
+            @include is-sp {
+                margin-top: -90px;
+                // clip-path: polygon(100% 0%, 100% 100%, 89% 97%, 0% 100%, 0 4%);
+                clip-path: polygon(100% 0%, 100% 100%, 84% 97%, 0% 100%, 0 4%);
+                padding-top: 160.5px;
+            }
+
+        }
+        .l-wrap {
+            position: relative;
+    
+        }
+
+        &-ttl {
+         
+            text-align: center;
+            @include font-line(10,20);
+            font-family: century-gothic, sans-serif;
+            letter-spacing: 1em;
+            font-weight: 400;
+
+            @include is-sp {
+                @include font-line (12,10);
+                letter-spacing :0.32em;
+            }
+        }
+    
+        &-sub1 {
+            @include font-line(30,48);
+            text-align: center;
+            font-family: yu-mincho-pr6n, sans-serif;
+            font-weight: 500;
+
+            @include is-sp {
+                @include font-line (25,37);
+                letter-spacing: 0.15em;
+                padding-top: 22px;
+              
+            }
+
+            @include is-max(350px) {
+                font-size: 7vw;
+            }
+        }
+        &-sub2 {
+            @include font-line(13,26);
+            font-weight: 500;
+            font-family:cross-platform-yu-gothic;
+            text-align: center;
+
+            @include is-sp {
+                @include font-line(13.5,20);
+                letter-spacing: 0.1em;
+                padding-top: 24.5px;
+            }
+        }
+
+        .section_1-cntnt {
+            padding-top: 60px;
+            position: relative;
+            justify-content: space-between;
+
+            @include is-sp {
+                padding-top: 58px;
+            }
+
+
+            .cntnt-wrppr {
+                align-items: flex-end;
+
+                @include is-sp {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            &-1 {
+                width: 395px;
+                padding-bottom: 160px;
+
+                @include is-sp {
+                    width: 100%;
+                    padding-bottom: 0;
+                }
+
+                &-hdr {
+                    @include font-line(26,37);
+                    font-weight: 500;
+                     font-family: yu-mincho-pr6n, sans-serif;
+                     padding:20px 0;
+
+                     @include is-sp {
+                         @include font-line(25,37.5);
+                         letter-spacing: 0.15em;
+                     }
+                     @include is-max(350px) {
+                        font-size: 7vw;
+                    }
+                   
+                }
+
+                &-txt1 {
+                    @include font-line(10,20);
+                    font-weight: 400;
+                    font-family: century-gothic, sans-serif;
+                    color:#95C6E7;
+                    padding-bottom: 18px;
+
+                    @include is-sp {
+                        @include font-line(12.5,18.5);
+                        letter-spacing: 0.21em;
+                    }
+                }
+
+                &-txt2 {
+                   @include font-line(13,26);
+                   font-weight: 500;
+                   font-family:cross-platform-yu-gothic;
+                   padding-bottom: 57px;
+
+                   @include is-sp {
+                       @include font-line(13.5,20);
+                       letter-spacing: 0.08em;
+                       padding-bottom: 25.5px;
+                   }
+                }
+
+                &-biography {
+                    padding:41px;
+                    background-color: #fff;
+
+                    @include is-sp {
+                        display: none;
+                    }
+
+                    &-hdr {
+                        @include font-line(13,26);
+                        font-weight: 700;
+                        font-family:cross-platform-yu-gothic;
+                        color:#258ACF;
+                        text-align: center;
+                    }
+                    &-cntnt {
+                        padding-left: 40px;
+                        color:black;
+
+                        @include is-max(1004px) {
+                            padding-left:0;
+                        }
+                        
+                        &-yr {
+                            color:#258ACF;
+
+                            @include font-line (13,26);
+                            font-weight: 700;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                        &-txt {
+                            margin-left: 18px;
+                            @include font-line (13,26);
+                            font-weight: 500;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                    }
+                }
+            }
+
+            &-2 {
+                padding-bottom: 55px;
+                height: 100%;
+                position: relative;
+
+                @include is-max (875px) {
+                    width: calc(100% - 395px);
+                
+                }
+
+                @include is-max (853px) {
+                    width: 58vw
+                }
+
+                @include is-sp {
+                    width: 100%;
+                    padding-bottom: 130px;
+                }
+                
+                    .sec1img {
+                        position: relative;
+                        z-index: -2;
+                        transform: translateX(16%);
+
+                        @include is-max(1165px) {
+                            transform: translateX(10%);
+                        }
+
+                        @include is-max(1093px) {
+                            transform: translateX(5%);
+                        }
+
+                        @include is-sp {
+                            transform: translateX(0);
+                        }
+                    }
+
+                    &-bdg {
+                        position: absolute;
+                        top: 23%;
+                        right: 40%;
+                        width: 56px;
+                        height: 21px;
+                        background: linear-gradient(to right,#2579BF,#2593D5);
+                        padding: 6px 7px 2px 12px;
+
+                        @include is-sp {
+                            top: 17%;
+                            right: 54%;
+                        
+                        }
+
+                        p {
+                            @include font-line(11,10);
+                            font-family:cross-platform-yu-gothic;
+                        }
+                    }
+                    
+                   &-rep {
+                      
+                       position: absolute;
+                       top: 9%;
+                       right: 1%;
+                       height: 52px;                       
+                       width: 181px;
+                       background: url(../image/page/interview/sec1_bgcntnt1.png)no-repeat center;
+                       background-size: contain;
+
+                       @include is-max(875px) {
+                           width:161px;
+                       }
+
+                       @include is-sp {
+                        top: 7%;
+                        right: 14%;
+                       }
+
+                       @include is-max(450px) {
+                         width: 105px;
+                         height: 35px;
+                       }
+
+                       &-txt {
+                           display: flex;
+                           flex-direction: column;
+                           align-items: center;
+
+                           p:nth-child(1) {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(13,26);
+                            font-weight: 500;
+                            padding-top: 3px;
+
+                                @include  is-max(450px){
+                                    @include font-line(7.5,15);
+                                    letter-spacing: 0.2em;
+                                }
+                           }
+
+                           p:nth-child(2) {
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            @include font-line(20,12);
+                            font-weight: 500;
+
+                            @include is-max(450px) {
+                                @include font-line(11.5,15);
+                                letter-spacing: 0.2em;
+                            }
+                           }
+                       }
+                   }
+
+                   .biography-sp {
+                    padding:41px;
+                    background-color: #fff;
+
+                    &-hdr {
+                        @include font-line(15,22);
+                        font-weight: 700;
+                        font-family:cross-platform-yu-gothic;
+                        color:#258ACF;
+                        text-align: center;
+
+                        @include is-sp {
+                            padding-bottom: 19.5px;
+                        }
+                    }
+                    &-cntnt {
+                        padding-left: 40px;
+                        color:black;
+
+                        @include is-max(1004px) {
+                            padding-left:0;
+                        }
+                        
+                        &-yr {
+                            color:#258ACF;
+                            @include font-line (12.5,22.5);
+                            font-weight: 700;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                        &-txt {
+                            margin-left: 18px;
+                            @include font-line (12.5,22.5);
+                            font-weight: 500;
+                            font-family:cross-platform-yu-gothic;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .bg_1 {
+            position: absolute;
+            top: -5%;
+            right: 2%;
+
+            @include is-sp {
+                width: 176px;
+            }
+        }
+
+        .bg_2 {
+            position: absolute;
+            top: 5%;
+            left: -6%;
+
+            @include is-sp {
+                display: none;
+            }
+        }
+
+        .bg_3 {
+            position: absolute;
+            right: 4%;
+            bottom: 47.7%;  
+            z-index: -3;
+            
+            @include is-sp {
+                display: none;
+            }
+        }
+    }
+
+    .section_2 {
+       position: relative;
+
+
+        &-cntnt {
+            padding: 112px 0 78px 0;
+            &-rows {
+                margin-bottom: 60px;
+                align-items: center;
+
+                
+                @include is-sp {
+                    flex-direction: column;
+                    margin-bottom: 50px;
+                }
+
+                &-1 {
+
+                    img {
+                        width: 100%;
+                    }
+                    @include is-max (977px) {
+                        width: calc(100% - 390px);
+                    }
+                    
+                    @include is-sp {
+                        width: 100%;
+                        
+                    }
+
+                }
+
+                &-2 {
+                    width: 390px;
+
+                    @include is-max (977px) {
+                        padding-left: 20px;
+                    }
+
+                    @include is-sp {
+                        width: 100%;
+                    }
+
+                    &-hdr {
+                        @include font-line(26,37);
+                        font-family: 500;
+                        font-family: yu-mincho-pr6n, sans-serif;
+                        color: #258ACF;
+
+                        @include is-sp {
+                            @include font-line (25,37.5);
+                        }
+                        
+                    }
+
+                    &-txt1 {
+                        @include font-line(10,20);
+                        font-family: century-gothic, sans-serif;
+                        color: #95C6E7;
+                        padding:23px 0 18px 0;
+
+                        @include is-sp {
+                            @include font-line(12.5,18.5);
+                            padding: 17px 0 22px 0;
+                        }
+                    }
+
+                    .img-sp {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    &-txt2 {
+                        font-family:cross-platform-yu-gothic;
+                        @include font-line(12,25);
+                        font-weight: 500;
+                        color: #333;
+
+                        @include is-sp {
+                            @include font-line (13.5,20);
+                            padding-top: 25px;
+                        }
+                    }
+                }
+           }  
+
+           &-btns {
+               width: 640px;
+               margin:0 auto;
+
+               .txt {
+                   letter-spacing: 0.1em;
+               }
+               @include is-sp {
+                   flex-direction: column;
+                   height: 130px;
+                   width: 100%;
+                   justify-content: space-between;
+                   
+               }
+           }
+        }
+
+        .sec2-bg1 {
+            position: absolute;
+            top: 22%;
+            right: 8.9%;
+            z-index: -1;
+
+            @include is-sp {
+                display: none;
+            }
+        }
+
+        .sec2-bg2 {
+            position: absolute;
+            top: 58.8%;
+            left: 3%;
+            z-index: -1;   
+            
+            @include is-sp {
+                display: none;
+            }
+        }
+
+        .sec2-bg3 {
+            position: absolute;
+            bottom: 12%;
+            right: 4%;
+            z-index: -1;
+            opacity: 0.5;
+
+            @include is-sp {
+                display: none;
+            }
+        }
+        .sec2-bg1-sp {
+            width: 122px;
+            position: absolute;
+            top: 4%;
+            right: 2%;
+        }
+
+        .sec2-bg2-sp {
+            width: 115.5px;
+            position: absolute;
+            top: 22.4%;
+            left: 7%;
+            z-index: -1;
+        }
+    }
+
+
+
+    .section_3 {
+        position: relative;
+
+
+        .clipPath {
+            clip-path: polygon(14% 9%, 100% 0, 100% 100%, 0 100%, 0 0);
+            background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+            padding:144px 0 99px 0;
+
+            @include is-sp {
+                clip-path: polygon(14% 4%, 100% 0, 100% 100%, 0 100%, 0 0);
+            }
+            
+        }
+    
+            &-cntnt {
+              
+
+                &-rows {
+                    margin-bottom: 60px;
+                    align-items: center;
+                    color:#fff;
+
+                    @include is-sp {
+                        flex-direction: column;
+                    }
+
+                    &-1 {
+                        width: 390px;
+
+                        @include is-max (980px) {
+                            padding-right: 20px
+                        }
+
+                        @include is-sp {
+                            width: 100%;
+                            padding-right: 0;
+                        }
+    
+                        &-hdr {
+                            @include font-line(26,37);
+                            font-family: 500;
+                            font-family: yu-mincho-pr6n, sans-serif;
+                            // letter-spacing: 0.15em;
+
+                            @include is-sp {
+                                @include font-line (25,37.5);
+                            }
+                            
+                            
+                        }
+    
+                        &-txt1 {
+                            @include font-line(10,20);
+                            font-family: century-gothic, sans-serif;
+                            padding:23px 0 18px 0;
+                            letter-spacing: 0.21em;
+
+                            @include is-sp {
+                                @include font-line(12.5,18.5);
+                                letter-spacing: 0.21em;
+                                padding:16px 0 22px 0;
+                            }
+                        }
+
+                        .img-sp {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                            }
+                        }
+    
+                        &-txt2 {
+                            font-family:cross-platform-yu-gothic;
+                            @include font-line(12,25);
+                            font-weight: 500;
+                            letter-spacing: 0.2em;
+
+                            @include is-max(977px) {
+                                font-size: 1.2vw;
+                            }
+
+                            @include is-sp {
+                                @include font-line(13.5,20);
+                                padding-top: 24.5px;
+                            }
+                        
+                        }
+                    }
+
+                    &-2 {
+                        @include is-max (977px) {
+                            width: calc(100% - 390px);
+                        }   
+                    }
+               }  
+                &-btns {
+                    width: 640px;
+                    margin:0 auto;
+
+                    .txt {
+                        letter-spacing: 0.1em;
+                    }
+                    @include is-sp {
+                        flex-direction: column;
+                        height: 130px;
+                        width: 100%;
+                        justify-content: space-between;
+                        
+                    }
+                }
+            }
+    
+            .sec3-bg1 {
+                position: absolute;
+                top: 8%;
+                right: 32%;
+                z-index: -1;
+
+                @include is-sp {
+                    width: 138px;
+                    right: 5%;
+                }
+            }
+    
+            .sec3-bg2 {
+                position: absolute;
+                bottom: 25%;
+                left: 6%;
+                z-index: -1;        
+            }
+    }
+   

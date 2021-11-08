@@ -640,3 +640,7 @@
 
     </div>
     <?php get_footer(); ?>
+ <div class="page__content top">
+
+</div>
+<?php get_footer(); ?>
