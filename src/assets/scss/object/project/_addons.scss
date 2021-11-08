@@ -174,6 +174,7 @@
 					font-size: 18px;
 					font-weight: 700;
 					font-family: yu-mincho-pr6n, sans-serif;
+					letter-spacing: 0.13em;
 
 					@include is-max(1000px) {
 						font-size: 1.6vw;
@@ -190,6 +191,7 @@
 					font-size: 11px;
 					font-family: "cross-platform-yu-gothic";
 					font-weight: 500;
+					letter-spacing: 0.13em;
 
 					@include is-max(1000px) {
 						font-size: 1.2vw;
@@ -366,9 +368,9 @@
 		text-align: center;
 		color: #fff;
 
-		// @include is-sp {
-		// 	margin-bottom: 48px;
-		// }
+		@include is-sp {
+			text-transform: uppercase ;
+		}
 
 		p:nth-child(1) {
 			font-size: 10px;
@@ -397,8 +399,8 @@
 				letter-spacing: 0.2em;
 			}
 
-			@include is-max(389px) {
-				font-size: 6vw;
+			@include is-max(425px) {
+				font-size: 5.3vw;
 			}
 		}
 	}
@@ -445,6 +447,10 @@
 						letter-spacing: 0.12em;
 						padding-bottom: 10px;
 					}
+
+					@include is-max(375px) {
+						font-size: 16px;
+					}
 				}
 
 				p:nth-child(2) {
@@ -460,6 +466,10 @@
 						@include font-line(15, 18);
 						letter-spacing: 0.1em;
 						line-height: 18px;
+					}
+
+					@include is-max(375px) {
+						font-size: 12px;
 					}
 				}
 
