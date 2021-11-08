@@ -1543,7 +1543,7 @@
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
+				clip-path: polygon(16% 3%, 10% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
 			}
 		}
 
@@ -1855,6 +1855,7 @@
 							line-height: 14px;
 							letter-spacing: 0.4em;
 							font-weight: 500;
+							white-space: nowrap;
 
 							@include is-sp {
 								@include font-line(12.5, 27);
