@@ -1887,7 +1887,7 @@ template{display:none}
 .top .sect_1-cntnt-row-02{margin:0 auto;width:100%}
 .top .sect_1-cntnt-row{display:block;margin:0 auto}
 .top .sect_1 .bg_1{display:none}
-.top .sect_1 .bg_2{position:absolute;left:2%;top:23%;z-index:-1;width:112px}
+.top .sect_1 .bg_2{position:absolute;left:2%;top:23%;z-index:-1;width:112px;opacity:1}
 .top .sect_1 .bg_3{position:absolute;right:2.3%;bottom:70%;z-index:-1;width:163px}
 .top .sect_2::before{top:39px;height:55px}
 .top .sect_2 .clipPath{padding:160.5px 0 101.5px 0;-webkit-clip-path:polygon(-198% 12%,100% 0,100% 90%,-120% 100%);clip-path:polygon(-198% 12%,100% 0,100% 90%,-120% 100%);margin:-40px 0 0 0}

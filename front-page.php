@@ -138,7 +138,7 @@
                                 <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
                             </div>
 
-                            <a class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -171,7 +171,7 @@
                                 <p class="sect_2-cntnt-row-01-txt-03">丸の内リーフは、豊富なバリューアップの経験を武器に最適な不動産管理を行います。幅広いネットワークによる入居者募集、人気物件へと生まれ変わらせるリノベーション、入居者様に安心して長期契約いただけるサポートまで、お預かりした大切な収益不動産の価値を守り、高めます。</p>
                             </div>
 
-                            <a class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
