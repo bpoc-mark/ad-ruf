@@ -224,7 +224,8 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -235,7 +236,7 @@
                                 <div class="info">
                                     <p class="info-ttl">人生のパートナーとなる</p>
                                     <p class="info-sub">RUFの収益不動産の運用</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="sect_3-cntnt-row-02">
@@ -249,10 +250,10 @@
                                 <p class="sect_3-cntnt-row-02-txt-03">丸の内ルーフは単なる仲介業者ではありません。自社で収益不動産を保有する「プロのオーナー」として、首都圏を中心に多数の物件を運用しています。市況に応じたポートフォリオを構築することで、収益率の高い運営を実現します。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn wh">
                                 <p class="txt">収益不動産の運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -279,10 +280,10 @@
                                 <p class="sect_4-cntnt-row-01-txt-03">丸の内リーフでは、これまで培った収益不動産に関する豊富なノウハウを活かし、お客様の目的に沿ってリスクとリターンをコントロール。オーナー様の不動産投資戦略の最適化を叶えるとともに、資産価値の最大化を目指します。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn rd">
+                            <a href="" class="c-buttonCase u-l-algn rd">
                                 <p class="txt">資産運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow_rd.svg" alt="">
-                            </div>
+                            </a href="">
                         </div>
                         <div class="sect_4-cntnt-row-02">
 
@@ -295,18 +296,20 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
                                 </p>
                                 <p class="top-text02">
                                     <span>M</span>anagement
                                 </p>
+                                <p class="badge u-d-n-sp">あたり</p>
                                 <p class="num">04</p>
                                 <div class="info">
                                     <p class="info-ttl">世代を超えて歴史を紡ぐ</p>
                                     <p class="info-sub">RUFの資産運用(アセットマネジメント)</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
