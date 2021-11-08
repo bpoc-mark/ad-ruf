@@ -1302,13 +1302,16 @@
 			}
 
 			.crd-wrppr {
-				padding: 69px 0 58px 0;
+				display: flex;
 				flex-wrap: wrap;
+				padding: 69px 0 58px 0;
 				row-gap: 30px;
 				column-gap: 30px;
-				justify-content: center;
+				
+				@include is-max(820px) {
+					justify-content: center;
+				}
 			}
-
 			@include is-sp {
 				padding: 200px 0 200px 0;
 			}
@@ -1360,7 +1363,7 @@
 		.bg_2 {
 			position: absolute;
 			left: 0%;
-			top: 36%;
+			top: -4%;		
 
 			@include is-sp {
 				position: absolute;

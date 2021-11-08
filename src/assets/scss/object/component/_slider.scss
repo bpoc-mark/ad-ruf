@@ -2,7 +2,51 @@
 	padding-top: 70px;
 	padding-bottom: 60px;
 	display: flex;
+	position: relative;
 
+	.prev-arrow {
+		position: absolute;
+		top: 36%;
+		left: -4%;
+		width: 12px;
+		height: 25px;
+		background-image: url(../image/page/top-page/arr-left.png);
+		background-repeat: no-repeat;
+		z-index: 10;
+		
+
+	 @include is-sp {
+			background-image: url(../image/page/top-page/arr-left-sp.png);
+			width: 21px;
+			height: 36px;
+			left: 0;
+			width: 40px;
+			height: 80px;
+			background-position: center;
+			background-color: #fff;
+		}
+	}
+	
+	.next-arrow {
+		position: absolute;
+		top: 36%;
+		right: -2%;
+		width: 16px;
+		height: 25px;
+		background-image: url(../image/page/top-page/arr-right.png);
+		background-repeat: no-repeat;
+		z-index: 10;
+		
+
+		@include is-sp {
+			background-image: url(../image/page/top-page/arr-right-sp.png);
+			right: 0;
+			width: 40px;
+			height: 80px;
+			background-position: center;
+			background-color: #fff;
+		}
+	}
 	&__item {
 		width: calc(100% / 4);
 		margin-right: 30px;
@@ -33,7 +77,7 @@
 			}
 
 			.youtube {
-				color: #B51F32;
+				color: #b51f32;
 				font-family: century-gothic, sans-serif;
 				font-weight: 400;
 				position: absolute;
@@ -49,7 +93,7 @@
 			}
 
 			.movies {
-				color: #B51F32;
+				color: #b51f32;
 				font-family: century-gothic, sans-serif;
 				font-weight: 400;
 				position: absolute;
@@ -97,7 +141,6 @@
 					color: rgba(0, 0, 0, 0.5);
 				}
 			}
-			
 
 			.achieve {
 				color: $color-text05;
@@ -170,6 +213,7 @@
 			font-weight: 500;
 			@include font-line(11);
 			line-height: 16.5px;
+			text-align: center;
 		}
 	}
 }

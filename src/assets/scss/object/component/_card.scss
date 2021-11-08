@@ -414,9 +414,26 @@
 .c-cards09 {
     width: 220px;
 
+	@include is-sp {
+		width: 47%;
+	}
+
+	@include is-max(540px) {
+		width: 45%;
+	}
+
+	@include is-max(340px) {
+		width: 43%;
+	}
 
     &-img {
         position: relative;
+
+		img {
+			@include is-sp {
+				width: 100%;
+			}
+		}
 
         &-num {
             position: absolute;
@@ -472,7 +489,7 @@
     &-desc {
         text-align: center;
         background-color: #fff;
-        padding:20px 0 18px 0;
+        padding:20px 10px 18px;
         
 
       &-ttl {
@@ -480,6 +497,10 @@
         line-height: 21px;
         font-weight: 700;
         font-family: cross-platform-yu-gothic;
+
+		@include is-max(396px) {
+			font-size: 3.5vw;
+		}
       }
 
       &-txt {

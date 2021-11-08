@@ -324,7 +324,7 @@
                             お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。</p>
                     </div>
 
-                    <div class="crd-wrppr u-d-f u-jc-sb">
+                    <div class="crd-wrppr">
                         <div class="c-cards09">
                             <div class="c-cards09-img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png" alt="">
@@ -408,8 +408,6 @@
             <div class="c-case--items fp">
                 <div class="l-wrap">
                     <img class="bg_1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_1.png" alt="">
-                    <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_2.png" alt="">
-                    <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_3.png" alt="">
                     <img class="bg_6_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec6_bg_sp.png" alt="">
                     <div class="c-case--items__contents">
                         <div class="c-case03__txt u-ta-l">
@@ -418,11 +416,12 @@
                             <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
                                 情報収集をして、後悔のない不動産投資を！</p>
                         </div>
-
-
-
                     </div>
-                    <div class="c-slider slider u-ta-l u-pt-0">
+                </div>
+                <div class="l-wrap sp_p0">
+                    <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_2.png" alt="">
+                    <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/bg_3.png" alt="">
+                    <div class="c-slider slider">
                         <div class="c-slider__item">
                             <div class="bg_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case09.png" alt="">
@@ -439,6 +438,7 @@
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
+
                         <div class="c-slider__item">
                             <div class="bg_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case10.png" alt="">
@@ -454,6 +454,7 @@
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
+
                         <div class="c-slider__item">
                             <div class="bg_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/sect_3_img.png" alt="">
@@ -469,6 +470,7 @@
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
+
                         <div class="c-slider__item">
                             <div class="bg_img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/csm-case09.png" alt="">
@@ -502,7 +504,8 @@
                             <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
                     </div>
-
+                </div>
+                <div class="l-wrap">
                     <div class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
