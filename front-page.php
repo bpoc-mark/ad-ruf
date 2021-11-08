@@ -292,18 +292,20 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="">
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
                                 </p>
                                 <p class="top-text02">
                                     <span>M</span>anagement
                                 </p>
+                                <p class="badge u-d-n-sp">あたり</p>
                                 <p class="num">04</p>
                                 <div class="info">
                                     <p class="info-ttl">世代を超えて歴史を紡ぐ</p>
                                     <p class="info-sub">RUFの資産運用(アセットマネジメント)</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
