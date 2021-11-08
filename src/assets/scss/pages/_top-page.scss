@@ -786,7 +786,7 @@
 						&-01-txt02 {
 							@include font-line(12.5, 10);
 							letter-spacing: 0.21em;
-							color: #95C6E7;
+							color: #95c6e7;
 							font-family: century-gothic, sans-serif;
 						}
 						@include is-sp {
@@ -947,7 +947,7 @@
 							@include font-line(10, 20);
 							font-weight: 400;
 							letter-spacing: 0.32em;
-							color: #95C6E7;
+							color: #95c6e7;
 							padding: 19px 0 28px 0;
 
 							@include is-sp {
@@ -1361,29 +1361,11 @@
 		background-color: #fff;
 
 		.clipPath {
-			clip-path: polygon(
-				17% 9%,
-				80% 2%,
-				100% 0,
-				100% 100%,
-				85% 92%,
-				23% 98%,
-				0 100%,
-				0 0
-			);
+			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
-					100% 0%,
-					100% 100%,
-					85% 97%,
-					31% 99%,
-					0 100%,
-					0 0
-				);
+				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
 			}
 		}
 
@@ -1525,34 +1507,20 @@
 
 	.sect_7 {
 		.clipPath {
-			clip-path: polygon(
-				17% 9%,
-				80% 2%,
-				100% 0,
-				100% 100%,
-				85% 92%,
-				23% 98%,
-				0 100%,
-				0 0
-			);
+			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
-					100% 0%,
-					100% 100%,
-					85% 97%,
-					31% 99%,
-					0 100%,
-					0 0
-				);
+				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
 			}
 		}
 
 		&-cntnt {
 			padding: 164px 0 160px 0;
+
+			@include is-sp {
+				padding-bottom: 103px;
+			}
 
 			&-rows {
 				@include is-sp {
@@ -1576,6 +1544,11 @@
 						letter-spacing: 0.21em;
 						color: #fff;
 						font-family: century-gothic, sans-serif;
+						color: #95C6E7;
+
+						@include is-sp {
+							padding: 20px 0 26px 0;
+						}
 					}
 					@include is-sp {
 						display: block;
@@ -1603,15 +1576,15 @@
 					left: 0%;
 					bottom: 27px;
 					padding: 8px 13px 16px 23px;
-					background: linear-gradient(
-						100deg,
-						rgba(114, 159, 223, 0.238831) 14%,
-						#244d7e 100%
-					);
-					width: 65%;
+					background: linear-gradient(100deg, rgba(114, 159, 223, 0.238831) 14%, #244d7e 100%);
+					width: 77%;
 
 					@include is-max(890px) {
 						width: 90%;
+					}
+
+					@include is-sp {
+						width: 77%;
 					}
 
 					p:nth-child(1) {
@@ -1691,6 +1664,8 @@
 					&-02 {
 						@include font-line(10, 20);
 						letter-spacing: 0.32em;
+						color: #95c6e7;
+						padding:9px 0 11px 0;
 						@include is-sp {
 							display: none;
 						}
@@ -1700,11 +1675,12 @@
 						letter-spacing: 0.15em;
 						font-weight: 500;
 						font-family: cross-platform-yu-gothic;
-						padding-bottom: 32px;
+						padding-bottom: 37px;
 
 						@include is-sp {
 							@include font-line(13.5, 20);
 							letter-spacing: 0.1em;
+							padding-bottom: 47.5px;
 						}
 					}
 				}
@@ -1732,6 +1708,7 @@
 				z-index: -4;
 				width: 176px;
 			}
+
 		}
 		.bg_9 {
 			position: absolute;
@@ -1752,6 +1729,9 @@
 				z-index: -4;
 				width: 115px;
 			}
+			@include is-max(375px) {
+				top:30%;
+			}
 		}
 	}
 
@@ -1763,6 +1743,10 @@
 				border-left: 3px solid #258acf;
 				padding-left: 23px;
 				margin-bottom: 34px;
+
+				@include is-sp {
+					padding-left: 30px;
+				}
 
 				&-ttl {
 					font-size: 10px;
@@ -1788,6 +1772,10 @@
 						@include font-line(25, 37.5);
 						letter-spacing: 0.15em;
 					}
+
+					@include is-max (389px) {
+						font-size: 6vw;
+					}
 				}
 			}
 			&-news {
@@ -1812,13 +1800,23 @@
 
 				&-cntnt {
 					display: flex;
-					padding: 30px 0 28px 0;
-					border-bottom: 1px solid #f1f1f1;
+					padding: 30px 0 28px 15px;
+					border-bottom: 1px solid #D2D2D2;
 					border-top: 1px solid #101010;
+
+					@include is-sp {
+						padding: 0;
+					}
 
 					&-date {
 						font-family: cross-platform-yu-gothic;
+						padding-top: 4px;
 						padding-right: 111px;
+
+						@include is-sp {
+							padding:34px 0 26.5px 0;
+
+						}
 
 						p {
 							font-size: 12px;
@@ -1836,6 +1834,10 @@
 					&-txt {
 						font-family: cross-platform-yu-gothic;
 						color: #333;
+
+						@include is-sp {
+							padding-bottom: 34.5px;
+						}
 						p {
 							font-size: 12px;
 							line-height: 26px;
