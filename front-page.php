@@ -3,7 +3,7 @@
     <section class="sect_1">
         <div class="top-header-bnnr">
             <div class="brnd-logo-sp">
-                <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
+                <a class="brnd-logo-sp-link u-d-f" href="">
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                     <p>丸の内 株式会社ルーフ </p>
                 </a>
@@ -67,9 +67,10 @@
             </div>
             <div class="fade"></div>
         </div>
-        <div>
-            <div class="top-clip"></div>
+        <div class= "top-clip-wrppr">
+                <div class="pth"></div>
         </div>
+       
         <div class="clipPath">
 
             <div class="l-wrap">
@@ -97,7 +98,7 @@
                 <div class="sect_1-cntnt">
                     <div class="sect_1-cntnt-row">
                         <div class="sect_1-cntnt-row-01">
-
+                           
                             <div class="row01-ttl">
                                 <div class="row01-ttl-01">
                                     <p class="row01-ttl-01-txt01">収益不動産の売買</p>
@@ -109,7 +110,8 @@
 
 
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png"  alt="">
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -120,7 +122,7 @@
                                 <div class="info">
                                     <p class="info-ttl">価値を見極める</p>
                                     <p class="info-sub">RUFの収益不動産の売買</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="sect_1-cntnt-row-02">

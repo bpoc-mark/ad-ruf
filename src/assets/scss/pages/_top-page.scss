@@ -8,28 +8,33 @@
 		position: relative;
 		padding-top: 100px;
 		margin-top: -100px;
-		
-		// clip top
-		.top-clip {
-			width: 800px;
-			height: 250px;
-			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-			background: linear-gradient(to left, hsl(203, 70%, 49%), #2579bf);
-			position: absolute;
-			top: -7%;
-			right: 0%;
 
-			@include is-sp {
-				width: 278px;
-				height: 161px;
+		// clip top
+
+		.top-clip-wrppr {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 250px;
+			max-width: 1200px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: flex-end;
+
+			.pth {
+				width: 800px;
+				height: 250px;
+				clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+				background: linear-gradient(to left, hsl(203, 70%, 49%), #2579bf);
+
+				@include is-sp {
+					width: 278px;
+					height: 161px;
+				}
 			}
 		}
 
-		@include is-sp {
-		}
-
 		.clipPath {
-			// clip-path: polygon(0 11%, 100% 0%, 100% 90%, 0% 100%);
 			-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 			clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 			background: linear-gradient(to right, #2579bf, #2593d5);
@@ -38,17 +43,8 @@
 			position: relative;
 			z-index: 150;
 
-			// @include is-max(867px) {
-			// 	clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
-			// }
-
-			// @include is-sp {
-			// 	padding: 95.5px 0 70.5px 0;
-			// 	clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
-			// }
-
-			@include is-sp{
-			clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+			@include is-sp {
+				clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 			}
 		}
 
@@ -95,6 +91,7 @@
 					@include font-line(13, 26);
 					font-weight: 500;
 					color: #fff;
+					letter-spacing: 0.2em;
 
 					@include is-sp {
 						@include font-line(13.5, 20);
@@ -120,6 +117,14 @@
 				&-01 {
 					width: 420px;
 
+					@include is-sp {
+						margin: 0 auto 25px auto;
+						width: 100%;
+					}
+
+					img {
+						width: 100%;
+					}
 					.row01-ttl {
 						display: none;
 
@@ -144,116 +149,113 @@
 					}
 					.col--box {
 						width: 100%;
-						height: 345px;
+						height: auto;
 						position: relative;
 
 						img {
-							object-fit: cover;
-							position: absolute;
-							inset: 0;
-							height: 100%;
+							// object-fit: cover;
+							// position: absolute;
+							// inset: 0;
+							// height: 100%;
 							width: 100%;
 						}
 
-						.top-text01 {
-							font-family: century-gothic, sans-serif;
-							font-weight: 400;
-							position: absolute;
-							top: 0;
-							right: 10px;
-							color: $color-text03;
-							letter-spacing: 0.24em;
-							span {
-								color: #000;
-							}
-						}
+						// .top-text01 {
+						// 	font-family: century-gothic, sans-serif;
+						// 	font-weight: 400;
+						// 	position: absolute;
+						// 	top: 0;
+						// 	right: 10px;
+						// 	color: $color-text03;
+						// 	letter-spacing: 0.24em;
+						// 	span {
+						// 		color: #000;
+						// 	}
+						// }
 
-						.top-text02 {
-							color: $color-text03;
-							font-family: century-gothic, sans-serif;
-							font-weight: 400;
-							position: absolute;
-							top: 32px;
-							right: 7px;
-							-webkit-writing-mode: vertical-lr;
-							writing-mode: vertical-lr;
-							letter-spacing: 0.24em;
-							span {
-								color: #000;
-							}
-						}
+						// .top-text02 {
+						// 	color: $color-text03;
+						// 	font-family: century-gothic, sans-serif;
+						// 	font-weight: 400;
+						// 	position: absolute;
+						// 	top: 32px;
+						// 	right: 7px;
+						// 	-webkit-writing-mode: vertical-lr;
+						// 	writing-mode: vertical-lr;
+						// 	letter-spacing: 0.24em;
+						// 	span {
+						// 		color: #000;
+						// 	}
+						// }
 
-						.num {
-							@include font-line(108);
-							font-family: BebasNeue;
-							color: #b7d4e4;
-							position: absolute;
-							top: 98px;
-							z-index: 1;
-							left: 20px;
-						}
+						// .num {
+						// 	@include font-line(108);
+						// 	font-family: BebasNeue;
+						// 	color: #b7d4e4;
+						// 	position: absolute;
+						// 	top: 98px;
+						// 	z-index: 1;
+						// 	left: 20px;
+						// }
 
-						.info {
-							position: absolute;
-							bottom: 32px;
-							left: 0;
-							width: 56%;
-							background: linear-gradient(
-								100deg,
-								rgba(114, 159, 223, 0.8130602582830007) 0%,
-								rgba(36, 77, 126, 1) 100%
-							);
+						// .info {
+						// 	position: absolute;
+						// 	bottom: 32px;
+						// 	left: 0;
+						// 	width: 56%;
+						// 	background: linear-gradient(
+						// 		100deg,
+						// 		rgba(114, 159, 223, 0.8130602582830007) 0%,
+						// 		rgba(36, 77, 126, 1) 100%
+						// 	);
 
-							padding: 20px 0;
-							text-align: left;
-							padding-left: 25px;
+						// 	padding: 20px 0;
+						// 	text-align: left;
+						// 	padding-left: 25px;
 
-							@include is-max(960px) {
-								padding-left: 20px;
-							}
+						// 	@include is-max(960px) {
+						// 		padding-left: 20px;
+						// 	}
 
-							@include is-max(930px) {
-								padding-left: 10px;
-							}
+						// 	@include is-max(930px) {
+						// 		padding-left: 10px;
+						// 	}
 
-							@include is-max(836px) {
-								width: 60%;
-							}
+						// 	@include is-max(836px) {
+						// 		width: 60%;
+						// 	}
 
-							&-ttl {
-								@include font-line(26);
-								color: $color-text03;
-								font-family: yu-mincho-pr6n, sans-serif;
-								letter-spacing: 0.03em;
-								line-height: 1;
-								padding-bottom: 7px;
+						// 	&-ttl {
+						// 		@include font-line(26);
+						// 		color: $color-text03;
+						// 		font-family: yu-mincho-pr6n, sans-serif;
+						// 		letter-spacing: 0.03em;
+						// 		line-height: 1;
+						// 		padding-bottom: 7px;
 
-								@include is-max(900px) {
-									@include font-line(22);
-								}
+						// 		@include is-max(900px) {
+						// 			@include font-line(22);
+						// 		}
 
-								@include is-max(370px) {
-									font-size: 6vw;
-								}
-							}
+						// 		@include is-max(370px) {
+						// 			font-size: 6vw;
+						// 		}
+						// 	}
 
-							&-sub {
-								@include font-line(12);
-								color: $color-text03;
-								font-family: cross-platform-yu-gothic;
-								letter-spacing: 0.3em;
+						// 	&-sub {
+						// 		@include font-line(12);
+						// 		color: $color-text03;
+						// 		font-family: cross-platform-yu-gothic;
+						// 		letter-spacing: 0.3em;
 
-								@include is-max(370px) {
-									font-size: 3vw;
-								}
-							}
-						}
+						// 		@include is-max(370px) {
+						// 			font-size: 3vw;
+						// 		}
+						// 	}
+						// }
 					}
 
-					@include is-sp {
-						margin: 0 auto 50px auto;
-						width: 100%;
-					}
+					
 				}
 				&-02 {
 					width: 489px;
@@ -339,14 +341,15 @@
 
 		.bg_2 {
 			position: absolute;
-			left: 0%;
+			left: -6%;
 			top: 0%;
 			z-index: -1;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
 				left: 2%;
-				top: 32%;
+				top: 23%;
 				z-index: -1;
 				width: 112px;
 			}
@@ -354,13 +357,14 @@
 		.bg_3 {
 			position: absolute;
 			right: 0%;
-			bottom: 0%;
+			bottom: 4%;
 			z-index: -1;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
 				right: 2.3%;
-				bottom: 59%;
+				bottom: 70%;
 				z-index: -1;
 				width: 126px;
 			}
@@ -371,21 +375,21 @@
 		position: relative;
 
 		&::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            top: -16px;
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -16px;
 			z-index: 150;
-            height: 100px;
-           background: linear-gradient(to right, #2579bf, #2593d5);
-            -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+			height: 100px;
+			background: linear-gradient(to right, #2579bf, #2593d5);
+			-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
 			clip-path: polygon(0 0, 0% 100%, 100% 0);
 
-			@include is-sp{
+			@include is-sp {
 				top: 39px;
 				height: 55px;
 			}
-        }
+		}
 
 		.clipPath {
 			clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
@@ -400,7 +404,6 @@
 				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
 				margin: -40px 0 0 0;
 			}
-			
 		}
 
 		.clip-bottom {
@@ -414,7 +417,7 @@
 
 			@include is-sp {
 				padding: 100px 0 0 0;
-					clip-path: polygon(0 0, -70% 100%, 100% 0);
+				clip-path: polygon(0 0, -70% 100%, 100% 0);
 			}
 		}
 
@@ -1233,29 +1236,11 @@
 		background-color: #fff;
 
 		.clipPath {
-			clip-path: polygon(
-				17% 9%,
-				80% 2%,
-				100% 0,
-				100% 100%,
-				85% 92%,
-				23% 98%,
-				0 100%,
-				0 0
-			);
+			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
-					100% 0%,
-					100% 100%,
-					85% 97%,
-					31% 99%,
-					0 100%,
-					0 0
-				);
+				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
 			}
 		}
 
@@ -1307,7 +1292,7 @@
 				padding: 69px 0 58px 0;
 				row-gap: 30px;
 				column-gap: 30px;
-				
+
 				@include is-max(820px) {
 					justify-content: center;
 				}
@@ -1363,7 +1348,7 @@
 		.bg_2 {
 			position: absolute;
 			left: 0%;
-			top: -4%;		
+			top: -4%;
 
 			@include is-sp {
 				position: absolute;
@@ -1396,29 +1381,11 @@
 
 	.sect_7 {
 		.clipPath {
-			clip-path: polygon(
-				17% 9%,
-				80% 2%,
-				100% 0,
-				100% 100%,
-				85% 92%,
-				23% 98%,
-				0 100%,
-				0 0
-			);
+			clip-path: polygon(17% 9%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
 			background: linear-gradient(to right, #2579bf, #2593d5);
 
 			@include is-sp {
-				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
-					100% 0%,
-					100% 100%,
-					85% 97%,
-					31% 99%,
-					0 100%,
-					0 0
-				);
+				clip-path: polygon(17% 4%, 52% 2.3%, 100% 0%, 100% 100%, 85% 97%, 31% 99%, 0 100%, 0 0);
 			}
 		}
 
@@ -1474,11 +1441,7 @@
 					left: 0%;
 					bottom: 27px;
 					padding: 8px 13px 16px 23px;
-					background: linear-gradient(
-						100deg,
-						rgba(114, 159, 223, 0.238831) 14%,
-						#244d7e 100%
-					);
+					background: linear-gradient(100deg, rgba(114, 159, 223, 0.238831) 14%, #244d7e 100%);
 					width: 65%;
 
 					@include is-max(890px) {
