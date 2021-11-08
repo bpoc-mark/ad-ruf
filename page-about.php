@@ -6,14 +6,29 @@ $imagedir = get_template_directory_uri();
 
 get_header(); ?>
 <div class="page__content about">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/about/about_bnr.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/about/about_bnr_sp.png" alt="">
+            <div class="c-banner--ttl">
+                <p>丸 の 内 ル ー フ に つ い て</p>
+                <p>About Us</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> 企 業 情 報</p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <div class="section_1">
         <div class="clipPath">
             <div class="l-wrap">
-            <img class="sec1-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec1-bg1.png" alt="">
+                <img class="sec1-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec1-bg1.png" alt="">
                 <p class="section_1-ttl">CONCEPT</p>
                 <h1 class="section_1-sub1">この文章はダミーです特徴入れてください</h1>
                 <p class="section_1-sub2"> 私たちルーフは○○○○○○○○。<br>○○○○○○○○○。<br>○○○○○○○○○○○○○<br class="mp">(特徴が入ります)。</p>
-        
+
                 <div class="section_1-cntnt">
                     <div class="cards u-d-f u-jc-sb">
                         <div class="cards-card">
@@ -180,7 +195,7 @@ get_header(); ?>
                     </div>
                     <div class="cards-card-desc">
                         <p class="cards-card-desc-ttl">代表メッセージ</p>
-                        <p class="cards-card-desc-txt">株式会社ルーフが大切に<br class ="u-d-n-sp">していることをご紹介いたします。</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフが大切に<br class="u-d-n-sp">していることをご紹介いたします。</p>
                     </div>
                 </div>
 

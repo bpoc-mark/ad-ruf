@@ -4,13 +4,20 @@
     .l-wrap {
         position: relative;
     }
+
+    .c-banner{
+        padding: 0 0 50px 0;
+    }
+
+
     .section_1 {
         position: relative;
 
-        .clipPath {
-            clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
-            background: linear-gradient(90deg, rgba(37, 121, 191, 1) 0%, rgba(37, 147, 213, 1) 50%);
-            padding: 195px 0 85px 0;
+            .clipPath {
+                clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+                background: linear-gradient(90deg, rgba(37, 121, 191, 1) 0%, rgba(37, 147, 213, 1) 50%);
+                padding: 195px 0 85px 0;
+                margin-top: -70px;
 
             @include is-sp {
                 padding: 123.5px 0 93px 0;
