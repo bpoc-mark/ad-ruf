@@ -64,6 +64,7 @@
 						@include font-line(12.5, 10);
 						letter-spacing: 0.32em;
 						margin-bottom: 23px;
+						color: #95c6e7;
 					}
 				}
 			}
@@ -96,6 +97,7 @@
 					@include is-sp {
 						@include font-line(13.5, 20);
 						letter-spacing: 0.1em;
+						text-align: justify;
 					}
 				}
 			}
@@ -136,9 +138,9 @@
 							font-family: yu-mincho-pr6n, sans-serif;
 
 							@include is-sp {
-                                letter-spacing: 0.15em;
-                                padding-bottom: 10px;
-                            }
+								letter-spacing: 0.15em;
+								padding-bottom: 10px;
+							}
 						}
 
 						&-01-txt02 {
@@ -153,12 +155,6 @@
 							margin-bottom: 17.5px;
 						}
 					}
-
-
-
-
-				
-
 
 					.col--box {
 						width: 100%;
@@ -267,8 +263,6 @@
 						// 	}
 						// }
 					}
-
-					
 				}
 				&-02 {
 					width: 489px;
@@ -345,10 +339,7 @@
 			right: 8%;
 
 			@include is-sp {
-				position: absolute;
-				top: -9%;
-				right: 2%;
-				width: 176px;
+				display: none;
 			}
 		}
 
@@ -366,6 +357,14 @@
 				z-index: -1;
 				width: 112px;
 			}
+
+			@include is-max(376px) {
+				position: absolute;
+				left: 2%;
+				top: 36%;
+				z-index: -1;
+				width: 112px;
+			}
 		}
 		.bg_3 {
 			position: absolute;
@@ -379,8 +378,23 @@
 				right: 2.3%;
 				bottom: 70%;
 				z-index: -1;
+				width: 163px;
+			}
+
+			@include is-max(376px) {
+				position: absolute;
+				right: 2.3%;
+				bottom: 55%;
+				z-index: -1;
 				width: 126px;
 			}
+		}
+
+		.bg_sec1_sp {
+			position: absolute;
+			top: -9%;
+			right: 2%;
+			width: 176px;
 		}
 	}
 
@@ -443,7 +457,6 @@
 				&-02 {
 					width: 420px;
 
-					
 					@include is-sp {
 						width: 100%;
 						margin-bottom: 20px;
@@ -459,9 +472,9 @@
 							font-family: yu-mincho-pr6n, sans-serif;
 
 							@include is-sp {
-                                letter-spacing: 0.15em;
-                                padding-bottom: 10px;
-                            }
+								letter-spacing: 0.15em;
+								padding-bottom: 10px;
+							}
 						}
 
 						&-01-txt02 {
@@ -476,7 +489,6 @@
 							margin-bottom: 17.5px;
 						}
 					}
-
 
 					.col--box {
 						// width: 100%;
@@ -584,7 +596,6 @@
 						// 	}
 						// }
 					}
-
 				}
 
 				&-01 {
@@ -701,22 +712,21 @@
 			@include is-sp {
 				position: absolute;
 				right: 3%;
-				top: 2%;
-				width: 200px;
+				top: 3%;
+				width: 163px;
 				z-index: -1;
 			}
 		}
 
 		.bg_sp {
 			position: absolute;
-			top:0;
+			top: -32px;
 			left: 0;
 			z-index: -1;
 
 			@include is-sp {
 				width: 145px;
 			}
-			
 		}
 	}
 
@@ -902,7 +912,6 @@
 
 					@include is-max(1015px) {
 						padding-left: 20px;
-						
 					}
 
 					@include is-sp {
@@ -963,7 +972,7 @@
 					}
 
 					.wh {
-						color: #258acf;;
+						color: #258acf;
 						.txt {
 							@include is-sp {
 								letter-spacing: 0.13em;
@@ -1388,7 +1397,7 @@
 				&-desc {
 					font-family: cross-platform-yu-gothic;
 					font-weight: 500;
-					
+
 					@include font-line(13, 26);
 					letter-spacing: 0.2em;
 

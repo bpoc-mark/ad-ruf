@@ -13,20 +13,19 @@
 		background-image: url(../image/page/top-page/arr-left.png);
 		background-repeat: no-repeat;
 		z-index: 10;
-		
 
-	 @include is-sp {
+		@include is-sp {
 			background-image: url(../image/page/top-page/arr-left-sp.png);
 			width: 21px;
 			height: 36px;
 			left: 0;
 			width: 40px;
-			height: 80px;
+			height: 40px;
 			background-position: center;
 			background-color: #fff;
 		}
 	}
-	
+
 	.next-arrow {
 		position: absolute;
 		top: 36%;
@@ -36,13 +35,12 @@
 		background-image: url(../image/page/top-page/arr-right.png);
 		background-repeat: no-repeat;
 		z-index: 10;
-		
 
 		@include is-sp {
 			background-image: url(../image/page/top-page/arr-right-sp.png);
 			right: 0;
 			width: 40px;
-			height: 80px;
+			height: 40px;
 			background-position: center;
 			background-color: #fff;
 		}
