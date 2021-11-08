@@ -345,6 +345,7 @@
 }
 
 .c-buttonCase {
+<<<<<<< HEAD
 	border: 1px solid #81b3d4;
 	border-radius: 30px;
 	width: 290px;
@@ -355,27 +356,61 @@
 	position: relative;
 	background-color: #fff;
 	z-index: 777;
+=======
+    border: 1px solid #81B3D4;
+    border-radius: 30px;
+    width: 290px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 777;
+    @include is-sp {
+        width: 100%;
+    }
+    .txt {
+        text-align: center;
+        font-family: cross-platform-yu-gothic;
+        font-weight: 700;
+        padding: 20px 0;
+        line-height: 1;
+        @include font-line(14);
+    }
+    img {
+        width: 5px;
+        height: 10px;
+        position: absolute;
+        right: 20px;
+    }
+}
+>>>>>>> f47b924cd317fab4bfc265b2a32bc9eecc1e86be
 
-	@include is-sp {
-		width: 100%;
+.c-pageTop{
+	text-align: center;
+	margin-top: 95px;
+
+	.txt{
+	color: #95c6e7;
+	letter-spacing: 0.395em;
+	@include font-line(13);
+	position: relative;
+	text-align: center;
+	display: inline-block;
+
+	&::after{
+	content: "";
+	background-image: url(../image/page/contact/arrow_up.png);
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 36%;
+	top: -20px;
+		}
 	}
-
-	.txt {
-		text-align: center;
-		font-family: cross-platform-yu-gothic;
-		font-weight: 700;
-		padding: 20px 0;
-		line-height: 1;
-
-		@include font-line(14);
-	}
-
-	img {
-		width: 5px;
-		height: 10px;
-		position: absolute;
-		right: 20px;
-	}
+<<<<<<< HEAD
 }
 
 .c-buttonREP {
@@ -460,3 +495,6 @@
 }
 
 
+=======
+}
+>>>>>>> f47b924cd317fab4bfc265b2a32bc9eecc1e86be

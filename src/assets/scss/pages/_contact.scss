@@ -1,0 +1,506 @@
+.contact-frm {
+	input {
+		font-family: cross-platform-yu-gothic;
+		font-weight: 500;
+		letter-spacing: 0.28em;
+	}
+	.sect_1 {
+		background-image: linear-gradient(to right, #2579bf, #2593d5);
+		padding: 100px 0 20px 0;
+	}
+
+	&__bg-white {
+		background-color: #fff;
+		margin: 11px 0 0 0;
+		padding: 30px;
+
+		@include is-sp {
+			padding: 15px;
+		}
+	}
+
+	&__bg-txt {
+		background-color: #e2f3fb;
+		padding: 10px 0;
+
+		&--ttl {
+			@include font-line(15);
+			font-weight: 700;
+			font-family: cross-platform-yu-gothic;
+			letter-spacing: 0.32em;
+			color: #258acf;
+			text-align: center;
+		}
+	}
+
+	&__desc {
+		@include font-line(11);
+		font-family: cross-platform-yu-gothic;
+		font-weight: 500;
+		text-align: center;
+		color: #333333;
+		padding: 30px 0 50px 0;
+		line-height: 22px;
+	}
+
+	&__req {
+		&--txt {
+			@include font-line(12);
+			font-family: cross-platform-yu-gothic;
+			font-weight: 500;
+			color: #258acf;
+
+			@include is-sp {
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+	form {
+		padding: 0 60px;
+
+		@include is-sp {
+			padding: 0;
+		}
+	}
+
+	&__inner-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		@include is-sp {
+			flex-wrap: wrap;
+		}
+
+		div {
+			&:nth-child(1) {
+				width: 37%;
+				text-align: center;
+				padding: 20px 0;
+				background-color: #e2f3fb;
+				font-family: cross-platform-yu-gothic;
+				font-weight: 700;
+				color: $color-text01;
+
+				@include is-sp {
+					width: 100%;
+					line-height: 1;
+					padding: 15px 0;
+				}
+			}
+
+			&:nth-child(2) {
+				width: 30%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+
+				@include is-sp {
+					width: 100%;
+					margin-top: 20px;
+					margin-bottom: 17px;
+				}
+			}
+
+			&:nth-child(3) {
+				width: 30%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+
+				@include is-sp {
+					width: 100%;
+					margin-bottom: 35px;
+				}
+			}
+		}
+
+		.bg-lg {
+			background-color: red;
+			padding: 50px 0;
+		}
+
+		&:nth-of-type(2) {
+			border-top: 1px solid #258acf;
+			border-bottom: 1px solid #258acf;
+		}
+		&:nth-of-type(3) {
+			border-bottom: 1px solid #258acf;
+		}
+		&:nth-of-type(4) {
+			border-bottom: 1px solid #258acf;
+			div {
+				&:nth-child(2) {
+					width: 60%;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+
+				input {
+					width: 100%;
+				}
+			}
+		}
+		&:nth-of-type(5) {
+			border-bottom: 1px solid #258acf;
+			div {
+				&:nth-child(2) {
+					width: 60%;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+
+				input {
+					width: 100%;
+				}
+			}
+		}
+		&:nth-of-type(6) {
+			border-bottom: 1px solid #258acf;
+			div {
+				&:nth-child(2) {
+					width: 60%;
+					display: block;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+				input {
+					width: 100%;
+				}
+			}
+
+			small {
+				display: flex;
+				align-items: center;
+
+				&:nth-child(1) {
+					margin: 0 0 10px 0;
+				}
+			}
+
+			label {
+				width: 90px;
+			}
+		}
+		&:nth-of-type(7) {
+			border-bottom: 1px solid #258acf;
+			div {
+				&:nth-child(2) {
+					width: 60%;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+			}
+
+			input {
+				width: 100%;
+			}
+
+			span {
+				padding: 0 5px;
+			}
+		}
+		&:nth-of-type(8) {
+			border-bottom: 1px solid #258acf;
+			flex-wrap: wrap;
+
+			select {
+				width: 165px;
+				border: 1px solid #258acf;
+				padding: 10px;
+				border-radius: 0;
+				margin-left: -10px;
+
+				@include is-sp {
+					margin-left: 0px;
+				}
+			}
+
+			div {
+				&:nth-child(1) {
+					padding: 120px 0 140px 0;
+
+					@include is-sp {
+						padding: 15px 0;
+					}
+				}
+
+				&:nth-child(2) {
+					width: 60% !important;
+					flex-wrap: wrap;
+
+					@include is-sp {
+						width: 100% !important;
+					}
+
+					.sp-button {
+						width: 30%;
+						display: none;
+						margin-left: 30px;
+
+						@include is-sp {
+							width: 100%;
+							margin-left: 0;
+							margin-top: 15px;
+							display: block;
+							margin-bottom: 20px;
+						}
+
+						p {
+							color: #fff;
+							border-radius: 10px;
+							background-color: #258acf;
+							border: 1px solid #81b3d4;
+							justify-content: center;
+							padding: 12px 0;
+							text-align: center;
+							line-height: 1;
+						}
+					}
+
+					small {
+						display: flex;
+						align-items: center;
+						width: 100%;
+
+						&:last-child {
+							margin-top: 10px;
+						}
+
+						@include is-sp {
+							width: 100%;
+							margin-top: 10px;
+						}
+
+						small {
+							width: 85% !important;
+
+							@include is-sp {
+								width: 100% !important;
+							}
+						}
+
+						label {
+							width: 110px;
+							font-family: cross-platform-yu-gothic;
+
+							@include font-line(13);
+
+							@include is-sp {
+								width: 70px;
+							}
+						}
+
+						&:nth-child(1) {
+							display: flex;
+							align-items: center;
+							justify-content: flex-start;
+							width: 100%;
+
+							label {
+								width: 120px;
+
+								@include is-sp {
+									width: 80px;
+								}
+							}
+
+							input {
+								width: 110px;
+							}
+
+							span {
+								padding: 0 5px;
+							}
+
+							a {
+								width: 30%;
+								display: block;
+								margin-left: 30px;
+
+								@include is-sp {
+									width: 100%;
+									margin-left: 0;
+									margin-top: 15px;
+									display: none;
+								}
+
+								p {
+									color: #fff;
+									border-radius: 10px;
+									background-color: #258acf;
+									border: 1px solid #81b3d4;
+									justify-content: center;
+									padding: 12px 0;
+									text-align: center;
+									line-height: 1;
+								}
+							}
+						}
+
+						&:nth-child(2) {
+							width: 100%;
+							margin-bottom: 10px;
+							margin-top: 10px;
+							margin-left: -10px;
+
+							@include is-sp {
+								margin-bottom: 0;
+								margin-top: 0;
+								margin-left: 0;
+							}
+
+							label {
+								width: 110px;
+
+								@include is-sp {
+									width: 70px;
+								}
+							}
+						}
+
+						&:nth-child(3) {
+							width: 100%;
+							margin-bottom: 10px;
+						}
+						&:nth-child(4) {
+							width: 100%;
+							margin-bottom: 10px;
+						}
+						&:nth-child(5) {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(9) {
+			.bg-h {
+				background-color: #e2f3fb !important;
+				padding: 20px 0 !important;
+			}
+			border-bottom: 1px solid #258acf;
+			div {
+				&:nth-child(2) {
+					width: 60%;
+					display: block;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+				select {
+					width: 165px;
+					padding: 10px;
+					border: 1px solid #258acf;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+			}
+
+			small {
+				display: flex;
+				align-items: center;
+
+				&:nth-child(2) {
+					margin: 0 0 10px 0;
+				}
+				&:nth-of-type(3) {
+					margin: 0 0 10px 0;
+				}
+				&:nth-of-type(4) {
+					margin: 0 0 10px 0;
+				}
+			}
+
+			label {
+				width: 90px;
+			}
+		}
+		&:nth-of-type(10) {
+			border-bottom: 1px solid #258acf;
+
+			div {
+				&:nth-child(1) {
+					width: 37%;
+					padding: 60px 0;
+
+					@include is-sp {
+						width: 100%;
+						padding: 15px 0;
+					}
+				}
+
+				&:nth-child(2) {
+					width: 60%;
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+			}
+
+			textarea {
+				width: 100%;
+				border: 1px solid #2579bf;
+				padding: 20px 0 0 20px;
+				height: 90px;
+			}
+		}
+
+		.label-txt {
+			width: 40px;
+		}
+
+		input {
+			width: 85%;
+			padding: 10px;
+			border: 1px solid #258acf;
+		}
+
+		.bg-h {
+			background-color: #e2f3fb !important;
+			padding: 50px 0 !important;
+
+			@include is-sp {
+				padding: 15px 0 !important;
+			}
+		}
+	}
+
+	&__privacy {
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 45px;
+
+		a {
+			color: $color-text01;
+			font-family: cross-platform-yu-gothic;
+			font-weight: 500;
+
+			@include font-line(13);
+		}
+
+		&--agrmt {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-top: 40px;
+
+			a {
+				@include font-line(13);
+			}
+		}
+	}
+}
