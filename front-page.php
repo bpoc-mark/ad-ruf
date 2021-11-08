@@ -136,11 +136,10 @@
                                 <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -154,6 +153,7 @@
             <div class="l-wrap">
                 <img class="bg_4" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_4.png" alt="">
                 <img class="bg_5" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_5.png" alt="">
+                <img class="bg_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec2bg_sp.png" alt="">
                 <img class="bg_6" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_6.png" alt="">
                 <div class="sect_2-cntnt">
                     <div class="sect_2-cntnt-row">
@@ -169,10 +169,10 @@
                                 <p class="sect_2-cntnt-row-01-txt-03">丸の内リーフは、豊富なバリューアップの経験を武器に最適な不動産管理を行います。幅広いネットワークによる入居者募集、人気物件へと生まれ変わらせるリノベーション、入居者様に安心して長期契約いただけるサポートまで、お預かりした大切な収益不動産の価値を守り、高めます。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                         <div class="sect_2-cntnt-row-02">
 
@@ -185,7 +185,8 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png"  alt="">
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -196,7 +197,7 @@
                                 <div class="info">
                                     <p class="info-ttl">信頼という満足で満たす</p>
                                     <p class="info-sub">RUFの収益不動産の管理</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
