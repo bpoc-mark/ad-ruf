@@ -787,6 +787,7 @@ template{display:none}
 .about .section_1-cntnt .cards .cards-card-txt-ttl{text-align:center;font-size:.875rem;line-height:1.5;font-family:cross-platform-yu-gothic;font-weight:700;letter-spacing:.2em}
 .about .section_1-cntnt .cards .cards-card-txt-sub{text-align:center;font-size:.6875rem;line-height:1.4545454545;font-family:cross-platform-yu-gothic;font-weight:500;padding-top:14px;letter-spacing:.2em}
 .about .section_1-cntnt .btn .txt{letter-spacing:.2em}
+.about .section_1-cntnt .txt{color:#2588cd}
 .about .section_1 .sec1-bg1{position:absolute;right:9%;top:0;z-index:-1}
 .about .section_2{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%)}
 .about .section_2 .clipPath{-webkit-clip-path:polygon(23% 13%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(23% 13%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,right top,left top,from(#3b86c8),to(#2868af));background:linear-gradient(to left,#3b86c8,#2868af);padding:161px 0 112px 0}
