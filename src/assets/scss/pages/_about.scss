@@ -7,21 +7,57 @@
 
     .c-banner{
         padding: 0 0 50px 0;
+
+        &--ttl{
+
+        p{
+            line-height: 2.25em;
+            @include is-sp{
+              line-height: 1.25em;
+            }
+            .br-sp{
+                display: none;
+                @include is-sp{
+                    display: block;
+                }
+           }
+
+            @include is-max(430px){
+            &:nth-child(1){
+                font-size: 7vw;
+            }
+            }
+
+            @include is-sp{
+            &:nth-child(2){
+                padding-top: 15px;
+            }
+            }
+         }
+      }
     }
 
 
     .section_1 {
         position: relative;
 
+        .section_1-cntnt{
+            padding-top: 0;
+        }
+
             .clipPath {
                 clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
                 background: linear-gradient(90deg, rgba(37, 121, 191, 1) 0%, rgba(37, 147, 213, 1) 50%);
-                padding: 195px 0 85px 0;
+                padding: 155px 0 85px 0;
                 margin-top: -70px;
+
+            @include is-max(1001px){
+                clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+            }
 
             @include is-sp {
                 padding: 123.5px 0 93px 0;
-                clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+                clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
             }
         }
 
@@ -187,8 +223,12 @@
         .sec1-bg1 {
             position: absolute;
             right: 9%;
-            top: 0;
+            top: -14%;
             z-index: -1;
+            
+            @include is-max(1001px){
+                top: -8%;
+            }
 
             @include is-sp {
                 width: 138px;
@@ -199,16 +239,22 @@
 
     // SECTION 2
     .section_2 {
-        background: linear-gradient(90deg, rgba(37, 121, 191, 1) 0%, rgba(37, 147, 213, 1) 50%);
+        margin-top: -50px;
+        position: relative;
+        z-index: 150;
         .clipPath {
-            clip-path: polygon(23% 13%, 100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(19% 7%, 100% 0, 100% 100%, 87% 93%, 0 99%, 0 0);
             background: linear-gradient(to left, #3b86c8, #2868af);
-            padding: 161px 0 112px 0;
+            padding: 161px 0 143px 0;
+
+            @include is-sp{
+            // clip-path: polygon(23% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
+            }
         }
 
         &-cntnt {
             width: 980px;
-            height: 300px;
+            height: 302px;
             display: flex;
             justify-content: space-between;
             color: #fff;
@@ -237,6 +283,7 @@
                 z-index: 3;
 
                 &-imgs {
+                    margin-top: -35px;
                     @include is-sp {
                         display: none;
                     }
@@ -249,10 +296,11 @@
                 &-ttl {
                     margin-left: 20px;
                     text-align: center;
+                    margin-top: -50px;
 
-                    @include is-max(350px) {
-                        margin-left: 0;
-                    }
+                    // @include is-max(350px) {
+                    //     margin-left: 0;
+                    // }
 
                     &-txt {
                         color: #fff;
@@ -335,6 +383,7 @@
             &-row2 {
                 position: absolute;
                 right: 0;
+                top: 0;
 
                 @include is-sp {
                     display: none;
@@ -439,7 +488,7 @@
     // SECTION 3
 
     .section_3 {
-        padding: 124px 0 98px 0;
+        padding: 70px 0 50px 0;
 
         .cards {
             display: flex;

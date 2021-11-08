@@ -1,5 +1,4 @@
         <div class="page__footer">
-<<<<<<< HEAD
             <div class="p-cntct cntct">
                 <div class="l-wrap cntct-wrap">
                     <div class="p-cntct-hdr">
@@ -169,9 +168,7 @@
                 </p>
             </div>
 
-=======
            
->>>>>>> 7bc59492ee95209038c4179016ea12704548c471
         </div>
         </main>
 
