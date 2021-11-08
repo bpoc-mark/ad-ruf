@@ -1358,12 +1358,7 @@ template{display:none}
 .top .sect_4 .sect_4-cntnt-row-02 .col--box .info{width:90%}
 }@media only screen and (max-width:836px){.oe-main-content .row .col--box .info{width:60%}
 .top .sect_1-cntnt-row-01 .col--box .info{width:60%}
-<<<<<<< HEAD
-}@media only screen and (max-width:825px){.top-header-nav .nav-links{width:538px}
-.top-header-nav .nav-links-ul-02{width:385px}
 }@media only screen and (max-width:820px){.top .sect_5-cntnt .crd-wrppr{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-=======
->>>>>>> 57306c3b669b7f1e539482470f1fbd7ff411a8d3
 }@media only screen and (max-width:800px){.p-cntct-inqrs .phone:before{right:11px}
 .p-cntct-inqrs .line:before{right:11px}
 .p-cntct-inqrs .email:before{right:11px}
@@ -1407,13 +1402,10 @@ template{display:none}
 .c-card07{width:100%;padding:unset;border:0}
 .c-card07__bottom{padding-bottom:25px;border-bottom:2px dashed #aeaeae}
 .c-card07.bd-pr-n{border:0;padding-right:unset}
-<<<<<<< HEAD
-.c-card08__center{font-size:15px}
-.c-card08__bottom{font-size:13.4px}
-=======
 .c-cards09{width:47%}
 .c-cards09-img img{width:100%}
->>>>>>> 12d692516314cb288dd519b497dd1d13d74d00c4
+.c-card08__center{font-size:15px}
+.c-card08__bottom{font-size:13.4px}
 .c-case01__title{letter-spacing:.2em}
 .c-case01__sub{letter-spacing:unset;padding:0 0 60px 0}
 .c-case01__sub2{letter-spacing:unset;padding:20x 0 0 0}
@@ -2065,11 +2057,8 @@ template{display:none}
 }@media only screen and (max-width:347px){.oe-main-content .row .col:nth-child(4) .info{font-size:1.4375rem}
 }@media only screen and (max-width:344px){.oe-main-content .row .col:nth-child(4) .heading01{font-size:7.2vw}
 }@media only screen and (max-width:341px){.oe--btn .txt{font-size:.75rem}
-<<<<<<< HEAD
-}@media only screen and (max-width:340px){.case .csm .c-case01__title{font-size:7vw}
-=======
 }@media only screen and (max-width:340px){.c-cards09{width:43%}
->>>>>>> 12d692516314cb288dd519b497dd1d13d74d00c4
+.case .csm .c-case01__title{font-size:7vw}
 }@media only screen and (max-width:338px){.oe-main-content .row .col--box .info-ttl{letter-spacing:-1px !important}
 .oe-main-content .row .col:nth-child(1) .info{width:67%}
 }@media only screen and (max-width:325px){.acc--btn:first-child img{right:14px}
