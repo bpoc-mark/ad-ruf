@@ -3,12 +3,12 @@
 		position: relative;
 	}
 	.sect_1 {
-		// margin-top: -109px;
 		z-index: 4;
 		background: rgb(95, 165, 205);
 		position: relative;
 		padding-top: 100px;
-
+		margin-top: -100px;
+		
 		// clip top
 		.top-clip {
 			width: 800px;
