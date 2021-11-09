@@ -642,19 +642,20 @@
 			height: 674px;
 			width: 585px;
 			background: url(../../release/image/header/img-banner1.png);
-			z-index: -1;
+			z-index: 2;
 
 			@include is-sp {
 				right: -5%;
 				width: 471.5px;
 				z-index: -4;
+				top: 18%;
 			}
 
-			@include is-max(500px) {
-				right: 0;
-				width: 411.5px;
-				z-index: -4;
-			}
+			// @include is-max(500px) {
+			// 	right: 0;
+			// 	width: 411.5px;
+			// 	z-index: -4;
+			// }
 		}
 		&-cnt {
 			width: 100%;
@@ -884,6 +885,7 @@
 			position: absolute;
 			top: 84px;
 			right: 9px;
+			z-index: 3;
 
 			@include is-sp {
 				right: -4px;
@@ -896,6 +898,7 @@
 				font-weight: 500;
 				letter-spacing: 0.3em;
 				color: #fff;
+				
 
 				@include is-sp {
 					@include font-line(23.3, 64);
@@ -907,6 +910,11 @@
 			position: absolute;
 			top: 50%;
 			left: 80%;
+			z-index: 200;
+
+			@include is-max(875px) {
+				top: 58%;
+			}
 		}
 	}
 }

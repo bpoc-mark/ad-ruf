@@ -435,8 +435,8 @@
 				clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
 			}
 			@include is-sp {
-				padding: 160.5px 0 67.5px 0;
-				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, -120% 100%);
+				padding: 160.5px 0 34.5px 0;
+				clip-path: polygon(-198% 12%, 100% 0%, 100% 90%, 100% 146%);
 				margin: -40px 0 0 0;
 			}
 		}
@@ -744,9 +744,15 @@
 			}
 		}
 
-		@include is-sp {
-			.c-buttonCase {
+		.c-buttonCase {
+			color: #258acf;
+
+			@include is-sp {
 				border: 2px solid #81b3d4;
+				margin-bottom: 39px;
+			}
+
+			@include is-max(600px) {
 				margin-bottom: 15px;
 			}
 		}
@@ -1741,7 +1747,7 @@
 					position: absolute;
 					top: 49%;
 					left: 50%;
-					transform:translateX(-50%);
+					transform: translateX(-50%);
 				}
 				&:before {
 					content: "";
