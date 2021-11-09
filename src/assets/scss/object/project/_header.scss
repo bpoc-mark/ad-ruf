@@ -559,7 +559,7 @@
 		height: 660px;
 		width: 1100px;
 		position: relative;
-		background: linear-gradient(to right, #4A93D1, #81B3D4);
+		background: linear-gradient(to right, #4a93d1, #81b3d4);
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
@@ -626,7 +626,11 @@
 			left: 0;
 			height: 380px;
 			width: 100vw;
-			background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(37, 121, 191, 1));
+			background-image: linear-gradient(
+				to bottom,
+				rgba(255, 0, 0, 0),
+				rgba(37, 121, 191, 1)
+			);
 			display: none;
 
 			@include is-sp {
@@ -645,17 +649,34 @@
 			z-index: 2;
 
 			@include is-sp {
-				right: -5%;
-				width: 471.5px;
+				// right: -5%;
+				// z-index: -4;
+				// top: 10%;
+				// background: url(../../release/image/header/img-banner1-sp.png);
+				// width: 375px;
+				
+				
+				top: 10%;
+				background: url(../../release/image/header/img-banner1-sp.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+				right: -18%;
+				width: 555px;
 				z-index: -4;
-				top: 18%;
 			}
 
-			// @include is-max(500px) {
-			// 	right: 0;
-			// 	width: 411.5px;
-			// 	z-index: -4;
-			// }
+			@include is-max(650px) {
+				right: -23%;
+			}
+
+			@include is-max(475px) {
+				right: -6%;
+				width: 446px;
+			}
+
+			@include is-max(376px) {
+				width: 413px;
+			}
 		}
 		&-cnt {
 			width: 100%;
@@ -854,7 +875,6 @@
 			height: 100%;
 			background-image: url(../../release/image/header/circ-bnnr.png);
 			z-index: -1;
-			
 
 			@include is-sp {
 				display: none;
@@ -898,7 +918,6 @@
 				font-weight: 500;
 				letter-spacing: 0.3em;
 				color: #fff;
-				
 
 				@include is-sp {
 					@include font-line(23.3, 64);

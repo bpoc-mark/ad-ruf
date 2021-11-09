@@ -469,7 +469,7 @@
                                 </div>
                             </div>
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                            <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                            <p class="c-slider__item--sub hide">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
 
                         <div class="c-slider__item">
@@ -485,7 +485,7 @@
                                 </div>
                             </div>
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                            <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                            <p class="c-slider__item--sub hide">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
 
                         <div class="c-slider__item">
@@ -517,7 +517,7 @@
                                 </div>
                             </div>
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                            <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                            <p class="c-slider__item--sub hide">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
 
                         <div class="c-slider__item">
@@ -534,7 +534,7 @@
                                 </div>
                             </div>
                             <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                            <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                            <p class="c-slider__item--sub hide">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                         </div>
                     </div>
                 </div>

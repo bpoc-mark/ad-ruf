@@ -227,7 +227,31 @@
 			font-weight: 500;
 			@include font-line(11);
 			line-height: 16.5px;
-			text-align: left;
+			text-align: left;	
+		}
+	}
+
+	.slick-slide {
+		opacity: 0.5;
+		.c-slider__item--ttl {
+			opacity: 0;
+		}
+
+		.c-slider__item--sub {
+			opacity: 0;
+		}
+	}
+
+	.slick-slide.slick-active {
+		opacity: 1;
+		.c-slider__item--ttl {
+			opacity: 1;
+			transition: 0.5s;
+		}
+
+		.c-slider__item--sub {
+			opacity: 1;
+			transition: 0.5s;
 		}
 	}
 }
