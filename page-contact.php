@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
                     <p class="txt">電話でのお問い合わせはこちら</p>
                 </div>
                 <div class="p2">
-                    <p class="txt"><a href="#"><img src="<?= get_template_directory_uri(); ?>/release/image/contact/contact_icon.png" alt="Living Room">&nbsp;0120-173-602</a></p>
+                    <p class="txt"><a href="#"><img src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png" alt="Living Room">&nbsp;0120-173-602</a></p>
                 </div>
                 <div class="p3">
                     <p class="txt">TEL：03-3211-0123（代表）<br>
