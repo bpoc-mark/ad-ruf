@@ -233,6 +233,10 @@
 			overflow: scroll;
 		}
 
+		@include is-max(374px) {
+			width: calc(100% - 72px);
+		}
+
 		.brnd-logo {
 			display: flex;
 			width: 33.33%;
@@ -249,15 +253,34 @@
 				width: 100%;
 				padding-top: 34.5px;
 				margin-bottom: 22px;
+				padding-bottom: 0;
 			}
+
+			@include is-max(380px) {
+				padding-left: 10px;
+			}
+
 			&-link {
 				width: 100%;
 				align-items: center;
+
 				.logo {
 					margin-right: 15px;
 
 					@include is-sp {
 						width: 65px;
+					}
+
+					@include is-max(390px) {
+						margin-right: 10px;
+					}
+
+					@include is-max(375px) {
+						margin-bottom: 20px;
+					}
+
+					@include is-max(335px) {
+						width: 45px;
 					}
 				}
 				p {
@@ -274,8 +297,14 @@
 					@include is-sp {
 						@include font-line(13, 17.5);
 					}
+					@include is-max(390px) {
+						@include font-line(12, 17.5);
+					}
+					@include is-max(380px) {
+						margin-bottom: 20px;
+					}
 					@include is-max(375px) {
-						@include font-line(10, 17.5);
+						@include font-line(13, 17.5);
 					}
 				}
 			}
@@ -326,8 +355,12 @@
 						position: relative;
 						@include is-sp {
 							width: 100%;
-							border-bottom: 1px solid #fff;
+							border-bottom: 1px solid #dddddd;
 							padding: 25px 28px;
+						}
+
+						@include is-max(390px) {
+							padding: 25px 15px;
 						}
 
 						&:nth-child(1),
@@ -353,9 +386,14 @@
 						a {
 							font-weight: 500;
 							letter-spacing: 0.28em;
+
+							@include is-sp {
+								letter-spacing: 0.3em;
+							}
 						}
 
-						img {
+						img,
+						.plus {
 							width: 7px;
 							position: absolute;
 							top: 50%;
@@ -367,6 +405,9 @@
 
 							@include is-sp {
 								right: 27px;
+								transform: rotate(-90deg);
+								position: absolute;
+								top: 35px;
 							}
 						}
 					}
@@ -384,12 +425,16 @@
 						@include is-sp {
 							width: 100%;
 							line-height: 1.5;
-							border-bottom: 1px solid #fff;
+							border-bottom: 1px solid #dddddd;
 							padding: 25px 28px;
+						}
+
+						@include is-max(390px) {
+							padding: 25px 15px;
 						}
 						&:nth-child(1) {
 							@include is-sp {
-								border-top: 1px solid #fff;
+								border-top: 1px solid #dddddd;
 							}
 						}
 						&:nth-child(1),
@@ -421,7 +466,8 @@
 								}
 							}
 						}
-						img {
+						img,
+						.plus {
 							width: 7px;
 							position: absolute;
 							top: 50%;
@@ -433,10 +479,24 @@
 
 							@include is-sp {
 								right: 27px;
+								transform: rotate(-90deg);
+								position: absolute;
+								top: 35px;
 							}
+						}
+
+						.plus {
+							@include font-line(12);
+							color: #fff;
+							position: absolute;
+							top: 27px;
 						}
 						a {
 							letter-spacing: 0.54em;
+
+							@include is-sp {
+								letter-spacing: 0.3em;
+							}
 						}
 
 						&-submenu {
@@ -530,6 +590,10 @@
 		background-color: #81b3d4;
 		display: none;
 		padding-top: 19px;
+
+		@include is-max(374px) {
+			width: 72px;
+		}
 
 		a {
 			.close-btn {
@@ -654,8 +718,7 @@
 				// top: 10%;
 				// background: url(../../release/image/header/img-banner1-sp.png);
 				// width: 375px;
-				
-				
+
 				top: 10%;
 				background: url(../../release/image/header/img-banner1-sp.png);
 				background-repeat: no-repeat;
