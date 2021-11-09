@@ -732,6 +732,13 @@
 				width: 145px;
 			}
 		}
+
+		@include is-sp {
+			.c-buttonCase {
+				border: 2px solid #81b3d4;
+				margin-bottom: 15px;
+			}
+		}
 	}
 
 	.sect_3 {
@@ -1375,12 +1382,12 @@
 
 			@include is-sp {
 				clip-path: polygon(
-					17% 4%,
-					52% 2.3%,
+					15% 2%,
+					18% 2.3%,
 					100% 0%,
 					100% 100%,
-					85% 97%,
-					31% 99%,
+					85% 98%,
+					44% 99%,
 					0 100%,
 					0 0
 				);
@@ -1394,6 +1401,10 @@
 				border-left: 3px solid #fff;
 				color: #fff;
 				padding-left: 23px;
+
+				@include is-sp {
+					padding-left: 13px;
+				}
 
 				&-ttl {
 					font-family: century-gothic, sans-serif;
@@ -1415,7 +1426,7 @@
 
 					@include is-sp {
 						@include font-line(25, 37.5);
-						letter-spacing: 0.15em;
+						letter-spacing: 0.03em;
 						padding-top: 10px;
 					}
 
@@ -1499,8 +1510,17 @@
 			clip-path: none !important;
 			padding: 38px 0 97.5px !important;
 
+			@include is-sp {
+				padding-top: 90px !important;
+			}
+
 			.c-case--items__contents {
 				padding-bottom: 30px;
+			}
+			.c-case03__txt {
+				@include is-sp {
+					padding-left: 13px;
+				}
 			}
 
 			.c-case03__txt__ttl {
@@ -1509,6 +1529,14 @@
 
 			.c-case03__txt__desc {
 				letter-spacing: 0.2em;
+
+				@include is-sp {
+					letter-spacing: 0.1em;
+				}
+
+				@include is-max(375px) {
+					font-size: 3.5vw;
+				}
 			}
 		}
 
@@ -1551,7 +1579,7 @@
 
 			@include is-sp {
 				position: absolute;
-				top: -5%;
+				top: -30%;
 				right: 4%;
 				display: block;
 				width: 122px;
@@ -1579,12 +1607,12 @@
 
 			@include is-sp {
 				clip-path: polygon(
-					16% 3%,
-					10% 2.3%,
+					15% 2%,
+					18% 2.3%,
 					100% 0%,
 					100% 100%,
-					85% 97%,
-					31% 99%,
+					85% 98%,
+					44% 99%,
 					0 100%,
 					0 0
 				);
@@ -1596,6 +1624,7 @@
 
 			@include is-sp {
 				padding-bottom: 103px;
+				padding-top: 125px;
 			}
 
 			&-rows {
@@ -1938,7 +1967,9 @@
 						display: block;
 					}
 
-					&:nth-child(1), &:nth-child(2), &:nth-child(3) {
+					&:nth-child(1),
+					&:nth-child(2),
+					&:nth-child(3) {
 						border-bottom: 0;
 					}
 				}
@@ -1985,6 +2016,16 @@
 				width: 122px;
 				display: block;
 			}
+		}
+	}
+
+	@include is-sp {
+		.c-buttonCase {
+			border: 2px solid #81b3d4;
+		}
+
+		.rd {
+			border: 2px solid #e3474d !important;
 		}
 	}
 }

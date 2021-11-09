@@ -421,7 +421,7 @@
                         <div class="c-case03__txt u-ta-l">
                             <p class="c-case03__txt__ttl">Real estate column</p>
                             <p class="c-case03__txt__sub">●●●●コラム</p>
-                            <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                            <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                                 情報収集をして、後悔のない不動産投資を！</p>
                         </div>
                     </div>
@@ -566,7 +566,7 @@
                             </div>
 
                             <a href="#" class="c-buttonCase u-l-algn">
-                                <p class="txt">資産運用について</p>
+                                <p class="txt">丸の内RUFについて</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
                         </div>
