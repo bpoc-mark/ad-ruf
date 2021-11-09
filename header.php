@@ -64,8 +64,10 @@
                             </ul>
                             <ul class="nav-links-ul-02">
                                 <li class="nav-links-ul-02-link submenu-clk">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
+                                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt=""> -->
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">TOP
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    </a>
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>

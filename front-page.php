@@ -145,7 +145,7 @@
                                 <p class="sect_1-cntnt-row-02-txt-02">Real Estate Purchase</p>
                             </div>
                             <div class="sect_1-cntnt-row-02-txt">
-                                <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
+                                <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現します。</p>
                             </div>
 
                             <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
