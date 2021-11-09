@@ -24,6 +24,14 @@
 			background-position: center;
 			background-color: #fff;
 		}
+
+		@include is-max(450px) {
+			top: 26%;
+		}
+
+		@include is-max(350px) {
+			top: 21%;
+		}
 	}
 
 	.next-arrow {
@@ -43,6 +51,14 @@
 			height: 40px;
 			background-position: center;
 			background-color: #fff;
+		}
+
+		@include is-max(450px) {
+			top: 26%;
+		}
+
+		@include is-max(350px) {
+			top: 21%;
 		}
 	}
 	&__item {
