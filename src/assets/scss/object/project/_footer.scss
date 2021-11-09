@@ -629,6 +629,9 @@
                         @include font-line(15, 64.5);
                         letter-spacing: 0.28em;
                     }
+                    @include is-max (376px) {
+                        white-space: nowrap;
+                    }
                     
                     &:before {
                         content: '';

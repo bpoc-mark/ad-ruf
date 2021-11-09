@@ -787,6 +787,10 @@
 						writing-mode: tb;
 						@include font-line(27.8);
 					}
+
+					@include is-max (376px) {
+						white-space: nowrap;
+					}
 				}
 
 				&-sp {
@@ -846,6 +850,11 @@
 					font-family: century-gothic, sans-serif;
 					color: #fff;
 					letter-spacing: 0.2em;
+
+					@include is-max(376px) {
+						white-space: nowrap;
+						line-height: 1.7;
+					}
 
 					br {
 						display: none;

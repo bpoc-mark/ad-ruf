@@ -1156,7 +1156,7 @@ template{display:none}
 .top .sect_4 .sect_4-cntnt-row-01 .rd{border:1px solid #e3474d}
 .top .sect_4 .sect_4-cntnt-row-01 .rd .txt{color:#e3474d}
 .top .sect_4 .bg_1_rd{position:absolute;top:1.5%;right:8%}
-.top .sect_4 .bg_2_rd{position:absolute;top:55%;left:-6%;z-index:-1;opacity:.4}
+.top .sect_4 .bg_2_rd{position:absolute;top:58%;left:-6%;z-index:-1;opacity:.4}
 .top .sect_4 .bg_2_rd_sp{display:none}
 .top .sect_4 .bg_3_rd{position:absolute;bottom:3%;right:2%}
 .top .sect_5{background-color:#fff}
@@ -1168,7 +1168,7 @@ template{display:none}
 .top .sect_5-cntnt-txt-desc{font-family:cross-platform-yu-gothic;font-weight:500;font-size:.8125rem;line-height:2;letter-spacing:.2em}
 .top .sect_5-cntnt .crd-wrppr{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:69px 0 58px 0;row-gap:30px;-webkit-column-gap:30px;-moz-column-gap:30px;column-gap:30px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .top .sect_5 .bg_7{position:absolute;right:31%;top:9%;z-index:-9999}
-.top .sect_5 .bg_8{position:absolute;top:34%;left:0;z-index:-1}
+.top .sect_5 .bg_8{position:absolute;top:35%;left:0;z-index:-1}
 .top .sect_5 .c-buttonCase{color:#258acf}
 .top .sect_6 .fp{-webkit-clip-path:none !important;clip-path:none !important;padding:38px 0 97.5px !important}
 .top .sect_6 .fp .c-case--items__contents{padding-bottom:30px}
@@ -2058,7 +2058,10 @@ template{display:none}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{letter-spacing:.13em}
 .top-header-nav .brnd-logo{padding-left:10px}
 .top-header-nav .brnd-logo-link p{margin-bottom:20px}
-}@media only screen and (max-width:376px){.top-header-bnnr::before{width:413px}
+}@media only screen and (max-width:376px){.page__footer .nav-footer-col5 .ttl .head-link{white-space:nowrap}
+.top-header-bnnr::before{width:413px}
+.top-header-bnnr-hdr-02-txt-1{white-space:nowrap}
+.top-header-bnnr-hdr-02-txt-2{white-space:nowrap;line-height:1.7}
 }@media only screen and (max-width:375px){.p-cntct-inqrs-dtl-link p:nth-child(1){font-size:16px}
 .p-cntct-inqrs-dtl-link p:nth-child(2){font-size:12px}
 .page__footer .nav-footer{padding:75px 0 0 0}
