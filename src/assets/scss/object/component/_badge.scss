@@ -1,0 +1,23 @@
+.c-bdg {
+    width: 56px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    p {
+        color: #fff;
+        @include font-line(11,10);
+        letter-spacing: 0.28em;
+        font-weight: 500;
+    }
+}
+
+.bdg--blue {
+    background-color: #2593D5;
+}
+
+.bdg--red {
+    background-color: #B71E32;
+}

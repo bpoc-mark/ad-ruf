@@ -66,12 +66,16 @@
                 </p>
             </div>
             <div class="fade"></div>
-            
+            <div class="bdg-wrppr">
+                <div class="c-bdg bdg--blue">
+                    <p>あたり</p>
+                </div>
+            </div>
         </div>
-        <div class= "top-clip-wrppr">
-                <div class="pth"></div>
+        <div class="top-clip-wrppr">
+            <div class="pth"></div>
         </div>
-       
+
         <div class="clipPath">
 
             <div class="l-wrap">
@@ -79,7 +83,7 @@
                 <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
                 <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
                 <img class="bg_sec1_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec1_sp.png" alt="">
-               
+
 
                 <div class="sect_1-hdr">
                     <div class="sect_1-hdr-ttl">
@@ -101,7 +105,7 @@
                 <div class="sect_1-cntnt">
                     <div class="sect_1-cntnt-row">
                         <div class="sect_1-cntnt-row-01">
-                           
+
                             <div class="row01-ttl">
                                 <div class="row01-ttl-01">
                                     <p class="row01-ttl-01-txt01">収益不動産の売買</p>
@@ -113,7 +117,12 @@
 
 
                             <div class="col--box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png"  alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="Real Estate Purchase">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -172,7 +181,7 @@
                                 <p class="sect_2-cntnt-row-01-txt-03">丸の内リーフは、豊富なバリューアップの経験を武器に最適な不動産管理を行います。幅広いネットワークによる入居者募集、人気物件へと生まれ変わらせるリノベーション、入居者様に安心して長期契約いただけるサポートまで、お預かりした大切な収益不動産の価値を守り、高めます。</p>
                             </div>
 
-                            <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
+                            <a href="#" class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -188,7 +197,12 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png"  alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="Real Estate Management">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -227,7 +241,12 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -299,7 +318,12 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--red">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
@@ -545,7 +569,11 @@
                                 <p>message</p>
                                 <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
                             </div>
-                            <p class="sect_7-cntnt-rows-01-bdg u-d-n-sp">あたり</p>
+                            <div class="bdg-wrppr u-d-n-sp">
+                                 <div class="c-bdg bdg--blue">
+                                    <p>あたり</p>
+                                </div>
+                            </div> 
                         </div>
                         <div class="sect_7-cntnt-rows-02">
                             <div class="sect_7-cntnt-rows-02-txt">
@@ -598,7 +626,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -611,7 +639,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -624,7 +652,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
@@ -637,7 +665,7 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>

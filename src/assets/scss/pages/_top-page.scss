@@ -169,6 +169,12 @@
 							width: 100%;
 						}
 
+						.bdg-wrppr {
+							position: absolute;
+							top: 55%;
+							left: 70%;
+						}
+
 						// .top-text01 {
 						// 	font-family: century-gothic, sans-serif;
 						// 	font-weight: 400;
@@ -505,6 +511,11 @@
 							// height: 100%;
 							width: 100%;
 						}
+						.bdg-wrppr {
+							position: absolute;
+							top: 40%;
+							left: 81%;
+						}
 
 						// .top-text01 {
 						// 	font-family: century-gothic, sans-serif;
@@ -809,6 +820,12 @@
 							width: 100%;
 						}
 
+						.bdg-wrppr {
+							position: absolute;
+							top: 48%;
+							left: 75%;
+						}
+
 						// .top-text01 {
 						// 	font-family: century-gothic, sans-serif;
 						// 	font-weight: 400;
@@ -1089,6 +1106,12 @@
 							// inset: 0;
 							// height: 100%;
 							width: 100%;
+						}
+
+						.bdg-wrppr {
+							position: absolute;
+							top: 50%;
+							left: 67%;
 						}
 
 						// .top-text01 {
@@ -1637,18 +1660,12 @@
 						}
 					}
 				}
-				&-bdg {
+				.bdg-wrppr {
 					position: absolute;
-					top: 52%;
-					background: linear-gradient(to left, #0b4e82, #3e72aa);
-					left: 41%;
-					font-size: 11px;
-					line-height: 10px;
-					color: #fff;
-					letter-spacing: 0.2em;
-					padding: 5px 8px 5px 8px;
+					top: 49%;
+					left: 50%;
+					transform:translateX(-50%);
 				}
-
 				&:before {
 					content: "";
 					position: absolute;
