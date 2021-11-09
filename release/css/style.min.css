@@ -517,7 +517,7 @@ template{display:none}
 .top-header-bnnr-txt01-hon{font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.3666666667;font-weight:500;letter-spacing:.3em;color:#fff}
 .top-header-bnnr-txt02{width:93%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;position:absolute;top:83px;right:0;z-index:3}
 .top-header-bnnr-txt02-ver{-webkit-writing-mode:tb;-ms-writing-mode:tb;writing-mode:tb;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;font-weight:500;letter-spacing:.3em;color:#fff;padding-right:7px}
-.top-header-bnnr .bdg-wrppr{position:absolute;top:50%;left:80%;z-index:200}
+.top-header-bnnr .bdg-wrppr{position:absolute;top:54%;left:77.6%;z-index:200}
 .slide{-webkit-transform:translateX(0);transform:translateX(0)}
 .ovf{overflow:hidden}
 .float-menu{position:fixed;bottom:0;z-index:990;width:100%;display:none}
