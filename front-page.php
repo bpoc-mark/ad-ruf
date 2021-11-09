@@ -66,7 +66,7 @@
                 </p>
             </div>
             <div class="fade"></div>
-            <div class="bdg-wrppr">
+            <div class="bdg-wrppr u-d-n-sp">
                 <div class="c-bdg bdg--blue">
                     <p>あたり</p>
                 </div>
@@ -117,16 +117,12 @@
 
 
                             <div class="col--box">
-<<<<<<< HEAD
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="Real Estate Purchase">
                                 <div class="bdg-wrppr u-d-n-sp">
                                     <div class="c-bdg bdg--blue">
                                         <p>あたり</p>
                                     </div>
                                 </div>
-=======
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="">
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -201,16 +197,12 @@
                                 </div>
                             </div>
                             <div class="col--box">
-<<<<<<< HEAD
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="Real Estate Management">
                                 <div class="bdg-wrppr u-d-n-sp">
                                     <div class="c-bdg bdg--blue">
                                         <p>あたり</p>
                                     </div>
                                 </div>
-=======
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="">
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -250,14 +242,11 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
-<<<<<<< HEAD
                                 <div class="bdg-wrppr u-d-n-sp">
                                     <div class="c-bdg bdg--blue">
                                         <p>あたり</p>
                                     </div>
                                 </div>
-=======
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -330,14 +319,11 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
-<<<<<<< HEAD
                                 <div class="bdg-wrppr u-d-n-sp">
                                     <div class="c-bdg bdg--red">
                                         <p>あたり</p>
                                     </div>
                                 </div>
-=======
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
@@ -649,16 +635,7 @@
                             <p>2019年4月1日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
-<<<<<<< HEAD
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
-                            </p>
-=======
                             <p>新元号「令和」に決定いたしました。</p>
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                         </div>
                     </div>
                     <div class="sect_8-cntnt-news-cntnt">
@@ -670,11 +647,7 @@
                                 <br>
                                 〒100-6324
                                 <br>
-<<<<<<< HEAD
-                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
-=======
                                 東京都千代田区丸の内2丁目4番1<br class="u-d-n-pc">号　丸の内ビルディング24階2418区
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                             </p>
                         </div>
                     </div>
@@ -683,16 +656,8 @@
                             <p>2019年3月19日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
-<<<<<<< HEAD
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
-=======
                             <p>2019年3月25日を持ちまして、事務所を移転いたします。<br>
                             丸の内ビルディング9階951区より同ビル24階2418区へ移転いたします。
->>>>>>> 0a1ea84959a76201b1af7fda85e92e54778dcb44
                             </p>
                         </div>
                     </div>
