@@ -30,17 +30,55 @@
                     <div class="nav-links">
                         <div class="nav-links-ul">
                             <ul class="nav-links-ul-01">
-                                <li class="nav-links-ul-01-link">
+                                <li class="nav-links-ul-01-link submenu-clk">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <a href="<?php echo esc_url(home_url('/')); ?>">会社概要</a>
+                                    <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
+                                    
                                 </li>
-                                <li class="nav-links-ul-01-link">
+                                <li class="nav-links-ul-01-link submenu-clk">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">プライバシーポリシー</a>
+                                    <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                             <ul class="nav-links-ul-02">
-                                <li class="nav-links-ul-02-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
+                                <li class="nav-links-ul-02-link submenu-clk">
+                                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt=""> -->
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">TOP
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    </a>
+                                    <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
@@ -58,7 +96,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <p class="plus u-d-n-pc">+</p>
                                     <a>企業情報</a>
                                     <ul class="nav-links-ul-02-link-submenu">
                                         <li class="nav-links-ul-02-submenu-link">
@@ -87,9 +126,20 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-links-ul-02-link">
+                                <li class="nav-links-ul-02-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <a href="">不動産コラム</a>
+                                    <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 1</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 2</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="">Item 3</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -104,7 +154,10 @@
                 </div>
                 <div class="top-header-close">
                     <a>
-                        close
+                        <div class="close-btn">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/close-btn.png"alt="">
+                            <p>close</p>
+                        </div>
                     </a>
                 </div>
             </div>

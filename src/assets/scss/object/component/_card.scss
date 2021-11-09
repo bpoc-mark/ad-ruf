@@ -337,7 +337,7 @@
 	padding-right: 28px;
 	border-right: 2px dashed #aeaeae;
 	padding-left: 35px;
-	@include is-max(1000px){
+	@include is-max(1000px) {
 		width: 48%;
 		padding: unset;
 		border: none;
@@ -345,7 +345,7 @@
 		border-bottom: 2px dashed #aeaeae;
 	}
 
-	@include is-max(750px){
+	@include is-max(750px) {
 		width: 100%;
 		padding: unset;
 		border: none;
@@ -365,69 +365,73 @@
 		}
 	}
 
-	&__bottom{
+	&__bottom {
 		padding-top: 15px;
-		@include is-max(750px){
+		@include is-max(750px) {
 			padding-bottom: 25px;
 			border-bottom: 2px dashed #aeaeae;
 		}
 	}
 
-	&:last-child, &:nth-of-type(3){
+	&:last-child,
+	&:nth-of-type(3) {
 		padding-right: unset;
-		@include is-min(1000px){
+		@include is-min(1000px) {
 			border: none;
 		}
 	}
 
-	&:nth-of-type(5){
+	&:nth-of-type(5) {
 		padding-left: unset;
 	}
 
-	&:nth-of-type(7){
-
-		@include is-min(1000px){
+	&:nth-of-type(7) {
+		@include is-min(1000px) {
 			border: none !important;
 		}
-		@include is-min(750px){
+		@include is-min(750px) {
 			padding-right: unset;
 			border-bottom: 2px dashed #aeaeae;
 		}
-
-
-
 	}
 
 	&:first-child {
 		padding-left: unset;
 	}
 
-	&.bd-pr-n{
-		@include is-max(750px){
+	&.bd-pr-n {
+		@include is-max(750px) {
 			border: none;
-		padding-right: unset;
+			padding-right: unset;
 		}
 	}
 }
 
-
 .c-cards09 {
-    width: 220px;
+	width: 220px;
+
+	img {
+		width: 100%;
+	}
+
+	@include is-max(1071px) {
+		width: 30%;
+	}
 
 	@include is-sp {
-		width: 47%;
+		width: 48%;
 	}
 
-	@include is-max(540px) {
-		width: 45%;
-	}
+	// @include is-max(540px) {
+	// 	width: 45%;
+	// }
 
-	@include is-max(340px) {
-		width: 43%;
-	}
+	// @include is-max(340px) {
+	// 	width: 43%;
+	// }
 
-    &-img {
-        position: relative;
+	&-img {
+		position: relative;
 
 		img {
 			@include is-sp {
@@ -435,41 +439,42 @@
 			}
 		}
 
-        &-num {
-            position: absolute;
-            top: 2%;
-            left: 2%;
+		&-num {
+			position: absolute;
+			top: 2%;
+			left: 2%;
 
-            p {
-                font-size: 40px;
-                line-height: 48px;
-                font-weight: 400;
-                color: #fff;
-            }
-        }
+			p {
+				font-size: 40px;
+				line-height: 48px;
+				font-weight: 400;
+				color: #fff;
+				font-family: "Bebas Neue", cursive;
+			}
+		}
 
-        &-view {
-            position: absolute;
-            bottom: 6%;
-            right: 5%;
-            font-family: century-gothic, sans-serif;
-            background: #258ACF;
-            width: 62px;
-            height: 62px;
-            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-            z-index: 1;
+		&-view {
+			position: absolute;
+			bottom: 6%;
+			right: 5%;
+			font-family: century-gothic, sans-serif;
+			background: #258acf;
+			width: 62px;
+			height: 62px;
+			clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+			z-index: 1;
 
-            p {
-                font-size: 10px;
-                line-height: 10px;
-                transform: rotate(310deg);
-                color: #fff;
-                padding-top: 31px;
-                padding-left: 10px;
+			p {
+				font-size: 10px;
+				line-height: 10px;
+				transform: rotate(310deg);
+				color: #fff;
+				padding-top: 31px;
+				padding-left: 10px;
 				position: relative;
 
-				&::before{
-					content: '';
+				&::before {
+					content: "";
 					position: absolute;
 					bottom: -24%;
 					left: 26%;
@@ -477,40 +482,45 @@
 					height: 30%;
 					clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 					background-color: black;
-					transform: rotate(
-					45deg);
+					transform: rotate(45deg);
 				}
-			
-            
-            }
-        }
-    }
-
-    &-desc {
-        text-align: center;
-        background-color: #fff;
-        padding:20px 10px 18px;
-        
-
-      &-ttl {
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: 700;
-        font-family: cross-platform-yu-gothic;
-
-		@include is-max(396px) {
-			font-size: 3.5vw;
+			}
 		}
-      }
+	}
 
-      &-txt {
-        font-size: 11px;
-        line-height: 16px;
-        font-weight: 500;
-        font-family: cross-platform-yu-gothic;
-        color: #333;
-      }
-    }
+	&-desc {
+		text-align: center;
+		background-color: #fff;
+		padding: 20px 5px 18px;
+		border: 2px solid #f1f1f1;
+
+		&-ttl {
+			font-size: 14px;
+			line-height: 21px;
+			font-weight: 700;
+			font-family: cross-platform-yu-gothic;
+			letter-spacing: 0.2em;
+
+
+			@include is-max(430px) {
+				font-size: 3vw;
+			}
+		}
+
+		&-txt {
+			font-size: 11px;
+			line-height: 16px;
+			font-weight: 500;
+			font-family: cross-platform-yu-gothic;
+			color: #333;
+			letter-spacing: 0.2em;
+			padding-top: 13px;
+
+			@include is-max(430px) {
+				font-size: 3vw;
+			}
+		}
+	}
 }
 .c-card08 {
 	text-align: center;
@@ -536,7 +546,7 @@
 			height: 62px;
 			width: 62px;
 			clip-path: polygon(0 0, 0% 100%, 100% 0);
-			font-family: 'Bebas Neue', cursive;
+			font-family: "Bebas Neue", cursive;
 
 			p {
 				@include font-line(32.69);

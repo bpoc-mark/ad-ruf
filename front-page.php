@@ -3,7 +3,7 @@
     <section class="sect_1">
         <div class="top-header-bnnr">
             <div class="brnd-logo-sp">
-                <a class="brnd-logo-sp-link u-d-f u-jc-sb" href="">
+                <a class="brnd-logo-sp-link u-d-f" href="">
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                     <p>丸の内 株式会社ルーフ </p>
                 </a>
@@ -66,29 +66,37 @@
                 </p>
             </div>
             <div class="fade"></div>
+            <div class="bdg-wrppr u-d-n-sp">
+                <div class="c-bdg bdg--blue">
+                    <p>あたり</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <div class="top-clip"></div>
+        <div class="top-clip-wrppr">
+            <div class="pth"></div>
         </div>
+
         <div class="clipPath">
 
             <div class="l-wrap">
                 <img class="bg_1" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_1.png" alt="">
                 <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
                 <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
+                <img class="bg_sec1_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec1_sp.png" alt="">
+
 
                 <div class="sect_1-hdr">
                     <div class="sect_1-hdr-ttl">
                         <p class="sect_1-hdr-ttl-txt">OUR ENTERPRISES</p>
                     </div>
                     <div class="sect_1-hdr-sub">
-                        <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業をご紹介いたします。
+                        <p class="sect_1-hdr-sub-txt">丸の内ルーフの <br> 4つの事業を<br class="u-d-n-pc">ご紹介いたします。
                         </p>
                     </div>
                     <div class="sect_1-hdr-desc">
                         <p class="sect_1-hdr-desc-txt">
-                            私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br>
-                            首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br>
+                            私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br class="u-d-n-sp">
+                            首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br class="u-d-n-sp">
                             自社で収益不動産を所有する「プロのオーナー」として、お客様と同じ目線でサービスを提供します。
                         </p>
                     </div>
@@ -109,7 +117,13 @@
 
 
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="Real Estate Purchase">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -120,7 +134,7 @@
                                 <div class="info">
                                     <p class="info-ttl">価値を見極める</p>
                                     <p class="info-sub">RUFの収益不動産の売買</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="sect_1-cntnt-row-02">
@@ -131,14 +145,13 @@
                                 <p class="sect_1-cntnt-row-02-txt-02">Real Estate Purchase</p>
                             </div>
                             <div class="sect_1-cntnt-row-02-txt">
-                                <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現しま</p>
+                                <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現します。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -152,6 +165,7 @@
             <div class="l-wrap">
                 <img class="bg_4" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_4.png" alt="">
                 <img class="bg_5" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_5.png" alt="">
+                <img class="bg_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec2bg_sp.png" alt="">
                 <img class="bg_6" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_6.png" alt="">
                 <div class="sect_2-cntnt">
                     <div class="sect_2-cntnt-row">
@@ -167,10 +181,10 @@
                                 <p class="sect_2-cntnt-row-01-txt-03">丸の内リーフは、豊富なバリューアップの経験を武器に最適な不動産管理を行います。幅広いネットワークによる入居者募集、人気物件へと生まれ変わらせるリノベーション、入居者様に安心して長期契約いただけるサポートまで、お預かりした大切な収益不動産の価値を守り、高めます。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                         <div class="sect_2-cntnt-row-02">
 
@@ -179,11 +193,17 @@
                                     <p class="row01-ttl-01-txt01">収益不動産の管理</p>
                                 </div>
                                 <div class="row01-ttl-02">
-                                    <p class="row01-ttl-01-txt02">Real Estate Managemente</p>
+                                    <p class="row01-ttl-01-txt02">Real Estate Management</p>
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="Real Estate Management">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -194,7 +214,7 @@
                                 <div class="info">
                                     <p class="info-ttl">信頼という満足で満たす</p>
                                     <p class="info-sub">RUFの収益不動産の管理</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -221,7 +241,13 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
                                 </p>
@@ -232,7 +258,7 @@
                                 <div class="info">
                                     <p class="info-ttl">人生のパートナーとなる</p>
                                     <p class="info-sub">RUFの収益不動産の運用</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="sect_3-cntnt-row-02">
@@ -246,10 +272,10 @@
                                 <p class="sect_3-cntnt-row-02-txt-03">丸の内ルーフは単なる仲介業者ではありません。自社で収益不動産を保有する「プロのオーナー」として、首都圏を中心に多数の物件を運用しています。市況に応じたポートフォリオを構築することで、収益率の高い運営を実現します。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn wh">
                                 <p class="txt">収益不動産の運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -276,10 +302,10 @@
                                 <p class="sect_4-cntnt-row-01-txt-03">丸の内リーフでは、これまで培った収益不動産に関する豊富なノウハウを活かし、お客様の目的に沿ってリスクとリターンをコントロール。オーナー様の不動産投資戦略の最適化を叶えるとともに、資産価値の最大化を目指します。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn rd">
+                            <a href="" class="c-buttonCase u-l-algn rd">
                                 <p class="txt">資産運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow_rd.svg" alt="">
-                            </div>
+                            </a href="">
                         </div>
                         <div class="sect_4-cntnt-row-02">
 
@@ -292,18 +318,25 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                                <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--red">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
+                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
                                 </p>
                                 <p class="top-text02">
                                     <span>M</span>anagement
                                 </p>
+                                <p class="badge u-d-n-sp">あたり</p>
                                 <p class="num">04</p>
                                 <div class="info">
                                     <p class="info-ttl">世代を超えて歴史を紡ぐ</p>
                                     <p class="info-sub">RUFの資産運用(アセットマネジメント)</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -394,10 +427,10 @@
                         </div>
                     </div>
 
-                    <div class="c-buttonCase">
+                    <a href="#" class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -413,7 +446,7 @@
                         <div class="c-case03__txt u-ta-l">
                             <p class="c-case03__txt__ttl">Real estate column</p>
                             <p class="c-case03__txt__sub">●●●●コラム</p>
-                            <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や運用者インタビューを発信をするコラムです。<br>
+                            <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                                 情報収集をして、後悔のない不動産投資を！</p>
                         </div>
                     </div>
@@ -506,10 +539,10 @@
                     </div>
                 </div>
                 <div class="l-wrap">
-                    <div class="c-buttonCase">
+                    <a href="#" class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -527,16 +560,20 @@
                                 <p class="row01-ttl-01-txt01">代表からのご挨拶</p>
                             </div>
                             <div class="row01-ttl-02">
-                                <p class="row01-ttl-01-txt02">message</p>
+                                <p class="row01-ttl-01-txt02">MESSAGE</p>
                             </div>
                         </div>
                         <div class="sect_7-cntnt-rows-01">
-                            <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_9.png" alt="">
+                            <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec7_bg_sp.png" alt="">
                             <div class="sect_7-cntnt-rows-01-txt">
                                 <p>message</p>
                                 <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
                             </div>
-                            <p class="sect_7-cntnt-rows-01-bdg">あたり</p>
+                            <div class="bdg-wrppr u-d-n-sp">
+                                 <div class="c-bdg bdg--blue">
+                                    <p>あたり</p>
+                                </div>
+                            </div> 
                         </div>
                         <div class="sect_7-cntnt-rows-02">
                             <div class="sect_7-cntnt-rows-02-txt">
@@ -557,10 +594,10 @@
                                     今後とも宜しくお願い申し上げます。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
-                                <p class="txt">資産運用について</p>
+                            <a href="#" class="c-buttonCase u-l-algn">
+                                <p class="txt">丸の内RUFについて</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -589,46 +626,38 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
                     <div class="sect_8-cntnt-news-cntnt">
                         <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
+                            <p>2019年4月1日</p>
+                        </div>
+                        <div class="sect_8-cntnt-news-cntnt-txt">
+                            <p>新元号「令和」に決定いたしました。</p>
+                        </div>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt">
+                        <div class="sect_8-cntnt-news-cntnt-date">
+                            <p>2019年3月25日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
                             <p>事務所を移転いたしました。
                                 <br>
-                                〒100-6334
+                                〒100-6324
                                 <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2丁目4番1<br class="u-d-n-pc">号　丸の内ビルディング24階2418区
                             </p>
                         </div>
                     </div>
                     <div class="sect_8-cntnt-news-cntnt">
                         <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
+                            <p>2019年3月19日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
-                            </p>
-                        </div>
-                    </div>
-                    <div class="sect_8-cntnt-news-cntnt">
-                        <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
-                        </div>
-                        <div class="sect_8-cntnt-news-cntnt-txt">
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1　丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                            <p>2019年3月25日を持ちまして、事務所を移転いたします。<br>
+                            丸の内ビルディング9階951区より同ビル24階2418区へ移転いたします。
                             </p>
                         </div>
                     </div>
