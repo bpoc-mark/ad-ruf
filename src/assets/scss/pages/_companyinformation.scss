@@ -1,11 +1,62 @@
 .ci {
+	.c-banner{
+		position: relative;
+		padding: 0 0 100px 0;
+		&--ttl{
+			p{
+				&:nth-child(1){
+					@include is-max(1000px){
+					font-size: 3vw;
+					}
+					@include is-sp{
+						font-size: 25px;
+					}
+					@include is-max(400px){
+						font-size: 7vw;
+					}
+				}
+				&:nth-child(2){
+					line-height: 2;
+					@include is-max(1000px){
+						font-size: 1.3vw;
+					}
+					@include is-sp{
+						font-size: 12px;
+					}
+					@include is-max(400px){
+						font-size: 3vw;
+					}
+				}
+			}
+		}
+	}
+
 	&__section_1 {
-		background: linear-gradient(
-			90deg,
-			rgba(37, 121, 191, 1) 0%,
-			rgba(37, 147, 213, 1) 50%
-		);
-		padding-bottom: 101px;
+
+		.clip-path{
+			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+			clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+			padding: 100px 0 100px 0;
+			text-align: center;
+			margin-top: -135px;
+			padding-bottom: 101px;
+
+			@include is-sp{
+				clip-path: polygon(0 4%, 100% 2%, 100% 100%, 0% 100%);
+			}
+
+			@include is-max(400px){
+				clip-path: polygon(0 3%, 100% 2%, 100% 100%, 0% 100%);
+				margin-top: -145px;
+			}
+		}
+	
+		// background: linear-gradient(
+		// 	90deg,
+		// 	rgba(37, 121, 191, 1) 0%,
+		// 	rgba(37, 147, 213, 1) 50%
+		// );
+		
 
 		@include is-sp {
 			padding-bottom: 101px;
@@ -202,6 +253,7 @@
 								font-family: cross-platform-yu-gothic;
 								font-weight: 500;
 								line-height: 24px;
+								text-align: left;
 							}
 
 							.sp-block {
@@ -352,18 +404,18 @@
 	}
 
 	// clip path
-	.clip-top {
-		margin-bottom: 50px !important;
-		-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
-		clip-path: polygon(100% 0%, 0 0, 0% 100%);
-		padding: 100px 0 0 0;
-		background-color: #fff;
-		text-align: center;
+	// .clip-top {
+	// 	margin-bottom: 50px !important;
+	// 	clip-path: polygon(0 80%, 100% 0, 100% 100%, 0% 100%);
+	// 	padding: 55px 0 0 0;
+	// 	// background: rgb(95, 165, 205);
+	// 	background: red;
+	// 	text-align: center;
 
-		@include is-sp {
-			padding: 60px 0 0 0;
-		}
-	}
+	// 	@include is-sp {
+	// 		padding: 60px 0 0 0;
+	// 	}
+	// }
 
 	&--fd {
 		@include is-sp {
