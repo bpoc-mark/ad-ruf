@@ -1,0 +1,1062 @@
+.real_estate_purchase {
+	.sect_1 {
+		position: relative;
+		margin-top: 100px;
+		.l-wrap {
+			text-align: center;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -100px;
+			height: 100px;
+			background: linear-gradient(to right, #2579bf, #2593d5);
+			clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+		}
+
+		&__center {
+			padding: 100px 0 160px 0;
+			background: linear-gradient(to right, #2579bf, #2593d5);
+
+			@include is-max(750px) {
+				padding: 75px 0;
+			}
+
+			@include is-between(750px, 767px) {
+				padding: 150px 0;
+			}
+		}
+
+		&__eng_ttl {
+			font-family: century-gothic, sans-serif;
+			@include font-line(10, 20);
+			color: #95c6e7;
+			letter-spacing: 0.32em;
+
+			@include is-max(750px) {
+				font-size: 12.5px;
+			}
+		}
+
+		&__headers {
+			font-family: yu-mincho-pr6n, sans-serif;
+			@include font-line(30, 48);
+			color: #fff;
+			letter-spacing: 0.18em;
+			padding-top: 10px;
+			padding-bottom: 23px;
+
+			@include is-max(750px) {
+				padding-bottom: 15px;
+				@include font-line(25, 32);
+			}
+
+			@include is-max(375px) {
+				letter-spacing: 2px;
+			}
+
+			.ttl_small {
+				font-family: yu-mincho-pr6n, sans-serif;
+				@include font-line(20, 35);
+				color: #fff;
+				line-height: 0;
+				letter-spacing: 0.18em;
+
+				@include is-max(750px) {
+					@include font-line(13, 25);
+				}
+
+				@include is-max(375px) {
+					@include font-line(10, 15);
+				}
+			}
+		}
+		.header_subtext {
+			font-family: yu-mincho-pr6n, sans-serif;
+			@include font-line(13, 26);
+			color: #fff;
+			letter-spacing: 0.2em;
+
+			@include is-max(750px) {
+				@include font-line(13, 25);
+				text-align: left;
+			}
+		}
+
+		&__box-sm {
+			position: absolute;
+			top: 117px;
+			right: 138px;
+
+			@include is-max(750px) {
+				width: 50%;
+				top: 70px;
+				right: 15px;
+			}
+		}
+
+		&__box-big {
+			position: absolute;
+			left: 0;
+			top: 285px;
+			@include is-max(750px) {
+				display: none;
+			}
+		}
+	}
+
+	.sect_2 {
+		position: relative;
+		background: linear-gradient(to right, #2868b1, #3b88ca);
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: -59px;
+			height: 60px;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: -58px;
+			height: 60px;
+			z-index: 1;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+		}
+
+		.txt_ttl {
+			@include font-line(24, 30);
+			text-align: left;
+			color: #fff;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.3em;
+			@include is-sp {
+				padding-bottom: 25px;
+			}
+		}
+
+		.l-wrap {
+		}
+
+		&__inner-realestate {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 90px 0;
+			@include is-max(750px) {
+				flex-direction: column-reverse;
+			}
+
+			&--left,
+			&--right {
+				width: 50%;
+				position: relative;
+				z-index: 4;
+				.pic {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+				@include is-max(750px) {
+					width: 100%;
+				}
+			}
+
+			&--left {
+				padding-right: 95px;
+				@include is-max(900px) {
+					padding-right: 20px;
+				}
+				@include is-max(750px) {
+					padding-right: unset;
+				}
+
+
+
+				.txt_ttl {
+					@include font-line(24, 30);
+					text-align: left;
+					color: #fff;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 600;
+					letter-spacing: 0.3em;
+				}
+				.text {
+					font-family: cross-platform-yu-gothic;
+					font-weight: 600;
+					@include font-line(13, 26);
+					text-align: left;
+					color: #fff;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					letter-spacing: 0.11em;
+					text-align: justify;
+
+					@include is-max(750px) {
+						padding-right: unset;
+						padding-top: 25px;
+						text-align: justify;
+						letter-spacing: 0.08em;
+					}
+				}
+
+				.point {
+					background-color: #fff;
+					padding-left: 30px;
+					padding-right: 30px;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					&_ttl {
+						font-family: century-gothic, sans-serif;
+						@include font-line(11, 22);
+						color: #2589ce;
+						letter-spacing: 0.26em;
+						text-align: center;
+						font-weight: 700;
+						padding-bottom: 5px;
+					}
+
+					&_item {
+						font-family: cross-platform-yu-gothic;
+						text-align: left;
+						@include font-line(9, 26);
+						color: #87b2db;
+						font-weight: 700;
+
+						span {
+							margin-left: 10px;
+							font-weight: 700;
+							color: #2589ce;
+							@include font-line(13, 26);
+							letter-spacing: 0.2em;
+						}
+					}
+				}
+			}
+			&--right {
+			}
+		}
+	}
+
+	.sect_3 {
+		position: relative;
+		background: linear-gradient(to right, #2579be, #2592d4);
+
+		.txt_ttl {
+			@include font-line(24, 30);
+			text-align: left;
+			color: #fff;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.3em;
+			@include is-sp {
+				padding-bottom: 25px;
+			}
+		}
+
+		.l-wrap {
+		}
+
+		&__inner-realestate {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row-reverse;
+			padding: 160px 0 90px 0;
+			@include is-max(750px) {
+				flex-direction: column-reverse;
+			}
+
+			&--left,
+			&--right {
+				width: 50%;
+				position: relative;
+				z-index: 4;
+				.pic {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+				@include is-max(750px) {
+					width: 100%;
+				}
+			}
+
+			&--left {
+				padding-left: 95px;
+				@include is-max(750px) {
+					padding-left: unset;
+				}
+
+				@include is-max(900px) {
+					padding-left: 20px;
+				}
+				.txt_ttl {
+					@include font-line(24, 30);
+					text-align: left;
+					color: #fff;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 600;
+					letter-spacing: 0.3em;
+				}
+				.text {
+					font-family: cross-platform-yu-gothic;
+					font-weight: 600;
+					@include font-line(13, 26);
+					text-align: left;
+					color: #fff;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					letter-spacing: 0.11em;
+					text-align: justify;
+
+					@include is-max(750px) {
+						padding-right: unset;
+						padding-top: 25px;
+						text-align: justify;
+					}
+				}
+			}
+			&--right {
+			}
+		}
+	}
+
+	.sect_4 {
+		position: relative;
+		margin-top: 130px;
+		margin-bottom: 60px;
+		background-color: #fff;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: -61px;
+			height: 60px;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+		}
+		.txt_ttl {
+			@include font-line(24, 30);
+			text-align: left;
+			color: #4688c8;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.15em;
+
+			@include is-max(750px) {
+				order: 1;
+				padding-bottom: 25px;
+			}
+		}
+
+		.l-wrap {
+		}
+
+		&--top-realestate {
+			border-left: 3px solid #4688c8;
+			padding-left: 15px;
+		}
+		&__eng--ttl {
+			font-family: century-gothic, sans-serif;
+			@include font-line(13, 20);
+			color: #2589ce;
+			letter-spacing: 0.21em;
+			text-align: left;
+			font-weight: 600;
+			margin-bottom: 5px;
+		}
+
+		&__header {
+			@include font-line(26, 37);
+			text-align: left;
+			color: #4688c8;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.2em;
+		}
+
+		&__header--sub {
+			font-family: cross-platform-yu-gothic;
+			text-align: left;
+			@include font-line(13, 26);
+			color: #000;
+			font-weight: 600;
+			letter-spacing: 0.197em;
+			margin-bottom: 70px;
+
+			@include is-max(750px) {
+				margin-bottom: 20px;
+			}
+		}
+
+		&__inner-realestate {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row-reverse;
+			padding-bottom: 100px;
+			@include is-max(750px) {
+				flex-direction: column-reverse;
+				display: grid;
+			}
+
+			&--left,
+			&--right {
+				width: 50%;
+				position: relative;
+				z-index: 4;
+				@include is-max(750px) {
+					width: 100%;
+				}
+			}
+
+			&--left {
+				padding-left: 95px;
+				@include is-max(900px) {
+					padding-left: 20px;
+				}
+				@include is-max(750px) {
+					padding-left: unset;
+					order: 3;
+				}
+				.txt_ttl {
+					@include font-line(26, 30);
+					text-align: left;
+					color: #4688c8;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 600;
+					letter-spacing: 0.15em;
+				}
+			}
+			.text {
+				font-family: cross-platform-yu-gothic;
+				font-weight: 600;
+				@include font-line(13, 26);
+				text-align: left;
+				color: #000;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				letter-spacing: 0.2em;
+				text-align: justify;
+				font-weight: 600;
+
+				span {
+					@include font-line(11, 26);
+					letter-spacing: 0.2em;
+				}
+
+				@include is-max(750px) {
+					padding-right: unset;
+					padding-top: 25px;
+					text-align: justify;
+				}
+			}
+
+			.point {
+				background-color: #fff;
+				padding-left: 30px;
+				padding-right: 30px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				border: 2px solid #87b2db;
+				&_ttl {
+					font-family: century-gothic, sans-serif;
+					@include font-line(11, 22);
+					color: #2589ce;
+					letter-spacing: 0.26em;
+					text-align: center;
+					font-weight: 700;
+					padding-bottom: 5px;
+				}
+
+				&_item {
+					font-family: cross-platform-yu-gothic;
+					text-align: left;
+					@include font-line(9, 26);
+					color: #87b2db;
+					font-weight: 700;
+
+					span {
+						margin-left: 10px;
+						font-weight: 700;
+						color: #2589ce;
+						@include font-line(13, 26);
+						letter-spacing: 0.2em;
+					}
+				}
+			}
+
+			&--right {
+				@include is-max(750px) {
+					order: 2;
+				}
+			}
+		}
+
+		.c-buttonREP{
+			margin-top:50px;
+		}
+	}
+
+	.sect_5 {
+		position: relative;
+		margin-bottom: 60px;
+		background: linear-gradient(to right, #2868b1, #3b88ca);
+		&--clipbg {
+			background-color: #fff;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: -59px;
+			height: 60px;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
+			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
+		}
+
+		.txt_ttl {
+			@include font-line(24, 30);
+			text-align: left;
+			color: #fff;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.3em;
+			@include is-sp {
+				padding-bottom: 20px;
+			}
+		}
+
+		.l-wrap {
+		}
+
+		&__inner-realestate {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 90px 0;
+			@include is-max(750px) {
+				flex-direction: column-reverse;
+			}
+
+			&--left,
+			&--right {
+				width: 50%;
+				position: relative;
+				z-index: 4;
+				@include is-max(750px) {
+					width: 100%;
+				}
+
+				.pic {
+					width: 100%;
+					object-fit: cover;
+				}
+			}
+
+			&--left {
+				padding-right: 95px;
+				@include is-max(900px) {
+					padding-right: 20px;
+				}
+				@include is-max(750px) {
+					padding-right: unset;
+				}
+				.txt_ttl {
+					@include font-line(24, 30);
+					text-align: left;
+					color: #fff;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 600;
+					letter-spacing: 0.3em;
+				}
+				.text {
+					font-family: cross-platform-yu-gothic;
+					font-weight: 600;
+					@include font-line(13, 26);
+					text-align: left;
+					color: #000;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					letter-spacing: 0.2em;
+					text-align: justify;
+
+					@include is-max(750px) {
+						padding-right: unset;
+						padding-top: 25px;
+						text-align: justify;
+					}
+				}
+
+				.point {
+					background-color: #fff;
+					padding-left: 30px;
+					padding-right: 30px;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					&_ttl {
+						font-family: century-gothic, sans-serif;
+						@include font-line(11, 22);
+						color: #2589ce;
+						letter-spacing: 0.26em;
+						text-align: center;
+						font-weight: 700;
+						padding-bottom: 5px;
+					}
+
+					&_item {
+						font-family: cross-platform-yu-gothic;
+						text-align: left;
+						@include font-line(9, 26);
+						color: #87b2db;
+						font-weight: 700;
+
+						span {
+							margin-left: 10px;
+							font-weight: 700;
+							color: #2589ce;
+							@include font-line(13, 26);
+							letter-spacing: 0.2em;
+						}
+					}
+				}
+			}
+			&--right {
+			}
+		}
+	}
+
+	.sect_6 {
+		background: #fff;
+
+		.txt_ttl {
+			@include font-line(24, 30);
+			text-align: left;
+			color: #4688c8;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.15em;
+			padding-bottom: 20px;
+			order: 1;
+		}
+
+		.l-wrap {
+		}
+
+		&__inner-realestate {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row-reverse;
+			padding: 90px 0;
+			@include is-max(750px) {
+				display: grid;
+			}
+
+			&--left,
+			&--right {
+				width: 50%;
+				position: relative;
+				z-index: 4;
+				@include is-max(750px) {
+					width: 100%;
+				}
+			}
+
+			&--left {
+				padding-left: 95px;
+				@include is-max(900px) {
+					padding-left: 20px;
+				}
+
+				@include is-max(750px) {
+					padding-left: unset;
+					order: 3;
+				}
+				.txt_ttl {
+					@include font-line(24, 30);
+					text-align: left;
+					color: #4688c8;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 600;
+					letter-spacing: 0.15em;
+				}
+				.text {
+					font-family: cross-platform-yu-gothic;
+					font-weight: 600;
+					@include font-line(13, 26);
+					text-align: left;
+					color: #000;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					letter-spacing: 0.2em;
+					text-align: justify;
+
+					@include is-max(750px) {
+						padding-right: unset;
+						padding-top: 25px;
+						text-align: justify;
+					}
+				}
+
+				.point {
+					background-color: #fff;
+					padding-left: 30px;
+					padding-right: 30px;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					border: 2px solid #2589ce;
+					&_ttl {
+						font-family: century-gothic, sans-serif;
+						@include font-line(11, 22);
+						color: #2589ce;
+						letter-spacing: 0.26em;
+						text-align: center;
+						font-weight: 700;
+						padding-bottom: 5px;
+					}
+
+					&_item {
+						font-family: cross-platform-yu-gothic;
+						text-align: left;
+						@include font-line(9, 26);
+						color: #87b2db;
+						font-weight: 700;
+
+						span {
+							margin-left: 10px;
+							font-weight: 700;
+							color: #2589ce;
+							@include font-line(13, 26);
+							letter-spacing: 0.2em;
+						}
+					}
+				}
+			}
+			&--right {
+				@include is-max(750px) {
+					order: 2;
+				}
+			}
+		}
+	}
+
+	.sect_7 {
+		position: relative;
+		margin-top: 60px;
+		margin-bottom: 60px;
+		padding-top: 70px;
+		padding-bottom: 33px;
+		background: linear-gradient(to right, #2868b1, #3b88ca);
+
+		&::before {
+			content: " ";
+			position: absolute;
+			width: 100%;
+			top: -59px;
+			height: 60px;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
+		}
+
+		&::after {
+			content: " ";
+			position: absolute;
+			width: 100%;
+			bottom: -59px;
+			height: 60px;
+			background: linear-gradient(to right, #2868b1, #3b88ca);
+			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
+			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
+		}
+
+		.l-wrap {
+		}
+
+		&--top-casestudy {
+			border-left: 3px solid #fff;
+			padding-left: 15px;
+		}
+		&__eng--ttl {
+			font-family: century-gothic, sans-serif;
+			@include font-line(10, 20);
+			color: #95c6e7;
+			letter-spacing: 0.32em;
+			text-align: left;
+			font-weight: 600;
+			margin-bottom: 5px;
+			@include is-max(750px) {
+				@include font-line(13, 20);
+				letter-spacing: 0.21em;
+			}
+		}
+
+		&__header {
+			@include font-line(26, 37);
+			text-align: left;
+			color: #fff;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.34em;
+			@include is-max(750px) {
+				letter-spacing: 0.15em;
+			}
+		}
+
+		&__header--sub {
+			font-family: cross-platform-yu-gothic;
+			text-align: left;
+			@include font-line(13, 26);
+			color: #fff;
+			font-weight: 600;
+			letter-spacing: 0.2em;
+			margin-bottom: 70px;
+			@include is-max(750px) {
+				text-align: justify;
+			}
+		}
+
+		&--inner-casestudy {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding-bottom: 55px;
+			@include is-max(750px) {
+			}
+		}
+
+		.card_ttl {
+			font-family: cross-platform-yu-gothic;
+			@include font-line(14, 21);
+			color: #2589ce;
+			font-weight: 700;
+			letter-spacing: 0.2em;
+			padding-bottom: 10px;
+			@include is-max(750px) {
+				@include font-line(14, 21);
+				color: #2589ce;
+				font-weight: 700;
+				letter-spacing: 0.1em;
+			}
+		}
+
+		.desc {
+			font-family: cross-platform-yu-gothic;
+			@include font-line(11, 16);
+			color: #000;
+			font-weight: 500;
+			letter-spacing: 0.2em;
+		}
+	}
+
+	.sect_8 {
+		padding-top: 70px;
+		background-color: #fff;
+		&--clipbg {
+			background-color: #fff;
+		}
+
+		.l-wrap {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		&--top {
+			border-left: 3px solid #2589ce;
+			padding-left: 15px;
+		}
+		&__eng--ttl {
+			font-family: century-gothic, sans-serif;
+			@include font-line(10, 20);
+			color: #94c5e6;
+			letter-spacing: 0.32em;
+			text-align: left;
+			font-weight: 600;
+			margin-bottom: 5px;
+
+			@include is-max(750px) {
+				@include font-line(13, 20);
+				letter-spacing: 0.21em;
+			}
+		}
+
+		&__header {
+			@include font-line(26, 37);
+			text-align: left;
+			color: #2589ce;
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			letter-spacing: 0.34em;
+			@include is-max(750px) {
+				@include font-line(25, 35);
+				letter-spacing: 0em;
+			}
+		}
+
+		&--inner {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.l-wrap {
+				margin-top: 70px;
+				width: 100%;
+				justify-content: space-between;
+				@include is-max(750px) {
+					margin-top: unset;
+				}
+			}
+		}
+
+		.hide-sp {
+			width: 100%;
+			height: 70px;
+			@include is-max(1000px) {
+				display: none;
+			}
+		}
+
+
+		.Question,
+		.Answer {
+			width: 20%;
+			padding-left: 4px;
+		}
+
+		.qtext,
+		.atext {
+			width: 80%;
+		}
+
+		.Question {
+			font-family: century-gothic, sans-serif;
+			@include font-line(37);
+			color: #9ec4e3;
+			letter-spacing: 0.26em;
+			text-align: left;
+			font-weight: 700;
+			line-height: 1;
+		}
+
+		.qtext {
+			font-family: cross-platform-yu-gothic;
+			@include font-line(16, 24);
+			color: #2589ce;
+			letter-spacing: 0.2em;
+			text-align: left;
+			font-weight: 700;
+			padding-bottom: 10px;
+		}
+
+		.Answer {
+			font-family: century-gothic, sans-serif;
+			@include font-line(37, 75);
+			color: #a72f37;
+			letter-spacing: 0.26em;
+			text-align: left;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+
+		.atext {
+			font-family: cross-platform-yu-gothic;
+			@include font-line(13, 26);
+			color: #333333;
+			letter-spacing: 0.15em;
+			text-align: left;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+
+		&__btn--wrap {
+			position: relative;
+			padding-top: 55px;
+			width: 640px;
+			display: flex;
+			justify-content: space-between;
+			margin: auto;
+			z-index: 2;
+
+			@include is-sp{
+				flex-direction: column;
+
+				.c-buttonREP:first-child{
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	.hide-tab{
+		@include is-max(900px) {
+		display:none;
+		}
+		@include is-max(750px) {
+			display: block;
+		}
+	}
+
+	.show-tab{
+		display:none;
+		@include is-max(900px) {
+		display:block;
+		text-align: center;
+		margin: auto;
+		width: 70%;
+		margin-top: 50px;
+		}
+		@include is-max(750px) {
+			display: none;
+		}
+	}
+
+
+	.point {
+		background-color: #fff;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		&_ttl {
+			font-family: century-gothic, sans-serif;
+			@include font-line(11, 22);
+			color: #2589ce;
+			letter-spacing: 0.26em;
+			text-align: center;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+
+		&_item {
+			font-family: cross-platform-yu-gothic;
+			text-align: left;
+			@include font-line(9, 26);
+			color: #87b2db;
+			font-weight: 700;
+
+			span {
+				margin-left: 10px;
+				font-weight: 700;
+				color: #2589ce;
+				@include font-line(13, 26);
+				letter-spacing: 0.2em;
+			}
+		}
+	}
+
+	.pic {
+		width: 100%;
+	}
+}
