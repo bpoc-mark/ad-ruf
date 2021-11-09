@@ -96,7 +96,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                    <p class="plus u-d-n-pc">+</p>
                                     <a>企業情報</a>
                                     <ul class="nav-links-ul-02-link-submenu">
                                         <li class="nav-links-ul-02-submenu-link">
