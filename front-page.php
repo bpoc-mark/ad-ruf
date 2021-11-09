@@ -66,6 +66,7 @@
                 </p>
             </div>
             <div class="fade"></div>
+            
         </div>
         <div class= "top-clip-wrppr">
                 <div class="pth"></div>
