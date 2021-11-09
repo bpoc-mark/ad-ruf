@@ -1,4 +1,24 @@
 .real_estate_purchase {
+
+	.c-banner{
+		padding: 0 0 100px 0;
+
+		&--ttl{
+			p{
+				&:nth-child(1){
+					@include is-max(400px){
+						font-size: 7vw;;
+					}
+				}
+				&:nth-child(2){
+					@include is-max(400px){
+						font-size: 3vw;;
+					}
+				}
+			}
+		}
+	}
+
 	.sect_1 {
 		position: relative;
 		margin-top: 100px;
@@ -6,14 +26,20 @@
 			text-align: center;
 		}
 
+		&__box-big-new{
+			position: absolute;
+			right: 7%;
+			top: -95px;
+		}
+
 		&::before {
 			content: "";
 			position: absolute;
 			width: 100%;
-			top: -100px;
+			top: -95px;
 			height: 100px;
 			background: linear-gradient(to right, #2579bf, #2593d5);
-			clip-path: polygon(0 95%, 100% 0, 100% 100%, 0 100%);
+			clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%);
 		}
 
 		&__center {
@@ -100,16 +126,27 @@
 		&__box-big {
 			position: absolute;
 			left: 0;
-			top: 285px;
+			top: 163px;
 			@include is-max(750px) {
 				display: none;
 			}
+		}
+		
+		p{
+			position: relative;
+			z-index: 150;
 		}
 	}
 
 	.sect_2 {
 		position: relative;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
+
+		.c-buttonREP{
+			.txt{
+				color: #2589ce;
+			}
+		}
 
 		&::before {
 			content: "";
@@ -252,6 +289,12 @@
 		position: relative;
 		background: linear-gradient(to right, #2579be, #2592d4);
 
+			.c-buttonREP{
+			.txt{
+				color: #2589ce;
+			}
+		}
+
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -336,6 +379,12 @@
 		margin-top: 130px;
 		margin-bottom: 60px;
 		background-color: #fff;
+
+			.c-buttonREP{
+			.txt{
+				color: #2589ce;
+			}
+		}
 
 		&::after {
 			content: "";
@@ -760,6 +809,12 @@
 		padding-bottom: 33px;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
 
+			.c-buttonREP{
+			.txt{
+				color: #2589ce;
+			}
+		}
+
 		&::before {
 			content: " ";
 			position: absolute;
@@ -868,6 +923,12 @@
 			background-color: #fff;
 		}
 
+			.c-buttonREP{
+			.txt{
+				color: #2589ce;
+			}
+		}
+
 		.l-wrap {
 			display: flex;
 			flex-wrap: wrap;
@@ -912,6 +973,7 @@
 
 			.l-wrap {
 				margin-top: 70px;
+				margin-bottom: 70px;
 				width: 100%;
 				justify-content: space-between;
 				@include is-max(750px) {

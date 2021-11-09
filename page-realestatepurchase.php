@@ -4,9 +4,27 @@
 $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content real_estate_purchase">
+    <div class="c-banner">
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <div class="c-inner">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr_sp.png" alt="">
+            <div class="c-banner--ttl">
+                <p>収 益 不 動 産 の 売 買</p>
+                <p>Real Estate Purchase</p>
+            </div>
+        </div>
+        <div class="bread_crumps">
+            <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> 収 益 不 動 産 の 売 買</p>
+        </div>
+    </div>
+    <div class="top-clip"></div>
     <section class="sect_1">
         <div class="sect_1__center">
             <div class="l-wrap">
+                <div class="sect_1__box-big-new">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                </div>
                 <p class="sect_1__eng_ttl">
                     Real Estate Purchase
                 </p>
@@ -26,7 +44,7 @@ $imagedir = get_template_directory_uri();
         </div>
 
         <div class="sect_1__box-big">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/groupbusiness/rect_big.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
         </div>
     </section>
     <section class="sect_2">
