@@ -319,6 +319,7 @@
 							letter-spacing: 0.2em;
 							color: #fff;
 							margin-bottom: 45px;
+							text-align: justify;
 
 							@include is-sp {
 								@include font-line(13.5, 20);
@@ -664,6 +665,7 @@
 							letter-spacing: 0.2em;
 							color: #000000;
 							margin-bottom: 22px;
+							text-align: justify;
 
 							@include is-sp {
 								@include font-line(13.5, 20);
@@ -995,13 +997,13 @@
 							letter-spacing: 0.2em;
 							color: #fff;
 							margin-bottom: 45px;
+							text-align: justify;
 
 							@include is-sp {
 								@include font-line(13.5, 20);
 								letter-spacing: 0.1em;
 								margin-bottom: 50px;
 								line-height: 22.5px;
-								text-align: justify;
 							}
 						}
 					}
@@ -1275,6 +1277,10 @@
 							color: #e3474d;
 							padding-top: 30px;
 
+							@include is-max(857px) {
+								font-size: 3vw;
+							}
+
 							@include is-sp {
 								@include font-line(50, 75);
 								letter-spacing: 0.15em;
@@ -1305,6 +1311,7 @@
 							letter-spacing: 0.2em;
 							color: #000000;
 							margin-bottom: 45px;
+							text-align: justify;
 
 							@include is-sp {
 								@include font-line(13.5, 20);
