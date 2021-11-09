@@ -36,9 +36,11 @@ $(document).on('click', '.submenu-clk', function () {
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideUp();
+    $(this).find('.plus').text('+').css('transform', 'rotate(-90deg)');
   } else {
     $(this).addClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideDown();
+    $(this).find('.plus').text('-').css('transform', 'rotate(0deg)');
   }
 });
 var clickAllowed = true;

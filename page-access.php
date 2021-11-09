@@ -23,7 +23,8 @@ $imagedir = get_template_directory_uri();
         <!-- //CLIP -->
         <!-- <div class="clip-top"></div> -->
         <div class="l-wrap">
-            <img class="acc__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
+            <img class="acc__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
+            <img class="acc__bg_1_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/bg_1_sp.png" alt="">
             <p class="acc__ttl">Access</p>
             <h1 class="acc__title">丸の内ルーフの<br class="u-d-n-pc">アクセス情報</h1>
             <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
@@ -97,7 +98,7 @@ $imagedir = get_template_directory_uri();
 
     </div>
     <div class="page__footer">
-        <div class="p-cntct cntct">
+        <div class="p-cntct cntct acc--cntct">
             <div class="l-wrap cntct-wrap">
                 <div class="p-cntct-hdr">
                     <p>contact</p>
@@ -132,7 +133,8 @@ $imagedir = get_template_directory_uri();
 
     <div class="section_3">
         <div class="l-wrap pt100">
-            <img class="section_3__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+            <img class="section_3__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+            <img class="section_3__bg_1 u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/s3_bg_1_sp.png" alt="">
             <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
                 <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでのアクセス</p>
