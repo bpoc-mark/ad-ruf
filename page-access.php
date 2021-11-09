@@ -21,7 +21,7 @@ $imagedir = get_template_directory_uri();
     <div class="top-clip"></div>
     <div class="acc__section_1">
         <!-- //CLIP -->
-        <div class="clip-top"></div>
+        <!-- <div class="clip-top"></div> -->
         <div class="l-wrap">
             <img class="acc__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="acc__ttl">Access</p>
@@ -96,42 +96,38 @@ $imagedir = get_template_directory_uri();
         </div>
 
     </div>
-
-    <div class="p-cntct">
-
-        <div class="l-wrap">
-            <div class="p-cntct-hdr">
-                <p>contact</p>
-                <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
-            </div>
-
-            <div class="p-cntct-inqrs">
-                <div class="p-cntct-inqrs-dtl phone">
-                    <a class="p-cntct-inqrs-dtl-link" href="">
-                        <p>お電話でのお問い合わせ</p>
-                        <p>0120-173-602
-                            <br>
-                            受付時間：9：00～18：00<br class="u-d-n-pc">（土日祝除く）
-                        </p>
-                    </a>
+    <div class="page__footer">
+        <div class="p-cntct cntct">
+            <div class="l-wrap cntct-wrap">
+                <div class="p-cntct-hdr">
+                    <p>contact</p>
+                    <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
                 </div>
-
-                <div class="p-cntct-inqrs-dtl line">
-                    <a class="p-cntct-inqrs-dtl-link" href="">
-                        <p>LINEお問い合わせ</p>
-                        <p>お問い合わせ24時間受付</p>
-                    </a>
-                </div>
-
-                <div class="p-cntct-inqrs-dtl email">
-                    <a class="p-cntct-inqrs-dtl-link" href="">
-                        <p>メールでのお問い合わせ</p>
-                        <p>お問い合わせフォーム<br>24時間受付</p>
-                    </a>
+                <div class="p-cntct-inqrs">
+                    <div class="p-cntct-inqrs-dtl phone">
+                        <a class="p-cntct-inqrs-dtl-link" href="">
+                            <p>お電話でのお問い合わせ</p>
+                            <p>0120-173-602
+                                <br>
+                                受付時間：9：00～18：00<br class="u-d-n-pc">（土日祝除く）
+                            </p>
+                        </a>
+                    </div>
+                    <div class="p-cntct-inqrs-dtl line">
+                        <a class="p-cntct-inqrs-dtl-link" href="">
+                            <p>LINEお問い合わせ</p>
+                            <p>お問い合わせ24時間受付</p>
+                        </a>
+                    </div>
+                    <div class="p-cntct-inqrs-dtl email">
+                        <a class="p-cntct-inqrs-dtl-link" href="">
+                            <p>メールでのお問い合わせ</p>
+                            <p>お問い合わせフォーム<br>24時間受付</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="section_3">

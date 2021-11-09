@@ -1,4 +1,8 @@
 .acc {
+	.c-banner {
+		padding: 0 0 80px 0;
+	}
+
 	position: relative;
 	&__section_1 {
 		background: linear-gradient(
@@ -6,7 +10,10 @@
 			rgba(37, 121, 191, 1) 0%,
 			rgba(37, 147, 213, 1) 50%
 		);
+		clip-path: polygon(0 6%, 100% 0%, 100% 101%, 0% 100%);
+		margin-top: -100px;
 		padding-bottom: 101px;
+		padding-top: 162px;
 
 		// @include is-sp {
 		// 	padding-bottom: 201px;
@@ -33,21 +40,25 @@
 		}
 	}
 
-	.bread_crumps{
-	  text-align: left;
-	  position: relative;
-	  z-index: 150;
-	  padding-top: 12px;
-		.txt{
+	.bread_crumps {
+		text-align: left;
+		position: relative;
+		z-index: 150;
+		padding-top: 12px;
+		.txt {
 			width: 90%;
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family:cross-platform-yu-gothic;
-			@include font-line(11)
+			font-family: cross-platform-yu-gothic;
+			@include font-line(11);
+
+			@include is-sp {
+				@include font-line(12.5);
+			}
 		}
 
-		span{
+		span {
 			padding: 0 8px;
 		}
 	}
@@ -504,7 +515,7 @@
 			right: 29px;
 			top: 62px;
 			z-index: -1;
-			width: 244px;
+			width: 373px;
 		}
 
 		&__bg_2 {
@@ -574,6 +585,7 @@
 		background-color: #fff;
 		margin: 0;
 		color: #258acf;
+		letter-spacing: 0.2em;
 	}
 
 	&--btn:first-child {

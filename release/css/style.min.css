@@ -855,7 +855,8 @@ template{display:none}
 .about .section_3 .bg_3{position:absolute;top:58.9%;right:-2%;z-index:-1}
 .about .section_3 .bg_4{position:absolute;top:-4%;right:4%;z-index:-1;width:122px}
 .acc{position:relative}
-.acc__section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);padding-bottom:101px}
+.acc .c-banner{padding:0 0 80px 0}
+.acc__section_1{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);-webkit-clip-path:polygon(0 6%,100% 0,100% 101%,0 100%);clip-path:polygon(0 6%,100% 0,100% 101%,0 100%);margin-top:-100px;padding-bottom:101px;padding-top:162px}
 .acc__section_1 .l-wrap{position:relative}
 .acc__section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
 .acc .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
@@ -897,12 +898,12 @@ template{display:none}
 .acc .section_3__main-content-row .col_right-flex .pos{position:absolute;width:17px;right:-27px;top:42px}
 .acc .section_3__main-content-row .col_right-flex:last-child p{padding-bottom:0}
 .acc .section_3__main-content-row .col:first-child{padding-bottom:60px}
-.acc .section_3__bg_1{position:absolute;right:29px;top:62px;z-index:-1;width:244px}
+.acc .section_3__bg_1{position:absolute;right:29px;top:62px;z-index:-1;width:373px}
 .acc .section_3__bg_2{position:absolute;top:236px;left:-20px;z-index:-1}
 .acc .section_3__cnt01{margin-bottom:70px}
 .acc__bg_1{position:absolute;top:-57px;right:103px;width:316px}
 .acc .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:-25px}
-.acc--btn{background-color:#fff;margin:0;color:#258acf}
+.acc--btn{background-color:#fff;margin:0;color:#258acf;letter-spacing:.2em}
 .acc--btn:first-child{margin-right:30px}
 .acc--btn:last-child{margin-left:30px}
 .acc .acc_ttl{letter-spacing:.28em}
@@ -2218,6 +2219,7 @@ template{display:none}
 .about .section_3 .cards .cards-card-desc-txt{font-size:.78125rem;line-height:1.48}
 .acc__section_1{padding-bottom:101px}
 .acc__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
+.acc .bread_crumps .txt{font-size:.78125rem}
 .acc .top-clip{width:83%;height:161px;top:-30px}
 .acc__ttl{font-size:.75rem;line-height:1;padding-top:27px}
 .acc__title{letter-spacing:.2em;font-size:1.5625rem;line-height:1.28;padding:24px 0 20px 0}
