@@ -67,10 +67,10 @@
             </div>
             <div class="fade"></div>
         </div>
-        <div class= "top-clip-wrppr">
-                <div class="pth"></div>
+        <div class="top-clip-wrppr">
+            <div class="pth"></div>
         </div>
-       
+
         <div class="clipPath">
 
             <div class="l-wrap">
@@ -78,7 +78,7 @@
                 <img class="bg_2" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_2.png" alt="">
                 <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_3.png" alt="">
                 <img class="bg_sec1_sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec1_sp.png" alt="">
-               
+
 
                 <div class="sect_1-hdr">
                     <div class="sect_1-hdr-ttl">
@@ -100,7 +100,7 @@
                 <div class="sect_1-cntnt">
                     <div class="sect_1-cntnt-row">
                         <div class="sect_1-cntnt-row-01">
-                           
+
                             <div class="row01-ttl">
                                 <div class="row01-ttl-01">
                                     <p class="row01-ttl-01-txt01">収益不動産の売買</p>
@@ -112,7 +112,7 @@
 
 
                             <div class="col--box">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png"  alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="">
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png"  alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="">
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -298,7 +298,7 @@
                                 </div>
                             </div>
                             <div class="col--box">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
@@ -402,10 +402,10 @@
                         </div>
                     </div>
 
-                    <div class="c-buttonCase">
+                    <a href="#" class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -514,10 +514,10 @@
                     </div>
                 </div>
                 <div class="l-wrap">
-                    <div class="c-buttonCase">
+                    <a href="#" class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -565,10 +565,10 @@
                                     今後とも宜しくお願い申し上げます。</p>
                             </div>
 
-                            <div class="c-buttonCase u-l-algn">
+                            <a href="#" class="c-buttonCase u-l-algn">
                                 <p class="txt">資産運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -597,46 +597,38 @@
                                 <br>
                                 〒100-6334
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2-4-1<br class="u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
                             </p>
                         </div>
                     </div>
                     <div class="sect_8-cntnt-news-cntnt">
                         <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
+                            <p>2019年4月1日</p>
+                        </div>
+                        <div class="sect_8-cntnt-news-cntnt-txt">
+                            <p>新元号「令和」に決定いたしました。</p>
+                        </div>
+                    </div>
+                    <div class="sect_8-cntnt-news-cntnt">
+                        <div class="sect_8-cntnt-news-cntnt-date">
+                            <p>2019年3月25日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
                             <p>事務所を移転いたしました。
                                 <br>
-                                〒100-6334
+                                〒100-6324
                                 <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                                東京都千代田区丸の内2丁目4番1<br class="u-d-n-pc">号　丸の内ビルディング24階2418区
                             </p>
                         </div>
                     </div>
                     <div class="sect_8-cntnt-news-cntnt">
                         <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
+                            <p>2019年3月19日</p>
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
-                            </p>
-                        </div>
-                    </div>
-                    <div class="sect_8-cntnt-news-cntnt">
-                        <div class="sect_8-cntnt-news-cntnt-date">
-                            <p>2020年9月1日</p>
-                        </div>
-                        <div class="sect_8-cntnt-news-cntnt-txt">
-                            <p>事務所を移転いたしました。
-                                <br>
-                                〒100-6334
-                                <br>
-                                東京都千代田区丸の内2-4-1<br class= "u-d-n-pc">丸の内ビルディング34F 3401区 THE PREMIER FLOOR
+                            <p>2019年3月25日を持ちまして、事務所を移転いたします。<br>
+                            丸の内ビルディング9階951区より同ビル24階2418区へ移転いたします。
                             </p>
                         </div>
                     </div>
