@@ -182,6 +182,7 @@
 .top-header {
 	padding-top: 100px;
 	overflow: hidden;
+	background: rgb(95, 165, 205);
 
 	@include is-sp {
 		overflow: hidden;
