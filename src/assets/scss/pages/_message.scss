@@ -9,6 +9,8 @@
 
     .c-banner{
         padding: 0 0 100px 0;
+        position: relative;
+
 			&--ttl{
 			@include is-sp{
 				padding: 20px 13px 20px 30px;
@@ -43,13 +45,20 @@
 
         .c-inner{
             position: relative;
-
+            
             .person-bnr{
                 width: 29%;
                 margin: 0 auto;
                 position: absolute;
                 top: -30px;
                 left: 53%;
+            }
+
+            .bdg-wrppr {
+                position: absolute;
+                top: 80%;
+                left: 69%;
+                z-index: 9999;
             }
         }
 	}
@@ -111,13 +120,13 @@
 	}
 
         .clipPath {
-            clip-path:  polygon(100% 0, 100% 100%, 85% 93%, 0 100%, 0 5%);
+            clip-path : polygon(100% 0, 100% 100%, 85% 93%, 0 100%, 0 10%);
             background: linear-gradient(#2579BF, #2593D5);
             margin-top: -116px;
             padding-top: 0;
 
             @include is-sp {
-                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 5%);
+                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 9%);
             }
         }
 
@@ -139,7 +148,7 @@
             font-family: century-gothic, sans-serif;
             letter-spacing: 0.32em;
             font-weight: 400;
-            color:#fff;
+            color:#95C6E7;
 
             @include is-sp {
                 @include font-line(12.5, 10);
@@ -157,6 +166,11 @@
             @include is-sp {
                 @include font-line(25,37.5);
                 padding: 20.5px 0 18.5px 0;
+                
+            }
+
+            @include is-max (375px) {
+                font-size: 6vw;
             }
         }
         &-sub2 {
@@ -170,6 +184,13 @@
             @include is-sp {
                 @include font-line(13.5,20);
                 
+            }
+
+            @include is-max (375px) {
+                font-size: 3.6vw;
+            }
+            @include is-max (337px) {
+                font-size: 3.4vw;
             }
         }
 
@@ -211,6 +232,8 @@
 
                 &-2 {
 
+                    position: relative;
+
                     @include is-sp {
                         width: 100%;
                     }
@@ -219,6 +242,13 @@
                         @include is-sp {
                             width: 100%;
                         }
+                    }
+
+                    .bdg-wrppr {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
                     }
 
                 }
@@ -256,6 +286,7 @@
             @include is-sp {
                 width: 176px;
                 right: 3%;
+                top: 3%;
             }
         }
 
@@ -275,7 +306,7 @@
     }
     
     // SECTION 2
-    .section_2 {
+    .section_2 { 
 
         .sec2-bg1 {
             position: absolute;
@@ -308,7 +339,7 @@
             }
 
             &-1 {
-
+                position: relative;
                 @include is-sp {
                     width: 100%;
 
@@ -317,6 +348,13 @@
                             width: 100%;
                      }
                     }
+                }
+
+                .bdg-wrppr {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
                 }
 
             }
@@ -401,12 +439,20 @@
                 }
 
                 &-2 {
+                    position: relative;
                     @include is-sp {
                         width: 100%;
                     }
 
                     img {
                          width: 100%;
+                    }
+
+                    .bdg-wrppr {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
                     }
                 }
             

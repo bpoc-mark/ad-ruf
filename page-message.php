@@ -8,7 +8,7 @@ $imagedir = get_template_directory_uri();
 ?>
 
 <div class="page__content message">
-    <div class="c-banner">
+    <div class="c-banner ">
         <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/message/message_banner.png" alt="">
@@ -19,6 +19,11 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="person-bnr">
                 <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/message/message_bnr_person.png" alt="">
+            </div>
+            <div class="bdg-wrppr u-d-n-sp">
+                <div class="c-bdg bdg--blue">
+                    <p>あたり</p>
+                </div>
             </div>
         </div>
         <div class="bread_crumps">
@@ -35,7 +40,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="cntnt">
                     <p class="section_1-ttl">The Message</p>
-                    <p class="section_1-sub1">株式会社ルーフについてのご紹介<br>代表からのご挨拶</p>
+                    <p class="section_1-sub1">株式会社ルーフについての<br class="u-d-n-pc">ご紹介<br>代表からの    ご挨拶</p>
                     <p class="section_1-sub2"> 株式会社ルーフ代表取締役 木村武史です。<br>当社は収益不動産の『売買・管理・運用』を３つの柱として事業展開しております。</p>
 
                     <div class="section_1-cntnt">
@@ -47,17 +52,22 @@ $imagedir = get_template_directory_uri();
                             </div>
                             <div class="section_1-cntnt-rows-2">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
+                                <div class="bdg-wrppr u-d-n-sp">
+                                    <div class="c-bdg bdg--blue">
+                                        <p>あたり</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="section_1-cntnt-btns u-d-f u-w-640">
-                            <div class="c-buttonCase btn">
+                            <a class="c-buttonCase btn" href="">
                                 <p class="txt">不動産売買の特徴を見る</p>
                                 <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
-                            <div class="c-buttonCase btn">
+                            </a>
+                            <a class="c-buttonCase btn" href="">
                                 <p class="txt">不動産管理の特徴を見る</p>
                                 <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -73,6 +83,11 @@ $imagedir = get_template_directory_uri();
             <div class="section_2-rows u-d-f u-jc-sb">
                 <div class="section_2-rows-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec2-img.png" alt="">
+                    <div class="bdg-wrppr u-d-n-sp">
+                        <div class="c-bdg bdg--blue">
+                            <p>あたり</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="section_2-rows-2 u-w-390">
                     <p class="section_2-cntnt-rows-2-txt">『運用』におきましては、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデルです。また、定期的に保有資産を売却して新規物件に入れ替えることも大切な運用の１つです。</p>
@@ -99,6 +114,11 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="section_3-cntnt-rows-2">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
+                            <div class="bdg-wrppr u-d-n-sp">
+                                <div class="c-bdg bdg--blue">
+                                    <p>あたり</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="btns u-d-f u-w-640">
