@@ -1897,6 +1897,7 @@
 					letter-spacing: 0.32em;
 					font-family: century-gothic, sans-serif;
 					font-weight: 400;
+					color: #95c6e7;
 
 					@include is-sp {
 						@include font-line(12.5, 10);
@@ -1911,6 +1912,7 @@
 					letter-spacing: 0.34px;
 					font-weight: 500;
 					font-family: yu-mincho-pr6n, sans-serif;
+					color: #258acf;
 
 					@include is-sp {
 						@include font-line(25, 37.5);
@@ -1955,10 +1957,13 @@
 					&-date {
 						font-family: cross-platform-yu-gothic;
 						padding-top: 4px;
-						padding-right: 111px;
+						// padding-right: 111px;
+						width: 230px;
+						color: #258acf;
 
 						@include is-sp {
 							padding: 34px 0 26.5px 0;
+							width: 100%;
 						}
 
 						p {
@@ -1978,9 +1983,11 @@
 					&-txt {
 						font-family: cross-platform-yu-gothic;
 						color: #333;
+						width: 770px;
 
 						@include is-sp {
 							padding-bottom: 25px;
+							width: 100%;
 						}
 						p {
 							font-size: 12px;

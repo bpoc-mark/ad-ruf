@@ -103,6 +103,9 @@ $imagedir = get_template_directory_uri();
     <section class="sect_3">
         <div class="l-wrap">
             <div class="sect_3__inner-realestate">
+                <div class="sect_1__box-big-new">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                </div>
                 <div class="sect_3__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         丸の内ルーフの<br>
