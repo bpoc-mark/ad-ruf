@@ -293,6 +293,7 @@
 						label {
 							width: 110px;
 							font-family: cross-platform-yu-gothic;
+							text-align: left;
 
 							@include font-line(13);
 
@@ -462,7 +463,7 @@
 		}
 
 		input {
-			width: 85%;
+			width: 100%;
 			padding: 10px;
 			border: 1px solid #258acf;
 		}
@@ -504,5 +505,9 @@
 
 	br {
 		display: none;
+	}
+
+	.wpcf7-form-control-wrap {
+		width: 100%;
 	}
 }
