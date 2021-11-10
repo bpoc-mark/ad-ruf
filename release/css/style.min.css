@@ -1199,7 +1199,7 @@ template{display:none}
 .mp .clip-top{position:relative;margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:-97px}
 .message{position:relative}
 .message .l-wrap{position:relative}
-.message .c-banner{padding-bottom:108px;position:relative}
+.message .c-banner{padding-bottom:108px;position:relative;background:-webkit-gradient(linear,right top,left top,from(#81b3d4),to(#5fa5cd));background:linear-gradient(to left,#81b3d4,#5fa5cd)}
 .message .c-banner--ttl p{line-height:1.4em}
 .message .c-banner--ttl p .br-sp{display:none}
 .message .c-banner .c-inner{position:relative}
@@ -1211,35 +1211,35 @@ template{display:none}
 .message .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,right top,left top,from(#2593d5),to(#2579bf));background:linear-gradient(to left,#2593d5,#2579bf);position:absolute;top:-4.5%;right:0}
 .message .section_1{position:relative;z-index:150}
 .message .section_1 .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% -68%,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:0}
-.message .section_1 .clipPath{-webkit-clip-path:polygon(0 8%,100% 0,100% 100%,88% 95%,0 100%);clip-path:polygon(0 8%,100% 0,100% 100%,88% 95%,0 100%);background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);padding-top:0}
+.message .section_1 .clipPath{-webkit-clip-path:polygon(0 8%,100% 0,100% 100%,86% 95%,0 100%);clip-path:polygon(0 8%,100% 0,100% 100%,86% 95%,0 100%);background:-webkit-gradient(linear,right top,left top,from(#2593d5),to(#2579bf));background:linear-gradient(to left,#2593d5,#2579bf);padding-top:0}
 .message .section_1 .clipPath .cntnt{padding:195px 0 145px 0}
 .message .section_1 .clipPath .cntnt .txt{color:#258acf}
-.message .section_1 .clipPath .cntnt-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#95c6e7}
+.message .section_1 .clipPath .cntnt-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#fff}
 .message .section_1 .clipPath .cntnt-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.22em;color:#fff;padding:18px 0 28px 0}
 .message .section_1 .clipPath .cntnt-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:cross-platform-yu-gothic;text-align:center;letter-spacing:.26em;color:#fff}
 .message .section_1 .clipPath .cntnt .section_1-cntnt{padding-top:50px}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows{margin-bottom:60px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.message .section_1 .clipPath .cntnt .section_1-cntnt-rows-1-txt{color:#fff;font-family:cross-platform-yu-gothic;font-size:.75rem;line-height:2.1666666667;font-weight:500;letter-spacing:.2em;text-align:justify}
+.message .section_1 .clipPath .cntnt .section_1-cntnt-rows-1-txt{color:#fff;font-family:cross-platform-yu-gothic;font-size:.8125rem;line-height:2;font-weight:500;letter-spacing:.2em;text-align:justify}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2{position:relative}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns{width:640px;margin:0 auto}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns .btn .txt{letter-spacing:.2em}
 .message .section_1 .sec1-bg1{position:absolute;top:10%;right:8%;z-index:-1}
-.message .section_1 .sec1-bg2{position:absolute;top:24%;left:-6%;z-index:-1;opacity:.5}
+.message .section_1 .sec1-bg2{position:absolute;top:28%;left:-6%;z-index:-1;opacity:.5}
 .message .section_1 .sec1-bg3{position:absolute;bottom:16%;right:1%;opacity:.5}
 .message .section_2 .sec2-bg1{position:absolute;top:0;right:5%}
-.message .section_2 .sec2-bg2{position:absolute;bottom:19%;left:-1%;z-index:-1}
+.message .section_2 .sec2-bg2{position:absolute;top:58%;left:-1%;z-index:-1}
 .message .section_2 .sec2-bg3{position:absolute;bottom:0;right:0}
 .message .section_2-rows{padding:100px 0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .message .section_2-rows-1{position:relative}
 .message .section_2-rows-1 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .message .section_2-rows-2{font-family:cross-platform-yu-gothic;font-weight:500}
-.message .section_2-rows-2-txt{letter-spacing:.2em;font-size:.75rem;line-height:2.0833333333;text-align:justify}
+.message .section_2-rows-2-txt{letter-spacing:.2em;font-size:.808125rem;line-height:1.9334880124;text-align:justify}
 .message .section_3{position:relative}
-.message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,left bottom,from(#2579bf),to(#2593d5));background:linear-gradient(#2579bf,#2593d5);padding:144px 0 99px 0}
+.message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,right top,left top,from(#2593d5),to(#2579bf));background:linear-gradient(to left,#2593d5,#2579bf);padding:144px 0 99px 0}
 .message .section_3-cntnt .txt{color:#258acf}
 .message .section_3-cntnt-rows{margin-bottom:60px;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
-.message .section_3-cntnt-rows-1-txt{color:#fff;font-family:cross-platform-yu-gothic;font-size:.75rem;line-height:2.0833333333;font-weight:500;letter-spacing:.2em;text-align:justify}
+.message .section_3-cntnt-rows-1-txt{color:#fff;font-family:cross-platform-yu-gothic;font-size:.808125rem;line-height:1.9334880124;font-weight:500;letter-spacing:.2em;text-align:justify}
 .message .section_3-cntnt-rows-2{position:relative}
 .message .section_3-cntnt-rows-2 img{width:100%}
 .message .section_3-cntnt-rows-2 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
@@ -2424,13 +2424,15 @@ template{display:none}
 .mp--btn:last-child{width:100%;margin:25px 0 0 0 !important}
 .mp .clip-top{padding:60px 0 0 0;margin-top:-55px;display:none}
 .message .c-banner{padding-bottom:80px}
+.message .c-banner .c-ruf-txt{padding:34px 0 30px 35px;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700}
+.message .c-banner .c-ruf-txt img{margin-right:12.5px}
 .message .c-banner--ttl{padding:20px 13px 20px 30px;left:0}
 .message .c-banner--ttl p .br-sp{display:block}
-.message .top-clip{width:83%;height:161px;top:-30px}
+.message .top-clip{width:278.5px;height:161px;top:-30px}
 .message .section_1 .clip-top{padding:90px 0 0 0;-webkit-clip-path:none;clip-path:none}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%);clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%)}
 .message .section_1 .clipPath .cntnt{padding:123px 0 100.5px 0}
-.message .section_1 .clipPath .cntnt-ttl{font-size:.78125rem;line-height:.8}
+.message .section_1 .clipPath .cntnt-ttl{font-size:.78125rem;line-height:.8;color:#95c6e7}
 .message .section_1 .clipPath .cntnt-sub1{font-size:1.5625rem;line-height:1.5;padding:23px 0 23.5px 0}
 .message .section_1 .clipPath .cntnt-sub2{font-size:.84375rem;line-height:1.4814814815}
 .message .section_1 .clipPath .cntnt .section_1-cntnt{padding-top:25px}
@@ -2439,19 +2441,19 @@ template{display:none}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-1-txt{font-size:.84375rem;line-height:1.4814814815}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2{width:100%}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2 img{width:100%}
-.message .section_1 .clipPath .cntnt .section_1-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
+.message .section_1 .clipPath .cntnt .section_1-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns .btn{width:100% !important;border:2px solid #81b3d4}
 .message .section_1 .sec1-bg1{width:176px;right:3%;top:3%}
 .message .section_2-rows{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:59.5px 0 100.5px 0}
 .message .section_2-rows-1{width:100%}
 .message .section_2-rows-2{width:100% !important;padding-left:0;padding-top:24px}
 .message .section_2-rows-2-txt{font-size:.84375rem;line-height:1.4814814815}
-.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0)}
+.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);padding:99px 0 99px 0}
 .message .section_3-cntnt-rows{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;margin-bottom:50px}
 .message .section_3-cntnt-rows-1{width:100% !important;padding-right:0;padding-top:25px}
 .message .section_3-cntnt-rows-1-txt{font-size:.84375rem;line-height:1.4814814815;letter-spacing:.08em}
 .message .section_3-cntnt-rows-2{width:100%}
-.message .section_3-cntnt .btns{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
+.message .section_3-cntnt .btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
 .message .section_3-cntnt .btns .btn{width:100% !important;border:2px solid #81b3d4}
 .message .section_3 .sec3-bg1{width:138px;top:-13%;right:3.4%}
 .office_gal .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
@@ -2690,6 +2692,7 @@ template{display:none}
 .mp .c-banner--ttl{top:25%}
 .mp .c-banner--ttl p:nth-child(1){font-size:6vw}
 .mp .c-banner--ttl p:nth-child(2){font-size:3vw}
+.message .c-banner .c-ruf-txt img{width:65.5px}
 .message .c-banner--ttl{top:25%}
 .message .c-banner--ttl p:nth-child(1){font-size:6vw}
 .message .c-banner--ttl p:nth-child(2){font-size:3vw}
@@ -2759,7 +2762,8 @@ template{display:none}
 .top-header-bnnr .brnd-logo-sp{left:26px}
 .float-menu .brgr-mail-mail-txt{letter-spacing:0;font-size:.8125rem}
 .sect_1__header{letter-spacing:2px}
-.message .section_1 .clipPath .cntnt-sub2{font-size:3.6vw}
+.message .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
+.message .section_1 .clipPath .cntnt-sub2{font-size:3.5vw}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}
 .top .sect_6 .fp .c-case03__txt__desc{font-size:3.5vw}
@@ -2767,6 +2771,7 @@ template{display:none}
 }@media only screen and (max-width:374px){.top-header-nav{width:calc(100% - 72px)}
 .top-header-close{width:72px}
 .case .csm .c-case03__txt__desc{font-size:3.4vw}
+}@media only screen and (max-width:373px){.message .c-banner .c-ruf-txt{font-size:3.8vw}
 }@media only screen and (max-width:370px){.page__footer .nav-footer-col2 .ttl{padding:0 20px}
 .page__footer .nav-footer-col2 .link .link__inner .c-link{padding:0 40px}
 .page__footer .nav-footer-col3 .ttl{padding:0 20px}

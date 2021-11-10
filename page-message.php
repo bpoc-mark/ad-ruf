@@ -52,7 +52,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                             <div class="section_1-cntnt-rows-2">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
-                                <div class="bdg-wrppr u-d-n-sp">
+                                <div class="bdg-wrppr">
                                     <div class="c-bdg bdg--blue">
                                         <p>あたり</p>
                                     </div>
@@ -83,7 +83,7 @@ $imagedir = get_template_directory_uri();
             <div class="section_2-rows u-d-f u-jc-sb">
                 <div class="section_2-rows-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sect2_img.png" alt="">
-                    <div class="bdg-wrppr u-d-n-sp">
+                    <div class="bdg-wrppr">
                         <div class="c-bdg bdg--blue">
                             <p>あたり</p>
                         </div>
@@ -108,13 +108,13 @@ $imagedir = get_template_directory_uri();
                     <div class="section_3-cntnt-rows u-d-f u-jc-sb">
                         <div class="section_3-cntnt-rows-1 u-w-390">
                             <p class="section_3-cntnt-rows-1-txt">その為、スタッフに求めるものは、専門知識は勿論、目利きの確かさ、きめ細かいサービス、先任責任主義、迅速な行動、発想の展開性です。</p>
-                            <p class="section_3-cntnt-rows-1-txt">当社のスタッフは的確に業務を遂行するノウハウが一人残らず浸透しております。。</p>
-                            <p class="section_3-cntnt-rows-1-txt">収益不動産のエキスパートとして、お客様に満足して頂く為に、スタッフ一同磐石の体制でお客様のニーズを現実化していきます。。</p>
+                            <p class="section_3-cntnt-rows-1-txt">当社のスタッフは的確に業務を遂行するノウハウが一人残らず浸透しております。</p>
+                            <p class="section_3-cntnt-rows-1-txt">収益不動産のエキスパートとして、お客様に満足して頂く為に、スタッフ一同磐石の体制でお客様のニーズを現実化していきます。</p>
                             <p class="section_3-cntnt-rows-1-txt">今後とも宜しくお願い申し上げます。</p>
                         </div>
                         <div class="section_3-cntnt-rows-2">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
-                            <div class="bdg-wrppr u-d-n-sp">
+                            <div class="bdg-wrppr">
                                 <div class="c-bdg bdg--blue">
                                     <p>あたり</p>
                                 </div>
