@@ -36,12 +36,6 @@ $('.slider').slick({
   ]
 });
 
-<<<<<<< HEAD
-=======
-  //   ]
-  // });
-  
->>>>>>> 2ae4db0f6cea860056032fa21726fbfd4b64a757
 $(document).on('click', '.submenu-clk', function(){
   if($(this).hasClass('active')){
     $(this).removeClass('active');

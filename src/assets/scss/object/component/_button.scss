@@ -366,8 +366,11 @@
     background-color: #fff;
     z-index: 777;
 	color: #258acf;
+	letter-spacing: 0.2em;
     @include is-sp {
         width: 100%;
+		letter-spacing: 0.13em;
+		border: 2px solid #81b3d4;
     }
     .txt {
         text-align: center;
@@ -376,6 +379,7 @@
         padding: 20px 0;
         line-height: 1;
         @include font-line(14);
+		white-space: nowrap !important;
     }
     img {
         width: 5px;
