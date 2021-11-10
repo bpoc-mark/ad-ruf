@@ -642,9 +642,10 @@ template{display:none}
 .contact-frm__privacy--agrmt{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-top:40px}
 .contact-frm__privacy--agrmt a{font-size:.8125rem}
 .contact-frm br{display:none}
-.contact-frm .wpcf7-form-control-wrap{text-align:left}
+.contact-frm .wpcf7-form-control-wrap{text-align:left;display:block;width:100%}
 .contact-frm .width_100{width:100% !important}
 .contact-frm .cont_row1{background:#e2f3fb}
+.contact-frm .ex1{width:unset}
 .contact-thks .sect_1{background-image:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background-image:linear-gradient(to right,#2579bf,#2593d5);padding:100px 0 20px 0}
 .contact-thks__inner{text-align:center}
 .contact-thks__inner--txt{font-family:yu-mincho-pr6n,sans-serif;font-weight:600;color:#fff;letter-spacing:.2em;padding:0 0 15px 0;font-size:1.25rem}

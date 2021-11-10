@@ -511,6 +511,8 @@
 
 	.wpcf7-form-control-wrap {
 		text-align: left;
+		display: block;
+		width: 100%;
 	}
 
 	.width_100 {
@@ -519,5 +521,9 @@
 
 	.cont_row1 {
 		background: #e2f3fb;
+	}
+
+	.ex1 {
+		width: unset;
 	}
 }
