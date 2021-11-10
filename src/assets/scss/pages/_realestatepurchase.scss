@@ -2,6 +2,7 @@
 
 	.c-banner{
 		padding: 0 0 100px 0;
+		background: linear-gradient(to left, #81b3d4, #5fa5cd);
 
 		&--ttl{
 			p{
@@ -153,7 +154,8 @@
 			@include is-sp{
 				width: 164px;
 				top: 0;
-				left: 55%;
+				left: auto;
+				right: 0;
 			}
 		}
 
@@ -458,10 +460,11 @@
 			position: absolute;
 			left: 62%;
 			top: -14px;
-
 			@include is-sp{
 				width: 122px;
 				top: -5%;
+				right: 0;
+				left: auto;
 			}
 
 			.pc{
@@ -487,8 +490,11 @@
 		}
 		&__box-big-new3{
 			position: absolute;
-			right: -6%;
+			right: 0;
 			top: 43%;
+			@include is-sp{
+				display: none;
+			}
 		}
 
 		&::after {
@@ -862,6 +868,12 @@
 			letter-spacing: 0.15em;
 			padding-bottom: 20px;
 			order: 1;
+			@include is-sp{
+				font-size: 21px;
+			}
+			@include is-max(400px){
+				font-size: 6vw;
+			}
 		}
 
 		&__box-big-new{
@@ -897,6 +909,9 @@
 			position: absolute;
 			right: 0;
 			bottom: 30%;
+			@include is-sp{
+				display: none;
+			}
 		}
 
 		.l-wrap {
@@ -1009,6 +1024,7 @@
 		background: linear-gradient(to right, #2868b1, #3b88ca);
 
 			.c-buttonREP{
+				margin-top: 0;
 			.txt{
 				color: #2589ce;
 			}
@@ -1018,11 +1034,24 @@
 			position: absolute;
 			left: 46%;
 			top: -12%;
+			@include is-sp{
+				top: -6%;
+				width: 122px;
+				right: 10%;
+				left: auto;
+			}
 		}
 		&__box-big-new2{
 			position: absolute;
 			left: 0;
 			top: 24%;
+			@include is-sp{
+				width: 115px;
+				top: 16%;
+			}
+			@include is-max(375px){
+				top: 27%;
+			}
 		}
 
 		&::before {
@@ -1034,6 +1063,10 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
+			@include is-sp{
+				top: -28px;
+				height: 30px;
+			}
 		}
 
 		&::after {
@@ -1045,6 +1078,10 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 98%);
+			@include is-sp{
+				height: 30px;
+				bottom: -28px;;
+			}
 		}
 
 		.l-wrap {
@@ -1082,6 +1119,7 @@
 		}
 
 		&__header--sub {
+			position: relative;
 			font-family: cross-platform-yu-gothic;
 			text-align: left;
 			@include font-line(13, 26);

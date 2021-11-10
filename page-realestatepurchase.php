@@ -83,8 +83,8 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
-                    <div class="c-img_box02">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1-nb.png" alt="">
+                    <!-- <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
                         </div>
@@ -94,7 +94,7 @@ $imagedir = get_template_directory_uri();
                         <div class="c-img_box02--logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
