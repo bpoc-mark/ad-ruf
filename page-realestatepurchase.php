@@ -42,7 +42,6 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__box-sm">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/groupbusiness/rect_small.png" alt="">
         </div>
-
         <div class="sect_1__box-big">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
         </div>
@@ -50,6 +49,12 @@ $imagedir = get_template_directory_uri();
     <section class="sect_2">
         <div class="l-wrap">
             <div class="sect_2__inner-realestate">
+                <div class="sect_2__box-big-new">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                </div>
+                <div class="sect_2__box-big-new2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                </div>
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         丸の内ルーフの<br>
@@ -103,9 +108,6 @@ $imagedir = get_template_directory_uri();
     <section class="sect_3">
         <div class="l-wrap">
             <div class="sect_3__inner-realestate">
-                <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
-                </div>
                 <div class="sect_3__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         丸の内ルーフの<br>
@@ -134,7 +136,12 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_3__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
+                    <div style="position: relative;">
+                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
+                        <div class="c-bdg">
+                            <p class="bdg--blue">あたり</p>
+                        </div>
+                    </div>
                     <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
@@ -158,6 +165,15 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_4">
         <div class="l-wrap">
+            <div class="sect_4__box-big-new">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png.png" alt="">
+            </div>
+            <div class="sect_4__box-big-new2">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png.png" alt="">
+            </div>
+            <div class="sect_4__box-big-new3">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-3.png.png" alt="">
+            </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
                     Real Estate Purchase
@@ -223,6 +239,12 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_5">
         <div class="l-wrap">
+            <div class="sect_5__box-big-new">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png.png" alt="">
+            </div>
+            <div class="sect_5__box-big-new2">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
+            </div>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
@@ -267,6 +289,15 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_6">
         <div class="l-wrap">
+            <div class="sect_6__box-big-new">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png.png" alt="">
+            </div>
+            <div class="sect_6__box-big-new2">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png.png" alt="">
+            </div>
+            <div class="sect_6__box-big-new3">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-3.png.png" alt="">
+            </div>
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
@@ -314,6 +345,12 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_7">
         <div class="l-wrap">
+            <div class="sect_7__box-big-new">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
+            </div>
+            <div class="sect_7__box-big-new2">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+            </div>
             <div class="sect_7--top-casestudy">
                 <div class="sect_7__eng--ttl">
                     CASE STUDIES
@@ -412,6 +449,12 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_8">
         <div class="l-wrap">
+            <div class="sect_8__box-big-new">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+            </div>
+            <div class="sect_8__box-big-new2">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
+            </div>
             <div class="sect_8--top">
                 <div class="sect_8__eng--ttl">
                     Questions
@@ -429,6 +472,9 @@ $imagedir = get_template_directory_uri();
         </div>
         <div class="sect_8--inner">
             <div class="l-wrap">
+                <div class="sect_8__box-big-new3">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png" alt="">
+                </div>
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>

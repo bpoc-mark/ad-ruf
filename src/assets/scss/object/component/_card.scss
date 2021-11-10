@@ -332,11 +332,61 @@
 
 .c-card07 {
 	position: relative;
+	
+	&:nth-child(3){
+		&::before{
+			border-left: 2px dashed #aeaeae;
+			position: absolute;
+			height: 100%;
+			content: "";
+			left: -8%;
+			@include is-max(1000px){
+				display: none;
+			}
+		}
+		&::after{
+			border-left: 2px dashed #aeaeae;
+			position: absolute;
+			height: 100%;
+			content: "";
+			right: -8%;
+			top: 0;
+			@include is-max(1000px){
+				display: none;
+			}
+		}
+	}
+	&:nth-child(7){
+		&::before{
+			border-left: 2px dashed #aeaeae;
+			position: absolute;
+			height: 100%;
+			content: "";
+			left: -8%;
+			@include is-max(1000px){
+				display: none;
+			}
+		}
+		&::after{
+			border-left: 2px dashed #aeaeae;
+			position: absolute;
+			height: 100%;
+			content: "";
+			right: -8%;
+			top: 0;
+			@include is-max(1000px){
+				display: none;
+			}
+		}
+	}
+	
+	position: relative;
 	// height: 190px;
-	width: calc(100% / 3);
-	padding-right: 28px;
-	border-right: 2px dashed #aeaeae;
-	padding-left: 35px;
+	// width: calc(100% / 3);
+	// border-right: 2px dashed #aeaeae;
+	// padding-left: 35px;
+	// padding-right: 28px;
+		width: 30%;
 	@include is-max(1000px) {
 		width: 48%;
 		padding: unset;
@@ -359,7 +409,7 @@
 	}
 
 	&__top {
-		border-bottom: 2px solid #2589ce;
+		border-bottom: 1px solid #2589ce;
 		@include is-max(1000px) {
 			padding-top: 30px;
 		}
@@ -369,7 +419,7 @@
 		padding-top: 15px;
 		@include is-max(750px) {
 			padding-bottom: 25px;
-			border-bottom: 2px dashed #aeaeae;
+			border-bottom: 1px dashed #aeaeae;
 		}
 	}
 
