@@ -610,7 +610,7 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:last-child{margin-top:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:85% !important}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:110px;font-family:cross-platform-yu-gothic;font-size:.8125rem}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:110px;font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;width:100%}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) label{width:120px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) input{width:110px}
@@ -635,13 +635,14 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(10) div:nth-child(2){width:60%}
 .contact-frm__inner-row:nth-of-type(10) textarea{width:100%;border:1px solid #2579bf;padding:20px 0 0 20px;height:90px}
 .contact-frm__inner-row .label-txt{width:40px}
-.contact-frm__inner-row input{width:85%;padding:10px;border:1px solid #258acf}
+.contact-frm__inner-row input{width:100%;padding:10px;border:1px solid #258acf}
 .contact-frm__inner-row .bg-h{background-color:#e2f3fb !important;padding:50px 0 !important}
 .contact-frm__privacy{text-align:center;padding-top:60px;padding-bottom:45px}
 .contact-frm__privacy a{color:#258acf;font-family:cross-platform-yu-gothic;font-weight:500;font-size:.8125rem}
 .contact-frm__privacy--agrmt{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-top:40px}
 .contact-frm__privacy--agrmt a{font-size:.8125rem}
 .contact-frm br{display:none}
+.contact-frm .wpcf7-form-control-wrap{width:100%}
 .contact-thks .sect_1{background-image:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background-image:linear-gradient(to right,#2579bf,#2593d5);padding:100px 0 20px 0}
 .contact-thks__inner{text-align:center}
 .contact-thks__inner--txt{font-family:yu-mincho-pr6n,sans-serif;font-weight:600;color:#fff;letter-spacing:.2em;padding:0 0 15px 0;font-size:1.25rem}
