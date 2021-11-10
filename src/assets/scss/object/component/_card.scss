@@ -472,17 +472,10 @@
 	@include is-sp {
 		width: 48%;
 	}
+
 	@include is-max (376px) {
 		margin-bottom: 15px;
 	}
-
-	// @include is-max(540px) {
-	// 	width: 45%;
-	// }
-
-	// @include is-max(340px) {
-	// 	width: 43%;
-	// }
 
 	&-img {
 		position: relative;
