@@ -379,6 +379,7 @@
         padding: 20px 0;
         line-height: 1;
         @include font-line(14);
+		white-space: nowrap !important;
     }
     img {
         width: 5px;

@@ -7,6 +7,9 @@
             padding: 0!important;
         }
     }
+    .head-link {
+        white-space: nowrap;
+    }
 
     .cntct {
         background-image: url(../image/footer/footer_bg.png) !important;
@@ -141,6 +144,7 @@
                     .head-link {
                         color: #fff;
                         letter-spacing: 4px;
+                        white-space: nowrap;
                         
                         @include is-max(985px) {
                             font-size: 1.1vw;
@@ -275,6 +279,7 @@
 
             @include is-max (1090px) {
                 padding: 15px;
+                padding-top: 0 !important;
             }
 
             .ttl {

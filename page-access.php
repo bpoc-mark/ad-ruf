@@ -88,7 +88,7 @@ $imagedir = get_template_directory_uri();
                     </div>
 
                     <div class="col col_right">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.8300197907433!2d139.7615817!3d35.6811872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf9e8d6b29b%3A0xed2d507ceb26bf31!2sMarunouchi%20Building%2C%2034f%2C%202-ch%C5%8Dme-4-1%20Marunouchi%2C%20Chiyoda%20City%2C%20Tokyo%20100-6390%2C%20Japan!5e0!3m2!1sja!2sph!4v1635498881295!5m2!1sja!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.4156658531115!2d139.7638332!3d35.6811549!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf9e8d6b29b%3A0xed2d507ceb26bf31!2sMarunouchi%20Building%2C%2034f%2C%202-ch%C5%8Dme-4-1%20Marunouchi%2C%20Chiyoda%20City%2C%20Tokyo%20100-6390%2C%20Japan!5e0!3m2!1sja!2sph!4v1636510307251!5m2!1sja!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                 </div>
@@ -135,11 +135,13 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap pt100">
             <img class="section_3__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <img class="section_3__bg_1 u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/s3_bg_1_sp.png" alt="">
+           
             <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
                 <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでのアクセス</p>
             </div>
             <img class="section_3__bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <img class="section_3__bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_14.png" alt="">
 
 
             <div class="section_3__main-content">
