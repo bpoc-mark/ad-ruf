@@ -1621,7 +1621,7 @@ template{display:none}
 .top .sect_5-cntnt-txt-ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;letter-spacing:.32em;color:#95c6e7;padding-bottom:10px}
 .top .sect_5-cntnt-txt-sub{font-family:yu-mincho-pr6n,sans-serif;font-size:1.625rem;line-height:1.4230769231;letter-spacing:.34;padding-bottom:10px}
 .top .sect_5-cntnt-txt-desc{font-family:cross-platform-yu-gothic;font-weight:500;font-size:.8125rem;line-height:2;letter-spacing:.2em}
-.top .sect_5-cntnt .crd-wrppr{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:69px 0 58px 0;row-gap:30px;-webkit-column-gap:30px;-moz-column-gap:30px;column-gap:30px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.top .sect_5-cntnt .crd-wrppr{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:69px 0 58px 0;-webkit-column-gap:30px;-moz-column-gap:30px;column-gap:30px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .top .sect_5 .bg_7{position:absolute;right:31%;top:9%;z-index:-9999}
 .top .sect_5 .bg_8{position:absolute;top:35%;left:0;z-index:-1}
 .top .sect_5 .c-buttonCase{color:#258acf}
@@ -1754,7 +1754,7 @@ template{display:none}
 .page__footer .nav-footer-col3{padding:15px;padding-top:0 !important}
 }@media only screen and (max-width:1080px){.about .section_2-cntnt{width:91vw}
 }@media only screen and (max-width:1073px){.oe-main-content .row .col:nth-child(4) .info-ttl{letter-spacing:.03em}
-}@media only screen and (max-width:1071px){.c-cards09{width:30%}
+}@media only screen and (max-width:1071px){.c-cards09{width:30%;margin-bottom:40px}
 }@media only screen and (max-width:1051px){.p-cntct-inqrs-dtl{margin-bottom:30px}
 .p-cntct-inqrs-dtl{margin-bottom:30px}
 .page__footer .cntct .p-cntct-inqrs-dtl{margin-bottom:30px}
@@ -2833,7 +2833,8 @@ template{display:none}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{letter-spacing:.13em}
 .top-header-nav .brnd-logo{padding-left:10px}
 .top-header-nav .brnd-logo-link p{margin-bottom:20px}
-}@media only screen and (max-width:376px){.page__footer .nav-footer-col5 .ttl .head-link{white-space:nowrap}
+}@media only screen and (max-width:376px){.c-cards09{margin-bottom:15px}
+.page__footer .nav-footer-col5 .ttl .head-link{white-space:nowrap}
 .top-header-bnnr::before{width:413px}
 .top-header-bnnr-hdr-02-txt-1{white-space:nowrap}
 .top-header-bnnr-hdr-02-txt-2{white-space:nowrap;line-height:1.7}

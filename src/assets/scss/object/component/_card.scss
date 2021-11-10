@@ -466,10 +466,15 @@
 
 	@include is-max(1071px) {
 		width: 30%;
+		margin-bottom: 40px;
 	}
 
 	@include is-sp {
 		width: 48%;
+	}
+
+	@include is-max (376px) {
+		margin-bottom: 15px;
 	}
 
 	&-img {
