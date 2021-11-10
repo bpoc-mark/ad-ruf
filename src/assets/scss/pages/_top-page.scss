@@ -4,9 +4,10 @@
 	}
 	.sect_1 {
 		z-index: 4;
-		background: rgb(95, 165, 205);
+		// background: rgb(95, 165, 205);
+		background: linear-gradient(to right, #2079bd, #1e91d2);
 		position: relative;
-		padding-top: 100px;
+		padding-top: 115px;
 		margin-top: -100px;
 		overflow: hidden;
 
@@ -26,7 +27,7 @@
 				width: 800px;
 				height: 250px;
 				clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-				background: linear-gradient(to left, hsl(203, 70%, 49%), #2579bf);
+				background: linear-gradient(to right, #003782, #0059b6);
 
 				@include is-sp {
 					width: 278px;
@@ -38,7 +39,7 @@
 		.clipPath {
 			-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 			clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 			padding: 191px 0 40px 0;
 			margin-top: -89px;
 			position: relative;
@@ -418,7 +419,7 @@
 			top: -16px;
 			z-index: 150;
 			height: 100px;
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
 			clip-path: polygon(0 0, 0% 100%, 100% 0);
 
@@ -767,7 +768,7 @@
 		.clipPath {
 			clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
 			padding: 25px 0;
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 
 			@include is-max(867px) {
 				clip-path: polygon(-6% 12%, 100% 0%, 100% 90%, 0% 100%);
@@ -1415,7 +1416,7 @@
 				0 100%,
 				0 0
 			);
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 
 			@include is-sp {
 				clip-path: polygon(
@@ -1639,7 +1640,7 @@
 				0 100%,
 				0 0
 			);
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 
 			@include is-sp {
 				clip-path: polygon(

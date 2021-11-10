@@ -1,6 +1,6 @@
 // footer
 .page__footer {
-    background-color: #2790d2;
+    background: linear-gradient(to right, #003782, #0059b6);
 
     .l-wrap {
         @include is-sp {
@@ -12,11 +12,7 @@
     }
 
     .cntct {
-        background-image: url(../image/footer/footer_bg.png) !important;
 
-        @include is-sp {
-            background-image: url(../image/footer/sp_bg.png) !important;
-        }
 
         .p-cntct-inqrs-dtl {
             @include is-max (1051px) {

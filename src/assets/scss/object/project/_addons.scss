@@ -92,14 +92,15 @@
 
 .p-cntct {
 	padding: 99px 0;
-	background-image: url(../image/page/access/contact-bg.png);
+	// background-image: url(../image/page/access/contact-bg.png);
+	background-color: #0059b6;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 
-	@include is-sp {
-		background-image: url(../image/page/access/contact-bg-sp.png);
-	}
+	// @include is-sp {
+	// 	background-image: url(../image/page/access/contact-bg-sp.png);
+	// }
 
 	&-hdr {
 		text-align: center;
@@ -354,15 +355,15 @@
 }
 .p-cntct {
 	padding: 99px 0;
-	background-image: url(../image/page/access/contact-bg.png);
+	// background-image: url(../image/page/access/contact-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 
-	@include is-sp {
-		background-image: url(../image/page/access/contact-bg-sp.png);
-		padding-bottom: 35px;
-	}
+	// @include is-sp {
+	// 	background-image: url(../image/page/access/contact-bg-sp.png);
+	// 	padding-bottom: 35px;
+	// }
 
 	&-hdr {
 		text-align: center;
