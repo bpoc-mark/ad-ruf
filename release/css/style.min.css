@@ -580,7 +580,7 @@ template{display:none}
 .contact-frm .form{padding:0 60px}
 .contact-frm__inner-row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .contact-frm__inner-row div:nth-child(1){width:37%;text-align:center;padding:20px 0;background-color:#e2f3fb;font-family:cross-platform-yu-gothic;font-weight:700;color:#258acf}
-.contact-frm__inner-row div:nth-child(2){width:30%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+.contact-frm__inner-row div:nth-child(2){width:30% !important;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
 .contact-frm__inner-row div:nth-child(3){width:30%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}
 .contact-frm__inner-row .bg-lg{background-color:red;padding:50px 0}
 .contact-frm__inner-row:nth-of-type(2){border-top:1px solid #258acf;border-bottom:1px solid #258acf}
@@ -611,7 +611,7 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:last-child{margin-top:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:85% !important}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:110px;font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;width:100%}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;width:100%;margin-bottom:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) label{width:120px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) input{width:110px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) span{padding:0 5px}
@@ -647,6 +647,7 @@ template{display:none}
 .contact-frm .cont_row1{background:#e2f3fb}
 .contact-frm .ex1{width:unset}
 .contact-frm .email{width:100% !important}
+.contact-frm .text{width:100%}
 .contact-thks .sect_1{background-image:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background-image:linear-gradient(to right,#2579bf,#2593d5);padding:100px 0 20px 0}
 .contact-thks__inner{text-align:center}
 .contact-thks__inner--txt{font-family:yu-mincho-pr6n,sans-serif;font-weight:600;color:#fff;letter-spacing:.2em;padding:0 0 15px 0;font-size:1.25rem}
