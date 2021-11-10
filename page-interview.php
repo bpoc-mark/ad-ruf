@@ -104,10 +104,11 @@ get_header(); ?>
                                 </div>
                             </div>
 
-                            <div class="section_1-cntnt-2-bdg">
-                                <p>あたり</p>
+                            <div class="bdg-wrppr">
+                                <div class="c-bdg bdg--blue">
+                                    <p>あたり</p>
+                                </div>
                             </div>
-
                             <div class="section_1-cntnt-2-rep">
                                 <div class="section_1-cntnt-2-rep-txt">
                                     <p>代表取締役</p>
@@ -134,6 +135,7 @@ get_header(); ?>
                 <div class="section_2-cntnt-rows u-d-f u-jc-sb">
                     <div class="section_2-cntnt-rows-1 u-d-n-sp">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img.png" alt="">
+
                     </div>
                     <div class="section_2-cntnt-rows-2">
                         <p class="section_2-cntnt-rows-2-hdr">この文章はダミーです<br>この文章はダミーです</p>
@@ -145,14 +147,14 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="u-d-f section_2-cntnt-btns">
-                    <div class="c-buttonCase">
+                    <a class="c-buttonCase">
                         <p class="txt">CARGUY／カーガイについて</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
-                    <div class="c-buttonCase">
+                    </a>
+                    <a class="c-buttonCase">
                         <p class="txt">代表メッセージ</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -167,6 +169,7 @@ get_header(); ?>
                         <div class="section_3-cntnt-rows-1">
                             <p class="section_3-cntnt-rows-1-hdr">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="section_3-cntnt-rows-1-txt1">Dummy textDummy textDummy textDummy text Dummy text</p>
+                    
 
                             <div class="img-sp u-d-n-pc">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img.png" alt="">
