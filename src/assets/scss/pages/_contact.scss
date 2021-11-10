@@ -92,7 +92,7 @@
 			}
 
 			&:nth-child(2) {
-				width: 30%;
+				width: 60%;
 				display: flex;
 				align-items: center;
 				justify-content: flex-start;
@@ -238,6 +238,7 @@
 
 				&:nth-child(2) {
 					flex-wrap: wrap;
+					width: 60%;
 
 					@include is-sp {
 						width: 100% !important;
@@ -377,6 +378,7 @@
 						}
 						&:nth-child(5) {
 							width: 100%;
+							margin-bottom: 10px;
 						}
 					}
 				}
@@ -508,6 +510,10 @@
 	}
 
 	.wpcf7-form-control-wrap {
-		width: 100%;
+		text-align: left;
+	}
+
+	.width_100 {
+		width: 100% !important;
 	}
 }
