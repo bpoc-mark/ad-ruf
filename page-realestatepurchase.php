@@ -138,11 +138,11 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_3__inner-realestate--right">
                     <div style="position: relative;">
                         <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1.png" alt="">
-                        <div class="c-bdg">
+                        <!-- <div class="c-bdg">
                             <p class="bdg--blue">あたり</p>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="c-img_box02">
+                    <!-- <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
                         </div>
@@ -152,7 +152,7 @@ $imagedir = get_template_directory_uri();
                         <div class="c-img_box02--logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
@@ -166,13 +166,14 @@ $imagedir = get_template_directory_uri();
     <section class="sect_4">
         <div class="l-wrap">
             <div class="sect_4__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png" alt="">
             </div>
             <div class="sect_4__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png" alt="">
             </div>
             <div class="sect_4__box-big-new3">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-3.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-3.png" alt="">
             </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
@@ -240,7 +241,8 @@ $imagedir = get_template_directory_uri();
     <section class="sect_5">
         <div class="l-wrap">
             <div class="sect_5__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png" alt="">
             </div>
             <div class="sect_5__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
@@ -279,8 +281,8 @@ $imagedir = get_template_directory_uri();
                         </div>
                     </div>
                 </div>
-                <p class="txt_ttl u-d-n-pc">
-                    売却時の <br>
+                <p class="txt_ttl u-d-n-pc br-point">
+                    売却時の <br class="br-pc">
                     リフォームは不要
                 </p>
             </div>
@@ -290,13 +292,14 @@ $imagedir = get_template_directory_uri();
     <section class="sect_6">
         <div class="l-wrap">
             <div class="sect_6__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
             </div>
             <div class="sect_6__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png" alt="">
             </div>
             <div class="sect_6__box-big-new3">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-3.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-3.png" alt="">
             </div>
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">

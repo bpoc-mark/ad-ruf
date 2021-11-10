@@ -150,12 +150,20 @@
 			position: absolute;
 			left: 46%;
 			top: 18px;
+			@include is-sp{
+				width: 164px;
+				top: 0;
+				left: 55%;
+			}
 		}
 
 		&__box-big-new2{
 			position: absolute;
 			bottom: 0;
 			margin-left: -60px;
+			@include is-sp{
+				display: none;
+			}
 		}
 
 		.c-buttonREP{
@@ -173,6 +181,10 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			@include is-sp{
+				top: -29px;
+				height: 30px;
+			}
 		}
 
 		&::after {
@@ -185,6 +197,10 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+			@include is-sp{
+				bottom: -29px;
+				height: 30px;
+			}
 		}
 
 		.txt_ttl {
@@ -194,6 +210,7 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 600;
 			letter-spacing: 0.3em;
+			position: relative;
 			@include is-sp {
 				padding-bottom: 25px;
 			}
@@ -333,6 +350,10 @@
 			background: linear-gradient(to right, #2579be, #2592d4);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 85% 5%, 0 98%);
+			@include is-sp{
+				bottom: -29px;
+				height: 30px;
+			}
 		}
 
 		.l-wrap {
@@ -343,8 +364,9 @@
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
 			padding: 160px 0 90px 0;
-			@include is-max(750px) {
+			@include is-sp{
 				flex-direction: column-reverse;
+				padding: 100px 0 90px 0;
 			}
 
 			&--left,
@@ -370,6 +392,9 @@
 
 				@include is-max(900px) {
 					padding-left: 20px;
+				}
+				@include is-sp{
+					padding-left: 0
 				}
 				.txt_ttl {
 					@include font-line(24, 30);
@@ -433,11 +458,32 @@
 			position: absolute;
 			left: 62%;
 			top: -14px;
+
+			@include is-sp{
+				width: 122px;
+				top: -5%;
+			}
+
+			.pc{
+				display: none;
+				@include is-pc{
+					display: block;
+				}
+			}
+			.sp{
+				display: none;
+				@include is-sp{
+					display: block;
+				}
+			}
 		}
 		&__box-big-new2{
 			position: absolute;
 			left: 0;
 			top: 137px;
+			@include is-sp{
+				display: none;
+			}
 		}
 		&__box-big-new3{
 			position: absolute;
@@ -454,6 +500,9 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			@include is-sp{
+				height: 30px;
+			}
 		}
 		.txt_ttl {
 			@include font-line(24, 30);
@@ -462,6 +511,7 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 600;
 			letter-spacing: 0.15em;
+			position: relative;
 
 			@include is-max(750px) {
 				order: 1;
@@ -476,6 +526,7 @@
 		&--top-realestate {
 			border-left: 3px solid #4688c8;
 			padding-left: 15px;
+			position: relative;
 		}
 		&__eng--ttl {
 			font-family: century-gothic, sans-serif;
@@ -630,11 +681,32 @@
 			position: absolute;
 			left: 46%;
 			top: 5px;
+			@include is-sp{
+				width: 100px;
+				left: auto;
+				right: 7%;
+				top: 4%;
+			}
+			.pc{
+				display: none;
+				@include is-pc{
+					display: block;
+				}
+			}
+			.sp{
+				display: none;
+				@include is-sp{
+					display: block;
+				}
+			}
 		}
 		&__box-big-new2{
 			position: absolute;
 			left: 0;
 			bottom: 10%;
+			@include is-sp{
+				display: none;
+			}
 		}
 
 		&::after {
@@ -646,6 +718,10 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
+			@include is-sp{
+				height: 30px;
+				bottom: -29px;
+			}
 		}
 
 		.txt_ttl {
@@ -657,6 +733,10 @@
 			letter-spacing: 0.3em;
 			@include is-sp {
 				padding-bottom: 20px;
+				letter-spacing: normal;
+			}
+			@include is-max(400px){
+				font-size: 6vw;
 			}
 		}
 
@@ -695,6 +775,7 @@
 				@include is-max(750px) {
 					padding-right: unset;
 				}
+
 				.txt_ttl {
 					@include font-line(24, 30);
 					text-align: left;
@@ -756,6 +837,16 @@
 			}
 			&--right {
 			}
+
+			.br-point{
+				display: block;
+				@include is-sp{
+					.br-pc{
+						display: none;
+					}
+				}
+			}
+
 		}
 	}
 
@@ -777,6 +868,25 @@
 			position: absolute;
 			left: 54%;
 			top: -3%;
+			@include is-sp{
+				left: auto;
+				width: 122px;
+				right: 6%;
+				top: 0;
+			}
+			
+			.pc{
+				display: none;
+				@include is-pc{
+					display: block;
+				}
+			}
+			.sp{
+				display: none;
+				@include is-sp{
+					display: block;
+				}
+			}
 		}
 		&__box-big-new2{
 			position: absolute;
