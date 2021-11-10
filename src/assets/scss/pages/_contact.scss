@@ -506,7 +506,9 @@
 	}
 
 	br {
-		display: none;
+		&:last-child {
+			display: none;
+		}
 	}
 
 	.wpcf7-form-control-wrap {

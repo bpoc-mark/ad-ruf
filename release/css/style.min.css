@@ -641,7 +641,7 @@ template{display:none}
 .contact-frm__privacy a{color:#258acf;font-family:cross-platform-yu-gothic;font-weight:500;font-size:.8125rem}
 .contact-frm__privacy--agrmt{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-top:40px}
 .contact-frm__privacy--agrmt a{font-size:.8125rem}
-.contact-frm br{display:none}
+.contact-frm br:last-child{display:none}
 .contact-frm .wpcf7-form-control-wrap{text-align:left;display:block;width:100%}
 .contact-frm .width_100{width:100% !important}
 .contact-frm .cont_row1{background:#e2f3fb}
