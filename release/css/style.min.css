@@ -46,7 +46,7 @@ template{display:none}
 .c-bdg p{color:#fff;font-size:.6875rem;line-height:.9090909091;letter-spacing:.28em;font-weight:500}
 .bdg--blue{background-color:#2593d5}
 .bdg--red{background-color:#b71e32}
-.c-banner{background:#5fa5cd;margin:0 auto;text-align:center}
+.c-banner{background:#72a3c8;margin:0 auto;text-align:center}
 .c-banner img{position:relative;z-index:150}
 .c-banner--ttl{color:#fff;position:absolute;left:70px;top:35%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
 .c-banner--ttl p:nth-child(2){font-size:.8125rem;letter-spacing:.3em;font-family:century-gothic,sans-serif}
@@ -459,7 +459,7 @@ template{display:none}
 .p-header.scroll .lp__main .promotion{display:none}
 .p-header.scroll .lp__button{border-radius:5px;-webkit-box-shadow:0 3px 7px 1px rgba(0,0,0,0);box-shadow:0 3px 7px 1px rgba(0,0,0,0)}
 .p-header.scroll .lp__landingInner{padding:0 !important}
-.top-header{padding-top:100px;overflow:hidden;background:#5fa5cd}
+.top-header{padding-top:100px;overflow:hidden;background:-webkit-gradient(linear,right top,left top,from(#81b3d4),to(#5fa5cd));background:linear-gradient(to left,#81b3d4,#5fa5cd)}
 .top-header .logo{width:70px}
 .top-header .mail{width:22px}
 .top-header-nav{position:absolute;top:0;left:0;right:0;max-width:1200px;margin:0 auto;z-index:999;height:80px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}

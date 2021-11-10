@@ -182,7 +182,7 @@
 .top-header {
 	padding-top: 100px;
 	overflow: hidden;
-	background: rgb(95, 165, 205);
+	background: linear-gradient(to left, #81b3d4, #5fa5cd);
 
 	@include is-sp {
 		overflow: hidden;
