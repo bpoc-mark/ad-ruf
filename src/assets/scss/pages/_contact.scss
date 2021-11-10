@@ -49,6 +49,7 @@
 			font-family: cross-platform-yu-gothic;
 			font-weight: 500;
 			color: #258acf;
+			text-align: left;
 
 			@include is-sp {
 				padding-bottom: 20px;
@@ -94,7 +95,7 @@
 				width: 30%;
 				display: flex;
 				align-items: center;
-				justify-content: space-around;
+				justify-content: flex-start;
 
 				@include is-sp {
 					width: 100%;
@@ -140,7 +141,7 @@
 				}
 
 				input {
-					width: 100%;
+					width: 100% !important;
 				}
 			}
 		}
@@ -207,6 +208,7 @@
 
 			span {
 				padding: 0 5px;
+				display: block;
 			}
 		}
 		&:nth-of-type(8) {
@@ -235,7 +237,6 @@
 				}
 
 				&:nth-child(2) {
-					width: 60% !important;
 					flex-wrap: wrap;
 
 					@include is-sp {
@@ -326,23 +327,20 @@
 								width: 30%;
 								display: block;
 								margin-left: 30px;
+								color: #fff;
+								border-radius: 10px;
+								background-color: #258acf;
+								border: 1px solid #81b3d4;
+								justify-content: center;
+								padding: 12px 0;
+								text-align: center;
+								line-height: 1;
 
 								@include is-sp {
 									width: 100%;
 									margin-left: 0;
 									margin-top: 15px;
 									display: none;
-								}
-
-								p {
-									color: #fff;
-									border-radius: 10px;
-									background-color: #258acf;
-									border: 1px solid #81b3d4;
-									justify-content: center;
-									padding: 12px 0;
-									text-align: center;
-									line-height: 1;
 								}
 							}
 						}
@@ -502,5 +500,9 @@
 				@include font-line(13);
 			}
 		}
+	}
+
+	br {
+		display: none;
 	}
 }
