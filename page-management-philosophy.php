@@ -29,7 +29,8 @@ $imagedir = get_template_directory_uri();
 
         <div class="l-wrap">
             <img class="mp__bg_2" src="<?php echo $imagedir ?>/release/image/background/bg_2.png" alt="">
-            <img class="mp__bg_1" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
+            <img class="mp__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
+            <img class="mp__bg_1 u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/sec1_sp.png" alt="">
             <p class="mp__ttl">CONCEPT</p>
             <h1 class="mp__title">選ばれし方々に選ばれ、<br>そして選ばれ続ける。</h1>
             <p class="mp__sub">丸の内ルーフは創業以来、収益不動産・<br class="u-d-n-pc">投資用不動産を中心に事業展開してきました。<br>
@@ -90,7 +91,7 @@ $imagedir = get_template_directory_uri();
                             </p>
 
                             <p class="u-pt-15">
-                                企業と企業、企業と人、そして人と人との絆こそが大切です。<br>
+                                <span>企業と企業、企業と人、そして人と人との絆こそが大切です。</span><br>
                                 『選ばれし方々に選ばれ、そして選ばれ続ける。』<br>
                                 そのために、一人の人間として何ができるかを考え、実行する。それが私たちの使命です。
                             </p>
