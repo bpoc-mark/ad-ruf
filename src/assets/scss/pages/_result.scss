@@ -1,65 +1,95 @@
 .result {
+	position: relative;
+	.c-banner {
+		background: linear-gradient(to right, #2079bd, #1e91d2);
+		padding: 0 0 80px 0;
 
-	.c-banner{
-			padding: 0 0 100px 0;
+		@include is-max(400px) {
+			padding-bottom: 95px;
+		}
 
-			&--ttl{
-				.br-sp{
-					display: none;
-					@include is-sp{
-						display: block;
+		&--ttl {
+			.br-sp {
+				display: none;
+				@include is-sp {
+					display: block;
+				}
+			}
+
+			p {
+				&:nth-child(1) {
+					line-height: 1.45em;
+					@include is-max(500px) {
+						font-size: 6vw;
 					}
 				}
-
-				p{
-					&:nth-child(1){
-						line-height: 1.45em;
-						@include is-max(500px){
-							font-size: 6vw;
-						}
-					}
-					&:nth-child(2){
-						@include is-max(500px){
-							font-size: 3vw;
-						}
+				&:nth-child(2) {
+					@include is-max(500px) {
+						font-size: 3vw;
 					}
 				}
 			}
-	 }
+		}
+	}
 
-	.bread_crumps{
+	.bread_crumps {
 		text-align: left;
 		position: relative;
 		z-index: 150;
 		padding-top: 12px;
-		.txt{
+		.txt {
 			width: 90%;
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family:cross-platform-yu-gothic;
-			@include font-line(11)
+			font-family: cross-platform-yu-gothic, sans-serif;
+			@include font-line(11);
+
+			@include is-sp {
+				@include font-line(12.5);
+			}
 		}
 
-		span{
+		span {
 			padding: 0 8px;
 		}
 	}
 
 	.section_1 {
-		.clip-path{
-			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
-			clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
-			padding: 190px 0 100px 0;
-			text-align: center;
-			margin-top: -135px;
+		background: linear-gradient(to right, #003782, #0059b6);
+		clip-path: polygon(0 50px, 100% 0, 100% 100%, 0% 100%);
+		padding-top: 162px;
+		margin-top: -100px;
+
+		@include is-sp {
+			clip-path: polygon(0 43px, 100% 12px, 100% 101%, 0% 100%);
+			padding: 115px 0 76.5px 0;
+			margin-top: -100px;
 		}
 
-		.l-wrap{
-			.bg-sq{
+		.clip-path {
+			// background: linear-gradient(to right, #003782, #0059b6);
+			// clip-path: polygon(0 4.3%, 100% 1%, 100% 100%, 0% 100%);
+			padding: 160px 0 100px 0;
+			text-align: center;
+			// margin-top: -135px;
+
+			// @include is-max(500px) {
+			// 	clip-path: polygon(0 4%, 100% 1.6%, 100% 101%, 0% 100%);
+			// }
+		}
+
+		.l-wrap {
+			.bg-sq {
 				position: absolute;
-				right: 0;
-				top: -90px;
+				right: 82px;
+				top: -94px;
+
+				@include is-sp {
+					width: 178px;
+					right: 10px;
+					top: -83px;
+				}
 			}
 		}
 
@@ -77,24 +107,41 @@
 		&__charts {
 			padding-top: 60px;
 
-			@include is-sp{
+			@include is-sp {
 				padding-top: 0;
 			}
 
 			img {
 				&:nth-of-type(2) {
 					padding-top: 40px;
+
+					@include is-sp {
+						padding-top: 25px;
+					}
 				}
 			}
 		}
 
 		&__chart-ins {
 			color: $color-text03;
-			font-family: cross-platform-yu-gothic;
+			font-family: cross-platform-yu-gothic, sans-serif;
 			font-weight: 500;
 			padding: 40px 0 60px 0;
-
+			letter-spacing: 0.2em;
 			@include font-line(13, 26);
+
+			@include is-sp {
+				letter-spacing: 0.1em;
+				padding-bottom: 53px;
+			}
+
+			@include is-max(400px) {
+				font-size: 3.2vw;
+			}
+
+			@include is-max(340px) {
+				font-size: 3.1vw;
+			}
 		}
 
 		&__result_btns {
@@ -115,11 +162,26 @@
 
 	.result_ttl {
 		letter-spacing: 0.18em;
+		font-weight: 500;
+		@include is-sp {
+			@include font-line(25);
+			letter-spacing: 0.01em;
+		}
+
+		@include is-max(400px) {
+			font-size: 6vw;
+		}
 	}
 
-	.br-sp{
+	&_sub {
+		@include is-max(370px) {
+			font-size: 3.5vw;
+		}
+	}
+
+	.br-sp {
 		display: none;
-		@include is-sp{
+		@include is-sp {
 			display: block;
 		}
 	}
