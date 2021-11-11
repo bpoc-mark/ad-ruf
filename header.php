@@ -173,7 +173,7 @@
                     </div>
                     <p class="brgr-mail-burger-txt">MENU</p>
                 </a>
-                <a class="brgr-mail-mail">
+                <a class="brgr-mail-mail" href="mailto:someone@example.com">
                     <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
                     <p class="brgr-mail-mail-txt">お問い合わせ・<br class="u-d-n-pc">ご相談</p>
                 </a>
