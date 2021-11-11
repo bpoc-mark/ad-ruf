@@ -75,7 +75,7 @@
 		}
 
 		div {
-			&:nth-child(1) {
+			&:nth-of-type(1) {
 				width: 37%;
 				text-align: center;
 				padding: 20px 0;
@@ -91,8 +91,8 @@
 				}
 			}
 
-			&:nth-child(2) {
-				width: 30% !important;
+			&:nth-of-type(2) {
+				width: 30%;
 				display: flex;
 				align-items: center;
 				justify-content: flex-start;
@@ -104,7 +104,7 @@
 				}
 			}
 
-			&:nth-child(3) {
+			&:nth-of-type(3) {
 				width: 30%;
 				display: flex;
 				align-items: center;
@@ -133,7 +133,7 @@
 			border-bottom: 1px solid #258acf;
 			div {
 				&:nth-child(2) {
-					width: 60%;
+					width: 60% !important;
 
 					@include is-sp {
 						width: 100%;
@@ -220,7 +220,6 @@
 				border: 1px solid #258acf;
 				padding: 10px;
 				border-radius: 0;
-				margin-left: -10px;
 
 				@include is-sp {
 					margin-left: 0px;
@@ -536,5 +535,9 @@
 
 	.text {
 		width: 100%;
+	}
+
+	.w_60 {
+		width: 60% !important;
 	}
 }
