@@ -122,14 +122,14 @@ $imagedir = get_template_directory_uri();
                         </div>
                     </div>
                     <div class="btns u-d-f u-w-640">
-                        <div class="c-buttonCase btn">
+                        <a class="c-buttonCase btn" href="">
                             <p class="txt">ルーフの事業内容を見る</p>
                             <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                        </div>
-                        <div class="c-buttonCase btn">
+                        </a>
+                        <a class="c-buttonCase btn" href="">
                             <p class="txt">代表インタビューを見る</p>
                             <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
