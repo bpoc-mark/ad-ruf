@@ -33,7 +33,7 @@ $imagedir = get_template_directory_uri();
                                 <div class="info">
                                     <div class="info_left il01">
                                         <div>
-                                            <p>住所</p>
+                                            <p>社名</p>
                                         </div>
 
                                     </div>

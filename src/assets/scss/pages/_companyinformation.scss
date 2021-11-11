@@ -64,6 +64,7 @@
 
 		@include is-sp {
 			padding-bottom: 101px;
+			clip-path: polygon(0 2.5%, 100% 1%, 100% 101%, 0% 100%);
 		}
 
 		.l-wrap {
@@ -143,7 +144,7 @@
 
 		@include is-sp {
 			margin: 0;
-			padding-top: 30px 0 0 0;
+			padding: 30px 0 0 0;
 		}
 
 		&--row {
@@ -183,6 +184,7 @@
 
 						@include is-sp {
 							width: 115.5px;
+							padding-top: 15px;
 						}
 
 						@include is-max(405px) {
@@ -308,6 +310,11 @@
 								p {
 									text-indent: -27px;
 									margin-left: 27px;
+
+									@include is-max(435px) {
+										text-indent: -21px;
+										margin-left: 21px;
+									}
 								}
 
 								&::before {
@@ -333,6 +340,10 @@
 						.bullets {
 							color: #65a6cd;
 							padding-right: 12px;
+
+							@include is-sp {
+								padding-right: 5px;
+							}
 						}
 					}
 
@@ -340,6 +351,11 @@
 						.info_right-cont {
 							&::before {
 								height: 94%;
+
+								@include is-sp {
+									height: 96%;
+									top: 6px;
+								}
 							}
 						}
 					}
@@ -403,7 +419,8 @@
 
 		@include is-sp {
 			right: 10px;
-			width: 161px;
+			width: 193px;
+			top: -91px;
 		}
 	}
 
