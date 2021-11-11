@@ -23,29 +23,29 @@
 			}
 		}
 
-		.c-ruf-txt {
-			@include is-sp {
-				padding: 34px 0 30px 35px;
-				@include font-line(14.5, 17.5);
-				letter-spacing: 0.24em;
-				font-weight: 700;
-			}
-			@include is-max(375px) {
-				white-space: nowrap;
-				padding: 34px 0 30px 30px;
-			}
-			@include is-max(373px) {
-				font-size: 3.8vw;
-			}
-			img {
-				@include is-sp {
-					margin-right: 12.5px;
-				}
-				@include is-max(500px) {
-					width: 65.5px;
-				}
-			}
-		}
+		// .c-ruf-txt {
+		// 	@include is-sp {
+		// 		padding: 34px 0 30px 35px;
+		// 		@include font-line(14.5, 17.5);
+		// 		letter-spacing: 0.24em;
+		// 		font-weight: 700;
+		// 	}
+		// 	@include is-max(375px) {
+		// 		white-space: nowrap;
+		// 		padding: 34px 0 30px 30px;
+		// 	}
+		// 	@include is-max(373px) {
+		// 		font-size: 3.8vw;
+		// 	}
+		// 	img {
+		// 		@include is-sp {
+		// 			margin-right: 12.5px;
+		// 		}
+		// 		@include is-max(500px) {
+		// 			width: 65.5px;
+		// 		}
+		// 	}
+		// }
 	}
 
 	&__section_1 {

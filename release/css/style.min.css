@@ -1176,7 +1176,7 @@ template{display:none}
 .mp .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
 .mp .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:cross-platform-yu-gothic;font-size:.6875rem}
 .mp .bread_crumps span{padding:0 8px}
-.mp .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-100px}
+.mp .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
 .mp__section_1{z-index:150;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding-bottom:70px;position:relative;-webkit-clip-path:polygon(0 7.4%,100% 1.4%,100% 87%,0 96%);clip-path:polygon(0 7.4%,100% 1.4%,100% 87%,0 96%)}
 .mp__section_1 .l-wrap{position:relative}
 .mp__section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
@@ -1521,7 +1521,7 @@ template{display:none}
 .contact-thks .c-buttonCase{margin-top:70px}
 .contact-thks .c-buttonCase .txt{letter-spacing:.2em}
 .top .l-wrap{position:relative}
-.top .sect_1{z-index:4;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2);position:relative;padding-top:100px;margin-top:-115px;overflow:hidden}
+.top .sect_1{z-index:4;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2);position:relative;padding-top:115px;margin-top:-115px;overflow:hidden}
 .top .sect_1 .top-clip-wrppr{position:absolute;top:0;right:0;width:77%;height:250px;max-width:1200px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .top .sect_1 .top-clip-wrppr .pth{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
 .top .sect_1 .clipPath{-webkit-clip-path:polygon(0 10%,100% 0,100% 100%,0 100%);clip-path:polygon(0 10%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding:191px 0 40px 0;margin-top:-89px;position:relative;z-index:150}
@@ -2441,10 +2441,8 @@ template{display:none}
 .mp .c-banner--ttl{padding:20px 13px 20px 30px;left:0}
 .mp .c-banner--ttl p{font-weight:400}
 .mp .c-banner--ttl p .br-sp{display:block}
-.mp .c-banner .c-ruf-txt{padding:34px 0 30px 35px;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700}
-.mp .c-banner .c-ruf-txt img{margin-right:12.5px}
 .mp .bread_crumps .txt{font-size:.78125rem}
-.mp .top-clip{width:83%;height:161px;top:-30px}
+.mp .top-clip{width:77%;height:322px;top:0}
 .mp__section_1{padding-bottom:55px;-webkit-clip-path:polygon(0 3%,100% .2%,100% 95%,0 99%);clip-path:polygon(0 3%,100% .2%,100% 95%,0 99%);margin-top:-76px}
 .mp__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .mp__section_1--main-content .row{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
@@ -2513,8 +2511,6 @@ template{display:none}
 .office_gal--items:last-of-type{-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 105%);clip-path:polygon(0 7%,100% 0,100% 100%,0 105%)}
 .oe .c-banner--ttl p:nth-child(1){line-height:1}
 .oe .c-banner--ttl p:nth-child(2){line-height:1;padding-top:12.5px}
-.oe .c-banner .c-ruf-txt{padding:34px 0 30px 35px;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700}
-.oe .c-banner .c-ruf-txt img{margin-right:12.5px}
 .oe__section_1{padding-bottom:0;padding-top:150px;-webkit-clip-path:polygon(0 1.34%,100% .3%,100% 101%,0 100%);clip-path:polygon(0 1.34%,100% .3%,100% 101%,0 100%)}
 .oe__section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .oe .bread_crumps .txt{font-size:.78125rem}
@@ -2778,12 +2774,10 @@ template{display:none}
 .mp .c-banner--ttl{top:25%}
 .mp .c-banner--ttl p:nth-child(1){font-size:6vw}
 .mp .c-banner--ttl p:nth-child(2){font-size:3vw;line-height:18px;padding-top:5px}
-.mp .c-banner .c-ruf-txt img{width:65.5px}
 .message .c-banner .c-ruf-txt img{width:65.5px}
 .message .c-banner--ttl{top:25%}
 .message .c-banner--ttl p:nth-child(1){font-size:6vw}
 .message .c-banner--ttl p:nth-child(2){font-size:3vw}
-.oe .c-banner .c-ruf-txt img{width:65.5px}
 .pp__bg_1{right:10px;width:188px}
 .result .c-banner--ttl p:nth-child(1){font-size:6vw}
 .result .c-banner--ttl p:nth-child(2){font-size:3vw}
@@ -2823,6 +2817,7 @@ template{display:none}
 .ci .c-banner--ttl p:nth-child(2){font-size:3vw}
 .ci__section_1 .clip-path{-webkit-clip-path:polygon(0 3%,100% 2%,100% 100%,0 100%);clip-path:polygon(0 3%,100% 2%,100% 100%,0 100%);margin-top:-145px}
 .interview .c-banner{padding:0 0 95px 0}
+.mp .c-banner{padding:0 0 95px 0}
 .message .c-banner{padding:0 0 95px 0}
 .oe .c-banner{padding:0 0 95px 0}
 .real_estate_purchase .c-banner--ttl p:nth-child(1){font-size:7vw}
@@ -2861,10 +2856,8 @@ template{display:none}
 .top-header-bnnr .brnd-logo-sp{left:26px}
 .float-menu .brgr-mail-mail-txt{letter-spacing:0;font-size:.8125rem}
 .sect_1__header{letter-spacing:2px}
-.mp .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
 .message .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
 .message .section_1 .clipPath .cntnt-sub2{font-size:3.5vw}
-.oe .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}
 .real_estate_purchase .sect_7__box-big-new2{top:27%}
@@ -2876,9 +2869,7 @@ template{display:none}
 }@media only screen and (max-width:373px){.acc__main-content--row .col_left .info_left{width:65px}
 .acc__main-content--row .col_left .info_right{width:calc(100% - 65px)}
 .acc__main-content--row .col_left .info_right p{padding-left:0}
-.mp .c-banner .c-ruf-txt{font-size:3.8vw}
 .message .c-banner .c-ruf-txt{font-size:3.8vw}
-.oe .c-banner .c-ruf-txt{font-size:3.8vw}
 }@media only screen and (max-width:370px){.page__footer .nav-footer-col2 .ttl{padding:0 20px}
 .page__footer .nav-footer-col2 .link .link__inner .c-link{padding:0 40px}
 .page__footer .nav-footer-col3 .ttl{padding:0 20px}

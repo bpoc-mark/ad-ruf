@@ -100,14 +100,14 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="l-wrap u-d-f u-d-f-jcc pp--fd mp--btns">
-                    <div class="c-buttonCase mp--btn">
+                    <a class="c-buttonCase mp--btn" href="">
                         <p class="txt">ルーフの業績を見る</p>
                         <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
-                    <div class="c-buttonCase mp--btn">
+                    </a>
+                    <a class="c-buttonCase mp--btn" href="">
                         <p class="txt">代表インタビューを見る</p>
                         <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                    </a>
                 </div>
 
             </div>
