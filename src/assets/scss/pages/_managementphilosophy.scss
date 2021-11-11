@@ -1,72 +1,115 @@
 .mp {
-    .c-banner{
+	position: relative;
+	.c-banner {
+		background: linear-gradient(to right, #2079bd, #1e91d2);
 		padding: 0 0 65px 0;
-			&--ttl{
-			@include is-sp{
+		&--ttl {
+			@include is-sp {
 				padding: 20px 13px 20px 30px;
 				left: 0;
 			}
 
-			@include is-max(500px){
+			@include is-max(500px) {
 				top: 25%;
 			}
 
-			p{
+			p {
 				line-height: 1.4em;
-				.br-sp{
+
+				@include is-sp {
+					font-weight: 400;
+				}
+
+				.br-sp {
 					display: none;
-					@include is-sp{
+					@include is-sp {
 						display: block;
-			 	 }
-			  }
-			  
-			  &:nth-child(1){
-				  @include is-max(500px){
-				  font-size: 6vw;
-			   }
-			  }
-			  &:nth-child(2){
-				@include is-max(500px){
-				font-size: 3vw;
-			  }
-			  }
-			}	
+					}
+				}
+
+				&:nth-child(1) {
+					@include is-max(500px) {
+						font-size: 6vw;
+					}
+				}
+				&:nth-child(2) {
+					@include is-max(500px) {
+						font-size: 3vw;
+						line-height: 18px;
+						padding-top: 5px;
+					}
+				}
+			}
 		}
 
-        .c-inner{
-            position: relative;
+		.c-inner {
+			position: relative;
 
-            .person-bnr{
-                width: 40%;
-                margin: 0 auto;
-                position: absolute;
-                top: 7px;
-                left: 50%;
-            }
+			.c-banner--ttl {
+				& p:last-child {
+					font-weight: 700;
+				}
+			}
 
-			.ruf{
+			.person-bnr {
+				width: 40%;
+				margin: 0 auto;
+				position: absolute;
+				top: 7px;
+				left: 50%;
+			}
+
+			.ruf {
 				position: absolute;
 				right: 45px;
 				bottom: 30px;
 			}
-        }
+		}
+
+		.c-ruf-txt {
+			@include is-sp {
+				padding: 34px 0 30px 35px;
+				@include font-line(14.5, 17.5);
+				letter-spacing: 0.24em;
+				font-weight: 700;
+			}
+			@include is-max(375px) {
+				white-space: nowrap;
+				padding: 34px 0 30px 30px;
+			}
+			@include is-max(373px) {
+				font-size: 3.8vw;
+			}
+			img {
+				@include is-sp {
+					margin-right: 12.5px;
+				}
+				@include is-max(500px) {
+					width: 65.5px;
+				}
+			}
+		}
 	}
 
-	.bread_crumps{
+	.bread_crumps {
 		text-align: left;
 		position: relative;
 		z-index: 150;
 		padding-top: 12px;
-		.txt{
+		.txt {
 			width: 90%;
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family:cross-platform-yu-gothic;
+			font-family: cross-platform-yu-gothic;
 			@include font-line(11);
+
+			@include is-sp {
+				@include font-line(12.5);
+			}
 		}
 
-		span{
+		span {
 			padding: 0 8px;
 		}
 	}
@@ -76,10 +119,11 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to left, #2593d5, #2579bf);
+		background: linear-gradient(to right, #003782, #0059b6);
 		position: absolute;
-		top: -4.5%;
+		top: 0;
 		right: 0%;
+		margin-top: -100px;
 
 		@include is-sp {
 			width: 83%;
@@ -90,18 +134,14 @@
 
 	&__section_1 {
 		z-index: 150;
-		background: linear-gradient(
-			90deg,
-			rgba(37, 121, 191, 1) 0%,
-			rgba(37, 147, 213, 1) 50%
-		);
+		background: linear-gradient(to right, #003782, #0059b6);
 		padding-bottom: 70px;
 		position: relative;
-		clip-path: polygon(0 10%, 100% 0%, 100% 87%, 0% 100%);
+		clip-path: polygon(0 7.4%, 100% 1.4%, 100% 87%, 0% 96%);
 
 		@include is-sp {
 			padding-bottom: 55px;
-			clip-path: polygon(0 5%, 100% 0%, 100% 96%, 0% 100%);
+			clip-path: polygon(0 3%, 100% 0.2%, 100% 95%, 0% 99%);
 			margin-top: -76px;
 		}
 
@@ -181,9 +221,10 @@
 							background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
 
 							@include is-sp {
-								top: 6px;
-								right: 5px;
-								padding: 3px 1px 3px 6px;
+								top: 11px;
+								right: 13px;
+								padding: 3px 5px 3px 6px;
+								@include font-line(8);
 							}
 						}
 					}
@@ -210,7 +251,7 @@
 
 	&__section_2 {
 		background-color: #fff;
-		padding-bottom: 70px;
+		padding-bottom: 100px;
 		position: relative;
 
 		@include is-sp {
@@ -234,7 +275,7 @@
 		}
 
 		&--main-content {
-			padding-top: 60px;
+			padding-top: 65px;
 
 			@include is-sp {
 				padding-top: 32px;
@@ -265,6 +306,10 @@
 						font-family: cross-platform-yu-gothic;
 						text-align: justify;
 
+						span {
+							letter-spacing: 0.15em;
+						}
+
 						@include is-sp {
 							@include font-line(13.4);
 							letter-spacing: 0.1em;
@@ -293,7 +338,8 @@
 							font-weight: 500;
 
 							@include is-sp {
-								padding: 3px 1px 3px 6px;
+								padding: 3px 5px 3px 6px;
+								@include font-line(8);
 							}
 						}
 					}
@@ -328,6 +374,7 @@
 		text-align: center;
 		letter-spacing: 0.32em;
 		line-height: 1;
+		margin-top: 131px;
 
 		@include font-line(10);
 
@@ -335,6 +382,7 @@
 			@include font-line(12);
 			color: #9fc4e3;
 			padding-top: 125px;
+			margin-top: 0;
 		}
 	}
 
@@ -360,7 +408,7 @@
 		}
 
 		@include is-sp {
-			letter-spacing: 0.2em;
+			letter-spacing: 0.15em;
 			line-height: 42px;
 			@include font-line(25);
 		}
@@ -379,6 +427,10 @@
 		z-index: 1;
 		position: relative;
 
+		@include is-max(1040px) {
+			letter-spacing: 0.18em;
+		}
+
 		@include is-sp {
 			letter-spacing: unset;
 			padding: 0 0 60px 0;
@@ -387,7 +439,7 @@
 		}
 
 		@include is-max(370px) {
-			@include font-line(12);
+			font-size: 3.5vw;
 		}
 
 		@include font-line(13, 26);
@@ -395,13 +447,14 @@
 
 	&__bg_1 {
 		position: absolute;
-		top: -85px;
-		right: 63px;
-		width: 379px;
+		top: -99px;
+		right: 67px;
+		width: 352px;
+		z-index: -1;
 
 		@include is-sp {
-			top: 45px;
-			right: 11px;
+			top: 36px;
+			right: 7px;
 			width: 179px;
 		}
 	}
@@ -412,6 +465,7 @@
 		left: -60px;
 		z-index: 2;
 		opacity: 0.2;
+		width: 252px;
 
 		@include is-sp {
 			display: none;
@@ -420,7 +474,7 @@
 
 	&__bg_3 {
 		position: absolute;
-		top: -120px;
+		top: -140px;
 		right: 0;
 		z-index: 9999;
 		opacity: 0.2;
@@ -457,7 +511,6 @@
 	}
 
 	&--btns {
-		
 		@include is-sp {
 			padding: 0;
 			flex-wrap: wrap;
@@ -500,7 +553,7 @@
 		-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
 		clip-path: polygon(100% 0%, 0 0, 0% 100%);
 		padding: 55px 0 0 0;
-		background: rgb(95, 165, 205);
+		// background: rgb(95, 165, 205);
 		text-align: center;
 		margin-top: -97px;
 
@@ -509,6 +562,5 @@
 			margin-top: -55px;
 			display: none;
 		}
-
 	}
 }
