@@ -149,11 +149,11 @@ get_header(); ?>
                 <div class="u-d-f section_2-cntnt-btns">
                     <a class="c-buttonCase" href="">
                         <p class="txt">CARGUY／カーガイについて</p>
-                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
                     <a class="c-buttonCase" href="">
                         <p class="txt">代表メッセージ</p>
-                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -169,7 +169,7 @@ get_header(); ?>
                         <div class="section_3-cntnt-rows-1">
                             <p class="section_3-cntnt-rows-1-hdr">この文章はダミーです<br>この文章はダミーです</p>
                             <p class="section_3-cntnt-rows-1-txt1">Dummy textDummy textDummy textDummy text Dummy text</p>
-                    
+
 
                             <div class="img-sp u-d-n-pc">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img.png" alt="">
@@ -183,11 +183,11 @@ get_header(); ?>
                     <div class="u-d-f section_3-cntnt-btns">
                         <a class="c-buttonCase" href="">
                             <p class="txt">ルーフの事業内容を見る</p>
-                            <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
                         <a class="c-buttonCase" href="">
                             <p class="txt">経営理念を見る</p>
-                            <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
                     </div>
 

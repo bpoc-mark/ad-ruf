@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cross-platform-yu-gothic@0.1.1/cross-platform-yu-gothic.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/release/css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dmz1qnv.css">
     <!-- SLICK CSS -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <?php wp_head(); ?>
@@ -44,7 +45,7 @@
                                             <a href="">Item 3</a>
                                         </li>
                                     </ul>
-                                    
+
                                 </li>
                                 <li class="nav-links-ul-01-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
@@ -155,14 +156,14 @@
                 <div class="top-header-close">
                     <a>
                         <div class="close-btn">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/close-btn.png"alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/close-btn.png" alt="">
                             <p>close</p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-        
+
         <div class="float-menu">
             <div class="brgr-mail">
                 <a class="brgr-mail-burger">
@@ -179,9 +180,9 @@
                 </a>
             </div>
         </div>
-          
-                
-         
 
-        
-    <main>
+
+
+
+
+        <main>
