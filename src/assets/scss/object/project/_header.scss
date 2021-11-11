@@ -335,7 +335,7 @@
 				a {
 					@include font-line(11);
 					font-weight: 700;
-					font-family: cross-platform-yu-gothic;
+					font-family: cross-platform-yu-gothic, sans-serif;
 					color: #fff;
 
 					@include is-sp {
