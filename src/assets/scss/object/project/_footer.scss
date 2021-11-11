@@ -43,21 +43,30 @@
             bottom: -74px;
             left: 50%;
             transform: translateX(-50%);
+            display: inline-block;
 
             @include is-sp {
                 bottom: 7px;
+            }
+
+            &:hover{
+                &::before{
+                    top: -30px;
+                    content: "";
+                }
             }
 
             
             &:before {
                 content: '';
                 position: absolute;
-                top: -66%;
+                top: -75%;
                 left: 50%;
                 transform: translateX(-50%);
-                width: 10%;
+                width: 50px;
                 height: 100%;
-                background: url(../image/footer/arrow-push.png) no-repeat center !important;  
+                background: url(../image/footer/arrow-push.png) no-repeat center !important;
+                transition: 0.3s ease-in-out;
             }
 
             a {

@@ -353,25 +353,23 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background-color: #fff;
-	z-index: 777;
-    border: 1px solid #81B3D4;
-    border-radius: 30px;
-    width: 290px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #fff;
-    z-index: 777;
+	background: #fff;
 	color: #258acf;
 	letter-spacing: 0.2em;
+	transition: 0.3s ease-in-out;
 
 	&:hover{
-		background-color: red;
-		transition: background-color 0.5s ease-out;
+		img{
+			right: 15px;
+		}
 	}
+
+	// &:hover{
+	// 	// background: linear-gradient(to right, #2079bd, #1e91d2);
+	// 	color: #fff !important;
+	// 	// background-color: linear-gradient(to right, #2079bd, #1e91d2);
+	// 	background: rgb(32,121,189);
+	// }
 
     @include is-sp {
         width: 100%;
@@ -392,6 +390,7 @@
         height: 10px;
         position: absolute;
         right: 20px;
+		transition: 0.3s ease-in-out;
     }
 }
 

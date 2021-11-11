@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="cntct-top">
-                    <a class="cntct-top-link" href="">PAGE TOP</a>
+                    <a class="cntct-top-link" href="#page-top">PAGE TOP</a>
                 </div>
             </div>
             <div class="l-wrap">

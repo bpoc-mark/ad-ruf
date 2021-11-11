@@ -92,7 +92,7 @@
 			}
 
 			&:nth-child(2) {
-				width: 60%;
+				width: 30% !important;
 				display: flex;
 				align-items: center;
 				justify-content: flex-start;
@@ -238,7 +238,7 @@
 
 				&:nth-child(2) {
 					flex-wrap: wrap;
-					width: 60%;
+					width: 60% !important;
 
 					@include is-sp {
 						width: 100% !important;
@@ -308,6 +308,7 @@
 							align-items: center;
 							justify-content: flex-start;
 							width: 100%;
+							margin-bottom: 10px;
 
 							label {
 								width: 120px;
@@ -506,14 +507,34 @@
 	}
 
 	br {
-		display: none;
+		&:last-child {
+			display: none;
+		}
 	}
 
 	.wpcf7-form-control-wrap {
 		text-align: left;
+		display: block;
+		width: 100%;
 	}
 
 	.width_100 {
 		width: 100% !important;
+	}
+
+	.cont_row1 {
+		background: #e2f3fb;
+	}
+
+	.ex1 {
+		width: unset;
+	}
+
+	.email {
+		width: 100% !important;
+	}
+
+	.text {
+		width: 100%;
 	}
 }

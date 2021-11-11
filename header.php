@@ -17,7 +17,7 @@
 
 <body <?php body_class(); ?>>
     <main>
-        <div class="page__header">
+        <div class="page__header" id="page-top">
             <div class="top-header">
                 <div class="top-header-nav">
                     <div class="brnd-logo">
@@ -44,7 +44,7 @@
                                             <a href="">Item 3</a>
                                         </li>
                                     </ul>
-                                    
+
                                 </li>
                                 <li class="nav-links-ul-01-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
@@ -155,14 +155,14 @@
                 <div class="top-header-close">
                     <a>
                         <div class="close-btn">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/close-btn.png"alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/close-btn.png" alt="">
                             <p>close</p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-        
+
         <div class="float-menu">
             <div class="brgr-mail">
                 <a class="brgr-mail-burger">
@@ -179,9 +179,9 @@
                 </a>
             </div>
         </div>
-          
-                
-         
 
-        
-    <main>
+
+
+
+
+        <main>

@@ -66,11 +66,11 @@
                 </p>
             </div>
             <div class="fade"></div>
-            <div class="bdg-wrppr u-d-n-sp">
+            <!-- <div class="bdg-wrppr u-d-n-sp">
                 <div class="c-bdg bdg--blue">
                     <p>あたり</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="top-clip-wrppr">
             <div class="pth"></div>
@@ -118,11 +118,6 @@
 
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect1_bimg01.png" alt="Real Estate Purchase">
-                                <div class="bdg-wrppr u-d-n-sp">
-                                    <div class="c-bdg bdg--blue">
-                                        <p>あたり</p>
-                                    </div>
-                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-1.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -198,11 +193,6 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect2_bimg01.png" alt="Real Estate Management">
-                                <div class="bdg-wrppr u-d-n-sp">
-                                    <div class="c-bdg bdg--blue">
-                                        <p>あたり</p>
-                                    </div>
-                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-2.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -242,11 +232,6 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect3_bimg01.png" alt="Real Estate Operation">
-                                <div class="bdg-wrppr u-d-n-sp">
-                                    <div class="c-bdg bdg--blue">
-                                        <p>あたり</p>
-                                    </div>
-                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-3.png" alt="">
                                 <p class="top-text01">
                                     <span>R</span>eal Estate
@@ -319,11 +304,6 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
-                                <div class="bdg-wrppr u-d-n-sp">
-                                    <div class="c-bdg bdg--red">
-                                        <p>あたり</p>
-                                    </div>
-                                </div>
                                 <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
                                 <p class="top-text01">
                                     <span>A</span>sset
@@ -569,11 +549,6 @@
                                 <p>message</p>
                                 <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
                             </div>
-                            <div class="bdg-wrppr u-d-n-sp">
-                                 <div class="c-bdg bdg--blue">
-                                    <p>あたり</p>
-                                </div>
-                            </div> 
                         </div>
                         <div class="sect_7-cntnt-rows-02">
                             <div class="sect_7-cntnt-rows-02-txt">
