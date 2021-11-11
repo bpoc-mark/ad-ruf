@@ -88,7 +88,7 @@
 			}
 
 			&-desc {
-				font-family: cross-platform-yu-gothic;
+				font-family: cross-platform-yu-gothic, sans-serif;
 
 				&-txt {
 					@include font-line(13, 26);
@@ -314,7 +314,7 @@
 						}
 
 						&-03 {
-							font-family: cross-platform-yu-gothic;
+							font-family: cross-platform-yu-gothic, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -660,7 +660,7 @@
 						}
 
 						&-03 {
-							font-family: cross-platform-yu-gothic;
+							font-family: cross-platform-yu-gothic, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -992,7 +992,7 @@
 						}
 
 						&-03 {
-							font-family: cross-platform-yu-gothic;
+							font-family: cross-platform-yu-gothic, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -1306,7 +1306,7 @@
 						}
 
 						&-03 {
-							font-family: cross-platform-yu-gothic;
+							font-family: cross-platform-yu-gothic, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -1474,7 +1474,7 @@
 				}
 
 				&-desc {
-					font-family: cross-platform-yu-gothic;
+					font-family: cross-platform-yu-gothic, sans-serif;
 					font-weight: 500;
 
 					@include font-line(13, 26);
@@ -1814,7 +1814,7 @@
 						@include font-line(12, 26);
 						letter-spacing: 0.15em;
 						font-weight: 500;
-						font-family: cross-platform-yu-gothic;
+						font-family: cross-platform-yu-gothic, sans-serif;
 						padding-bottom: 37px;
 
 						@include is-sp {
@@ -1955,7 +1955,7 @@
 					}
 
 					&-date {
-						font-family: cross-platform-yu-gothic;
+						font-family: cross-platform-yu-gothic, sans-serif;
 						padding-top: 4px;
 						// padding-right: 111px;
 						width: 230px;
@@ -1981,7 +1981,7 @@
 					}
 
 					&-txt {
-						font-family: cross-platform-yu-gothic;
+						font-family: cross-platform-yu-gothic, sans-serif;
 						color: #333;
 						width: 770px;
 

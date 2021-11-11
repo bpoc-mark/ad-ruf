@@ -48,7 +48,7 @@
                                 </li>
                                 <li class="nav-links-ul-01-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="<?php echo get_permalink(get_page_by_path('access')) ?>">プライバシーポリシー</a>
+                                    <a href="#">プライバシーポリシー</a>
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
@@ -144,7 +144,7 @@
                             </ul>
                         </div>
                         <div class="nav-links-mail">
-                            <a class="nav-links-mail-link" href="">
+                            <a class="nav-links-mail-link" href="mailto:someone@example.com">
                                 <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
                                 <p>お問い合わせ・<br class="u-d-n-sp">
                                     ご相談</p>
