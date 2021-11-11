@@ -147,11 +147,11 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="u-d-f section_2-cntnt-btns">
-                    <a class="c-buttonCase">
+                    <a class="c-buttonCase" href="">
                         <p class="txt">CARGUY／カーガイについて</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
-                    <a class="c-buttonCase">
+                    <a class="c-buttonCase" href="">
                         <p class="txt">代表メッセージ</p>
                         <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -181,14 +181,14 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="u-d-f section_3-cntnt-btns">
-                        <div class="c-buttonCase">
+                        <a class="c-buttonCase" href="">
                             <p class="txt">ルーフの事業内容を見る</p>
                             <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                        </div>
-                        <div class="c-buttonCase">
+                        </a>
+                        <a class="c-buttonCase" href="">
                             <p class="txt">経営理念を見る</p>
                             <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                        </div>
+                        </a>
                     </div>
 
                     <img class="sec3-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg1.png" alt="">

@@ -7,12 +7,16 @@
     }
 
     .c-banner {
-        padding-bottom: 108px;
+        padding: 0 0 80px 0;
         position: relative;
         background: linear-gradient(to right, #2079bd, #1e91d2);
 
         @include is-sp {
             padding-bottom: 80px;
+        }
+
+        @include is-max(400px){
+            padding: 0 0 95px 0;
         }
 
         .c-ruf-txt {    
@@ -122,13 +126,14 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         background: linear-gradient(to right, #003782, #0059b6);
         position: absolute;
-        top: -5%;
-        right: 0%;
+		top: 0;
+		right: 0%;
+        margin-top: -115px;
 
         @include is-sp {
-            width: 278.5px;
-            height: 161px;
-            top: -30px;
+			width: 77%;
+			height: 322px;
+			top: 0;
         }
     }
 
@@ -153,9 +158,10 @@
             }
         }
         .clipPath {
-            clip-path: polygon(0 8%, 100% 0, 100% 100%, 86% 95%, 0 100%) ;
+            clip-path: polygon(0 5%, 100% 0, 100% 100%, 86% 95%, 0 100%) ;
             background: linear-gradient(to right, #003782, #0059b6);
             padding-top: 0;
+            margin-top: -100px;
 
             @include is-sp {
                 clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 9%);
