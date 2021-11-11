@@ -344,9 +344,9 @@
                                 <div class="c-cards09-img-num">
                                     <p>01</p>
                                 </div>
-                                <div class="c-cards09-img-view">
+                                <a class="c-cards09-img-view" href="#">
                                     <p>VIEW <br>MORE</p>
-                                </div>
+                                </a>
                             </div>
                             <div class="c-cards09-desc">
                                 <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
@@ -361,9 +361,9 @@
                                 <div class="c-cards09-img-num">
                                     <p>02</p>
                                 </div>
-                                <div class="c-cards09-img-view">
+                                <a class="c-cards09-img-view" href="#">
                                     <p>VIEW <br>MORE</p>
-                                </div>
+                                </a>
                             </div>
                             <div class="c-cards09-desc">
                                 <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
@@ -378,9 +378,9 @@
                                 <div class="c-cards09-img-num">
                                     <p>03</p>
                                 </div>
-                                <div class="c-cards09-img-view">
+                                <a class="c-cards09-img-view" href="#">
                                     <p>VIEW <br>MORE</p>
-                                </div>
+                                </a>
                             </div>
                             <div class="c-cards09-desc">
                                 <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
@@ -395,9 +395,9 @@
                                 <div class="c-cards09-img-num">
                                     <p>04</p>
                                 </div>
-                                <div class="c-cards09-img-view">
+                                <a class="c-cards09-img-view" href="#">
                                     <p>VIEW <br>MORE</p>
-                                </div>
+                                </a>
                             </div>
                             <div class="c-cards09-desc">
                                 <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評

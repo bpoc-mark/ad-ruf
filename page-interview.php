@@ -103,12 +103,6 @@ get_header(); ?>
                                     <p class="biography-sp-cntnt-txt">この文章はダミーです</p>
                                 </div>
                             </div>
-
-                            <div class="bdg-wrppr">
-                                <div class="c-bdg bdg--blue">
-                                    <p>あたり</p>
-                                </div>
-                            </div>
                             <div class="section_1-cntnt-2-rep">
                                 <div class="section_1-cntnt-2-rep-txt">
                                     <p>代表取締役</p>

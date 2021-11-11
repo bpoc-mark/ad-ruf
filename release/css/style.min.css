@@ -169,7 +169,7 @@ template{display:none}
 .c-card07:last-child,.c-card07:nth-of-type(3){padding-right:unset}
 .c-card07:nth-of-type(5){padding-left:unset}
 .c-card07:first-child{padding-left:unset}
-.c-cards09{width:220px}
+.c-cards09{width:220px;background-color:#fff}
 .c-cards09 img{width:100%}
 .c-cards09-img{position:relative}
 .c-cards09-img-num{position:absolute;top:2%;left:2%}

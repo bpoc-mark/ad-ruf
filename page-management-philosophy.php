@@ -59,7 +59,6 @@ $imagedir = get_template_directory_uri();
                     <div class="col">
                         <div class="col-right">
                             <img src="<?= get_template_directory_uri(); ?>/release/image/page/managementphilosophy/mp-img-1.png" alt="">
-                            <p class="badge">あたり</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +79,6 @@ $imagedir = get_template_directory_uri();
                     <div class="col">
                         <div class="col-left">
                             <img src="<?= get_template_directory_uri(); ?>/release/image/page/managementphilosophy/mp-img-2.png" alt="">
-                            <p class="badge">あたり</p>
                         </div>
                     </div>
 

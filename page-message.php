@@ -20,11 +20,6 @@ $imagedir = get_template_directory_uri();
             <div class="person-bnr">
                 <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/message/message_bnr_person.png" alt="">
             </div>
-            <div class="bdg-wrppr u-d-n-sp">
-                <div class="c-bdg bdg--blue">
-                    <p>あたり</p>
-                </div>
-            </div>
         </div>
         <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span> 代 表 メ ッ セ ー ジ</p>
@@ -52,11 +47,6 @@ $imagedir = get_template_directory_uri();
                             </div>
                             <div class="section_1-cntnt-rows-2">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
-                                <div class="bdg-wrppr">
-                                    <div class="c-bdg bdg--blue">
-                                        <p>あたり</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="section_1-cntnt-btns u-d-f u-w-640">
@@ -83,11 +73,6 @@ $imagedir = get_template_directory_uri();
             <div class="section_2-rows u-d-f u-jc-sb">
                 <div class="section_2-rows-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sect2_img.png" alt="">
-                    <div class="bdg-wrppr">
-                        <div class="c-bdg bdg--blue">
-                            <p>あたり</p>
-                        </div>
-                    </div>
                 </div>
                 <div class="section_2-rows-2 u-w-390">
                     <p class="section_2-rows-2-txt">『運用』におきましては、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデルです。また、定期的に保有資産を売却して新規物件に入れ替えることも大切な運用の１つです。</p>
@@ -114,11 +99,6 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="section_3-cntnt-rows-2">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
-                            <div class="bdg-wrppr">
-                                <div class="c-bdg bdg--blue">
-                                    <p>あたり</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="btns u-d-f u-w-640">
