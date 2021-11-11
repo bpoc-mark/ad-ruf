@@ -1015,14 +1015,14 @@ template{display:none}
 .contact-frm__req--txt{font-size:.75rem;font-family:cross-platform-yu-gothic;font-weight:500;color:#258acf;text-align:left}
 .contact-frm .form{padding:0 60px}
 .contact-frm__inner-row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.contact-frm__inner-row div:nth-child(1){width:37%;text-align:center;padding:20px 0;background-color:#e2f3fb;font-family:cross-platform-yu-gothic;font-weight:700;color:#258acf}
-.contact-frm__inner-row div:nth-child(2){width:30% !important;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
-.contact-frm__inner-row div:nth-child(3){width:30%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}
+.contact-frm__inner-row div:nth-of-type(1){width:37%;text-align:center;padding:20px 0;background-color:#e2f3fb;font-family:cross-platform-yu-gothic;font-weight:700;color:#258acf}
+.contact-frm__inner-row div:nth-of-type(2){width:30%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+.contact-frm__inner-row div:nth-of-type(3){width:30%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}
 .contact-frm__inner-row .bg-lg{background-color:red;padding:50px 0}
 .contact-frm__inner-row:nth-of-type(2){border-top:1px solid #258acf;border-bottom:1px solid #258acf}
 .contact-frm__inner-row:nth-of-type(3){border-bottom:1px solid #258acf}
 .contact-frm__inner-row:nth-of-type(4){border-bottom:1px solid #258acf}
-.contact-frm__inner-row:nth-of-type(4) div:nth-child(2){width:60%}
+.contact-frm__inner-row:nth-of-type(4) div:nth-child(2){width:60% !important}
 .contact-frm__inner-row:nth-of-type(4) div input{width:100% !important}
 .contact-frm__inner-row:nth-of-type(5){border-bottom:1px solid #258acf}
 .contact-frm__inner-row:nth-of-type(5) div:nth-child(2){width:60%}
@@ -1038,7 +1038,7 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(7) input{width:100%}
 .contact-frm__inner-row:nth-of-type(7) span{padding:0 5px;display:block}
 .contact-frm__inner-row:nth-of-type(8){border-bottom:1px solid #258acf;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.contact-frm__inner-row:nth-of-type(8) select{width:165px;border:1px solid #258acf;padding:10px;border-radius:0;margin-left:-10px}
+.contact-frm__inner-row:nth-of-type(8) select{width:165px;border:1px solid #258acf;padding:10px;border-radius:0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(1){padding:120px 0 140px 0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2){-ms-flex-wrap:wrap;flex-wrap:wrap;width:60% !important}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) .sp-button{width:30%;display:none;margin-left:30px}
@@ -1084,6 +1084,7 @@ template{display:none}
 .contact-frm .ex1{width:unset}
 .contact-frm .email{width:100% !important}
 .contact-frm .text{width:100%}
+.contact-frm .w_60{width:60% !important}
 .group-business .c-banner{padding:0 0 100px 0}
 .group-business .c-banner--ttl{top:30%}
 .group-business .c-banner--ttl p:nth-child(1){line-height:1.50em}
@@ -2377,9 +2378,9 @@ template{display:none}
 .contact-frm__req--txt{padding-bottom:20px}
 .contact-frm .form{padding:0}
 .contact-frm__inner-row{-ms-flex-wrap:wrap;flex-wrap:wrap}
-.contact-frm__inner-row div:nth-child(1){width:100%;line-height:1;padding:15px 0}
-.contact-frm__inner-row div:nth-child(2){width:100%;margin-top:20px;margin-bottom:17px}
-.contact-frm__inner-row div:nth-child(3){width:100%;margin-bottom:35px}
+.contact-frm__inner-row div:nth-of-type(1){width:100%;line-height:1;padding:15px 0}
+.contact-frm__inner-row div:nth-of-type(2){width:100%;margin-top:20px;margin-bottom:17px}
+.contact-frm__inner-row div:nth-of-type(3){width:100%;margin-bottom:35px}
 .contact-frm__inner-row:nth-of-type(4) div:nth-child(2){width:100%}
 .contact-frm__inner-row:nth-of-type(5) div:nth-child(2){width:100%}
 .contact-frm__inner-row:nth-of-type(6) div:nth-child(2){width:100%}
