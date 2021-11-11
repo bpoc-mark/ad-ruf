@@ -9,7 +9,7 @@
     .c-banner {
         padding-bottom: 108px;
         position: relative;
-        background: linear-gradient(to left, #81b3d4, #5fa5cd);
+        background: linear-gradient(to right, #2079bd, #1e91d2);
 
         @include is-sp {
             padding-bottom: 80px;
@@ -120,9 +120,9 @@
         width: 800px;
         height: 250px;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        background: linear-gradient(to left, #2593d5, #2579bf);
+        background: linear-gradient(to right, #003782, #0059b6);
         position: absolute;
-        top: -4.5%;
+        top: -5%;
         right: 0%;
 
         @include is-sp {
@@ -154,7 +154,7 @@
         }
         .clipPath {
             clip-path: polygon(0 8%, 100% 0, 100% 100%, 86% 95%, 0 100%) ;
-            background: linear-gradient(to left,#2593D5, #2579BF);
+            background: linear-gradient(to right, #003782, #0059b6);
             padding-top: 0;
 
             @include is-sp {
@@ -428,7 +428,7 @@
 
         .clipPath {
             clip-path: polygon(19% 11%, 100% 0, 100% 100%, 0 100%, 0 0);
-            background: linear-gradient(to left,#2593D5, #2579BF);
+            background: linear-gradient(to right, #003782, #0059b6);
             padding: 144px 0 99px 0;
 
             @include is-sp {
