@@ -421,6 +421,7 @@ template{display:none}
 .page__footer .nav-footer-col5 .ttl .head-link{color:#fff;letter-spacing:4px}
 .page__footer .nav-footer-col5 .ttl .head-link:before{content:'';position:absolute;bottom:0;left:0;height:2px;width:52px;background-color:#fff}
 .page__footer .nav-footer-col5 .ttl .head-icon{display:none}
+.page__footer .nav-footer-col5 .link .link__inner .c-link .ad-txt-sp{display:none}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{font-family:cross-platform-yu-gothic,sans-serif;letter-spacing:2.8px;font-size:.75rem;line-height:3.0833333333;letter-spacing:.26em}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__arr{font-size:1.5625rem;line-height:4;letter-spacing:.28;color:#fff;display:none}
 .page__footer .lower-footer{padding-top:50px;text-align:center;padding-bottom:25px}
@@ -479,7 +480,7 @@ template{display:none}
 .top-header-nav .nav-links-ul-01{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .top-header-nav .nav-links-ul-01-link{position:relative}
 .top-header-nav .nav-links-ul-01-link:nth-child(1) img,.top-header-nav .nav-links-ul-01-link:nth-child(2) img{display:none}
-.top-header-nav .nav-links-ul-01-link:not(:last-child)::after{content:"";font-size:.6875rem;font-weight:500;font-family:cross-platform-yu-gothic,sans-serif;color:#fff;padding:0 15px 0 10px}
+.top-header-nav .nav-links-ul-01-link:not(:last-child)::after{content:"/";font-size:.6875rem;font-weight:500;font-family:cross-platform-yu-gothic,sans-serif;color:#fff;padding:0 15px 0 10px}
 .top-header-nav .nav-links-ul-01-link a{font-weight:500;letter-spacing:.28em}
 .top-header-nav .nav-links-ul-01-link img,.top-header-nav .nav-links-ul-01-link .plus{width:7px;position:absolute;top:50%;right:-10px;-webkit-transform:translate(0,-40%);transform:translate(0,-40%)}
 .top-header-nav .nav-links-ul-02{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;line-height:1.2}
@@ -2064,6 +2065,8 @@ template{display:none}
 .page__footer .nav-footer-col5 .ttl .head-link{font-size:.9375rem;line-height:4.3;letter-spacing:.28em}
 .page__footer .nav-footer-col5 .ttl .head-link:before{display:none}
 .page__footer .nav-footer-col5 .ttl .head-icon{font-size:.84375rem;line-height:4.8148148148;letter-spacing:.28em;display:block;color:#fff}
+.page__footer .nav-footer-col5 .link .link__inner .c-link .ad-txt-sp{display:inline-block}
+.page__footer .nav-footer-col5 .link .link__inner .c-link .cap-sp{text-transform:uppercase}
 .page__footer .nav-footer-col5 .link .link__inner .c-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1px dashed #fff;padding:0 75px}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4;letter-spacing:.28}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__arr{font-size:.84375rem;line-height:3.7037037037;display:block}

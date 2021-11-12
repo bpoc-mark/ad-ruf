@@ -690,6 +690,19 @@
                 
                     .c-link {
 
+                        .ad-txt-sp{
+                            display: none;
+                            @include is-sp{
+                                display: inline-block;
+                            }
+                        }
+
+                        .cap-sp{
+                            @include is-sp{
+                                text-transform: uppercase;
+                            }
+                        }
+
                         @include is-sp {
                             display: flex;
                             justify-content: space-between;

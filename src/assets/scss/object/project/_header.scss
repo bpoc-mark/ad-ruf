@@ -376,7 +376,7 @@
 						}
 						&:not(:last-child) {
 							&::after {
-								content: "";
+								content: "/";
 								@include font-line(11);
 								font-weight: 500;
 								font-family: cross-platform-yu-gothic, sans-serif;
