@@ -22,7 +22,7 @@ $imagedir = get_template_directory_uri();
     <div class="top-clip"></div>
     <div class="ci__section_1">
         <!-- //CLIP -->
-        <div class="clip-path">
+        <!-- <div class="clip-path"> -->
             <div class="ci__main-content">
                 <div class="l-wrap">
                     <img class="ci__bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
@@ -33,7 +33,7 @@ $imagedir = get_template_directory_uri();
                                 <div class="info">
                                     <div class="info_left il01">
                                         <div>
-                                            <p>住所</p>
+                                            <p>社名</p>
                                         </div>
 
                                     </div>
