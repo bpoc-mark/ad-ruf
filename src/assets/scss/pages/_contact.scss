@@ -9,15 +9,6 @@
 		padding: 100px 0 20px 0;
 	}
 
-	.text {
-		&:nth-of-type(10) {
-			width: unset;
-		}
-		&:nth-of-type(11) {
-			width: unset;
-		}
-	}
-
 	&__bg-white {
 		background-color: #fff;
 		margin: 11px 0 0 0;
@@ -528,7 +519,7 @@
 	}
 
 	.ex1 {
-		width: unset !important;
+		width: unset;
 	}
 
 	.email {
@@ -537,5 +528,11 @@
 
 	.w_60 {
 		width: 60% !important;
+	}
+
+	span,
+	.wpcf7-form-control-wrap,
+	.content {
+		width: 100%;
 	}
 }
