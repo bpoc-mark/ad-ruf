@@ -1,8 +1,17 @@
 .real_estate_purchase {
+	position: relative;
 
 	.c-banner{
 		padding: 0 0 100px 0;
-		background: linear-gradient(to left, #81b3d4, #5fa5cd);
+		background: linear-gradient(to right, #2079bd, #1e91d2);
+
+		@include is-sp{
+			padding: 0 0 80px 0;
+		}
+
+		@include is-max(400px){
+			padding-bottom: 95px;
+		}
 
 		&--ttl{
 			p{
@@ -20,9 +29,31 @@
 		}
 	}
 
+	// clip top
+	.top-clip {
+		width: 800px;
+		height: 250px;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background: linear-gradient(to right, #003782, #0059b6);
+		position: absolute;
+		top: 0;
+		right: 0%;
+		margin-top: -115px;
+
+		@include is-sp {
+			width: 77%;
+			height: 322px;
+			top: 0;
+		}
+	}
+
 	.sect_1 {
 		position: relative;
 		margin-top: 100px;
+		@include is-sp{
+			margin-top: 105px;
+		}
+		
 		.l-wrap {
 			text-align: center;
 		}
@@ -43,13 +74,17 @@
 			width: 100%;
 			top: -95px;
 			height: 100px;
-			background: linear-gradient(to right, #2579bf, #2593d5);
-			clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%);
+			background: linear-gradient(to right, #003782, #0059b6);
+			clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+
+			@include is-sp{
+				clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+			}
 		}
 
 		&__center {
 			padding: 100px 0 160px 0;
-			background: linear-gradient(to right, #2579bf, #2593d5);
+			background: linear-gradient(to right, #003782, #0059b6);
 
 			@include is-max(750px) {
 				padding: 75px 0;
@@ -63,7 +98,7 @@
 		&__eng_ttl {
 			font-family: century-gothic, sans-serif;
 			@include font-line(10, 20);
-			color: #95c6e7;
+			color: #fff;
 			letter-spacing: 0.32em;
 
 			@include is-max(750px) {
@@ -171,6 +206,7 @@
 		.c-buttonREP{
 			.txt{
 				color: #2589ce;
+				letter-spacing: 0.2em;
 			}
 		}
 
@@ -182,7 +218,7 @@
 			height: 60px;
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
 			@include is-sp{
 				top: -29px;
 				height: 30px;
@@ -236,7 +272,7 @@
 				z-index: 4;
 				.pic {
 					width: 100%;
-					height: 100%;
+					height: auto;
 					object-fit: cover;
 				}
 				@include is-max(750px) {
@@ -288,6 +324,7 @@
 					padding-right: 30px;
 					padding-top: 15px;
 					padding-bottom: 15px;
+					border: 1px solid #8bb1d0;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -322,11 +359,16 @@
 
 	.sect_3 {
 		position: relative;
-		background: linear-gradient(to right, #2579be, #2592d4);
+		background: linear-gradient(to right, #003782, #0059b6);
+
+		.point{
+			border: 1px solid #8bb1d0;
+		}
 
 		.c-buttonREP{
 			.txt{
 				color: #2589ce;
+				letter-spacing: 0.2em;
 			}
 		}
 
@@ -349,7 +391,7 @@
 			bottom: -58px;
 			height: 60px;
 			z-index: 1;
-			background: linear-gradient(to right, #2579be, #2592d4);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 85% 5%, 0 98%);
 			@include is-sp{
@@ -453,6 +495,7 @@
 		.c-buttonREP{
 			.txt{
 				color: #2589ce;
+				letter-spacing: 0.2em;
 			}
 		}
 
@@ -483,7 +526,7 @@
 		&__box-big-new2{
 			position: absolute;
 			left: 0;
-			top: 137px;
+			top: 160px;
 			@include is-sp{
 				display: none;
 			}
@@ -503,7 +546,7 @@
 			width: 100%;
 			bottom: -61px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			@include is-sp{
@@ -551,6 +594,7 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 600;
 			letter-spacing: 0.2em;
+			padding-bottom: 15px;
 		}
 
 		&__header--sub {
@@ -572,6 +616,10 @@
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
 			padding-bottom: 100px;
+			align-items: center;
+			@include is-max(1067px){
+				align-items: flex-start;
+			}
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 				display: grid;
@@ -678,7 +726,7 @@
 	.sect_5 {
 		position: relative;
 		margin-bottom: 60px;
-		background: linear-gradient(to right, #2868b1, #3b88ca);
+		background: linear-gradient(to right, #003782, #0059b6);
 		&--clipbg {
 			background-color: #fff;
 		}
@@ -721,7 +769,7 @@
 			width: 100%;
 			bottom: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 			@include is-sp{
@@ -754,6 +802,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			padding: 90px 0;
+			align-items: center;
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 			}
@@ -814,6 +863,7 @@
 					padding-right: 30px;
 					padding-top: 15px;
 					padding-bottom: 15px;
+					border: 1px solid #8bb1d0;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -859,6 +909,12 @@
 	.sect_6 {
 		background: #fff;
 
+		.c-buttonREP{
+			.txt{
+				letter-spacing: 0.2em;
+			}
+		}
+
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -878,7 +934,7 @@
 
 		&__box-big-new{
 			position: absolute;
-			left: 54%;
+			left: 60%;
 			top: -3%;
 			@include is-sp{
 				left: auto;
@@ -979,7 +1035,7 @@
 					padding-right: 30px;
 					padding-top: 15px;
 					padding-bottom: 15px;
-					border: 2px solid #2589ce;
+					border: 1px solid #8bb1d0;
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -1021,7 +1077,7 @@
 		margin-bottom: 60px;
 		padding-top: 70px;
 		padding-bottom: 33px;
-		background: linear-gradient(to right, #2868b1, #3b88ca);
+		background: linear-gradient(to right, #003782, #0059b6);
 
 			.c-buttonREP{
 				margin-top: 0;
@@ -1046,12 +1102,13 @@
 			left: 0;
 			top: 24%;
 			@include is-sp{
-				width: 115px;
-				top: 16%;
+				// width: 115px;
+				// top: 16%;
+				display: none;
 			}
-			@include is-max(375px){
-				top: 27%;
-			}
+			// @include is-max(375px){
+			// 	top: 27%;
+			// }
 		}
 
 		&::before {
@@ -1060,7 +1117,7 @@
 			width: 100%;
 			top: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
 			@include is-sp{
@@ -1075,7 +1132,7 @@
 			width: 100%;
 			bottom: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 98%);
 			@include is-sp{
@@ -1113,6 +1170,7 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 600;
 			letter-spacing: 0.34em;
+			padding-bottom: 15px;
 			@include is-max(750px) {
 				letter-spacing: 0.15em;
 			}
@@ -1163,6 +1221,96 @@
 			font-weight: 500;
 			letter-spacing: 0.2em;
 		}
+
+		&-cntnt {
+			padding: 0;
+			position: relative;
+
+			&-box-big-newest2{
+				display: none;
+			@include is-sp{
+				display: block;
+				width: 115px;
+				top: -4%;
+				left: -2%;
+			}
+			// @include is-max(375px){
+			// 	top: 27%;
+			// }
+		}
+
+			&-txt {
+				border-left: 3px solid #fff;
+				color: #fff;
+				padding-left: 23px;
+
+				@include is-sp {
+					padding-left: 13px;
+				}
+
+				&-ttl {
+					font-family: century-gothic, sans-serif;
+					@include font-line(10, 20);
+					letter-spacing: 0.32em;
+					color: #95c6e7;
+					padding-bottom: 10px;
+
+					@include is-sp {
+						@include font-line(12.5, 10);
+						letter-spacing: 0.21em;
+					}
+				}
+				&-sub {
+					font-family: yu-mincho-pr6n, sans-serif;
+					@include font-line(26, 37);
+					letter-spacing: 0.34;
+					padding-bottom: 10px;
+
+					@include is-sp {
+						@include font-line(25, 37.5);
+						letter-spacing: 0.03em;
+						padding-top: 10px;
+					}
+
+					@include is-max(345px) {
+						font-size: 7vw;
+					}
+				}
+
+				&-desc {
+					font-family: cross-platform-yu-gothic, sans-serif;
+					font-weight: 500;
+
+					@include font-line(13, 26);
+					letter-spacing: 0.2em;
+
+					@include is-sp {
+						@include font-line(13.5, 20);
+						letter-spacing: 0.1em;
+						text-align: justify;
+					}
+				}
+			}
+
+			.crd-wrppr {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 0 0 58px 0;
+				column-gap: 30px;
+				justify-content: space-between;
+
+				@include is-max(820px) {
+					justify-content: space-between;
+				}
+
+				@include is-sp {
+					column-gap: 0;
+				}
+			}
+			@include is-sp {
+				padding: 0 0 100px 0;
+			}
+		}
 	}
 
 	.sect_8 {
@@ -1194,7 +1342,7 @@
 
 		&__box-big-new3{
 			position: absolute;
-			right: -4%;
+			right: 0;
 			bottom: 58%;
 			@include is-sp{
 				display: none;
@@ -1295,6 +1443,13 @@
 			text-align: left;
 			font-weight: 700;
 			padding-bottom: 10px;
+			padding-left: 15px;
+			@include is-max(1065px){
+				font-size: 1.4vw;
+			}
+			@include is-max(1000px){
+				@include font-line(16, 24);
+			}
 		}
 
 		.Answer {
@@ -1315,9 +1470,10 @@
 			@include font-line(13, 26);
 			color: #333333;
 			letter-spacing: 0.15em;
-			text-align: left;
+			text-align: justify;
 			font-weight: 700;
 			padding-bottom: 5px;
+			padding-left: 15px;
 		}
 
 		&__btn--wrap {

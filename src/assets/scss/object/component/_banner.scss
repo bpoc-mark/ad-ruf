@@ -2,6 +2,7 @@
 		background: #72A3C8;
 		margin: 0 auto;
 		text-align: center;
+		margin-top: -1px;
 		
 
 		img{
@@ -28,6 +29,7 @@
 					@include font-line(13);
 					letter-spacing: 0.3em;
 					font-family: century-gothic, sans-serif;
+					font-weight: 700;
 				}
 			}
 		}
@@ -46,10 +48,10 @@
 			font-family:cross-platform-yu-gothic;
 			margin: 0 auto;
 			text-align: left;
-			padding: 34px 0 30px 35px;
 			@include font-line(14.5, 17.5);
 			letter-spacing: 0.24em;
 			font-weight: 700;
+			padding: 25px 0 20px 35px !important;
 		}
 
 		@include is-max(375px) {
