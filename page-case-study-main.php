@@ -31,7 +31,7 @@ $imagedir = get_template_directory_uri();
                 ○○○○○○○○○○○○○<br class="u-d-n-pc">(特徴が入ります)。</p>
         </div>
         <!-- //CONTENT 1 -->
-        <div class="c-case--items">
+        <div class="c-case--items csm_cpbtm">
             <div class="l-wrap">
                 <div class="c-case--items__contents">
 
@@ -185,14 +185,24 @@ $imagedir = get_template_directory_uri();
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
-                                    <p class="c-card08__center">
+                                    <p class="c-card08__center u-d-n-sp">
                                         築30年の大規模リノベーション<br>
                                         室内フルリフォームで快適空間
                                     </p>
-                                    <p class="c-card08__bottom">
+                                    <p class="c-card08__bottom u-d-n-sp">
                                         1988年竣工、4階建、鉄筋コンクリート<br>
                                         フルリノベーション
                                     </p>
+
+                                    <p class="c-card08__center u-d-n-pc">
+                                    入居者目線の大規模修繕を行い<br>
+                                    入居率100%を継続している事例
+                                    </p>
+                                    <p class="c-card08__bottom u-d-n-pc">
+                                    2003年竣工、6階建、鉄筋コンクAリート<br>
+                                    フルリノベーション
+                                    </p>
+
                                 </div>
                             </div>
 
@@ -208,13 +218,22 @@ $imagedir = get_template_directory_uri();
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
-                                    <p class="c-card08__center">
+                                    <p class="c-card08__center u-d-n-sp">
                                         エントランスのバリューアップ<br>
                                         住宅地エリアで目を引く存在に
                                     </p>
-                                    <p class="c-card08__bottom">
+                                    <p class="c-card08__bottom u-d-n-sp">
                                         1993年竣工、4階建、鉄筋コンクリート<br>
                                         共用部リノベーション
+                                    </p>
+
+                                    <p class="c-card08__center u-d-n-pc">
+                                    外観リフォームで<br>
+                                    賃料アップと満室稼働に成功した事例
+                                    </p>
+                                    <p class="c-card08__bottom u-d-n-pc">
+                                    2000年竣工、5階建、鉄筋コンクリート<br>
+                                    フルリノベーション
                                     </p>
                                 </div>
                             </div>
@@ -224,17 +243,21 @@ $imagedir = get_template_directory_uri();
 
                 </div>
             </div>
-            <div class="c-clipbg__CS white_bg"></div>
+            <!-- <div class="c-clipbg__CS white_bg"></div> -->
         </div>
+    </div>
 
         <!-- //CONTENT 2 -->
-        <div class="c-case--items">
+        <div class="c-case--items u-mb-100">
 
             <div class="l-wrap">
-                <img class="bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
-                <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
+                <img class="bg_2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+                <img class="bg_7 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
+               
                 <div class="c-case--items__contents">
-                    <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                    <img class="bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                    <img class="bg_3_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
+                    <img class="bg_4_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/bg_8.png" alt="">
 
                     <div class="c-case03__txt u-ta-l">
                         <p class="c-case03__txt__ttl">Real estate column</p>
@@ -327,12 +350,12 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
 
-                <div class="c-buttonCase">
+                <a href="#" class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </div>
+                </a>
             </div>
         </div>
 
-    </div>
+  
     <?php get_footer(); ?>

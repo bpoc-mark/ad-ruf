@@ -631,13 +631,14 @@
 		@include font-line(14);
 		line-height: 21px;
 		letter-spacing: 0.2em;
-		font-family: cross-platform-yu-gothic;
+		font-family: cross-platform-yu-gothic, sans-serif;
 		font-weight: 700;
 		color: #258acf;
 		padding: 20px 10px 30px 10px;
 
 		@include is-sp {
 			font-size: 15px;
+			letter-spacing: 0.1em;
 		}
 
 		@include is-max(367px) {
@@ -649,13 +650,14 @@
 		@include font-line(11);
 		line-height: 16.5px;
 		letter-spacing: 0.2em;
-		font-family: cross-platform-yu-gothic;
+		font-family: cross-platform-yu-gothic, sans-serif;
 		font-weight: 500;
 		color: #808080;
 		padding: 0 15px 20px 15px;
 
 		@include is-sp {
 			font-size: 13.4px;
+			letter-spacing: 0.1em;
 		}
 
 		@include is-max(367px) {
