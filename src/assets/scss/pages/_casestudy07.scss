@@ -1,4 +1,41 @@
-.case08 { 
+.case08 {
+	.c-banner {
+		background: #72a3c8;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: -1px;
+
+		img {
+			position: relative;
+			z-index: 150;
+		}
+
+		&--ttl {
+			color: #fff;
+			position: absolute;
+			left: 70px;
+			top: 35%;
+			z-index: 150;
+			font-family: yu-mincho-pr6n, sans-serif;
+			@include font-line(30, 70);
+			text-align: left;
+			letter-spacing: 0.1em;
+
+			@include is-sp {
+				left: 20px;
+			}
+
+			p {
+				&:nth-child(2) {
+					@include font-line(13);
+					letter-spacing: 0.3em;
+					font-family: century-gothic, sans-serif;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
 	&--s1 {
 
 		&_title {
@@ -48,8 +85,12 @@
 		clip-path: polygon(0 15%, 100% 0%, 105% 100%, 0% 102%) !important;
 	}
 
-	// // padding 
+	// // padding
 	// &--pt-sp {
-	// 	padding-top: 0 !important; 
+	// 	padding-top: 0 !important;
 	// }
+
+	.clip-top {
+		margin-bottom: 60px;
+	}
 }

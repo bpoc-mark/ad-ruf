@@ -26,44 +26,47 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl case08--s1_ttl">Case Studies</p>
-            <h1 class="c-case01__title case08--s1_title">コンクリ打ちっ放しのデザインを<br>活かした外観リフォームを <br>
-                実施し賃料アップと<br>満室稼働に成功した事例。</h1>
+            <h1 class="c-case01__title case08--s1_title">コンクリ打ちっ放しのデザインを<br class="u-d-n-pc">活かした外観リフォームを <br>
+                実施し賃料アップと<br class="u-d-n-pc">満室稼働に成功した事例。</h1>
             <p class="c-case01__sub case08--s1_sub">2000年竣工、5階建、鉄筋コンクリート</p>
         </div>
         <!-- //CONTENT 1 -->
-        <div class="c-case--items">
-            <div class="l-wrap">
-                <div class="c-case--items__contents">
-                    <div class="c-case--items__contents--row_1">
-                        <div class="img-1">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img1.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">Before</p>
-                                    <p class="img_box__sub">外観</p>
+        <div style="background-color: white;">
+            <div class="c-case--items c-case__btm--slant ">
+                <div class="l-wrap">
+                    <div class="c-case--items__contents">
+                        <div class="c-case--items__contents--row_1">
+                            <div class="img-1">
+                                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img1.png" alt="">
+                                <div class="img_box">
+                                    <div class="img_box__txt">
+                                        <p class="img_box__ttl">Before</p>
+                                        <p class="img_box__sub">外観</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img-2">
+                                <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img2.png" alt="">
+                                <div class="img_box">
+                                    <div class="img_box__txt">
+                                        <p class="img_box__ttl">After</p>
+                                        <p class="img_box__sub">外観</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="img-2">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img2.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">After</p>
-                                    <p class="img_box__sub">外観</p>
-                                </div>
+                        <div class="c-case--items__contents--row_2">
+                            <div class="c-case--items__contents--row_2__txt">
+                                <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
+                                <p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
+                                <p class="c-case--items__contents--row_2__txt desc">ツタを除去し、洗浄を行うとともに、コンクリ打ちっぱなしの質感を大切にした表面処理を実施。デザイン性を保ちつつコンクリートの劣化を防いでいます。</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="c-case--items__contents--row_2">
-                        <div class="c-case--items__contents--row_2__txt">
-                            <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
-                            <p class="c-case--items__contents--row_2__txt desc">ツタを除去し、洗浄を行うとともに、コンクリ打ちっぱなしの質感を大切にした表面処理を実施。デザイン性を保ちつつコンクリートの劣化を防いでいます。</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- //CONTENT 2 -->
         <div class="c-case--items">
             <div class="c-clipbg__CS2"></div>
