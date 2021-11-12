@@ -331,7 +331,6 @@ $imagedir = get_template_directory_uri();
                         <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
                         <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
                     </div>
-
                     <div class="c-slider__item">
                         <div class="bg_img">
                             <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
