@@ -1520,7 +1520,7 @@ template{display:none}
 .result .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
 .result .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:cross-platform-yu-gothic,sans-serif;font-size:.6875rem}
 .result .bread_crumps span{padding:0 8px}
-.result .section_1{background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);padding-top:162px;margin-top:-100px}
+.result .section_1{background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);margin-top:-100px}
 .result .section_1 .clip-path{padding:160px 0 100px 0;text-align:center}
 .result .section_1 .l-wrap .bg-sq{position:absolute;right:82px;top:-94px}
 .result .section_1__ttl{color:#fff;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;line-height:1;font-size:.625rem}
@@ -1831,6 +1831,7 @@ template{display:none}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:1.1vw}
 .page__footer .nav-footer-col5 .ttl .head-link{font-size:1.1vw}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{font-size:1.1vw}
+.result .result_ttl{font-size:1.75rem}
 }@media only screen and (max-width:984px){.message .section_1 .clipPath .cntnt .section_1-cntnt-rows-1{padding-right:20px}
 }@media only screen and (max-width:982px){.page__footer .nav-footer-col5 .ttl .head-link{font-size:1.1vw}
 .message .section_2-rows-2{padding-left:20px}
@@ -1842,6 +1843,7 @@ template{display:none}
 }@media only screen and (max-width:977px){.section_2-cntnt-rows-1{width:calc(100% - 390px)}
 .section_3-cntnt-rows-1-txt2{font-size:1.2vw}
 .section_3-cntnt-rows-2{width:calc(100% - 390px)}
+}@media only screen and (max-width:970px){.result .result_ttl{font-size:1.875rem}
 }@media only screen and (max-width:945px){.ci__main-content--row .col .info_right-cont-flex .col_1{width:50%}
 .ci__main-content--row .col .info_right-cont-flex .col_2{width:50%}
 }@media only screen and (max-width:935px){.sect_1__inner{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
@@ -2616,6 +2618,7 @@ template{display:none}
 .result .c-banner--ttl .br-sp{display:block}
 .result .bread_crumps .txt{font-size:.78125rem}
 .result .section_1{-webkit-clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);padding:115px 0 76.5px 0;margin-top:-100px}
+.result .section_1 .clip-path{padding:15px 0 0 0}
 .result .section_1 .l-wrap .bg-sq{width:178px;right:10px;top:-83px}
 .result .section_1__charts{padding-top:0}
 .result .section_1__charts img:nth-of-type(2){padding-top:25px}
