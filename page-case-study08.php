@@ -228,6 +228,7 @@ $imagedir = get_template_directory_uri();
                     其の時の流れや時間走などのインタビューをご紹介いたします。</p>
             </div>
             <img class="c-slider_img1" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <img class="c-slider_img2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
             <div class="c-slider slider">
                 <div class="c-slider__item">
                     <div class="bg_img">

@@ -204,6 +204,7 @@
 						&__txt {
 							border-top: 1px solid #fff;
 							border-right: 1px solid #ffff;
+							height: 100%;
 						}
 
 						&__ttl {
@@ -224,6 +225,26 @@
 							letter-spacing: 0.2em;
 
 							@include font-line(12.5);
+						}
+					}
+
+					.img_box--2 {
+						.img_box__ttl {
+							padding: 13px 0 6px 0;
+							line-height: 1;
+
+							@include is-max(450px) {
+								padding: 13px 0 0 0;
+							}
+						}
+
+						.img_box__sub {
+							padding-bottom: 0;
+							line-height: 19px;
+
+							@include is-max(450px) {
+								line-height: 12px;
+							}
 						}
 					}
 				}
@@ -248,6 +269,7 @@
 						&__txt {
 							border-top: 1px solid #fff;
 							border-right: 1px solid #ffff;
+							height: 100%;
 						}
 
 						&__ttl {
@@ -268,6 +290,26 @@
 							letter-spacing: 0.2em;
 
 							@include font-line(12.5);
+						}
+					}
+
+					.img_box--2 {
+						.img_box__ttl {
+							padding: 13px 0 6px 0;
+							line-height: 1;
+
+							@include is-max(450px) {
+								padding: 13px 0 0 0;
+							}
+						}
+
+						.img_box__sub {
+							padding-bottom: 0;
+							line-height: 19px;
+
+							@include is-max(450px) {
+								line-height: 12px;
+							}
 						}
 					}
 				}
@@ -304,6 +346,7 @@
 						@include is-sp {
 							text-align: center;
 							line-height: 1;
+							letter-spacing: 0.1em;
 						}
 
 						@include is-max(322px) {
