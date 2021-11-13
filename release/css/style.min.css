@@ -963,6 +963,9 @@ template{display:none}
 .case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px;z-index:-1}
 .case .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
 .case .c-case03__txt{margin-bottom:70px}
+.case06 .case-all--s1_title{padding:0 0 8px 0}
+.case06 .c-case01__sub2{padding-top:18px;font-size:.84375rem}
+.case06__sub{letter-spacing:1px !important}
 .case-all--s1{-webkit-clip-path:polygon(0 50px,100% 0,100% 92%,0 100%) !important;clip-path:polygon(0 50px,100% 0,100% 92%,0 100%) !important}
 .case-all--s1 .c-case--items{padding-bottom:89px}
 .case-all--s1_title{letter-spacing:.18em !important}
@@ -2387,6 +2390,9 @@ template{display:none}
 .case .section_2 .photos img{width:calc(100% / 2)}
 .case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px;display:none}
 .case .top-clip{width:77%;height:322px;top:0}
+.case06 .title_sm{font-size:.84375rem;letter-spacing:.1em;line-height:1}
+.case06 .case-all--s1_title{line-height:37.5px;letter-spacing:.05em !important}
+.case06 .c-case01__sub2{letter-spacing:.1em}
 .case-all--s1{-webkit-clip-path:polygon(0 43px,100% 12px,100% 95%,0 100%) !important;clip-path:polygon(0 43px,100% 12px,100% 95%,0 100%) !important;padding-top:0 !important}
 .case-all--s1 .c-case--items{padding-bottom:0}
 .case-all--s1_ttl{font-size:.75rem !important}
@@ -2970,6 +2976,8 @@ template{display:none}
 .top-header-nav .brnd-logo-link p{margin-bottom:20px}
 }@media only screen and (max-width:377px){.c-slider .prev-arrow{top:21.5%}
 .c-slider .next-arrow{top:21.5%}
+.case06--sub1{font-size:6.2vw !important}
+.case06--sub2{font-size:5.8vw !important}
 .case07--sub1{font-size:5.5vw !important}
 }@media only screen and (max-width:376px){.page__footer .nav-footer-col5 .ttl .head-link{white-space:nowrap}
 .top-header-bnnr::before{width:413px}
@@ -3043,6 +3051,7 @@ template{display:none}
 .c-case--items__contents--row_2__txt.sub{font-size:7vw}
 .c-slider .prev-arrow{top:18.5%}
 .c-slider .next-arrow{top:18.5%}
+.case06 .c-case01__sub2{font-size:3.78vw}
 .case-all--s1_title{font-size:4.9vw !important}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}

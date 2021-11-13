@@ -209,5 +209,53 @@
 	.c-case03__txt {
 		margin-bottom: 70px;
 	}
+}
 
+.case06 {
+
+	@include is-sp {
+		.title_sm {
+			@include font-line(13.5);
+			letter-spacing: 0.1em;
+			line-height: 1;
+		}
+	}
+
+	.case-all--s1_title {
+		padding: 0 0 8px 0;
+
+		@include is-sp {
+			line-height: 37.5px;
+			letter-spacing: 0.05em !important;
+		}
+	}
+
+	.c-case01__sub2 {
+		padding-top: 18px;
+		@include font-line(13.5);
+
+		@include is-sp {
+			letter-spacing: 0.1em;
+		}
+
+		@include is-max(322px) {
+			font-size: 3.78vw;
+		}
+	}
+
+	&__sub {
+		letter-spacing: 1px !important;
+	}
+
+	&--sub1 {
+		@include is-max(377px) {
+			font-size: 6.2vw !important;
+		}	
+	}
+
+	&--sub2 {
+		@include is-max(377px) {
+			font-size: 5.8vw !important;
+		}	
+	}
 }
