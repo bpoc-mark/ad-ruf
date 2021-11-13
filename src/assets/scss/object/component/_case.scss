@@ -52,6 +52,10 @@
 			padding-top: 100px;
 		}
 
+		.img_box {
+			text-align: center !important;
+		}
+
 		.sp_p0 {
 			@include is-sp {
 				padding: 0;
@@ -69,17 +73,17 @@
 		}
 
 		&:nth-of-type(odd) {
-			background-color: #fff;
-			position: relative;
-			padding: 100px 0;
-			-webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
-			clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+			// background-color: #fff;
+			// position: relative;
+			// padding: 100px 0;
+			// -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+			// clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
 
-			@include is-sp {
-				padding: 200px 0 100px 0;
-				-webkit-clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
-				clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
-			}
+			// @include is-sp {
+			// 	padding: 200px 0 100px 0;
+			// 	-webkit-clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
+			// 	clip-path: polygon(0 7%, 100% 0%, 100% 93%, 0% 100%);
+			// }
 
 			.bg_2 {
 				position: absolute;
@@ -94,16 +98,7 @@
 				}
 			}
 
-			.bg_7 {
-				position: absolute;
-				bottom: 0;
-				right: 0;
-				width: 290px;
-
-				@include is-sp {
-					display: none;
-				}
-			}
+			
 
 			.c-case--items__contents--row_2 {
 				@include is-sp {
@@ -131,14 +126,17 @@
 
 			.bg_3 {
 				position: absolute;
-				top: -30px;
-				right: 40px;
+				top: -20px;
+				right: 0;
 				width: 370px;
+				z-index: -1;
 
 				@include is-sp {
 					display: none;
 				}
 			}
+
+			
 
 			&--row_1 {
 				width: 57.14%;
@@ -259,12 +257,13 @@
 
 				&__txt {
 					text-align: left;
-					color: $color-text03;
+					
 
 					&.ttl {
 						font-family: cross-platform-yu-gothic, sans-serif;
 						font-weight: 500;
 						letter-spacing: 0.2em;
+						
 
 						@include font-line(13, 26);
 
@@ -304,6 +303,23 @@
 						@include font-line(13, 26);
 					}
 				}
+
+				.row2__txt--02 {
+					text-align: left;
+					
+
+					.ttl {
+						color: #2D2319;
+					}
+
+					.sub {
+						color: #258ACF;
+					}
+
+					.desc {
+						color: #2D2319;
+					}
+				}
 			}
 		}
 
@@ -312,6 +328,7 @@
 			top: 15px;
 			left: 0;
 			width: 290px;
+			opacity: 0.2;
 
 			@include is-sp {
 				top: -75px;
@@ -324,6 +341,17 @@
 			bottom: 15px;
 			right: 0;
 			width: 320px;
+
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		.bg_7 {
+			position: absolute;
+			bottom: 16px;
+			right: 0;
+			width: 290px;
 
 			@include is-sp {
 				display: none;
@@ -428,14 +456,12 @@
 
 	&__btm--slant {
 		padding-bottom: 70px !important;
-		clip-path: polygon(0 0%, 100% 0, 100% 88%, 0% 100%) !important;
+		clip-path: polygon(0 50px, 100% 0, 100% 88%, 0% 100%) !important;
 		background: linear-gradient(to right, #003782, #0059b6);
+		padding-top: 50px;
 
 		.c-case--items__contents--row_2__txt {
 			color: #fff !important;
 		}
-			
 	}
-
-
 }

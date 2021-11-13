@@ -31,8 +31,8 @@ $imagedir = get_template_directory_uri();
             <p class="c-case01__sub case08--s1_sub">2000年竣工、5階建、鉄筋コンクリート</p>
         </div>
         <!-- //CONTENT 1 -->
-        <div style="background-color: white;">
-            <div class="c-case--items c-case__btm--slant ">
+       
+            <div class="c-case--items">
                 <div class="l-wrap">
                     <div class="c-case--items__contents">
                         <div class="c-case--items__contents--row_1">
@@ -65,123 +65,124 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
             </div>
+        
+    </div>
+
+    <!-- //CONTENT 2 -->
+    <div class="c-case--items">
+        <div class="c-clipbg__CS2"></div>
+        <div class="l-wrap">
+            <img class="bg_2 case08--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <div class="c-case--items__contents">
+                <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                <div class="c-case--items__contents--row_1">
+                    <div class="img-1">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img3.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">Before</p>
+                                <p class="img_box__sub">階段</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-2">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img4.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">After</p>
+                                <p class="img_box__sub">階段</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-case--items__contents--row_2">
+                    <div class="c-case--items__contents--row_2__txt row2__txt--02">
+                        <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
+                        <p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
+                        <p class="c-case--items__contents--row_2__txt desc">物件裏手側も徹底的にクリーニングを行い。コーキング等の防水もやり直し、将来のメンテナンスコストが低くキープできます。</p>
+                    </div>
+                </div>
+            </div>
+            <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
         </div>
 
-        <!-- //CONTENT 2 -->
-        <div class="c-case--items">
-            <div class="c-clipbg__CS2"></div>
-            <div class="l-wrap">
-                <img class="bg_2 case08--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
-                <div class="c-case--items__contents">
-                    <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
-                    <div class="c-case--items__contents--row_1">
-                        <div class="img-1">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img3.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">Before</p>
-                                    <p class="img_box__sub">階段</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-2">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img4.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">After</p>
-                                    <p class="img_box__sub">階段</p>
-                                </div>
+        <div class="c-clipbg__CS"></div>
+    </div>
+    <!-- //CONTENT 3 -->
+    <div class="c-case--items c-case__btm--slant">
+        <div class="l-wrap">
+            <img class="bg_5 l15" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
+            <div class="c-case--items__contents">
+                <div class="c-case--items__contents--row_1">
+                    <div class="img-1">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img5.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">Before</p>
+                                <p class="img_box__sub">天井</p>
                             </div>
                         </div>
                     </div>
-                    <div class="c-case--items__contents--row_2">
-                        <div class="c-case--items__contents--row_2__txt">
-                            <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
-                            <p class="c-case--items__contents--row_2__txt desc">物件裏手側も徹底的にクリーニングを行い。コーキング等の防水もやり直し、将来のメンテナンスコストが低くキープできます。</p>
+                    <div class="img-2">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img6.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">After</p>
+                                <p class="img_box__sub">天井</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
-            </div>
-
-            <div class="c-clipbg__CS"></div>
-        </div>
-        <!-- //CONTENT 3 -->
-        <div class="c-case--items u-pt-0">
-            <div class="l-wrap">
-                <img class="bg_5 l15" src="<?php echo $imagedir ?>/release/image/page/case/bg_5.png" alt="">
-                <div class="c-case--items__contents">
-                    <div class="c-case--items__contents--row_1">
-                        <div class="img-1">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img5.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">Before</p>
-                                    <p class="img_box__sub">天井</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-2">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img6.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">After</p>
-                                    <p class="img_box__sub">天井</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-case--items__contents--row_2">
-                        <div class="c-case--items__contents--row_2__txt">
-                            <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub">天井の<br>ビフォーアフター</p>
-                            <p class="c-case--items__contents--row_2__txt desc">階段裏の天井部分も下地処理を行い、新築時の色合いに合わせた塗装を実施。本来のデザイン性の高さを引き出しています。</p>
-                        </div>
+                <div class="c-case--items__contents--row_2">
+                    <div class="c-case--items__contents--row_2__txt">
+                        <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
+                        <p class="c-case--items__contents--row_2__txt sub">天井の<br>ビフォーアフター</p>
+                        <p class="c-case--items__contents--row_2__txt desc">階段裏の天井部分も下地処理を行い、新築時の色合いに合わせた塗装を実施。本来のデザイン性の高さを引き出しています。</p>
                     </div>
                 </div>
-                <img class="bg_6" src="<?php echo $imagedir ?>/release/image/page/case/bg_6.png" alt="">
             </div>
-        </div>
-        <!-- //CONTENT 4 -->
-        <div class="c-case--items case08--s1_c4">
-            <!-- <div class="c-clipbg__CS2"></div> -->
-            <div class="l-wrap">
-                <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
-                <div class="c-case--items__contents">
-                    <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
-                    <div class="c-case--items__contents--row_1">
-                        <div class="img-1">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img7.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">Before</p>
-                                    <p class="img_box__sub">外観</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-2">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img8.png" alt="">
-                            <div class="img_box">
-                                <div class="img_box__txt">
-                                    <p class="img_box__ttl">After</p>
-                                    <p class="img_box__sub">外観</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-case--items__contents--row_2">
-                        <div class="c-case--items__contents--row_2__txt">
-                            <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub">ゴミ箱の<br>ビフォーアフター</p>
-                            <p class="c-case--items__contents--row_2__txt desc">劣化により不具合のあったゴミストッカーは、しっかりしたアルミ仕様のものに交換。入居者にも好評です。</p>
-                        </div>
-                    </div>
-                </div>
-                <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
-            </div>
+            <img class="bg_6" src="<?php echo $imagedir ?>/release/image/page/case/bg_6.png" alt="">
         </div>
     </div>
+    <!-- //CONTENT 4 -->
+    <div class="c-case--items case08--s1_c4">
+        <!-- <div class="c-clipbg__CS2"></div> -->
+        <div class="l-wrap">
+            <img class="case08--bg-01" src="<?php echo $imagedir ?>/release/image/page/case08/c8-s2-bg_1.png" alt="">
+            <div class="c-case--items__contents">
+                <img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                <div class="c-case--items__contents--row_1">
+                    <div class="img-1">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img7.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">Before</p>
+                                <p class="img_box__sub">外観</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-2">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case08/c8-s1-img8.png" alt="">
+                        <div class="img_box">
+                            <div class="img_box__txt">
+                                <p class="img_box__ttl">After</p>
+                                <p class="img_box__sub">外観</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-case--items__contents--row_2">
+                    <div class="c-case--items__contents--row_2__txt row2__txt--02">
+                        <p class="c-case--items__contents--row_2__txt ttl">2000年竣工、5階建、鉄筋コンクリート</p>
+                        <p class="c-case--items__contents--row_2__txt sub">ゴミ箱の<br>ビフォーアフター</p>
+                        <p class="c-case--items__contents--row_2__txt desc">劣化により不具合のあったゴミストッカーは、しっかりしたアルミ仕様のものに交換。入居者にも好評です。</p>
+                    </div>
+                </div>
+            </div>
+            <img class="bg_7" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
+        </div>
+    </div>
+
 
     <div class="section_2  case08--s2">
         <div class="l-wrap">

@@ -37,6 +37,10 @@
 	}
 
 	&--s1 {
+		clip-path: polygon(0 50px, 100% 0, 100% 92%, 0% 100%) !important;
+		.c-case--items {
+			padding-bottom: 89px;
+		}
 
 		&_title {
 			letter-spacing: 0.18em !important;
@@ -92,5 +96,18 @@
 
 	.clip-top {
 		margin-bottom: 60px;
+	}
+
+	.bg_2 {
+		position: absolute;
+		top: 150px;
+		left: 40px;
+		width: 290px;
+
+		@include is-sp {
+			width: 38.67%;
+			top: -50px;
+			left: 20px;
+		}
 	}
 }
