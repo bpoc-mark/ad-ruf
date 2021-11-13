@@ -176,11 +176,13 @@
 				top: 0;
 				right: 0;
 				width: 370px;
+				z-index: -1;
 
 				@include is-sp {
 					width: 122px;
 					right: 20px;
 					top: -30px;
+					display: none;
 				}
 			}
 		}
@@ -204,5 +206,8 @@
 		}
 	}
 
+	.c-case03__txt {
+		margin-bottom: 70px;
+	}
 
 }

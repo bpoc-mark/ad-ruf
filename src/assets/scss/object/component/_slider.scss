@@ -1,5 +1,5 @@
 .c-slider {
-	padding-top: 70px;
+	// padding-top: 70px;
 	padding-bottom: 60px;
 	display: flex;
 	position: relative;
@@ -282,5 +282,15 @@
 				transition: 0.5s;
 			}
 		}
+	}
+}
+
+.c-slider_img1 {
+	position: absolute;
+	top: 199px;
+	left: -8px;
+
+	@include is-sp {
+		display: none;
 	}
 }
