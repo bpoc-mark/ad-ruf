@@ -272,6 +272,9 @@
 	}
 
 	&--sub2 {
+		@include is-max(401px) {
+			font-size: 24px !important;
+		}
 		@include is-max(377px) {
 			font-size: 5.8vw !important;
 		}	
@@ -280,6 +283,18 @@
 	&--sub3 {
 		@include is-max(322px) {
 			font-size: 7vw !important;
+		}
+	}
+
+	&--sub4 {
+		@include is-max(322px) {
+			font-size: 6.5vw !important;
+		}
+	}
+
+	&--sub5 {
+		@include is-max(322px) {
+			font-size: 7.2vw !important;
 		}
 	}
 }
