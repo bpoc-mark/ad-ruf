@@ -211,6 +211,14 @@
 	}
 }
 
+.case01 {
+	&__title {
+		@include is-max(322px) {
+			font-size: 7vw !important;
+		}
+	}
+}
+
 .case02 {
 	&__title {
 		@include is-sp {
