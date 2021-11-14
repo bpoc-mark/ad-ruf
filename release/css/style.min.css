@@ -970,6 +970,7 @@ template{display:none}
 .case-all--s1 .c-case--items{padding-bottom:89px}
 .case-all--s1_title{letter-spacing:.18em !important}
 .case-all--bg-01{position:absolute !important;left:0 !important;width:290px !important;bottom:-65px !important;z-index:-1 !important}
+.case-all--bg-02{position:absolute !important;left:0 !important;width:290px !important;bottom:-47px !important;z-index:-1 !important}
 .case-all .clip-top{margin-bottom:60px}
 .case-all .bg_2{position:absolute;top:150px;left:-17px;width:290px}
 .case-all .sp_bg1{position:absolute;top:10px;width:145px;opacity:.2;left:10px;z-index:-1}
@@ -2403,6 +2404,7 @@ template{display:none}
 .case-all--s1 .bg_1{top:-90px !important}
 .case-all--s2{padding-top:80px !important}
 .case-all--bg-01{display:none}
+.case-all--bg-02{display:none}
 .case-all .bg_2{width:38.67%;top:-50px;left:20px}
 .case-all__CS{padding-bottom:10px !important}
 .case-all .caps--sp{text-transform:uppercase}
@@ -2978,7 +2980,7 @@ template{display:none}
 .c-slider .next-arrow{top:21.5%}
 .case06--sub1{font-size:6.2vw !important}
 .case06--sub2{font-size:5.8vw !important}
-.case07--sub1{font-size:5.5vw !important}
+.case07--sub1{font-size:5.8vw !important}
 }@media only screen and (max-width:376px){.page__footer .nav-footer-col5 .ttl .head-link{white-space:nowrap}
 .top-header-bnnr::before{width:413px}
 .top-header-bnnr-hdr-02-txt-1{white-space:nowrap}
@@ -3048,10 +3050,11 @@ template{display:none}
 }@media only screen and (max-width:325px){.acc--btn:first-child img{right:14px}
 .ci--btn:first-child img{right:14px}
 }@media only screen and (max-width:322px){.c-case--items__contents--row_2__txt.ttl{font-size:4vw !important}
-.c-case--items__contents--row_2__txt.sub{font-size:7vw}
 .c-slider .prev-arrow{top:18.5%}
 .c-slider .next-arrow{top:18.5%}
 .case06 .c-case01__sub2{font-size:3.78vw}
+.case06--sub3{font-size:7vw !important}
+.case08--sub{font-size:7vw !important}
 .case-all--s1_title{font-size:4.9vw !important}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}

@@ -364,9 +364,9 @@
 							@include font-line(25);
 						}
 
-						@include is-max(322px) {
-							font-size: 7vw;
-						}
+						// @include is-max(322px) {
+						// 	font-size: 7vw;
+						// }
 
 						@include font-line(30, 48);
 

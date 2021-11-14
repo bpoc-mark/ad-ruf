@@ -211,10 +211,10 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/page/case7/cs7_img18.png" alt="">
             </div>
 
-            <div class="c-buttonCase">
+            <a href="#" class="c-buttonCase">
                 <p class="txt">その他の事例を見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-            </div>
+            </a>
         </div>
     </div>
     <div class="section_3 u-pb-75-sp">
@@ -308,10 +308,10 @@ $imagedir = get_template_directory_uri();
                 </div>
             </div>
 
-            <div class="c-buttonCase">
+            <a href="#" class="c-buttonCase">
                 <p class="txt">その他の事例を見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-            </div>
+            </a>
         </div>
     </div>
     <?php get_footer(); ?>

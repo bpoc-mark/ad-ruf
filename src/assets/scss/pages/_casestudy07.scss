@@ -77,6 +77,18 @@
 		}
 	}
 
+	&--bg-02 {
+		position: absolute !important;
+		left: 0 !important;
+		width: 290px !important;
+		bottom: -47px !important;
+		z-index: -1 !important;
+
+		@include is-sp {
+			display: none;
+		}
+	}
+
 	// &--s1_c4 {
 	// 	-webkit-clip-path: polygon(0 15%, 100% 0%, 105% 100%, 0% 102%) !important;
 	// 	clip-path: polygon(0 15%, 100% 0%, 105% 100%, 0% 102%) !important;
@@ -189,7 +201,7 @@
 		right: 13px;
 		z-index: -1;
 	}
-	
+
 	.sp-case03 {
 		@include is-sp {
 			margin-bottom: 28px;

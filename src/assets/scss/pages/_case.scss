@@ -258,4 +258,17 @@
 			font-size: 5.8vw !important;
 		}	
 	}
+
+	&--sub3 {
+		@include is-max(322px) {
+			font-size: 7vw !important;
+		}
+	}
+}
+
+
+.case08--sub {
+	@include is-max(322px) {
+		font-size: 7vw !important;
+	}
 }
