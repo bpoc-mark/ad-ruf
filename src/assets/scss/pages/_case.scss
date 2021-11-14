@@ -173,8 +173,8 @@
 
 			.bg_1 {
 				position: absolute;
-				top: 0;
-				right: 0;
+				top: -15px;
+				right: 17px;
 				width: 370px;
 				z-index: -1;
 
@@ -208,6 +208,24 @@
 
 	.c-case03__txt {
 		margin-bottom: 70px;
+	}
+}
+
+.case05 {
+	&__title {
+		font-size: 30px !important;
+
+		@include is-max(769px) {
+			font-size: 3.5vw !important;
+		}	
+
+		@include is-sp {
+			font-size: 25px !important;
+		}
+
+		@include is-max(480px) {
+			font-size: 6.5vw !important;
+		}
 	}
 }
 

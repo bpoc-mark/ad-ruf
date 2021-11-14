@@ -50,6 +50,8 @@ template{display:none}
 .c-banner img{position:relative;z-index:150}
 .c-banner--ttl{color:#fff;position:absolute;left:70px;top:35%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
 .c-banner--ttl p:nth-child(2){font-size:.8125rem;letter-spacing:.3em;font-family:century-gothic,sans-serif;font-weight:700}
+.c-banner--ttl2{color:#fff;position:absolute;left:70px;top:35%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
+.c-banner--ttl2 p:nth-child(2){font-size:.8125rem;letter-spacing:.3em;font-family:century-gothic,sans-serif;font-weight:700}
 .c-ruf-txt{display:none}
 .c-ruf-txt img{width:131px;margin-right:20px}
 .c-inner{max-width:1100px;width:90%;margin:0 auto;position:relative}
@@ -960,9 +962,10 @@ template{display:none}
 .case .section_2 .photos img{width:calc(100% / 5)}
 .case .section_3{padding:100px 0 100px 0}
 .case .section_3 .l-wrap{position:relative}
-.case .section_3 .l-wrap .bg_1{position:absolute;top:0;right:0;width:370px;z-index:-1}
+.case .section_3 .l-wrap .bg_1{position:absolute;top:-15px;right:17px;width:370px;z-index:-1}
 .case .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
 .case .c-case03__txt{margin-bottom:70px}
+.case05__title{font-size:30px !important}
 .case06 .case-all--s1_title{padding:0 0 8px 0}
 .case06 .c-case01__sub2{padding-top:18px;font-size:.84375rem}
 .case06__sub{letter-spacing:1px !important}
@@ -1939,6 +1942,7 @@ template{display:none}
 .about .section_2-cntnt-row1-ttl-txt-01{font-size:7vw}
 .about .section_2-cntnt-row1-ttl-txt-02{font-size:1.6vw}
 }@media only screen and (max-width:770px){.about .section_2-cntnt:before{width:505px}
+}@media only screen and (max-width:769px){.case05__title{font-size:3.5vw !important}
 }@media only screen and (max-width:768px){.c-img_box03{width:64px;height:64px}
 .c-img_box03__ttl{font-size:.5625rem;line-height:2}
 .c-img_box03__sub{font-size:2.0625rem}
@@ -1950,6 +1954,10 @@ template{display:none}
 .l-header__inner{padding-left:10px;padding-right:10px}
 .l-wrap{padding-right:20px;padding-left:20px}
 .c-banner--ttl{left:20px}
+.c-banner--ttl p:nth-child(2){font-weight:400 !important}
+.c-banner--ttl2{left:0;padding:10px 6px 15px 30px;top:28%;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5)) !important;background:linear-gradient(to right,#2579bf,#2593d5) !important}
+.c-banner--ttl2 p:first-child{font-size:1.5625rem}
+.c-banner--ttl2 p:nth-child(2){font-weight:400 !important}
 .c-ruf-txt{max-width:1100px;width:92%;display:block;position:relative;z-index:150;color:#fff;font-family:cross-platform-yu-gothic;margin:0 auto;text-align:left;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700;padding:25px 0 20px 35px !important}
 .c-ruf-txt img{margin-right:12.5px}
 .c-inner .bnr_sp{display:block}
@@ -2391,6 +2399,7 @@ template{display:none}
 .case .section_2 .photos img{width:calc(100% / 2)}
 .case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px;display:none}
 .case .top-clip{width:77%;height:322px;top:0}
+.case05__title{font-size:25px !important}
 .case06 .title_sm{font-size:.84375rem;letter-spacing:.1em;line-height:1}
 .case06 .case-all--s1_title{line-height:37.5px;letter-spacing:.05em !important}
 .case06 .c-case01__sub2{letter-spacing:.1em}
@@ -2901,6 +2910,7 @@ template{display:none}
 .result .c-banner--ttl p:nth-child(1){font-size:6vw}
 .result .c-banner--ttl p:nth-child(2){font-size:3vw}
 }@media only screen and (max-width:490px){.case-all--s1_title{font-size:5vw !important}
+}@media only screen and (max-width:480px){.case05__title{font-size:6.5vw !important}
 }@media only screen and (max-width:475px){.top-header-bnnr::before{right:-6%;width:446px}
 }@media only screen and (max-width:450px){.c-case--items .img_box{padding:3px !important;width:50px !important;height:50px !important}
 .c-case--items .img_box__txt{height:100% !important}
