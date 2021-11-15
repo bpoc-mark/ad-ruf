@@ -59,6 +59,10 @@
 			@include is-max(490px) {
 				font-size: 5vw !important;
 			}
+			
+			@include is-max(400px) {
+				white-space: nowrap;
+			}
 
 			@include is-max(322px) {
 				font-size: 4.9vw !important;

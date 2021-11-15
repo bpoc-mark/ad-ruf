@@ -2970,6 +2970,7 @@ template{display:none}
 }@media only screen and (max-width:401px){.case06--sub2{font-size:5.6vw !important}
 }@media only screen and (max-width:400px){.acc .c-banner{padding:0 0 95px 0}
 .case .c-banner{padding-bottom:95px}
+.case-all--s1_title{white-space:nowrap}
 .ci .c-banner{padding-bottom:95px}
 .ci .c-banner--ttl p:nth-child(1){font-size:7vw}
 .ci .c-banner--ttl p:nth-child(2){font-size:3vw}

@@ -7,9 +7,9 @@ $imagedir = get_template_directory_uri();
     <div class="c-banner">
         <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
         <div class="c-inner">
-            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case08_banner.png" alt="">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case08_banner2.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case08_banner_sp.png" alt="">
-            <div class="c-banner--ttl">
+            <div class="c-banner--ttl c-banner--ttl2">
                 <p>バリューアップ<br class="br-sp">事例08</p>
                 <p>Case Studies08</p>
             </div>
@@ -225,7 +225,7 @@ $imagedir = get_template_directory_uri();
                 <p class="c-case03__txt__ttl">Real estate column</p>
                 <p class="c-case03__txt__sub">バリューアップを<br>体験した方のインタビュー</p>
                 <p class="c-case03__txt__desc">実際にルーフでバリューアップした方に<br>
-                    其の時の流れや時間走などのインタビューをご紹介いたします。</p>
+                    其の時の流れや時間走などのインタビューを<br class="u-d-n-pc">ご紹介いたします。</p>
             </div>
             <img class="c-slider_img1" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <img class="c-slider_img2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
