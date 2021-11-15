@@ -49,6 +49,10 @@
 			@include is-sp {
 				@include font-line(12.5);
 			}
+
+			@include is-max(322px) {
+				white-space: nowrap;
+			}
 		}
 
 		span {
@@ -131,6 +135,10 @@
 			padding-bottom: 60px;
 		}
 
+		.case-all__CS {
+			padding-bottom: 35px;
+		}
+
 		.c-case--items {
 			&:nth-of-type(odd) {
 				background-color: #fff;
@@ -211,6 +219,31 @@
 	}
 }
 
+.case-all {
+	.bg_1 {
+		top: -80px !important;
+		right: 75px !important;
+
+		@include is-sp {
+			right: unset !important;
+		}
+	}
+
+	&--s1_c4 {
+		.c-case--items__contents {
+			padding-bottom: 27px;
+		}
+
+		.case-all--bg-02 {
+			bottom: -65px !important;
+		}
+
+		.bg_7 {
+			bottom: -17px;
+		}
+	}
+}
+
 .case01 {
 	&__title {
 		@include is-max(322px) {
@@ -287,11 +320,18 @@
 	}
 
 	&--sub2 {
+		@include is-max(416px) {
+			font-size: 24px !important;
+		}
 		@include is-max(401px) {
 			font-size: 24px !important;
 		}
 		@include is-max(377px) {
 			font-size: 5.8vw !important;
+		}
+		@include is-max(322px) {
+			white-space: nowrap;
+			text-indent: -3px;
 		}
 	}
 

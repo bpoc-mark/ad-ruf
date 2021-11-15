@@ -333,7 +333,7 @@ $imagedir = get_template_directory_uri();
 				<img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img20.png" alt="">
 				<img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img21.png" alt="">
 				<img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img22.png" alt="">
-				<img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img23.png" alt="">
+				<!-- <img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img23.png" alt=""> -->
 			</div>
 
 			<a href="#" class="c-buttonCase">
