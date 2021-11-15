@@ -231,6 +231,7 @@ $imagedir = get_template_directory_uri();
 	<div class="c-case--items u-pt-75-sp u-pb-30-sp">
 		<div class="c-clipbg__CS2"></div>
 		<div class="l-wrap">
+			<img class="u-d-n-pc sp_bg3" src="<?php echo $imagedir ?>/release/image/background/bg_2.png" alt="">
 			<img class="bg_2 case-all--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
 			<div class="c-case--items__contents">
 				<img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
@@ -276,7 +277,7 @@ $imagedir = get_template_directory_uri();
 			<div class="c-case--items__contents">
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
-					<img src="<?php echo $imagedir ?>/release/image/page/case/case_7_img1.png" alt="">
+						<img src="<?php echo $imagedir ?>/release/image/page/case/case_7_img1.png" alt="">
 						<div class="img_box">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
@@ -285,7 +286,7 @@ $imagedir = get_template_directory_uri();
 						</div>
 					</div>
 					<div class="img-2">
-					<img src="<?php echo $imagedir ?>/release/image/page/case/case_7_img2.png" alt="">
+						<img src="<?php echo $imagedir ?>/release/image/page/case/case_7_img2.png" alt="">
 						<div class="img_box">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
