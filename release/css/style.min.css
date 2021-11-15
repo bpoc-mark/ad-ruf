@@ -609,18 +609,18 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) .sp-button p{color:#fff;border-radius:10px;background-color:#258acf;border:1px solid #81b3d4;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:12px 0;text-align:center;line-height:1}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:last-child{margin-top:10px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:85% !important}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:110px;font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;width:100%;margin-bottom:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) label{width:120px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) input{width:110px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) span{padding:0 5px}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) input{width:110px !important}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) a{width:30%;display:block;margin-left:30px;color:#fff;border-radius:10px;background-color:#258acf;border:1px solid #81b3d4;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:12px 0;text-align:center;line-height:1}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2){width:100%;margin-bottom:10px;margin-top:10px;margin-left:-10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2) label{width:110px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(3){width:100%;margin-bottom:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(4){width:100%;margin-bottom:10px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(5){width:100%;margin-bottom:10px}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:85% !important}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:110px;font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small .text{width:unset !important}
 .contact-frm__inner-row:nth-of-type(9){border-bottom:1px solid #258acf}
 .contact-frm__inner-row:nth-of-type(9) .bg-h{background-color:#e2f3fb !important;padding:20px 0 !important}
 .contact-frm__inner-row:nth-of-type(9) div:nth-child(2){width:60%;display:block}
@@ -971,13 +971,13 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(1){padding:15px 0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2){width:100% !important}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) .sp-button{width:100%;margin-left:0;margin-top:15px;display:block;margin-bottom:20px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small{width:100%;margin-top:10px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:100% !important}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:70px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) label{width:80px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) a{width:100%;margin-left:0;margin-top:15px;display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2){margin-bottom:0;margin-top:0;margin-left:0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2) label{width:70px}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small{width:100%;margin-top:10px}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small small{width:100% !important}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small label{width:70px}
 .contact-frm__inner-row:nth-of-type(9) div:nth-child(2){width:100%}
 .contact-frm__inner-row:nth-of-type(9) div select{width:100%}
 .contact-frm__inner-row:nth-of-type(10) div:nth-child(1){width:100%;padding:15px 0}
