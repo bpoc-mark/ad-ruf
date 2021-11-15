@@ -99,10 +99,10 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="btn c-buttonCase">
+                    <a class="btn c-buttonCase" href="#">
                         <p class="txt">ルーフの業績を見る</p>
-                        <img src="//localhost:3000/wp-content/themes/ad-ruf/release/image/page/case/btn_arrow.svg" alt="">
-                    </div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ get_header(); ?>
             <div class="l-wrap">
                 <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
                 <div class="section_2-cntnt">
-                    <img class="cntnt-bgimg" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2_bg_sp.png" alt="">
+                    <!-- <img class="cntnt-bgimg" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2_bg_sp.png" alt=""> -->
                     <img class="cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
                     <img class="cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
 
@@ -156,6 +156,7 @@ get_header(); ?>
 
                     <img class="section_2-cntnt-img1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img1.png" alt="">
                     <img class="cntnt-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg1.png" alt="">
+                    <img class="cntnt-slant" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-slant-bg.png" alt="">
                 </div>
                 <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
             </div>
@@ -163,158 +164,158 @@ get_header(); ?>
     </div>
 
     <div class="section_3">
-      
-            <div class="l-wrap">
 
-                <img class="bg_1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg1.png" alt="">
-                <img class="bg_2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg2.png" alt="">
-                <img class="bg_3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg3.png" alt="">
-                <img class="bg_4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg_1sp.png" alt="">
-                <div class="c-case02__txt">
-                    <p class="c-case02__txt__ttl">About Us</p>
-                    <p class="c-case02__txt__sub">企業情報</p>
-                    <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・理念を<br>
-                        ご紹介いたします。</p>
-                </div>
+        <div class="l-wrap">
 
-                <div class="cards">
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png" alt="">
-                            <img class="bg-1-s[ u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg1_sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>代表メッセージ</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>The Message</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">代表メッセージ</p>
-                            <p class="cards-card-desc-txt">株式会社ルーフが大切に<br class="u-d-n-sp">していることをご紹介いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png" alt="">
-                            <img class="bg-2 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg2_sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>経営理念</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>Management
-                                        Philosophy</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">経営理念</p>
-                            <p class="cards-card-desc-txt"> 株式会社ルーフの経営理念を<br class="u-d-n-sp">ご紹介いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png" alt="">
-                            <img class="bg-3 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg3_sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>会社概要</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>Company
-                                        Information</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">会社概要</p>
-                            <p class="cards-card-desc-txt">株式会社ルーフの会社概要を<br class="u-d-n-sp">ご紹介いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-4 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png" alt="">
-                            <img class="bg-4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg4_sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>業績</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>The Results</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">業績</p>
-                            <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">業績をご紹介いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-5 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png" alt="">
-                            <img class="bg-5 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg5_Sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>アクセス</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>Access</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">アクセス</p>
-                            <p class="cards-card-desc-txt">株式会社ルーフまでの<br class="u-d-n-sp">アクセスをご紹介いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="cards-card">
-                        <div class="cards-card-img">
-                            <img class="bg-6 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png" alt="">
-                            <img class="bg-6 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg6_sp.png" alt="">
-                            <div class="cards-card-img-txt">
-                                <div class="cards-card-img-txt-ttl">
-                                    <p>オフィス風景</p>
-                                </div>
-                                <div class="cards-card-img-txt-sub">
-                                    <p>Office Gallery</p>
-                                </div>
-                            </div>
-                            <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
-                            </div>
-                        </div>
-                        <div class="cards-card-desc">
-                            <p class="cards-card-desc-ttl">オフィス風景</p>
-                            <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">オフィス風景をご紹介します。</p>
-                        </div>
-                    </div>
-
-                </div>
+            <img class="bg_1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg1.png" alt="">
+            <img class="bg_2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg2.png" alt="">
+            <img class="bg_3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg3.png" alt="">
+            <img class="bg_4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg_1sp.png" alt="">
+            <div class="c-case02__txt">
+                <p class="c-case02__txt__ttl">About Us</p>
+                <p class="c-case02__txt__sub">企業情報</p>
+                <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・理念を<br>
+                    ご紹介いたします。</p>
             </div>
-     
+
+            <div class="cards">
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png" alt="">
+                        <img class="bg-1-s[ u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg1_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>代表メッセージ</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>The Message</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">代表メッセージ</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフが大切に<br class="u-d-n-sp">していることをご紹介いたします。</p>
+                    </div>
+                </div>
+
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png" alt="">
+                        <img class="bg-2 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg2_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>経営理念</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>Management
+                                    Philosophy</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">経営理念</p>
+                        <p class="cards-card-desc-txt"> 株式会社ルーフの経営理念を<br class="u-d-n-sp">ご紹介いたします。</p>
+                    </div>
+                </div>
+
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png" alt="">
+                        <img class="bg-3 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg3_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>会社概要</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>Company
+                                    Information</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">会社概要</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの会社概要を<br class="u-d-n-sp">ご紹介いたします。</p>
+                    </div>
+                </div>
+
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-4 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png" alt="">
+                        <img class="bg-4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg4_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>業績</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>The Results</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">業績</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">業績をご紹介いたします。</p>
+                    </div>
+                </div>
+
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-5 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png" alt="">
+                        <img class="bg-5 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg5_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>アクセス</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>Access</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">アクセス</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフまでの<br class="u-d-n-sp">アクセスをご紹介いたします。</p>
+                    </div>
+                </div>
+
+                <div class="cards-card">
+                    <div class="cards-card-img">
+                        <img class="bg-6 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png" alt="">
+                        <img class="bg-6 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg6_sp.png" alt="">
+                        <div class="cards-card-img-txt">
+                            <div class="cards-card-img-txt-ttl">
+                                <p>オフィス風景</p>
+                            </div>
+                            <div class="cards-card-img-txt-sub">
+                                <p>Office Gallery</p>
+                            </div>
+                        </div>
+                        <div class="cards-card-img-lnk">
+                            <a href="">VIEW MORE ></a>
+                        </div>
+                    </div>
+                    <div class="cards-card-desc">
+                        <p class="cards-card-desc-ttl">オフィス風景</p>
+                        <p class="cards-card-desc-txt">株式会社ルーフの<br class="u-d-n-sp">オフィス風景をご紹介します。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </div>
 
