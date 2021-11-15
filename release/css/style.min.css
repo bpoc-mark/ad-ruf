@@ -51,7 +51,7 @@ template{display:none}
 .c-banner--ttl{color:#fff;position:absolute;left:70px;top:35%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
 .c-banner--ttl p:first-child{letter-spacing:.15em !important}
 .c-banner--ttl p:nth-child(2){font-size:.8125rem;letter-spacing:.3em;font-family:century-gothic,sans-serif;font-weight:700;padding-top:10px !important}
-.c-banner--ttl2{color:#fff;position:absolute;left:70px;top:35%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
+.c-banner--ttl2{color:#fff;position:absolute;left:70px;top:41%;z-index:150;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:2.3333333333;text-align:left}
 .c-banner--ttl2 p:first-child{letter-spacing:.15em !important}
 .c-banner--ttl2 p:nth-child(2){font-size:.8125rem;letter-spacing:.3em;font-family:century-gothic,sans-serif;font-weight:700;padding-top:10px !important}
 .c-ruf-txt{display:none}

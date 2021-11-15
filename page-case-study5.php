@@ -24,12 +24,12 @@ $imagedir = get_template_directory_uri();
 		<div class="clip-top"></div>
 		<div class="c-clipbg__CS case-all__CS"></div>
 		<div class="l-wrap">
-            <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
-            <p class="section_1__ttl case-all--s1_ttl">Case Studies</p>
-            <h1 class="c-case01__title case05__title">オートロック新規設置と<br class="u-d-n-pc">デザイン変更により<br>
-			賃料アップと満室稼働を<br class="u-d-n-pc">実現した事例。</h1>
-            <p class="c-case01__sub case-all--s1_sub">1991年竣工、3階建、鉄筋コンクリート、<br class="u-d-n-pc">フルリノベーション</p>
-        </div>
+			<img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
+			<p class="section_1__ttl case-all--s1_ttl">Case Studies</p>
+			<h1 class="c-case01__title case05__title">オートロック新規設置と<br class="u-d-n-pc">デザイン変更により<br>
+				賃料アップと満室稼働を<br class="u-d-n-pc">実現した事例。</h1>
+			<p class="c-case01__sub case-all--s1_sub">1991年竣工、3階建、鉄筋コンクリート、<br class="u-d-n-pc">フルリノベーション</p>
+		</div>
 		<!-- //CONTENT 1 -->
 
 		<div class="c-case--items  u-pb-30-sp">
@@ -231,6 +231,7 @@ $imagedir = get_template_directory_uri();
 	<div class="c-case--items u-pt-75-sp u-pb-30-sp">
 		<div class="c-clipbg__CS2"></div>
 		<div class="l-wrap">
+			<img class="u-d-n-pc sp_bg3" src="<?php echo $imagedir ?>/release/image/background/bg_2.png" alt="">
 			<img class="bg_2 case-all--s1_hide" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
 			<div class="c-case--items__contents">
 				<img class="bg_3" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
@@ -317,7 +318,7 @@ $imagedir = get_template_directory_uri();
 					クリックしていただくと拡大されます。</p>
 			</div>
 			<div class="photos">
-			<img src="<?php echo $imagedir ?>/release/image/page/case5/cs5_img15.png" alt="">
+				<img src="<?php echo $imagedir ?>/release/image/page/case5/cs5_img15.png" alt="">
 				<img src="<?php echo $imagedir ?>/release/image/page/case5/cs5_img16.png" alt="">
 				<img src="<?php echo $imagedir ?>/release/image/page/case5/cs5_img17.png" alt="">
 				<img src="<?php echo $imagedir ?>/release/image/page/case5/cs5_img18.png" alt="">
