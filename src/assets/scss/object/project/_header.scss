@@ -382,6 +382,10 @@
 								font-family: cross-platform-yu-gothic, sans-serif;
 								color: #fff;
 								padding: 0 15px 0 10px;
+
+								@include is-sp{
+									content: "";
+								}
 							}
 						}
 						a {
