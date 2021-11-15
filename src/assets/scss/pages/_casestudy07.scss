@@ -19,6 +19,15 @@
 			letter-spacing: 0.18em !important;
 		}
 
+		.bg_1 {
+			top: -80px !important;
+			right: 75px !important;
+	
+			@include is-sp {
+				right: unset !important;
+			}
+		}
+
 		@include is-sp {
 			&_ttl {
 				font-size: 0.75rem !important;
