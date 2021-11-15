@@ -983,6 +983,7 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(10) div:nth-child(1){width:100%;padding:15px 0}
 .contact-frm__inner-row:nth-of-type(10) div:nth-child(2){width:100%}
 .contact-frm__inner-row .bg-h{padding:15px 0 !important}
+.contact-frm .w_60{width:100% !important}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}

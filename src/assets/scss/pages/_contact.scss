@@ -530,6 +530,10 @@
 
 	.w_60 {
 		width: 60% !important;
+
+		@include is-sp {
+			width: 100% !important;
+		}
 	}
 
 	span,
