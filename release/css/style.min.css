@@ -1965,7 +1965,7 @@ template{display:none}
 .c-banner--ttl{left:20px}
 .c-banner--ttl p:first-child{font-size:1.5625rem;letter-spacing:.075em !important}
 .c-banner--ttl p:nth-child(2){font-weight:400 !important;letter-spacing:.26em !important;padding-top:5px !important}
-.c-banner--ttl2{left:0;padding:10px 6px 6px 30px;top:28%;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5)) !important;background:linear-gradient(to right,#2579bf,#2593d5) !important}
+.c-banner--ttl2{left:0;padding:10px 11px 6px 25px;top:28%;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5)) !important;background:linear-gradient(to right,#2579bf,#2593d5) !important}
 .c-banner--ttl2 p:first-child{font-size:1.5625rem;letter-spacing:.075em !important}
 .c-banner--ttl2 p:nth-child(2){font-weight:400 !important;letter-spacing:.26em !important;padding-top:5px !important}
 .c-ruf-txt{max-width:1100px;width:92%;display:block;position:relative;z-index:150;color:#fff;font-family:cross-platform-yu-gothic;margin:0 auto;text-align:left;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700;padding:25px 0 20px 35px !important}
@@ -2010,7 +2010,7 @@ template{display:none}
 .c-case--items__contents--row_2__txt.sub{padding:21px 0 25px 0;font-size:1.5625rem;letter-spacing:unset}
 .c-case--items__contents--row_2__txt.sub br{display:none}
 .c-case--items__contents--row_2__txt.sub{text-align:center}
-.c-case--items__contents--row_2__txt.desc{line-height:22.5px}
+.c-case--items__contents--row_2__txt.desc{line-height:22.5px;letter-spacing:.1em}
 .c-case--items .bg_5{top:-75px;width:38.67%;display:none}
 .c-case--items .bg_6{display:none}
 .c-case--items .bg_7{display:none}
@@ -2957,6 +2957,7 @@ template{display:none}
 }@media only screen and (max-width:416px){.case06--sub2{font-size:24px !important}
 }@media only screen and (max-width:414px){.c-cards09{margin-bottom:15px}
 .section_3-cntnt-rows-1-hdr{font-size:6vw}
+}@media only screen and (max-width:412px){.case-all .c-case03__txt__sub{font-size:6vw}
 }@media only screen and (max-width:410px){.acc .acc_sub{font-size:5.9vw}
 }@media only screen and (max-width:409px){.pp__title{font-size:3.3vw;padding-left:10px}
 .pp__main-content--row .left .col--ttl,.pp__main-content--row .right .col--ttl{font-size:3.7vw;padding:0 15px 10px}
@@ -2965,7 +2966,7 @@ template{display:none}
 .pp__main-content--row .left .col--cont-info p,.pp__main-content--row .right .col--cont-info p{font-size:3.3vw}
 }@media only screen and (max-width:406px){.message .section_1 .clipPath .cntnt-sub1{font-size:6vw;white-space:nowrap}
 }@media only screen and (max-width:405px){.ci__main-content--row .col .info_left{width:94.5px}
-}@media only screen and (max-width:401px){.case06--sub2{font-size:24px !important}
+}@media only screen and (max-width:401px){.case06--sub2{font-size:5.6vw !important}
 }@media only screen and (max-width:400px){.acc .c-banner{padding:0 0 95px 0}
 .case .c-banner{padding-bottom:95px}
 .ci .c-banner{padding-bottom:95px}
@@ -3010,7 +3011,6 @@ template{display:none}
 .top-header-bnnr::before{width:413px}
 .top-header-bnnr-hdr-02-txt-1{white-space:nowrap}
 .top-header-bnnr-hdr-02-txt-2{white-space:nowrap;line-height:1.7}
-.case-all .c-case03__txt__sub{font-size:6vw}
 .section_1 .clipPath{-webkit-clip-path:polygon(100% 1%,100% 100%,86% 99%,0 100%,0 3%);clip-path:polygon(100% 1%,100% 100%,86% 99%,0 100%,0 3%)}
 .section_3 .clipPath{-webkit-clip-path:polygon(14% 2%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 2%,100% 0,100% 100%,0 100%,0 0)}
 }@media only screen and (max-width:375px){.c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px;font-size:3.8vw}

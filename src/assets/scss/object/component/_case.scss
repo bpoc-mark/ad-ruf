@@ -392,6 +392,7 @@
 
 						@include is-sp {
 							line-height: 22.5px;
+							letter-spacing: 0.1em;
 						}
 
 						@include font-line(13, 26);
