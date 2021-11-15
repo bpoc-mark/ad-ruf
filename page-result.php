@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/result/result_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/result/result_bnr_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>丸 の 内 ル ー フ <br class="br-sp">の 業 績</p>
+                <p>丸 の 内 ル ー フ<br class="br-sp">の 業 績</p>
                 <p>The Results</p>
             </div>
         </div>

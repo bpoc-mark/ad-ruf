@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/privacy_policy_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/privacy_policy_banner_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>プライバシーポリシー</p>
+                <p>プライバシー<br class="br-sp">ポリシー</p>
                 <p>Privacy Policy</p>
             </div>
         </div>
@@ -21,12 +21,11 @@ $imagedir = get_template_directory_uri();
     <div class="top-clip"></div>
     <div class="pp__section_1">
         <!-- //CLIP -->
-        <div class="clip-top"></div>
-
+        <!-- <div class="clip-top"></div> -->
         <div class="l-wrap">
             <img class="pp__bg_1" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
-            <h1 class="pp__title">株式会社ルーフ（以下、「当社」といいます。）は、<br> 本ウェブサイト上で提供するサービス <br>（以下,「本サービス」といいます。）<br>
-                におけるプライバシー情報の取扱いについて、<br>以下のとおりプライバシーポリシー<br>（以下、「本ポリシー」といいます。）を定めます。</h1>
+            <h1 class="pp__title">株式会社ルーフ（以下、「当社」といいます。）は、<br>本ウェブサイト上で提供するサービス <br>（以下,「本サービス」といいます。）<br>
+            におけるプライバシー情報の取扱いについて、<br>以下のとおりプライバシーポリシー<br>（以下、「本ポリシー」といいます。）を定めます。</h1>
             <img class="pp__bg_2" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_2.png" alt="">
         </div>
 
@@ -99,7 +98,7 @@ $imagedir = get_template_directory_uri();
                         </div>
 
                         <div class="col">
-                            <p class="col--ttl">第4条（個人情報の第三者提供）</p>
+                            <p class="col--ttl pad-left">第4条（個人情報の第三者提供）</p>
                             <div class="col--cont">
                                 <div class="col--cont01">
                                     <p class="col--cont01--num">1</p>
@@ -154,7 +153,7 @@ $imagedir = get_template_directory_uri();
                         </div>
 
                         <div class="col">
-                            <p class="col--ttl">第6条（個人情報の訂正および削除）</p>
+                            <p class="col--ttl p-l-30">第6条（個人情報の訂正および削除）</p>
                             <div class="col--cont">
                                 <div class="col--cont01">
                                     <p class="col--cont01--num">1</p>
@@ -218,8 +217,8 @@ $imagedir = get_template_directory_uri();
                                     <p>東京都千代田区丸の内2-4-1</p>
                                     <p>丸の内ビルディング34F 3401区 <br class="u-d-n-pc">THE PREMIER FLOOR</p>
                                     <p>電話 ： 03-3211-0123（代）</p>
-                                    <p>FAX　： 03-3211-0234</p>
-                                    <p>Email： info@ruf.jp</p>
+                                    <p>FAX　：03-3211-0234</p>
+                                    <p>Email: info@ruf.jp</p>
                                 </div>
 
                             </div>
@@ -230,18 +229,15 @@ $imagedir = get_template_directory_uri();
 
             </div>
         </div>
-
-
-
-        <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 pp--fd">
-            <div class="c-buttonCase pp--btn">
+        <div class="l-wrap u-d-f u-d-f-jcc u-mt-100 pp--fd">
+            <a class="c-buttonCase pp--btn" href="#">
                 <p class="txt">会社概要</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-            </div>
-            <div class="c-buttonCase pp--btn">
+            </a>
+            <a class="c-buttonCase pp--btn" href="#">
                 <p class="txt">丸の内RUFについて</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-            </div>
+            </a>
         </div>
 
 
