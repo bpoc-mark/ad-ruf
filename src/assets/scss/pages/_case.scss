@@ -221,6 +221,11 @@
 
 .case-all {
 	&--s1_c4 {
+
+		@include is-sp {
+			padding-top: 75px;
+		}
+
 		.c-case--items__contents {
 			padding-bottom: 27px;
 		}

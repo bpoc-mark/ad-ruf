@@ -9,7 +9,7 @@ $imagedir = get_template_directory_uri();
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/case/case07_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/case/case07_banner_sp.png" alt="">
-            <div class="c-banner--ttl">
+            <div class="c-banner--ttl c-banner--ttl2">
                 <p>バリューアップ<br class="br-sp">事例07</p>
                 <p>Case Studies07</p>
             </div>
@@ -58,7 +58,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-case--items__contents--row_2">
                         <div class="c-case--items__contents--row_2__txt">
                             <p class="c-case--items__contents--row_2__txt ttl">2003年竣工、6階建、鉄筋コンクリート</p>
-                            <p class="c-case--items__contents--row_2__txt sub case07--sub1">エントランスの<br>ビフォーアフター</p>
+                            <p class="c-case--items__contents--row_2__txt sub case06--sub2">エントランスの<br>ビフォーアフター</p>
                             <p class="c-case--items__contents--row_2__txt desc">物件の顔であるエントランスはイメージを一新。エントランスドアは高級感のあるダークオークのダイノックシートを施工。パラペット部も落ち着きのある色合いに塗装。植栽なども撤去しすっきりとした広さを演出しています。</p>
                         </div>
                     </div>
@@ -226,7 +226,7 @@ $imagedir = get_template_directory_uri();
                 <p class="c-case03__txt__ttl">Real estate column</p>
                 <p class="c-case03__txt__sub">バリューアップを<br>体験した方のインタビュー</p>
                 <p class="c-case03__txt__desc">実際にルーフでバリューアップした方に<br>
-                    其の時の流れや時間走などのインタビューをご紹介いたします。</p>
+                    其の時の流れや時間走などのインタビューを<br class="u-d-n-pc">ご紹介いたします。</p>
             </div>
             <img class="c-slider_img1" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <img class="c-slider_img2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
