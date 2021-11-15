@@ -971,8 +971,9 @@ template{display:none}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(1){padding:15px 0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2){width:100% !important}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) .sp-button{width:100%;margin-left:0;margin-top:15px;display:block;margin-bottom:20px}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1){-ms-flex-wrap:wrap;flex-wrap:wrap}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) label{width:80px}
-.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) a{width:100%;margin-left:0;margin-top:15px;display:none}
+.contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(1) a{width:100%;margin-left:0;margin-top:15px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2){margin-bottom:0;margin-top:0;margin-left:0}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small:nth-child(2) label{width:70px}
 .contact-frm__inner-row:nth-of-type(8) div:nth-child(2) small{width:100%;margin-top:10px}
