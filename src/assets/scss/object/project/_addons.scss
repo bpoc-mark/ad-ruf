@@ -379,7 +379,6 @@
 }
 .p-cntct {
 	padding: 99px 0;
-	padding: 99px 0 20px 0;
 	// background-image: url(../image/page/access/contact-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -389,6 +388,10 @@
 	// 	background-image: url(../image/page/access/contact-bg-sp.png);
 	// 	padding-bottom: 35px;
 	// }
+
+	@include is-sp{
+		padding: 99px 0 20px 0;
+	}
 
 	&-hdr {
 		text-align: center;
