@@ -43,7 +43,7 @@ $imagedir = get_template_directory_uri();
                             <div class="section_1-cntnt-rows-1 u-w-390">
                                 <p class="section_1-cntnt-rows-1-txt">『売買』におきましては、お客様の大切な一棟マンションやアパートを最大限評価して購入させて頂いております。また、常にスピード感を大切にして、お客様の売却ニーズに対して、迅速かつ誠実に対応出来るように心掛けております。</p>
                                 <br>
-                                <p class="section_1-cntnt-rows-1-txt">『売買』におきましては、お客様の大切な一棟マンションやアパートを最大限評価して購入させて頂いております。また、常にスピード感を大切にして、お客様の売却ニーズに対して、迅速かつ誠実に対応出来るように心掛けております。</p>
+                                <p class="section_1-cntnt-rows-1-txt">『管理』におきましてはオーナー様のお手元に毎月いくら残こせるのかを追求しております。稼働率の安定化と管理コストの効率化を常に目指しております。表面上の利回りではなく『実質利回り』に拘りながらお客様の大切な資産である収益不動産の価値を守ります。</p>
                             </div>
                             <div class="section_1-cntnt-rows-2">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">

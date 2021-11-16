@@ -1289,7 +1289,7 @@ template{display:none}
 .message .c-banner .c-inner .person-bnr{width:29%;margin:0 auto;position:absolute;top:-30px;left:53%}
 .message .c-banner .c-inner .bdg-wrppr{position:absolute;top:80%;left:69%;z-index:9999}
 .message .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
-.message .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:cross-platform-yu-gothic,sans-serif;font-size:.6875rem}
+.message .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:cross-platform-yu-gothic,sans-serif;font-size:.75rem}
 .message .bread_crumps span{padding:0 8px}
 .message .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
 .message .section_1{position:relative;z-index:150}
@@ -2673,21 +2673,21 @@ template{display:none}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-1-txt{font-size:.84375rem;line-height:1.4814814815}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2{width:100%}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2 img{width:100%}
-.message .section_1 .clipPath .cntnt .section_1-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
+.message .section_1 .clipPath .cntnt .section_1-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:140px;width:100% !important}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns .btn{width:100% !important;border:2px solid #81b3d4}
 .message .section_1 .sec1-bg1{width:176px;right:3%;top:3%}
 .message .section_2-rows{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:59.5px 0 100.5px 0}
 .message .section_2-rows-1{width:100%}
 .message .section_2-rows-2{width:100% !important;padding-left:0;padding-top:24px}
 .message .section_2-rows-2-txt{font-size:.84375rem;line-height:1.4814814815}
-.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);padding:99px 0 99px 0}
+.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);padding:110px 0 90px 0}
 .message .section_3-cntnt-rows{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;margin-bottom:50px}
 .message .section_3-cntnt-rows-1{width:100% !important;padding-right:0;padding-top:25px}
 .message .section_3-cntnt-rows-1-txt{font-size:.84375rem;line-height:1.4814814815;letter-spacing:.08em}
 .message .section_3-cntnt-rows-2{width:100%}
-.message .section_3-cntnt .btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:165px;width:100% !important}
+.message .section_3-cntnt .btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:140px;width:100% !important}
 .message .section_3-cntnt .btns .btn{width:100% !important;border:2px solid #81b3d4}
-.message .section_3 .sec3-bg1{width:138px;top:-13%;right:3.4%}
+.message .section_3 .sec3-bg1{width:170px;top:-15%;right:3.4%}
 .office_gal .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .office_gal .section_1 .l-wrap .sp{display:block}
 .office_gal .top-clip{width:77%;height:322px;top:0}
@@ -3033,7 +3033,7 @@ template{display:none}
 .group-business .c-banner--ttl p:nth-child(1){font-size:7vw}
 .group-business .c-banner--ttl p:nth-child(2){font-size:3vw}
 .interview .c-banner--ttl p{font-size:8.5vw}
-}@media only screen and (max-width:426px){.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 3%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 3%,100% 0,100% 100%,0 100%,0 0)}
+}@media only screen and (max-width:426px){.message .section_3 .clipPath{-webkit-clip-path:polygon(18% 3%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(18% 3%,100% 0,100% 100%,0 100%,0 0)}
 }@media only screen and (max-width:425px){.p-cntct-hdr p:nth-child(2){font-size:5.3vw}
 }@media only screen and (max-width:416px){.case06--sub2{font-size:24px !important}
 }@media only screen and (max-width:414px){.c-cards09{margin-bottom:15px}
