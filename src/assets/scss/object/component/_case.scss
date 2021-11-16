@@ -459,6 +459,7 @@
 		&__txt {
 			padding-left: 20px;
 			border-left: 3px solid #258acf;
+			text-align: left;
 
 			@include is-sp {
 				padding-left: 10px !important;

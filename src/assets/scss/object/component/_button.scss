@@ -13,6 +13,7 @@
 	align-items: center;
 	position: relative;
 	cursor: pointer;
+
 	&:after {
 		content: "";
 		position: absolute;
@@ -22,22 +23,26 @@
 		transform: rotate(45deg);
 		border-top: 2px solid #fff;
 		border-right: 2px solid #fff;
+
 		@include is-sp {
 			right: 10px;
 			width: 8px;
 			height: 8px;
 		}
+
 		@include is-tabpc {
 			right: 18px;
 			width: 12px;
 			height: 12px;
 		}
 	}
+
 	&:hover {
 		@include is-tabpc {
 			@include opacity(0.7);
 		}
 	}
+
 	i {
 		margin-right: 5px;
 		z-index: 1;
@@ -48,64 +53,78 @@
 			height: 75px;
 			@include font-line(23, 23);
 		}
+
 		&::after {
 			right: 20px;
 		}
 	}
+
 	&--xl {
 		@include is-sp {
 			height: 70px;
 		}
+
 		@include is-tabpc {
 			height: 75px;
 			@include font-line(20, 20);
 		}
+
 		&::after {
 			right: 20px;
 		}
 	}
+
 	&--l {
 		@include is-sp {
 			height: 60px;
 			@include font-line(20, 20);
 		}
+
 		@include is-tabpc {
 			height: 60px;
 			@include font-line(20, 20);
 		}
+
 		&::after {
 			right: 15px;
 		}
 	}
+
 	&--m {
 		@include is-sp {
 			height: 45px;
 			@include font-line(16, 16);
 		}
+
 		@include is-tabpc {
 			height: 50px;
 			@include font-line(20, 20);
 		}
 	}
+
 	&--s {
 		@include is-sp {
 			height: 40px;
 			@include font-line(14, 14);
 		}
+
 		@include is-tabpc {
 			height: 36px;
 			@include font-line(14, 14);
 		}
+
 		&::after {
 			right: 10px;
 		}
 	}
+
 	&--edit {
 		@include is-sp {
 			width: 48.5%;
 			margin-right: 0;
 			margin-left: auto;
 		}
+
 		@include is-tabpc {
 			margin: 0 auto;
 			height: 50px;
@@ -117,23 +136,28 @@
 		background-color: $color-main;
 		border-color: $color-main;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-main;
 			color: $color-main;
+
 			&:after {
 				border-color: $color-main;
 			}
 		}
 	}
+
 	&--sub {
 		background-color: #fff;
 		border-color: $color-main;
 		color: $color-main;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-sub;
 			color: $color-sub;
+
 			&:after {
 				border-color: $color-main;
 			}
@@ -143,66 +167,81 @@
 			border-color: $color-main;
 		}
 	}
+
 	&--accent {
 		background-color: $color-accent;
 		border-color: $color-accent;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-accent;
 			color: $color-accent;
+
 			&:after {
 				border-color: $color-accent;
 			}
 		}
 	}
+
 	&--login {
 		background-color: $color-login;
 		border-color: $color-login;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-login;
 			color: $color-login;
+
 			&:after {
 				border-color: $color-login;
 			}
 		}
 	}
+
 	&--contact {
 		background-color: $color-contact;
 		border-color: $color-contact;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-contact;
 			color: $color-contact;
+
 			&:after {
 				border-color: $color-contact;
 			}
 		}
 	}
+
 	&--regist {
 		background-color: $color-regist;
 		border-color: $color-regist;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-regist;
 			color: $color-regist;
+
 			&:after {
 				border-color: $color-regist;
 			}
 		}
 	}
+
 	&--reserve {
 		background-color: $color-reserve;
 		border-color: $color-reserve;
 		color: #fff;
+
 		&--w {
 			background-color: #fff;
 			border-color: $color-reserve;
 			color: $color-reserve;
+
 			&:after {
 				border-color: $color-reserve;
 			}
@@ -211,16 +250,20 @@
 
 	&--nobullet {
 		padding: 0;
+
 		&:after {
 			display: none;
 		}
 	}
+
 	&--return {
 		&:after {
 			transform: rotate(-135deg);
+
 			@include is-sp {
 				left: 10px;
 			}
+
 			@include is-tabpc {
 				left: 18px;
 			}
@@ -231,13 +274,16 @@
 		display: block;
 		position: relative;
 		text-align: center;
+
 		@include is-sp {
 			padding: 7.5px 0 10px 47px;
 		}
+
 		@include is-tabpc {
 			padding: 14px 0 14px 47px;
 			width: 310px;
 		}
+
 		.baloon {
 			font-family: $font-family-base;
 			position: absolute;
@@ -253,16 +299,19 @@
 			color: $color-main;
 			font-size: 10px;
 			text-align: center;
+
 			@include is-tabpc {
 				top: 0px;
 				@include font-line(12);
 				font-weight: bold;
 			}
+
 			@include is-sp {
 				top: 0;
 				width: 66px;
 				height: 66px;
 			}
+
 			&:before {
 				content: "";
 				position: absolute;
@@ -276,17 +325,21 @@
 				z-index: 0;
 			}
 		}
+
 		.line01 {
 			display: block;
 			margin-bottom: 10px;
 			text-align: center;
 			@include font-line(12.6, 12.6);
+
 			@include is-sp {
 				@include font-line(12, 12);
 			}
 		}
+
 		.line02 {
 			@include font-line(23.6, 23.6);
+
 			@include is-sp {
 				@include font-line(23, 23);
 			}
@@ -301,11 +354,13 @@
 	border-radius: 50%;
 	color: #fff;
 	text-decoration: none;
+
 	&:hover {
 		@include is-tabpc {
 			@include opacity(0.6);
 		}
 	}
+
 	i {
 		z-index: 1;
 	}
@@ -314,6 +369,7 @@
 		position: relative;
 		background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
 		overflow: hidden;
+
 		&:before {
 			content: "";
 			position: absolute;
@@ -321,13 +377,12 @@
 			left: -9px;
 			width: 35px;
 			height: 35px;
-			background: radial-gradient(
-				#ffdb2c 10%,
-				rgba(255, 105, 34, 0.65) 55%,
-				rgba(255, 88, 96, 0) 70%
-			);
+			background: radial-gradient(#ffdb2c 10%,
+					rgba(255, 105, 34, 0.65) 55%,
+					rgba(255, 88, 96, 0) 70%);
 		}
 	}
+
 	&--fb {
 		background: #3e63b3;
 	}
@@ -337,6 +392,7 @@
 		height: 40px;
 		width: 40px;
 	}
+
 	&--m {
 		@include font-line(18, 18);
 		height: 26px;
@@ -358,8 +414,8 @@
 	letter-spacing: 0.2em;
 	transition: 0.3s ease-in-out;
 
-	&:hover{
-		img{
+	&:hover {
+		img {
 			right: 15px;
 		}
 	}
@@ -371,50 +427,52 @@
 	// 	background: rgb(32,121,189);
 	// }
 
-    @include is-sp {
-        width: 100%;
+	@include is-sp {
+		width: 100%;
 		letter-spacing: 0.13em;
 		border: 2px solid #81b3d4;
-    }
-    .txt {
-        text-align: center;
-        font-family: cross-platform-yu-gothic, sans-serif;
-        font-weight: 700;
-        padding: 20px 0;
-        line-height: 1;
-        @include font-line(14);
+	}
+
+	.txt {
+		text-align: center;
+		font-family: cross-platform-yu-gothic, sans-serif;
+		font-weight: 700;
+		padding: 20px 0;
+		line-height: 1;
+		@include font-line(14);
 		white-space: nowrap !important;
-    }
-    img {
-        width: 12px;
-        height: 12px;
-        position: absolute;
-        right: 20px;
+	}
+
+	img {
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		right: 20px;
 		transition: 0.3s ease-in-out;
-    }
+	}
 }
 
-.c-pageTop{
+.c-pageTop {
 	text-align: center;
 	margin-top: 95px;
 
-	.txt{
-	color: #95c6e7;
-	letter-spacing: 0.395em;
-	@include font-line(13);
-	position: relative;
-	text-align: center;
-	display: inline-block;
+	.txt {
+		color: #95c6e7;
+		letter-spacing: 0.395em;
+		@include font-line(13);
+		position: relative;
+		text-align: center;
+		display: inline-block;
 
-	&::after{
-	content: "";
-	background-image: url(../image/page/contact/arrow_up.png);
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	background-repeat: no-repeat;
-	left: 36%;
-	top: -20px;
+		&::after {
+			content: "";
+			background-image: url(../image/page/contact/arrow_up.png);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			background-repeat: no-repeat;
+			left: 36%;
+			top: -20px;
 		}
 	}
 }
@@ -432,23 +490,24 @@
 	margin-top: 15px;
 	transition: 0.3s ease-in-out;
 
-	&:hover{
-		img{
+	&:hover {
+		img {
 			right: 15px;
 		}
 	}
 
-	@include is-max(1000px){
-		margin-top:50px;
+	@include is-max(1000px) {
+		margin-top: 50px;
 		order: 4;
 	}
 
-	&.red{
+	&.red {
 		background-color: #a72f37;
 		border: none;
 		color: #fff;
-		margin-top:50px;
-		@include is-max(1000px){
+		margin-top: 50px;
+
+		@include is-max(1000px) {
 			order: 4;
 		}
 	}
@@ -485,7 +544,14 @@
 	justify-content: center;
 	position: relative;
 	background-color: #fff;
-	margin-top: 15px;
+	margin-top: 56px;
+	transition: 0.3s ease-in-out;
+
+	&:hover {
+		img {
+			right: 15px;
+		}
+	}
 
 	@include is-sp {
 		width: 100%;
@@ -497,16 +563,16 @@
 		font-weight: 700;
 		padding: 20px 0;
 		line-height: 1;
-
+		color: #1f88cd;
 		@include font-line(14);
+		letter-spacing: 0.2em;
 	}
 
 	img {
-		width: 5px;
-		height: 10px;
+		width: 12px;
+		height: 12px;
 		position: absolute;
 		right: 20px;
+		transition: 0.3s ease-in-out;
 	}
 }
-
-

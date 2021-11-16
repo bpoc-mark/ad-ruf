@@ -40,6 +40,26 @@
 		}
 	}
 
+	.bread_crumps {
+		text-align: left;
+		position: relative;
+		z-index: 150;
+		padding-top: 12px;
+
+		.txt {
+			width: 90%;
+			margin: 0 auto;
+			max-width: 1100px;
+			color: #fff;
+			font-family: cross-platform-yu-gothic, sans-serif;
+			@include font-line(12);
+		}
+
+		span {
+			padding: 0 8px;
+		}
+	}
+
 
 	.section_1 {
 		position: relative;
@@ -263,7 +283,7 @@
 
 			@include is-sp {
 				clip-path: polygon(19% 4%, 100% 0, 100% 100%, 85% 95%, 0 99%, 0 0);
-                padding: 140px 0 140px 0;
+				padding: 140px 0 140px 0;
 			}
 		}
 
@@ -437,9 +457,9 @@
 
 				@include is-sp {
 					display: block;
-                    height: 100%;
-                    object-fit: cover;
-                    right: 0;
+					height: 100%;
+					object-fit: cover;
+					right: 0;
 				}
 
 				@include is-max(670px) {
@@ -455,20 +475,20 @@
 
 				@include is-sp {
 					display: block;
-                    width: 52%;
+					width: 52%;
 				}
 			}
 
-            .cntnt-slant{
-                position: absolute;
-                top: 0;
-                width: 560px;
+			.cntnt-slant {
+				position: absolute;
+				top: 0;
+				width: 560px;
 
-                @include is-sp{
-                    height: 100%;
-                    width: 52%;
-                }
-            }
+				@include is-sp {
+					height: 100%;
+					width: 52%;
+				}
+			}
 
 			.cntnt-bg2 {
 				position: absolute;
@@ -515,20 +535,21 @@
 			top: -30%;
 			right: 32%;
 
-            @include is-sp{
-                right: 6%;
-                top: -22%;
-                width: 122px;
-            }
+			@include is-sp {
+				right: 6%;
+				top: -22%;
+				width: 122px;
+			}
 		}
 
 		.bg-2 {
 			position: absolute;
 			bottom: -27%;
 			left: 0%;
-            @include is-sp{
-                display: none;
-            }
+
+			@include is-sp {
+				display: none;
+			}
 		}
 	}
 
@@ -555,18 +576,17 @@
 				@include is-sp {
 					display: flex;
 					justify-content: space-between;
-					align-items: center;
+					align-items: flex-start;
 					padding-bottom: 24px;
 					border-bottom: 1px dashed gray;
-					align-items: flex-end;
 					width: 100%;
 				}
 
-                &:nth-child(6){
-                    @include is-sp{
-                        border-bottom: none;
-                    }
-                }
+				&:nth-child(6) {
+					@include is-sp {
+						border-bottom: none;
+					}
+				}
 
 				&-img {
 					position: relative;
@@ -595,9 +615,9 @@
 									letter-spacing: 0.1em;
 								}
 
-                                @include is-max(480px){
-                                    font-size: 3.8vw;
-                                }
+								@include is-max(480px) {
+									font-size: 3.8vw;
+								}
 							}
 						}
 
@@ -610,9 +630,9 @@
 								line-height: 12px;
 								letter-spacing: 0.26em;
 
-                                @include is-max(480px){
-                                    font-size: 2vw;
-                                }
+								@include is-max(480px) {
+									font-size: 2vw;
+								}
 							}
 						}
 					}
@@ -644,6 +664,7 @@
 						text-align: left;
 						// padding-left: 16.5px;
 						width: 204px;
+						padding-top: 0;
 					}
 
 					@include is-max(702px) {
@@ -658,6 +679,7 @@
 						@include font-line(14, 21);
 						font-weight: 700;
 						color: #1f86cb;
+						letter-spacing: 0.2em;
 
 						@include is-sp {
 							@include font-line(17, 22.5);
@@ -675,14 +697,18 @@
 						line-height: 16px;
 						font-weight: 500;
 						padding-top: 13px;
+						letter-spacing: 0.2em;
 
 						@include is-sp {
 							@include font-line(12.5, 18.5);
 						}
 
-
 						@include is-max(445px) {
 							padding-top: 5px;
+						}
+
+						@include is-max(400px) {
+							font-size: 3vw;
 						}
 					}
 				}
