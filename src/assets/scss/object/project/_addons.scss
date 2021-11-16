@@ -116,7 +116,7 @@
 			font-weight: 400;
 			letter-spacing: 2px;
 			font-family: century-gothic, sans-serif;
-			padding: 0 20px 0 20px;
+			padding: 0 20px 10px 20px;
 
 			@include is-sp {
 				@include font-line(12, 10);
@@ -407,7 +407,7 @@
 			font-weight: 400;
 			letter-spacing: 2px;
 			font-family: century-gothic, sans-serif;
-			padding: 0 20px 0 20px;
+			padding: 0 20px 10px 20px;
 
 			@include is-sp {
 				@include font-line(12, 10);
