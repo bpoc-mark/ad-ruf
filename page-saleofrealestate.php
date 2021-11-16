@@ -8,14 +8,14 @@ $imagedir = get_template_directory_uri();
         <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner.png" alt="">
-            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr_sp.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>収 益 不 動 産 の 売 買</p>
-                <p>Sale of real estate</p>
+                <p>収 益 不 動 産 の<br class="u-d-n-pc"> 売 買</p>
+                <p>Sale of<br class="u-d-n-pc"> real estate</p>
             </div>
         </div>
         <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 事業内容 <span>＞</span> 収益不動産の売買 <span>></span> 収益不動産の売却</p>
+            <p class="txt">TOP <span>></span> 事業内容 <span>＞</span> 収益不動産の売買<br class="u-d-n-pc"> <span>></span> 収益不動産の売却</p>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -25,7 +25,7 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_1__box-big-new">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
                 </div>
-                <div class="sect_1__box-big">
+                <div class="sect_1__box-big u-d-n-sp">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
@@ -214,6 +214,13 @@ $imagedir = get_template_directory_uri();
                                         <p>04</p>
                                     </div>
                                 </div>
+
+                                <div class="top-circle">
+                                    <div class="top-circle-content">
+                                        <p>トータル<br>
+                                            サポート</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="c-card11-bottom">
@@ -234,6 +241,13 @@ $imagedir = get_template_directory_uri();
                                         <p>05</p>
                                     </div>
                                 </div>
+
+                                <div class="top-circle">
+                                    <div class="top-circle-content">
+                                        <p>収益<br>
+                                            最大化</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="c-card11-bottom">
@@ -248,14 +262,14 @@ $imagedir = get_template_directory_uri();
             </div>
 
 
-            <a href="#" class="c-buttonCase u-mt-50">
+            <a href="#" class="c-buttonCase sore__section_3--btn">
                 <p class="txt">無料相談する</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
         </div>
     </section>
 
-    <!-- <section class="sect_2 sore__section_4">
+    <section class="sect_2 sore__section_4">
         <div class="l-wrap">
             <div class="sect_2__box-big-new">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
@@ -263,9 +277,10 @@ $imagedir = get_template_directory_uri();
             <div class="sect_2__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
             </div>
+            <img class="u-d-n-pc sp_bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
 
             <div class="p-main_content__box1">
-                <p class="sore__ttl sore__section_2-ttl">CASE STUDIES</p>
+                <p class="sore__ttl sore__section_2-ttl s4-ttl">CASE STUDIES</p>
                 <h1 class="sore__title sore__section_2-title s4-title">売却実績</h1>
 
                 <div class="p-main_content__box1-row1">
@@ -311,8 +326,8 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="c-card12--row c-card12--row4">
                             <p>交通情報</p>
-                            <p>●●●●◯◯線「●」駅 徒歩00分<br>
-                                ●●●●◯◯線「●」駅 徒歩00分</p>
+                            <p>●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分<br>
+                                ●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分</p>
                         </div>
                     </div>
                 </div>
@@ -360,8 +375,8 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="c-card12--row c-card12--row4">
                             <p>交通情報</p>
-                            <p>●●●●◯◯線「●」駅 徒歩00分<br>
-                                ●●●●◯◯線「●」駅 徒歩00分</p>
+                            <p>●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分<br>
+                                ●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分</p>
                         </div>
                     </div>
                 </div>
@@ -409,8 +424,8 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="c-card12--row c-card12--row4">
                             <p>交通情報</p>
-                            <p>●●●●◯◯線「●」駅 徒歩00分<br>
-                                ●●●●◯◯線「●」駅 徒歩00分</p>
+                            <p>●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分<br>
+                                ●●●●◯◯線<br class="u-d-n-pc"><span>「●」</span>駅 徒歩00分</p>
                         </div>
                     </div>
                 </div>
@@ -420,21 +435,26 @@ $imagedir = get_template_directory_uri();
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
             </div>
-
-
-
         </div>
-    </section> -->
+    </section>
 
 
     <section class="sect_5 sore__section_5">
         <div class="l-wrap">
-
+            <div class="sect_2__box-big-new">
+                <img src="<?php echo $imagedir ?>/release/image/realestate/sect_2_box-1.png" alt="">
+            </div>
+            <img class="bg_21 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_20.png" alt="">
+            <p class="txt_small  u-d-n-pc">「収益不動産は買って終わり。」ではありません。</p>
+            <p class="txt_ttl sore__section_5--ttl u-d-n-pc">
+                価値を見極めた正しい<br class="u-d-n-pc"> 運用こそが <br class="u-d-n-sp">
+                収益を最大化<br class="u-d-n-pc">させる一番の近道です。
+            </p>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
-                    <p class="txt_small">「収益不動産は買って終わり。」ではありません。</p>
+                    <p class="txt_small  u-d-n-sp">「収益不動産は買って終わり。」ではありません。</p>
                     <p class="txt_ttl sore__section_5--ttl u-d-n-sp">
-                        価値を見極めた正しい こそが <br>
+                        価値を見極めた正しい運用こそが<br>
                         収益を最大化させる一番の近道です。
                     </p>
                     <p class="text sore__section_5--text">
@@ -457,6 +477,10 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_6 sore__section_6">
         <div class="l-wrap">
+            <p class="txt_ttl sore__section_6--ttl u-d-n-pc">
+                購入から管理・運用まで<br>
+                トータルでサポート
+            </p>
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">
                     <p class="txt_ttl sore__section_6--ttl u-d-n-sp">
@@ -464,11 +488,11 @@ $imagedir = get_template_directory_uri();
                         トータルでサポート
                     </p>
                     <p class="text sore__section_6--text">
-                        お客様に購入して頂いた不動産を<br>
-                        価値あるものにするため、<br>
-                        購入から管理・運用までトータルで<br>
-                        サポートいたします。<br>
-                        それがルーフの想いであり、<br>
+                        お客様に購入して頂いた不動産を<br class="u-d-n-sp">
+                        価値あるものにするため、<br class="u-d-n-sp">
+                        購入から管理・運用までトータルで<br class="u-d-n-sp">
+                        サポートいたします。<br class="u-d-n-sp">
+                        それがルーフの想いであり、<br class="u-d-n-sp">
                         我々が持つプライドです。
                     </p>
 
@@ -485,15 +509,13 @@ $imagedir = get_template_directory_uri();
                         <p>一括してサポートできる</p>
                     </div>
                 </div>
-                <p class="txt_ttl u-d-n-pc">
-                    買取物件をバリューアップ
-                </p>
             </div>
         </div>
     </section>
 
     <section class="sore__section_7">
         <div class="l-wrap">
+        <img class="u-d-n-pc sp_bg6" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
             <img class="bg_15" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <img class="bg_16" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <div class="c-case03__txt sore__headline">
