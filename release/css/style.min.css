@@ -1510,7 +1510,7 @@ template{display:none}
 .real_estate_purchase .sect_4--top-realestate{border-left:3px solid #4688c8;padding-left:15px;position:relative}
 .real_estate_purchase .sect_4__eng--ttl{font-family:century-gothic,sans-serif;font-size:.8125rem;line-height:1.5384615385;color:#9ec4e3;letter-spacing:.21em;text-align:left;font-weight:600;margin-bottom:5px}
 .real_estate_purchase .sect_4__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;padding-bottom:15px}
-.real_estate_purchase .sect_4__header--sub{font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem;line-height:2;color:#000;font-weight:600;letter-spacing:.197em;margin-bottom:70px}
+.real_estate_purchase .sect_4__header--sub{font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem;line-height:2;color:#000;font-weight:500;letter-spacing:.197em;margin-bottom:70px}
 .real_estate_purchase .sect_4__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;padding-bottom:100px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .real_estate_purchase .sect_4__inner-realestate--left,.real_estate_purchase .sect_4__inner-realestate--right{width:50%;position:relative;z-index:4}
 .real_estate_purchase .sect_4__inner-realestate--left{padding-left:95px}
