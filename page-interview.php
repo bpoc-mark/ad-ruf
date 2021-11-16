@@ -119,13 +119,12 @@ get_header(); ?>
     <div class="section_2">
 
         <div class="l-wrap">
-
-            <img class="sec2-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2-bg1.png" alt="">
-            <img class="sec2-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2.png" alt="">
-            <img class="sec2-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg3.png" alt="">
-            <img class="sec2-bg1-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg1_sp.png" alt="">
-            <img class="sec2-bg2-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2_sp.png" alt="">
             <div class="section_2-cntnt">
+                <img class="sec2-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2-bg1.png" alt="">
+                <img class="sec2-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2.png" alt="">
+                <img class="sec2-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg3.png" alt="">
+                <img class="sec2-bg1-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg1_sp.png" alt="">
+                <img class="sec2-bg2-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2_sp.png" alt="">
                 <div class="section_2-cntnt-rows u-d-f u-jc-sb">
                     <div class="section_2-cntnt-rows-1 u-d-n-sp">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img.png" alt="">
