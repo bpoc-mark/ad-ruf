@@ -5,10 +5,35 @@
 get_header();?>
 <div class="page__content column">
     <section class="jumbo_section">
-        <div class="your-class">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+        <ul>
+            <li>
+                <a href="">Youtube</a>
+            </li>
+            <li>
+                <a href="">収益不動産</a>
+            </li>
+            <li>
+                <a href="">実績インタビュー</a>
+            </li>
+        </ul>
+        <div class="slider_wrapper">
+            <div class="your-class slider_realestate">
+                <div>
+                <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                </div>
+                <div>
+                <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-2.jpg" alt="">
+                </div>
+                <div>
+                <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-3.jpg" alt="">
+                </div>
+                <div>
+                <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-2.jpg" alt="">
+                </div>
+                <div>
+                <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-3.jpg" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -136,6 +161,123 @@ get_header();?>
                         <a href="" class="cat"><span class="cat-hash">#</span>収益不動産</a>
                         <a href="" class="cat"><span class="cat-hash">#</span>不動産 仲介</a>
                     </div>
+                </div>
+                <div class="column-access-ranking">
+                    <h3><img src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-crown-icon.svg" alt="">アクセスランキング</h3>
+                    <ul class="post_wrap">
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                        <li class="post_wrap_row">
+                            <a href="">
+                                <div class="post">
+                                    <figure>
+                                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-1.jpg" alt="">
+                                    </figure>
+                                    <div class="post_info">
+                                        <p class="post_info_date">2022.01.01</p>
+                                        <p class="post_info_title">この文章はダミーですこの文章はダミーですこの文章</p>
+                                        <span class="cat"><span class="cat-hash">#</span>不動産 売却</span>
+                                    </div>   
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
