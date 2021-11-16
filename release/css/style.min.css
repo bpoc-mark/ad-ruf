@@ -1402,8 +1402,11 @@ template{display:none}
 .oe__title{color:#fff;font-family:yu-mincho-pr6n,sans-serif;letter-spacing:.22em;text-align:center;padding:20px 0 15px 0;line-height:1;font-size:1.875rem}
 .oe__sub{color:#fff;font-family:cross-platform-yu-gothic,sans-serif;font-weight:500;letter-spacing:.2em;text-align:center;z-index:1;position:relative;font-size:.8125rem;line-height:2}
 .oe-main-content{padding-top:60px}
+.oe-main-content .br-sp{display:none}
 .oe-main-content .row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative;z-index:99999}
 .oe-main-content .row .col{width:calc(50% - 70px);padding-bottom:97px}
+.oe-main-content .row .col .u-d-f{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.oe-main-content .row .col .oe--btn{margin:0}
 .oe-main-content .row .col:nth-child(2) .info{width:87%;background:linear-gradient(100deg,rgba(114,159,223,0.238831) 14%,#244d7e 100%)}
 .oe-main-content .row .col:nth-child(2) .info-ttl{letter-spacing:.18em;letter-spacing:.03em}
 .oe-main-content .row .col:nth-child(3) .info{width:87%;background:linear-gradient(100deg,rgba(114,159,223,0.238831) 14%,#244d7e 100%)}
@@ -1414,7 +1417,7 @@ template{display:none}
 .oe-main-content .row .heading02{color:#90c2e3;font-family:century-gothic,sans-serif;font-weight:700;letter-spacing:.2em;padding:0 0 25px 0;line-height:1;font-size:.625rem;text-transform:uppercase}
 .oe-main-content .row .heading03{color:#fff;font-family:cross-platform-yu-gothic,sans-serif;font-weight:500;letter-spacing:.15em;padding:0 0 30px 0;font-size:.8125rem;line-height:2}
 .oe-main-content .row .ls007{letter-spacing:.07em}
-.oe__bg_1{position:absolute;top:-85px;right:63px;width:379px}
+.oe__bg_1{position:absolute;top:-85px;right:47px;width:379px}
 .oe__bg_2{position:absolute;top:-124px;left:-61px}
 .oe__bg_3{position:absolute;top:400px;right:26px;opacity:.2}
 .oe--btn{background-color:#fff;width:45%;color:#4988c8}
@@ -3112,6 +3115,7 @@ template{display:none}
 .sect_1__header{letter-spacing:2px;font-size:6.7vw}
 .message .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
 .message .section_1 .clipPath .cntnt-sub2{font-size:3.5vw}
+.oe-main-content .br-sp{display:block}
 .pp__main-content--row .left .col .pad-left,.pp__main-content--row .right .col .pad-left{padding:0 15px 10px 0}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}
@@ -3159,6 +3163,7 @@ template{display:none}
 }@media only screen and (max-width:344px){.oe-main-content .row .col:nth-child(4) .heading01{font-size:7.2vw}
 }@media only screen and (max-width:341px){.oe--btn .txt{font-size:.75rem}
 }@media only screen and (max-width:340px){.csm .c-case01__title{font-size:7vw}
+.oe-main-content .br-sp{display:none}
 .result .section_1__chart-ins{font-size:3.1vw}
 }@media only screen and (max-width:338px){.oe-main-content .row .col:nth-child(1) .info{width:67%}
 }@media only screen and (max-width:337px){.message .section_1 .clipPath .cntnt-sub2{font-size:3.4vw}
