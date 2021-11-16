@@ -246,7 +246,7 @@
 			text-align: left;
 			color: #fff;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.3em;
 			position: relative;
 			@include is-sp {
@@ -296,12 +296,12 @@
 					text-align: left;
 					color: #fff;
 					font-family: yu-mincho-pr6n, sans-serif;
-					font-weight: 600;
+					font-weight: 500;
 					letter-spacing: 0.3em;
 				}
 				.text {
-					font-family: cross-platform-yu-gothic;
-					font-weight: 600;
+					font-family: cross-platform-yu-gothic,sans-serif;
+					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
 					color: #fff;
@@ -377,7 +377,7 @@
 			text-align: left;
 			color: #fff;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.3em;
 			@include is-sp {
 				padding-bottom: 25px;
@@ -445,12 +445,12 @@
 					text-align: left;
 					color: #fff;
 					font-family: yu-mincho-pr6n, sans-serif;
-					font-weight: 600;
+					font-weight: 500;
 					letter-spacing: 0.3em;
 				}
 				.text {
-					font-family: cross-platform-yu-gothic;
-					font-weight: 600;
+					font-family: cross-platform-yu-gothic,sans-serif;
+					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
 					color: #fff;
@@ -558,7 +558,7 @@
 			text-align: left;
 			color: #4688c8;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.15em;
 			position: relative;
 
@@ -649,13 +649,13 @@
 					text-align: left;
 					color: #4688c8;
 					font-family: yu-mincho-pr6n, sans-serif;
-					font-weight: 600;
+					font-weight: 500;
 					letter-spacing: 0.15em;
 				}
 			}
 			.text {
-				font-family: cross-platform-yu-gothic;
-				font-weight: 600;
+				font-family: cross-platform-yu-gothic,sans-serif;
+				font-weight: 500;
 				@include font-line(13, 26);
 				text-align: left;
 				color: #000;
@@ -759,6 +759,7 @@
 			left: 0;
 			bottom: 10%;
 			@include is-sp{
+				
 				display: none;
 			}
 		}
@@ -783,7 +784,7 @@
 			text-align: left;
 			color: #fff;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.3em;
 			@include is-sp {
 				padding-bottom: 20px;
@@ -836,12 +837,12 @@
 					text-align: left;
 					color: #fff;
 					font-family: yu-mincho-pr6n, sans-serif;
-					font-weight: 600;
+					font-weight: 500;
 					letter-spacing: 0.3em;
 				}
 				.text {
-					font-family: cross-platform-yu-gothic;
-					font-weight: 600;
+					font-family: cross-platform-yu-gothic,sans-serif;
+					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
 					color: #fff;
@@ -920,7 +921,7 @@
 			text-align: left;
 			color: #4688c8;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.15em;
 			padding-bottom: 20px;
 			order: 1;
@@ -1008,12 +1009,12 @@
 					text-align: left;
 					color: #4688c8;
 					font-family: yu-mincho-pr6n, sans-serif;
-					font-weight: 600;
+					font-weight: 500;
 					letter-spacing: 0.15em;
 				}
 				.text {
-					font-family: cross-platform-yu-gothic;
-					font-weight: 600;
+					font-family: cross-platform-yu-gothic,sans-serif;
+					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
 					color: #000;
@@ -1168,7 +1169,7 @@
 			text-align: left;
 			color: #fff;
 			font-family: yu-mincho-pr6n, sans-serif;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.34em;
 			padding-bottom: 15px;
 			@include is-max(750px) {
@@ -1182,7 +1183,7 @@
 			text-align: left;
 			@include font-line(13, 26);
 			color: #fff;
-			font-weight: 600;
+			font-weight: 500;
 			letter-spacing: 0.2em;
 			margin-bottom: 70px;
 			@include is-max(750px) {
