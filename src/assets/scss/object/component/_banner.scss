@@ -1,103 +1,164 @@
-.c-banner{
-		background: linear-gradient(to right, #2079bd, #1e91d2);
-		margin: 0 auto;
-		text-align: center;
-		margin-top: -1px;
-		
+.c-banner {
+	background: linear-gradient(to right, #2079bd, #1e91d2);
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -1px;
 
-		img{
-		 position: relative;
-   		 z-index: 150;
+	img {
+		position: relative;
+		z-index: 150;
+	}
+
+	.c-inner{
+		background-color: #004ea6 !important;
+	}
+
+	&--ttl {
+		color: #fff;
+		position: absolute;
+		left: 70px;
+		top: 35%;
+		z-index: 150;
+		font-family: yu-mincho-pr6n, sans-serif;
+		@include font-line(30, 70);
+		text-align: left;
+
+		@include is-sp {
+			left: 20px;
 		}
 
-		&--ttl{
-			color: #fff;
-			position: absolute;
-			left: 70px;
-			top: 35%;
-			z-index: 150;
-			font-family: yu-mincho-pr6n, sans-serif;
-			@include font-line(30, 70);
-			text-align: left;
+		p {
 
-			@include is-sp{
-				left: 20px;
+			&:first-child {
+				letter-spacing: 0.15em !important;
+				@include is-sp {
+					@include font-line(25);
+					letter-spacing: 0.075em !important;
+				}
 			}
+			
+			&:nth-child(2) {
+				@include font-line(13);
+				letter-spacing: 0.3em;
+				font-family: century-gothic, sans-serif;
+				font-weight: 700;
+				padding-top: 10px !important;
 
-			p{
-				&:nth-child(2){
-					@include font-line(13);
-					letter-spacing: 0.3em;
-					font-family: century-gothic, sans-serif;
-					font-weight: 700;
+				@include is-sp {
+					font-weight: 400 !important;
+					letter-spacing: 0.26em !important;
+					padding-top: 5px !important;
 				}
 			}
 		}
-	 }
+	}
 
- 	.c-ruf-txt{
-		display: none;
+	&--ttl2 {
+		color: #fff;
+		position: absolute;
+		left: 70px;
+		top: 41%;
+		z-index: 150;
+		font-family: yu-mincho-pr6n, sans-serif;
+		@include font-line(30, 70);
+		text-align: left;
 
-		@include is-sp{
-			max-width: 1100px;
-			width: 92%;
-			display: block;
-			position: relative;
-			z-index: 150;
-			color: #fff;
-			font-family:cross-platform-yu-gothic;
-			margin: 0 auto;
-			text-align: left;
-			@include font-line(14.5, 17.5);
-			letter-spacing: 0.24em;
-			font-weight: 700;
-			padding: 25px 0 20px 35px !important;
+		@include is-sp {
+			left: 0;
+			padding: 10px 11px 6px 25px;
+			top: 28%;
+			background: linear-gradient(to right, #2579BF, #2593D5) !important;
 		}
 
-		@include is-max(375px) {
-			white-space: nowrap;
-			padding: 34px 0 30px 30px;
-			font-size: 3.8vw;
-		}
-		img{
-			width: 131px;
-			margin-right: 20px;
-			@include is-sp {
-				margin-right: 12.5px;
+		p {
+
+			&:first-child {
+				letter-spacing: 0.15em !important;
+				@include is-sp {
+					@include font-line(25);
+					letter-spacing: 0.075em !important;
+				}
 			}
-			@include is-max(500px) {
-				width: 65.5px;
-			}
-		}
-	
 
-			//  @include is-max(400px){
-			// 	font-size: 4vw;
-			//  }
+			&:nth-child(2) {
+				@include font-line(13);
+				letter-spacing: 0.3em;
+				font-family: century-gothic, sans-serif;
+				font-weight: 700;
+				padding-top: 10px !important;
 
-			//  img{
-			// 	 @include is-max(400px){
-			// 		 width: 35%;
-			// 	 }
-			//  }
- 	}
-
-	.c-inner{
-		max-width: 1100px;
-		width: 90%;
-		margin: 0 auto;
-		position: relative;
-
-		.bnr_pc{
-			display: none;
-			@include is-pc{
-				display: block;
-			}
-		}
-		.bnr_sp{
-			display: none;
-			@include is-sp{
-				display: block;
+				@include is-sp {
+					font-weight: 400 !important;
+					letter-spacing: 0.26em !important;
+					padding-top: 5px !important;
+				}
 			}
 		}
 	}
+}
+
+.c-ruf-txt {
+	display: none;
+
+	@include is-sp {
+		max-width: 1100px;
+		width: 92%;
+		display: block;
+		position: relative;
+		z-index: 150;
+		color: #fff;
+		font-family: cross-platform-yu-gothic;
+		margin: 0 auto;
+		text-align: left;
+		@include font-line(14.5, 17.5);
+		letter-spacing: 0.24em;
+		font-weight: 700;
+		padding: 25px 0 20px 35px !important;
+	}
+
+	@include is-max(375px) {
+		white-space: nowrap;
+		padding: 34px 0 30px 30px;
+		font-size: 3.8vw;
+	}
+	img {
+		width: 131px;
+		margin-right: 20px;
+		@include is-sp {
+			margin-right: 12.5px;
+		}
+		@include is-max(500px) {
+			width: 65.5px;
+		}
+	}
+
+	//  @include is-max(400px){
+	// 	font-size: 4vw;
+	//  }
+
+	//  img{
+	// 	 @include is-max(400px){
+	// 		 width: 35%;
+	// 	 }
+	//  }
+}
+
+.c-inner {
+	max-width: 1100px;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+
+	.bnr_pc {
+		display: none;
+		@include is-pc {
+			display: block;
+		}
+	}
+	.bnr_sp {
+		display: none;
+		@include is-sp {
+			display: block;
+		}
+	}
+}

@@ -1,55 +1,7 @@
 .case07 { 
-	&--s1 {
-
-		&_title {
-			letter-spacing: 0.18em !important;
-		}
-
-		@include is-sp {
-			&_ttl {
-				font-size: 0.75rem !important;
-			}
-
-			&_title {
-				letter-spacing: 0.18em !important;
-				@include font-line(25);
-			}
-
-			&_sub {
-				@include font-line(14);
-			}
-
-			&_hide {
-				display: none !important;
-			}
-
-			.l15 {
-				left: 15px;
-			}
+	&--sub1 {
+		@include is-max(377px) {
+			font-size: 5.8vw !important;
 		}
 	}
-
-	&--s2 {
-		padding-top: 0 !important;
-	}
-
-	// globals
-
-	&--bg-01 {
-		position: absolute !important;
-		left: 0 !important;
-		width: 290px !important;
-		bottom: -65px !important;
-		z-index: -1 !important;
-	}
-
-	&--s1_c4 {
-		-webkit-clip-path: polygon(0 15%, 100% 0%, 105% 100%, 0% 102%) !important;
-		clip-path: polygon(0 15%, 100% 0%, 105% 100%, 0% 102%) !important;
-	}
-
-	// // padding
-	// &--pt-sp {
-	// 	padding-top: 0 !important;
-	// }
 }

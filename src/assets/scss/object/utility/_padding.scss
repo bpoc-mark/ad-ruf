@@ -12,6 +12,24 @@
   padding-right: 0 !important;
 }
 
+.u-pt-75-sp {
+  @include is-sp {
+    padding-top: 75px !important;
+  }
+}
+
+.u-pb-75-sp {
+  @include is-sp {
+    padding-bottom: 75px !important;
+  }
+}
+
+.u-pb-30-sp {
+  @include is-sp {
+    padding-bottom: 30px !important;
+  }
+}
+
 /* Top padding */
 
 @for $value from 1 to 12 {

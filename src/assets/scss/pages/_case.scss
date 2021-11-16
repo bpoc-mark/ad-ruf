@@ -49,6 +49,10 @@
 			@include is-sp {
 				@include font-line(12.5);
 			}
+
+			@include is-max(322px) {
+				white-space: nowrap;
+			}
 		}
 
 		span {
@@ -131,6 +135,10 @@
 			padding-bottom: 60px;
 		}
 
+		.case-all__CS {
+			padding-bottom: 35px;
+		}
+
 		.c-case--items {
 			&:nth-of-type(odd) {
 				background-color: #fff;
@@ -173,14 +181,16 @@
 
 			.bg_1 {
 				position: absolute;
-				top: 0;
-				right: 0;
+				top: -15px;
+				right: 17px;
 				width: 370px;
+				z-index: -1;
 
 				@include is-sp {
 					width: 122px;
 					right: 20px;
 					top: -30px;
+					display: none;
 				}
 			}
 		}
@@ -204,5 +214,144 @@
 		}
 	}
 
+	.c-case03__txt {
+		margin-bottom: 70px;
+	}
+}
 
+.case-all {
+	&--s1_c4 {
+
+		@include is-sp {
+			padding-top: 75px;
+		}
+
+		.c-case--items__contents {
+			padding-bottom: 27px;
+		}
+
+		.case-all--bg-02 {
+			bottom: -65px !important;
+		}
+
+		.bg_7 {
+			bottom: -17px;
+		}
+	}
+}
+
+.case01 {
+	&__title {
+		@include is-max(322px) {
+			font-size: 7vw !important;
+		}
+	}
+}
+
+.case02 {
+	&__title {
+		@include is-sp {
+			font-size: 25px !important;
+		}
+	}
+}
+
+.case05 {
+	&__title {
+		font-size: 30px !important;
+
+		@include is-max(769px) {
+			font-size: 3.5vw !important;
+		}
+
+		@include is-sp {
+			font-size: 25px !important;
+		}
+
+		@include is-max(480px) {
+			font-size: 6.5vw !important;
+		}
+	}
+}
+
+.case06 {
+	@include is-sp {
+		.title_sm {
+			@include font-line(13.5);
+			letter-spacing: 0.1em;
+			line-height: 1;
+		}
+	}
+
+	.case-all--s1_title {
+		padding: 0 0 8px 0;
+
+		@include is-sp {
+			line-height: 37.5px;
+			letter-spacing: 0.05em !important;
+		}
+	}
+
+	.c-case01__sub2 {
+		padding-top: 18px;
+		@include font-line(13.5);
+
+		@include is-sp {
+			letter-spacing: 0.1em;
+		}
+
+		@include is-max(322px) {
+			font-size: 3.78vw;
+		}
+	}
+
+	&__sub {
+		letter-spacing: 1px !important;
+	}
+
+	&--sub1 {
+		@include is-max(377px) {
+			font-size: 6.2vw !important;
+		}
+	}
+
+	&--sub2 {
+		@include is-max(416px) {
+			font-size: 24px !important;
+		}
+		@include is-max(401px) {
+			font-size: 5.6vw !important;
+		}
+		@include is-max(377px) {
+			font-size: 5.8vw !important;
+		}
+		@include is-max(322px) {
+			white-space: nowrap;
+			text-indent: -3px;
+		}
+	}
+
+	&--sub3 {
+		@include is-max(322px) {
+			font-size: 7vw !important;
+		}
+	}
+
+	&--sub4 {
+		@include is-max(322px) {
+			font-size: 6.5vw !important;
+		}
+	}
+
+	&--sub5 {
+		@include is-max(322px) {
+			font-size: 7.2vw !important;
+		}
+	}
+}
+
+.case08--sub {
+	@include is-max(322px) {
+		font-size: 7vw !important;
+	}
 }
