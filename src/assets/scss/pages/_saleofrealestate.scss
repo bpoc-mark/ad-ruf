@@ -507,7 +507,9 @@
 
 		.p-main_content__box3-col02,
 		.p-main_content__box3-col03 {
-			padding-top: 30px;
+			@include is-sp {
+				padding-top: 30px;
+			}
 		}
 
 		.l-wrap {

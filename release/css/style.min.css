@@ -1698,7 +1698,6 @@ template{display:none}
 .sore__section_7 .sub{text-indent:unset}
 .sore__section_7 .sore__headline{margin-bottom:55px}
 .sore__section_7--content{padding-top:0}
-.sore__section_7 .p-main_content__box3-col02,.sore__section_7 .p-main_content__box3-col03{padding-top:30px}
 .sore__section_7 .l-wrap{position:relative;z-index:999}
 .sore__section_7 .c-card11-bottom{min-height:unset;padding-bottom:22px}
 .sore__section_7 .card-bottom-txt{text-align:center;letter-spacing:.15em}
@@ -2969,6 +2968,7 @@ template{display:none}
 .sore__section_6 .sect_6__inner-realestate--right{width:100vw;margin:0 calc(-50vw + 50%)}
 .sore__section_6--ttl{text-align:center !important;padding-top:95.5px}
 .sore__section_7{padding-top:100px}
+.sore__section_7 .p-main_content__box3-col02,.sore__section_7 .p-main_content__box3-col03{padding-top:30px}
 .sore__section_7 .card-bottom-txt{font-size:.84375rem;color:#000;text-align:justify}
 .sore__section_7 .card-bottom-txt br{display:none}
 .sore .bg_15{display:none}
