@@ -487,6 +487,56 @@ $imagedir = get_template_directory_uri();
         </div>
     </section>
 
+    <section class="rep2_s8">
+        <div class="l-wrap">
+            <div class="content">
+                <p class="content--ttl center">丸の内ルーフに買取を依頼した場合の</p>
+                <p class="content--title center">メリットを<br class="u-d-n-pc">ご説明いたします。</p>
+
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col col1">
+                            <img class="u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9.png" alt="">
+                            <img class="u-d-n-pc" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9_sp.png" alt="">
+                            <div class="text u-d-n-pc">
+                                <p>
+                                    売却したい時期が<br>
+                                    決まっている、<br>
+                                    取り引きは簡潔に<br>
+                                    終わらせたい。
+                                </p>
+
+                                <p>
+                                    そのようにお考えの<br>
+                                    オーナー様は是非一度<br>
+                                    ルーフにお声がけください。
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col col2 u-d-n-sp">
+                            <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img10.png" alt="">
+                            <div class="vertical_txt3 t80">
+                                <p>オーナー様をサポートします。</p>
+
+                            </div>
+                            <div class="vertical_txt3 l134">
+                                <p>圧倒的スピードでの意思決定で</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <a href="#" class="c-buttonCase sore__section_6--btn">
+                        <p class="txt">無料相談する</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="sect_5 sore__section_5 rep2_s6">
         <div class="l-wrap">
@@ -494,7 +544,7 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/realestate/sect_2_box-1.png" alt="">
             </div>
             <img class="bg_21 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_20.png" alt="">
-            <p class="txt_small  u-d-n-pc">私たちは不動産会社によくある“簡単査定”は行いません</p>
+            <p class="txt_small pt103 u-d-n-pc">私たちは不動産会社によくある“簡単査定”は行いません</p>
             <p class="txt_ttl sore__section_5--ttl ws u-d-n-pc">
                 自分たちの目で価値を見極め、<br>
                 正しい査定額をご提示します。

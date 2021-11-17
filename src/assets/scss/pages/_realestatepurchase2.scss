@@ -177,6 +177,10 @@
 		background: linear-gradient(to right, #003782, #0059b6) !important;
 		padding-top: 165px;
 
+		&::after {
+			background: linear-gradient(to right, #003782, #0059b6) !important;
+		}
+
 		@include is-sp {
 			padding-top: 60px;
 
@@ -246,15 +250,29 @@
 			}
 		}
 
+		.bg_21 {
+			top: 97px !important;
+		}
+
+		.sect_2__box-big-new {
+			top: 31px !important;
+		}
+
 		.sect_5__inner-realestate {
 			padding-bottom: 0;
+			padding-top: 80px !important;
+
+			@include is-max(900px) {
+				padding-top: 126px !important;
+			}
 
 			@include is-max(770px) {
-				padding-top: 260px !important;
+				padding-top: 162px !important;
 			}
 
 			@include is-sp {
 				padding-top: 0 !important;
+				padding-bottom: 66px !important;
 			}
 
 			.sect_5__inner-realestate--left {
@@ -269,11 +287,17 @@
 				}
 			}
 
-			.sore__section_5--text {
+			.sect_5__inner-realestate--right {
+				@include is-sp {
+					width: 100% !important;
+					margin: unset !important;
+				}
+			}
 
-                @include is-max(1025px) {
-                    padding-right: 53px;
-                }
+			.sore__section_5--text {
+				@include is-max(1025px) {
+					padding-right: 53px;
+				}
 
 				@include is-max(890px) {
 					padding-right: 0;
@@ -284,13 +308,17 @@
 				@include is-max(770px) {
 					font-size: 1.34vw;
 				}
+				
 			}
 
 			.sore__section_5 .txt_small {
 				@include is-max(770px) {
 					font-size: 3.1vw !important;
 				}
+				
 			}
+
+			
 
 			.sore__section_5--ttl {
 				line-height: 26px;
@@ -304,50 +332,262 @@
 				}
 			}
 		}
+
+		.pt103 {
+			@include is-sp {
+				padding-top: 103px !important;
+			}
+		}
 	}
 
 	&_s7 {
+		position: relative !important;
+		@include is-sp {
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				top: -3px;
+				height: 30px;
+				clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+				background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+			}
+		}
+
 		.sect_6__inner-realestate--left {
 			padding-left: 84px;
 
-            @include is-max(1025px) {
-                padding-left: 55px;
-            }
+			@include is-max(1025px) {
+				padding-left: 55px;
+			}
 
-            @include is-max(770px) {
-                padding-left: 20px;
-            }
+			@include is-max(770px) {
+				padding-left: 20px;
+			}
 
-            @include is-sp {
-                padding-left: 0;
-            }
+			@include is-sp {
+				padding-left: 0;
+			}
 
-            span {
-                display: inline-block;
-                padding-top: 20px;
+			span {
+				display: inline-block;
+				padding-top: 20px;
 
-                @include is-sp {
-                    padding-top: 0;
-                    letter-spacing: 0.12em;
-                }
-            }
+				@include is-sp {
+					padding-top: 0;
+					letter-spacing: 0.12em;
+					display: inline;
+				}
+			}
 		}
 
-        .txt_ttl {
-            span {
-                @include is-sp {
-                    @include font-line(13.5);
-                }
-            }
-        }
+		.sect_6__inner-realestate--right {
+			@include is-sp {
+				width: 100% !important;
+				margin: unset !important;
+			}
+		}
 
-        &--text {
-            padding-top: 10px !important;
+		.txt_ttl {
+			padding-top: 100px;
+			span {
+				@include is-sp {
+					@include font-line(13.5);
+				}
+			}
+		}
 
-            @include is-sp {
-                letter-spacing: 0.12em !important;
-            }
-        }
+		&--text {
+			padding-top: 10px !important;
+
+			@include is-sp {
+				letter-spacing: 0.12em !important;
+				line-height: 22.5px;
+			}
+		}
+	}
+
+	&_s8 {
+		background-color: #fff;
+		padding: 160px 0 150px 0;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: -3px;
+			height: 60px;
+			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
+			background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+
+			@include is-sp {
+				bottom: -29px;
+				height: 30px;
+			}
+		}
+
+		.content {
+			&--ttl {
+				@include font-line(20);
+				letter-spacing: 0.18em;
+				line-height: 1;
+				color: #2d2319;
+				font-family: yu-mincho-pr6n, sans-serif;
+				font-weight: 500;
+
+				@include is-max(440px) {
+					font-size: 4.3vw;
+				}
+			}
+
+			&--title {
+				@include font-line(30);
+				letter-spacing: 0.18em;
+				line-height: 1;
+				color: #2582c7;
+				font-family: yu-mincho-pr6n, sans-serif;
+				font-weight: 500;
+				padding-top: 17px;
+
+				@include is-sp {
+					line-height: 37.5px;
+					text-align: center;
+					letter-spacing: 0.15em;
+					padding-top: 10px;
+				}
+
+				@include is-max(322px) {
+					white-space: nowrap;
+				}
+			}
+		}
+
+		.main-content {
+			.row {
+				display: flex;
+				// justify-content: space-between;
+				align-items: center;
+
+				@include is-sp {
+					flex-wrap: wrap;
+				}
+
+				.col1 {
+					padding-top: 60px;
+					width: calc(100% - 164px);
+					padding-right: 20px;
+
+					@include is-sp {
+						padding-right: 0;
+						width: 100%;
+						padding-top: 35px;
+
+						img {
+							width: 100% !important;
+						}
+					}
+
+					.text {
+						background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+						color: #fff;
+						padding: 30.5px 22.5px;
+						margin-top: -3px;
+						position: relative;
+						z-index: 20;
+
+						p {
+							@include font-line(23);
+							letter-spacing: 0.18em;
+							line-height: 38px;
+							font-family: yu-mincho-pr6n, sans-serif;
+							font-weight: 500;
+
+							&:last-child {
+								@include font-line(13.5);
+								line-height: 22px;
+								padding-top: 15px;
+							}
+						}
+					}
+				}
+
+				.col2 {
+					width: 134px;
+					position: relative;
+
+					@include is-max(770px) {
+						width: 13%;
+						padding-top: 20px;
+					}
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.center {
+			text-align: center;
+
+			a {
+				margin: 25px auto 0;
+			}
+		}
+
+		.vertical_txt3 {
+			color: #fff;
+			writing-mode: vertical-lr;
+			position: absolute;
+			top: 25px;
+			left: 98px;
+			white-space: nowrap;
+
+			@include is-sp {
+				left: 35px;
+			}
+
+			p {
+				border: 1px solid #84aac9;
+				@include font-line(17);
+				letter-spacing: 0.18em;
+				font-family: yu-mincho-pr6n, sans-serif;
+				line-height: 26px;
+				background-color: #fff;
+				color: #2581c6;
+				font-weight: 500;
+
+				@include is-sp {
+					font-size: 3.2vw;
+					line-height: 25px;
+				}
+
+				&:first-child {
+					display: inline-block;
+					padding-top: 14px;
+
+					@include is-sp {
+						height: unset;
+						display: inline-block;
+					}
+				}
+
+				&:last-child {
+					padding-top: 14px;
+					display: block;
+					padding-bottom: 10px;
+				}
+			}
+		}
+
+		.l134 {
+			left: 134px;
+		}
+
+		.t80 {
+			top: 80px;
+		}
 	}
 
 	.ws {
@@ -453,6 +693,6 @@
 	.hr7 {
 		left: 20px;
 		bottom: 7%;
-        top: unset;
+		top: unset;
 	}
 }
