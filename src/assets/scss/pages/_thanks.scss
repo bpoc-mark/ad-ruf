@@ -1,35 +1,99 @@
-.contact-thks{
-    .sect_1{
-        background-image: linear-gradient(to right, #2579bf , #2593d5);
-        padding: 100px 0 20px 0;
-    }
+.contact-thks {
+	position: relative;
 
-    &__inner{
-        text-align: center;
+	.c-banner {
+		.bread_crumps {
 
-        &--txt{
-            font-family: yu-mincho-pr6n, sans-serif;
-            font-weight: 600;
-            color: #fff;
-            letter-spacing: 0.2em;
-            padding: 0 0 15px 0;
-            @include font-line(20);
-        }
+			.txt {
+				@include is-max(435px) {
+					font-size: 2.8vw;
+					letter-spacing: -0.1em;
+				}
+			}
+		}
+	}
 
-        &--desc{
-            font-family:cross-platform-yu-gothic;
-            font-weight: 500;
-            color: #fff;
-            letter-spacing: 0.2em;
-            @include font-line(13);
-            padding: 0 0 26px 0;
-        }
-    }
+	.sect_1 {
+		background: linear-gradient(to right, #003782, #0059b6);
+		padding: 100px 0 20px 0;
+		clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%) !important;
+		margin-top: -100px;
+		padding-bottom: 101px;
+		padding-top: 155px !important;
 
-    .c-buttonCase{
-        margin-top: 70px;
-        .txt{
-            letter-spacing: 0.2em;
-        }
-    }
+		@include is-sp {
+			padding-top: 145px !important;
+			padding-bottom: 30px;
+		}
+
+		.l-wrap {
+			max-width: 1200px;
+		}
+	}
+
+	&__inner {
+		position: relative;
+		text-align: center;
+
+		&--bg-line {
+			display: none;
+
+			@include is-sp {
+				display: block;
+				position: absolute;
+				right: 0;
+				top: -45%;
+				width: 176px;
+				height: auto;
+				z-index: -1;
+			}
+		}
+
+		.br-sp {
+			display: none;
+
+			@include is-sp {
+				display: block;
+			}
+		}
+
+		&--txt {
+			font-family: yu-mincho-pr6n, sans-serif;
+			font-weight: 600;
+			color: #fff;
+			letter-spacing: 0.2em;
+			padding: 0 0 15px 0;
+			@include font-line(20);
+
+			@include is-sp {
+				letter-spacing: 0.1em;
+			}
+		}
+
+		&--desc {
+			font-family: cross-platform-yu-gothic;
+			font-weight: 500;
+			color: #fff;
+			letter-spacing: 0.2em;
+			@include font-line(13);
+			padding: 0 0 26px 0;
+
+			@include is-sp {
+				padding: 0 0 50px 0;
+			}
+
+			@include is-max(385px) {
+				font-size: 3.3vw;
+			}
+
+		}
+	}
+
+	.c-buttonCase {
+		margin-top: 55px;
+
+		.txt {
+			letter-spacing: 0.2em;
+		}
+	}
 }
