@@ -234,7 +234,7 @@ $imagedir = get_template_directory_uri();
                         </div>
 
                         <div class="btm-txt">
-                            <p>「 <a href="#">プライバシーポリシー</a>」をご確認いただき、同意のうえお問い合わせください。</p>
+                            <p>「 <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">プライバシーポリシー</a>」をご確認いただき、同意のうえお問い合わせください。</p>
 
                             <div class="chck">
                                 <input type="checkbox" id="" name="" value="">
