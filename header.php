@@ -30,9 +30,9 @@
                     <div class="nav-links">
                         <div class="nav-links-ul">
                             <ul class="nav-links-ul-01">
-                                <li class="nav-links-ul-01-link submenu-clk">
+                                <li class="nav-links-ul-01-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="<?php echo esc_url(home_url('/')); ?>">会社概要</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('about')) ?>">会社概要</a>
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
@@ -48,7 +48,7 @@
                                 </li>
                                 <li class="nav-links-ul-01-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="#">プライバシーポリシー</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">プライバシーポリシー</a>
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
@@ -63,7 +63,7 @@
                                 </li>
                             </ul>
                             <ul class="nav-links-ul-02">
-                                <li class="nav-links-ul-02-link submenu-clk">
+                                <li class="nav-links-ul-02-link">
                                     <!-- <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt=""> -->
                                     <a href="<?php echo esc_url(home_url('/')); ?>">TOP
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
