@@ -1,20 +1,75 @@
 .contact-frm {
+	position: relative;
+
+	.c-banner {
+		padding: 0 0 80px 0;
+		background: linear-gradient(to right, #2079bd, #1e91d2);
+
+		@include is-max(400px) {
+			padding: 0 0 95px 0;
+		}
+
+		&--ttl {
+			line-height: 34px;
+
+			p {
+				@include is-max(400px) {
+					&:nth-child(1) {
+						line-height: 1.25em;
+					}
+				}
+
+				@include is-max(430px) {
+					&:nth-child(1) {
+						font-size: 7vw;
+					}
+				}
+			}
+
+			.br-sp {
+				display: none;
+
+				@include is-sp {
+					display: block;
+				}
+			}
+
+		}
+	}
+
 	input {
-		font-family: cross-platform-yu-gothic;
+		font-family: cross-platform-yu-gothic, sans-serif;
 		font-weight: 500;
 		letter-spacing: 0.28em;
 	}
+
 	.sect_1 {
-		background-image: linear-gradient(to right, #2579bf, #2593d5);
+		background: linear-gradient(to right, #003782, #0059b6);
 		padding: 100px 0 20px 0;
+		clip-path: polygon(0 2.5%, 100% 0, 100% 100%, 0% 100%);
+		margin-top: -100px;
+		padding-bottom: 101px;
+		padding-top: 80px;
+
+		@include is-sp {
+			background: linear-gradient(to right, #fff, #fff);
+			padding-bottom: 30px;
+		}
+
+		.l-wrap {
+			max-width: 1110px;
+			padding-right: 0;
+			padding-left: 0;
+		}
 	}
 
 	.text {
 		width: 100%;
-		
+
 		&:nth-of-type(10) {
 			width: unset;
 		}
+
 		&:nth-of-type(11) {
 			width: unset;
 		}
@@ -23,7 +78,7 @@
 	&__bg-white {
 		background-color: #fff;
 		margin: 11px 0 0 0;
-		padding: 30px;
+		padding: 30px 30px 90px 30px;
 
 		@include is-sp {
 			padding: 15px;
@@ -37,7 +92,7 @@
 		&--ttl {
 			@include font-line(15);
 			font-weight: 700;
-			font-family: cross-platform-yu-gothic;
+			font-family: cross-platform-yu-gothic, sans-serif;
 			letter-spacing: 0.32em;
 			color: #258acf;
 			text-align: center;
@@ -46,7 +101,7 @@
 
 	&__desc {
 		@include font-line(11);
-		font-family: cross-platform-yu-gothic;
+		font-family: cross-platform-yu-gothic, sans-serif;
 		font-weight: 500;
 		text-align: center;
 		color: #333333;
@@ -57,7 +112,7 @@
 	&__req {
 		&--txt {
 			@include font-line(12);
-			font-family: cross-platform-yu-gothic;
+			font-family: cross-platform-yu-gothic, sans-serif;
 			font-weight: 500;
 			color: #258acf;
 			text-align: left;
@@ -69,490 +124,703 @@
 	}
 
 	.form {
-		padding: 0 60px;
+		padding: 0 4vw;
 
 		@include is-sp {
 			padding: 0;
 		}
 	}
 
-	&__inner-row {
+	&__flex {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		position: relative;
+		z-index: 1;
+		padding: 20px 0;
 
-		@include is-sp {
-			flex-wrap: wrap;
-		}
+		&::before {
+			background-color: #e2f3fb;
+			position: absolute;
+			content: "";
+			width: 34%;
+			height: 100%;
+			left: 0;
+			z-index: -1;
 
-		div {
-			&:nth-of-type(1) {
-				width: 37%;
-				text-align: center;
-				padding: 20px 0;
-				background-color: #e2f3fb;
-				font-family: cross-platform-yu-gothic;
-				font-weight: 700;
-				color: $color-text01;
-
-				@include is-sp {
-					width: 100%;
-					line-height: 1;
-					padding: 15px 0;
-				}
+			@include is-sp {
+				background-color: #fff;
+				content: none;
 			}
 
-			&:nth-of-type(2) {
-				width: 30%;
-				display: flex;
-				align-items: center;
-				justify-content: flex-start;
-
-				@include is-sp {
-					width: 100%;
-					margin-top: 20px;
-					margin-bottom: 17px;
-				}
-			}
-
-			&:nth-of-type(3) {
-				width: 30%;
-				display: flex;
-				align-items: center;
-				justify-content: space-around;
-
-				@include is-sp {
-					width: 100%;
-					margin-bottom: 35px;
-				}
-			}
 		}
 
-		.bg-lg {
-			background-color: red;
-			padding: 50px 0;
-		}
-
-		&:nth-of-type(2) {
+		&:nth-child(1) {
 			border-top: 1px solid #258acf;
 			border-bottom: 1px solid #258acf;
-		}
-		&:nth-of-type(3) {
-			border-bottom: 1px solid #258acf;
-		}
-		&:nth-of-type(4) {
-			border-bottom: 1px solid #258acf;
-			div {
-				&:nth-child(2) {
-					width: 60% !important;
 
-					@include is-sp {
-						width: 100%;
-					}
-				}
-
-				input {
-					width: 100% !important;
-				}
+			@include is-sp {
+				flex-direction: column;
 			}
-		}
-		&:nth-of-type(5) {
-			border-bottom: 1px solid #258acf;
-			div {
-				&:nth-child(2) {
-					width: 60%;
 
-					@include is-sp {
-						width: 100%;
-					}
-				}
-
-				input {
+			.col-1 {
+				@include is-sp {
 					width: 100%;
+					background-color: #e2f3fb;
+					padding: 5px 0;
+				}
+
+				label {
+					padding-left: 0;
 				}
 			}
-		}
-		&:nth-of-type(6) {
-			border-bottom: 1px solid #258acf;
-			div {
-				&:nth-child(2) {
-					width: 60%;
-					display: block;
 
-					@include is-sp {
-						width: 100%;
-					}
-				}
-				input {
+			.col-2 {
+				@include is-sp {
+					flex-direction: column;
 					width: 100%;
+					padding: 20px 0;
 				}
-			}
 
-			small {
-				display: flex;
-				align-items: center;
+				div {
 
-				&:nth-child(1) {
-					margin: 0 0 10px 0;
+					&:nth-child(1),
+					&:nth-child(2) {
+						@include is-sp {
+							width: 100%;
+						}
+					}
+
+					&:nth-child(1) {
+						@include is-sp {
+							padding-bottom: 20px;
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
 				}
 			}
 
 			label {
-				width: 90px;
+				padding-left: 30px;
 			}
 		}
-		&:nth-of-type(7) {
+
+		&:nth-child(2) {
 			border-bottom: 1px solid #258acf;
-			div {
-				&:nth-child(2) {
-					width: 60%;
 
-					@include is-sp {
-						width: 100%;
-					}
-				}
+			@include is-sp {
+				flex-direction: column;
+				padding: 0;
 			}
 
-			input {
-				width: 100%;
-			}
-
-			span {
-				padding: 0 5px;
-				display: block;
-			}
-		}
-		&:nth-of-type(8) {
-			border-bottom: 1px solid #258acf;
-			flex-wrap: wrap;
-
-			select {
-				width: 165px;
-				border: 1px solid #258acf;
-				padding: 10px;
-				border-radius: 0;
-
+			.col-1 {
 				@include is-sp {
-					margin-left: 0px;
+					width: 100%;
+					background-color: #e2f3fb;
+					padding: 5px 0;
+				}
+
+				label {
+					padding-left: 0;
 				}
 			}
 
-			div {
-				&:nth-child(1) {
-					padding: 120px 0 140px 0;
-
-					@include is-sp {
-						padding: 15px 0;
-					}
+			.col-2 {
+				@include is-sp {
+					width: 100%;
+					flex-direction: column;
+					padding: 20px 0;
 				}
 
-				&:nth-child(2) {
-					flex-wrap: wrap;
-					width: 60% !important;
+				div {
 
-					@include is-sp {
-						width: 100% !important;
-					}
-
-					.sp-button {
-						width: 30%;
-						display: none;
-						margin-left: 30px;
-
+					&:nth-child(1),
+					&:nth-child(2) {
 						@include is-sp {
 							width: 100%;
-							margin-left: 0;
-							margin-top: 15px;
-							display: block;
-							margin-bottom: 20px;
-						}
 
-						p {
-							color: #fff;
-							border-radius: 10px;
-							background-color: #258acf;
-							border: 1px solid #81b3d4;
-							justify-content: center;
-							padding: 12px 0;
-							text-align: center;
-							line-height: 1;
-						}
-					}
-
-					small {
-						display: flex;
-						align-items: center;
-						width: 100%;
-
-						&:last-child {
-							margin-top: 10px;
 						}
 
 						&:nth-child(1) {
-							display: flex;
-							align-items: center;
-							justify-content: flex-start;
-							width: 100%;
-							margin-bottom: 10px;
-
 							@include is-sp {
-								flex-wrap: wrap;
-							}
-
-							label {
-								width: 120px;
-
-								@include is-sp {
-									width: 80px;
-								}
-							}
-
-							input {
-								width: 110px !important;
-							}
-
-							// span {
-							// 	padding: 0 5px;
-							// }
-
-							a {
-								width: 30%;
-								display: block;
-								margin-left: 30px;
-								color: #fff;
-								border-radius: 10px;
-								background-color: #258acf;
-								border: 1px solid #81b3d4;
-								justify-content: center;
-								padding: 12px 0;
-								text-align: center;
-								line-height: 1;
-
-								@include is-sp {
-									width: 100%;
-									margin-left: 0;
-									margin-top: 15px;
-								}
+								padding-bottom: 20px;
 							}
 						}
-						&:nth-child(2) {
-							width: 100%;
-							margin-bottom: 10px;
-							margin-top: 10px;
-							margin-left: -10px;
+					}
 
-							@include is-sp {
-								margin-bottom: 0;
-								margin-top: 0;
-								margin-left: 0;
-							}
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
+				}
 
-							label {
-								width: 110px;
+				label {
+					padding-left: 30px;
+				}
+			}
+		}
 
-								@include is-sp {
-									width: 70px;
-								}
-							}
-						}
-						&:nth-child(3) {
-							width: 100%;
-							margin-bottom: 10px;
-						}
-						&:nth-child(4) {
-							width: 100%;
-							margin-bottom: 10px;
-						}
-						&:nth-child(5) {
-							width: 100%;
-							margin-bottom: 10px;
-						}
+		&:nth-child(3) {
+			border-bottom: 1px solid #258acf;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					width: 100%;
+					background-color: #e2f3fb;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				@include is-sp {
+					padding-top: 20px;
+					width: 100%;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 100%;
+						padding-left: 30px;
 
 						@include is-sp {
-							width: 100%;
-							margin-top: 10px;
-						}
-
-						small {
-							width: 85% !important;
-
-							@include is-sp {
-								width: 100% !important;
-							}
-						}
-
-						label {
-							width: 110px;
-							font-family: cross-platform-yu-gothic;
-							text-align: left;
-
-							@include font-line(13);
-
-							@include is-sp {
-								width: 70px;
-							}
-						}
-
-						.text {
-							width: unset !important;
+							padding-left: 0;
 						}
 					}
 				}
 			}
 		}
-		&:nth-of-type(9) {
-			.bg-h {
-				background-color: #e2f3fb !important;
-				padding: 20px 0 !important;
-			}
+
+		&:nth-child(4) {
 			border-bottom: 1px solid #258acf;
-			div {
-				&:nth-child(2) {
-					width: 60%;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					width: 100%;
+					background-color: #e2f3fb;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				@include is-sp {
+					padding-top: 20px;
+					width: 100%;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 100%;
+						padding-left: 30px;
+
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
+				}
+			}
+		}
+
+		&:nth-child(5) {
+			border-bottom: 1px solid #258acf;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					background-color: #e2f3fb;
+					width: 100%;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				flex-direction: column;
+
+				@include is-sp {
+					padding-top: 20px;
+					width: 100%;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 100%;
+						padding-left: 30px;
+						padding-bottom: 10px;
+
+						@include is-sp {
+							padding-left: 0;
+							padding-bottom: 20px;
+						}
+					}
+
+					&:nth-child(2) {
+						width: 100%;
+						padding-left: 30px;
+
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
+				}
+
+				label {
+					padding-right: 15px;
+					width: 115px;
+				}
+			}
+		}
+
+		&:nth-child(6) {
+			border-bottom: 1px solid #258acf;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					background-color: #e2f3fb;
+					width: 100%;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				justify-content: center;
+
+				@include is-sp {
+					width: 100%;
+					padding-top: 20px;
+					justify-content: space-between;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 26%;
+
+						@include is-sp {
+							width: 30%;
+						}
+					}
+
+					&:nth-child(3) {
+						width: 26%;
+
+						@include is-sp {
+							width: 30%;
+						}
+					}
+
+					&:nth-child(5) {
+						width: 26%;
+
+						@include is-sp {
+							width: 30%;
+						}
+					}
+				}
+
+				span {
+					width: 30px;
+				}
+			}
+		}
+
+		&:nth-child(7) {
+			border-bottom: 1px solid #258acf;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					background-color: #e2f3fb;
+					width: 100%;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				justify-content: center;
+				flex-direction: column;
+				padding-left: 20px;
+
+				@include is-sp {
+					width: 100%;
+					padding-left: 0;
+					padding-top: 20px;
+				}
+
+				.pc-hide {
 					display: block;
 
 					@include is-sp {
-						width: 100%;
+						display: none;
 					}
 				}
-				select {
-					width: 165px;
-					padding: 10px;
-					border: 1px solid #258acf;
+
+				.sp-show {
+					display: none;
 
 					@include is-sp {
+						background-color: #258acf;
+						display: block;
 						width: 100%;
+						padding: 10px 0;
+						border-radius: 10px;
+						margin-bottom: 20px;
+						color: #ffffff;
+						font-family: cross-platform-yu-gothic, sans-serif;
+						@include font-line(13);
+						letter-spacing: 0.28em;
 					}
 				}
-			}
 
-			small {
-				display: flex;
-				align-items: center;
+				.row-1 {
+					width: 100%;
+					padding-bottom: 10px;
 
-				&:nth-child(2) {
-					margin: 0 0 10px 0;
-				}
-				&:nth-of-type(3) {
-					margin: 0 0 10px 0;
-				}
-				&:nth-of-type(4) {
-					margin: 0 0 10px 0;
-				}
-			}
+					@include is-sp {
+						padding-bottom: 15px;
+					}
 
-			label {
-				width: 90px;
+					div {
+						&:nth-child(1) {
+							padding-right: 20px;
+							width: auto;
+						}
+
+						&:nth-child(2) {
+							width: 26%;
+						}
+
+						&:nth-child(4) {
+							width: 26%;
+						}
+
+						&:nth-child(6) {
+							width: 26%;
+
+							p {
+								border-radius: 10px;
+								background-color: #258acf;
+								color: #fff;
+								text-align: center;
+								padding: 7px 0;
+							}
+						}
+					}
+				}
+
+				.row-2 {
+					width: 100%;
+					padding-bottom: 10px;
+					display: flex;
+
+					@include is-sp {
+						padding-bottom: 15px;
+					}
+
+					div {
+						&:nth-child(1) {
+							padding-right: 20px;
+							width: auto;
+						}
+
+						&:nth-child(2) {
+							width: 26%;
+
+							@include is-sp {
+								width: 45%;
+							}
+						}
+					}
+				}
+
+				.row-3 {
+					width: 100%;
+					display: flex;
+					padding-bottom: 10px;
+
+					@include is-sp {
+						padding-bottom: 15px;
+					}
+
+					div {
+						&:nth-child(1) {
+							padding-right: 20px;
+							width: auto;
+						}
+
+						&:nth-child(2) {
+							width: 100%;
+						}
+					}
+				}
+
+				.row-4 {
+					width: 100%;
+					display: flex;
+					padding-bottom: 10px;
+
+					@include is-sp {
+						padding-bottom: 15px;
+					}
+
+					div {
+						&:nth-child(1) {
+							padding-right: 20px;
+							width: auto;
+						}
+
+						&:nth-child(2) {
+							width: 100%;
+						}
+					}
+				}
+
+				.row-5 {
+					width: 100%;
+					display: flex;
+
+					@include is-sp {
+						padding-bottom: 15px;
+					}
+
+					div {
+						&:nth-child(1) {
+							padding-right: 20px;
+							width: auto;
+						}
+
+						&:nth-child(2) {
+							width: 100%;
+						}
+					}
+				}
+
+				span {
+					width: 30px;
+				}
+
+				.hidden {
+					visibility: hidden;
+				}
 			}
 		}
-		&:nth-of-type(10) {
+
+		&:nth-child(8) {
 			border-bottom: 1px solid #258acf;
 
-			div {
-				&:nth-child(1) {
-					width: 37%;
-					padding: 60px 0;
+			@include is-sp {
+				flex-direction: column;
+				padding-top: 0;
+			}
 
-					@include is-sp {
-						width: 100%;
-						padding: 15px 0;
-					}
-				}
-
-				&:nth-child(2) {
-					width: 60%;
-
-					@include is-sp {
-						width: 100%;
-					}
+			.col-1 {
+				@include is-sp {
+					background-color: #e2f3fb;
+					width: 100%;
+					padding: 5px 0;
 				}
 			}
 
-			textarea {
-				width: 100%;
-				border: 1px solid #2579bf;
-				padding: 20px 0 0 20px;
-				height: 90px;
+			.col-2 {
+				justify-content: flex-start;
+				padding-left: 20px;
+
+				@include is-sp {
+					padding-top: 20px;
+					padding-left: 0;
+					width: 100%;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 28%;
+
+						@include is-sp {
+							width: 100%;
+						}
+					}
+				}
 			}
 		}
 
-		.label-txt {
-			width: 40px;
+		&:nth-child(9) {
+			border-bottom: 1px solid #258acf;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			.col-1 {
+				@include is-sp {
+					background-color: #e2f3fb;
+					width: 100%;
+					padding: 5px 0;
+				}
+			}
+
+			.col-2 {
+				justify-content: flex-start;
+				padding-left: 20px;
+
+				@include is-sp {
+					padding-left: 0;
+					padding-top: 20px;
+					width: 100%;
+				}
+
+				div {
+					&:nth-child(1) {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		&:nth-child(1),
+		&:nth-child(2),
+		&:nth-child(3),
+		&:nth-child(4),
+		&:nth-child(5),
+		&:nth-child(6),
+		&:nth-child(7),
+		&:nth-child(8),
+		&:nth-child(9) {
+			@include is-sp {
+				border-top: none;
+				border-bottom: none;
+			}
 		}
 
 		input {
 			width: 100%;
+			color: #000;
 			padding: 10px;
 			border: 1px solid #258acf;
 		}
 
-		.bg-h {
-			background-color: #e2f3fb !important;
-			padding: 50px 0 !important;
+		select {
+			width: 100%;
+			color: #d4d4d4;
+			padding: 10px;
+			border: 1px solid #258acf;
+		}
 
-			@include is-sp {
-				padding: 15px 0 !important;
-			}
+		textarea {
+			width: 100%;
+			color: #000;
+			padding: 10px;
+			border: 1px solid #258acf;
+			resize: none;
+			text-align: left;
+		}
+
+		textarea::-webkit-input-placeholder {
+			color: #d4d4d4;
+		}
+
+		::placeholder {
+			/* Most modern browsers support this now. */
+			color: #d4d4d4;
+		}
+
+		label {
+			letter-spacing: 0.20em;
+			text-align: left;
+			@include font-line(13);
+			font-family: cross-platform-yu-gothic, sans-serif;
 		}
 	}
 
-	&__privacy {
-		text-align: center;
-		padding-top: 60px;
-		padding-bottom: 45px;
+	.btm-txt {
+		padding: 55px 0 0 0;
 
-		a {
-			color: $color-text01;
-			font-family: cross-platform-yu-gothic;
-			font-weight: 500;
-
-			@include font-line(13);
+		@include is-sp {
+			padding: 15px 0 0 0;
 		}
 
-		&--agrmt {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			padding-top: 40px;
+		p {
+			@include font-line(13);
 
 			a {
+				color: #0063ff;
+				text-decoration: underline;
 				@include font-line(13);
 			}
 		}
+
+		.chck {
+			padding: 30px 0 0 0;
+
+			label {
+				color: #258acf;
+			}
+		}
+
+		.btn-confirm {
+			padding: 40px 0 0 0;
+
+			.txt {
+				color: #fff;
+				@include font-line(14);
+			}
+
+			.btn {
+				background-color: #258acf;
+			}
+
+		}
+
 	}
 
-	.wpcf7-form-control-wrap {
-		text-align: left;
-		display: block;
-	}
+	.col-1 {
+		width: 34%;
 
-	.width_100 {
-		width: 100% !important;
-	}
-
-	.cont_row1 {
-		background: #e2f3fb;
-	}
-
-	.ex1 {
-		width: unset;
-	}
-
-	.email {
-		width: 100% !important;
-	}
-
-	.w_60 {
-		width: 60% !important;
-
-		@include is-sp {
-			width: 100% !important;
+		label {
+			color: #258acf;
+			font-weight: 700;
 		}
 	}
 
-	span,
-	.wpcf7-form-control-wrap,
-	.content {
-		width: 100%;
+	.col-2 {
+		width: 66%;
+		display: flex;
+		align-items: center;
+
+		div {
+
+			&:nth-child(1),
+			&:nth-child(2) {
+				display: flex;
+				align-items: center;
+				width: 50%;
+			}
+
+			label {
+				width: 100px;
+			}
+		}
 	}
+
+
+
 }

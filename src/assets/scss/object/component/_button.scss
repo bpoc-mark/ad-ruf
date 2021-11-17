@@ -456,6 +456,10 @@
 	text-align: center;
 	margin-top: 95px;
 
+	@include is-sp{
+		margin-top: 50px;
+	}
+
 	.txt {
 		color: #95c6e7;
 		letter-spacing: 0.395em;
