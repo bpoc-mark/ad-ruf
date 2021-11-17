@@ -1525,7 +1525,7 @@ template{display:none}
 .real_estate_purchase .sect_1__headers .ttl_small{font-family:yu-mincho-pr6n,sans-serif;font-size:1.25rem;line-height:1.75;color:#fff;line-height:0;letter-spacing:.18em}
 .real_estate_purchase .sect_1 .header_subtext{font-family:yu-mincho-pr6n,sans-serif;font-size:.8125rem;line-height:2;color:#fff;letter-spacing:.2em}
 .real_estate_purchase .sect_1__box-sm{position:absolute;top:117px;right:138px}
-.real_estate_purchase .sect_1__box-big{position:absolute;left:0;top:163px}
+.real_estate_purchase .sect_1__box-big{position:absolute;left:-6%;top:63px;width:265px}
 .real_estate_purchase .sect_1 p{position:relative;z-index:150}
 .real_estate_purchase .sect_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#2868b1),to(#3b88ca));background:linear-gradient(to right,#2868b1,#3b88ca)}
 .real_estate_purchase .sect_2__box-big-new{position:absolute;left:46%;top:18px}
@@ -2053,6 +2053,7 @@ template{display:none}
 .mp__section_2--main-content .row .col:first-child{width:52%}
 .oe-main-content .row .col{width:45%}
 .pp__bg_2{display:none}
+.real_estate_purchase .sect_1__box-big{display:block}
 .real_estate_purchase .sect_8 .hide-sp{display:none}
 .real_estate_purchase .sect_8 .qtext{font-size:1rem;line-height:1.5}
 .sore .sect_1__box-big{display:block}

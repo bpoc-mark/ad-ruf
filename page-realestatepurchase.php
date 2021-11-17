@@ -37,13 +37,13 @@ $imagedir = get_template_directory_uri();
                     創業以来20年で500棟以上の売買をサポートしてきた豊富な実績により培ってきたノウハウをもとに、<br class="u-d-n-sp">
                     それぞれのお客様にベストアンサーを提案します。
                 </p>
+                <div class="sect_1__box-big">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
+                </div>
             </div>
         </div>
         <div class="sect_1__box-sm">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/groupbusiness/rect_small.png" alt="">
-        </div>
-        <div class="sect_1__box-big">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
         </div>
     </section>
     <section class="sect_2">

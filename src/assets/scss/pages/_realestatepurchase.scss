@@ -165,8 +165,13 @@
 
 		&__box-big {
 			position: absolute;
-			left: 0;
-			top: 163px;
+			left: -6%;
+			top: 63px;
+			width: 265px;
+			@include is-max(1000px){
+				display: block;
+			}
+
 			@include is-max(750px) {
 				display: none;
 			}
