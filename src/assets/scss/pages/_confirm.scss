@@ -1,5 +1,6 @@
-.contact-frm {
+.contact-confrm {
 	position: relative;
+
 
 	.c-banner {
 		padding: 0 0 80px 0;
@@ -47,7 +48,7 @@
 	.sect_1 {
 		background: linear-gradient(to right, #003782, #0059b6);
 		padding: 100px 0 20px 0;
-		clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(0 2.5%, 100% 0, 100% 100%, 0% 100%);
 		margin-top: -100px;
 		padding-bottom: 101px;
 		padding-top: 80px;
@@ -77,7 +78,7 @@
 	&__bg-white {
 		background-color: #fff;
 		margin: 11px 0 0 0;
-		padding: 30px 30px 90px 30px;
+		padding: 75px 30px 90px 30px;
 
 		@include is-sp {
 			margin: 30px 0 0 0;
@@ -136,7 +137,7 @@
 		align-items: center;
 		position: relative;
 		z-index: 1;
-		padding: 20px 0;
+		padding: 10px 0;
 
 		&::before {
 			background-color: #e2f3fb;
@@ -752,10 +753,10 @@
 	}
 
 	.btm-txt {
-		padding: 55px 0 0 0;
+		padding: 15px 0 0 0;
 
 		@include is-sp {
-			padding: 15px 0 0 0;
+			padding: 0 0 0 0;
 		}
 
 		p {
@@ -776,8 +777,39 @@
 			}
 		}
 
+		.btns-flex {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            max-width: 630px;
+            margin: 0 auto;
+            width: 100%;
+
+            @include is-sp{
+                flex-direction: column-reverse;
+            }
+		}
+
 		.btn-confirm {
 			padding: 40px 0 0 0;
+			width: 100%;
+
+			a {
+				width: 100%;
+			}
+
+			&:nth-child(1) {
+                margin-right: 45px;
+
+                @include is-sp{
+                    margin-right: 0;
+                    padding: 35px 0 10px 0;
+                }
+
+				.txt {
+					color: #258acf;
+				}
+			}
 
 			.txt {
 				color: #fff;
@@ -788,6 +820,14 @@
 				background-color: #258acf;
 			}
 
+			.white {
+				background-color: #fff;
+			}
+		}
+
+		.c-buttonCase {
+			width: 100%;
+            margin: auto;
 		}
 
 	}
