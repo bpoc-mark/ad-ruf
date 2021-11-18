@@ -489,11 +489,25 @@ $imagedir = get_template_directory_uri();
 
     <section class="rep2_s8">
         <div class="l-wrap">
+            <img class="s8_bg u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+            <img class="s8_bg2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/s8_bg2.png" alt="">
+            <img class="s8_bg3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/s8_bg3.png" alt="">
+            <img class="u-d-n-pc sp_bg6" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
             <div class="content">
                 <p class="content--ttl center">丸の内ルーフに買取を依頼した場合の</p>
                 <p class="content--title center">メリットを<br class="u-d-n-pc">ご説明いたします。</p>
 
                 <div class="main-content">
+                    <div class="sp_img u-d-n-pc">
+                        <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img10.png" alt="">
+                        <div class="vertical_txt3 t51 l58">
+                            <p>オーナー様をサポートします。</p>
+
+                        </div>
+                        <div class="vertical_txt3 l80">
+                            <p>圧倒的スピードでの意思決定で</p>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col col1">
                             <img class="u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9.png" alt="">

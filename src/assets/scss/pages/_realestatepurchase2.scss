@@ -235,6 +235,7 @@
 	}
 
 	&_s6 {
+		overflow: unset !important;
 		&::before {
 			content: "";
 			position: absolute;
@@ -248,6 +249,10 @@
 				top: -29px;
 				height: 30px;
 			}
+		}
+
+		.l-wrap {
+			overflow: hidden;
 		}
 
 		.bg_21 {
@@ -308,17 +313,13 @@
 				@include is-max(770px) {
 					font-size: 1.34vw;
 				}
-				
 			}
 
 			.sore__section_5 .txt_small {
 				@include is-max(770px) {
 					font-size: 3.1vw !important;
 				}
-				
 			}
-
-			
 
 			.sore__section_5--ttl {
 				line-height: 26px;
@@ -352,6 +353,10 @@
 				clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 				background: linear-gradient(to right, #2868b1, #3b88ca) !important;
 			}
+		}
+
+		@include is-sp {
+			padding-top: 100px;
 		}
 
 		.sect_6__inner-realestate--left {
@@ -390,6 +395,10 @@
 
 		.txt_ttl {
 			padding-top: 100px;
+
+			@include is-max(770px) {
+				padding-top: 0;
+			}
 			span {
 				@include is-sp {
 					@include font-line(13.5);
@@ -409,25 +418,62 @@
 
 	&_s8 {
 		background-color: #fff;
-		padding: 160px 0 150px 0;
-		position: relative;
+		padding: 121px 0 150px 0;
 
-		&::after {
-			content: "";
-			position: absolute;
-			width: 100%;
-			bottom: -3px;
-			height: 60px;
-			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
-			background: linear-gradient(to right, #2868b1, #3b88ca) !important;
-
-			@include is-sp {
-				bottom: -29px;
-				height: 30px;
-			}
+		@include is-sp {
+			padding: 121px 0 121px 0;
 		}
 
+		.l-wrap {
+			position: relative;
+		}
+
+		.s8_bg {
+			position: absolute;
+			top: -74px;
+			right: 32px;
+			width: 370px;
+		}
+
+		.s8_bg2 {
+			position: absolute;
+			top: 71px;
+			left: -28px;
+		}
+
+		.s8_bg3 {
+			position: absolute;
+			right: -25px;
+			top: 306px;
+		}
+
+		.sp_bg6 {
+			position: absolute;
+			width: 102px;
+			top: -57px;
+			right: 10px;
+		}
+
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	bottom: -3px;
+		// 	height: 60px;
+		// 	clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
+		// 	background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+
+		// 	@include is-sp {
+		// 		bottom: -29px;
+		// 		height: 30px;
+		// 		display: none;
+		// 	}
+		// }
+
 		.content {
+			position: relative;
+			z-index: 777;
+
 			&--ttl {
 				@include font-line(20);
 				letter-spacing: 0.18em;
@@ -435,6 +481,10 @@
 				color: #2d2319;
 				font-family: yu-mincho-pr6n, sans-serif;
 				font-weight: 500;
+
+				@include is-sp {
+					@include font-line(13.5);
+				}
 
 				@include is-max(440px) {
 					font-size: 4.3vw;
@@ -464,6 +514,24 @@
 		}
 
 		.main-content {
+			position: relative;
+
+			.sp_img {
+				position: absolute;
+				bottom: -39px;
+				z-index: 82;
+				width: 77px;
+				right: 30px;
+
+				.vertical_txt3 {
+					p {
+						font-size: 10px !important;
+						padding: 6px 0 0 0 !important;
+						line-height: 1.6 !important;
+					}
+				}
+			}
+
 			.row {
 				display: flex;
 				// justify-content: space-between;
@@ -474,9 +542,13 @@
 				}
 
 				.col1 {
-					padding-top: 60px;
+					padding-top: 20px;
 					width: calc(100% - 164px);
 					padding-right: 20px;
+
+					img {
+						width: 100%;
+					}
 
 					@include is-sp {
 						padding-right: 0;
@@ -503,10 +575,20 @@
 							font-family: yu-mincho-pr6n, sans-serif;
 							font-weight: 500;
 
+							&:first-child {
+								@include is-max(350px) {
+									font-size: 5vw;
+								}
+							}
+
 							&:last-child {
 								@include font-line(13.5);
 								line-height: 22px;
 								padding-top: 15px;
+
+								@include is-max(350px) {
+									font-size: 3.5vw;
+								}
 							}
 						}
 					}
@@ -533,6 +615,10 @@
 
 			a {
 				margin: 25px auto 0;
+
+				@include is-sp {
+					margin-top: 90px;
+				}
 			}
 		}
 
@@ -585,8 +671,20 @@
 			left: 134px;
 		}
 
+		.l58 {
+			left: 58px;
+		}
+
+		.l80 {
+			left: 80px;
+		}
+
 		.t80 {
 			top: 80px;
+		}
+
+		.t51 {
+			top: 51px;
 		}
 	}
 
@@ -658,6 +756,10 @@
 		@include is-sp {
 			left: 1%;
 		}
+
+		@include is-max(322px) {
+			top: 188px;
+		}
 	}
 
 	.hr3 {
@@ -669,6 +771,10 @@
 		}
 		@include is-sp {
 			left: 1%;
+		}
+
+		@include is-max(322px) {
+			top: 226px;
 		}
 	}
 
@@ -688,6 +794,10 @@
 		left: 21px;
 		bottom: 18%;
 		top: unset;
+
+		@include is-max(350px) {
+			bottom: 22%;
+		}
 	}
 
 	.hr7 {
