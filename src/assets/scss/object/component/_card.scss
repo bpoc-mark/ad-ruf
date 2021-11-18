@@ -702,12 +702,17 @@
 					color: #96bcdb;
 					line-height: 1;
 					padding-top: 5px;
+					font-weight: 400;
+					font-family: century-gothic, sans-serif;
+					letter-spacing: 0.22em;
 				}
 
 				p:last-child {
 					@include font-line(24.78);
 					color: #fff;
 					line-height: 1;
+					font-weight: 700;
+					font-family: century-gothic, sans-serif;
 
 					@include is-sp {
 						@include font-line(27);
@@ -725,7 +730,8 @@
 			letter-spacing: 0.3em;
 			line-height: 25.67px;
 			color: #fff;
-			font-weight: 700;
+			font-weight: 500;
+			font-family: yu-mincho-pr6n, sans-serif;
 
 			@include is-max(980px) {
 				top: 50%;
@@ -742,6 +748,22 @@
 			@include is-max(350px) {
 				top: 52%;
 			}
+		}
+
+		.float-center {
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			white-space: nowrap;
+			text-align: center;
+		}
+
+		.ls23 {
+			letter-spacing: 0.23em;
+		}
+
+		.ls22 {
+			letter-spacing: 0.22em;
 		}
 	}
 
@@ -785,7 +807,7 @@
 			left: 14px;
 			width: 40px;
 			height: 40px;
-			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+			background: linear-gradient(to right, #2868b1, #3b88ca);
 			text-align: center;
 			padding: 2px;
 
@@ -815,7 +837,7 @@
 			position: absolute;
 			top: 15px;
 			right: 14px;
-			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+			background: linear-gradient(to right, #2868b1, #3b88ca);
 			border-radius: 50%;
 			height: 70px;
 			width: 70px;
@@ -846,6 +868,25 @@
 					transform: translate(-50%, -50%);
 					font-family: yu-mincho-pr6n, sans-serif;
 				}
+
+				.f16 {
+					font-size: 16.99px;
+					letter-spacing: 0.2em;
+					line-height: 19.31px;
+				}
+			}
+		}
+
+		.top-circle-lb {
+			left: 24px;
+			bottom: 15px;
+			top: unset;
+			right: unset;
+
+			.f16 {
+				font-size: 16.99px;
+				letter-spacing: 0.2em;
+				line-height: 19.31px;
 			}
 		}
 	}
@@ -891,6 +932,7 @@
 			}
 		}
 	}
+
 }
 
 .c-card12 {
