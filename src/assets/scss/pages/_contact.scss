@@ -758,6 +758,13 @@
 			padding: 15px 0 0 0;
 		}
 
+		.br-sp{
+			display: none;
+			@include is-sp{
+				display: block
+			}
+		}
+
 		p {
 			@include font-line(13);
 
