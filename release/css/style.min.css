@@ -2348,6 +2348,7 @@ template{display:none}
 }@media only screen and (max-width:1080px){.p-main_content__box5-row .p-main_content__box5-col{width:32%}
 .p-main_content__box5-row .p-main_content__box5-col:nth-child(3n+2){margin:0 2%}
 .about .section_2-cntnt{width:91vw}
+}@media only screen and (max-width:1075px){.real_estate_management .sect_7__box-big-new{left:52%;top:-7%}
 }@media only screen and (max-width:1073px){.oe-main-content .row .col:nth-child(4) .info-ttl{letter-spacing:.03em}
 }@media only screen and (max-width:1071px){.c-cards09{width:30%;margin-bottom:3.5vw}
 }@media only screen and (max-width:1067px){.real_estate_management .sect_4__inner-realestate{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
