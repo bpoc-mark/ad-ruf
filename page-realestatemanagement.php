@@ -3,19 +3,19 @@
 <?php get_header();
 $imagedir = get_template_directory_uri();
 ?>
-<div class="page__content real_estate_purchase">
+<div class="page__content real_estate_management">
     <div class="c-banner">
-        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</p>
         <div class="c-inner">
-            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr.png" alt="">
-            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr_sp.png" alt="">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/rem_bg_banner.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/rem_bg_banner-sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>収 益 不 動 産 の 売 買</p>
-                <p>Real Estate Purchase</p>
+                <p>収 益 不 動 産 <br class="br-sp">の 管 理</p>
+                <p>Real Estate<br class="br-sp">Management</p>
             </div>
         </div>
         <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> 収 益 不 動 産 の 売 買</p>
+            <p class="txt">TOP <span>></span>事 業 内 容<span>＞</span>収 益 不 動 産 の 管 理</p>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -23,22 +23,20 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__center">
             <div class="l-wrap">
                 <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-1_2.png" alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
-                    Real Estate Purchase
+                    Real Estate Management
                 </p>
                 <p class="sect_1__headers">
-                    <span class="ttl_small">丸の内ルーフは、あなたの大切な一棟マンションやアパートなどの</span> <br>
-                    収益不動産を最大限に <br class="u-d-n-pc"> 評価して買取いたします。
+                    <span class="ttl_small">ルーフは、面倒な保守管理や修繕工事、苦情処理改善まで</span> <br>
+                    不動産経営に<br class="br-sp">関わること全てサポート
                 </p>
                 <p class="header_subtext">
-                    丸の内リーフでは常にスピード感を大切にし、お客様の不動産売買ニーズに対して迅速かつ誠実に対応できるように心掛けています。<br class="u-d-n-sp">
-                    創業以来20年で500棟以上の売買をサポートしてきた豊富な実績により培ってきたノウハウをもとに、<br class="u-d-n-sp">
-                    それぞれのお客様にベストアンサーを提案します。
-                </p>
+                    ルーフは、豊富なバリューアップの経験を武器に<br class="br-sp">最適な不動産管理を行い、<br class="br-sp">
+                    お預かりした大切な収益不動産の価値を高めます。</p>
                 <div class="sect_1__box-big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-2.png" alt="">
                 </div>
             </div>
         </div>
@@ -57,55 +55,39 @@ $imagedir = get_template_directory_uri();
                 </div>
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        丸の内ルーフの<br>
-                        収益不動産の買取とは
-                    </p>
+                        ルーフの<br>
+                        収益不動産の管理とは</p>
                     <p class="text">
-                        買取では、土地・建物の状態はもちろん、収益不動産ならではのポイントをしっかり調査。お一人おひとりのご希望を伺いながら、市場のトレンドもしっかりと踏まえてお客様の収益不動産を最大限に評価します。
+                        丸の内ルーフの収益不動産『管理』ではオーナー様のお手元に毎月いくら残こせるのかをしっかり追求しております。不動産の稼働率の安定化と管理コストの効率化を常に目指すことで、表面上の利回りだけではなく『実質利回り』に拘りながらお客様の大切な資産である収益不動産の価値を守ってまいります。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
-                            Point
+                            こんな方におすすめ
                         </p>
                         <p class="point_item">
-                            ● <span>スピーディーなお取引</span>
+                            ● <span>保守管理までまかせたい</span>
                         </p>
                         <p class="point_item">
-                            ● <span>収益不動産を最大限評価</span>
+                            ● <span>修繕工事もまかせたい</span>
                         </p>
                         <p class="point_item">
-                            ● <span>首都圏エリアの動向の見極め</span>
+                            ● <span>リーシングもお願いしたい</span>
                         </p>
                     </div>
-                    <a class="c-buttonREP" href="#">
-                        <p class="txt">収益不動産の買取について</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </a>
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1-nb.png" alt="">
-                    <!-- <div class="c-img_box02">
-                        <div class="c-img_box02--ttl">
-                            見極める<br>価値を
-                        </div>
-                        <div class="c-img_box02--sub">
-                            RUFの収益不動産の売買は
-                        </div>
-                        <div class="c-img_box02--logo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
-                        </div>
-                    </div> -->
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec2.png" alt="">
                 </div>
                 <p class="txt_ttl u-d-n-pc">
-                    丸の内ルーフの<br>
-                    収益不動産の買取とは
+                    ルーフの<br>
+                    収益不動産の管理とは
                 </p>
 
             </div>
         </div>
     </section>
 
-    <section class="sect_3">
+    <!-- <section class="sect_3">
         <div class="l-wrap">
             <div class="sect_3__inner-realestate">
                 <div class="sect_3__inner-realestate--left">
@@ -147,7 +129,7 @@ $imagedir = get_template_directory_uri();
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="sect_4">
         <div class="l-wrap">
@@ -163,47 +145,41 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
-                    Real Estate Purchase
+                    Real Estate Management
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフの収益不動産の売買 3つの特徴
+                    丸の内ルーフの収益不動産の管理 3つの特徴
                 </div>
-                <div class="sect_4__header--sub u-d-n-sp">
-                    ルーフがお客様の不動産売買ニーズに対して、<br>
-                    迅速かつ誠実にサポートできる体制をご紹介いたします。
+                <div class="sect_4__header--sub">
+                    ルーフがお客様の収益不動産の管理に対して、<br>
+                    迅速かつ誠実にサポートできる体制をご紹介。
                 </div>
-                <div class="sect_4__header--sub u-d-n-pc">
-                    株式会社ルーフが大切にしていることや業績・
-                    理念をご紹介いたします。
-                </div>
-
-
             </div>
             <div class="sect_4__inner-realestate">
                 <div class="sect_4__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        20年で500棟以上の買取実績
+                        高品質なプロパティマネジメント
                     </p>
                     <p class="text">
-                        丸の内ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、丸の内ルーフなら1週間で完結することができます。 <span>※物件画像は一例です</span>
+                        不動産価値の最大化と収益性向上のために何をすべきか。ルーフの強みは、豊富な経験とノウハウを活かした、オーナー様視点の高品質なプロパティマネジメントです。収益不動産でもっとも大切な「実質利回り」にこだわり、リーシング、保守管理、修繕工事など不動産経営に関わるすべての業務をワンストップで提供いたします。専門的な知識と技術で対応いたしますので、ルーフにお任せください。</span>
                     </p>
                     <div class="point">
                         <p class="point_ttl">
                             Point
                         </p>
                         <p class="point_item">
-                            ● <span>圧倒的な目利き力の違い</span>
+                            ● <span>豊富な経験とノウハウ</span>
                         </p>
                         <p class="point_item">
-                            ● <span>20年間で500棟以上の買取実績</span>
+                            ● <span>高品質なプロパティマネジメント</span>
                         </p>
                         <p class="point_item">
-                            ● <span>圧倒的なスピードでの意思決定</span>
+                            ● <span>業務をワンストップで提供</span>
                         </p>
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img1.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -213,7 +189,7 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <p class="txt_ttl u-d-n-pc">
-                    20年で500棟以上の買取実績
+                    高品質なプロパティ<br class="br-sp">マネジメント
                 </p>
                 <a class="c-buttonREP" href="#">
                     <p class="txt">実績を見る</p>
@@ -236,30 +212,29 @@ $imagedir = get_template_directory_uri();
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        売却時の <br>
-                        リフォームは不要
+                        余計な管理コストを <br>
+                        かけない
                     </p>
                     <p class="text">
-                        丸の内ルーフには、不動産の問題点を正常化させる「解決力」があります。例えば、築年数が古い、<br>
-                        修繕が必要、隣地との境界が曖昧、滞納者が存在するなど、物件にネガティブな条件がある場合でもご遠慮なくご相談ください。リフォームを含め、買取後に全てサポートするのでお客様のお手間が一切かかりませんr。また、必要以上の価格交渉の材料に使うこともありませんのでご安心ください。
+                        ルーフは、必要以上に工事を行うなど、オーナー様の不利益になることは絶対にしません。建物の改修や美観維持にコストをかければ、資産価値を高め、入居促進につながります。しかし、経費をかけ過ぎれば、不動産経営は成立しません。リフォームは、見た目重視ではなく、機能重視。ランニングコストを下げ、資産価値を上げます。また、不動産を保有する重みを知っているからこそ、オーナー様には修繕費を包み隠さずお伝えいたします。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
                             Point
                         </p>
                         <p class="point_item">
-                            ● <span>ネガティブ物件でも正常化させる解決力</span>
+                            ● <span>必要以上な工事は一切なし</span>
                         </p>
                         <p class="point_item">
-                            ● <span>リフォームを含た買取後の対応力</span>
+                            ● <span>ランニングコストを下げ、資産価値を上げる</span>
                         </p>
                         <p class="point_item">
-                            ● <span>オーナー様のお手間を取らせないカバー力</span>
+                            ● <span>修繕費を包み隠さずお伝え</span>
                         </p>
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_imgs_2.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec5.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -268,8 +243,8 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc br-point">
-                    売却時の <br class="br-pc">
-                    リフォームは不要
+                    余計な管理コストを <br class="br-pc">
+                    かけない
                 </p>
             </div>
         </div>
@@ -290,7 +265,7 @@ $imagedir = get_template_directory_uri();
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        買取物件をバリューアップ
+                        賃貸管理をトータルサポート
                     </p>
                     <p class="text">
                         丸の内ルーフは「仲介業者」ではありません。オーナー様や入居者様の「幸せ」をお手伝いすることを第一に考え、収益不動産を自社所有する「プロのオーナー」です。不動産買取後の「バリューアップ」はそのための手段であり私たちの強みです。費用対効果をしっかり見極めた上で、物件の問題点を解消し、資産価値を高めるための経験とノウハウがあります。
@@ -312,7 +287,7 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img3.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec6.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -321,7 +296,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
-                    買取物件をバリューアップ
+                    賃貸管理をトータルサポート
                 </p>
 
                 <a class="c-buttonREP red" href="#">
@@ -546,14 +521,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            買取までどのくらいの期間<br>
-                            かかりますか?
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            物件によって変動はありますが、ルーフなら最短1週間で完結することができます。経験豊富なエキスパートなので、圧倒的なスピードでの意思決定が可能です。
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
@@ -561,14 +536,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            収益物件とは<br>
-                            なんですか？
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            収益物件とは、毎月一定の賃金収入のある不動産のことをさします。そのため、ほとんどの不動産が該当します。お気軽にお問い合わせください。
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
@@ -576,14 +551,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            取り扱いできない不動産は<br>
-                            ありますか？
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ●●●●●●です。また築年数が古い、修繕が必要、境界非明示物件、滞納者が存在する物件の場合でもルーフでは対応可能ですので、遠慮なくご相談ください。
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
@@ -594,14 +569,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産売買の相談に必要な<br>
-                            ものはありますか？
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
@@ -609,14 +584,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            売買完了までの流れを<br>
-                            教えてください。
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
@@ -624,19 +599,18 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産売買の相談は<br>
-                            相談料はかかりますか？
+                            この文章はダミーです<br>
+                            この文章はダミーです
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
                         </p>
                     </div>
                 </div>
-
-                <div class="sect_8__btn--wrap">
+                <!-- <div class="sect_8__btn--wrap">
                     <a class="c-buttonREP" href="#">
                         <p class="txt">収益不動産の買取について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
@@ -646,7 +620,7 @@ $imagedir = get_template_directory_uri();
                         <p class="txt">収益不動産の売却について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
