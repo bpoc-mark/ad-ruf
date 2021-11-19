@@ -8,7 +8,7 @@ $imagedir = get_template_directory_uri();
         <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</p>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/reo_banner.png" alt="">
-            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/am_banner_sp.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/reo_banner_sp.png" alt="">
             <div class="c-banner--ttl">
                 <p>収益不動産<br class="u-d-n-pc">の運用</p>
                 <p>Real Estate <br class="u-d-n-pc">Operation</p>
@@ -33,8 +33,8 @@ $imagedir = get_template_directory_uri();
                     首都圏を中心に多数の<br class="u-d-n-pc">物件を運用しています。
                 </p>
                 <p class="header_subtext">
-                    収益不動産のプロフェッショナルによる投資戦略で、<br class="u-d-n-pc">中長期にわたって、お客様の資産の着実な成長と<br>
-                    安定した収益の確保を目指したアセットマネジメントも<br class="u-d-n-pc">私たちの強みのひとつです。
+                    不動産収益を向上させるには「買って終わり」ではなく、その後の運用も大切です。<br class="br-pc">
+                    丸の内ルーフでは、市場と将来を見据えた確かな運用でお客様の利益の最大化を図ります。
                 </p>
                 <div class="sect_1__box-big">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
@@ -57,23 +57,24 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         ルーフの<br>
-                        アセットマネジメントとは
+                        収益不動産の運用とは
                     </p>
                     <p class="text">
-                        不動産投資の基本は、最適な時期に物件を購入し、資産価値を最大限高め、最適な時期に売却することです。ルーフの強みは、自社で収益不動産を保有する「プロフェッショナル」としての豊富な経験。この経験があるからこそ、「オーナー様目線」でアセットマネジメントを行うことができるのです。市場の最先端で培われた経験から導かれた戦略を駆使して、オーナー様の資産形成を力強く支えま
+                        丸の内ルーフの収益不動産『運用』は、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデルです。大切なことは定期的に保有資産を売却して新規物件に入れ替えること、そして所有されている収益不動産の価値を保ちながら売却時期を逃さない事。この2つの要素を大切にすることにより、更に魅力的な収益不動産の取得に繋がり運用効率を高められます。
+
                     </p>
                     <div class="point">
                         <p class="point_ttl point_ttl--fs">
                             こんな方におすすめ
                         </p>
                         <p class="point_item">
-                            <span>●</span>中長期的に収益不動産を運用したい
+                            <span>●</span>稼働率を高めたい
                         </p>
                         <p class="point_item">
-                            <span>●</span>実質利回りにこだわりたい
+                            <span>●</span>資産価値を維持したい
                         </p>
                         <p class="point_item">
-                            <span>●</span>リスク管理を徹底したい
+                            <span>●</span>収支管理までまかせたい
                         </p>
                     </div>
                     <!-- <a class="c-buttonREP" href="#">
@@ -82,7 +83,7 @@ $imagedir = get_template_directory_uri();
                     </a> -->
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img3.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img1.png" alt="">
                     <!-- <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
@@ -97,13 +98,12 @@ $imagedir = get_template_directory_uri();
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     ルーフの<br>
-                    アセットマネジメントとは
+                    収益不動産の運用とは
                 </p>
 
             </div>
         </div>
     </section>
-
 
     <section class="sect_4">
         <div class="l-wrap">
@@ -122,61 +122,75 @@ $imagedir = get_template_directory_uri();
                     Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフのアセット<br class="u-d-n-pc">マネジメント 3つの特徴
+                    丸の内ルーフの収益不動産<br class="u-d-n-pc">の運用3つの特徴
                 </div>
-                <div class="sect_4__header--sub u-d-n-sp">
-                    ルーフがお客様のアセットマネジメントに対して、<br>
+                <div class="sect_4__header--sub">
+                    ルーフがお客様の収益不動産の運用に対して、<br>
                     迅速かつ誠実にサポートできる体制をご紹介。
                 </div>
-                <div class="sect_4__header--sub u-d-n-pc">
-                    ルーフがお客様のアセットマネジメントに対して、<br>
-                    迅速かつ誠実にサポートできる体制をご紹介。
-                </div>
-
-
             </div>
             <div class="sect_4__inner-realestate">
                 <div class="sect_4__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        オーナー様目線の<br>アセットマネジメント
+                        首都圏で多数の<br class="br-sp">不動産を運用
                     </p>
                     <p class="text">
-                        不動産投資の基本は、最適な時期に物件を購入し、資産価値を最大限高め、最適な時期に売却することです。ルーフの強みは、自社で収益不動産を保有する「プロフェッショナル」としての豊富な経験です。この経験があるからこそ、「オーナー様目線」でアセットマネジメントを行うことができるのです。市場の最先端で培われた経験から導かれた戦略を駆使して、オーナー様の資産形成を力強く支えま
+                        私たちが収益不動産を運用する上で大切にしているのは、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデル。また、市場の動きを見極めながら保有資産を売却して新規物件に入れ替えることも効果的な運用のポイントです。もし、収益不動産の価値の最大化を目指すなら、首都圏において多数の不動産を運用する丸の内ルーフにおまかせください。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
                             Point
                         </p>
                         <p class="point_item s4-pi1">
-                            <span>●</span>「プロフェッショナル」としての豊富な経験
+                            <span>●</span>首都圏での豊富な運用実績
                         </p>
                         <p class="point_item">
-                            <span>●</span>最先端で培われた経験から導かれた戦略
+                            <span>●</span>高い収益率の実現をサポート
                         </p>
                         <p class="point_item">
-                            <span>●</span>オーナー様の資産形成を力強くサポート
+                            <span>●</span>保有資産の効果的な入れ替え
                         </p>
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img1.png" alt="">
-                    <div class="c-img_box03">
-                        <div class="c-img_box03__txt">
-                            <p class="c-img_box03__ttl">Point</p>
-                            <p class="c-img_box03__sub">1</p>
-                        </div>
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img2.png" alt="">
+                </div>
+                <p class="txt_ttl u-d-n-pc">
+                    首都圏で多数の<br class="br-sp">不動産を運用
+                </p>
+            </div>
+            <div class="sect_4__properties">
+                <p class="sect_4--ttl">運用物件の一部を紹介</p>
+                <div class="sect_4--boxes">
+                    <div>
+                        <small>01</small>
+                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img3.png" alt="">
+                        <p>世田谷区深沢<br>
+                            <span>マンション<br class="br-sp">3階建</span>
+                        </p>
+                    </div>
+                    <div>
+                        <small>02</small>
+                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img4.png" alt="">
+                        <p>世田谷区深沢<br>
+                            <span>マンション<br>
+                                地上3階<br class="br-sp">地下1階建</span>
+                        </p>
+                    </div>
+                    <div>
+                        <small>03</small>
+                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img5.png" alt="">
+                        <p>千葉市中央区<br>
+                            <span>マンション<br class="br-sp">11階建</span>
+                        </p>
                     </div>
                 </div>
-
-                <p class="txt_ttl u-d-n-pc">
-                    オーナー様目線の<br>アセットマネジメント
-                </p>
-                <a class="c-buttonREP" href="#">
-                    <p class="txt">実績を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </a>
-
             </div>
+
+            <a class="c-buttonREP" href="#">
+                <p class="txt">実績を見る</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+            </a>
         </div>
     </section>
 
@@ -192,31 +206,31 @@ $imagedir = get_template_directory_uri();
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        オーナー様との <br>
-                        信頼関係を重視
+                        オーナー様目線で<br>
+                        利益を追求
                     </p>
                     <p class="text">
-                        ルーフがアセットマネジメントを行う上で最も大事にしていること、それは、オーナー様との信頼関係です。<br>
-                        常に、オーナー様の不動産投資に対する姿勢と最終的なゴールを踏まえて動くのが大前提です。<br>
-                        また、一人ひとりのスタッフが収益不動産のエキスパートとして十分なスキルを有しており、スタッフ間での情報共有も円滑かつ迅速です。そのため、物件の購入・売却の最適なタイミングを逃しません。
+                        ルーフは、仲介会社やコンサルティング会社ではありません。自社でリスクを負って収益不動産を保有しています。<br class="br-pc">
+                        だからこそ、オーナー様と同じ視点、またはそれ以上に厳しい視点で利益を追求することができるのです。<br class="br-pc">
+                        例えば、賃貸経営するオーナー様に対し、賃料を下げて空室を埋めるよう提案する会社もありますが、ルーフはまず資産価値を上げて賃料を上げることを提案します。その差が、数年後には大きな収益の差となって現れるのです。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
                             Point
                         </p>
                         <p class="point_item s4-pi1">
-                            <span>●</span>全スタッフが収益不動産のエキスパート
+                            <span>●</span>自社でリスクを負って収益不動産を保有
                         </p>
                         <p class="point_item">
-                            <span>●</span>スタッフ間での情報共有も円滑かつ迅速
+                            <span>●</span>オーナー様と同じ視点で利益追求
                         </p>
                         <p class="point_item pi3">
-                            <span>●</span>購入・売却の最適なタイミングを逃さない
+                            <span>●</span>資産価値を上げて賃料を上げる
                         </p>
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img4.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img6.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -225,7 +239,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc br-point">
-                    オーナー様との 信頼関係を重視
+                    オーナー様目線で利益を追求
                 </p>
             </div>
         </div>
@@ -246,31 +260,29 @@ $imagedir = get_template_directory_uri();
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        あらゆるニーズに柔軟に対応
+                        コストカットと安定した稼働率
                     </p>
                     <p class="text">
-                        アセットマネジメントには、さまざまなかたちがあります。<br>
-                        アセットクラスに関しては、一棟マンションやアパートなどの住宅、オフィスビル、商業ビル、低地と幅広くカバーしています。<br>
-                        また、お取引内容についても、ルーフが所有する収益不動産をご購入いただき、管理、運用、売却のすべてをお任せいただくケース、物件探しからお手伝いさせていただくケースなどあらゆるニーズに対応します。
+                        不動産投資は「良い物件を買えば成功」というわけではありません。収益不動産で大切なのは、運用です。物件購入時、購入後に発生するコストを抑え、建物のライフサイクルを考えながら資産価値を向上させる。ルーフには、その知識と技術があります。また、ルーフは、各部門が細分化された大きな企業ではありません。決定権者が多ければ、スピード感ある対応の妨げになります。一人ひとりの社員がオーナー様目線で迅速に動く、それが「選ばれ続ける理由」につながっているのです。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
                             Point
                         </p>
                         <p class="point_item s4-pi1">
-                            <span>●</span>アセットクラスを幅広くカバー
+                            <span>●</span>購入後に発生するコストを抑える
                         </p>
                         <p class="point_item pi2">
-                            <span>●</span>購入、管理、運用、売却のトータルサポート
+                            <span>●</span>ライフサイクルを考えながら資産価値を向上
                         </p>
                         <p class="point_item pi3">
-                            <span>●</span>物件探しからお手伝い可能
+                            <span>●</span>オーナー様目線で迅速に動く
                         </p>
                     </div>
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img2.png" alt="">
+                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img7.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -474,7 +486,8 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_box-sp.png" alt="">
             </div>
             <div class="sect_8__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
@@ -483,15 +496,10 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_8__eng--ttl">
                     Questions
                 </div>
-                <div class="sect_8__header u-d-n-sp">
-                    丸の内ルーフのアセットマネジメント<br class="u-d-n-sp">
-                    よくある質問
+                <div class="sect_8__header">
+                    丸の内ルーフの収益<br class="br-sp">
+                    不動産の運用<br class="br-pc">よくある質問
                 </div>
-                <div class="sect_8__header u-d-n-pc">
-                    丸の内ルーフのアセット <br>
-                    マネジメントよくある質問
-                </div>
-
             </div>
         </div>
         <div class="sect_8--inner">

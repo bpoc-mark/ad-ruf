@@ -4,6 +4,7 @@
 	.c-img_box03__txt {
 		height: 100% !important;
 	}
+
 	.c-banner {
 		padding: 0 0 100px 0;
 		background: linear-gradient(to right, #2079bd, #1e91d2);
@@ -22,19 +23,32 @@
 					@include is-sp {
 						line-height: 34px;
 					}
+
 					@include is-max(400px) {
 						font-size: 7vw;
 					}
 				}
+
 				&:nth-child(2) {
 					@include is-sp {
 						line-height: 18px;
 					}
+
 					@include is-max(400px) {
 						font-size: 3vw;
 					}
 				}
 			}
+		}
+
+		.bread_crumps {
+
+			.txt {
+				@include is-max(375px) {
+					font-size: 3.4vw;
+				}
+			}
+
 		}
 	}
 
@@ -59,6 +73,7 @@
 	.sect_1 {
 		position: relative;
 		margin-top: 100px;
+
 		@include is-sp {
 			margin-top: 105px;
 		}
@@ -69,12 +84,13 @@
 
 		&__box-big-new {
 			position: absolute;
-			right: 7%;
-			top: -95px;
+			right: 8%;
+			top: -86px;
 			opacity: 0.30;
+
 			@include is-sp {
 				right: 3%;
-				width: 176px;
+				width: 170px;
 				top: -80px;
 			}
 		}
@@ -164,9 +180,11 @@
 
 				@include is-max(375px) {
 					@include font-line(11, 15);
+					font-size: 3vw;
 				}
 			}
 		}
+
 		.header_subtext {
 			font-family: yu-mincho-pr6n, sans-serif;
 			@include font-line(13, 26);
@@ -181,7 +199,6 @@
 
 			@include is-max(400px) {
 				font-size: 3.3vw;
-				white-space: nowrap;
 			}
 		}
 
@@ -199,9 +216,10 @@
 
 		&__box-big {
 			position: absolute;
-			left: -6%;
-			top: 63px;
-			width: 265px;
+			left: -5.5%;
+			top: 68px;
+			width: 288px;
+
 			@include is-max(1000px) {
 				display: block;
 			}
@@ -225,6 +243,7 @@
 			position: absolute;
 			left: 46%;
 			top: 18px;
+
 			@include is-sp {
 				width: 164px;
 				top: 0;
@@ -237,6 +256,7 @@
 			position: absolute;
 			bottom: 11px;
 			margin-left: -60px;
+
 			@include is-sp {
 				display: none;
 			}
@@ -258,6 +278,7 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
+
 			@include is-sp {
 				top: -29px;
 				height: 30px;
@@ -274,6 +295,7 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+
 			@include is-sp {
 				bottom: -29px;
 				height: 30px;
@@ -298,13 +320,13 @@
 			}
 		}
 
-		.l-wrap {
-		}
+		.l-wrap {}
 
 		&__inner-realestate {
 			display: flex;
 			flex-wrap: wrap;
 			padding: 90px 0;
+
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 			}
@@ -314,11 +336,13 @@
 				width: 50%;
 				position: relative;
 				z-index: 4;
+
 				.pic {
 					width: 100%;
 					height: auto;
 					object-fit: cover;
 				}
+
 				@include is-max(750px) {
 					width: 100%;
 				}
@@ -326,9 +350,11 @@
 
 			&--left {
 				padding-right: 95px;
+
 				@include is-max(900px) {
 					padding-right: 20px;
 				}
+
 				@include is-max(750px) {
 					padding-right: unset;
 				}
@@ -349,6 +375,7 @@
 						@include font-line(24, 30);
 					}
 				}
+
 				.text {
 					font-family: cross-platform-yu-gothic, sans-serif;
 					font-weight: 500;
@@ -376,6 +403,7 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					border: 1px solid #8bb1d0;
+
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -403,19 +431,21 @@
 					}
 				}
 			}
-			&--right {
-                img {
-                    height: 100% !important;
 
-                    @include is-max(1080px) {
-                        height: unset !important;
-                    }
-                }
+			&--right {
+				img {
+					height: 100% !important;
+
+					@include is-max(1080px) {
+						height: unset !important;
+					}
+				}
 			}
 
 			.txt_ttl.u-d-n-pc {
 				letter-spacing: 0.15em;
 				font-size: 24px !important;
+
 				@include is-max(416px) {
 					font-size: 6.3vw !important;
 				}
@@ -428,6 +458,11 @@
 		margin-top: 130px;
 		margin-bottom: 60px;
 		background-color: #fff;
+		padding-bottom: 100px;
+
+		@include is-sp {
+			padding-bottom: 70px;
+		}
 
 		.c-buttonREP {
 			.txt {
@@ -440,6 +475,7 @@
 			position: absolute;
 			left: 63%;
 			top: -14px;
+
 			@include is-sp {
 				width: 122px;
 				top: -5%;
@@ -449,29 +485,36 @@
 
 			.pc {
 				display: none;
+
 				@include is-pc {
 					display: block;
 				}
 			}
+
 			.sp {
 				display: none;
+
 				@include is-sp {
 					display: block;
 				}
 			}
 		}
+
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
 			top: 160px;
+
 			@include is-sp {
 				display: none;
 			}
 		}
+
 		&__box-big-new3 {
 			position: absolute;
 			right: 0;
-			top: 54.5%;
+			top: 38.5%;
+
 			@include is-sp {
 				display: none;
 			}
@@ -486,10 +529,12 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
+
 			@include is-sp {
 				height: 30px;
 			}
 		}
+
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -501,7 +546,7 @@
 
 			@include is-max(750px) {
 				order: 1;
-				padding-bottom: 25px;
+				padding-bottom: 20px;
 			}
 		}
 
@@ -518,6 +563,7 @@
 				padding-left: 10px;
 			}
 		}
+
 		&__eng--ttl {
 			font-family: century-gothic, sans-serif;
 			@include font-line(10, 20);
@@ -539,7 +585,7 @@
 
 			@include is-sp {
 				letter-spacing: 0.15em;
-				font-size: 6.2vw;
+				font-size: 6vw;
 			}
 		}
 
@@ -566,14 +612,14 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
-			padding-bottom: 100px;
+
 			@include is-max(1067px) {
 				align-items: flex-start;
 			}
+
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 				display: grid;
-				padding-bottom: 60px;
 			}
 
 			&--left,
@@ -581,6 +627,7 @@
 				width: 50%;
 				position: relative;
 				z-index: 4;
+
 				@include is-max(750px) {
 					width: 100%;
 				}
@@ -588,13 +635,16 @@
 
 			&--left {
 				padding-left: 95px;
+
 				@include is-max(900px) {
 					padding-left: 20px;
 				}
+
 				@include is-max(750px) {
 					padding-left: unset;
 					order: 3;
 				}
+
 				.txt_ttl {
 					@include font-line(26, 30);
 					text-align: left;
@@ -604,6 +654,7 @@
 					letter-spacing: 0.15em;
 				}
 			}
+
 			.text {
 				font-family: cross-platform-yu-gothic, sans-serif;
 				font-weight: 500;
@@ -638,9 +689,10 @@
 				background-color: #fff;
 				padding-left: 30px;
 				padding-right: 30px;
-				padding-top: 15px;
-				padding-bottom: 15px;
+				padding-top: 23px;
+				padding-bottom: 23px;
 				border: 2px solid #87b2db;
+
 				&_ttl {
 					font-family: century-gothic, sans-serif;
 					@include font-line(11, 22);
@@ -652,7 +704,7 @@
 				}
 
 				&_item {
-					font-family: cross-platform-yu-gothic;
+					font-family: cross-platform-yu-gothic, sans-serif;
 					text-align: left;
 					@include font-line(9, 26);
 					color: #87b2db;
@@ -676,13 +728,107 @@
 			&--right {
 				img {
 					width: 100%;
-					height: 100%;
+					height: auto;
 				}
+
 				@include is-max(750px) {
 					order: 2;
 				}
 			}
 		}
+
+		&__properties {
+			margin: 55px 0 30px 0;
+			border: 1px solid #89afce;
+			padding: 35px 20px;
+		}
+
+		&--ttl {
+			@include font-line(26);
+			color: #4686c6;
+			font-family: yu-mincho-pr6n, sans-serif;
+			text-align: center;
+			font-weight: 500;
+
+			@include is-sp {
+				padding: 0 0 20px 0;
+			}
+
+			@include is-max(375px) {
+				font-size: 7vw;
+			}
+		}
+
+		&--boxes {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			@include is-sp {
+				flex-direction: column;
+			}
+
+			div {
+				position: relative;
+
+				@include is-sp {
+					width: 100%;
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+				}
+
+				small {
+					position: absolute;
+					top: -5px;
+					left: 10px;
+					font-family: 'Bebas Neue';
+					font-weight: 400;
+					@include font-line(40);
+					color: #fff;
+				}
+
+				.pic {
+					@include is-sp {
+						width: 57%;
+					}
+				}
+
+				&:nth-child(2) {
+					margin: 0 30px;
+
+					@include is-sp {
+						margin: 6vw 30px;
+					}
+				}
+
+				p {
+					color: #2587cc;
+					font-family: cross-platform-yu-gothic,
+						sans-serif;
+					text-align: center;
+					height: 100px;
+					padding: 15px 10px 0 10px;
+					@include font-line(14);
+					font-weight: 700;
+
+					@include is-sp {
+						text-align: left;
+						height: auto;
+						padding-right: 0;
+						padding-top: 0;
+						padding-left: 4vw;
+					}
+				}
+
+				span {
+					color: #000;
+					font-weight: 500;
+				}
+			}
+		}
+
+
 
 		.c-buttonREP {
 			margin-top: 50px;
@@ -693,6 +839,7 @@
 		position: relative;
 		margin-bottom: 60px;
 		background: linear-gradient(to right, #003782, #0059b6);
+
 		&--clipbg {
 			background-color: #fff;
 		}
@@ -701,31 +848,38 @@
 			position: absolute;
 			left: 46%;
 			top: 5px;
-            opacity: 0.5;
+			opacity: 0.5;
+
 			@include is-sp {
 				width: 100px;
 				left: auto;
 				right: 7%;
 				top: 4%;
 			}
+
 			.pc {
 				display: none;
+
 				@include is-pc {
 					display: block;
 				}
 			}
+
 			.sp {
 				display: none;
+
 				@include is-sp {
 					display: block;
 				}
 			}
 		}
+
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
-			bottom: 10%;
-            opacity: 0.5;
+			bottom: 8%;
+			opacity: 0.5;
+
 			@include is-sp {
 				display: none;
 			}
@@ -740,6 +894,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
+
 			@include is-sp {
 				height: 30px;
 				bottom: -29px;
@@ -753,10 +908,12 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.3em;
+
 			@include is-sp {
 				padding-bottom: 20px;
 				letter-spacing: normal;
 			}
+
 			@include is-max(400px) {
 				font-size: 6vw;
 			}
@@ -771,6 +928,7 @@
 			flex-wrap: wrap;
 			padding: 90px 0;
 			align-items: center;
+
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 			}
@@ -780,6 +938,7 @@
 				width: 50%;
 				position: relative;
 				z-index: 4;
+
 				@include is-max(750px) {
 					width: 100%;
 				}
@@ -792,9 +951,11 @@
 
 			&--left {
 				padding-right: 95px;
+
 				@include is-max(900px) {
 					padding-right: 20px;
 				}
+
 				@include is-max(750px) {
 					padding-right: unset;
 				}
@@ -807,6 +968,7 @@
 					font-weight: 500;
 					letter-spacing: 0.3em;
 				}
+
 				.text {
 					font-family: cross-platform-yu-gothic, sans-serif;
 					font-weight: 500;
@@ -815,7 +977,7 @@
 					color: #fff;
 					padding-top: 15px;
 					padding-bottom: 15px;
-					letter-spacing: 0.2em;
+					letter-spacing: 0.08em;
 					text-align: justify;
 
 					@include is-max(750px) {
@@ -835,6 +997,7 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					border: 1px solid #8bb1d0;
+
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -852,6 +1015,10 @@
 						color: #87b2db;
 						font-weight: 700;
 
+						@include is-max(375px) {
+							font-size: 3.3vw !important
+						}
+
 						span {
 							margin-left: 10px;
 							font-weight: 700;
@@ -868,12 +1035,15 @@
 					}
 				}
 			}
-			&--right {
-			}
+
+			&--right {}
 
 			.br-point {
 				display: block;
+
 				@include is-sp {
+					width: 100%;
+
 					.br-pc {
 						display: none;
 					}
@@ -901,19 +1071,20 @@
 			padding-bottom: 20px;
 			order: 1;
 
-            @include is-max(770px) {
-                font-size: 21px !important;
-            }
+			@include is-max(770px) {
+				font-size: 21px !important;
+			}
 
-			@include is-max(400px) {
-				font-size: 6vw;
+			@include is-max(375px) {
+				font-size: 5.7vw !important;
 			}
 		}
 
 		&__box-big-new {
 			position: absolute;
 			left: 60%;
-			top: -3%;
+			top: 0;
+
 			@include is-sp {
 				left: auto;
 				width: 122px;
@@ -923,26 +1094,32 @@
 
 			.pc {
 				display: none;
+
 				@include is-pc {
 					display: block;
 				}
 			}
+
 			.sp {
 				display: none;
+
 				@include is-sp {
 					display: block;
 				}
 			}
 		}
+
 		&__box-big-new2 {
 			position: absolute;
-			left: -5%;
-			top: 19%;
+			left: -2%;
+			top: 24%;
 		}
+
 		&__box-big-new3 {
 			position: absolute;
 			right: 0;
 			bottom: 30%;
+
 			@include is-sp {
 				display: none;
 			}
@@ -957,9 +1134,10 @@
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
 			padding: 90px 0;
+
 			@include is-max(750px) {
 				display: grid;
-                padding-bottom: 60px;
+				padding-bottom: 60px;
 			}
 
 			&--left,
@@ -967,6 +1145,7 @@
 				width: 50%;
 				position: relative;
 				z-index: 4;
+
 				@include is-max(750px) {
 					width: 100%;
 				}
@@ -974,6 +1153,7 @@
 
 			&--left {
 				padding-left: 95px;
+
 				@include is-max(900px) {
 					padding-left: 20px;
 				}
@@ -982,6 +1162,7 @@
 					padding-left: unset;
 					order: 3;
 				}
+
 				.txt_ttl {
 					@include font-line(24, 30);
 					text-align: left;
@@ -990,6 +1171,7 @@
 					font-weight: 500;
 					letter-spacing: 0.15em;
 				}
+
 				.text {
 					font-family: cross-platform-yu-gothic, sans-serif;
 					font-weight: 500;
@@ -999,13 +1181,13 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					text-align: justify;
-                    letter-spacing: 0;
-                    
+					letter-spacing: -0.06em;
+
 					@include is-max(750px) {
 						padding-right: unset;
 						padding-top: 25px;
 						text-align: justify;
-                        line-height: 22.5px;
+						line-height: 22.5px;
 					}
 				}
 
@@ -1016,6 +1198,7 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					border: 1px solid #8bb1d0;
+
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
@@ -1042,18 +1225,19 @@
 						}
 					}
 
-                    .pi2 {
-                        @include is-max(1026px) {
-                            letter-spacing: 0.1em;
-                        }
+					.pi2 {
+						@include is-max(1026px) {
+							letter-spacing: 0.1em;
+						}
 
-                        @include is-max(500px) {
-                            letter-spacing: 0.08em;
-                        }
-                        
-                    }
+						@include is-max(500px) {
+							letter-spacing: 0.08em;
+						}
+
+					}
 				}
 			}
+
 			&--right {
 				@include is-max(750px) {
 					order: 2;
@@ -1072,6 +1256,7 @@
 
 		.c-buttonREP {
 			margin-top: 0;
+
 			.txt {
 				color: #2589ce;
 			}
@@ -1081,12 +1266,12 @@
 			position: absolute;
 			left: 46%;
 			top: -12%;
-            opacity: 0.5;
+			opacity: 0.5;
 
-            @include is-max(1075px) {
-                left: 52%;
-                top: -7%;
-            }
+			@include is-max(1075px) {
+				left: 52%;
+				top: -7%;
+			}
 
 			@include is-sp {
 				top: -6%;
@@ -1095,16 +1280,19 @@
 				left: auto;
 			}
 		}
+
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
 			top: 24%;
-            opacity: 0.5;
+			opacity: 0.5;
+
 			@include is-sp {
 				// width: 115px;
 				// top: 16%;
 				display: none;
 			}
+
 			// @include is-max(375px){
 			// 	top: 27%;
 			// }
@@ -1119,6 +1307,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
+
 			@include is-sp {
 				top: -28px;
 				height: 30px;
@@ -1134,6 +1323,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 98%);
+
 			@include is-sp {
 				height: 30px;
 				bottom: -28px;
@@ -1148,6 +1338,7 @@
 			border-left: 3px solid #fff;
 			padding-left: 15px;
 		}
+
 		&__eng--ttl {
 			font-family: century-gothic, sans-serif;
 			@include font-line(10, 20);
@@ -1156,6 +1347,7 @@
 			text-align: left;
 			font-weight: 500;
 			margin-bottom: 5px;
+
 			@include is-max(750px) {
 				@include font-line(13, 20);
 				letter-spacing: 0.21em;
@@ -1170,8 +1362,9 @@
 			font-weight: 500;
 			letter-spacing: 0.34em;
 			padding-bottom: 15px;
-			@include is-max(750px) {
-				letter-spacing: 0.15em;
+
+			@include is-sp {
+				letter-spacing: 0.08em;
 			}
 
 			@include is-max(322px) {
@@ -1188,6 +1381,7 @@
 			font-weight: 500;
 			letter-spacing: 0.2em;
 			margin-bottom: 70px;
+
 			@include is-max(750px) {
 				text-align: justify;
 				margin-bottom: 30px;
@@ -1200,8 +1394,8 @@
 			flex-wrap: wrap;
 			justify-content: space-between;
 			padding-bottom: 55px;
-			@include is-max(750px) {
-			}
+
+			@include is-max(750px) {}
 		}
 
 		.card_ttl {
@@ -1211,6 +1405,7 @@
 			font-weight: 700;
 			letter-spacing: 0.2em;
 			padding-bottom: 10px;
+
 			@include is-max(750px) {
 				@include font-line(14, 21);
 				color: #2589ce;
@@ -1233,13 +1428,15 @@
 
 			&-box-big-newest2 {
 				display: none;
+
 				@include is-sp {
 					display: block;
 					width: 115px;
 					top: -4%;
 					left: -2%;
-                    opacity: 0.5;
+					opacity: 0.5;
 				}
+
 				// @include is-max(375px){
 				// 	top: 27%;
 				// }
@@ -1266,6 +1463,7 @@
 						letter-spacing: 0.21em;
 					}
 				}
+
 				&-sub {
 					font-family: yu-mincho-pr6n, sans-serif;
 					@include font-line(26, 37);
@@ -1314,6 +1512,7 @@
 					padding: 0 0 49px 0;
 				}
 			}
+
 			@include is-sp {
 				padding: 0 0 60px 0;
 			}
@@ -1323,6 +1522,23 @@
 	.sect_8 {
 		padding-top: 70px;
 		background-color: #fff;
+
+		.pc {
+			display: none;
+
+			@include is-pc {
+				display: block;
+			}
+		}
+
+		.sp {
+			display: none;
+
+			@include is-sp {
+				display: block;
+			}
+		}
+
 		&--clipbg {
 			background-color: #fff;
 		}
@@ -1337,11 +1553,17 @@
 			position: absolute;
 			left: 57%;
 			top: -12%;
+
+			@include is-sp {
+				top: -77%;
+			}
 		}
+
 		&__box-big-new2 {
 			position: absolute;
 			left: -4%;
 			top: 139%;
+
 			@include is-sp {
 				display: none;
 			}
@@ -1351,6 +1573,7 @@
 			position: absolute;
 			right: 0;
 			bottom: 58%;
+
 			@include is-sp {
 				display: none;
 			}
@@ -1367,6 +1590,7 @@
 			padding-left: 15px;
 			position: relative;
 		}
+
 		&__eng--ttl {
 			font-family: century-gothic, sans-serif;
 			@include font-line(10, 20);
@@ -1389,6 +1613,7 @@
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.1em;
+
 			@include is-max(750px) {
 				@include font-line(25, 35);
 				letter-spacing: 0em;
@@ -1410,6 +1635,7 @@
 				margin-bottom: 70px;
 				width: 100%;
 				justify-content: space-between;
+
 				@include is-max(750px) {
 					margin-top: unset;
 					margin-bottom: 45px;
@@ -1420,6 +1646,7 @@
 		.hide-sp {
 			width: 100%;
 			height: 70px;
+
 			@include is-max(1000px) {
 				display: none;
 			}
@@ -1455,9 +1682,11 @@
 			font-weight: 700;
 			padding-bottom: 10px;
 			padding-left: 15px;
+
 			@include is-max(1065px) {
 				font-size: 1.4vw;
 			}
+
 			@include is-max(1000px) {
 				@include font-line(16, 24);
 			}
@@ -1471,6 +1700,7 @@
 			text-align: left;
 			font-weight: 700;
 			padding-bottom: 5px;
+
 			@include is-sp {
 				line-height: 1;
 			}
@@ -1514,6 +1744,7 @@
 		@include is-max(900px) {
 			display: none;
 		}
+
 		@include is-max(750px) {
 			display: block;
 		}
@@ -1521,6 +1752,7 @@
 
 	.show-tab {
 		display: none;
+
 		@include is-max(900px) {
 			display: block;
 			text-align: center;
@@ -1528,6 +1760,7 @@
 			width: 70%;
 			margin-top: 50px;
 		}
+
 		@include is-max(750px) {
 			display: none;
 		}
@@ -1601,4 +1834,21 @@
 	.pic {
 		width: 100%;
 	}
+
+	.br-pc {
+		display: none;
+
+		@include is-pc {
+			display: block;
+		}
+	}
+
+	.br-sp {
+		display: none;
+
+		@include is-sp {
+			display: block;
+		}
+	}
+
 }
