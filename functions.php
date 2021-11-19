@@ -156,3 +156,15 @@ function owp_pf_support() {
 }
 add_action( 'after_setup_theme', 'owp_pf_support' );
 
+//THANK YOU PAGE CONTACT FORM
+add_action('wp_footer', 'redirect_cf7');
+function redirect_cf7()
+{
+?>
+	<script type="text/javascript">
+		document.addEventListener('wpcf7mailsent', function(event) {
+			location = 'https://jg-maile.hipetest.com/thanks';
+		}, false);
+	</script>
+<?php
+}

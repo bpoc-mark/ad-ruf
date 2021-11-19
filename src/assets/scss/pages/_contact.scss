@@ -836,3 +836,16 @@
 		}
 	}
 }
+
+.wpcf7c-conf {
+	background-color: #e8f0fe !important;
+}
+
+input,
+.wpcf7-form-control,
+.wpcf7-text,
+.wpcf7-validates-as-required,
+.wpcf7c-conf {
+	background: #fff !important;
+	border: none;
+}

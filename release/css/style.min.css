@@ -107,7 +107,7 @@ template{display:none}
 .c-buttonSns--m{font-size:1.125rem;line-height:1;height:26px;width:26px}
 .c-buttonCase{border:1px solid #81b3d4;border-radius:30px;width:290px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;background:#fff;color:#258acf;letter-spacing:.2em;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 .c-buttonCase:hover img{right:15px}
-.c-buttonCase.blue{background-color:#258acf;color:#fff}
+.c-buttonCase.blue{background-color:#258acf;color:#fff;padding:20px 0;margin-top:48px;line-height:1}
 .c-buttonCase .txt{text-align:center;font-family:cross-platform-yu-gothic,sans-serif;font-weight:700;padding:20px 0;line-height:1;font-size:.875rem;white-space:nowrap !important}
 .c-buttonCase img{width:12px;height:12px;position:absolute;right:20px;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 .c-buttonCase-left{border:1px solid #81b3d4;border-radius:30px;width:290px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;background:#fff;color:#258acf;letter-spacing:.2em;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
@@ -1473,6 +1473,8 @@ template{display:none}
 .contact-frm .col-2{width:66%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .contact-frm .col-2 div:nth-child(1),.contact-frm .col-2 div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:50%}
 .contact-frm .col-2 div label{width:100px;padding-left:30px}
+.wpcf7c-conf{background-color:#e8f0fe !important}
+input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{background:#fff !important;border:0}
 .group-business{position:relative}
 .group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
 .group-business .c-banner--ttl{top:45%}
