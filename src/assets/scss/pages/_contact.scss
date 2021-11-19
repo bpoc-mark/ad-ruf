@@ -182,6 +182,7 @@
 				}
 
 				div {
+
 					&:nth-child(1),
 					&:nth-child(2) {
 						@include is-sp {
@@ -204,6 +205,12 @@
 
 				label {
 					padding-left: 30px;
+				}
+
+				span {
+					@include is-sp {
+						width: 100%;
+					}
 				}
 			}
 		}
@@ -228,18 +235,40 @@
 				@include is-sp {
 					padding-top: 20px;
 					width: 100%;
+					flex-direction: column;
 				}
 
-				// div {
-				// 	&:nth-child(1) {
-				// 		width: 100%;
-				// 		padding-left: 30px;
+				div {
 
-				// 		@include is-sp {
-				// 			padding-left: 0;
-				// 		}
-				// 	}
-				// }
+					&:nth-child(1) {
+
+						@include is-sp {
+							width: 100%;
+							padding-left: 0;
+							padding-bottom: 20px;
+						}
+					}
+
+					&:nth-child(2) {
+
+						@include is-sp {
+							width: 100%;
+							padding-left: 0;
+						}
+					}
+
+					span {
+						@include is-sp {
+							width: 100%;
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
+				}
 			}
 		}
 
@@ -306,11 +335,10 @@
 					&:nth-child(1) {
 						width: 100%;
 						padding-left: 30px;
-						padding-bottom: 10px;
 
 						@include is-sp {
 							padding-left: 0;
-							padding-bottom: 20px;
+							padding-bottom: 0;
 						}
 					}
 
@@ -372,7 +400,7 @@
 						padding-bottom: 10px;
 
 						@include is-sp {
-							width: 30%;
+							width: 100%;
 						}
 					}
 
@@ -393,6 +421,12 @@
 
 						@include is-sp {
 							width: 30%;
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
 						}
 					}
 				}
@@ -434,6 +468,7 @@
 							width: 100%;
 						}
 					}
+
 					&:nth-child(3) {
 						width: 28%;
 
@@ -441,8 +476,10 @@
 							width: 100%;
 						}
 					}
+
 					&:nth-child(5) {
 						width: 28%;
+
 						@include is-sp {
 							width: 100%;
 						}
@@ -451,6 +488,12 @@
 
 				p {
 					width: 30px;
+
+					span {
+						@include is-sp {
+							padding: 0 5px;
+						}
+					}
 				}
 			}
 		}
@@ -487,15 +530,18 @@
 					&:last-child {
 						width: unset;
 					}
+					
 				}
 
 				div {
 					&:nth-child(1) {
 						width: 100%;
 					}
+
 					&:nth-child(3) {
 						width: 100%;
 					}
+
 					&:nth-child(5) {
 						width: 100%;
 					}
@@ -507,6 +553,12 @@
 
 					@include is-sp {
 						display: none;
+					}
+
+					p{
+						@include is-max(850px){
+							font-size: 1.8vw;
+						}
 					}
 				}
 
@@ -524,6 +576,16 @@
 						font-family: cross-platform-yu-gothic, sans-serif;
 						@include font-line(13);
 						letter-spacing: 0.28em;
+						font-weight: 700;
+					}
+
+					p{
+						&:nth-child(1){
+							@include is-sp{
+								width: auto;
+							}
+						}
+
 					}
 				}
 
@@ -543,10 +605,18 @@
 
 						&:nth-child(2) {
 							width: 26%;
+
+							@include is-sp {
+								width: 44%;
+							}
 						}
 
 						&:nth-child(4) {
 							width: 26%;
+
+							@include is-sp {
+								width: 44%;
+							}
 						}
 
 						&:nth-child(6) {
@@ -556,6 +626,27 @@
 								color: #fff;
 								text-align: center;
 								padding: 7px 0;
+							}
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
+
+					p {
+
+						&:nth-child(5) {
+							@include is-sp {
+								display: none;
+							}
+						}
+
+						.hidden {
+							@include is-sp {
+								display: none;
 							}
 						}
 					}
@@ -584,6 +675,12 @@
 							}
 						}
 					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
 				}
 
 				.row-3 {
@@ -603,6 +700,12 @@
 
 						&:nth-child(2) {
 							width: 100%;
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
 						}
 					}
 				}
@@ -626,6 +729,12 @@
 							width: 100%;
 						}
 					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
+						}
+					}
 				}
 
 				.row-5 {
@@ -644,6 +753,12 @@
 
 						&:nth-child(2) {
 							width: 100%;
+						}
+					}
+
+					label {
+						@include is-sp {
+							padding-left: 0;
 						}
 					}
 				}
@@ -683,6 +798,10 @@
 				div {
 					&:nth-child(1) {
 						width: 28%;
+
+						@include is-sp {
+							width: 100%;
+						}
 					}
 				}
 			}
@@ -692,8 +811,27 @@
 			border-bottom: 1px solid #258acf;
 			z-index: 4;
 
+			@include is-sp {
+				flex-direction: column;
+				border-bottom: none;
+			}
+
+			.col-1 {
+				@include is-sp {
+					width: 100%;
+					background-color: #e2f3fb;
+					padding: 5px 0;
+				}
+			}
+
 			.col-2 {
 				padding-left: 30px;
+
+				@include is-sp {
+					width: 100%;
+					padding-top: 20px;
+					padding-left: 0;
+				}
 
 				.w_100 {
 					width: 100% !important;
@@ -770,6 +908,7 @@
 
 		.br-sp {
 			display: none;
+
 			@include is-sp {
 				display: block;
 			}
@@ -822,6 +961,7 @@
 		align-items: center;
 
 		div {
+
 			&:nth-child(1),
 			&:nth-child(2) {
 				display: flex;
@@ -835,4 +975,21 @@
 			}
 		}
 	}
+}
+
+.wpcf7c-conf {
+	background-color: #e8f0fe !important;
+}
+
+input,
+.wpcf7-form-control,
+.wpcf7-text,
+.wpcf7-validates-as-required,
+.wpcf7c-conf {
+	border: none;
+}
+
+.wpcf7-spinner {
+	width: auto !important;
+	margin: 0 !important;
 }

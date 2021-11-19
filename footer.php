@@ -206,6 +206,7 @@
                 s.parentNode.insertBefore(tk, s)
             })(document);
         </script>
+        <?php wp_footer();?>
         </body>
 
         </html>
