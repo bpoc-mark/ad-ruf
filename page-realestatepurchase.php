@@ -185,7 +185,7 @@ $imagedir = get_template_directory_uri();
                         20年で500棟以上の買取実績
                     </p>
                     <p class="text">
-                        丸の内ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、丸の内ルーフなら1週間で完結することができます。 <span>※物件画像は一例です</span>
+                        丸の内ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、丸の内ルーフなら1週間で完結することができます。 <span class="br-sp">※物件画像は一例です</span>
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -517,7 +517,7 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
             </div>
             <div class="sect_8__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">

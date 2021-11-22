@@ -62,6 +62,8 @@
 			position: absolute;
 			right: 7%;
 			top: -95px;
+			opacity: 0.3;
+
 			@include is-sp{
 				right: 3%;
 				width: 176px;
@@ -168,6 +170,8 @@
 			left: -6%;
 			top: 63px;
 			width: 265px;
+			opacity: 0.3;
+
 			@include is-max(1000px){
 				display: block;
 			}
@@ -201,7 +205,7 @@
 
 		&__box-big-new2{
 			position: absolute;
-			bottom: 0;
+			bottom: 30px;
 			margin-left: -60px;
 			@include is-sp{
 				display: none;
@@ -412,7 +416,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
-			padding: 160px 0 90px 0;
+			padding: 160px 0 55px 0;
 			@include is-sp{
 				flex-direction: column-reverse;
 				padding: 100px 0 90px 0;
@@ -498,6 +502,8 @@
 		background-color: #fff;
 
 		.c-buttonREP{
+			border: 2px solid #81b3d4;
+
 			.txt{
 				color: #2589ce;
 				letter-spacing: 0.2em;
@@ -570,6 +576,7 @@
 			@include is-max(750px) {
 				order: 1;
 				padding-bottom: 25px;
+				@include font-line(21.5);
 			}
 		}
 
@@ -762,7 +769,7 @@
 		&__box-big-new2{
 			position: absolute;
 			left: 0;
-			bottom: 10%;
+			bottom: 8%;
 			@include is-sp{
 				
 				display: none;
@@ -776,8 +783,8 @@
 			bottom: -59px;
 			height: 60px;
 			background: linear-gradient(to right, #003782, #0059b6);
-			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
-			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
+			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 100%);
+			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 100%);
 			@include is-sp{
 				height: 30px;
 				bottom: -29px;
@@ -970,7 +977,7 @@
 		&__box-big-new3{
 			position: absolute;
 			right: 0;
-			bottom: 30%;
+			bottom: 33%;
 			@include is-sp{
 				display: none;
 			}
@@ -1016,6 +1023,7 @@
 					font-family: yu-mincho-pr6n, sans-serif;
 					font-weight: 500;
 					letter-spacing: 0.15em;
+					padding-bottom: 0;
 				}
 				.text {
 					font-family: cross-platform-yu-gothic,sans-serif;
@@ -1191,8 +1199,10 @@
 			font-weight: 500;
 			letter-spacing: 0.2em;
 			margin-bottom: 70px;
+
 			@include is-max(750px) {
 				text-align: justify;
+				margin-bottom: 30px;
 			}
 		}
 
@@ -1311,6 +1321,7 @@
 
 				@include is-sp {
 					column-gap: 0;
+					padding: 0 0 30px 0;
 				}
 			}
 			@include is-sp {
@@ -1335,7 +1346,8 @@
 		&__box-big-new{
 			position: absolute;
 			left: 57%;
-			top: -12%;
+			top: -73%;
+			opacity: 0.3;
 		}
 		&__box-big-new2{
 			position: absolute;
@@ -1560,5 +1572,16 @@
 
 	.pic {
 		width: 100%;
+	}
+
+	.br-sp{
+		display: none;
+		font-family: cross-platform-yu-gothic;
+		
+		@include is-sp{
+			@include font-line(16);
+			font-weight: 500;
+			display: block;
+		}
 	}
 }
