@@ -86,7 +86,7 @@
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: cross-platform-yu-gothic;
+			font-family: cross-platform-yu-gothic,sans-serif;
 		}
 
 		span {
@@ -114,7 +114,7 @@
 
 	&__title {
 		color: $color-text03;
-		font-family: cross-platform-yu-gothic;
+		font-family: cross-platform-yu-gothic, sans-serif;
 		letter-spacing: 0.2em;
 		padding: 20px 8px 30px 8px;
 		font-weight: 500;
@@ -195,6 +195,16 @@
 				.col {
 					padding-bottom: 60px;
 
+					&:nth-child(2){
+
+						.col--ttl{
+							@include is-sp{
+								padding-left: 24px;
+								text-align: left;
+							}
+						}
+					}
+
 					.pad-left {
 						@include is-max(375px) {
 							padding: 0 15px 10px 0;
@@ -207,16 +217,22 @@
 
 					&--ttl {
 						@include font-line(16, 26);
-						font-family: cross-platform-yu-gothic;
+						font-family: cross-platform-yu-gothic, sans-serif;
 						font-weight: 700;
 						letter-spacing: 0.1em;
 						padding-bottom: 10px;
-						border-bottom: 1px solid #333;
+						border-bottom: 1px solid #494342;
 						color: #258acf;
 
 						@include is-sp {
 							padding: 0 20px 10px;
 							text-align: center;
+						}
+						
+						&:nth-child(2){
+							@include is-sp{
+								padding-left: 0;
+							}
 						}
 
 						@include is-max(409px) {
@@ -239,7 +255,7 @@
 							justify-content: flex-start;
 							align-items: baseline;
 							@include font-line(13, 26);
-							font-family: cross-platform-yu-gothic;
+							font-family: cross-platform-yu-gothic, sans-serif;
 							font-weight: 700;
 							letter-spacing: 0;
 
@@ -272,11 +288,12 @@
 							@include is-sp {
 								text-align: center;
 								padding: 27px 0 30px 0;
+								margin: 0 20px;
 							}
 
 							p {
 								@include font-line(13, 26);
-								font-family: cross-platform-yu-gothic;
+								font-family: cross-platform-yu-gothic, sans-serif;
 								font-weight: 500;
 								letter-spacing: 0.08em;
 								color: #000;
@@ -297,7 +314,7 @@
 					padding-bottom: 0;
 
 					@include is-sp {
-						padding-bottom: 60px !important;
+						
 					}
 
 				}
@@ -316,6 +333,36 @@
 
 				.col:last-child {
 					padding-bottom: 30px;
+
+					@include is-sp{}
+				}
+
+				.col{
+
+					&:nth-child(4){
+						
+						.col--ttl{
+							@include is-max(375px){
+								padding-left: 24px;
+								text-align: left;
+							}
+						}
+					}
+
+					&:nth-child(5){
+
+						.col--cont01--txt{
+							@include is-sp{
+								margin: 0 20px 0 20px;
+							}
+						}
+
+						.col--cont01{
+							@include is-sp{
+								padding-left: 0;
+							}
+						}
+					}
 				}
 
 			}
@@ -340,6 +387,7 @@
 		top: 77px;
 		left: -60px;
 		width: 316px;
+		opacity: 0.3;
 
 		@include is-max(1000px) {
 			display: none;

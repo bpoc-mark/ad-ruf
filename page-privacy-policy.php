@@ -153,7 +153,7 @@ $imagedir = get_template_directory_uri();
                         </div>
 
                         <div class="col">
-                            <p class="col--ttl p-l-30">第6条（個人情報の訂正および削除）</p>
+                            <p class="col--ttl">第6条（個人情報の訂正および削除）</p>
                             <div class="col--cont">
                                 <div class="col--cont01">
                                     <p class="col--cont01--num">1</p>
@@ -224,12 +224,10 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
-        <div class="l-wrap u-d-f u-d-f-jcc u-mt-100 pp--fd">
+        <div class="l-wrap u-d-f u-d-f-jcc u-mt-70 pp--fd">
             <a class="c-buttonCase pp--btn" href="#">
                 <p class="txt">会社概要</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
@@ -239,11 +237,6 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
         </div>
-
-
-
-
-
     </div>
 </div>
 <?php get_footer(); ?>
