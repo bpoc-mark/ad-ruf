@@ -3533,10 +3533,12 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .ci__main-content--row .col .info_left p{font-size:.8125rem;line-height:1.9230769231;letter-spacing:.21em;width:100%;font-weight:500}
 .ci__main-content--row .col .info_right{width:calc(100% - 115.5px)}
 .ci__main-content--row .col .info_right-cont{font-size:.8125rem;line-height:1.9230769231;letter-spacing:.1em;padding:15px 0 15px 20px}
+.ci__main-content--row .col .info_right-cont p{letter-spacing:1px}
 .ci__main-content--row .col .info_right-cont .sp-block{display:block}
 .ci__main-content--row .col .info_right-cont-flex{-ms-flex-wrap:wrap;flex-wrap:wrap}
 .ci__main-content--row .col .info_right-cont-flex .col_1{width:100%}
 .ci__main-content--row .col .info_right-cont-flex .col_2{width:100%}
+.ci__main-content--row .col .info_right-cont-flex p:nth-child(2){letter-spacing:-1px}
 .ci__main-content--row .col .info_right br[br01]{display:none}
 .ci__main-content--row .col .info_right .bullets{padding-right:5px}
 .ci__main-content--row .col .info:nth-child(3) .info_right-cont::before{height:96%;top:6px}
@@ -4604,6 +4606,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .float-menu .brgr-mail-mail-txt{letter-spacing:0;font-size:.8125rem}
 .assetmanagement .sect_1__headers{letter-spacing:2px;font-size:6.7vw}
 .assetmanagement .sect_1__headers .ttl_small{font-size:.6875rem;line-height:1.3636363636}
+.ci__main-content--row .col .info_right{width:calc(100% - 82.5px)}
+.ci__main-content--row .col .info_right-cont p{font-size:3.1vw}
 .sect_1__header{letter-spacing:2px;font-size:6.7vw}
 .message .c-banner .c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px}
 .message .section_1 .clipPath .cntnt-sub2{font-size:3.5vw}

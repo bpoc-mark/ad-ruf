@@ -235,6 +235,10 @@
 							width: calc(100% - 106.5px);
 						}
 
+						@include is-max(375px){
+							width: calc(100% - 82.5px);
+						}
+
 						&-cont {
 							padding: 19px 0 19px 20px;
 							display: flex;
@@ -258,6 +262,14 @@
 								font-weight: 500;
 								line-height: 24px;
 								text-align: left;
+
+								@include is-sp{
+									letter-spacing: 1px;
+								}
+
+								@include is-max(375px){
+								font-size: 3.1vw;
+								}
 							}
 
 							.sp-block {
@@ -308,6 +320,12 @@
 								p {
 									text-indent: -27px;
 									margin-left: 27px;
+
+									&:nth-child(2){
+										@include is-sp{
+											letter-spacing: -1px;
+										}
+									}
 
 									@include is-max(435px) {
 										text-indent: -21px;
