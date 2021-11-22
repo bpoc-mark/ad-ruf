@@ -174,8 +174,7 @@ get_header(); ?>
             <div class="c-case02__txt">
                 <p class="c-case02__txt__ttl">About Us</p>
                 <p class="c-case02__txt__sub">企業情報</p>
-                <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・理念を<br>
-                    ご紹介いたします。</p>
+                <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・<br class="br-sp">理念を<br class="br-pc">ご紹介いたします。</p>
             </div>
 
             <div class="cards">
