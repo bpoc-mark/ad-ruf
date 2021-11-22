@@ -17,7 +17,7 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
         <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> グ ル ー プ 事 業</p>
+            <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> 代 表 メ ッ セ ー ジ</p>
         </div>
     </div>
     <div class="top-clip"></div>
