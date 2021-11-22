@@ -115,7 +115,7 @@
 
 				@include is-sp {
 					width: 46.67%;
-					top: -100px;
+					top: -80px;
 					right: 14px;
 				}
 			}
@@ -133,6 +133,10 @@
 
 		.c-clipbg__CS {
 			padding-bottom: 60px;
+
+			@include is-sp{
+				padding-bottom: 35px;
+			}
 		}
 
 		.case-all__CS {

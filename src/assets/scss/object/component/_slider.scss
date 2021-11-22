@@ -23,6 +23,7 @@
 			height: 40px;
 			background-position: center;
 			background-color: #fff;
+			background-size: 12px;
 		}
 
 		@include is-max(450px) {
@@ -59,6 +60,7 @@
 			height: 40px;
 			background-position: center;
 			background-color: #fff;
+			background-size: 12px;
 		}
 
 		@include is-max(450px) {

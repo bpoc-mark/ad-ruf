@@ -93,6 +93,17 @@
 	}
 }
 
+.top-clip{
+	@include is-sp{
+		height: 36vw !important;
+		margin-top: 0 !important;
+	}
+
+	@include is-max(375px){
+		height: 42vw !important;
+	}
+}
+
 .c-ruf-txt {
 	display: none;
 

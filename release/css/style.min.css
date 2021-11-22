@@ -2945,6 +2945,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .c-banner--ttl2{left:0;padding:10px 11px 6px 25px;top:28%;background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5)) !important;background:linear-gradient(to right,#2579bf,#2593d5) !important}
 .c-banner--ttl2 p:first-child{font-size:1.5625rem;letter-spacing:.075em !important}
 .c-banner--ttl2 p:nth-child(2){font-weight:400 !important;letter-spacing:.26em !important;padding-top:5px !important}
+.top-clip{height:36vw !important;margin-top:0 !important}
 .c-ruf-txt{max-width:1100px;width:92%;display:block;position:relative;z-index:150;color:#fff;font-family:cross-platform-yu-gothic;margin:0 auto;text-align:left;font-size:.90625rem;line-height:1.2068965517;letter-spacing:.24em;font-weight:700;padding:35px 0 20px 35px !important}
 .c-ruf-txt img{margin-right:12.5px}
 .c-inner .bnr_sp{display:block}
@@ -3040,8 +3041,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .c-loading{width:50px;height:50px;top:calc(50% - 15px);left:calc(50% - 15px)}
 .c-loading__text{width:42px;height:42px}
 .c-loading .small{font-size:.5rem}
-.c-slider .prev-arrow{background-image:url(../image/page/top-page/arr-left-sp.png);width:21px;height:36px;left:0;width:40px;height:40px;background-position:center;background-color:#fff}
-.c-slider .next-arrow{background-image:url(../image/page/top-page/arr-right-sp.png);right:0;width:40px;height:40px;background-position:center;background-color:#fff}
+.c-slider .prev-arrow{background-image:url(../image/page/top-page/arr-left-sp.png);width:21px;height:36px;left:0;width:40px;height:40px;background-position:center;background-color:#fff;background-size:12px}
+.c-slider .next-arrow{background-image:url(../image/page/top-page/arr-right-sp.png);right:0;width:40px;height:40px;background-position:center;background-color:#fff;background-size:12px}
 .c-slider__item{margin-right:0;padding:0 10px}
 .c-slider .slick-slide{opacity:.5}
 .c-slider .slick-slide .c-slider__item--ttl{opacity:0}
@@ -3471,7 +3472,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .case .bread_crumps .txt{font-size:.78125rem}
 .case .section_1{-webkit-clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);padding:115px 0 76.5px 0;margin-top:-100px}
 .case .section_1 .clip-bottom{padding:100px 0 0 0}
-.case .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:14px}
+.case .section_1 .l-wrap .bg_1{width:46.67%;top:-80px;right:14px}
+.case .section_1 .c-clipbg__CS{padding-bottom:35px}
 .case .section_2 .photos{padding:50px 30px}
 .case .section_2 .photos img{width:calc(100% / 2)}
 .case .section_3 .l-wrap .bg_1{width:122px;right:20px;top:-30px;display:none}
@@ -4080,6 +4082,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .result .section_1{-webkit-clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);padding:115px 0 76.5px 0;margin-top:-100px}
 .result .section_1 .clip-path{padding:15px 0 0 0}
 .result .section_1 .l-wrap .bg-sq{width:178px;right:10px;top:-83px}
+.result .section_1__ttl{color:#9dc2e1}
 .result .section_1__charts{padding-top:0}
 .result .section_1__charts img:nth-of-type(2){padding-top:25px}
 .result .section_1__chart-ins{letter-spacing:.1em;padding-bottom:53px}
@@ -4587,7 +4590,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .top-header-bnnr-hdr-02-txt-2{white-space:nowrap;line-height:1.7}
 .section_2 .sec2-bg2-sp{top:24.4%}
 .section_3 .clipPath{-webkit-clip-path:polygon(14% 2%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 2%,100% 0,100% 100%,0 100%,0 0);padding:120px 0 99px 0}
-}@media only screen and (max-width:375px){.c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px;font-size:3.8vw}
+}@media only screen and (max-width:375px){.top-clip{height:42vw !important}
+.c-ruf-txt{white-space:nowrap;padding:34px 0 30px 30px;font-size:3.8vw}
 .p-cntct-inqrs-dtl-link p:nth-child(1){font-size:16px;white-space:nowrap}
 .p-cntct-inqrs-dtl-link p:nth-child(2){font-size:12px}
 .page__footer .nav-footer{padding:75px 0 0 0}
