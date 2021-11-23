@@ -22,7 +22,7 @@
                             </a>
                         </div>
                         <div class="p-cntct-inqrs-dtl email">
-                            <a class="p-cntct-inqrs-dtl-link" href="">
+                            <a class="p-cntct-inqrs-dtl-link" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                                 <p>メールでのお問い合わせ</p>
                                 <p>お問い合わせフォーム<br>24時間受付</p>
                             </a>
@@ -52,15 +52,15 @@
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">プライバシーポリシー</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">プライバシーポリシー</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">バリューアップ事例</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">バリューアップ事例</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">お問い合わせ・ご相談</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">お問い合わせ・ご相談</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                             </ul>
@@ -68,37 +68,37 @@
                     </div>
                     <div class="nav-footer-col3">
                         <div class="ttl f-acc-sp">
-                            <a class="head-link" href="">事業内容</a>
+                            <a class="head-link" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">事業内容</a>
                             <a class="head-icon" href="">+</a>
                         </div>
                         <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">収益不動産の売買</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>">収益不動産の売買</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">収益不動産の買取</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">収益不動産の買取</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">収益不動産の売却</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('saleofrealestate')) ?>">収益不動産の売却</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">収益不動産の管理</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>">収益不動産の管理</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">収益不動産の運用</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestateoperation')) ?>">収益不動産の運用</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">アセットマネジメント</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>">アセットマネジメント</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">グループ事業 </a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('groupbusiness')) ?>">グループ事業 </a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                             </ul>
@@ -106,37 +106,37 @@
                     </div>
                     <div class="nav-footer-col4">
                         <div class="ttl f-acc-sp">
-                            <a class="head-link" href="">企業情報</a>
+                            <a class="head-link" href="<?php echo get_permalink(get_page_by_path('about')) ?>">企業情報</a>
                             <a class="head-icon" href="">+</a>
                         </div>
                         <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">代表メッセージ</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('message')) ?>">代表メッセージ</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">経営理念</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">経営理念</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">会社概要</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">会社概要</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">業績</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('result')) ?>">業績</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">アクセス</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('access ')) ?>">アクセス</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">オフィス風景</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">オフィス風景</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="">代表について </a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('interview')) ?>">代表について </a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                             </ul>
@@ -206,7 +206,7 @@
                 s.parentNode.insertBefore(tk, s)
             })(document);
         </script>
-        <?php wp_footer();?>
+        <?php wp_footer(); ?>
         </body>
 
         </html>

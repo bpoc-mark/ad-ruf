@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Case Studies</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> バリューアップ事例</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -195,12 +198,12 @@ $imagedir = get_template_directory_uri();
                                     </p>
 
                                     <p class="c-card08__center u-d-n-pc">
-                                    入居者目線の大規模修繕を行い<br>
-                                    入居率100%を継続している事例
+                                        入居者目線の大規模修繕を行い<br>
+                                        入居率100%を継続している事例
                                     </p>
                                     <p class="c-card08__bottom u-d-n-pc">
-                                    2003年竣工、6階建、鉄筋コンクAリート<br>
-                                    フルリノベーション
+                                        2003年竣工、6階建、鉄筋コンクAリート<br>
+                                        フルリノベーション
                                     </p>
 
                                 </div>
@@ -228,12 +231,12 @@ $imagedir = get_template_directory_uri();
                                     </p>
 
                                     <p class="c-card08__center u-d-n-pc">
-                                    外観リフォームで<br>
-                                    賃料アップと満室稼働に成功した事例
+                                        外観リフォームで<br>
+                                        賃料アップと満室稼働に成功した事例
                                     </p>
                                     <p class="c-card08__bottom u-d-n-pc">
-                                    2000年竣工、5階建、鉄筋コンクリート<br>
-                                    フルリノベーション
+                                        2000年竣工、5階建、鉄筋コンクリート<br>
+                                        フルリノベーション
                                     </p>
                                 </div>
                             </div>
@@ -247,114 +250,114 @@ $imagedir = get_template_directory_uri();
         </div>
     </div>
 
-        <!-- //CONTENT 2 -->
-        <div class="c-case--items u-mb-100">
+    <!-- //CONTENT 2 -->
+    <div class="c-case--items u-mb-100">
 
-            <div class="l-wrap">
-                <img class="bg_2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
-                <img class="bg_7 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
-               
-                <div class="c-case--items__contents">
-                    <img class="bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
-                    <img class="bg_3_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
-                    <img class="bg_4_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/bg_8.png" alt="">
+        <div class="l-wrap">
+            <img class="bg_2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
+            <img class="bg_7 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
 
-                    <div class="c-case03__txt u-ta-l">
-                        <p class="c-case03__txt__ttl">Real estate column</p>
-                        <p class="c-case03__txt__sub">●●●●コラム</p>
-                        <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
-                            情報収集をして、後悔のない不動産投資を！</p>
-                    </div>
+            <div class="c-case--items__contents">
+                <img class="bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
+                <img class="bg_3_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
+                <img class="bg_4_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/background/bg_8.png" alt="">
 
-
-
-                </div>
-                <div class="c-slider slider u-ta-l u-pt-0">
-                    <div class="c-slider__item">
-                        <div class="bg_img">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case09.png" alt="">
-                            <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
-                            <p class="realestate"><span>R</span>eal Estate</p>
-                            <p class="purchase"><span>P</span>urchase</p>
-                            <div class="tl_50">
-                                <p>失敗しないための収益不動産知識</p>
-                                <p>ダミーですこの文章は
-                                </p>
-                                <p>ダミーです。</p>
-                            </div>
-                        </div>
-                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
-                    <div class="c-slider__item">
-                        <div class="bg_img">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
-                            <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
-                            <p class="youtube"><span>Y</span>outube</p>
-                            <p class="movies"><span>M</span>ovie</p>
-                            <div class="tl_50">
-                                <p>Youtube 動画紹介</p>
-                                <p>ダミーですこの文章は</p>
-                                <p>ダミーです。</p>
-                            </div>
-                        </div>
-                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
-                    <div class="c-slider__item">
-                        <div class="bg_img">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/sect_3_img.png" alt="">
-                            <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
-                            <p class="achieve"><span>A</span>chievement</p>
-                            <p class="interview"><span>I</span>nterview</p>
-                            <div class="tl_50">
-                                <p>実績インタビュー</p>
-                                <p>ダミーですこの文章は</p>
-                                <p>ダミーです。</p>
-                            </div>
-                        </div>
-                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
-                    <div class="c-slider__item">
-                        <div class="bg_img">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case09.png" alt="">
-                            <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
-                            <p class="realestate"><span>R</span>eal Estate</p>
-                            <p class="purchase"><span>P</span>urchase</p>
-                            <div class="tl_50">
-                                <p>失敗しないための収益不動産知識</p>
-                                <p>ダミーですこの文章は</p>
-                                <p>ダミーです。</p>
-                            </div>
-                        </div>
-                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
-                    <div class="c-slider__item">
-                        <div class="bg_img">
-                            <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
-                            <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
-                            <p class="achieve"><span>A</span>chievement</p>
-                            <p class="interview"><span>I</span>nterview</p>
-                            <div class="tl_50">
-                                <p>失敗しないための収益不動産知識</p>
-                                <p>ダミーですこの文章は
-                                </p>
-                                <p>ダミーです。</p>
-                            </div>
-                        </div>
-                        <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
-                        <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-                    </div>
+                <div class="c-case03__txt u-ta-l">
+                    <p class="c-case03__txt__ttl">Real estate column</p>
+                    <p class="c-case03__txt__sub">●●●●コラム</p>
+                    <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
+                        情報収集をして、後悔のない不動産投資を！</p>
                 </div>
 
-                <a href="#" class="c-buttonCase">
-                    <p class="txt">その他の事例を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </a>
+
+
             </div>
-        </div>
+            <div class="c-slider slider u-ta-l u-pt-0">
+                <div class="c-slider__item">
+                    <div class="bg_img">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case09.png" alt="">
+                        <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
+                        <p class="realestate"><span>R</span>eal Estate</p>
+                        <p class="purchase"><span>P</span>urchase</p>
+                        <div class="tl_50">
+                            <p>失敗しないための収益不動産知識</p>
+                            <p>ダミーですこの文章は
+                            </p>
+                            <p>ダミーです。</p>
+                        </div>
+                    </div>
+                    <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                </div>
+                <div class="c-slider__item">
+                    <div class="bg_img">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
+                        <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
+                        <p class="youtube"><span>Y</span>outube</p>
+                        <p class="movies"><span>M</span>ovie</p>
+                        <div class="tl_50">
+                            <p>Youtube 動画紹介</p>
+                            <p>ダミーですこの文章は</p>
+                            <p>ダミーです。</p>
+                        </div>
+                    </div>
+                    <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                </div>
+                <div class="c-slider__item">
+                    <div class="bg_img">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/sect_3_img.png" alt="">
+                        <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
+                        <p class="achieve"><span>A</span>chievement</p>
+                        <p class="interview"><span>I</span>nterview</p>
+                        <div class="tl_50">
+                            <p>実績インタビュー</p>
+                            <p>ダミーですこの文章は</p>
+                            <p>ダミーです。</p>
+                        </div>
+                    </div>
+                    <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                </div>
+                <div class="c-slider__item">
+                    <div class="bg_img">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case09.png" alt="">
+                        <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
+                        <p class="realestate"><span>R</span>eal Estate</p>
+                        <p class="purchase"><span>P</span>urchase</p>
+                        <div class="tl_50">
+                            <p>失敗しないための収益不動産知識</p>
+                            <p>ダミーですこの文章は</p>
+                            <p>ダミーです。</p>
+                        </div>
+                    </div>
+                    <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                </div>
+                <div class="c-slider__item">
+                    <div class="bg_img">
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case10.png" alt="">
+                        <img src="<?php echo $imagedir ?>/release/image/logo.svg" alt="">
+                        <p class="achieve"><span>A</span>chievement</p>
+                        <p class="interview"><span>I</span>nterview</p>
+                        <div class="tl_50">
+                            <p>失敗しないための収益不動産知識</p>
+                            <p>ダミーですこの文章は
+                            </p>
+                            <p>ダミーです。</p>
+                        </div>
+                    </div>
+                    <p class="c-slider__item--ttl">この文章はダミーです<br>この文章はダミーです</p>
+                    <p class="c-slider__item--sub">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+                </div>
+            </div>
 
-  
+            <a href="#" class="c-buttonCase">
+                <p class="txt">その他の事例を見る</p>
+                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+            </a>
+        </div>
+    </div>
+
+
     <?php get_footer(); ?>

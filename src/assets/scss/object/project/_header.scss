@@ -468,6 +468,7 @@
 							.nav-links-ul-02-link-submenu {
 								display: block;
 								cursor: pointer;
+								background: #0050a8;
 								@include is-sp {
 									display: none;
 								}
@@ -509,9 +510,10 @@
 						&-submenu {
 							display: none;
 							position: absolute;
-							bottom: -65px;
-							left: 50%;
+							top: 30px;
+							left: 140%;
 							transform: translate(-50%, 0);
+							padding: 10px 0;
 
 							@include is-sp {
 								position: relative;
@@ -519,6 +521,7 @@
 								left: unset;
 								transform: unset;
 								width: 100%;
+								top: 10px;
 							}
 							&::before {
 								content: "";
@@ -531,8 +534,13 @@
 							}
 							li {
 								white-space: nowrap;
-								padding: 0 10px;
-								text-align: center;
+								padding: 10px;
+								text-align: left;
+								transition-duration: 0.5s;
+
+								&:hover{
+									background: #b71e32;
+								}
 
 								@include is-sp {
 									text-align: left;
@@ -540,6 +548,10 @@
 								}
 								a {
 									color: #fff;
+
+									@include is-max(390px){
+										font-size: 4vw;
+									}
 								}
 							}
 						}

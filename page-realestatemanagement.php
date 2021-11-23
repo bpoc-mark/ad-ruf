@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Real Estate<br class="br-sp">Management</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span>事 業 内 容<span>＞</span>収 益 不 動 産 の 管 理</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>

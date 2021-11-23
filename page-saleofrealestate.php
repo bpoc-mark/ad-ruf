@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Sale of<br class="u-d-n-pc"> real estate</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 事業内容 <span>＞</span> 収益不動産の売買<br class="u-d-n-pc"> <span>></span> 収益不動産の売却</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -515,7 +518,7 @@ $imagedir = get_template_directory_uri();
 
     <section class="sore__section_7">
         <div class="l-wrap">
-        <img class="u-d-n-pc sp_bg6" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
+            <img class="u-d-n-pc sp_bg6" src="<?php echo $imagedir ?>/release/image/background/sec6_bg_sp.png" alt="">
             <img class="bg_15" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <img class="bg_16" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <div class="c-case03__txt sore__headline">

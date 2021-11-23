@@ -21,8 +21,11 @@ $imagedir = get_template_directory_uri();
                 <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/message/message_bnr_person.png" alt="">
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span> 代 表 メ ッ セ ー ジ</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>

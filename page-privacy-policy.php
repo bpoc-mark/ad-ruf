@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Privacy Policy</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> プ ラ イ バ シ ー ポ リ シ ー </p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -25,7 +28,7 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="pp__bg_1" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_1.png" alt="">
             <h1 class="pp__title">株式会社ルーフ（以下、「当社」といいます。）は、<br>本ウェブサイト上で提供するサービス <br>（以下,「本サービス」といいます。）<br>
-            におけるプライバシー情報の取扱いについて、<br>以下のとおりプライバシーポリシー<br>（以下、「本ポリシー」といいます。）を定めます。</h1>
+                におけるプライバシー情報の取扱いについて、<br>以下のとおりプライバシーポリシー<br>（以下、「本ポリシー」といいます。）を定めます。</h1>
             <img class="pp__bg_2" src="<?php echo $imagedir ?>/release/image/page/privacy-policy/pp_bg_2.png" alt="">
         </div>
 

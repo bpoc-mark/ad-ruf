@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>The Results</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span>業 績</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -36,8 +39,8 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="section_1__charts u-d-n-pc">
-                    <img  src="<?php echo $imagedir ?>/release/image/page/result/chart_1_sp.png" alt="">
-                    <img  src="<?php echo $imagedir ?>/release/image/page/result/chart_2_sp.png" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/result/chart_1_sp.png" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/result/chart_2_sp.png" alt="">
                 </div>
 
                 <p class="section_1__chart-ins">カーソルを合わせると各年度の<br class="br-sp">詳細な業績が見られます。<br>

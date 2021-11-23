@@ -18,8 +18,11 @@ get_header(); ?>
                 <p>Interview</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span>代 表 イ ン タ ビ ュ ー</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>

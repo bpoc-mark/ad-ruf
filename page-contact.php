@@ -4,8 +4,7 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content contact-frm">
     <div class="c-banner">
-        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg"
-                alt="">丸の内 株式会社ルーフ</p>
+        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg_sp.png" alt="">
@@ -14,8 +13,11 @@ $imagedir = get_template_directory_uri();
                 <p>Contact Us</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> お 問 い 合 わ せ <span>＞</span>確 認 画 面</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -26,9 +28,7 @@ $imagedir = get_template_directory_uri();
                     <p class="txt">電話でのお問い合わせはこちら</p>
                 </div>
                 <div class="p2">
-                    <p class="txt"><a href="#"><img
-                                src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png"
-                                alt="Living Room">&nbsp;0120-173-602</a></p>
+                    <p class="txt"><a href="#"><img src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png" alt="Living Room">&nbsp;0120-173-602</a></p>
                 </div>
                 <div class="p3">
                     <p class="txt">TEL：03-3211-0123（代表）<br>
@@ -67,7 +67,7 @@ $imagedir = get_template_directory_uri();
                         </div>
                     </form> -->
 
-                    <?php echo do_shortcode('[contact-form-7 id="21" title="Contact form 1"]');?>
+                    <?php echo do_shortcode('[contact-form-7 id="21" title="Contact form 1"]'); ?>
                 </div>
             </div>
             <div class="c-pageTop">

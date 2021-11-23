@@ -14,8 +14,11 @@ $imagedir = get_template_directory_uri();
                 <p>Asset <br class="u-d-n-pc">Management</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> アセットマネジメント</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -279,7 +282,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
-                あらゆるニーズに柔軟に対応
+                    あらゆるニーズに柔軟に対応
                 </p>
 
                 <a class="c-buttonREP red" href="#">

@@ -14,8 +14,8 @@ $imagedir = get_template_directory_uri();
                 <p>Access</p>
             </div>
         </div>
-        <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span> ア ク セ ス</p>
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>
@@ -135,7 +135,7 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap pt100">
             <img class="section_3__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <img class="section_3__bg_1 u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/s3_bg_1_sp.png" alt="">
-           
+
             <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
                 <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでのアクセス</p>

@@ -13,8 +13,11 @@ $imagedir = get_template_directory_uri();
                 <p>Contact Us</p>
             </div>
         </div>
-        <div class="bread_crumps">
+        <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> お 問 い 合 わ せ <span>＞</span>確 認 画 面</p>
+        </div> -->
+        <div class="c-bread_crumps">
+            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
     </div>
     <div class="top-clip"></div>

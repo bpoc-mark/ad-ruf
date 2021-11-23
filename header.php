@@ -32,7 +32,7 @@
                             <ul class="nav-links-ul-01">
                                 <li class="nav-links-ul-01-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a href="<?php echo get_permalink(get_page_by_path('about')) ?>">会社概要</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">会社概要</a>
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
@@ -82,24 +82,30 @@
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a>事業内容</a>
+                                    <a href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">事業内容</a>
                                     <ul class="nav-links-ul-02-link-submenu">
                                         <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 1</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>">収益不動産の買取</a>
                                         </li>
                                         <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 2</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">収益不動産の売却</a>
                                         </li>
                                         <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 3</a>
+                                            <a href="<?php echo get_permalink(get_page_by_path('saleofrealestate')) ?>">収益不動産の管理</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>">収益不動産の運用</a>
+                                        </li>
+                                        <li class="nav-links-ul-02-submenu-link">
+                                            <a href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>">アセットマネジメント</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
                                     <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                     <p class="plus u-d-n-pc">+</p>
-                                    <a>企業情報</a>
-                                    <ul class="nav-links-ul-02-link-submenu">
+                                    <a href="<?php echo get_permalink(get_page_by_path('about')) ?>">企業情報</a>
+                                    <!-- <ul class="nav-links-ul-02-link-submenu">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
                                         </li>
@@ -109,12 +115,12 @@
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 3</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
-                                    <a>バリューアップ事例</a>
-                                    <ul class="nav-links-ul-02-link-submenu">
+                                    <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">バリューアップ事例</a>
+                                    <!-- <ul class="nav-links-ul-02-link-submenu">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>
                                         </li>
@@ -124,7 +130,7 @@
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 3</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-links-ul-02-link submenu-clk">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
@@ -144,7 +150,7 @@
                             </ul>
                         </div>
                         <div class="nav-links-mail">
-                            <a class="nav-links-mail-link" href="mailto:someone@example.com">
+                            <a class="nav-links-mail-link" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                                 <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
                                 <p>お問い合わせ・<br class="u-d-n-sp">
                                     ご相談</p>
@@ -173,7 +179,7 @@
                     </div>
                     <p class="brgr-mail-burger-txt">MENU</p>
                 </a>
-                <a class="brgr-mail-mail" href="mailto:someone@example.com">
+                <a class="brgr-mail-mail" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                     <img class="mail" src="<?php echo get_template_directory_uri(); ?>/release/image/header/mail.svg" alt="">
                     <p class="brgr-mail-mail-txt">お問い合わせ・<br class="u-d-n-pc">ご相談</p>
                 </a>
