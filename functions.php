@@ -90,14 +90,14 @@ function my_css_attributes_filter($var) {
 
 // Add more-link text to excerpt 
 function new_excerpt_more( $excerpt ) { 
-    return $excerpt. '<a class="more-link" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'baskerville') . ' </a>'; 
+    return '<p class="post-item-content-excerpt u-d-n-sp">'.$excerpt.'<p>'; 
 } 
 add_filter( 'get_the_excerpt', 'new_excerpt_more' );
 
 // Add excerpt length
 
 function new_excerpt_length($length) {
-    return 100;
+    return 10;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 

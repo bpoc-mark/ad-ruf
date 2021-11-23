@@ -1,7 +1,7 @@
 "use strict";
 
 $(document).ready(function () {
-  $('.your-class').slick({
+  $('.slider_realestate').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1.65,
@@ -19,5 +19,14 @@ $(document).ready(function () {
     // settings: "unslick"
     // instead of a settings object
     ]
+  });
+  $(document).on("click", ".tab_wrap_item__link", function (e) {
+    e.preventDefault();
+    var getTab = $(this).attr("href");
+    $('.tab_cont').removeClass('active');
+    $('#' + getTab).addClass('active');
+    $('.tab_wrap_item').removeClass('active');
+    $(this).parent().addClass('active');
+    $('.slider_realestate').slick('setPosition');
   });
 });
