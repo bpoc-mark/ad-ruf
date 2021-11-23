@@ -50,6 +50,10 @@
 				@include font-line(12.5);
 			}
 
+			@include is-max(400px){
+				font-size: 3vw !important;
+			}
+
 			@include is-max(322px) {
 				white-space: nowrap;
 			}

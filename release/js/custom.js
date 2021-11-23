@@ -47,7 +47,7 @@ var clickAllowed = true;
 $(window).on('load resize', function () {
   var w = $(window).width();
 
-  if (w < 750) {
+  if (w <= 750) {
     clickAllowed = true;
   } else {
     clickAllowed = false;

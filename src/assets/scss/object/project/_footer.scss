@@ -46,7 +46,7 @@
             display: inline-block;
 
             @include is-sp {
-                bottom: 7px;
+                bottom: 0;
             }
 
             &:hover{
@@ -206,12 +206,12 @@
                                 justify-content: space-between;
                                 align-items: center;
                                 border-bottom: 1px dashed #fff;
-                                padding: 0 75px;
+                                padding: 0 47px 0 75px;
                                 
                             }
 
                             @include is-max (370px) {
-                                padding: 0 40px;
+                                padding: 0 20px 0 40px;
                             }
                             
         
@@ -376,12 +376,12 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 75px;
+                            padding: 0 47px 0 75px;
                             
                         }
 
                         @include is-max (370px) {
-                            padding: 0 40px;
+                            padding: 0 20px 0 40px;
                         }
                         
     
@@ -540,12 +540,12 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 75px;
+                            padding: 0 47px 0 75px;
                             
                         }
 
                         @include is-max (370px) {
-                            padding: 0 40px;
+                            padding: 0 20px 0 40px;
                         }
                         
     
@@ -708,12 +708,12 @@
                             justify-content: space-between;
                             align-items: center;
                             border-bottom: 1px dashed #fff;
-                            padding: 0 75px;
+                            padding: 0 47px 0 75px;
                             
                         }
 
                         @include is-max (370px) {
-                            padding: 0 40px;
+                            padding: 0 20px 0 40px;
                         }
                         
     

@@ -183,7 +183,7 @@ $imagedir = get_template_directory_uri();
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
 						<p class="c-case--items__contents--row_2__txt desc">マンション共用部の階段もリフォームを行い、<br class="u-d-n-sp">
-							階段入り口もライトを設置し安全に明るく見</p>
+							階段入り口もライトを設置し安全に明るく見栄え良く仕上げました。</p>
 					</div>
 				</div>
 			</div>
@@ -223,8 +223,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt">
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">通路の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">安全面を考慮し当初の駐輪場は駐車場横へと移動し、<br class="u-d-n-sp">
-							すっきりした通路へ改修しました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">安全面を考慮し当初の駐輪場は駐車場横へと移動し、<br class="u-d-n-sp">すっきりした通路へ改修しました。</p>
 					</div>
 				</div>
 			</div>
@@ -306,7 +305,7 @@ $imagedir = get_template_directory_uri();
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub case06--sub5">駐車場の<br>ビフォーアフター</p>
 						<p class="c-case--items__contents--row_2__txt desc">駐車スペースの整備を行い、駐車場の隣には安心して自転車を停められる駐輪場も設置しました。<br class="u-d-n-sp">
-						劣化したブロック塀もパネルフェンスを設置し、スタイリッシュかつ安全性も高めました。</p>
+							劣化したブロック塀もパネルフェンスを設置し、スタイリッシュかつ安全性も高めました。</p>
 					</div>
 				</div>
 			</div>

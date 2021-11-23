@@ -99,7 +99,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt row2__txt--02">
 						<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub case06--sub2">エントランスの<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">東京都内の閑静な住宅地に建てられた家族向けマンションの共用部分をリノベーションいたしました。築年数が25年という事もあり、2回目の修繕工事となった今回は、重厚感のあるエントランス部分の印象アップを中心に機能面も考慮しバリューアップを図りまし</p>
+						<p class="c-case--items__contents--row_2__txt desc">東京都内の閑静な住宅地に建てられた家族向けマンションの共用部分をリノベーションいたしました。築年数が25年という事もあり、2回目の修繕工事となった今回は、重厚感のあるエントランス部分の印象アップを中心に機能面も考慮しバリューアップを図りました。</p>
 					</div>
 				</div>
 			</div>
@@ -139,8 +139,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt">
 						<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub case06--sub5">ポストの<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">エントランス部分に多く使われているブラウンをポストにも採用しました。<br class="u-d-n-sp">
-							また、消化器に目隠しをする等、細かな点も工夫いたしました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">エントランス部分に多く使われているブラウンをポストにも採用しました。<br class="u-d-n-sp">また、消化器に目隠しをする等、細かな点も工夫いたしました。</p>
 					</div>
 				</div>
 			</div>
@@ -300,8 +299,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt">
 						<p class="c-case--items__contents--row_2__txt ttl">1993年竣工、4階建て、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub case06--sub5">駐車場の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">安全面と管理についても考慮し、植木を一掃いたしました。<br class="u-d-n-sp">
-						併せて駐車エリアも塗装いたしました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">安全面と管理についても考慮し、植木を一掃いたしました。<br class="u-d-n-sp">併せて駐車エリアも塗装いたしました。</p>
 					</div>
 				</div>
 			</div>

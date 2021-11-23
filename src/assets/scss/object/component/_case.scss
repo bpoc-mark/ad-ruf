@@ -450,7 +450,8 @@
 			width: 290px;
 
 			@include is-sp {
-				display: none;
+				z-index: -1;
+				top: 13px
 			}
 		}
 	}
