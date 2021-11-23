@@ -157,7 +157,7 @@
 			.bg_3 {
 				position: absolute;
 				top: -20px;
-				right: 0;
+				right: -6px;
 				width: 370px;
 				z-index: -1;
 
@@ -387,7 +387,7 @@
 					&.desc {
 						font-family: cross-platform-yu-gothic, sans-serif;
 						font-weight: 500;
-						letter-spacing: 0.2em;
+						letter-spacing: 0.09em;
 						text-align: justify;
 
 						@include is-sp {
