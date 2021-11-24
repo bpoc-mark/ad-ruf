@@ -76,7 +76,7 @@
 	&__bg-white {
 		background-color: #fff;
 		margin: 11px 0 0 0;
-		padding: 30px 30px 90px 30px;
+		padding: 30px 30px 60px 30px;
 
 		@include is-sp {
 			margin: 30px 0 0 0;
@@ -387,7 +387,7 @@
 
 				label {
 					padding-right: 15px;
-					width: 115px;
+					width: 126px;
 				}
 
 				span {
@@ -915,6 +915,26 @@
 		}
 
 		p {
+
+			&:nth-child(1){
+				padding: 0 0 30px 0;
+				letter-spacing: 0.220em;
+
+				@include is-sp{
+					letter-spacing: 0.210em;
+				}
+
+				@include is-max(375px){
+					font-size: 3.3vw;
+				}
+
+				a{
+					@include is-max(375px){
+						font-size: 3.5vw;
+					}
+				}
+			}
+
 			@include font-line(13);
 
 			a {
@@ -975,6 +995,113 @@
 			}
 		}
 	}
+
+	input[type='checkbox'] {
+        margin-top: -30px;
+    }
+
+    input[type='checkbox'] {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeSpeed;
+        width: 28px;
+        height: 28px;
+        margin: 0;
+        margin-right: 1px;
+        display: block;
+        float: left;
+        position: relative;
+        cursor: pointer;
+    }
+
+    input[type='checkbox']:after {
+        content: "";
+        vertical-align: middle;
+        text-align: center;
+        line-height: 13px;
+        position: absolute;
+        cursor: pointer;
+        height: 28px;
+        width: 28px;
+        left: 0;
+        top: 0;
+        font-size: 10px;
+        -webkit-box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+        -moz-box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+        box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
+        background: #ad1e32;
+        border: 1px solid #258acf;
+    }
+
+
+    input[type='checkbox']:checked:after {
+        content: '\2714';
+        color: #fff;
+        font-size: 25px;
+        padding: 8px 0 0 3px;
+    }
+
+	   .selct {
+        position: relative;
+        /*Don't really need this just for demo styling*/
+        margin: 0;
+
+        float: left;
+        min-width: 200px;
+        margin: 0;
+    }
+
+    select {
+        outline: none;
+        scroll-behavior: smooth;
+    }
+
+    .selct:before {
+        content: '\f0d8';
+        font: normal normal normal 17px/1 FontAwesome;
+        right: 0;
+        top: 5px;
+        height: 24.5px;
+        padding: 2px 6px 0px 6px;
+        border-left: 1px solid #0ebeff;
+        position: absolute;
+        pointer-events: none;
+        background-color: #258acf;
+        color: #fff;
+    }
+
+    .selct:after {
+        content: '\f0d7';
+        font: normal normal normal 17px/1 FontAwesome;
+        right: 0;
+        top: 30px;
+        height: 24.5px;
+        padding: 2px 6px 0px 6px;
+        border-left: 1px solid #0ebeff;
+        position: absolute;
+        pointer-events: none;
+        background-color: #258acf;
+        color: #fff;
+    }
+
+    /* IE11 hide native button (thanks Matt!) */
+    select::-ms-expand {
+        display: none;
+    }
+
+    .selct select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* Add some styling */
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 50px;
+        float: right;
+        margin: 5px 0px;
+        padding: 0px 24px;
+        line-height: 1.75;
+    }
 }
 
 .wpcf7c-conf {
@@ -992,4 +1119,21 @@ input,
 .wpcf7-spinner {
 	width: auto !important;
 	margin: 0 !important;
+}
+
+.wpcf7-list-item{
+
+	label{
+		vertical-align: sub;
+	}
+}
+
+.wpcf7-list-item-label{
+	padding: 0 0 0 5px;
+	color: #258acf;
+	letter-spacing: 0.280em;
+
+	@include is-max(340px){
+		font-size: 3.7vw;
+	}
 }

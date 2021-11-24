@@ -159,3 +159,6 @@ $(document).ready(function () {
     $('.slider_realestate').slick('setPosition');
   });
 });
+$(function () {
+  $("select").append('<optgroup label=""></optgroup>');
+});

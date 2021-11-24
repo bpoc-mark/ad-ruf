@@ -49,7 +49,10 @@ $imagedir = get_template_directory_uri();
                         <p class="contact-frm__req--txt">※ は必須項目です</p>
                     </div>
 
-                    <!-- <form action="">
+                    <?php echo do_shortcode('[contact-form-7 id="21" title="Contact form 1"]'); ?>
+
+                    <!-- 
+                    <form action="">
                         <div class="btm-txt">
                             <p>「 <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">プライバシーポリシー</a>」をご確認いただき、<br class="br-sp">同意のうえお問い合わせください。</p>
 
@@ -66,9 +69,8 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </form> -->
-
-                    <?php echo do_shortcode('[contact-form-7 id="21" title="Contact form 1"]'); ?>
                 </div>
+
             </div>
             <div class="c-pageTop">
                 <a href="#">
@@ -77,5 +79,9 @@ $imagedir = get_template_directory_uri();
             </div>
     </section>
 </div>
+
+<style>
+ 
+</style>
 
 <?php get_footer(); ?>
