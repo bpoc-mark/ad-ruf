@@ -817,7 +817,7 @@
 						height: auto;
 						padding-right: 0;
 						padding-top: 0;
-						padding-left: 4vw;
+						padding-left: 6vw;
 					}
 				}
 
@@ -1077,19 +1077,20 @@
 
 			@include is-max(375px) {
 				font-size: 5.7vw !important;
+				letter-spacing: 0.1em;
 			}
 		}
 
 		&__box-big-new {
 			position: absolute;
-			left: 60%;
+			left: 63%;
 			top: 0;
 
 			@include is-sp {
 				left: auto;
 				width: 122px;
-				right: 6%;
-				top: 0;
+				right: 2%;
+				top: 14px;
 			}
 
 			.pc {
@@ -1113,6 +1114,10 @@
 			position: absolute;
 			left: -2%;
 			top: 24%;
+
+			@include is-sp{
+				display: none;
+			}
 		}
 
 		&__box-big-new3 {
@@ -1336,7 +1341,7 @@
 
 		&--top-casestudy {
 			border-left: 3px solid #fff;
-			padding-left: 15px;
+			padding-left: 20px;
 		}
 
 		&__eng--ttl {
@@ -1555,7 +1560,9 @@
 			top: -12%;
 
 			@include is-sp {
-				top: -77%;
+				top: -60%;
+				width: 122px;
+				left: 61%;
 			}
 		}
 

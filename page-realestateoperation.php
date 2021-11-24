@@ -294,7 +294,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
-                    あらゆるニーズに柔軟に対応
+                    コストカットと安定した稼働率
                 </p>
 
                 <a class="c-buttonREP red" href="#">

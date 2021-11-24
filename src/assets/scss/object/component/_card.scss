@@ -542,6 +542,10 @@
 		padding: 20px 5px 18px;
 		border: 2px solid #f1f1f1;
 
+		@include is-sp{
+			padding: 15px 5px 18px;
+		}
+
 		&-ttl {
 			font-size: 14px;
 			line-height: 21px;
@@ -563,6 +567,10 @@
 			color: #333;
 			letter-spacing: 0.2em;
 			padding-top: 13px;
+
+			@include is-sp{
+				padding-top: 5px;
+			}
 
 			@include is-max(430px) {
 				font-size: 3vw;
