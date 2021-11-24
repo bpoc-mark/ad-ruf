@@ -893,7 +893,7 @@
 
 	&-bottom {
 		border: 1px solid #000;
-		border-top: none;
+		border-top: none !important;
 		padding: 0 19px 10px;
 		min-height: 185px;
 
@@ -1018,6 +1018,7 @@
 		&4 {
 			border-bottom: 1px dotted #9e9e9e;
 			padding: 5px;
+			align-items: flex-start;
 
 			@include is-sp {
 				flex-direction: row;
@@ -1048,6 +1049,8 @@
 					}
 				}
 			}
+			
+			border-top: 1px dashed #9e9e9e !important;
 		}
 
 		.col {

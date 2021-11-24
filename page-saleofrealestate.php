@@ -141,7 +141,7 @@ $imagedir = get_template_directory_uri();
             <img class="bg_16" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <div class="c-case03__txt sore__headline">
                 <p class="c-case03__txt__ttl">flow</p>
-                <p class="c-case03__txt__sub sub">【丸の内】ルーフ収益不動産<br>売却の流れ</p>
+                <p class="c-case03__txt__sub sub">【丸の内】ルーフ収益不動産 <br> 売却の流れ</p>
                 <p class="c-case03__txt__desc desc">お客さまの目的に合った不動産の購入から<br class="u-d-n-pc">その後の投資戦略まで。<br>
                     立案から実行まで全て我々がサポートいたします。</p>
             </div>
@@ -284,7 +284,7 @@ $imagedir = get_template_directory_uri();
 
             <div class="p-main_content__box1">
                 <p class="sore__ttl sore__section_2-ttl s4-ttl">CASE STUDIES</p>
-                <h1 class="sore__title sore__section_2-title s4-title">売却実績</h1>
+                <h1 class="sore__title sore__section_2-title s4-title">買取実績</h1>
 
                 <div class="p-main_content__box1-row1">
                     <div class="img">

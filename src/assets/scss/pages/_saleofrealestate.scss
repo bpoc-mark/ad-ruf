@@ -131,10 +131,12 @@
 		&__box-big,
 		&__box-big-new {
 			opacity: 0.3;
+			right: 5%;
+			top: -83px;
 		}
 
 		&__box-big {
-			left: -60px;
+			left: -92px;
 			top: 75px;
 
 			@include is-max(1000px) {
@@ -403,7 +405,7 @@
 		&--ttl {
 			color: #fff !important;
 			font-weight: 500 !important;
-			letter-spacing: 4.6px !important;
+			letter-spacing: 3.6px !important;
 
 			@include is-max(770px) {
 				font-size: 2vw !important;
@@ -491,7 +493,7 @@
 
 	&__section_7 {
 		background: #fff !important;
-		padding-top: 156px;
+		padding: 156px 0 10px 0;
 
 		@include is-sp {
 			padding-top: 100px;
@@ -574,6 +576,7 @@
 		position: absolute;
 		top: 151px;
 		left: -8px;
+		width: 260px;
 
 		@include is-sp {
 			display: none;
