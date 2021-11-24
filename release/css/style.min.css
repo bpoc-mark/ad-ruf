@@ -1205,6 +1205,7 @@ template{display:none}
 .case-all--s1_c4 .c-case--items__contents{padding-bottom:27px}
 .case-all--s1_c4 .case-all--bg-02{bottom:-65px !important}
 .case-all--s1_c4 .bg_7{bottom:-17px}
+.c-case03__txt{padding-left:20px !important}
 .case05__title{font-size:30px !important}
 .case06 .case-all--s1_title{padding:0 0 8px 0}
 .case06 .c-case01__sub2{padding-top:18px;font-size:.84375rem}
@@ -2295,6 +2296,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .real_estate_purchase .pic{width:100%}
 .real_estate_purchase .br-sp{display:none;font-family:cross-platform-yu-gothic}
 .rep2 .sect_1__eng_ttl{color:#fff !important}
+.rep2 .sect_1__headers{padding-top:5px}
 .rep2_s2--title{font-size:26px !important;letter-spacing:.02em !important;padding-top:18px !important}
 .rep2_s3 .c-card11-bottom{min-height:151px !important}
 .rep2_s4{position:relative;background:-webkit-gradient(linear,left top,right top,from(#2868b1),to(#3b88ca)) !important;background:linear-gradient(to right,#2868b1,#3b88ca) !important}
@@ -4798,6 +4800,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .realestateoperation .sect_6 .txt_ttl{font-size:5.7vw !important}
 .real_estate_purchase .sect_1__headers{letter-spacing:2px}
 .real_estate_purchase .sect_1__headers .ttl_small{font-size:.625rem;line-height:1.5}
+.rep2 .rep2_s6 .tl{text-align:left !important;padding-left:5px}
+.rep2 .ttl_small_sp{font-size:2.5vw !important}
 .sore .sect_1 .ttl_small_sp{font-size:.625rem;line-height:1.5}
 .top .sect_6 .fp .c-case03__txt__desc{font-size:3.5vw}
 .top .sect_7 .bg_10{top:30%}
@@ -4885,7 +4889,6 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .case08--sub{font-size:7vw !important}
 .case-all--s1_title{font-size:4.9vw !important}
 .realestateoperation .sect_7__header{white-space:nowrap}
-.rep2_s8 .content--title{white-space:nowrap}
 .rep2 .hr2{top:188px}
 .rep2 .hr3{top:226px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}

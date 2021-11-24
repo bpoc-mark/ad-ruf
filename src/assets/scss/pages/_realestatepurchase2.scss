@@ -1,4 +1,15 @@
 .rep2 {
+	
+	.rep2_s6{
+		
+		@include is-max(375px){
+			.tl{
+				text-align: left !important;
+				padding-left: 5px;
+				}
+			}
+		}
+
 	.sect_1 {
 		&__eng_ttl {
 			color: #fff !important;
@@ -8,6 +19,8 @@
 		}
 
 		&__headers {
+			padding-top: 5px;
+
 			@include is-max(770px) {
 				font-size: 3.3vw;
 			}
@@ -38,7 +51,8 @@
 	}
 
 	.ttl_small_sp {
-		@include is-max(500px) {
+		@include is-max(375px){
+			font-size: 2.5vw !important;
 		}
 	}
 
@@ -507,9 +521,9 @@
 					padding-top: 10px;
 				}
 
-				@include is-max(322px) {
-					white-space: nowrap;
-				}
+				// @include is-max(322px) {
+				// 	white-space: nowrap;
+				// }
 			}
 		}
 

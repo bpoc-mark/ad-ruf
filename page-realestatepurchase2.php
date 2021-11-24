@@ -561,7 +561,7 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/realestate/sect_2_box-1.png" alt="">
             </div>
             <img class="bg_21 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_20.png" alt="">
-            <p class="txt_small pt103 u-d-n-pc">私たちは不動産会社によくある“簡単査定”は行いません</p>
+            <p class="txt_small pt103 u-d-n-pc tl">私たちは不動産会社によくある“簡単査定”は行いません</p>
             <p class="txt_ttl sore__section_5--ttl ws u-d-n-pc">
                 自分たちの目で価値を見極め、<br>
                 正しい査定額をご提示します。
