@@ -25,11 +25,10 @@ add_action('wp_enqueue_scripts', 'enqueue_styles');
 // add_action ('wp_enqueue_scripts', 'enqueue_scripts');
 
 // post pagination
-function your_themes_pagination()
-{
-    global $wp_query;
-    echo paginate_links();
-}
+// function your_themes_pagination(){
+//     global $wp_query; 
+//     echo paginate_links();
+// }
 
 
 // Category
@@ -77,33 +76,30 @@ function my_css_attributes_filter($var)
     return is_array($var) ? array() : '';
 }
 
-wp_link_pages(
-    array(
-        'before'           => '',
-        'after'            => '',
-        'link_before'      => '',
-        'link_after'       => '',
-        'next_or_number'   => 'next',
-        'separator'        => ' ',
-        'nextpagelink'     => 'Next page',
-        'previouspagelink' => 'Previous page',
-        'pagelink'         => '%',
-        'echo'             => 1
-    )
-);
+// wp_link_pages( array(
+//     'before'           => '',
+//     'after'            => '',
+//     'link_before'      => '',
+//     'link_after'       => '',
+//     'next_or_number'   => 'next',
+//     'separator'        => ' ',
+//     'nextpagelink'     => 'Next page',
+//     'previouspagelink' => 'Previous page',
+//     'pagelink'         => '%',
+//     'echo'             => 1
+//     )
+// );
 
 // Add more-link text to excerpt 
-function new_excerpt_more($excerpt)
-{
-    return $excerpt . '<a class="more-link" href="' . get_permalink(get_the_ID()) . '">' . __('Read More', 'baskerville') . ' </a>';
-}
-add_filter('get_the_excerpt', 'new_excerpt_more');
+function new_excerpt_more( $excerpt ) { 
+    return '<p class="post-item-content-excerpt u-d-n-sp">'.$excerpt.'<p>'; 
+} 
+add_filter( 'get_the_excerpt', 'new_excerpt_more' );
 
 // Add excerpt length
 
-function new_excerpt_length($length)
-{
-    return 100;
+function new_excerpt_length($length) {
+    return 10;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
