@@ -438,12 +438,12 @@
 
 		&__box-big-new {
 			position: absolute;
-			left: 63%;
+			left: 66%;
 			top: -14px;
 			@include is-sp {
 				width: 122px;
 				top: -5%;
-				right: 0;
+				right: 15px;
 				left: auto;
 			}
 
@@ -511,11 +511,11 @@
 
 		&--top-realestate {
 			border-left: 3px solid #4688c8;
-			padding-left: 15px;
+			padding-left: 20px;
 			position: relative;
 
 			@include is-sp {
-				padding-left: 10px;
+				padding-left: 15px;
 			}
 		}
 		&__eng--ttl {
@@ -625,7 +625,7 @@
 					padding-right: unset;
 					padding-top: 25px;
 					text-align: justify;
-					line-height: 22.5px;
+					line-height: 20.5px;
 					letter-spacing: 0.08em;
 				}
 			}
@@ -724,7 +724,7 @@
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
-			bottom: 10%;
+			bottom: 8%;
             opacity: 0.5;
 			@include is-sp {
 				display: none;
@@ -912,8 +912,8 @@
 
 		&__box-big-new {
 			position: absolute;
-			left: 60%;
-			top: -3%;
+			left: 62%;
+			top: -1%;
 			@include is-sp {
 				left: auto;
 				width: 122px;
@@ -937,7 +937,11 @@
 		&__box-big-new2 {
 			position: absolute;
 			left: -5%;
-			top: 19%;
+			top: 23%;
+			
+			@include is-sp{
+				display: none;
+			}
 		}
 		&__box-big-new3 {
 			position: absolute;

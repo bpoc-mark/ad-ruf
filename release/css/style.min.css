@@ -1062,7 +1062,7 @@ template{display:none}
 .assetmanagement .sect_2__inner-realestate .txt_ttl.u-d-n-pc{letter-spacing:.15em;font-size:24px !important}
 .assetmanagement .sect_4{position:relative;margin-top:130px;margin-bottom:60px;background-color:#fff}
 .assetmanagement .sect_4 .c-buttonREP .txt{color:#2589ce;letter-spacing:.2em}
-.assetmanagement .sect_4__box-big-new{position:absolute;left:63%;top:-14px}
+.assetmanagement .sect_4__box-big-new{position:absolute;left:66%;top:-14px}
 .assetmanagement .sect_4__box-big-new .pc{display:none}
 .assetmanagement .sect_4__box-big-new .sp{display:none}
 .assetmanagement .sect_4__box-big-new2{position:absolute;left:0;top:160px}
@@ -1070,7 +1070,7 @@ template{display:none}
 .assetmanagement .sect_4::after{content:"";position:absolute;width:100%;bottom:-61px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0)}
 .assetmanagement .sect_4 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;position:relative}
 .assetmanagement .sect_4 .l-wrap{position:relative}
-.assetmanagement .sect_4--top-realestate{border-left:3px solid #4688c8;padding-left:15px;position:relative}
+.assetmanagement .sect_4--top-realestate{border-left:3px solid #4688c8;padding-left:20px;position:relative}
 .assetmanagement .sect_4__eng--ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;color:#9ec4e3;letter-spacing:.34em;text-align:left;font-weight:500;margin-bottom:5px}
 .assetmanagement .sect_4__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;padding-bottom:15px}
 .assetmanagement .sect_4__header--sub{font-family:cross-platform-yu-gothic;text-align:left;font-size:.8125rem;line-height:2;color:#333;font-weight:500;letter-spacing:.2em;margin-bottom:70px}
@@ -1092,7 +1092,7 @@ template{display:none}
 .assetmanagement .sect_5__box-big-new{position:absolute;left:46%;top:5px;opacity:.5}
 .assetmanagement .sect_5__box-big-new .pc{display:none}
 .assetmanagement .sect_5__box-big-new .sp{display:none}
-.assetmanagement .sect_5__box-big-new2{position:absolute;left:0;bottom:10%;opacity:.5}
+.assetmanagement .sect_5__box-big-new2{position:absolute;left:0;bottom:8%;opacity:.5}
 .assetmanagement .sect_5::after{content:"";position:absolute;width:100%;bottom:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%);clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%)}
 .assetmanagement .sect_5 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.3em}
 .assetmanagement .sect_5 .l-wrap{position:relative}
@@ -1110,10 +1110,10 @@ template{display:none}
 .assetmanagement .sect_6{background:#fff}
 .assetmanagement .sect_6 .c-buttonREP .txt{letter-spacing:.2em}
 .assetmanagement .sect_6 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;padding-bottom:20px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
-.assetmanagement .sect_6__box-big-new{position:absolute;left:60%;top:-3%}
+.assetmanagement .sect_6__box-big-new{position:absolute;left:62%;top:-1%}
 .assetmanagement .sect_6__box-big-new .pc{display:none}
 .assetmanagement .sect_6__box-big-new .sp{display:none}
-.assetmanagement .sect_6__box-big-new2{position:absolute;left:-5%;top:19%}
+.assetmanagement .sect_6__box-big-new2{position:absolute;left:-5%;top:23%}
 .assetmanagement .sect_6__box-big-new3{position:absolute;right:0;bottom:30%}
 .assetmanagement .sect_6 .l-wrap{position:relative}
 .assetmanagement .sect_6__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;padding:90px 0}
@@ -3563,12 +3563,12 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .assetmanagement .sect_2::before{top:-29px;height:30px}
 .assetmanagement .sect_2::after{bottom:-29px;height:30px}
 .assetmanagement .sect_2 .txt_ttl{padding-bottom:25px}
-.assetmanagement .sect_4__box-big-new{width:122px;top:-5%;right:0;left:auto}
+.assetmanagement .sect_4__box-big-new{width:122px;top:-5%;right:15px;left:auto}
 .assetmanagement .sect_4__box-big-new .sp{display:block}
 .assetmanagement .sect_4__box-big-new2{display:none}
 .assetmanagement .sect_4__box-big-new3{display:none}
 .assetmanagement .sect_4::after{height:30px}
-.assetmanagement .sect_4--top-realestate{padding-left:10px}
+.assetmanagement .sect_4--top-realestate{padding-left:15px}
 .assetmanagement .sect_4__header{letter-spacing:.15em;font-size:6.2vw}
 .assetmanagement .sect_4__inner-realestate .point_item{letter-spacing:.1em}
 .assetmanagement .sect_5__box-big-new{width:100px;left:auto;right:7%;top:4%}
@@ -3580,6 +3580,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .assetmanagement .sect_5__inner-realestate .br-point .br-pc{display:none}
 .assetmanagement .sect_6__box-big-new{left:auto;width:122px;right:6%;top:0}
 .assetmanagement .sect_6__box-big-new .sp{display:block}
+.assetmanagement .sect_6__box-big-new2{display:none}
 .assetmanagement .sect_6__box-big-new3{display:none}
 .assetmanagement .sect_7__box-big-new{top:-6%;width:122px;right:10%;left:auto}
 .assetmanagement .sect_7__box-big-new2{display:none}
@@ -4453,7 +4454,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .assetmanagement .sect_4__inner-realestate{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;display:grid;padding-bottom:60px}
 .assetmanagement .sect_4__inner-realestate--left,.assetmanagement .sect_4__inner-realestate--right{width:100%}
 .assetmanagement .sect_4__inner-realestate--left{padding-left:unset;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}
-.assetmanagement .sect_4__inner-realestate .text{padding-right:unset;padding-top:25px;text-align:justify;line-height:22.5px;letter-spacing:.08em}
+.assetmanagement .sect_4__inner-realestate .text{padding-right:unset;padding-top:25px;text-align:justify;line-height:20.5px;letter-spacing:.08em}
 .assetmanagement .sect_4__inner-realestate--right{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}
 .assetmanagement .sect_5__inner-realestate{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
 .assetmanagement .sect_5__inner-realestate--left,.assetmanagement .sect_5__inner-realestate--right{width:100%}
