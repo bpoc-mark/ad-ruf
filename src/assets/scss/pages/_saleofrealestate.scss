@@ -4,6 +4,10 @@
 			@include font-line(30);
 			letter-spacing: 0 !important;
 			line-height: 41px;
+
+			@include is-max(400px){
+				font-size: 7.5vw;
+			}
 		}
 
 		& p:last-child {

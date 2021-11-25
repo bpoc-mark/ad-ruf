@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>収 益 不 動 産 の 売 買</p>
+                <p>収益不動産の売買</p>
                 <p>Real Estate Purchase</p>
             </div>
         </div>
@@ -80,7 +80,7 @@ $imagedir = get_template_directory_uri();
                             ● <span>首都圏エリアの動向の見極め</span>
                         </p>
                     </div>
-                    <a class="c-buttonREP" href="#">
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">
                         <p class="txt">収益不動産の買取について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -114,10 +114,9 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_3__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         丸の内ルーフの<br>
-                        収益不動産の買取とは
-                    </p>
+                        収益不動産の売却とは</p>
                     <p class="text">
-                        買取では、土地・建物の状態はもちろん、収益不動産ならではのポイントをしっかり調査。お一人おひとりのご希望を伺いながら、市場のトレンドもしっかりと踏まえてお客様の収益不動産を最大限に評価します。
+                        お客様の資産背景や購入動機に合わせ、収益不動産のエキスパートが収益性の高い物件を厳選してご提案。丁寧なヒアリングと確かな目利きによって、お客様の理想を超えるようなご提案を目指します。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -133,7 +132,7 @@ $imagedir = get_template_directory_uri();
                             ● <span>首都圏エリアの動向の見極め</span>
                         </p>
                     </div>
-                    <a class="c-buttonREP" href="#">
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('saleofrealestate')) ?>">
                         <p class="txt">収益不動産の売却について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -145,8 +144,7 @@ $imagedir = get_template_directory_uri();
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
-                    収益不動産の買取とは
-                </p>
+                    収益不動産の売却とは</p>
 
             </div>
         </div>
@@ -169,7 +167,7 @@ $imagedir = get_template_directory_uri();
                     Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフの収益不動産の売買 3つの特徴
+                    丸の内ルーフの収益不動産<br class="br-sp">の売買 3つの特徴
                 </div>
                 <div class="sect_4__header--sub u-d-n-sp">
                     ルーフがお客様の不動産売買ニーズに対して、<br>
@@ -218,7 +216,7 @@ $imagedir = get_template_directory_uri();
                 <p class="txt_ttl u-d-n-pc">
                     20年で500棟以上の買取実績
                 </p>
-                <a class="c-buttonREP" href="#">
+                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">
                     <p class="txt">実績を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
@@ -327,7 +325,7 @@ $imagedir = get_template_directory_uri();
                     買取物件をバリューアップ
                 </p>
 
-                <a class="c-buttonREP red" href="#">
+                <a class="c-buttonREP red" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                     <p class="txt">お問い合わせ・ご相談</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/groupbusiness/arrow_1.svg" alt="">
                 </a>
@@ -441,7 +439,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
 
-                <a href="#" class="c-buttonCase">
+                <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>

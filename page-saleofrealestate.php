@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>収 益 不 動 産 の<br class="u-d-n-pc"> 売 買</p>
+                <p>収 益 不 動 産 の 売 </p>
                 <p>Sale of<br class="u-d-n-pc"> real estate</p>
             </div>
         </div>
@@ -265,7 +265,7 @@ $imagedir = get_template_directory_uri();
             </div>
 
 
-            <a href="#" class="c-buttonCase sore__section_3--btn">
+            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_3--btn">
                 <p class="txt">無料相談する</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
@@ -433,7 +433,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
 
-                <a href="#" class="c-buttonCase u-mt-60">
+                <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase u-mt-60">
                     <p class="txt">無料相談する</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
@@ -499,7 +499,7 @@ $imagedir = get_template_directory_uri();
                         我々が持つプライドです。
                     </p>
 
-                    <a href="#" class="c-buttonCase sore__section_6--btn u-mt-50">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn u-mt-50">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -531,7 +531,7 @@ $imagedir = get_template_directory_uri();
             <div class="p-main_content__box3 sore__section_7--content">
                 <div class="p-main_content__box3-row">
                     <div class="p-main_content__box3-col p-main_content__box3-col01">
-                        <div class="c-card11">
+                        <a class="c-card11" href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>">
                             <div class="c-card11-top">
                                 <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img12.png" alt="">
                             </div>
@@ -544,11 +544,11 @@ $imagedir = get_template_directory_uri();
                                     収益不動産の価値を高めます。
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="p-main_content__box3-col p-main_content__box3-col02">
-                        <div class="c-card11">
+                        <a class="c-card11" href="<?php echo get_permalink(get_page_by_path('realestateoperation')) ?>">
                             <div class="c-card11-top">
                                 <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img13.png" alt="">
                             </div>
@@ -561,24 +561,26 @@ $imagedir = get_template_directory_uri();
                                     に多数の物件を運用しています。
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="p-main_content__box3-col p-main_content__box3-col03">
-                        <div class="c-card11">
-                            <div class="c-card11-top">
-                                <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img14.png" alt="">
+                        <a href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>">
+                            <div class="c-card11">
+                                <div class="c-card11-top">
+                                    <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img14.png" alt="">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="c-card11-bottom">
-                            <p class="c-card11-bottom-title">アセットマネジメント</p>
-                            <p class="c-card11-bottom-para card-bottom-txt">
-                                収益不動産に関する豊富なノウハウを活かし、<br>
-                                お客様の不動産投資戦略の最適化と<br>
-                                資産価値の最大化を目指します。
-                            </p>
-                        </div>
+                            <div class="c-card11-bottom">
+                                <p class="c-card11-bottom-title">アセットマネジメント</p>
+                                <p class="c-card11-bottom-para card-bottom-txt">
+                                    収益不動産に関する豊富なノウハウを活かし、<br>
+                                    お客様の不動産投資戦略の最適化と<br>
+                                    資産価値の最大化を目指します。
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

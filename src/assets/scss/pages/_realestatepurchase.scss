@@ -121,6 +121,10 @@
 				@include font-line(25, 32);
 			}
 
+			@include is-max(400px){
+				font-size: 6vw;
+			}
+
 			@include is-max(375px) {
 				letter-spacing: 2px;
 			}
@@ -130,14 +134,17 @@
 				@include font-line(20, 35);
 				color: #fff;
 				line-height: 0;
-				letter-spacing: 0.18em;
+				letter-spacing: 0px;
 
-				@include is-max(750px) {
+				@include is-sp {
 					@include font-line(13, 25);
+					line-height: 45px;
 				}
 
-				@include is-max(375px) {
-					@include font-line(10, 15);
+				@include is-max(430px) {
+					letter-spacing: 0px;
+					font-size: 2.9vw;
+					
 				}
 			}
 		}
@@ -260,6 +267,10 @@
 			position: relative;
 			@include is-sp {
 				padding-bottom: 25px;
+			}
+
+			@include is-max(400px){
+				font-size: 6vw;
 			}
 		}
 
@@ -390,6 +401,10 @@
 			letter-spacing: 0.3em;
 			@include is-sp {
 				padding-bottom: 25px;
+			}
+
+			@include is-max(400px){
+				font-size: 6vw;
 			}
 		}
 
@@ -578,6 +593,10 @@
 				padding-bottom: 25px;
 				@include font-line(21.5);
 			}
+
+			@include is-max(375px){
+				font-size: 5.7vw;
+			}
 		}
 
 		.l-wrap {
@@ -607,6 +626,14 @@
 			font-weight: 500;
 			letter-spacing: 0.2em;
 			padding-bottom: 15px;
+			
+			@include is-sp{
+				letter-spacing: 0;
+			}
+
+			@include is-max(375px){
+				font-size: 6.8vw;
+			}
 		}
 
 		&__header--sub {
@@ -686,6 +713,7 @@
 					padding-right: unset;
 					padding-top: 25px;
 					text-align: justify;
+					letter-spacing: 0.06em;
 				}
 			}
 
@@ -867,6 +895,7 @@
 						padding-right: unset;
 						padding-top: 25px;
 						text-align: justify;
+						letter-spacing: 0.06em;
 					}
 				}
 
@@ -1040,6 +1069,7 @@
 						padding-right: unset;
 						padding-top: 25px;
 						text-align: justify;
+						letter-spacing: 0.06em;
 					}
 				}
 
@@ -1186,7 +1216,7 @@
 			letter-spacing: 0.34em;
 			padding-bottom: 15px;
 			@include is-max(750px) {
-				letter-spacing: 0.15em;
+				letter-spacing: 0.10em;
 			}
 		}
 
@@ -1404,6 +1434,10 @@
 				@include font-line(25, 35);
 				letter-spacing: 0em;
 			}
+
+			@include is-max(360px){
+				font-size: 6.8vw;
+			}
 		}
 
 		&--inner {
@@ -1583,5 +1617,20 @@
 			font-weight: 500;
 			display: block;
 		}
+	}
+
+	.br-pc{
+		display: none;
+		@include is-pc{
+			display: block;
+		}
+
+	.br-sp{
+		display: none;
+		@include is-sp{
+			display: block;
+		}
+	}
+
 	}
 }
