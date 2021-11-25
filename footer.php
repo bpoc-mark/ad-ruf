@@ -7,7 +7,7 @@
                     </div>
                     <div class="p-cntct-inqrs">
                         <div class="p-cntct-inqrs-dtl phone">
-                            <a class="p-cntct-inqrs-dtl-link" href="">
+                            <a class="p-cntct-inqrs-dtl-link" href="tel:+0120-173-602 ">
                                 <p>お電話でのお問い合わせ</p>
                                 <p>0120-173-602
                                     <br>

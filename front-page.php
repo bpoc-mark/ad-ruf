@@ -143,8 +143,8 @@
                                 <p class="sect_1-cntnt-row-02-txt-03">丸の内ルーフは、首都圏エリアの不動産価値の動向を見極め、あなたの大切な一棟マンションやアパートなどの収益不動産を最大限に評価。収益不動産のプロによる確かな目と圧倒的なスピードによって、最適価格での売買を実現します。</p>
                             </div>
 
-                            <a href="#" class="c-buttonCase u-l-algn" style="color: #258acf;">
-                                <p class="txt">収益不動産の管理について</p>
+                            <a href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>" class="c-buttonCase u-l-algn" style="color: #258acf;">
+                                <p class="txt">収益不動産の売買について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
                         </div>
@@ -176,7 +176,7 @@
                                 <p class="sect_2-cntnt-row-01-txt-03">丸の内リーフは、豊富なバリューアップの経験を武器に最適な不動産管理を行います。幅広いネットワークによる入居者募集、人気物件へと生まれ変わらせるリノベーション、入居者様に安心して長期契約いただけるサポートまで、お預かりした大切な収益不動産の価値を守り、高めます。</p>
                             </div>
 
-                            <a href="#" class="c-buttonCase u-l-algn">
+                            <a href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>" class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の管理について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -257,7 +257,7 @@
                                 <p class="sect_3-cntnt-row-02-txt-03">丸の内ルーフは単なる仲介業者ではありません。自社で収益不動産を保有する「プロのオーナー」として、首都圏を中心に多数の物件を運用しています。市況に応じたポートフォリオを構築することで、収益率の高い運営を実現します。</p>
                             </div>
 
-                            <a href="#" class="c-buttonCase u-l-algn wh">
+                            <a href="https://www.ruf.jp/business/operation.html" target="_blank" class="c-buttonCase u-l-algn wh">
                                 <p class="txt">収益不動産の運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -287,7 +287,7 @@
                                 <p class="sect_4-cntnt-row-01-txt-03">丸の内リーフでは、これまで培った収益不動産に関する豊富なノウハウを活かし、お客様の目的に沿ってリスクとリターンをコントロール。オーナー様の不動産投資戦略の最適化を叶えるとともに、資産価値の最大化を目指します。</p>
                             </div>
 
-                            <a href="" class="c-buttonCase u-l-algn rd">
+                            <a href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>" class="c-buttonCase u-l-algn rd">
                                 <p class="txt">資産運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow_rd.svg" alt="">
                             </a href="">
@@ -344,11 +344,14 @@
                                 <div class="c-cards09-img-num">
                                     <p>01</p>
                                 </div>
-                                <a class="c-cards09-img-view" href="#">
+                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                     <p>VIEW <br>MORE</p>
-                                </a>
+                                </a> -->
                             </div>
                             <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
                                 <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
                                 </p>
                                 <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
@@ -361,11 +364,14 @@
                                 <div class="c-cards09-img-num">
                                     <p>02</p>
                                 </div>
-                                <a class="c-cards09-img-view" href="#">
+                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                     <p>VIEW <br>MORE</p>
-                                </a>
+                                </a> -->
                             </div>
                             <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
                                 <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
                                 </p>
                                 <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
@@ -378,11 +384,14 @@
                                 <div class="c-cards09-img-num">
                                     <p>03</p>
                                 </div>
-                                <a class="c-cards09-img-view" href="#">
+                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
                                     <p>VIEW <br>MORE</p>
-                                </a>
+                                </a> -->
                             </div>
                             <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
                                 <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
                                 </p>
                                 <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
@@ -395,11 +404,14 @@
                                 <div class="c-cards09-img-num">
                                     <p>04</p>
                                 </div>
-                                <a class="c-cards09-img-view" href="#">
+                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
                                     <p>VIEW <br>MORE</p>
-                                </a>
+                                </a> -->
                             </div>
                             <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
                                 <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
                                 </p>
                                 <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
@@ -407,7 +419,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="c-buttonCase">
+                    <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
                         <p class="txt">その他の事例を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -519,8 +531,8 @@
                     </div>
                 </div>
                 <div class="l-wrap">
-                    <a href="#" class="c-buttonCase">
-                        <p class="txt">その他の事例を見る</p>
+                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-buttonCase">
+                        <p class="txt">その他のコラムを見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
                 </div>
@@ -569,7 +581,7 @@
                                     今後とも宜しくお願い申し上げます。</p>
                             </div>
 
-                            <a href="#" class="c-buttonCase u-l-algn">
+                            <a href="<?php echo get_permalink(get_page_by_path('about')) ?>" class="c-buttonCase u-l-algn">
                                 <p class="txt">丸の内RUFについて</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -632,7 +644,7 @@
                         </div>
                         <div class="sect_8-cntnt-news-cntnt-txt">
                             <p>2019年3月25日を持ちまして、事務所を移転いたします。<br>
-                            丸の内ビルディング9階951区より同ビル24階2418区へ移転いたします。
+                                丸の内ビルディング9階951区より同ビル24階2418区へ移転いたします。
                             </p>
                         </div>
                     </div>
@@ -644,7 +656,7 @@
 
     </div>
     <?php get_footer(); ?>
- <div class="page__content top">
+    <div class="page__content top">
 
-</div>
-<?php get_footer(); ?>
+    </div>
+    <?php get_footer(); ?>

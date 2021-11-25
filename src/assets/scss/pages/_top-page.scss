@@ -1747,7 +1747,11 @@
 						letter-spacing: 0.18em;
 
 						@include is-sp {
-							@include font-line(10);
+							@include font-line(16);
+						}
+
+						@include is-max(360px){
+							font-size: 4.3vw;
 						}
 					}
 				}

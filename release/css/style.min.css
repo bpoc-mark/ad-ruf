@@ -190,10 +190,10 @@ template{display:none}
 .c-cards09-img{position:relative}
 .c-cards09-img-num{position:absolute;top:2%;left:2%}
 .c-cards09-img-num p{font-size:40px;line-height:48px;font-weight:400;color:#fff;font-family:"Bebas Neue",cursive}
-.c-cards09-img-view{position:absolute;bottom:6%;right:5%;font-family:century-gothic,sans-serif;background:#258acf;width:62px;height:62px;-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);z-index:1}
-.c-cards09-img-view p{font-size:10px;line-height:10px;-webkit-transform:rotate(310deg);transform:rotate(310deg);color:#fff;padding-top:31px;padding-left:10px;position:relative}
-.c-cards09-img-view p::before{content:"";position:absolute;bottom:-24%;left:26%;width:26%;height:30%;-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);background-color:black;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
-.c-cards09-desc{text-align:center;background-color:#fff;padding:20px 5px 18px;border:2px solid #f1f1f1}
+.c-cards09-img-view{position:absolute;bottom:2%;right:2%;font-family:century-gothic,sans-serif;background:#258acf;width:62px;height:62px;-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);z-index:1}
+.c-cards09-img-view p{font-size:10px;line-height:10px;-webkit-transform:rotate(310deg);transform:rotate(310deg);color:#fff;padding-top:34px;padding-left:0;padding-right:13px;position:relative}
+.c-cards09-img-view p::before{content:"";position:absolute;bottom:-20%;left:27%;width:26%;height:30%;-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);background-color:black;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.c-cards09-desc{position:relative;text-align:center;background-color:#fff;padding:20px 5px 18px;border:2px solid #f1f1f1}
 .c-cards09-desc-ttl{font-size:14px;line-height:21px;font-weight:700;font-family:cross-platform-yu-gothic;letter-spacing:.2em;color:#258acf}
 .c-cards09-desc-txt{font-size:11px;line-height:16px;font-weight:500;font-family:cross-platform-yu-gothic;color:#333;letter-spacing:.2em;padding-top:13px}
 .c-card08{text-align:center;background-color:#fff}
@@ -4372,7 +4372,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .top .sect_7-cntnt-rows .row01-ttl{display:block;text-align:left;margin-bottom:55px;text-align:center}
 .top .sect_7-cntnt-rows-01{width:100%;height:261px;margin:0 auto 20px}
 .top .sect_7-cntnt-rows-01-txt{width:77%}
-.top .sect_7-cntnt-rows-01-txt p:nth-child(2){font-size:.625rem}
+.top .sect_7-cntnt-rows-01-txt p:nth-child(2){font-size:1rem}
 .top .sect_7-cntnt-rows-01:before{width:260px;height:308px;background-size:cover}
 .top .sect_7-cntnt-rows-02{padding:0}
 .top .sect_7-cntnt-rows-02-txt-01{display:none}
@@ -4608,6 +4608,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 }@media only screen and (max-width:575px){.page__footer .nav-footer-col1 img{width:100px}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4}
 }@media only screen and (max-width:500px){.c-ruf-txt img{width:65.5px}
+.c-cards09-desc{padding:15px 5px 50px}
 .c-slider__item--ttl{font-size:.875rem}
 .assetmanagement .sect_6__inner-realestate--left .point .pi2{letter-spacing:.08em}
 .case .c-banner--ttl p:nth-child(1){font-size:6vw}
@@ -4845,6 +4846,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 }@media only screen and (max-width:360px){.assetmanagement .sect_8__header{font-size:6.8vw}
 .realestateoperation .sect_8__header{font-size:6.8vw}
 .rep2 .sect_1__headers{font-size:6.3vw !important}
+.top .sect_7-cntnt-rows-01-txt p:nth-child(2){font-size:4.3vw}
 }@media only screen and (max-width:350px){.c-card10-center-text{top:52%}
 .c-slider .prev-arrow{top:21%}
 .c-slider .next-arrow{top:21%}
