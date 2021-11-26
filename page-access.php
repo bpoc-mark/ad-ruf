@@ -27,7 +27,7 @@ $imagedir = get_template_directory_uri();
             <img class="acc__bg_1_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/bg_1_sp.png" alt="">
             <p class="acc__ttl">Access</p>
             <h1 class="acc__title">丸の内ルーフの<br class="u-d-n-pc">アクセス情報</h1>
-            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
+            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでのアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
         </div>
 
         <div class="acc__main-content">
@@ -200,11 +200,11 @@ $imagedir = get_template_directory_uri();
             </div>
 
             <div class="l-wrap u-d-f u-d-f-jcc u-mt-60 acc--fd">
-                <a href="#" class="c-buttonCase acc--btn">
+                <a href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>" class="c-buttonCase acc--btn">
                     <p class="txt">ルーフのオフィス風景を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
-                <a href="#" class="c-buttonCase acc--btn">
+                <a href="<?php echo get_permalink(get_page_by_path('interview')) ?>" class="c-buttonCase acc--btn">
                     <p class="txt">代表メッセージを見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>

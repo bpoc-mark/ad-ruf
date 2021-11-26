@@ -115,9 +115,9 @@
 			font-size: 25px;
 		}
 
-		@include is-max(375px) {
+		@include is-max(395px) {
 			letter-spacing: 2px;
-			font-size: 6.7vw;
+			font-size: 6.3vw;
 		}
 	}
 

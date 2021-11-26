@@ -255,6 +255,22 @@
 								padding: 15px 0 15px 10px;
 							}
 
+							.tel{
+
+								a{
+									color: #FFFF00;
+									font-weight: 600;
+								}
+							}
+
+							.rslt-here{
+
+								a{
+									color: #fff;
+									text-decoration: underline
+								}
+							}
+
 							p {
 								@include font-line(13);
 								letter-spacing: 0.12em;

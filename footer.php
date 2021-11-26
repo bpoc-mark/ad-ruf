@@ -167,8 +167,6 @@
                     Copyright © RUF Co.,Ltd. All Rights Reserved
                 </p>
             </div>
-
-
         </div>
         </main>
 

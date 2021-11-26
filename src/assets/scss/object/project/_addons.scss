@@ -93,7 +93,7 @@
 .p-cntct {
 	padding: 99px 0;
 	// background-image: url(../image/page/access/contact-bg.png);
-	background-color: #0059b6;
+	background-color: #2790d2;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -466,7 +466,6 @@
 					font-size: 18px;
 					font-weight: 700;
 					font-family: yu-mincho-pr6n, sans-serif;
-					letter-spacing: normal;
 
 					@include is-max(1000px) {
 						font-size: 1.6vw;

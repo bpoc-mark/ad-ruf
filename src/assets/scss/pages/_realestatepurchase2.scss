@@ -1,5 +1,8 @@
 .rep2 {
 	
+	.c-case03__txt__sub{
+		letter-spacing: 0.12em !important;
+	}
 	.rep2_s6{
 		
 		@include is-max(375px){
@@ -11,6 +14,17 @@
 		}
 
 	.sect_1 {
+
+		.ttl_small_sp{
+			@include is-sp{
+				letter-spacing: 0.16em !important;
+			}
+
+			@include is-max(495px){
+				font-size: 2.5vw;
+			}
+		}
+
 		&__eng_ttl {
 			color: #fff !important;
 			@include is-sp {
@@ -41,6 +55,21 @@
 			@include is-sp {
 				font-size: 13.5px !important;
 			}
+		}
+	}
+
+	.sect_2{
+		
+		.p-main_content__box1{
+			position: relative;
+		}
+
+	}
+
+	.rep2_s4{
+
+		&--text{
+			letter-spacing: 0.16em !important;
 		}
 	}
 
@@ -220,18 +249,22 @@
 		}
 
 		.sect_2__box-big-new {
-			top: 80px;
+			top: -73px;
+			left: 46%;
+			z-index: -1;
 
 			@include is-sp {
 				width: 125px;
-				top: 6px;
-				right: 12px;
+				top: -57px;
+				right: 0;
+				left: unset;
 			}
 		}
 
 		.sect_2__box-big-new2 {
-			top: 340px;
-			left: 10%;
+			top: 194px;
+			left: 1%;
+			opacity: 0.6 !important;
 		}
 
 		.sp_bg3 {
@@ -408,7 +441,7 @@
 		}
 
 		.txt_ttl {
-			padding-top: 100px;
+			padding-top: 0;
 
 			@include is-max(770px) {
 				padding-top: 0;
@@ -457,7 +490,7 @@
 
 		.s8_bg3 {
 			position: absolute;
-			right: -25px;
+			right: 0;
 			top: 306px;
 		}
 
@@ -507,7 +540,7 @@
 
 			&--title {
 				@include font-line(30);
-				letter-spacing: 0.18em;
+				letter-spacing: 0;
 				line-height: 1;
 				color: #2582c7;
 				font-family: yu-mincho-pr6n, sans-serif;
@@ -519,6 +552,10 @@
 					text-align: center;
 					letter-spacing: 0.15em;
 					padding-top: 10px;
+				}
+
+				@include is-max(360px){
+					font-size: 8vw;
 				}
 
 				// @include is-max(322px) {

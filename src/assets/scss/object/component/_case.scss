@@ -25,7 +25,7 @@
 
 		&__sub {
 			color: $color-text03;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.2em;
 			line-height: 1;
@@ -39,7 +39,7 @@
 		}
 		&__sub2 {
 			color: $color-text03;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.07em;
 			line-height: 1;
@@ -219,7 +219,7 @@
 
 						&__sub {
 							color: $color-text03;
-							font-family: cross-platform-yu-gothic, sans-serif;
+							font-family: yu-gothic-pr6n, sans-serif;
 							font-weight: 700;
 							padding-bottom: 10px;
 							letter-spacing: 0.2em;
@@ -284,7 +284,7 @@
 
 						&__sub {
 							color: $color-text03;
-							font-family: cross-platform-yu-gothic, sans-serif;
+							font-family: yu-gothic-pr6n, sans-serif;
 							font-weight: 700;
 							padding-bottom: 10px;
 							letter-spacing: 0.2em;
@@ -338,7 +338,7 @@
 					text-align: left;
 
 					&.ttl {
-						font-family: cross-platform-yu-gothic, sans-serif;
+						font-family: yu-gothic-pr6n, sans-serif;
 						font-weight: 500;
 						letter-spacing: 0.2em;
 						@include font-line(13, 26);
@@ -385,7 +385,7 @@
 					}
 
 					&.desc {
-						font-family: cross-platform-yu-gothic, sans-serif;
+						font-family: yu-gothic-pr6n, sans-serif;
 						font-weight: 500;
 						letter-spacing: 0.09em;
 						text-align: justify;
@@ -478,8 +478,8 @@
 
 			&__sub {
 				color: $color-text01;
-				font-family: cross-platform-yu-gothic, sans-serif;
-				font-weight: 700;
+				font-family: yu-mincho-pr6n, sans-serif;
+				font-weight: 500;
 				line-height: 1;
 				padding: 20px 0 30px 0;
 				letter-spacing: 0.3em;
@@ -488,7 +488,7 @@
 
 			&__desc {
 				color: $color-text-default;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				letter-spacing: 0.2em;
 
@@ -548,7 +548,7 @@
 
 			&__desc {
 				color: $color-text-default;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				text-align: justify;
 				letter-spacing: 0.2em;

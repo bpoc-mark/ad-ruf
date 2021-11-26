@@ -42,7 +42,7 @@ $imagedir = get_template_directory_uri();
                                 訪れるお客様をもてなすのは、大らかでスタイリッシュな空間です。東京駅から直通でアクセスできる丸の内ビルディングの34Fまで上がると、そこに待ち受けるのは丸の内ルーフの開放感あふれるエントランス。東京駅周辺の景色を望むこともできるので、ちょっとした観光気分も味わうことができます。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp" href="#">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('access')) ?>">
                             <p class="txt">アクセス情報を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -56,7 +56,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonCase hide-pc" href="#">
+                    <a class="c-buttonCase hide-pc" href="<?php echo get_permalink(get_page_by_path('access')) ?>">
                         <p class="txt">アクセス情報を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -80,10 +80,10 @@ $imagedir = get_template_directory_uri();
                             </div>
                             <div class="office_gal--contents__col1--text desc">
                                 <img class="office_gal__bg_2-1 sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp-2-1.png" alt="">
-                                ミーティングルーム心地いい空間へのこだわりはミーティングルームにも。快適性も機能性もどちらも備えた場所だからこそ、お打ち合わせやご商談の時間も常にリラックスいただけます。丸の内ルーフは、収益不動産のエキスパートとして、スタッフ一同磐石の体制でお客様の収益不動産の成功をサポートします。
+                                心地いい空間へのこだわりはミーティングルームにも。快適性も機能性もどちらも備えた場所だからこそ、お打ち合わせやご商談の時間も常にリラックスいただけます。丸の内ルーフは、収益不動産のエキスパートとして、スタッフ一同磐石の体制でお客様の収益不動産の成功をサポートします。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp" href="#">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
                             <p class="txt">ルーフの事例を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -103,7 +103,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonOG hide-pc" href="#">
+                    <a class="c-buttonOG hide-pc" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
                         <p class="txt">ルーフの事例を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -128,7 +128,7 @@ $imagedir = get_template_directory_uri();
                                 共用ラウンジは、クリエイティブな発想が生まれそうな高いデザイン性が魅力。ゆっくりと寛げる憩いのスペースです。椅子やテーブル、雑貨やインテリア、植栽まで、一つひとつにこだわりセレクトしました。お茶やコーヒーを飲みながら、それぞれの時間をお楽しみください。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp" href="#">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('about')) ?>">
                             <p class="txt">ルーフについて</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -148,7 +148,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonOG hide-pc" href="#">
+                    <a class="c-buttonOG hide-pc" href="<?php echo get_permalink(get_page_by_path('about')) ?>">
                         <p class="txt">ルーフについて</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -173,7 +173,7 @@ $imagedir = get_template_directory_uri();
                                 丸の内ルーフでは、お客様の満足度はもちろん、スタッフの満足度も追及します。居心地のいい事務所からは、東京駅近郊の美しい景色が一望可能。不動産の専門知識はもちろん、目利きの確かさ、迅速な行動、先見性のある提案など、収益不動産のプロであるスタッフがきめ細やかにサポートします。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp" href="#">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
                             <p class="txt">事業内容を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -193,7 +193,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonOG hide-pc" href="#">
+                    <a class="c-buttonOG hide-pc" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
                         <p class="txt">事業内容を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -229,7 +229,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('message')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">
@@ -252,7 +252,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">
@@ -275,7 +275,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">
@@ -297,7 +297,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('result')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">
@@ -319,7 +319,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('access ')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">
@@ -341,7 +341,7 @@ $imagedir = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="cards-card-img-lnk">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('オフィス風景')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                         <div class="cards-card-desc">

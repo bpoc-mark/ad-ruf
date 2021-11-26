@@ -101,11 +101,11 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="l-wrap u-d-f u-d-f-jcc pp--fd mp--btns">
-                    <a class="c-buttonCase mp--btn" href="">
+                    <a class="c-buttonCase mp--btn" href="<?php echo get_permalink(get_page_by_path('result')) ?>">
                         <p class="txt">ルーフの業績を見る</p>
                         <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
-                    <a class="c-buttonCase mp--btn" href="">
+                    <a class="c-buttonCase mp--btn" href="<?php echo get_permalink(get_page_by_path('interview')) ?>">
                         <p class="txt">代表インタビューを見る</p>
                         <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>

@@ -51,17 +51,15 @@ $imagedir = get_template_directory_uri();
                         </div>
                     </div>
                     <div class="sect_1__btn--wrap">
-                        <a href="#" class="c-buttonCase btn--left">
+                        <a href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>" class="c-buttonCase btn--left">
                             <p class="txt">ルーフのメイン事業内容を見る</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
 
-                        <a href="#" class="c-buttonCase btn--right">
+                        <a href="https://drive.google.com/drive/folders/1sh9HKxPjXklI2VirmBd-X74hSWeUGuHc" class="c-buttonCase btn--right">
                             <p class="txt">公式サイトへ</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
-                        <!-- <a href="#" class="btn icon_left">ルーフのメイン事業内容を見る</a>
-                        <a href="#" class="btn icon_right">公式サイトへ</a> -->
                     </div>
                     <img class="rect-one" src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_one.png" alt="">
                 </div>

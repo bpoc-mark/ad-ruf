@@ -171,7 +171,7 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col02">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img5.png" alt="">
+                                <img class="flow-2" src="<?php echo $imagedir ?>/release/image/realestate/sore_img5.png" alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>02</p>
@@ -198,7 +198,7 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col03">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img4.png" alt="">
+                                <img class="flow-3" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img4.png" alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>03</p>
@@ -263,9 +263,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
             </div>
-
-
-            <a href="#" class="c-buttonCase sore__section_3--btn">
+            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_3--btn">
                 <p class="txt">無料相談する</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
@@ -294,10 +292,10 @@ $imagedir = get_template_directory_uri();
                         不動産買取を実行します
                     </p>
                     <p class="text sore__section_6--text rep2_s4--text">
-                        投資用の収益不動産の売却を成功させるには、一般的な居住用不動産の売却とは異なる知識やノウハウが求められます。私たち丸の内ルーフでは、大切な不動産の「正しい価値」を見極め適切に伝えること、また問題がある場合の解決策の提案力・実行力により、オーナー様にとってより好条件のお取引を実現できるよう努めていま
+                        投資用の収益不動産の売却を成功させるには、一般的な居住用不動産の売却とは異なる知識やノウハウが求められます。私たち丸の内ルーフでは、大切な不動産の「正しい価値」を見極め適切に伝えること、また問題がある場合の解決策の提案力・実行力により、オーナー様にとってより好条件のお取引を実現できるよう努めています。
                     </p>
 
-                    <a href="#" class="c-buttonCase sore__section_6--btn u-mt-35">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn u-mt-35">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -323,15 +321,15 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_2  rep2_s5">
         <div class="l-wrap">
-            <div class="sect_2__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
-            </div>
-            <div class="sect_2__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
-            </div>
             <img class="u-d-n-pc sp_bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
 
             <div class="p-main_content__box1">
+                <div class="sect_2__box-big-new">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                </div>
+                <div class="sect_2__box-big-new2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                </div>
                 <p class="sore__ttl sore__section_2-ttl s4-ttl">CASE STUDIES</p>
                 <h1 class="sore__title sore__section_2-title rep2_s5-title">買取実績</h1>
 
@@ -482,7 +480,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
 
-                <a href="#" class="c-buttonCase u-mt-60">
+                <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase u-mt-60">
                     <p class="txt">無料相談する</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
@@ -545,7 +543,7 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="center">
-                    <a href="#" class="c-buttonCase sore__section_6--btn">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -611,7 +609,7 @@ $imagedir = get_template_directory_uri();
                         <span>プロの目線であなたの不動産を最大限に評価いたします。<span>
                     </p>
 
-                    <a href="#" class="c-buttonCase sore__section_6--btn u-mt-35">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn u-mt-35">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>

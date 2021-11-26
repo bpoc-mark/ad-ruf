@@ -87,7 +87,7 @@ $imagedir = get_template_directory_uri();
 
                                 <div class="info_right">
                                     <div class="info_right-cont">
-                                        <p>電話 ： 03-3211-0123（代）<br class="u-d-n-pc"> <span class="u-d-n-sp">/</span> FAX　： 03-3211-0234 <br class="u-d-n-pc"><span class="u-d-n-sp">/</span> Email： info@ruf.jp</p>
+                                        <p class="tel">電話 ： <a href="tel:+03-3211-0123">03-3211-0123</a>（代）<br class="u-d-n-pc"> <span class="u-d-n-sp">/</span> FAX　： <a href="tel:+03-3211-0234">03-3211-0234</a> <br class="u-d-n-pc"><span class="u-d-n-sp">/</span> Email： info@ruf.jp</p>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ $imagedir = get_template_directory_uri();
 
                                 <div class="info_right">
                                     <div class="info_right-cont">
-                                        <p>業績については こちら を<br class="u-d-n-pc">ご覧ください。</p>
+                                        <p class="rslt-here">業績については <a href="<?php echo get_permalink(get_page_by_path('result')) ?>">こちら</a> を<br class="u-d-n-pc">ご覧ください。</p>
                                     </div>
                                 </div>
                             </div>
@@ -247,11 +247,11 @@ $imagedir = get_template_directory_uri();
             <div class="section_3">
                 <div class="l-wrap pt100">
                     <div class="u-d-f u-d-f-jcc u-mt-60 ci--fd">
-                        <a href="#" class="c-buttonCase ci--btn">
+                        <a href="<?php echo get_permalink(get_page_by_path('about')) ?>" class="c-buttonCase ci--btn">
                             <p class="txt">ルーフについて</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
-                        <a href="#" class="c-buttonCase ci--btn">
+                        <a href="<?php echo get_permalink(get_page_by_path('access ')) ?>" class="c-buttonCase ci--btn">
                             <p class="txt">アクセス情報を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
