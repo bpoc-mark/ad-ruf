@@ -556,7 +556,7 @@
 			font-size: 14px;
 			line-height: 21px;
 			font-weight: 700;
-			font-family: cross-platform-yu-gothic;
+			font-family: yu-gothic-pr6n, sans-serif;
 			letter-spacing: 0.2em;
 			color: #258acf;
 
@@ -569,7 +569,7 @@
 			font-size: 11px;
 			line-height: 16px;
 			font-weight: 500;
-			font-family: cross-platform-yu-gothic;
+			font-family: yu-gothic-pr6n, sans-serif;
 			color: #333;
 			letter-spacing: 0.2em;
 			padding-top: 13px;
@@ -644,7 +644,7 @@
 		@include font-line(14);
 		line-height: 21px;
 		letter-spacing: 0.2em;
-		font-family: cross-platform-yu-gothic, sans-serif;
+		font-family: yu-gothic-pr6n, sans-serif;;
 		font-weight: 700;
 		color: #258acf;
 		padding: 20px 10px 30px 10px;
@@ -663,7 +663,7 @@
 		@include font-line(11);
 		line-height: 16.5px;
 		letter-spacing: 0.2em;
-		font-family: cross-platform-yu-gothic, sans-serif;
+		font-family: yu-gothic-pr6n, sans-serif;;
 		font-weight: 500;
 		color: #808080;
 		padding: 0 15px 20px 15px;
@@ -788,7 +788,7 @@
 			letter-spacing: 0.2em;
 			@include font-line(14);
 			line-height: 21px;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 			color: #ffffff;
 			font-weight: 700;
 
@@ -914,7 +914,7 @@
 			@include font-line(14, 14);
 			font-weight: 700;
 			letter-spacing: 0.2em;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 			color: #1f80c3;
 			text-align: center;
 			padding: 25px 0 15px 0;
@@ -936,7 +936,7 @@
 			@include font-line(11, 16.5);
 			font-weight: 500;
 			letter-spacing: 0.2em;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 			color: #808080;
 			text-align: justify;
 
@@ -985,7 +985,7 @@
 				font-weight: 700;
 				letter-spacing: 0.15em;
 				line-height: 21px;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;;
 				@include font-line(12);
 
 				@include is-sp {
@@ -998,7 +998,7 @@
 				font-weight: 700;
 				letter-spacing: 0.13em;
 				line-height: 26px;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;;
 				@include font-line(20.56);
 			}
 		}
@@ -1082,7 +1082,7 @@
 				font-weight: 700;
 				letter-spacing: 0.15em;
 				line-height: 21px;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;;
 				@include font-line(12);
 
 				@include is-sp {
@@ -1095,7 +1095,7 @@
 				font-weight: 500;
 				letter-spacing: 0.1em;
 				line-height: 26px;
-				font-family: cross-platform-yu-gothic, sans-serif;
+				font-family: yu-gothic-pr6n, sans-serif;;
 				@include font-line(13);
 
 				@include is-sp {

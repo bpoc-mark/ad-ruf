@@ -118,7 +118,7 @@
 		&-sub2 {
 			@include font-line(13, 26);
 			font-weight: 500;
-			font-family: cross-platform-yu-gothic;
+			font-family: yu-gothic-pr6n, sans-serif;
 			text-align: center;
 			color: #fff;
 			letter-spacing: 0.2em;
@@ -206,7 +206,7 @@
 						&-ttl {
 							text-align: center;
 							@include font-line(14, 21);
-							font-family: cross-platform-yu-gothic;
+							font-family: yu-gothic-pr6n, sans-serif;
 							font-weight: 700;
 							letter-spacing: 0.2em;
 
@@ -224,7 +224,7 @@
 						&-sub {
 							text-align: center;
 							@include font-line(11, 16);
-							font-family: cross-platform-yu-gothic;
+							font-family: yu-gothic-pr6n, sans-serif;
 							font-weight: 500;
 							padding-top: 14px;
 							letter-spacing: 0.2em;

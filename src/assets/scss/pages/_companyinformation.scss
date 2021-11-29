@@ -118,7 +118,7 @@
 
 	&__sub {
 		color: $color-text03;
-		font-family: cross-platform-yu-gothic, sans-serif;
+		font-family: yu-gothic-pr6n, sans-serif;;
 		font-weight: 500;
 		letter-spacing: 0.2em;
 		line-height: 1;
@@ -192,7 +192,7 @@
 						p {
 							@include font-line(13);
 							letter-spacing: 0.42em;
-							font-family: cross-platform-yu-gothic, sans-serif;
+							font-family: yu-gothic-pr6n, sans-serif;;
 							font-weight: 700;
 							width: 184px;
 							line-height: 24px;
@@ -274,7 +274,7 @@
 							p {
 								@include font-line(13);
 								letter-spacing: 0.12em;
-								font-family: cross-platform-yu-gothic, sans-serif;
+								font-family: yu-gothic-pr6n, sans-serif;;
 								font-weight: 500;
 								line-height: 24px;
 								text-align: left;

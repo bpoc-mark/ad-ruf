@@ -61,7 +61,7 @@
 					letter-spacing: 0.2em;
 					@include font-line(14);
 					line-height: 13.5px;
-					font-family: cross-platform-yu-gothic, sans-serif;
+					font-family: yu-gothic-pr6n, sans-serif;;
 
 					@include is-max(365px) {
 						font-size: 3.4vw;
@@ -74,7 +74,7 @@
 					font-weight: 500;
 					letter-spacing: 0.1em;
 					line-height: 26px;
-					font-family: cross-platform-yu-gothic, sans-serif;
+					font-family: yu-gothic-pr6n, sans-serif;;
 					padding: 0px 12px;
 					border-radius: 23px;
 					@include font-line(13);

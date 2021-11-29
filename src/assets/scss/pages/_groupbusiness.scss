@@ -135,7 +135,7 @@
 
 		&--left {
 			width: calc(100% - 300px);
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 			font-weight: 500;
 			@include font-line(13, 26);
 			text-align: justify;
@@ -197,7 +197,7 @@
 			padding-bottom: 15px;
 			border-radius: 50px;
 			border: 3px solid rgba(255, 255, 255, 0.8);
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 			font-weight: 700;
 
 			@include is-max(1000px) {

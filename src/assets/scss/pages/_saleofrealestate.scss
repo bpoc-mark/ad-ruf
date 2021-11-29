@@ -75,7 +75,7 @@
 
 	&__sub {
 		color: $color-text03;
-		font-family: cross-platform-yu-gothic, sans-serif;
+		font-family: yu-gothic-pr6n, sans-serif;;
 		font-weight: 500;
 		letter-spacing: 0.2em;
 		line-height: 1;
@@ -388,7 +388,7 @@
 			letter-spacing: 0.2em;
 			line-height: 26px;
 			font-weight: 500;
-			font-family: cross-platform-yu-gothic, sans-serif;
+			font-family: yu-gothic-pr6n, sans-serif;;
 
 			@include is-max(770px) {
 				font-size: 1.1vw;

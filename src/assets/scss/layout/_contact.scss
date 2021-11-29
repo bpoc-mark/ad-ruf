@@ -25,7 +25,7 @@
 		}
 
 		.txt {
-			font-family: cross-platform-yu-gothic;
+			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(15);
 			font-weight: 700;
 			color: #258acf;
@@ -65,7 +65,7 @@
 	.p3 {
 		.txt {
 			@include font-line(11);
-			font-family: cross-platform-yu-gothic;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 600;
 		}
 	}

@@ -114,7 +114,7 @@
 
 	&__title {
 		color: $color-text03;
-		font-family: cross-platform-yu-gothic, sans-serif;
+		font-family: yu-gothic-pr6n, sans-serif;;
 		letter-spacing: 0.2em;
 		padding: 20px 8px 30px 8px;
 		font-weight: 500;
@@ -217,7 +217,7 @@
 
 					&--ttl {
 						@include font-line(16, 26);
-						font-family: cross-platform-yu-gothic, sans-serif;
+						font-family: yu-gothic-pr6n, sans-serif;;
 						font-weight: 700;
 						letter-spacing: 0.1em;
 						padding-bottom: 10px;
@@ -255,7 +255,7 @@
 							justify-content: flex-start;
 							align-items: baseline;
 							@include font-line(13, 26);
-							font-family: cross-platform-yu-gothic, sans-serif;
+							font-family: yu-gothic-pr6n, sans-serif;;
 							font-weight: 700;
 							letter-spacing: 0;
 
@@ -293,7 +293,7 @@
 
 							p {
 								@include font-line(13, 26);
-								font-family: cross-platform-yu-gothic, sans-serif;
+								font-family: yu-gothic-pr6n, sans-serif;;
 								font-weight: 500;
 								letter-spacing: 0.08em;
 								color: #000;
