@@ -8,7 +8,7 @@
     <meta name="format-detection" content="telephone=no"><!-- Edgeでのリンク定義回避 -->
     <title><?php bloginfo('title'); ?></title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cross-platform-yu-gothic@0.1.1/cross-platform-yu-gothic.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cross-platform-yu-gothic@0.1.1/cross-platform-yu-gothic.min.css"> -->
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/release/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
