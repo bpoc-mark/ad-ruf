@@ -63,7 +63,7 @@ $imagedir = get_template_directory_uri();
 							<p class="c-case--items__contents--row_2__txt ttl">1991年竣工、6階建、鉄筋コンクリート</p>
 							<!-- <p class="c-case--items__contents--row_2__txt ttl u-d-n-pc">1991年竣工、3階建、鉄筋コンクリート</p> -->
 							<p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">外壁に、トーンの低いタイルを使われていることもあり、全体的に暗くどんよりとした印象でした。1F外壁に明るい化粧タイルを貼ることで、清潔感があり、明るいイメージに一新することに成功しまし</p>
+							<p class="c-case--items__contents--row_2__txt desc">外壁に、トーンの低いタイルを使われていることもあり、全体的に暗くどんよりとした印象でした。1F外壁に明るい化粧タイルを貼ることで、清潔感があり、明るいイメージに一新することに成功しました。</p>
 						</div>
 					</div>
 				</div>
@@ -186,7 +186,7 @@ $imagedir = get_template_directory_uri();
 						<p class="c-case--items__contents--row_2__txt ttl">1991年竣工、6階建、鉄筋コンクリート</p>
 						<!-- <p class="c-case--items__contents--row_2__txt ttl u-d-n-pc">1991年竣工、3階建、鉄筋コンクリート</p> -->
 						<p class="c-case--items__contents--row_2__txt sub case06--sub3">ゴミ箱の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">ゴミ置場も雑然としており、風防室ドアも故障して閉まらなくなっていました。ネームを新設し、高級感を演出。ゴミストッカーの新設とゴミ出しの日時を入居者へ周知徹底することで、奇麗で安心感のあるマンションへ。</p>
+						<p class="c-case--items__contents--row_2__txt desc">ゴミ置場も雑然としており、風防室ドアも故障して閉まらなくなっていました。ネームを新設し、高級感を演出。ゴミストッカーの新設とゴミ出しの日時を入居者へ周知徹底することで、綺麗で安心感のあるマンションへ。</p>
 					</div>
 				</div>
 			</div>
@@ -340,7 +340,7 @@ $imagedir = get_template_directory_uri();
 				<img src="<?php echo $imagedir ?>/release/image/page/case6/cs6_img24.png" alt="">
 			</div>
 
-			<a href="#" class="c-buttonCase">
+			<a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
 				<p class="txt">その他の事例を見る</p>
 				<img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
 			</a>

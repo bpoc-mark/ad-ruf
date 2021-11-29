@@ -183,7 +183,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt row2__txt--02">
 						<p class="c-case--items__contents--row_2__txt ttl">1995年竣工、3階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">冷たく暗い印象だったの壁を明るい色で塗り直し、階段部分も素材を変えリノベーションいたしました。また、手すりを追加し照明も付け換えることで、使い勝手の良い階段となりました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">冷たく暗い印象だった壁を明るい色で塗り直し、階段部分も素材を変えリノベーションいたしました。また、手すりを追加し照明も付け換えることで、使い勝手の良い階段となりました。</p>
 					</div>
 				</div>
 			</div>
@@ -334,7 +334,7 @@ $imagedir = get_template_directory_uri();
 				<img src="<?php echo $imagedir ?>/release/image/page/case3/cs3_img23.png" alt="">
 			</div>
 
-			<a href="#" class="c-buttonCase">
+			<a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
 				<p class="txt">その他の事例を見る</p>
 				<img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
 			</a>

@@ -213,7 +213,7 @@ $imagedir = get_template_directory_uri();
 
             </div>
 
-            <a href="#" class="c-buttonCase">
+            <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
                 <p class="txt">その他の事例を見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
