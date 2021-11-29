@@ -102,7 +102,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <a class="btn c-buttonCase" href="#">
+                    <a class="btn c-buttonCase" href="<?php echo get_permalink(get_page_by_path('result')) ?>">
                         <p class="txt">ルーフの業績を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -116,9 +116,9 @@ get_header(); ?>
             <div class="l-wrap">
                 <img class="bg-1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg1.png" alt="">
                 <div class="section_2-cntnt">
-                    <!-- <img class="cntnt-bgimg" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2_bg_sp.png" alt=""> -->
-                    <img class="cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
-                    <img class="cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
+                    <img class="cntnt-bgimg" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2_bg_sp.png" alt="">
+                    <img class="br-pc cntnt-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg2.png" alt="">
+                    <img class="br-pc cntnt-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg3.png" alt="">
 
                     <div class="section_2-cntnt-row1">
                         <div class="section_2-cntnt-row1-imgs">
@@ -141,12 +141,12 @@ get_header(); ?>
                             </div>
 
                             <div class="section_2-cntnt-row1-ttl-btn">
-                                <a href="">VIEW MORE ></a>
+                                <a href="<?php echo get_permalink(get_page_by_path('interview')) ?>">VIEW MORE ></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="section_2-cntnt-row2">
+                    <div class="br-pc section_2-cntnt-row2">
                         <div class="section_2-cntn-row2-imgs">
                             <div class="section_2-cntn-row2-imgs-01">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img4.png" alt="">
@@ -157,9 +157,9 @@ get_header(); ?>
                         </div>
                     </div>
 
-                    <img class="section_2-cntnt-img1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img1.png" alt="">
-                    <img class="cntnt-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg1.png" alt="">
-                    <img class="cntnt-slant" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-slant-bg.png" alt="">
+                    <img class="br-pc section_2-cntnt-img1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-img1.png" alt="">
+                    <img class="br-pc cntnt-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-cnt-bg1.png" alt="">
+                    <img class="br-pc cntnt-slant" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-slant-bg.png" alt="">
                 </div>
                 <img class="bg-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec2-bg2.png" alt="">
             </div>
@@ -194,7 +194,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('message')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">
@@ -217,7 +217,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">
@@ -240,7 +240,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">
@@ -262,7 +262,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('result')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">
@@ -284,7 +284,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('access ')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">
@@ -306,7 +306,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
-                            <a href="">VIEW MORE ></a>
+                            <a href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">VIEW MORE ></a>
                         </div>
                     </div>
                     <div class="cards-card-desc">

@@ -319,7 +319,7 @@ $imagedir = get_template_directory_uri();
         </div>
     </section>
 
-    <section class="sect_2  rep2_s5">
+    <section id="買取実績" class="sect_2  rep2_s5">
         <div class="l-wrap">
             <img class="u-d-n-pc sp_bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
 

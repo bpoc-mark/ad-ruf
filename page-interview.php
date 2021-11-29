@@ -143,12 +143,12 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="u-d-f section_2-cntnt-btns">
-                    <a class="c-buttonCase" href="">
+                    <a class="c-buttonCase" href="https://drive.google.com/drive/folders/1sh9HKxPjXklI2VirmBd-X74hSWeUGuHc" target="_blank">
                         <p class="txt">CARGUY／カーガイについて</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
-                    <a class="c-buttonCase" href="">
-                        <p class="txt">代表メッセージ</p>
+                    <a class="c-buttonCase" href="<?php echo get_permalink(get_page_by_path('interview')) ?>">
+                        <p class="txt">代表メッセージを見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
                 </div>
@@ -177,11 +177,11 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="u-d-f section_3-cntnt-btns">
-                        <a class="c-buttonCase" href="">
+                        <a class="c-buttonCase" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
                             <p class="txt">ルーフの事業内容を見る</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
-                        <a class="c-buttonCase" href="">
+                        <a class="c-buttonCase" href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">
                             <p class="txt">経営理念を見る</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>

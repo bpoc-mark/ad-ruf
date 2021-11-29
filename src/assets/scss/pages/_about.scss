@@ -290,7 +290,7 @@
 		}
 
 		&-cntnt {
-			width: 980px;
+			width: 100%;
 			height: 302px;
 			display: flex;
 			justify-content: space-between;
@@ -298,16 +298,20 @@
 			background: linear-gradient(to left, #4c92cf, #4d92cf, #4c92cf, #4a91cf, #80b1d2);
 			position: relative;
 
-			@include is-max(1080px) {
-				width: 91vw;
+			@include is-max(480px){
+				height: 235px;
 			}
 
-			@include is-sp {
-				width: 100%;
-				// height: auto;
-				// background-image: url(../image/page/about/sec2_bg_sp.png);
-				// background-size: cover;
-			}
+			// @include is-max(1080px) {
+			// 	width: 91vw;
+			// }
+
+			// @include is-sp {
+			// 	width: 100%;
+			// 	height: auto;
+			// 	background: url(../../release/image/page/about/sec2_bg_sp.png);
+			// 	background-size: cover;
+			// }
 
 			// @include is-max (710px) {
 			//     background-size: contain;
@@ -336,6 +340,12 @@
 					margin-left: 20px;
 					text-align: center;
 					margin-top: -50px;
+
+					h1,a{
+						@include is-max(470px){
+							font-size: 37px;
+						}
+					}
 
 					@include is-max(350px){
 						margin-left: 0;
@@ -379,9 +389,13 @@
 								letter-spacing: -0.01em;
 							}
 
-							@include is-max(350px){
-								font-size: 11px;
+							@include is-max(470px){
+								font-size: 13px;
 							}
+
+							// @include is-max(350px){
+							// 	font-size: 11px;
+							// }
 						}
 
 						&-03 {
@@ -495,7 +509,6 @@
 				z-index: 1;
 
 				@include is-sp {
-					display: block;
 					width: 52%;
 				}
 			}
@@ -517,7 +530,7 @@
 				right: 17%;
 
 				@include is-sp {
-					display: block;
+
 				}
 			}
 
@@ -527,7 +540,7 @@
 				right: 23.5%;
 
 				@include is-sp {
-					display: block;
+
 				}
 			}
 
@@ -542,10 +555,12 @@
 
 				@include is-sp {
 					display: block;
+					object-fit: cover;
+					object-position: right;
 				}
 
 				@include is-max(705px) {
-					object-fit: cover;
+					
 
 				}
 			}

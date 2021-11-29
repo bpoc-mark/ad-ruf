@@ -216,7 +216,7 @@ $imagedir = get_template_directory_uri();
                 <p class="txt_ttl u-d-n-pc">
                     20年で500棟以上の買取実績
                 </p>
-                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">
+                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>/#買取実績">
                     <p class="txt">実績を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>

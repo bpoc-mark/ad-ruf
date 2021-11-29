@@ -672,7 +672,7 @@
 
 			@include is-sp {
 				display: block;
-				width: 278px;
+				width: 90%;
 			}
 
 			@include is-max(375px) {
@@ -700,6 +700,7 @@
 
 				p {
 					margin-left: 12.5px;
+					width: 100%;
 				}
 			}
 		}

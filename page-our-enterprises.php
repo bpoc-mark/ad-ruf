@@ -59,15 +59,15 @@ $imagedir = get_template_directory_uri();
                         </div> -->
 
                         <div class="u-d-f u-f-jcc u-pt-30 oe__btns">
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <a href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>" class="c-buttonCase oe--btn">
                                 <p class="txt">詳細を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
 
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <!-- <a href="#" class="c-buttonCase oe--btn">
                                 <p class="txt">実績を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </a>
+                            </a> -->
                         </div>
 
                     </div>
@@ -78,15 +78,15 @@ $imagedir = get_template_directory_uri();
                         <p class="heading03 ls007">丸の内ルーフは、豊富なバリューアップの経験を武器に最適な不動<br class="u-d-n-sp">産管理を行い、<br class="br-sp">お預かりした大切な収益不動産の価値を高めます。</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/ourenterprises/oe-img2.png" alt="">
                         <div class="u-d-f u-f-jcc u-pt-30 oe__btns">
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <a href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>" class="c-buttonCase oe--btn">
                                 <p class="txt">詳細を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
 
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <!-- <a href="#" class="c-buttonCase oe--btn">
                                 <p class="txt">実績を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </a>
+                            </a> -->
                         </div>
 
                     </div>
@@ -98,15 +98,15 @@ $imagedir = get_template_directory_uri();
                         <p class="heading03 ls007 u-pb-0 u-pt-30">丸の内ルーフは、自社で収益不動産を保有する<br class="br-sp">「プロのオー<br class="u-d-n-sp">ナー」として、<br class="br-sp">首都圏を中心に多数の物件を運用しています。</p>
 
                         <div class="u-d-f u-f-jcc u-pt-30">
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <a href="<?php echo get_permalink(get_page_by_path('realestateoperation')) ?>" class="c-buttonCase oe--btn">
                                 <p class="txt">詳細を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
 
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <!-- <a href="#" class="c-buttonCase oe--btn">
                                 <p class="txt">実績を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </a>
+                            </a> -->
                         </div>
 
                     </div>
@@ -118,15 +118,15 @@ $imagedir = get_template_directory_uri();
                         <p class="heading03 ls007 u-pb-0 u-pt-30">収益不動産に関する豊富なノウハウを活かし、<br class="br-sp">お客様の不動産投資戦略の最適化と<br class="br-sp">資産価値の最大化を目指します。</p>
 
                         <div class="u-d-f u-f-jcc u-pt-30">
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <a href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>" class="c-buttonCase oe--btn">
                                 <p class="txt">詳細を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
 
-                            <a href="#" class="c-buttonCase oe--btn">
+                            <!-- <a href="#" class="c-buttonCase oe--btn">
                                 <p class="txt">実績を見る</p>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>

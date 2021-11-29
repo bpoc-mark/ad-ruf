@@ -18,7 +18,7 @@
             line-height: 1;
             top: 28%;
             left: 20%;
-            text-align: center;
+            text-align: left;
 
             @include is-sp {
                 left: 5%;
@@ -357,8 +357,10 @@
                         white-space: nowrap;
 
                         @include is-max(450px) {
-                            @include font-line(7.5, 15);
+                            @include font-line(7.5);
                             letter-spacing: 0.2em;
+                            line-height: 1;
+                            padding-top: 7px;
                         }
                     }
 
