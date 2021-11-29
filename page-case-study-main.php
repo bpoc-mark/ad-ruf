@@ -48,7 +48,7 @@ $imagedir = get_template_directory_uri();
                                             <p>01</p>
                                         </div>
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case01.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -70,7 +70,7 @@ $imagedir = get_template_directory_uri();
                                             <p>02</p>
                                         </div>
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case02.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
 
@@ -93,7 +93,7 @@ $imagedir = get_template_directory_uri();
                                             <p>03</p>
                                         </div>
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case03.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -115,7 +115,7 @@ $imagedir = get_template_directory_uri();
                                             <p>04</p>
                                         </div>
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case04.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -138,7 +138,7 @@ $imagedir = get_template_directory_uri();
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case05.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -161,7 +161,7 @@ $imagedir = get_template_directory_uri();
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case06.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study6')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -184,7 +184,7 @@ $imagedir = get_template_directory_uri();
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case07.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study7')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -217,7 +217,7 @@ $imagedir = get_template_directory_uri();
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case08.png" alt="">
-                                        <a href="#" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study08')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -264,7 +264,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-case03__txt u-ta-l">
                     <p class="c-case03__txt__ttl">Real estate column</p>
-                    <p class="c-case03__txt__sub">●●●●コラム</p>
+                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-case03__txt__sub">●●●●コラム</a>
                     <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                         情報収集をして、後悔のない不動産投資を！</p>
                 </div>
@@ -353,7 +353,7 @@ $imagedir = get_template_directory_uri();
             </div>
 
             <a href="#" class="c-buttonCase">
-                <p class="txt">その他の事例を見る</p>
+                <p class="txt">その他のコラムを見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
         </div>

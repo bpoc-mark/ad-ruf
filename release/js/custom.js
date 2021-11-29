@@ -194,3 +194,20 @@ $(function () {
 
   s.parentNode.insertBefore(tk, s);
 })(document);
+
+var casePhotos = document.querySelectorAll('.photos');
+casePhotos.forEach(function (item) {
+  var photos = item.querySelectorAll('img');
+  photos.forEach(function (frame) {
+    frame.addEventListener("click", function () {
+      var currentView = document.querySelector('.frame-view');
+      currentView.children[0].src = frame.src;
+      currentView.style.display = "block";
+      console.log(frame.src);
+    });
+  });
+});
+var closePhoto = document.querySelector('.frame-view');
+closePhoto.addEventListener("click", function (e) {
+  closePhoto.style.display = "none";
+});
