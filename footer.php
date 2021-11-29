@@ -167,8 +167,12 @@
                     Copyright © RUF Co.,Ltd. All Rights Reserved
                 </p>
             </div>
-        </div>
+        </div>  
         </main>
+
+        <div class="frame-view">
+            <img src="" alt="">
+        </div> 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

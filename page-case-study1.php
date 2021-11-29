@@ -185,7 +185,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt row2__txt--02">
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">階段の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">マンション共用部の階段もリフォームを行い、<br class="u-d-n-sp">
+						<p class="c-case--items__contents--row_2__txt desc stairs_txt">マンション共用部の階段もリフォームを行い、<br class="u-d-n-sp">
 							階段入り口もライトを設置し安全に明るく見栄え良く仕上げました。</p>
 					</div>
 				</div>
@@ -338,7 +338,7 @@ $imagedir = get_template_directory_uri();
 				<!-- <img src="<?php echo $imagedir ?>/release/image/page/case1/cs_img23.png" alt=""> -->
 			</div>
 
-			<a href="#" class="c-buttonCase">
+			<a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
 				<p class="txt">その他の事例を見る</p>
 				<img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
 			</a>
@@ -435,7 +435,7 @@ $imagedir = get_template_directory_uri();
 				</div>
 			</div>
 
-			<a href="#" class="c-buttonCase">
+			<a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
 				<p class="txt">その他の事例を見る</p>
 				<img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
 			</a>
