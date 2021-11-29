@@ -46,12 +46,12 @@ $imagedir = get_template_directory_uri();
                 <p class="section_1__chart-ins">カーソルを合わせると各年度の<br class="br-sp">詳細な業績が見られます。<br>
                     スマホ、タブレットの場合、グラフを拡大してタップし<br class="u-d-n-pc">ていただくと数値がご覧いただけます。<br class="br-sp">※グループ会社の売上含まず</p>
                 <div class="section_1__result_btns">
-                    <a href="" class="c-buttonCase">
+                    <a href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>" class="c-buttonCase">
                         <p class="txt">ルーフの会社概要を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
 
-                    <a href="" class="c-buttonCase button-2">
+                    <a href="<?php echo get_permalink(get_page_by_path('interview')) ?>" class="c-buttonCase button-2">
                         <p class="txt">代表インタビューを見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
