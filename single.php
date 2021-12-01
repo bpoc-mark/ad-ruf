@@ -101,8 +101,8 @@ get_header(); ?>
                         </div>
                     </a>
 
-                    <div class="col1_txt u-pt-20">
-                        <p class="col1_txt02 u-d-n-pc">
+                    <div class="col1_txt u-pt-20 u-d-n-pc">
+                        <p class="col1_txt02">
                             この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです<span>この文章はダミーですこの文章はダミー</span>ですこの文章はダミーですこの文章はダミーですこの文章はダミーです140w
                         </p>
                     </div>
@@ -186,7 +186,7 @@ get_header(); ?>
                     </div>
 
                     <div class="col1_txt">
-                        <p class="col1_txt02">
+                        <p class="col1_txt02 u-d-n-sp">
                             この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです<span>この文章はダミーですこの文章はダミー</span>ですこの文章はダミーですこの文章はダミーですこの文章はダミーです140w
                         </p>
                         <p class="col1_txt02--sub">>>この文章はダミーです</p>
@@ -231,7 +231,7 @@ get_header(); ?>
             <div class="column-access-ranking">
                 <div class="col2_icon1">
                     <img class="big_img" src="<?php echo get_template_directory_uri(); ?>/release/image/page/single/single_icon1.png" alt="">
-                    <p>その他の関連記事をご紹介いたします</p>
+                    <p>その他の関連記事を<br class="u-d-n-pc">ご紹介いたします</p>
                 </div>
                 <ul class="post_wrap">
                     <?php
