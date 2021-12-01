@@ -138,7 +138,7 @@ $imagedir = get_template_directory_uri();
 
             <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
-                <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでのアクセス</p>
+                <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでの<br class="br-sp">アクセス</p>
             </div>
             <img class="section_3__bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <img class="section_3__bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_14.png" alt="">

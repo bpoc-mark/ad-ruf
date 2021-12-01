@@ -231,11 +231,11 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
         <div class="l-wrap u-d-f u-d-f-jcc u-mt-70 pp--fd">
-            <a class="c-buttonCase pp--btn" href="#">
+            <a class="c-buttonCase pp--btn" href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">
                 <p class="txt">会社概要</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
-            <a class="c-buttonCase pp--btn" href="#">
+            <a class="c-buttonCase pp--btn" href="<?php echo get_permalink(get_page_by_path('about')) ?>">
                 <p class="txt">丸の内RUFについて</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>

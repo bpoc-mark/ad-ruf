@@ -795,4 +795,20 @@
 			font-size: 5.9vw;
 		}
 	}
+	
+	.br-pc{
+		display: none;
+
+		@include is-pc{
+			display: block;
+		}
+	}
+
+	.br-sp{
+		display: none;
+
+		@include is-sp{
+			display: block;
+		}
+	}
 }

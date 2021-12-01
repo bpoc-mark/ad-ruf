@@ -1028,6 +1028,8 @@ template{display:none}
 .acc--btn:last-child{margin-left:30px}
 .acc .acc_ttl{letter-spacing:.28em}
 .acc .acc_sub{line-height:37px;padding-bottom:0;font-weight:500}
+.acc .br-pc{display:none}
+.acc .br-sp{display:none}
 .assetmanagement{position:relative}
 .assetmanagement .c-img_box03__txt{height:100% !important}
 .assetmanagement .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
@@ -2782,6 +2784,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .testimonial__speech{font-size:1rem;line-height:2}
 .u-d-n-pc{display:none !important}
 .about .br-pc{display:block}
+.acc .br-pc{display:block}
 .assetmanagement .sect_4__box-big-new .pc{display:block}
 .assetmanagement .sect_5__box-big-new .pc{display:block}
 .assetmanagement .sect_6__box-big-new .pc{display:block}
@@ -3563,6 +3566,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .acc--btn:last-child{margin:25px 0 0 0}
 .acc .acc_ttl{font-size:.8125rem}
 .acc .acc_sub{font-size:1.5625rem;letter-spacing:.075em;line-height:39px}
+.acc .br-sp{display:block}
 .assetmanagement .c-banner{padding:0 0 80px 0}
 .assetmanagement .c-banner--ttl p:nth-child(1){line-height:34px}
 .assetmanagement .c-banner--ttl p:nth-child(2){line-height:18px}

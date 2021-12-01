@@ -693,7 +693,7 @@
         <div class="l-wrap">
             <div class="nav-footer">
                 <div class="nav-footer-col1 brand_logo">
-                    <a href="">
+                    <a href="<?php echo esc_url(home_url('/')); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
                     </a>
                 </div>
