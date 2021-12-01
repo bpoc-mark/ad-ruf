@@ -91,14 +91,16 @@ function my_css_attributes_filter($var)
 // );
 
 // Add more-link text to excerpt 
-function new_excerpt_more( $excerpt ) { 
-    return '<p class="post-item-content-excerpt u-d-n-sp">'.$excerpt.'<p>'; 
-} 
-add_filter( 'get_the_excerpt', 'new_excerpt_more' );
+function new_excerpt_more($excerpt)
+{
+    return '<p class="post-item-content-excerpt u-d-n-sp">' . $excerpt . '<p>';
+}
+add_filter('get_the_excerpt', 'new_excerpt_more');
 
 // Add excerpt length
 
-function new_excerpt_length($length) {
+function new_excerpt_length($length)
+{
     return 10;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
@@ -160,13 +162,14 @@ function owp_pf_support()
 add_action('after_setup_theme', 'owp_pf_support');
 
 //THANK YOU PAGE CONTACT FORM
+
 add_action('wp_footer', 'redirect_cf7');
 function redirect_cf7()
 {
 ?>
     <script type="text/javascript">
         document.addEventListener('wpcf7mailsent', function(event) {
-            location = 'https://ad-ruf.hipetest.com/thanks';
+            location = 'https://ad-ruf.hipetest.com/thanks/';
         }, false);
     </script>
 <?php

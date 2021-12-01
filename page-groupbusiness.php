@@ -7,21 +7,21 @@ $imagedir = get_template_directory_uri();
 
 <div class="page__content group-business">
     <div class="c-banner">
-        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
-        <div class="c-inner">
-            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr.png" alt="">
-            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr_sp.png" alt="">
-            <div class="c-banner--ttl">
-                <p>グ ル ー プ<br class="bnr_sp"> 事 業</p>
-                <p>Group <br class="bnr_sp">Business</p>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+            <div class="c-inner">
+                <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr.png" alt="">
+                <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr_sp.png" alt="">
+                <div class="c-banner--ttl">
+                    <p>グ ル ー プ<br class="bnr_sp"> 事 業</p>
+                    <p>Group <br class="bnr_sp">Business</p>
+                </div>
             </div>
-        </div>
-        <!-- <div class="bread_crumps">
+            <!-- <div class="bread_crumps">
             <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> 代 表 メ ッ セ ー ジ</p>
         </div> -->
-        <div class="c-bread_crumps">
-            <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
-        </div>
+            <div class="c-bread_crumps">
+                <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
+            </div>
     </div>
     <div class="top-clip"></div>
     <section class="sect_1">

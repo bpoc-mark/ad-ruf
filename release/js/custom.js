@@ -211,3 +211,12 @@ var closePhoto = document.querySelector('.frame-view');
 closePhoto.addEventListener("click", function (e) {
   closePhoto.style.display = "none";
 });
+$('.zip_s,zip_ss').on('keyup', function () {
+  if ($(this).val() !== '') {
+    AjaxZip3.zip2addr('zip01', 'zip02', '', 'pref01', 'municipality', 'address', 'address2');
+  }
+
+  if ($(this).val() === '') {
+    $('.prefecture_s').val(''), $('.municipality_s').val(''), $('.address_s').val(''), $('.address_s2').val('');
+  }
+});

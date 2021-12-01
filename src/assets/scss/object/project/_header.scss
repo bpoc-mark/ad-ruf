@@ -976,6 +976,10 @@
 			right: 9px;
 			z-index: 555;
 
+			@include is-sp{
+				right: 3px;
+			}
+
 			&-hon {
 				font-family: yu-mincho-pr6n, sans-serif;
 				@include font-line(30, 41);
@@ -1003,6 +1007,8 @@
 
 			@include is-sp {
 				width: 100%;
+				top: 90px;
+				line-height: 1.4;
 			}
 
 			&-ver {

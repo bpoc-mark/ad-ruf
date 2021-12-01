@@ -2,13 +2,13 @@
 
 /* Template Name: Blog Page */
 
-get_header();?>
+get_header(); ?>
 <div class="page__content column">
     <section class="column_head_sect">
         <div class="l-wrap">
             <div class="column_head u-d-f">
                 <div class="column_head__left">
-                    <a href="">
+                    <a href="<?php echo esc_url(home_url('/')); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/logo.svg" alt="">
                         <span>●●●●</span>COLUMN
                     </a>
@@ -103,55 +103,55 @@ get_header();?>
             <div class="left">
                 <ul class="post-wrap u-d-f">
                     <?php
-                        $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
-                        
-                        $args = array(
-                            'post_type' => 'post',
-                            'post_status'=>'publish',
-                            'posts_per_page' => 6,
-                            'paged' => $paged,
-                        );
-                        
-                        $the_query = new WP_Query($args);
+                    $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+                    $args = array(
+                        'post_type' => 'post',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 6,
+                        'paged' => $paged,
+                    );
+
+                    $the_query = new WP_Query($args);
                     ?>
-                    <?php if ( $the_query->have_posts() ) : ?>
-                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                        <li class="post-item">
-                            <a href="" class="post-item-link">
-                                <div class="post-item-info u-d-f">
-                                    <?php
-                                        if ( has_post_thumbnail() ) { 
+                    <?php if ($the_query->have_posts()) : ?>
+                        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                            <li class="post-item">
+                                <a href="" class="post-item-link">
+                                    <div class="post-item-info u-d-f">
+                                        <?php
+                                        if (has_post_thumbnail()) {
                                             the_post_thumbnail('full', array('class' => 'post-item-img'));
-                                        }  else{
-                                            echo '<img class="post-item-img" src="'. get_template_directory_uri().'/release/image/page-column/no_img.png" alt="">';
+                                        } else {
+                                            echo '<img class="post-item-img" src="' . get_template_directory_uri() . '/release/image/page-column/no_img.png" alt="">';
                                         }
-                                    ?>
-                                    <div class="post-item-content">
-                                        <p class="post-item-content-date"><?php echo get_the_date('Y.m.d'); ?></p>
-                                        <p class="post-item-content-title"><?php the_title();?></p>
-                                        <?php the_excerpt(array('class' => 'post-item-content-excerpt u-d-n-sp')); ?>
-                                        <div class="post-item-content-cat">
-                                            <?php 
+                                        ?>
+                                        <div class="post-item-content">
+                                            <p class="post-item-content-date"><?php echo get_the_date('Y.m.d'); ?></p>
+                                            <p class="post-item-content-title"><?php the_title(); ?></p>
+                                            <?php the_excerpt(array('class' => 'post-item-content-excerpt u-d-n-sp')); ?>
+                                            <div class="post-item-content-cat">
+                                                <?php
                                                 $categories = get_the_category();
                                                 $separator = ' ';
                                                 $output = '';
-                                                if ( ! empty( $categories ) ) {
-                                                    foreach( $categories as $category ) {
-                                                        $output .= '<span class="cat"><span class="cat-hash">#</span>'.esc_html( $category->name ).'</span>';
+                                                if (!empty($categories)) {
+                                                    foreach ($categories as $category) {
+                                                        $output .= '<span class="cat"><span class="cat-hash">#</span>' . esc_html($category->name) . '</span>';
                                                     }
-                                                    echo trim( $output);
+                                                    echo trim($output);
                                                 }
-                                            ?>
+                                                ?>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </a>
-                        </li>
-                    <?php endwhile; ?>
+                                </a>
+                            </li>
+                        <?php endwhile; ?>
                     <?php endif; ?>
                 </ul>
                 <div class="page_navigation">
-                    <?php wp_pagenavi( array( 'query' => $the_query )); ?>
+                    <?php wp_pagenavi(array('query' => $the_query)); ?>
                 </div>
             </div>
             <div class="right">
@@ -159,10 +159,10 @@ get_header();?>
                     <h3><img src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-icon.svg" alt="">目的から探す</h3>
                     <div class="cat-wrap">
                         <?php
-                            $categories = get_categories();
-                            foreach($categories as $category) {
-                                echo '<a href="' . get_category_link($category->term_id) . '" class="cat"><span class="cat-hash">#</span>' . $category->name . '</a>';  
-                            }
+                        $categories = get_categories();
+                        foreach ($categories as $category) {
+                            echo '<a href="' . get_category_link($category->term_id) . '" class="cat"><span class="cat-hash">#</span>' . $category->name . '</a>';
+                        }
                         ?>
                     </div>
                 </div>
@@ -170,45 +170,45 @@ get_header();?>
                     <h3><img src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-crown-icon.svg" alt="">アクセスランキング</h3>
                     <ul class="post_wrap">
                         <?php
-                            $sidepaged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
-                            
-                            $sideargs = array(
-                                'post_type' => 'post',
-                                'post_status'=>'publish',
-                                'posts_per_page' => 8,
-                                'paged' => $sidepaged,
-                            );
-                            
-                            $sidebar_query = new WP_Query($sideargs);
+                        $sidepaged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+                        $sideargs = array(
+                            'post_type' => 'post',
+                            'post_status' => 'publish',
+                            'posts_per_page' => 8,
+                            'paged' => $sidepaged,
+                        );
+
+                        $sidebar_query = new WP_Query($sideargs);
                         ?>
-                        <?php if ( $sidebar_query->have_posts() ) : ?>
-                        <?php while ( $sidebar_query->have_posts() ) : $sidebar_query->the_post(); ?>
-                            <li class="post_wrap_row">
-                                <a href="<?php echo get_permalink(); ?>">
-                                    <div class="post">
-                                        <figure>
-                                            <?php
-                                                if ( has_post_thumbnail() ) { 
+                        <?php if ($sidebar_query->have_posts()) : ?>
+                            <?php while ($sidebar_query->have_posts()) : $sidebar_query->the_post(); ?>
+                                <li class="post_wrap_row">
+                                    <a href="<?php echo get_permalink(); ?>">
+                                        <div class="post">
+                                            <figure>
+                                                <?php
+                                                if (has_post_thumbnail()) {
                                                     the_post_thumbnail('full', array('class' => 'post-item-img'));
-                                                }  else{
-                                                    echo '<img class="post-item-img" src="'. get_template_directory_uri().'/release/image/page-column/no_img.png" alt="">';
+                                                } else {
+                                                    echo '<img class="post-item-img" src="' . get_template_directory_uri() . '/release/image/page-column/no_img.png" alt="">';
                                                 }
-                                            ?>
-                                        </figure>
-                                        <div class="post_info">
-                                            <p class="post_info_date"><?php echo get_the_date('Y.m.d'); ?></p>
-                                            <p class="post_info_title"><?php the_title();?></p>
-                                            <?php
-                                                $category = get_the_category(); 
-                                                if(!empty($category)){
-                                                    echo '<span class="cat"><span class="cat-hash">#</span>'.  $category[0]->cat_name .'</span>';
+                                                ?>
+                                            </figure>
+                                            <div class="post_info">
+                                                <p class="post_info_date"><?php echo get_the_date('Y.m.d'); ?></p>
+                                                <p class="post_info_title"><?php the_title(); ?></p>
+                                                <?php
+                                                $category = get_the_category();
+                                                if (!empty($category)) {
+                                                    echo '<span class="cat"><span class="cat-hash">#</span>' .  $category[0]->cat_name . '</span>';
                                                 }
-                                            ?>
-                                        </div>   
-                                    </div>
-                                </a>
-                            </li>
-                        <?php endwhile; ?>
+                                                ?>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            <?php endwhile; ?>
                         <?php endif; ?>
                     </ul>
                 </div>
@@ -216,4 +216,4 @@ get_header();?>
         </div>
     </section>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>

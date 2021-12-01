@@ -5,7 +5,7 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content ci">
     <div class="c-banner">
-        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/company_information/company_info_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/company_information/company_info_bnr_sp.png" alt="">

@@ -4,7 +4,7 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content contact-confrm">
     <div class="c-banner">
-        <p class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</p>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg_sp.png" alt="">
@@ -138,12 +138,6 @@ $imagedir = get_template_directory_uri();
                                         <input type="text" id="lname" name="lname" value="" placeholder="ex)6334">
                                     </div>
                                     <span class="hidden">-</span>
-                                    <div class="pc-hide">
-                                        <p>住所入力</p>
-                                    </div>
-                                </div>
-                                <div class="sp-show">
-                                    <p>住所入力</p>
                                 </div>
                                 <!-- Row 2 -->
                                 <div class="row-2">
