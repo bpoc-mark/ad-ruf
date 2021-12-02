@@ -183,6 +183,7 @@
 	.c-case03__txt__sub {
 		font-weight: 500;
 		letter-spacing: 0.34em;
+		line-height: 60px;
 		@include is-sp {
 			@include font-line(25);
 			letter-spacing: 0.15em !important;

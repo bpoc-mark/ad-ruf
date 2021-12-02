@@ -32,13 +32,11 @@
                             color: #666666;
                         }
                         span{
-                            font-size: 30px;
+                            font-size: 18px;
                             margin-top: -4px;
                             @include is-sp{
-                                font-size: 14px;
-                                position: absolute;
-                                bottom: -5px;
-                                left: 0;
+                                font-size: 11px;
+                                margin-top: 5px;
                                 color: #666666;
                             }
                         }

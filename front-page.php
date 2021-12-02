@@ -437,7 +437,7 @@
                     <div class="c-case--items__contents">
                         <div class="c-case03__txt u-ta-l">
                             <p class="c-case03__txt__ttl">Real estate column</p>
-                            <p class="c-case03__txt__sub">●●●●コラム</p>
+                            <p class="c-case03__txt__sub">不動産コラム</p>
                             <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                                 情報収集をして、後悔のない不動産投資を！</p>
                         </div>
@@ -807,7 +807,7 @@
                     <div class="link acc-hidden">
                         <ul class="link__inner">
                             <li class="c-link">
-                                <a class="c-link__inner" href="">記事一覧 <span class="ad-txt-sp">(何かタイトル欲しい)</span></a>
+                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('column')) ?>">記事一覧</a>
                                 <a class="c-link__arr" href="">></a>
                             </li>
                             <li class="c-link">

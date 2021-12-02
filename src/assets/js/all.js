@@ -211,14 +211,15 @@ $(function () {
   });
 
 
-$('.zip_s,zip_ss').on('keyup', function() {
-        if ($(this).val() !== '') {
-                AjaxZip3.zip2addr('zip01', 'zip02','',  'pref01', 'municipality', 'address', 'address2');
+$('.show-ad').click(function()
+{
+        if ($('.zip_s').val() !== '') {
+                AjaxZip3.zip2addr('zip01', 'zip02', 'address1', 'municipality', 'address');
         }
-        if ($(this).val() === '') {
+        if ($('.zip_s').val() === '') {
                 $('.prefecture_s').val(''),
-                        $('.municipality_s').val(''),
-                        $('.address_s').val(''),
-                        $('.address_s2').val('')
+                $('.municipality_s').val(''),
+                $('.address_s').val('')
+                // $('.address_s2').val('')
         }
 });

@@ -10,7 +10,7 @@ get_header(); ?>
                 <div class="column_head__left">
                     <a href="<?php echo esc_url(home_url('/')); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/logo.svg" alt="">
-                        <span>●●●●</span>COLUMN
+                        <span>不動産コラム</span>
                     </a>
                 </div>
                 <div class="column_head__right">

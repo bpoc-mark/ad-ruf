@@ -264,7 +264,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-case03__txt u-ta-l">
                     <p class="c-case03__txt__ttl">Real estate column</p>
-                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-case03__txt__sub">●●●●コラム</a>
+                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-case03__txt__sub">不動産コラム</a>
                     <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                         情報収集をして、後悔のない不動産投資を！</p>
                 </div>

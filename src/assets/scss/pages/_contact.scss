@@ -534,7 +534,7 @@
 				}
 
 				p {
-					width: 30px;
+					width: 5%;
 
 					&:last-child {
 						width: unset;
@@ -558,7 +558,15 @@
 
 				.pc-hide {
 					display: block;
-					width: 26%;
+					width: 30%;
+					background: #258acf;
+					border-radius: 10px;
+					a{
+						color: #fff;
+						width: 100%;
+						display: inline-block;
+						padding: 10px;
+					}
 
 					@include is-sp {
 						display: none;
@@ -569,23 +577,40 @@
 							font-size: 1.8vw;
 						}
 					}
+					
+					.show-ad{
+						cursor: pointer;
+
+						@include is-max(797px){
+							font-size: 1.7vw;
+						}
+					}
 				}
 
 				.sp-show {
 					display: none;
 
 					@include is-sp {
-						background-color: #258acf;
-						display: block;
+						display: inline-block;
 						width: 100%;
-						padding: 10px 0;
-						border-radius: 10px;
 						margin-bottom: 20px;
 						color: #ffffff;
 						font-family: yu-gothic-pr6n, sans-serif;;
 						@include font-line(13);
 						letter-spacing: 0.28em;
 						font-weight: 700;
+					}
+
+					.show-ad{
+
+						@include is-sp{
+							border-radius: 10px;
+							background-color: #258acf;
+							position: relative;
+							display: inline-block;
+							width: 100%;
+							padding: 10px 0;
+						}
 					}
 
 					p{
@@ -601,6 +626,7 @@
 				.row-1 {
 					width: 100%;
 					padding-bottom: 10px;
+					align-items: flex-start;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -851,7 +877,7 @@
 
 					span {
 						width: 100%;
-						display: inherit;
+						display: block;
 					}
 				}
 			}
@@ -1104,6 +1130,7 @@
     }
 
     .selct select {
+		color: #000;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -1116,7 +1143,13 @@
         margin: 5px 0px;
         padding: 0px 10px;
         line-height: 1.75;
+		background: #fff;
     }
+
+	.c-buttonCase img{
+		width: 8px;
+		height: 12px;
+	}
 }
 
 .wpcf7c-conf {
@@ -1155,4 +1188,42 @@ input,
 	@include is-max(340px){
 		font-size: 3.7vw;
 	}
+}
+
+.wpcf7-not-valid-tip{
+	display: block;
+	font-size: 13px !important;
+	text-align: left;
+}
+
+.wpcf7c-btn-back{
+	color: #258acf;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 200px;
+	border: 1px solid #81b3d4;
+	border-radius: 50px;
+}
+
+input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{
+	color: #fff;
+	background-color: #258acf;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 200px;
+	border: 1px solid #81b3d4;
+	border-radius: 50px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.zip_s.wpcf7c-conf{
+	border: none;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7c-conf{
+	border: none;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-conf{
+	border: none !important;
+}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{
+	border: none;
 }
