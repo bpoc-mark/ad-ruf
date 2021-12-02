@@ -29,14 +29,13 @@
 
                     <?php
                         $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
-                        $current_category = single_cat_title("", false);
                         
                         $args = array(
                             'post_type' => 'post',
                             'post_status'=>'publish',
                             'posts_per_page' => 9,
                             'paged' => $paged,
-                            'category_name' => $current_category,
+
                         );
                         
                         $the_query = new WP_Query($args);
