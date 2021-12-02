@@ -1028,6 +1028,11 @@ template{display:none}
 .acc--btn:last-child{margin-left:30px}
 .acc .acc_ttl{letter-spacing:.28em}
 .acc .acc_sub{line-height:37px;padding-bottom:0;font-weight:500}
+.archive{padding-bottom:100px}
+.archive .inner_cont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.archive .thumbnail{width:30%;border:1px solid #ededed;margin-bottom:20px}
+.archive .thumbnail img{width:100%;height:auto}
+.archive .inner_content{width:100%;padding:20px}
 .assetmanagement{position:relative}
 .assetmanagement .c-img_box03__txt{height:100% !important}
 .assetmanagement .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
@@ -3118,7 +3123,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 }@media only screen and (max-width:875px){.top-header-bnnr .bdg-wrppr{top:58%}
 .section_1 .section_1-cntnt-2{width:calc(100% - 395px)}
 .section_1 .section_1-cntnt-2-rep{width:161px}
-}@media only screen and (max-width:870px){.rep2_s4--ttl{font-size:2.7vw}
+}@media only screen and (max-width:870px){.archive .thumbnail{width:48%}
+.rep2_s4--ttl{font-size:2.7vw}
 }@media only screen and (max-width:867px){.mp__title{line-height:42px}
 .mp__title br{display:block}
 .top .sect_2 .clipPath{-webkit-clip-path:polygon(-6% 12%,100% 0,100% 90%,0 100%);clip-path:polygon(-6% 12%,100% 0,100% 90%,0 100%)}
@@ -3672,6 +3678,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .acc--btn:last-child{margin:25px 0 0 0}
 .acc .acc_ttl{font-size:.8125rem}
 .acc .acc_sub{font-size:1.5625rem;letter-spacing:.075em;line-height:39px}
+.archive .thumbnail{width:100%}
 .assetmanagement .c-banner{padding:0 0 80px 0}
 .assetmanagement .c-banner--ttl p:nth-child(1){line-height:34px}
 .assetmanagement .c-banner--ttl p:nth-child(2){line-height:18px}
@@ -4596,7 +4603,7 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .column .column_head_sect .l-wrap{padding-bottom:10px;padding-top:15px}
 .column .column_head_sect .l-wrap .column_head__left{width:70px}
 .column .column_head_sect .l-wrap .column_head__left a{font-size:8px;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;color:#666}
-.column .column_head_sect .l-wrap .column_head__left a span{font-size:14px;position:absolute;bottom:-5px;left:0;color:#666}
+.column .column_head_sect .l-wrap .column_head__left a span{font-size:8px;position:absolute;bottom:0;left:0;color:#666}
 .column .column_head_sect .l-wrap .column_head__left a img{margin-right:0}
 .column .column_head_sect .l-wrap .column_head__right{width:calc(100% - 70px);padding-left:25px}
 .column .column_head_sect .l-wrap .column_head__right .search_input input{padding:12px 0}

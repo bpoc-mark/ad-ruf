@@ -1,6 +1,6 @@
 <?php get_header();?>
 <div class="page__content archive">
-    <section class="jumbo_section">
+    <section class="jumbo_section l-wrap">
         <div class="w_100">
             <div class="jumbo_cont jumbo_news">
                 <div class="jumbo_overlay"></div>
@@ -15,7 +15,7 @@
     </section>
 
     <section class="news_section_2 w_100">
-        <div class="container">
+        <div class="container l-wrap">
             <div class="title_filter">
                 <?php dynamic_sidebar('blog-category'); ?>  
                 <!-- <div class="tab">
@@ -51,8 +51,8 @@
                             <?php the_post_thumbnail(); ?>
                             </a>
                             <div class="inner_content">
+                            <p class="date"><i class="fas fa-calendar-day"></i> &nbsp;<?php echo get_the_date('Y.m.d'); ?></p>
                                 <p class="border_b"><?php the_title();?></p>
-                                <p class="date"><i class="fas fa-calendar-day"></i> &nbsp;<?php echo get_the_date('Y.m.d'); ?></p>
                                 <p class="bold"><?php echo get_the_excerpt(); ?></p>
                                 <div class="btn_read">
                                     <a href="<?php echo get_permalink(); ?>">Read More →</a>

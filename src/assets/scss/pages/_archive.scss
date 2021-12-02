@@ -1,0 +1,34 @@
+.archive {
+    padding-bottom: 100px;
+
+    .inner_cont {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .thumbnail {
+        width: 30%;
+        border: 1px solid #ededed;
+        margin-bottom: 20px;
+
+        @include is-max(870px) {
+            width: 48%;
+        }
+
+        @include is-sp {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .inner_content {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
