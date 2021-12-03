@@ -52,9 +52,6 @@ get_header();?>
                     <div>
                         <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-2.jpg" alt="">
                     </div>
-                    <div>
-                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-3.jpg" alt="">
-                    </div>
                 </div>
             </div>
             <div id="tab_2" class="tab_cont">
@@ -71,9 +68,6 @@ get_header();?>
                     <div>
                         <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-2.jpg" alt="">
                     </div>
-                    <div>
-                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-3.jpg" alt="">
-                    </div>
                 </div>
             </div>
             <div id="tab_3" class="tab_cont">
@@ -89,9 +83,6 @@ get_header();?>
                     </div>
                     <div>
                         <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-2.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="post-item-img" src="<?php echo get_template_directory_uri(); ?>/release/image/page-column/column-img-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -111,7 +102,6 @@ get_header();?>
                             'posts_per_page' => 6,
                             'paged' => $paged,
                         );
-                        
                         $the_query = new WP_Query($args);
                     ?>
                     <?php if ( $the_query->have_posts() ) : ?>

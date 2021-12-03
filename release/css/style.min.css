@@ -2781,11 +2781,11 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .column .sect_2 .l-wrap{max-width:1200px}
 .column .sect_2 .l-wrap.u-d-f{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .column .sect_2 .l-wrap .left{width:calc(100% - 320px);padding-right:50px}
-.column .sect_2 .l-wrap .left .post-wrap.u-d-f{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.column .sect_2 .l-wrap .left .post-wrap .post-item{width:48.22%;margin-bottom:50px}
+.column .sect_2 .l-wrap .left .post-wrap.u-d-f{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
+.column .sect_2 .l-wrap .left .post-wrap .post-item{width:48.22%;margin-bottom:50px;border:1px solid #ededed;background-color:#fff}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-info.u-d-f{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-img{width:100%;height:auto}
-.column .sect_2 .l-wrap .left .post-wrap .post-item-content{width:100%;padding:20px;border:1px solid #ededed}
+.column .sect_2 .l-wrap .left .post-wrap .post-item-content{width:100%;padding:20px}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-content-date{font-size:.625rem;font-family:century-gothic,sans-serif;font-weight:400;color:gray;border-bottom:1px solid #0093ee;padding-bottom:8px;margin-bottom:7px}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-content-title{font-size:.8125rem;line-height:1.6923076923;font-family:yu-gothic-pr6n,sans-serif;font-weight:700;color:#0093ee;margin-bottom:5px}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-content-excerpt{font-size:.8125rem;line-height:1.5;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;color:gray}
@@ -4617,8 +4617,12 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .column .jumbo_section .nav_tab .tab_wrap_item:nth-child(3) img{width:15px}
 .column .jumbo_section .nav_tab .tab_wrap_item__link{font-size:12.5px}
 .column .jumbo_section .nav_tab .tab_wrap_item__link img{margin-right:5px}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-prev{left:35%}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-next{right:35%}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-prev,.column .jumbo_section .slider_wrapper .slider_realestate .slick-next{top:unset;bottom:-80px;background-color:unset}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-dots{bottom:-37px}
 .column .sect_2 .l-wrap{padding-left:0;padding-right:0}
-.column .sect_2 .l-wrap .left .post-wrap .post-item{width:100%;margin-bottom:25px;padding-bottom:25px}
+.column .sect_2 .l-wrap .left .post-wrap .post-item{width:100%;margin-bottom:25px;padding-bottom:25px;border:0}
 .column .sect_2 .l-wrap .left .post-wrap .post-item:not(:last-child){border-bottom:1px solid #cacaca}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-info{padding-left:17px;padding-right:17px}
 .column .sect_2 .l-wrap .left .post-wrap .post-item-img{width:48%}
@@ -4809,6 +4813,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 }@media only screen and (max-width:600px){.top .sect_2 .c-buttonCase{margin-bottom:15px}
 }@media only screen and (max-width:575px){.page__footer .nav-footer-col1 img{width:100px}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4}
+}@media only screen and (max-width:535px){.column .jumbo_section .slider_wrapper .slider_realestate .slick-prev{left:27%}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-next{right:27%}
 }@media only screen and (max-width:500px){.c-ruf-txt img{width:65.5px}
 .c-cards09-desc{padding:15px 5px 50px}
 .c-slider__item--ttl{font-size:.875rem}
@@ -5067,6 +5073,8 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .rep2 .sect_1__headers{font-size:6.3vw !important}
 .rep2_s8 .content--title{font-size:8vw}
 .top .sect_7-cntnt-rows-01-txt p:nth-child(2){font-size:4.3vw}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-prev{left:22%}
+.column .jumbo_section .slider_wrapper .slider_realestate .slick-next{right:22%}
 }@media only screen and (max-width:350px){.c-card10-center-text{top:52%}
 .c-slider .prev-arrow{top:21%}
 .c-slider .next-arrow{top:21%}
