@@ -1,5 +1,6 @@
 .single_page {
 	background-color: #e7f4fb;
+	padding: 0 0 50px 0 !important;
 
 	@include is-sp {
 		background-color: #fff;
@@ -20,12 +21,34 @@
 			border-bottom: 1px solid #cacaca;
 			background-color: #fff;
 		}
+
+		.aioseo-breadcrumbs {
+			width: 100%;
+		}
 	}
 
 	.aioseo-breadcrumbs {
 		padding: 23px 0;
+		margin-left: -8px;
 		@include is-sp {
 			padding: 12px 0;
+		}
+
+		& .aioseo-breadcrumb:first-child {
+			a {
+				position: relative;
+				color: transparent;
+				&::after {
+					content: "";
+					background: url(../image/page/single/home-icon.png) no-repeat;
+					width: 14px;
+					height: 12px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			}
 		}
 	}
 
@@ -44,6 +67,7 @@
 			}
 		}
 	}
+
 
 	.single_content {
 		max-width: 750px;
@@ -111,105 +135,105 @@
 				}
 			}
 
-			.col1_txt,
-			.col2_txt {
-				font-weight: 700;
-				color: #0093ee;
-				font-family: yu-gothic-pr6n, sans-serif;
+			// .col1_txt,
+			// .col2_txt {
+			// 	font-weight: 700;
+			// 	color: #0093ee;
+			// 	font-family: yu-gothic-pr6n, sans-serif;
 
-				&01 {
-					text-align: center;
-					border-bottom: 2px solid #0093ee;
-					margin-bottom: 20px;
-					padding-bottom: 10px;
-					padding-top: 100px;
-					@include font-line(22, 40);
-					letter-spacing: 0.01em;
-					font-weight: 700;
-					color: #0093ee;
-					font-family: yu-gothic-pr6n, sans-serif;
+			// 	&01 {
+			// 		text-align: center;
+			// 		border-bottom: 2px solid #0093ee;
+			// 		margin-bottom: 20px;
+			// 		padding-bottom: 10px;
+			// 		padding-top: 100px;
+			// 		@include font-line(22, 40);
+			// 		letter-spacing: 0.01em;
+			// 		font-weight: 700;
+			// 		color: #0093ee;
+			// 		font-family: yu-gothic-pr6n, sans-serif;
 
-					@include is-sp {
-						text-align: left;
-						border: 0;
-						@include font-line(16, 22.5);
-						padding: 25px 0 0 0;
-					}
-				}
+			// 		@include is-sp {
+			// 			text-align: left;
+			// 			border: 0;
+			// 			@include font-line(16, 22.5);
+			// 			padding: 25px 0 0 0;
+			// 		}
+			// 	}
 
-				&02 {
-					text-align: justify;
-					@include font-line(13, 20.8);
-					letter-spacing: 0.09em;
-					color: #323232;
-					font-weight: 500;
-					font-family: yu-gothic-pr6n, sans-serif;
+			// 	&02 {
+			// 		text-align: justify;
+			// 		@include font-line(13, 20.8);
+			// 		letter-spacing: 0.09em;
+			// 		color: #323232;
+			// 		font-weight: 500;
+			// 		font-family: yu-gothic-pr6n, sans-serif;
 
-					@include is-sp {
-						line-height: 20px;
-						font-size: 12.5px;
-						letter-spacing: 0.09em;
-					}
+			// 		@include is-sp {
+			// 			line-height: 20px;
+			// 			font-size: 12.5px;
+			// 			letter-spacing: 0.09em;
+			// 		}
 
-					span {
-						color: #0093ee;
-						font-weight: 700;
-					}
-				}
+			// 		span {
+			// 			color: #0093ee;
+			// 			font-weight: 700;
+			// 		}
+			// 	}
 
-				&02--sub {
-					@include font-line(14, 14);
-					letter-spacing: 0.07em;
-					padding: 16px 0 0;
-					font-weight: 500;
-					color: #0093ee;
-					font-family: yu-gothic-pr6n, sans-serif;
+			// 	&02--sub {
+			// 		@include font-line(14, 14);
+			// 		letter-spacing: 0.07em;
+			// 		padding: 16px 0 0;
+			// 		font-weight: 500;
+			// 		color: #0093ee;
+			// 		font-family: yu-gothic-pr6n, sans-serif;
 
-					@include is-sp {
-						font-size: 12.5px;
-						letter-spacing: 0.06em;
-						padding: 35px 0 0 0;
-					}
-				}
+			// 		@include is-sp {
+			// 			font-size: 12.5px;
+			// 			letter-spacing: 0.06em;
+			// 			padding: 35px 0 0 0;
+			// 		}
+			// 	}
 
-				&03 {
-					text-align: left;
-					letter-spacing: 0.14em;
-					@include font-line(22, 22);
-					border-left: 4px solid;
-					padding-left: 6px;
-					margin-top: 35px;
-					margin-bottom: 20px;
-					color: #0093ee;
-					font-family: yu-gothic-pr6n, sans-serif;
-					font-weight: 700;
+			// 	&03 {
+			// 		text-align: left;
+			// 		letter-spacing: 0.14em;
+			// 		@include font-line(22, 22);
+			// 		border-left: 4px solid;
+			// 		padding-left: 6px;
+			// 		margin-top: 35px;
+			// 		margin-bottom: 20px;
+			// 		color: #0093ee;
+			// 		font-family: yu-gothic-pr6n, sans-serif;
+			// 		font-weight: 700;
 
-					@include is-sp {
-						font-size: 14.5px;
-						letter-spacing: 0.16em;
-						line-height: 21px;
-					}
-				}
+			// 		@include is-sp {
+			// 			font-size: 14.5px;
+			// 			letter-spacing: 0.16em;
+			// 			line-height: 21px;
+			// 		}
+			// 	}
 
-				&04 {
-					text-align: left;
-					margin-top: 35px;
-					margin-bottom: 20px;
-					font-size: 14px;
-					border-left: 7px solid;
-					padding: 7px 0 7px 6px;
-					background-color: #e7f4fb;
-					font-family: yu-gothic-pr6n, sans-serif;
-					font-weight: 700;
-					letter-spacing: 0.23em;
-					color: #0093ee;
+			// 	&04 {
+			// 		text-align: left;
+			// 		margin-top: 35px;
+			// 		margin-bottom: 20px;
+			// 		font-size: 14px;
+			// 		border-left: 7px solid;
+			// 		padding: 7px 0 7px 6px;
+			// 		background-color: #e7f4fb;
+			// 		font-family: yu-gothic-pr6n, sans-serif;
+			// 		font-weight: 700;
+			// 		letter-spacing: 0.23em;
+			// 		color: #0093ee;
 
-					@include is-sp {
-						font-size: 14.4px;
-						letter-spacing: 0.016em;
-					}
-				}
-			}
+			// 		@include is-sp {
+			// 			font-size: 14.4px;
+			// 			letter-spacing: 0.016em;
+			// 		}
+			// 	}
+			// }
 
 			.overlay__box {
 				padding: 30px;
@@ -280,6 +304,7 @@
 						font-family: yu-gothic-pr6n, sans-serif;
 						font-weight: 700;
 						color: #0093ee;
+						line-height: 28.59px;
 						@include is-sp {
 							line-height: 21.5px;
 							@include font-line(13.5, 22.5);
@@ -294,6 +319,7 @@
 						font-weight: 500;
 						letter-spacing: 0.1em;
 						margin-top: 12px;
+						line-height: 1;
 
 						@include is-sp {
 							@include font-line(13.5, 13.5);
@@ -417,7 +443,7 @@
 						padding-bottom: 10px;
 						padding-top: 100px;
 						@include font-line(22, 40);
-						letter-spacing: 0.01em;
+						letter-spacing: 0.1em;
 						font-weight: 700;
 						color: #0093ee;
 						font-family: yu-gothic-pr6n, sans-serif;
@@ -511,6 +537,7 @@
 						font-weight: 500;
 						color: #aeaeae;
 						padding: 10px 0;
+						font-family: yu-gothic-pr6n, sans-serif;
 
 						@include is-sp {
 							padding: 11px 0 15px;
@@ -672,6 +699,10 @@
 						padding: 0 17.2px;
 					}
 
+					.prev, .next {
+						width: 68.81px;
+					}
+
 					.page_navi_top {
 						margin: 0 79px;
 					}
@@ -792,6 +823,7 @@
 						border: 1px solid #0093ee;
 						margin-bottom: 9px;
 						display: inline-block;
+						letter-spacing: .12em;
 						@include is-sp {
 							@include font-line(12.5);
 						}
@@ -844,7 +876,7 @@
 					display: flex;
 					justify-content: space-between;
 					align-items: stretch;
-					margin-bottom: 65px;
+					margin-bottom: 44px;
 					flex-wrap: wrap;
 
 					@include is-sp {
@@ -862,12 +894,14 @@
 							width: 100%;
 							margin-bottom: 25px;
 							padding-bottom: 25px;
-							// &:not(:last-child) {
+							border-bottom: 1px solid #cacaca;
 
-							// }
+							&-link {
+								width: 50%;
 
-							@include is-sp {
-								border-bottom: 1px solid #cacaca;
+								img {
+									width: 100%;
+								}
 							}
 						}
 
@@ -897,7 +931,7 @@
 							// border: 1px solid #ededed;
 							background-color: #fff;
 							@include is-sp {
-								width: 52%;
+								width: 50%;
 								border: none;
 								padding: 0 0 0 17px;
 							}
@@ -910,6 +944,7 @@
 								border-bottom: 1px solid #0093ee;
 								padding-bottom: 8px;
 								margin-bottom: 7px;
+								letter-spacing: .11em;
 								@include is-sp {
 									border-bottom: none;
 									padding-bottom: 0;
@@ -923,6 +958,7 @@
 								font-weight: 700;
 								color: #0093ee;
 								margin-bottom: 5px;
+								letter-spacing: .15em;
 								@include is-sp {
 									@include font-line(11.5, 18.75);
 									margin-bottom: 0;
@@ -952,8 +988,9 @@
 									@include font-line(12);
 									font-family: yu-gothic-pr6n, sans-serif;
 									font-weight: 500;
-									padding: 2px 10px 2px;
+									padding: 3px 10px 4px;
 									border-radius: 10px;
+									letter-spacing: .24em;
 									white-space: pre;
 									transition: 0.3s ease-in-out;
 									border: 1px solid #0093ee;
@@ -961,7 +998,7 @@
 										border-radius: 5px;
 									}
 									&-hash {
-										margin-right: 5px;
+										margin-right: 0;
 									}
 									&:hover {
 										background-color: #fff;
@@ -1041,6 +1078,7 @@
 									white-space: pre;
 									transition: 0.3s ease-in-out;
 									border: 1px solid #0093ee;
+									
 									@include is-sp {
 										border-radius: 5px;
 									}

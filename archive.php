@@ -5,10 +5,10 @@
             <div class="jumbo_cont jumbo_news">
                 <div class="jumbo_overlay"></div>
                 <div class="jumbo_des">
-                    <h3>    
+                    <!-- <h3>    
                         NEWS <br>
                         <span>お知らせ</span>
-                    </h3>
+                    </h3> -->
                 </div>
             </div>
         </div>
@@ -28,22 +28,22 @@
                 <div class="inner_cont">
 
                     <?php
-                        $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+                    //     $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
                         
-                        $args = array(
-                            'post_type' => 'post',
-                            'post_status'=>'publish',
-                            'posts_per_page' => 9,
-                            'paged' => $paged,
+                    //     $args = array(
+                    //         'post_type' => 'post',
+                    //         'post_status'=>'publish',
+                    //         'posts_per_page' => 9,
+                    //         'paged' => $paged,
 
-                        );
+                    //     );
                         
-                        $the_query = new WP_Query($args);
-                    ?>
+                    //     $the_query = new WP_Query($args);
+                    // ?>
                         
-                    <?php if ( $the_query->have_posts() ) : ?>
+
                             
-                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                    <?php while (have_posts() ) :the_post(); ?>
 
                         <!-- Row -->
                         <div class="thumbnail">
@@ -61,8 +61,9 @@
                         </div>
 
                     <?php endwhile; ?>
+                    <?php wp_reset_postdata();?>
                         
-                    <?php endif; ?>
+
 
                 </div>
                 <div class="info_list_nav">

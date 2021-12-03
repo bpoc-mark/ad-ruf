@@ -40,7 +40,7 @@ get_header(); ?>
     <section class="single_content">
         <!-- <div class="l-wrap"> -->
         <div class="c-bread_crumps">
-            <?php echo do_shortcode('[aioseo_breadcrumbs]');?>
+            <?php echo do_shortcode('[aioseo_breadcrumbs]'); ?>
         </div>
 
         <div class="col1">
@@ -62,12 +62,18 @@ get_header(); ?>
 
                 <div class="page_navigation">
                     <div class="page_navigation_content">
-                        <div class="p-pagination-width post-left post-pad-left">
-                            <?php previous_post_link('%link', '<span class="left_arrow"></span> 前の記事') ?>
+                        <div class="prev">
+                            <div class="p-pagination-width post-left post-pad-left">
+                                <?php previous_post_link('%link', '<span class="left_arrow"></span> 前の記事') ?>
+                            </div>
                         </div>
-                        <a href="#" class="page_navi_top">TOP</a>
-                        <div class="p-pagination-width post-right post-pad-right">
-                            <?php next_post_link('%link', '次の記事 <span class="right_arrow"></span>') ?>
+                        <div class="gototop">
+                            <a href="#" class="page_navi_top">TOP</a>
+                        </div>
+                        <div class="next">
+                            <div class="p-pagination-width post-right post-pad-right">
+                                <?php next_post_link('%link', '次の記事 <span class="right_arrow"></span>') ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +100,7 @@ get_header(); ?>
                     $sideargs = array(
                         'post_type' => 'post',
                         'post_status' => 'publish',
-                        'posts_per_page' => 10,
+                        'posts_per_page' => 2,
                         'paged' => $sidepaged,
                     );
 
@@ -123,7 +129,7 @@ get_header(); ?>
                                                 $output = '';
                                                 if (!empty($categories)) {
                                                     foreach ($categories as $category) {
-                                                        $output .= '<span class="cat"><span class="cat-hash">#</span>' . esc_html($category->name) . '</span>';
+                                                        $output .= '<a href="' . get_category_link($category->term_id) . '" class="cat"><span class="cat-hash">#</span>' . $category->name . '</a>';
                                                     }
                                                     echo trim($output);
                                                 }
