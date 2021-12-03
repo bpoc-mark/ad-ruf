@@ -1430,7 +1430,7 @@ template{display:none}
 .contact-frm__flex.fifth .col-2 div:nth-child(3){width:26%}
 .contact-frm__flex.fifth .col-2 div:nth-child(5){width:26%}
 .contact-frm__flex.sixth{border-bottom:1px solid #258acf;z-index:4}
-.contact-frm__flex.sixth .col-2{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding-left:20px}
+.contact-frm__flex.sixth .col-2{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding-left:20px;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}
 .contact-frm__flex.sixth .col-2 div:nth-child(1){width:28%}
 .contact-frm__flex.sixth .col-2 div:nth-child(3){width:28%}
 .contact-frm__flex.sixth .col-2 div:nth-child(5){width:28%}
@@ -1446,7 +1446,7 @@ template{display:none}
 .contact-frm__flex.seventh .col-2 .pc-hide a{color:#fff;width:100%;display:inline-block;padding:10px}
 .contact-frm__flex.seventh .col-2 .pc-hide .show-ad{cursor:pointer}
 .contact-frm__flex.seventh .col-2 .sp-show{display:none}
-.contact-frm__flex.seventh .col-2 .row-1{width:100%;padding-bottom:10px;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+.contact-frm__flex.seventh .col-2 .row-1{width:100%;padding-bottom:10px;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(1){padding-right:20px;width:auto}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(2){width:26%}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(4){width:26%}
@@ -1488,13 +1488,19 @@ template{display:none}
 .contact-frm .btm-txt p a{color:#0063ff;text-decoration:underline;font-size:.8125rem}
 .contact-frm .btm-txt .chck{padding:30px 0 0 0}
 .contact-frm .btm-txt .chck label{color:#258acf}
-.contact-frm .btm-txt .btn-confirm{padding:40px 0 0 0}
-.contact-frm .btm-txt .btn-confirm .txt{color:#fff;font-size:.875rem}
-.contact-frm .btm-txt .btn-confirm .btn{background-color:#258acf}
+.contact-frm .btn-confirm{margin:45px 0 0 0;display:inline-block;position:relative}
+.contact-frm .btn-confirm .wpcf7c-btn-confirm{background-color:#258acf;color:#fff;width:290px;padding:10px 0;border-radius:50px}
+.contact-frm .btn-confirm img{position:absolute;right:25px;top:18px}
+.contact-frm .btn-confirm .txt{color:#fff;font-size:.875rem}
+.contact-frm .btn-confirm .btn{background-color:#258acf}
+.contact-frm .bcksub{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.contact-frm .bcksub .bck{position:relative}
+.contact-frm .bcksub .bck .btn-back::before{content:"";background:url(../../release/image/page/contact/arrow_left.svg);background-size:cover;background-repeat:no-repeat;height:50px;width:50px;position:absolute}
+.contact-frm .bcksub .sub{position:relative}
 .contact-frm .col-1{width:34%}
 .contact-frm .col-1 label{color:#258acf;font-weight:700}
 .contact-frm .col-2{width:66%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.contact-frm .col-2 div:nth-child(1),.contact-frm .col-2 div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:50%}
+.contact-frm .col-2 div:nth-child(1),.contact-frm .col-2 div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;width:50%}
 .contact-frm .col-2 div label{width:100px;padding-left:30px}
 .contact-frm input[type='checkbox']{margin-top:-30px}
 .contact-frm input[type='checkbox']{-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:28px;height:28px;margin:0;margin-right:1px;display:block;float:left;position:relative;cursor:pointer}
@@ -1514,12 +1520,13 @@ input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{
 .wpcf7-form-control-wrap{width:100%}
 .wpcf7-list-item-label{padding:0 0 0 5px;color:#258acf;letter-spacing:.280em}
 .wpcf7-not-valid-tip{display:block;font-size:13px !important;text-align:left}
-.wpcf7c-btn-back{color:#258acf;display:inline-block;padding:10px 20px;width:200px;border:1px solid #81b3d4;border-radius:50px}
-input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{color:#fff;background-color:#258acf;display:inline-block;padding:10px 20px;width:200px;border:1px solid #81b3d4;border-radius:50px}
+.wpcf7c-btn-back{color:#258acf;display:inline-block;padding:10px 20px;width:290px;border:1px solid #81b3d4;border-radius:50px;position:relative}
+input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{color:#fff;background-color:#258acf;display:inline-block;padding:10px 20px;width:290px;border:1px solid #81b3d4;border-radius:50px}
 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.zip_s.wpcf7c-conf{border:0}
 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7c-conf{border:0}
 textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-conf{border:none !important}
 select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{border:0}
+input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{margin:0 45px 0 0}
 .group-business{position:relative}
 .group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
 .group-business .c-banner--ttl{top:45%}
@@ -4636,6 +4643,11 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.
 }@media only screen and (max-width:702px){.about .section_3 .cards .cards-card-desc{padding-left:10px}
 .office_gal .section_3 .cards .cards-card-desc{padding-left:10px}
 }@media only screen and (max-width:670px){.about .section_2-cntnt-img1{width:auto}
+.contact-frm .bcksub .bck{width:100%}
+.contact-frm .bcksub .bck input{width:90%}
+.contact-frm .bcksub .sub{width:100%}
+.contact-frm .bcksub .sub input{width:90% !important}
+input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{margin:0}
 }@media only screen and (max-width:650px){.top-header-bnnr::before{right:-23%}
 }@media only screen and (max-width:640px){.message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%);clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%)}
 }@media only screen and (max-width:600px){.top .sect_2 .c-buttonCase{margin-bottom:15px}
@@ -4647,6 +4659,8 @@ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.
 .assetmanagement .sect_6__inner-realestate--left .point .pi2{letter-spacing:.08em}
 .case .c-banner--ttl p:nth-child(1){font-size:6vw}
 .case .c-banner--ttl p:nth-child(2){font-size:3vw}
+.contact-frm .bcksub .bck input{font-size:3vw}
+.contact-frm .bcksub .sub input{font-size:3vw}
 .mp .c-banner--ttl{top:25%}
 .mp .c-banner--ttl p:nth-child(1){font-size:6vw}
 .mp .c-banner--ttl p:nth-child(2){font-size:3vw;line-height:18px;padding-top:5px}

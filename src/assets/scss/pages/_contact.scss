@@ -462,6 +462,7 @@
 			.col-2 {
 				justify-content: flex-start;
 				padding-left: 20px;
+				align-items: baseline;
 
 				@include is-sp {
 					padding-top: 20px;
@@ -626,7 +627,7 @@
 				.row-1 {
 					width: 100%;
 					padding-bottom: 10px;
-					align-items: flex-start;
+					align-items: baseline;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -990,9 +991,27 @@
 				color: #258acf;
 			}
 		}
+	}
 
 		.btn-confirm {
-			padding: 40px 0 0 0;
+			margin: 45px 0 0 0;
+			display: inline-block;
+			position: relative;
+
+			.wpcf7c-btn-confirm{
+				background-color: #258acf;
+				color: #fff;
+				width: 290px;
+				padding: 10px 0;
+				border-radius: 50px;
+			}
+
+			img{
+				position: absolute;
+				right: 25px;
+				top: 18px;
+			}
+
 
 			.txt {
 				color: #fff;
@@ -1003,7 +1022,63 @@
 				background-color: #258acf;
 			}
 		}
-	}
+
+		.bcksub{
+			display: flex;
+			align-items: baseline;
+			justify-content: center;
+
+			.bck{
+				position: relative;
+
+				@include is-max(670px){
+					width: 100%;
+				}
+
+				input{
+
+					@include is-max(670px){
+						width: 90%;
+					}
+
+					@include is-max(500px){
+						font-size: 3vw;
+					}
+				}
+
+				.btn-back{
+					&::before{
+						content: "";
+						// background:url(https://ad-ruf.hipetest.com/wp-content/uploads/2021/12/arrow_left.png);
+						background: url(../../release/image/page/contact/arrow_left.svg);
+						background-size: cover;
+						background-repeat: no-repeat;
+						height: 50px;
+						width: 50px;
+						position: absolute;
+					}
+				}
+			}
+
+			.sub{
+				position: relative;
+
+					@include is-max(670px){
+					width: 100%;
+				}
+
+				input{
+
+					@include is-max(670px){
+						width: 90% !important;
+					}
+
+						@include is-max(500px){
+						font-size: 3vw;
+					}
+				}
+			}
+		}
 
 	.col-1 {
 		width: 34%;
@@ -1024,7 +1099,7 @@
 			&:nth-child(1),
 			&:nth-child(2) {
 				display: flex;
-				align-items: center;
+				align-items: baseline;
 				width: 50%;
 			}
 
@@ -1200,9 +1275,10 @@ input,
 	color: #258acf;
 	display: inline-block;
 	padding: 10px 20px;
-	width: 200px;
+	width: 290px;
 	border: 1px solid #81b3d4;
 	border-radius: 50px;
+	position: relative;
 }
 
 input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{
@@ -1210,7 +1286,7 @@ input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{
 	background-color: #258acf;
 	display: inline-block;
 	padding: 10px 20px;
-	width: 200px;
+	width: 290px;
 	border: 1px solid #81b3d4;
 	border-radius: 50px;
 }
@@ -1226,4 +1302,11 @@ textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-co
 }
 select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{
 	border: none;
+}
+input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{
+	margin: 0 45px 0 0;
+
+	@include is-max(670px){
+		margin: 0;
+	}
 }
