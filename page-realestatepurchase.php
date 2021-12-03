@@ -650,12 +650,12 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="sect_8__btn--wrap">
-                    <a class="c-buttonREP" href="#">
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">
                         <p class="txt">収益不動産の買取について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
 
-                    <a class="c-buttonREP" href="#">
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('saleofrealestate')) ?>">
                         <p class="txt">収益不動産の売却について</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>

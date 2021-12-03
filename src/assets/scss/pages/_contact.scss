@@ -1281,6 +1281,7 @@ input,
 	position: relative;
 }
 
+
 input.wpcf7-form-control.wpcf7-submit.btn-submit.wpcf7c-elm-step2{
 	color: #fff;
 	background-color: #258acf;
@@ -1299,9 +1300,14 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7c-conf{
 }
 textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-conf{
 	border: none !important;
+	background-color: #fff !important;
 }
 select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{
 	border: none;
+}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.wpcf7c-conf{
+	border: none;
+	background-color: #fff !important;
 }
 input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{
 	margin: 0 45px 0 0;
@@ -1310,3 +1316,43 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{
 		margin: 0;
 	}
 }
+
+form.wpcf7-form.custom-wpcf7c-confirmed{
+	label{
+		color: #258acf !important;
+	}
+}
+
+form.wpcf7-form.custom-wpcf7c-confirmed{
+	.btm-txt{
+		display: none;
+	}
+}
+
+form.wpcf7-form.init{
+	.pc-hide{
+		display: block !important;
+	}
+}
+
+form.wpcf7-form.custom-wpcf7c-confirmed{
+	.pc-hide{
+		display: none !important;
+	}
+}
+
+form.wpcf7-form.custom-wpcf7c-confirmed{
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7c-conf{
+		background-color: #fff !important;
+	}
+}
+
+input:-internal-autofill-selected{
+	background-color: #fff !important;
+}
+
+input:-webkit-autofill{
+    background-color:#fff !important;
+	-webkit-box-shadow: 0 0 0 50px white inset;
+}
+

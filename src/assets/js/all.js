@@ -63,7 +63,7 @@ $(document).on('click', '.submenu-clk', function(){
     
 
     $('.f-acc-sp').on('click', function(e) {
-      e.preventDefault();
+      // e.preventDefault();
       if(clickAllowed) {
           if($(this).hasClass('active')) {
             $(this).siblings().slideUp();

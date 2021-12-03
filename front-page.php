@@ -699,13 +699,13 @@
                 </div>
                 <div class="nav-footer-col2">
                     <div class="ttl f-acc-sp">
-                        <a class="head-link" href="">RUF</a>
+                        <a class="head-link" href="<?php echo esc_url(home_url('/')); ?>">RUF</a>
                         <a class="head-icon" href="">+</a>
                     </div>
                     <div class="link acc-hidden">
                         <ul class="link__inner">
                             <li class="c-link">
-                                <a class="c-link__inner" href="">TOP</a>
+                                <a class="c-link__inner" href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
                                 <a class="c-link__arr" href="">></a>
                             </li>
                             <li class="c-link">
@@ -801,7 +801,7 @@
                 </div>
                 <div class="nav-footer-col5">
                     <div class="ttl f-acc-sp">
-                        <a class="head-link" href="">コンテンツ</a>
+                        <a class="head-link">コンテンツ</a>
                         <a class="head-icon" href="">+</a>
                     </div>
                     <div class="link acc-hidden">
