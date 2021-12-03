@@ -1,5 +1,6 @@
 <?php get_header();?>
 <div class="page__content archive">
+    
     <section class="jumbo_section l-wrap">
         <div class="w_100">
             <div class="jumbo_cont jumbo_news">
