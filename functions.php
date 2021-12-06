@@ -174,3 +174,10 @@ function redirect_cf7()
     </script>
 <?php
 }
+
+
+// function your_themes_pagination()
+// {
+//     global $wp_query;
+//     echo paginate_links();
+// }

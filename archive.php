@@ -1,21 +1,22 @@
 <?php get_header();?>
 <div class="page__content archive">
-    <section class="jumbo_section">
+    
+    <section class="jumbo_section l-wrap">
         <div class="w_100">
             <div class="jumbo_cont jumbo_news">
                 <div class="jumbo_overlay"></div>
                 <div class="jumbo_des">
-                    <h3>    
+                    <!-- <h3>    
                         NEWS <br>
                         <span>お知らせ</span>
-                    </h3>
+                    </h3> -->
                 </div>
             </div>
         </div>
     </section>
 
     <section class="news_section_2 w_100">
-        <div class="container">
+        <div class="container l-wrap">
             <div class="title_filter">
                 <?php dynamic_sidebar('blog-category'); ?>  
                 <!-- <div class="tab">
@@ -28,23 +29,22 @@
                 <div class="inner_cont">
 
                     <?php
-                        $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
-                        $current_category = single_cat_title("", false);
+                    //     $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
                         
-                        $args = array(
-                            'post_type' => 'post',
-                            'post_status'=>'publish',
-                            'posts_per_page' => 9,
-                            'paged' => $paged,
-                            'category_name' => $current_category,
-                        );
+                    //     $args = array(
+                    //         'post_type' => 'post',
+                    //         'post_status'=>'publish',
+                    //         'posts_per_page' => 9,
+                    //         'paged' => $paged,
+
+                    //     );
                         
-                        $the_query = new WP_Query($args);
-                    ?>
+                    //     $the_query = new WP_Query($args);
+                    // ?>
                         
-                    <?php if ( $the_query->have_posts() ) : ?>
+
                             
-                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                    <?php while (have_posts() ) :the_post(); ?>
 
                         <!-- Row -->
                         <div class="thumbnail">
@@ -52,8 +52,8 @@
                             <?php the_post_thumbnail(); ?>
                             </a>
                             <div class="inner_content">
+                            <p class="date"><i class="fas fa-calendar-day"></i> &nbsp;<?php echo get_the_date('Y.m.d'); ?></p>
                                 <p class="border_b"><?php the_title();?></p>
-                                <p class="date"><i class="fas fa-calendar-day"></i> &nbsp;<?php echo get_the_date('Y.m.d'); ?></p>
                                 <p class="bold"><?php echo get_the_excerpt(); ?></p>
                                 <div class="btn_read">
                                     <a href="<?php echo get_permalink(); ?>">Read More →</a>
@@ -62,8 +62,9 @@
                         </div>
 
                     <?php endwhile; ?>
+                    <?php wp_reset_postdata();?>
                         
-                    <?php endif; ?>
+
 
                 </div>
                 <div class="info_list_nav">

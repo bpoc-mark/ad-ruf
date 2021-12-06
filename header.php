@@ -26,6 +26,7 @@
 
 <body <?php body_class(); ?>>
     <main>
+        <?php if(!is_single()) : ?>
         <div class="page__header" id="page-top">
             <div class="top-header">
                 <div class="top-header-nav">
@@ -197,4 +198,5 @@
                 </a>
             </div>
         </div>
+        <?php endif; ?>
         <main>

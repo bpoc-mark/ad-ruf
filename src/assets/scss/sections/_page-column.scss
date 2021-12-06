@@ -35,8 +35,10 @@
                             font-size: 18px;
                             margin-top: -4px;
                             @include is-sp{
-                                font-size: 11px;
-                                margin-top: 5px;
+                                font-size: 8px;
+                                position: absolute;
+                                bottom: 0px;
+                                left: 0;
                                 color: #666666;
                             }
                         }
@@ -112,7 +114,7 @@
             .tab_wrap{
                 max-width: 980px;
                 margin: 0 auto;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 @include is-sp{
                     max-width: 100%;
                     justify-content: space-between;
@@ -243,6 +245,7 @@
                         }
                     }
                 }
+                
                 .slick-prev{
                     left: 0;
                     width: 50px;
@@ -254,6 +257,18 @@
                         color: #4988c8;
                         font-size: 40px;
                         line-height: 0;
+                    }
+
+                    @include is-sp {
+                        left: 35%;
+                    }
+
+                    @include is-max(535px) {
+                        left: 27%;
+                    }
+
+                    @include is-max(360px) {
+                        left: 22%;
                     }
                 }
                 .slick-next{
@@ -268,8 +283,32 @@
                         font-size: 40px;
                         line-height: 0;
                     }
+
+                    @include is-sp {
+                        right: 35%;
+                    }
+
+                    @include is-max(535px) {
+                        right: 27%;
+                    }
+
+                    @include is-max(360px) {
+                        right: 22%;
+                    }
                 }
+
+                .slick-prev, .slick-next {
+                    @include is-sp {
+                        top: unset;
+                        bottom: -80px;
+                        background-color: unset;
+                    }
+                }
+
                 .slick-dots{
+                    @include is-sp {
+                        bottom: -37px;
+                    }
                     li{
                         margin: 0;
                         button{
@@ -316,14 +355,18 @@
                     &.u-d-f{
                         justify-content: space-between;
                         flex-wrap: wrap;
+                        align-items: stretch;
                     }   
                     .post-item{
                         width: 48.22%;
                         margin-bottom: 50px;
+                        border: 1px solid #ededed;
+                        background-color: #fff;
                         @include is-sp{
                             width: 100%;
                             margin-bottom: 25px;
                             padding-bottom: 25px;
+                            border: 0;
                             &:not(:last-child){
                                 border-bottom: 1px solid #cacaca;
                             }
@@ -352,7 +395,6 @@
                         &-content{
                             width: 100%;
                             padding: 20px;
-                            border: 1px solid #ededed;
                             @include is-sp{
                                 width: 52%;
                                 border: none;
