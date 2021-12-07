@@ -5,7 +5,9 @@
 	z-index: 9999;
 	height: 100vh;
 	width: 100vw;
-	display: none;
+	transition: 0.5s ease;
+	transform: scale(0);
+	display: block;
 
 	img {
 		position: absolute;

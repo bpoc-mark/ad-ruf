@@ -201,14 +201,15 @@ casePhotos.forEach(function (item) {
     frame.addEventListener("click", function () {
       var currentView = document.querySelector('.frame-view');
       currentView.children[0].src = frame.src;
-      currentView.style.display = "block";
+      currentView.style.transform = "scale(1)"; // currentView.style.zIndex = "999";
+
       console.log(frame.src);
     });
   });
 });
 var closePhoto = document.querySelector('.frame-view');
 closePhoto.addEventListener("click", function (e) {
-  closePhoto.style.display = "none";
+  closePhoto.style.transform = "scale(0)";
 });
 $('.show-ad').click(function () {
   if ($('.zip_s').val() !== '') {
