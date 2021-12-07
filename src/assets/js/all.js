@@ -201,14 +201,14 @@ $(function () {
         let currentView = document.querySelector('.frame-view');
         currentView.children[0].src = frame.src;
         currentView.style.transform = "scale(1)";
-        // currentView.style.zIndex = "999";
-        console.log(frame.src);
+        closePhoto.style.transition = "0.5s ease";
       });
     });
   });
   let closePhoto = document.querySelector('.frame-view');
   closePhoto.addEventListener("click", e => {
     closePhoto.style.transform = "scale(0)";
+    closePhoto.style.transition = "0s";
   });
 
 
