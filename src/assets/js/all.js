@@ -223,3 +223,21 @@ $('.show-ad').click(function()
                 // $('.address_s2').val('')
         }
 });
+
+$(document).on('click')(function () {
+  alert();
+    $("#non").css("display", "none");
+});
+
+function clickClass(){
+	if($('.wpcf7-form').hasClass('init') || $('.wpcf7-form').hasClass('invalid')){
+
+	}
+	else{
+		$('.wpcf7-form').removeClass('customConfirm');
+	}
+}
+
+function buttonclickClass(){
+	$('.wpcf7-form').addClass('customConfirm');
+}
