@@ -175,7 +175,6 @@ function redirect_cf7()
 <?php
 }
 
-
 // function your_themes_pagination()
 // {
 //     global $wp_query;

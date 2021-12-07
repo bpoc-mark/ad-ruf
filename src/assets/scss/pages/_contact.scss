@@ -410,11 +410,16 @@
 
 						@include is-sp {
 							width: 100%;
+							display: initial;
 						}
 					}
 
 					&:nth-child(2) {
 						width: 100%;
+
+						@include is-sp{
+							display: initial;
+						}
 					}
 
 					&:nth-child(3) {
@@ -692,6 +697,7 @@
 					width: 100%;
 					padding-bottom: 10px;
 					display: flex;
+					align-items: center;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -727,6 +733,7 @@
 					width: 100%;
 					display: flex;
 					padding-bottom: 10px;
+					align-items: center;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -754,6 +761,7 @@
 					width: 100%;
 					display: flex;
 					padding-bottom: 10px;
+					align-items: center;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -780,6 +788,7 @@
 				.row-5 {
 					width: 100%;
 					display: flex;
+					align-items: center;
 
 					@include is-sp {
 						padding-bottom: 15px;
@@ -1182,6 +1191,10 @@
         background-color: #258acf;
         color: #fff;
 		z-index: 150;
+
+		&.hidden{
+			display: none;
+		}
     }
 
     .selct:after {
@@ -1197,6 +1210,10 @@
         background-color: #258acf;
         color: #fff;
 		z-index: 150;
+
+		&.hidden{
+			display: none;
+		}
     }
 
     /* IE11 hide native button (thanks Matt!) */
@@ -1225,10 +1242,6 @@
 		width: 8px;
 		height: 12px;
 	}
-}
-
-.wpcf7c-conf {
-	background-color: #e8f0fe !important;
 }
 
 input,
@@ -1356,3 +1369,39 @@ input:-webkit-autofill{
 	-webkit-box-shadow: 0 0 0 50px white inset;
 }
 
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.wpcf7c-conf{
+	margin-left: -173px;
+
+	@include is-sp{
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+.sp-hide{
+	display: block;
+
+	@include is-sp{
+		display: none;
+	}
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{
+	opacity: 1;
+	z-index: 999999;
+	position: relative;
+}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.wpcf7c-conf{
+	opacity: 1;
+	z-index: 99999;
+	position: relative;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-conf{
+	overflow: hidden;
+}
+
+input.wpcf7-form-control.wpcf7-text.dash{
+	border: none;
+	cursor: auto;
+}

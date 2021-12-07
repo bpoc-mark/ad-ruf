@@ -1458,16 +1458,16 @@ template{display:none}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(2){width:26%}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(4){width:26%}
 .contact-frm__flex.seventh .col-2 .row-1 div:nth-child(6) p{border-radius:10px;background-color:#258acf;color:#fff;text-align:center;padding:7px 0}
-.contact-frm__flex.seventh .col-2 .row-2{width:100%;padding-bottom:10px;display:-webkit-box;display:-ms-flexbox;display:flex}
+.contact-frm__flex.seventh .col-2 .row-2{width:100%;padding-bottom:10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .contact-frm__flex.seventh .col-2 .row-2 div:nth-child(1){padding-right:20px;width:auto}
 .contact-frm__flex.seventh .col-2 .row-2 div:nth-child(2){width:195px}
-.contact-frm__flex.seventh .col-2 .row-3{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:10px}
+.contact-frm__flex.seventh .col-2 .row-3{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:10px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .contact-frm__flex.seventh .col-2 .row-3 div:nth-child(1){padding-right:20px;width:auto}
 .contact-frm__flex.seventh .col-2 .row-3 div:nth-child(2){width:100%}
-.contact-frm__flex.seventh .col-2 .row-4{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:10px}
+.contact-frm__flex.seventh .col-2 .row-4{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:10px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .contact-frm__flex.seventh .col-2 .row-4 div:nth-child(1){padding-right:20px;width:auto}
 .contact-frm__flex.seventh .col-2 .row-4 div:nth-child(2){width:100%}
-.contact-frm__flex.seventh .col-2 .row-5{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex}
+.contact-frm__flex.seventh .col-2 .row-5{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .contact-frm__flex.seventh .col-2 .row-5 div:nth-child(1){padding-right:20px;width:auto}
 .contact-frm__flex.seventh .col-2 .row-5 div:nth-child(2){width:100%}
 .contact-frm__flex.seventh .col-2 .hidden{visibility:hidden}
@@ -1516,11 +1516,12 @@ template{display:none}
 .contact-frm .selct{position:relative;margin:0;float:left;margin:0}
 .contact-frm select{outline:0;scroll-behavior:smooth}
 .contact-frm .selct:before{content:'\f0d8';font:normal normal normal 17px/1 FontAwesome;right:0;top:5px;height:24.5px;padding:2px 6px 0 6px;border-left:1px solid #0ebeff;position:absolute;pointer-events:none;background-color:#258acf;color:#fff;z-index:150}
+.contact-frm .selct:before.hidden{display:none}
 .contact-frm .selct:after{content:'\f0d7';font:normal normal normal 17px/1 FontAwesome;right:0;top:30px;height:24.5px;padding:2px 6px 0 6px;border-left:1px solid #0ebeff;position:absolute;pointer-events:none;background-color:#258acf;color:#fff;z-index:150}
+.contact-frm .selct:after.hidden{display:none}
 .contact-frm select::-ms-expand{display:none}
 .contact-frm .selct select{color:#000;-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:50px;float:right;margin:5px 0;padding:0 10px;line-height:1.75;background:#fff}
 .contact-frm .c-buttonCase img{width:8px;height:12px}
-.wpcf7c-conf{background-color:#e8f0fe !important}
 input,.wpcf7-form-control,.wpcf7-text,.wpcf7-validates-as-required,.wpcf7c-conf{border:0}
 .wpcf7-spinner{width:auto !important;margin:0 !important}
 .wpcf7-list-item label{vertical-align:sub}
@@ -1542,6 +1543,12 @@ form.wpcf7-form.custom-wpcf7c-confirmed .pc-hide{display:none !important}
 form.wpcf7-form.custom-wpcf7c-confirmed input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7c-conf{background-color:#fff !important}
 input:-internal-autofill-selected{background-color:#fff !important}
 input:-webkit-autofill{background-color:#fff !important;-webkit-box-shadow:0 0 0 50px white inset}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.wpcf7c-conf{margin-left:-173px}
+.sp-hide{display:block}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.prefecture_s.wpcf7c-conf{opacity:1;z-index:999999;position:relative}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.wpcf7c-conf{opacity:1;z-index:99999;position:relative}
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7c-conf{overflow:hidden}
+input.wpcf7-form-control.wpcf7-text.dash{border:0;cursor:auto}
 .group-business{position:relative}
 .group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
 .group-business .c-banner--ttl{top:45%}
@@ -3935,7 +3942,8 @@ input:-webkit-autofill{background-color:#fff !important;-webkit-box-shadow:0 0 0
 .contact-frm__flex.fifth{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .contact-frm__flex.fifth .col-1{background-color:#e2f3fb;width:100%;padding:5px 0}
 .contact-frm__flex.fifth .col-2{width:100%;padding-top:20px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.contact-frm__flex.fifth .col-2 div:nth-child(1){width:100%}
+.contact-frm__flex.fifth .col-2 div:nth-child(1){width:100%;display:initial}
+.contact-frm__flex.fifth .col-2 div:nth-child(2){display:initial}
 .contact-frm__flex.fifth .col-2 div:nth-child(3){width:30%}
 .contact-frm__flex.fifth .col-2 div:nth-child(5){width:30%}
 .contact-frm__flex.fifth .col-2 div label{padding-left:0}
@@ -3979,6 +3987,8 @@ input:-webkit-autofill{background-color:#fff !important;-webkit-box-shadow:0 0 0
 .contact-frm .btm-txt{padding:15px 0 0 0}
 .contact-frm .btm-txt .br-sp{display:block}
 .contact-frm .btm-txt p:nth-child(1){letter-spacing:.210em}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.wpcf7c-conf{margin-left:0;text-align:center}
+.sp-hide{display:none}
 .group-business .c-banner{padding:0 0 80px 0}
 .group-business .c-banner--ttl{top:30%}
 .group-business .c-banner--ttl p:nth-child(2){line-height:18.5px}
