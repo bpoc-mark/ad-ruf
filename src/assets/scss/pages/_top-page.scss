@@ -3,9 +3,11 @@
 		position: relative;
 	}
 	.sect_1 {
+		position: relative;
+
 		z-index: 4;
 		// background: rgb(95, 165, 205);
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: relative;
 		padding-top: 115px;
 		margin-top: -115px;
@@ -28,7 +30,7 @@
 				width: 800px;
 				height: 250px;
 				clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-				background: linear-gradient(to right, #003782, #0059b6);
+				background: linear-gradient(to right, #0059c4, #000017);
 
 				@include is-sp {
 					height: 322px;
@@ -39,14 +41,47 @@
 		.clipPath {
 			-webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 			clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-			background: linear-gradient(to right, #003782, #0059b6);
-			padding: 191px 0 40px 0;
+			background: linear-gradient(to right, #000017, #0059c4);
+			padding: 191px 0 95px 0;
 			margin-top: -89px;
 			position: relative;
 			z-index: 150;
 
 			@include is-sp {
 				clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+			}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: 0;
+			z-index: 150;
+			height: 120px;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(100% -3%, 100% 50%, 61% 100%, 0 75%);
+			opacity: 0.4;
+
+			@include is-sp {
+				top: 39px;
+				height: 55px;
+			}
+		}
+
+			&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			z-index: 150;
+			height: 100px;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(0 71%, 30% 15%, 100% 100%, 0% 100%);
+
+			@include is-sp {
+				bottom:39px;
+				height: 55px;
+				}
 			}
 		}
 
@@ -412,22 +447,21 @@
 	.sect_2 {
 		position: relative;
 
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			top: -16px;
-			z-index: 150;
-			height: 100px;
-			background: linear-gradient(to right, #003782, #0059b6);
-			-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
-			clip-path: polygon(0 0, 0% 100%, 100% 0);
+		// &::before {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	top: -16px;
+		// 	z-index: 150;
+		// 	height: 100px;
+		// 	background: linear-gradient(to right, #003782, #0059b6);
+		// 	clip-path: polygon(0 71%, 42% 15%, 100% 100%, 0% 100%);
 
-			@include is-sp {
-				top: 39px;
-				height: 55px;
-			}
-		}
+		// 	@include is-sp {
+		// 		top: 39px;
+		// 		height: 55px;
+		// 	}
+		// }
 
 		.clipPath {
 			clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
