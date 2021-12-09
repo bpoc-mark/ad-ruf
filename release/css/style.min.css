@@ -393,7 +393,7 @@ template{display:none}
 .p-cntct-top{text-align:center;margin-top:67px}
 .p-cntct-top-link{color:#95c6e7;position:relative;letter-spacing:4px;font-size:.8125rem;line-height:1.6923076923}
 .p-cntct-top-link:before{content:"";width:20px;height:20px;position:absolute;top:-25px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:url(../image/footer/arrow-push.png) no-repeat center}
-.p-cntct{padding:99px 0;background-size:cover;background-repeat:no-repeat;background-position:center center}
+.p-cntct{padding:99px 0;background-image:url(../image/footer/footer_bg.png);background-size:cover;background-repeat:no-repeat;background-position:center center}
 .p-cntct-hdr{text-align:center;color:#fff}
 .p-cntct-hdr p:nth-child(1){font-size:10px;line-height:20px;font-weight:400;letter-spacing:2px;font-family:century-gothic,sans-serif;padding:0 20px 10px 20px}
 .p-cntct-hdr p:nth-child(2){font-size:23px;letter-spacing:2px;line-height:37px;font-family:yu-mincho-pr6n,sans-serif}
@@ -3341,12 +3341,12 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .p-cntct-hdr p:nth-child(2){font-size:1.5625rem;line-height:1.28;letter-spacing:.2em}
 .p-cntct-top-link{font-size:1.4375rem;line-height:1.7391304348}
 .p-cntct-top{margin-top:33px}
-.p-cntct{padding:99px 0 20px 0}
+.p-cntct{background-image:url(../image/footer/footer_bg_sp.png);background-position:center 0;padding:99px 0 20px 0}
 .p-cntct-hdr{text-transform:uppercase}
 .p-cntct-hdr p:nth-child(1){font-size:.75rem;line-height:.8333333333;letter-spacing:.32em;margin-bottom:25px;color:#9fc4e3}
 .p-cntct-hdr p:nth-child(2){font-size:1.5625rem;line-height:1.28;letter-spacing:.2em}
 .p-cntct-inqrs{margin-bottom:45px;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:24px 0 0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-.p-cntct-inqrs .info{width:250px}
+.p-cntct-inqrs .info{width:250px;padding:22px}
 .p-cntct-inqrs .info p{font-size:1rem;line-height:1.25}
 .p-cntct-inqrs .info_1{margin:0}
 .p-cntct-inqrs .info_1 img{width:20px}
