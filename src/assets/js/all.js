@@ -200,14 +200,15 @@ $(function () {
       frame.addEventListener("click", () => {
         let currentView = document.querySelector('.frame-view');
         currentView.children[0].src = frame.src;
-        currentView.style.display = "block";
-        console.log(frame.src);
+        currentView.style.transform = "scale(1)";
+        closePhoto.style.transition = "0.5s ease";
       });
     });
   });
   let closePhoto = document.querySelector('.frame-view');
   closePhoto.addEventListener("click", e => {
-    closePhoto.style.display = "none";
+    closePhoto.style.transform = "scale(0)";
+    closePhoto.style.transition = "0s";
   });
 
 
