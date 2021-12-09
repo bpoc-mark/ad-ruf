@@ -350,7 +350,7 @@
 					}
 				}
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -404,13 +404,13 @@
 				}
 			}
 			&--right {
-                img {
-                    height: 100% !important;
+				img {
+					height: 100% !important;
 
-                    @include is-max(1080px) {
-                        height: unset !important;
-                    }
-                }
+					@include is-max(1080px) {
+						height: unset !important;
+					}
+				}
 			}
 
 			.txt_ttl.u-d-n-pc {
@@ -605,7 +605,7 @@
 				}
 			}
 			.text {
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				@include font-line(13, 26);
 				text-align: left;
@@ -701,7 +701,7 @@
 			position: absolute;
 			left: 46%;
 			top: 5px;
-            opacity: 0.5;
+			opacity: 0.5;
 			@include is-sp {
 				width: 100px;
 				left: auto;
@@ -725,7 +725,7 @@
 			position: absolute;
 			left: 0;
 			bottom: 8%;
-            opacity: 0.5;
+			opacity: 0.5;
 			@include is-sp {
 				display: none;
 			}
@@ -808,7 +808,7 @@
 					letter-spacing: 0.3em;
 				}
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -901,9 +901,9 @@
 			padding-bottom: 20px;
 			order: 1;
 
-            @include is-max(770px) {
-                font-size: 21px !important;
-            }
+			@include is-max(770px) {
+				font-size: 21px !important;
+			}
 
 			@include is-max(400px) {
 				font-size: 6vw;
@@ -938,8 +938,8 @@
 			position: absolute;
 			left: -5%;
 			top: 23%;
-			
-			@include is-sp{
+
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -963,7 +963,7 @@
 			padding: 90px 0;
 			@include is-max(750px) {
 				display: grid;
-                padding-bottom: 60px;
+				padding-bottom: 60px;
 			}
 
 			&--left,
@@ -995,7 +995,7 @@
 					letter-spacing: 0.15em;
 				}
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -1003,13 +1003,13 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					text-align: justify;
-                    letter-spacing: 0;
-                    
+					letter-spacing: 0;
+
 					@include is-max(750px) {
 						padding-right: unset;
 						padding-top: 25px;
 						text-align: justify;
-                        line-height: 22.5px;
+						line-height: 22.5px;
 					}
 				}
 
@@ -1046,16 +1046,15 @@
 						}
 					}
 
-                    .pi2 {
-                        @include is-max(1026px) {
-                            letter-spacing: 0.1em;
-                        }
+					.pi2 {
+						@include is-max(1026px) {
+							letter-spacing: 0.1em;
+						}
 
-                        @include is-max(500px) {
-                            letter-spacing: 0.08em;
-                        }
-                        
-                    }
+						@include is-max(500px) {
+							letter-spacing: 0.08em;
+						}
+					}
 				}
 			}
 			&--right {
@@ -1085,12 +1084,12 @@
 			position: absolute;
 			left: 46%;
 			top: -12%;
-            opacity: 0.5;
+			opacity: 0.5;
 
-            @include is-max(1075px) {
-                left: 52%;
-                top: -7%;
-            }
+			@include is-max(1075px) {
+				left: 52%;
+				top: -7%;
+			}
 
 			@include is-sp {
 				top: -6%;
@@ -1103,7 +1102,7 @@
 			position: absolute;
 			left: 0;
 			top: 24%;
-            opacity: 0.5;
+			opacity: 0.5;
 			@include is-sp {
 				// width: 115px;
 				// top: 16%;
@@ -1242,7 +1241,7 @@
 					width: 115px;
 					top: -4%;
 					left: -2%;
-                    opacity: 0.5;
+					opacity: 0.5;
 				}
 				// @include is-max(375px){
 				// 	top: 27%;
@@ -1288,7 +1287,7 @@
 				}
 
 				&-desc {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 
 					@include font-line(13, 26);

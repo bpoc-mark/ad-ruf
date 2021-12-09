@@ -1,28 +1,28 @@
 .real_estate_purchase {
 	position: relative;
 
-	.c-banner{
+	.c-banner {
 		padding: 0 0 100px 0;
 		background: linear-gradient(to right, #2079bd, #1e91d2);
 
-		@include is-sp{
+		@include is-sp {
 			padding: 0 0 80px 0;
 		}
 
-		@include is-max(400px){
+		@include is-max(400px) {
 			padding-bottom: 95px;
 		}
 
-		&--ttl{
-			p{
-				&:nth-child(1){
-					@include is-max(400px){
-						font-size: 7vw;;
+		&--ttl {
+			p {
+				&:nth-child(1) {
+					@include is-max(400px) {
+						font-size: 7vw;
 					}
 				}
-				&:nth-child(2){
-					@include is-max(400px){
-						font-size: 3vw;;
+				&:nth-child(2) {
+					@include is-max(400px) {
+						font-size: 3vw;
 					}
 				}
 			}
@@ -50,21 +50,21 @@
 	.sect_1 {
 		position: relative;
 		margin-top: 100px;
-		@include is-sp{
+		@include is-sp {
 			margin-top: 105px;
 		}
-		
+
 		.l-wrap {
 			text-align: center;
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			right: 7%;
 			top: -95px;
 			opacity: 0.3;
 
-			@include is-sp{
+			@include is-sp {
 				right: 3%;
 				width: 176px;
 			}
@@ -79,7 +79,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
-			@include is-sp{
+			@include is-sp {
 				clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
 			}
 		}
@@ -121,7 +121,7 @@
 				@include font-line(25, 32);
 			}
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 6vw;
 			}
 
@@ -144,7 +144,6 @@
 				@include is-max(430px) {
 					letter-spacing: 0px;
 					font-size: 2.9vw;
-					
 				}
 			}
 		}
@@ -179,7 +178,7 @@
 			width: 265px;
 			opacity: 0.3;
 
-			@include is-max(1000px){
+			@include is-max(1000px) {
 				display: block;
 			}
 
@@ -187,8 +186,8 @@
 				display: none;
 			}
 		}
-		
-		p{
+
+		p {
 			position: relative;
 			z-index: 150;
 		}
@@ -198,11 +197,11 @@
 		position: relative;
 		background: linear-gradient(to right, #2868b1, #3b88ca);
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 46%;
 			top: 18px;
-			@include is-sp{
+			@include is-sp {
 				width: 164px;
 				top: 0;
 				left: auto;
@@ -210,17 +209,17 @@
 			}
 		}
 
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			bottom: 30px;
 			margin-left: -60px;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
 
-		.c-buttonREP{
-			.txt{
+		.c-buttonREP {
+			.txt {
 				color: #2589ce;
 				letter-spacing: 0.2em;
 			}
@@ -235,7 +234,7 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
-			@include is-sp{
+			@include is-sp {
 				top: -29px;
 				height: 30px;
 			}
@@ -251,7 +250,7 @@
 			background: linear-gradient(to right, #2868b1, #3b88ca);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
-			@include is-sp{
+			@include is-sp {
 				bottom: -29px;
 				height: 30px;
 			}
@@ -269,7 +268,7 @@
 				padding-bottom: 25px;
 			}
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 6vw;
 			}
 		}
@@ -308,8 +307,6 @@
 				@include is-max(750px) {
 					padding-right: unset;
 				}
-
-
 
 				.txt_ttl {
 					@include font-line(24, 30);
@@ -381,12 +378,12 @@
 		position: relative;
 		background: linear-gradient(to right, #003782, #0059b6);
 
-		.point{
+		.point {
 			border: 1px solid #8bb1d0;
 		}
 
-		.c-buttonREP{
-			.txt{
+		.c-buttonREP {
+			.txt {
 				color: #2589ce;
 				letter-spacing: 0.2em;
 			}
@@ -403,7 +400,7 @@
 				padding-bottom: 25px;
 			}
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 6vw;
 			}
 		}
@@ -418,7 +415,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 85% 5%, 0 98%);
-			@include is-sp{
+			@include is-sp {
 				bottom: -29px;
 				height: 30px;
 			}
@@ -432,7 +429,7 @@
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
 			padding: 160px 0 55px 0;
-			@include is-sp{
+			@include is-sp {
 				flex-direction: column-reverse;
 				padding: 100px 0 90px 0;
 			}
@@ -461,8 +458,8 @@
 				@include is-max(900px) {
 					padding-left: 20px;
 				}
-				@include is-sp{
-					padding-left: 0
+				@include is-sp {
+					padding-left: 0;
 				}
 				.txt_ttl {
 					@include font-line(24, 30);
@@ -491,17 +488,17 @@
 				}
 			}
 			&--right {
-				.c-bdg{
+				.c-bdg {
 					position: absolute;
 					top: 50%;
 					left: 50%;
-					transform: translate(-50%, - 50%);
+					transform: translate(-50%, -50%);
 					width: 125px;
 					display: block;
 					text-align: center;
 					height: auto;
 
-					.bdg--blue{
+					.bdg--blue {
 						padding: 15px 0;
 						@include font-line(20);
 					}
@@ -516,52 +513,52 @@
 		margin-bottom: 60px;
 		background-color: #fff;
 
-		.c-buttonREP{
+		.c-buttonREP {
 			border: 2px solid #81b3d4;
 
-			.txt{
+			.txt {
 				color: #2589ce;
 				letter-spacing: 0.2em;
 			}
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 62%;
 			top: -14px;
-			@include is-sp{
+			@include is-sp {
 				width: 122px;
 				top: -5%;
 				right: 0;
 				left: auto;
 			}
 
-			.pc{
+			.pc {
 				display: none;
-				@include is-pc{
+				@include is-pc {
 					display: block;
 				}
 			}
-			.sp{
+			.sp {
 				display: none;
-				@include is-sp{
+				@include is-sp {
 					display: block;
 				}
 			}
 		}
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			left: 0;
 			top: 160px;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
-		&__box-big-new3{
+		&__box-big-new3 {
 			position: absolute;
 			right: 0;
 			top: 43%;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -575,7 +572,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-			@include is-sp{
+			@include is-sp {
 				height: 30px;
 			}
 		}
@@ -594,7 +591,7 @@
 				@include font-line(21.5);
 			}
 
-			@include is-max(375px){
+			@include is-max(375px) {
 				font-size: 5.7vw;
 			}
 		}
@@ -626,12 +623,12 @@
 			font-weight: 500;
 			letter-spacing: 0.2em;
 			padding-bottom: 15px;
-			
-			@include is-sp{
+
+			@include is-sp {
 				letter-spacing: 0;
 			}
 
-			@include is-max(375px){
+			@include is-max(375px) {
 				font-size: 6.8vw;
 			}
 		}
@@ -656,7 +653,7 @@
 			flex-direction: row-reverse;
 			padding-bottom: 100px;
 			align-items: center;
-			@include is-max(1067px){
+			@include is-max(1067px) {
 				align-items: flex-start;
 			}
 			@include is-max(750px) {
@@ -758,8 +755,8 @@
 			}
 		}
 
-		.c-buttonREP{
-			margin-top:50px;
+		.c-buttonREP {
+			margin-top: 50px;
 		}
 	}
 
@@ -771,35 +768,34 @@
 			background-color: #fff;
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 46%;
 			top: 5px;
-			@include is-sp{
+			@include is-sp {
 				width: 100px;
 				left: auto;
 				right: 7%;
 				top: 4%;
 			}
-			.pc{
+			.pc {
 				display: none;
-				@include is-pc{
+				@include is-pc {
 					display: block;
 				}
 			}
-			.sp{
+			.sp {
 				display: none;
-				@include is-sp{
+				@include is-sp {
 					display: block;
 				}
 			}
 		}
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			left: 0;
 			bottom: 8%;
-			@include is-sp{
-				
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -813,7 +809,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 100%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 100%);
-			@include is-sp{
+			@include is-sp {
 				height: 30px;
 				bottom: -29px;
 			}
@@ -830,7 +826,7 @@
 				padding-bottom: 20px;
 				letter-spacing: normal;
 			}
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 6vw;
 			}
 		}
@@ -936,23 +932,22 @@
 			&--right {
 			}
 
-			.br-point{
+			.br-point {
 				display: block;
-				@include is-sp{
-					.br-pc{
+				@include is-sp {
+					.br-pc {
 						display: none;
 					}
 				}
 			}
-
 		}
 	}
 
 	.sect_6 {
 		background: #fff;
 
-		.c-buttonREP{
-			.txt{
+		.c-buttonREP {
+			.txt {
 				letter-spacing: 0.2em;
 			}
 		}
@@ -966,48 +961,48 @@
 			letter-spacing: 0.15em;
 			padding-bottom: 20px;
 			order: 1;
-			@include is-sp{
+			@include is-sp {
 				font-size: 21px;
 			}
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 6vw;
 			}
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 60%;
 			top: -3%;
-			@include is-sp{
+			@include is-sp {
 				left: auto;
 				width: 122px;
 				right: 6%;
 				top: 0;
 			}
-			
-			.pc{
+
+			.pc {
 				display: none;
-				@include is-pc{
+				@include is-pc {
 					display: block;
 				}
 			}
-			.sp{
+			.sp {
 				display: none;
-				@include is-sp{
+				@include is-sp {
 					display: block;
 				}
 			}
 		}
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			left: -5%;
 			top: 19%;
 		}
-		&__box-big-new3{
+		&__box-big-new3 {
 			position: absolute;
 			right: 0;
 			bottom: 33%;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -1123,29 +1118,29 @@
 		padding-bottom: 33px;
 		background: linear-gradient(to right, #003782, #0059b6);
 
-			.c-buttonREP{
-				margin-top: 0;
-			.txt{
+		.c-buttonREP {
+			margin-top: 0;
+			.txt {
 				color: #2589ce;
 			}
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 46%;
 			top: -12%;
-			@include is-sp{
+			@include is-sp {
 				top: -6%;
 				width: 122px;
 				right: 10%;
 				left: auto;
 			}
 		}
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			left: 0;
 			top: 24%;
-			@include is-sp{
+			@include is-sp {
 				// width: 115px;
 				// top: 16%;
 				display: none;
@@ -1164,7 +1159,7 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
-			@include is-sp{
+			@include is-sp {
 				top: -28px;
 				height: 30px;
 			}
@@ -1179,9 +1174,9 @@
 			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 98%);
-			@include is-sp{
+			@include is-sp {
 				height: 30px;
-				bottom: -28px;;
+				bottom: -28px;
 			}
 		}
 
@@ -1216,7 +1211,7 @@
 			letter-spacing: 0.34em;
 			padding-bottom: 15px;
 			@include is-max(750px) {
-				letter-spacing: 0.10em;
+				letter-spacing: 0.1em;
 			}
 		}
 
@@ -1272,18 +1267,18 @@
 			padding: 0;
 			position: relative;
 
-			&-box-big-newest2{
+			&-box-big-newest2 {
 				display: none;
-			@include is-sp{
-				display: block;
-				width: 115px;
-				top: -4%;
-				left: -2%;
+				@include is-sp {
+					display: block;
+					width: 115px;
+					top: -4%;
+					left: -2%;
+				}
+				// @include is-max(375px){
+				// 	top: 27%;
+				// }
 			}
-			// @include is-max(375px){
-			// 	top: 27%;
-			// }
-		}
 
 			&-txt {
 				border-left: 3px solid #fff;
@@ -1324,7 +1319,7 @@
 				}
 
 				&-desc {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 
 					@include font-line(13, 26);
@@ -1367,32 +1362,32 @@
 			background-color: #fff;
 		}
 
-			.c-buttonREP{
-			.txt{
+		.c-buttonREP {
+			.txt {
 				color: #2589ce;
 			}
 		}
 
-		&__box-big-new{
+		&__box-big-new {
 			position: absolute;
 			left: 57%;
 			top: -73%;
 			opacity: 0.3;
 		}
-		&__box-big-new2{
+		&__box-big-new2 {
 			position: absolute;
 			left: -4%;
 			top: 139%;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
 
-		&__box-big-new3{
+		&__box-big-new3 {
 			position: absolute;
 			right: 0;
 			bottom: 58%;
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -1435,7 +1430,7 @@
 				letter-spacing: 0em;
 			}
 
-			@include is-max(360px){
+			@include is-max(360px) {
 				font-size: 6.8vw;
 			}
 		}
@@ -1464,7 +1459,6 @@
 				display: none;
 			}
 		}
-
 
 		.Question,
 		.Answer {
@@ -1496,10 +1490,10 @@
 			font-weight: 700;
 			padding-bottom: 10px;
 			padding-left: 15px;
-			@include is-max(1065px){
+			@include is-max(1065px) {
 				font-size: 1.4vw;
 			}
-			@include is-max(1000px){
+			@include is-max(1000px) {
 				@include font-line(16, 24);
 			}
 		}
@@ -1512,7 +1506,7 @@
 			text-align: left;
 			font-weight: 700;
 			padding-bottom: 5px;
-			@include is-sp{
+			@include is-sp {
 				line-height: 1;
 			}
 		}
@@ -1537,39 +1531,38 @@
 			margin: auto;
 			z-index: 2;
 
-			@include is-sp{
+			@include is-sp {
 				flex-direction: column;
 
-				.c-buttonREP:first-child{
+				.c-buttonREP:first-child {
 					margin-top: 0;
 				}
 			}
 		}
 	}
 
-	.hide-tab{
+	.hide-tab {
 		@include is-max(900px) {
-		display:none;
+			display: none;
 		}
 		@include is-max(750px) {
 			display: block;
 		}
 	}
 
-	.show-tab{
-		display:none;
+	.show-tab {
+		display: none;
 		@include is-max(900px) {
-		display:block;
-		text-align: center;
-		margin: auto;
-		width: 70%;
-		margin-top: 50px;
+			display: block;
+			text-align: center;
+			margin: auto;
+			width: 70%;
+			margin-top: 50px;
 		}
 		@include is-max(750px) {
 			display: none;
 		}
 	}
-
 
 	.point {
 		background-color: #fff;
@@ -1608,29 +1601,28 @@
 		width: 100%;
 	}
 
-	.br-sp{
+	.br-sp {
 		display: none;
 		font-family: yu-gothic-pr6n, sans-serif;
-		
-		@include is-sp{
+
+		@include is-sp {
 			@include font-line(16);
 			font-weight: 500;
 			display: block;
 		}
 	}
 
-	.br-pc{
+	.br-pc {
 		display: none;
-		@include is-pc{
+		@include is-pc {
 			display: block;
 		}
 
-	.br-sp{
-		display: none;
-		@include is-sp{
-			display: block;
+		.br-sp {
+			display: none;
+			@include is-sp {
+				display: block;
+			}
 		}
-	}
-
 	}
 }

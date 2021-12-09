@@ -8,7 +8,6 @@
 		}
 
 		&--ttl {
-
 			p {
 				@include is-max(400px) {
 					&:nth-child(1) {
@@ -16,7 +15,6 @@
 					}
 				}
 			}
-
 		}
 	}
 
@@ -28,7 +26,6 @@
 		margin-top: -100px;
 		padding-bottom: 101px;
 		padding-top: 162px;
-
 
 		@include is-sp {
 			padding-bottom: 101px;
@@ -436,10 +433,10 @@
 		padding-bottom: 100px;
 		overflow: hidden;
 
-		.c-case03__txt__sub{
+		.c-case03__txt__sub {
 			letter-spacing: 0.18em;
 
-			@include is-max(440px){
+			@include is-max(440px) {
 				letter-spacing: 0.04em !important;
 			}
 		}
@@ -795,19 +792,19 @@
 			font-size: 5.9vw;
 		}
 	}
-	
-	.br-pc{
+
+	.br-pc {
 		display: none;
 
-		@include is-pc{
+		@include is-pc {
 			display: block;
 		}
 	}
 
-	.br-sp{
+	.br-sp {
 		display: none;
 
-		@include is-sp{
+		@include is-sp {
 			display: block;
 		}
 	}

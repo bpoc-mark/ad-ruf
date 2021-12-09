@@ -1,7 +1,7 @@
 .result {
 	position: relative;
 	.c-banner {
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 		padding: 0 0 80px 0;
 
 		@include is-max(400px) {
@@ -42,7 +42,7 @@
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(11);
 
 			@include is-sp {
@@ -56,7 +56,7 @@
 	}
 
 	.section_1 {
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c6, #000017);
 		clip-path: polygon(0 50px, 100% 0, 100% 100%, 0% 100%);
 		margin-top: -100px;
 
@@ -66,6 +66,31 @@
 			margin-top: -100px;
 		}
 
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 20%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 19%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 86%,
+					66% 100%,
+					0% 48%,
+					0% 0%,
+					0% 0%
+				);
+				height: 7%;
+			}
+		}
+
 		.clip-path {
 			padding: 160px 0 100px 0;
 			text-align: center;
@@ -73,7 +98,6 @@
 			@include is-sp {
 				padding: 15px 0 0 0;
 			}
-			
 		}
 
 		.l-wrap {
@@ -99,7 +123,7 @@
 			line-height: 1;
 			@include font-line(10);
 
-			@include is-sp{
+			@include is-sp {
 				color: #9dc2e1;
 			}
 		}
@@ -124,7 +148,7 @@
 
 		&__chart-ins {
 			color: $color-text03;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 500;
 			padding: 40px 0 60px 0;
 			letter-spacing: 0.2em;
