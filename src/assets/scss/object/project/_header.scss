@@ -182,7 +182,7 @@
 .top-header {
 	padding-top: 105px;
 	overflow: hidden;
-	background: linear-gradient(to right, #2079bd, #1e91d2);
+	background: linear-gradient(to right, #0059c4, #000017);
 
 	@include is-sp {
 		overflow: hidden;
@@ -742,7 +742,6 @@
 				background-size: contain;
 				right: -18%;
 				width: 555px;
-				z-index: -4;
 			}
 
 			@include is-max(650px) {
@@ -966,7 +965,8 @@
 			z-index: -1;
 
 			@include is-sp {
-				display: none;
+				background-image: url(../../release/image/header/background-bnnr-sp.png);
+				background-position: center;
 			}
 		}
 

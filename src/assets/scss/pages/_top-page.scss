@@ -1491,17 +1491,8 @@
 		.clipPath {
 			position: relative;
 
-			clip-path: polygon(
-				17% 9%,
-				80% 2%,
-				100% 0,
-				100% 100%,
-				85% 92%,
-				23% 98%,
-				0 100%,
-				0 0
-			);
-			background: linear-gradient(to right, #003782, #0059b6);
+			clip-path: polygon(17% 5%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+			background: linear-gradient(to right, #000017, #0059c4);
 
 			@include is-sp {
 				clip-path: polygon(
@@ -1522,15 +1513,21 @@
 				width: 100%;
 				top: 0;
 				z-index: 150;
-				height: 120px;
+				height: 340px;
 				background: linear-gradient(to right, #0059c4, #000017);
-				clip-path: polygon(100% -3%, 100% 50%, 61% 100%, 0 62%);
+				clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 12%);
 				opacity: 0.4;
+				width: 83%;
+				right: 0;
+
+				@include is-max(1071px){
+					clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 17%);
+				}
 
 				@include is-sp {
-					clip-path: polygon(100% 0%, 100% 49%, 65% 75%, 0 37%);
+					clip-path: polygon(100% 0%, 100% 49%, 65% 67%, 0 25%);
 					top: 0;
-					height: 100px;
+					height: 115px;
 					}
 			}
 
@@ -1539,21 +1536,27 @@
 				position: absolute;
 				width: 100%;
 				bottom: 0;
-				z-index: 150;
 				height: 135px;
 				background: linear-gradient(to right, #0059c4, #000017);
-				clip-path: polygon(0 71%, 30% 15%, 100% 57%, 0% 100%);
+				clip-path: polygon(0 71%, 30% 15%, 100% 50%, 0% 100%);
 				opacity: 0.4;
+				width: 84%;
+
+					@include is-max(1071px){
+						height: 205px;
+						clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
+					}
 
 					@include is-sp {
-						clip-path: polygon(0 30%, 30% 17%, 100% 36%, 0% 100%);
-					}
+						clip-path: polygon(0 30%, 45% 17%, 100% 76%, 0% 100%);
+						height: 100px;
+				}
 			}
 
 		}
 
 		&-cntnt {
-			padding: 164px 0 120px 0;
+			padding: 164px 0 82px 0;
 
 			&-txt {
 				border-left: 3px solid #fff;
@@ -1624,20 +1627,21 @@
 				}
 			}
 			@include is-sp {
-				padding: 120px 0 100px 0;
+				padding: 100px 0 100px 0;
 			}
 		}
 
 		.bg_7 {
 			position: absolute;
 			right: 31%;
-			top: 9%;
+			top: 7%;
 			z-index: -9999;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
 				right: 4%;
-				top: 5%;
+				top: 3%;
 				z-index: -1;
 				width: 122px;
 			}
@@ -1647,6 +1651,7 @@
 			top: 35%;
 			left: 0%;
 			z-index: -1;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
@@ -1659,6 +1664,8 @@
 
 		.c-buttonCase {
 			color: #258acf;
+			position: relative;
+			z-index: 150;
 		}
 	}
 
@@ -1750,6 +1757,8 @@
 
 	.sect_7 {
 		.clipPath {
+			position: relative;
+
 			clip-path: polygon(
 				17% 9%,
 				80% 2%,
@@ -1760,7 +1769,7 @@
 				0 100%,
 				0 0
 			);
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to right, #000017, #0059c4);
 
 			@include is-sp {
 				clip-path: polygon(
@@ -1774,14 +1783,61 @@
 					0 0
 				);
 			}
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				top: 0;
+				z-index: 150;
+				height: 340px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(100% -3%, 100% 19%, 60% 44%, 0 18%);
+				opacity: 0.4;
+				width: 83%;
+				right: 0;
+
+				@include is-max(940px){
+					clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 22%);
+				}
+
+				@include is-sp {
+					clip-path: polygon(100% 0%, 100% 49%, 65% 75%, 0 25%);
+					top: 0;
+					height: 100px;
+					}
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				height: 135px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(0 70%, 38% 15%, 100% 59%, 0% 100%);
+				opacity: 0.4;
+				width: 84%;
+
+					@include is-max(1071px){
+						height: 205px;
+						clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
+					}
+
+					@include is-sp {
+						clip-path: polygon(0 30%, 30% 17%, 100% 76%, 0% 100%);
+						height: 100px;
+				}
+			}
+
 		}
 
 		&-cntnt {
-			padding: 164px 0 160px 0;
+			padding: 164px 0 111px 0;
 
 			@include is-sp {
 				padding-bottom: 103px;
-				padding-top: 125px;
+				padding-top: 110px;
 			}
 
 			&-rows {
@@ -1961,13 +2017,14 @@
 
 		.bg_11 {
 			position: absolute;
-			top: 9.5%;
+			top: 8.5%;
 			right: 32%;
 			z-index: -4;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
-				top: 3.5%;
+				top: 1.5%;
 				right: 2%;
 				z-index: -4;
 				width: 176px;
@@ -1984,6 +2041,7 @@
 			top: 53%;
 			left: 0%;
 			z-index: -4;
+			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;

@@ -3,10 +3,10 @@
 
 	.c-banner {
 		padding: 0 0 80px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 
-		@include is-max(400px) {
-			padding: 0 0 95px 0;
+		@include is-sp {
+			padding: 0 0 75px 0;
 		}
 
 		&--ttl {
@@ -24,14 +24,12 @@
 				&:nth-child(1) {
 					@include is-max(400px) {
 						font-size: 7vw;
-						;
 					}
 				}
 
 				&:nth-child(2) {
 					@include is-max(400px) {
 						font-size: 3vw;
-						;
 					}
 				}
 			}
@@ -39,23 +37,44 @@
 	}
 
 	&__section_1 {
-		// background: linear-gradient(to right, #003782, #0059b6);
-		// padding-bottom: 100px;
-
-		// @include is-sp {
-		// 	padding-bottom: 55px;
-		// }
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #000017, #0059c4);
 		clip-path: polygon(0 2%, 100% 0%, 100% 101%, 0% 100%);
 		margin-top: -100px;
 		padding-bottom: 101px;
-		padding-top: 150px;
+		padding-top: 120px;
+		position: relative;
 
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 12%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 17%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 86%,
+					66% 100%,
+					0% 60%,
+					0% 0%,
+					0% 0%
+				);
+				height: 136px;
+			}
+		}
 
 		@include is-sp {
-			padding-bottom: 101px;
+			padding-bottom: 75px;
 			clip-path: polygon(0 80px, 100% 1%, 100% 101%, 0% 100%);
 			margin-top: -130px;
+			padding-top: 150px;
 		}
 
 		.l-wrap {
@@ -99,7 +118,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -114,7 +133,7 @@
 
 	&__title {
 		color: $color-text03;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		letter-spacing: 0.2em;
 		padding: 20px 8px 30px 8px;
 		font-weight: 500;
@@ -134,7 +153,7 @@
 
 		@include is-sp {
 			letter-spacing: 0;
-			padding-top: 50px;
+			padding-top: 40px;
 
 			br {
 				display: block;
@@ -145,8 +164,6 @@
 			font-size: 3.3vw;
 			padding-left: 10px;
 		}
-
-
 	}
 
 	&__main-content {
@@ -183,7 +200,6 @@
 				padding: 0 0;
 			}
 
-
 			.left,
 			.right {
 				width: 47%;
@@ -195,10 +211,9 @@
 				.col {
 					padding-bottom: 60px;
 
-					&:nth-child(2){
-
-						.col--ttl{
-							@include is-sp{
+					&:nth-child(2) {
+						.col--ttl {
+							@include is-sp {
 								padding-left: 24px;
 								text-align: left;
 							}
@@ -211,13 +226,13 @@
 						}
 					}
 
-					.p-l-30{
-						padding-left: 30px
+					.p-l-30 {
+						padding-left: 30px;
 					}
 
 					&--ttl {
 						@include font-line(16, 26);
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						font-weight: 700;
 						letter-spacing: 0.1em;
 						padding-bottom: 10px;
@@ -228,9 +243,9 @@
 							padding: 0 20px 10px;
 							text-align: center;
 						}
-						
-						&:nth-child(2){
-							@include is-sp{
+
+						&:nth-child(2) {
+							@include is-sp {
 								padding-left: 0;
 							}
 						}
@@ -255,7 +270,7 @@
 							justify-content: flex-start;
 							align-items: baseline;
 							@include font-line(13, 26);
-							font-family: yu-gothic-pr6n, sans-serif;;
+							font-family: yu-gothic-pr6n, sans-serif;
 							font-weight: 700;
 							letter-spacing: 0;
 
@@ -293,7 +308,7 @@
 
 							p {
 								@include font-line(13, 26);
-								font-family: yu-gothic-pr6n, sans-serif;;
+								font-family: yu-gothic-pr6n, sans-serif;
 								font-weight: 500;
 								letter-spacing: 0.08em;
 								color: #000;
@@ -314,9 +329,13 @@
 					padding-bottom: 0;
 
 					@include is-sp {
-						
 					}
+				}
+			}
 
+			.left {
+				@include is-sp {
+					padding-bottom: 60px;
 				}
 			}
 
@@ -334,38 +353,35 @@
 				.col:last-child {
 					padding-bottom: 30px;
 
-					@include is-sp{}
+					@include is-sp {
+					}
 				}
 
-				.col{
-
-					&:nth-child(4){
-						
-						.col--ttl{
-							@include is-max(375px){
+				.col {
+					&:nth-child(4) {
+						.col--ttl {
+							@include is-max(375px) {
 								padding-left: 24px;
 								text-align: left;
 							}
 						}
 					}
 
-					&:nth-child(5){
-
-						.col--cont01--txt{
-							@include is-sp{
+					&:nth-child(5) {
+						.col--cont01--txt {
+							@include is-sp {
 								margin: 0 20px 0 20px;
 							}
 						}
 
-						.col--cont01{
-							@include is-sp{
+						.col--cont01 {
+							@include is-sp {
 								padding-left: 0;
 								padding-bottom: 20px;
 							}
 						}
 					}
 				}
-
 			}
 		}
 	}
@@ -376,6 +392,10 @@
 		top: -48px;
 		right: 63px;
 		width: 316px;
+
+		@include is-sp {
+			top: -64px;
+		}
 
 		@include is-max(500px) {
 			right: 10px;
