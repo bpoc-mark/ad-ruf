@@ -93,7 +93,7 @@
 .p-cntct {
 	padding: 99px 0;
 	// background-image: url(../image/page/access/contact-bg.png);
-	background-color: #2790d2;
+	background-color: #0059b4;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -143,208 +143,208 @@
 		}
 	}
 
-	&-inqrs {
-		padding-top: 34px;
-		display: flex;
-		justify-content: space-between;
+	// &-inqrs {
+	// 	padding-top: 34px;
+	// 	display: flex;
+	// 	justify-content: space-between;
 
-		@include is-sp {
-			margin-bottom: 30px;
-			flex-wrap: wrap;
-			padding: 24px 50px 0;
-		}
+	// 	@include is-sp {
+	// 		margin-bottom: 30px;
+	// 		flex-wrap: wrap;
+	// 		padding: 24px 50px 0;
+	// 	}
 
-		@include is-max(435px) {
-			padding: 24px 0 0;
-		}
+	// 	@include is-max(435px) {
+	// 		padding: 24px 0 0;
+	// 	}
 
-		&-dtl {
-			text-align: center;
-			border-radius: 30px;
+	// 	&-dtl {
+	// 		text-align: center;
+	// 		border-radius: 30px;
 
-			@include is-max(1051px) {
-				margin-bottom: 30px;
-			}
+	// 		@include is-max(1051px) {
+	// 			margin-bottom: 30px;
+	// 		}
 
-			&-link {
-				color: #fff;
-				display: inline-block;
-				// padding: 22px 0 22px 0;
+	// 		&-link {
+	// 			color: #fff;
+	// 			display: inline-block;
+	// 			// padding: 22px 0 22px 0;
 
-				p:nth-child(1) {
-					font-size: 18px;
-					font-weight: 700;
-					font-family: yu-mincho-pr6n, sans-serif;
-					letter-spacing: 0.13em;
+	// 			p:nth-child(1) {
+	// 				font-size: 18px;
+	// 				font-weight: 700;
+	// 				font-family: yu-mincho-pr6n, sans-serif;
+	// 				letter-spacing: 0.13em;
 
-					@include is-max(1000px) {
-						font-size: 1.6vw;
-					}
+	// 				@include is-max(1000px) {
+	// 					font-size: 1.6vw;
+	// 				}
 
-					@include is-sp {
-						@include font-line(18, 20);
-						letter-spacing: 0.12em;
-						padding-bottom: 10px;
-					}
-				}
+	// 				@include is-sp {
+	// 					@include font-line(18, 20);
+	// 					letter-spacing: 0.12em;
+	// 					padding-bottom: 10px;
+	// 				}
+	// 			}
 
-				p:nth-child(2) {
-					font-size: 11px;
-					font-family: yu-gothic-pr6n, sans-serif;;
-					font-weight: 500;
-					letter-spacing: 0.13em;
+	// 			p:nth-child(2) {
+	// 				font-size: 11px;
+	// 				font-family: yu-gothic-pr6n, sans-serif;
+	// 				font-weight: 500;
+	// 				letter-spacing: 0.13em;
 
-					@include is-max(1000px) {
-						font-size: 1.2vw;
-					}
+	// 				@include is-max(1000px) {
+	// 					font-size: 1.2vw;
+	// 				}
 
-					@include is-sp {
-						@include font-line(15, 18);
-						letter-spacing: 0.1em;
-						line-height: 18px;
-					}
-				}
+	// 				@include is-sp {
+	// 					@include font-line(15, 18);
+	// 					letter-spacing: 0.1em;
+	// 					line-height: 18px;
+	// 				}
+	// 			}
 
-				@include is-sp {
-					width: 100%;
-					// padding: 45px 35px 31px 35px;
-				}
-			}
-		}
+	// 			@include is-sp {
+	// 				width: 100%;
+	// 				// padding: 45px 35px 31px 35px;
+	// 			}
+	// 		}
+	// 	}
 
-		.phone {
-			background-color: #fff;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
+	// 	.phone {
+	// 		background-color: #fff;
+	// 		position: relative;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 		width: 32%;
 
-			&:hover{
-				&::before{
-					right: 15px;
-					content: "";
-				}
-			}
+	// 		&:hover {
+	// 			&::before {
+	// 				right: 15px;
+	// 				content: "";
+	// 			}
+	// 		}
 
-			@include is-sp {
-				width: 100%;
-				min-height: 115px;
-				padding: 15px 10px 10px 10px;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-			}
+	// 		@include is-sp {
+	// 			width: 100%;
+	// 			min-height: 115px;
+	// 			padding: 15px 10px 10px 10px;
+	// 			display: flex;
+	// 			align-items: center;
+	// 			justify-content: center;
+	// 		}
 
-			a {
-				color: #2790d2 !important;
-			}
+	// 		a {
+	// 			color: #2790d2 !important;
+	// 		}
 
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-blue.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-				transition: 0.3s ease-in-out;
+	// 		&:before {
+	// 			content: "";
+	// 			background: url(../image/page/access/arrow-blue.png) no-repeat center;
+	// 			width: 20px;
+	// 			height: 20px;
+	// 			position: absolute;
+	// 			top: 50%;
+	// 			right: 20px;
+	// 			transform: translate(0, -50%);
+	// 			transition: 0.3s ease-in-out;
 
-				@include is-max(800px) {
-					right: 11px;
-				}
+	// 			@include is-max(800px) {
+	// 				right: 11px;
+	// 			}
 
-				// @include is-sp {
-				// 	display: none;
-				// }
-			}
-		}
-		.line {
-			background-color: #00ad00;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
-			padding: 34px;
+	// 			// @include is-sp {
+	// 			// 	display: none;
+	// 			// }
+	// 		}
+	// 	}
+	// 	.line {
+	// 		background-color: #00ad00;
+	// 		position: relative;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 		width: 32%;
+	// 		padding: 34px;
 
-			&:hover{
-				&::before{
-					right: 15px;
-					content: "";
-				}
-			}
+	// 		&:hover {
+	// 			&::before {
+	// 				right: 15px;
+	// 				content: "";
+	// 			}
+	// 		}
 
-			@include is-sp {
-				width: 100%;
-				min-height: 110px;
-				padding: 12px 10px 10px 10px;
-			}
+	// 		@include is-sp {
+	// 			width: 100%;
+	// 			min-height: 110px;
+	// 			padding: 12px 10px 10px 10px;
+	// 		}
 
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-white.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-				transition: 0.3s ease-in-out;
+	// 		&:before {
+	// 			content: "";
+	// 			background: url(../image/page/access/arrow-white.png) no-repeat center;
+	// 			width: 20px;
+	// 			height: 20px;
+	// 			position: absolute;
+	// 			top: 50%;
+	// 			right: 20px;
+	// 			transform: translate(0, -50%);
+	// 			transition: 0.3s ease-in-out;
 
-				@include is-max(800px) {
-					right: 11px;
-				}
+	// 			@include is-max(800px) {
+	// 				right: 11px;
+	// 			}
 
-				// @include is-sp {
-				// 	display: none;
-				// }
-			}
-		}
+	// 			// @include is-sp {
+	// 			// 	display: none;
+	// 			// }
+	// 		}
+	// 	}
 
-		.email {
-			background-color: #b71e32;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
+	// 	.email {
+	// 		background-color: #b71e32;
+	// 		position: relative;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 		width: 32%;
 
-			&:hover{
-				&::before{
-					right: 15px;
-					content: "";
-				}
-			}
+	// 		&:hover {
+	// 			&::before {
+	// 				right: 15px;
+	// 				content: "";
+	// 			}
+	// 		}
 
-			@include is-sp {
-				width: 100%;
-				min-height: 110px;
-				padding: 12px 10px 10px 10px;
-			}
+	// 		@include is-sp {
+	// 			width: 100%;
+	// 			min-height: 110px;
+	// 			padding: 12px 10px 10px 10px;
+	// 		}
 
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-white.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-				transition: 0.3s ease-in-out;
+	// 		&:before {
+	// 			content: "";
+	// 			background: url(../image/page/access/arrow-white.png) no-repeat center;
+	// 			width: 20px;
+	// 			height: 20px;
+	// 			position: absolute;
+	// 			top: 50%;
+	// 			right: 20px;
+	// 			transform: translate(0, -50%);
+	// 			transition: 0.3s ease-in-out;
 
-				@include is-max(800px) {
-					right: 11px;
-				}
+	// 			@include is-max(800px) {
+	// 				right: 11px;
+	// 			}
 
-				// @include is-sp {
-				// 	display: none;
-				// }
-			}
-		}
-	}
+	// 			// @include is-sp {
+	// 			// 	display: none;
+	// 			// }
+	// 		}
+	// 	}
+	// }
 
 	&-top {
 		text-align: center;
@@ -389,7 +389,7 @@
 	// 	padding-bottom: 35px;
 	// }
 
-	@include is-sp{
+	@include is-sp {
 		padding: 99px 0 20px 0;
 	}
 
@@ -398,7 +398,7 @@
 		color: #fff;
 
 		@include is-sp {
-			text-transform: uppercase ;
+			text-transform: uppercase;
 		}
 
 		p:nth-child(1) {
@@ -437,186 +437,242 @@
 	&-inqrs {
 		padding-top: 34px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 
 		@include is-sp {
-			margin-bottom: 30px;
+			margin-bottom: 45px;
 			flex-wrap: wrap;
 			padding: 24px 0 0;
+			flex-direction: column;
+			align-items: center;
 		}
 
 		@include is-max(435px) {
 			padding: 24px 0 0;
 		}
 
-		&-dtl {
-			text-align: center;
-			border-radius: 30px;
+		// &-dtl {
+		// 	text-align: center;
+		// 	border-radius: 30px;
 
-			@include is-max(1051px) {
-				margin-bottom: 30px;
+		// 	@include is-max(1051px) {
+		// 		margin-bottom: 30px;
+		// 	}
+
+		// 	&-link {
+		// 		color: #fff;
+		// 		display: inline-block;
+		// 		// padding: 22px 0 22px 0;
+
+		// 		p:nth-child(1) {
+		// 			font-size: 18px;
+		// 			font-weight: 700;
+		// 			font-family: yu-mincho-pr6n, sans-serif;
+
+		// 			@include is-max(1000px) {
+		// 				font-size: 1.6vw;
+		// 			}
+
+		// 			@include is-sp {
+		// 				@include font-line(18, 20);
+		// 				letter-spacing: 0.12em;
+		// 				padding-bottom: 10px;
+		// 			}
+
+		// 			@include is-max(375px) {
+		// 				font-size: 16px;
+		// 				white-space: nowrap;
+		// 			}
+		// 		}
+
+		// 		p:nth-child(2) {
+		// 			font-size: 11px;
+		// 			font-family: yu-gothic-pr6n, sans-serif;
+		// 			font-weight: 500;
+		// 			letter-spacing: 0.2em;
+
+		// 			@include is-max(1000px) {
+		// 				font-size: 1.2vw;
+		// 			}
+
+		// 			@include is-sp {
+		// 				@include font-line(15, 18);
+		// 				letter-spacing: 0.1em;
+		// 				line-height: 18px;
+		// 			}
+
+		// 			@include is-max(375px) {
+		// 				font-size: 12px;
+		// 			}
+		// 		}
+
+		// 		@include is-sp {
+		// 			width: 100%;
+		// 			// padding: 45px 35px 31px 35px;
+		// 		}
+		// 	}
+		// }
+
+		// .phone {
+		// 	background-color: #fff;
+		// 	position: relative;
+		// 	display: flex;
+		// 	align-items: center;
+		// 	justify-content: center;
+		// 	width: 32%;
+
+		// 	@include is-sp {
+		// 		width: 100%;
+		// 		min-height: 115px;
+		// 		padding: 15px 10px 10px 10px;
+		// 		display: flex;
+		// 		align-items: center;
+		// 		justify-content: center;
+		// 	}
+
+		// 	a {
+		// 		color: #2790d2 !important;
+		// 	}
+
+		// 	&:before {
+		// 		content: "";
+		// 		background: url(../image/page/access/arrow-blue.png) no-repeat center;
+		// 		width: 20px;
+		// 		height: 20px;
+		// 		position: absolute;
+		// 		top: 50%;
+		// 		right: 20px;
+		// 		transform: translate(0, -50%);
+
+		// 		@include is-max(800px) {
+		// 			right: 11px;
+		// 		}
+
+		// 		// @include is-sp {
+		// 		// 	display: none;
+		// 		// }
+		// 	}
+		// }
+		// .line {
+		// 	background-color: #00ad00;
+		// 	position: relative;
+		// 	display: flex;
+		// 	align-items: center;
+		// 	justify-content: center;
+		// 	width: 32%;
+		// 	padding: 34px;
+
+		// 	@include is-sp {
+		// 		width: 100%;
+		// 		min-height: 110px;
+		// 		padding: 12px 10px 10px 10px;
+		// 	}
+
+		// 	&:before {
+		// 		content: "";
+		// 		background: url(../image/page/access/arrow-white.png) no-repeat center;
+		// 		width: 20px;
+		// 		height: 20px;
+		// 		position: absolute;
+		// 		top: 50%;
+		// 		right: 20px;
+		// 		transform: translate(0, -50%);
+
+		// 		@include is-max(800px) {
+		// 			right: 11px;
+		// 		}
+
+		// 		// @include is-sp {
+		// 		// 	display: none;
+		// 		// }
+		// 	}
+		// }
+
+		// .email {
+		// 	background-color: #b71e32;
+		// 	position: relative;
+		// 	display: flex;
+		// 	align-items: center;
+		// 	justify-content: center;
+		// 	width: 32%;
+
+		// 	@include is-sp {
+		// 		width: 100%;
+		// 		min-height: 110px;
+		// 		padding: 12px 10px 10px 10px;
+		// 	}
+
+		// 	&:before {
+		// 		content: "";
+		// 		background: url(../image/page/access/arrow-white.png) no-repeat center;
+		// 		width: 20px;
+		// 		height: 20px;
+		// 		position: absolute;
+		// 		top: 50%;
+		// 		right: 20px;
+		// 		transform: translate(0, -50%);
+
+		// 		@include is-max(800px) {
+		// 			right: 11px;
+		// 		}
+
+		// 		// @include is-sp {
+		// 		// 	display: none;
+		// 		// }
+		// 	}
+		// }
+
+		.info {
+			width: 180px;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding: 12px;	
+
+			@include is-sp {
+				width: 250px;
 			}
 
-			&-link {
-				color: #fff;
-				display: inline-block;
-				// padding: 22px 0 22px 0;
+			@include is-max(365px) {
+				width: 100%;
+			}
 
-				p:nth-child(1) {
-					font-size: 18px;
-					font-weight: 700;
-					font-family: yu-mincho-pr6n, sans-serif;
-
-					@include is-max(1000px) {
-						font-size: 1.6vw;
-					}
-
-					@include is-sp {
-						@include font-line(18, 20);
-						letter-spacing: 0.12em;
-						padding-bottom: 10px;
-					}
-
-					@include is-max(375px) {
-						font-size: 16px;
-						white-space: nowrap;
-					}
-				}
-
-				p:nth-child(2) {
-					font-size: 11px;
-					font-family: yu-gothic-pr6n, sans-serif;;
-					font-weight: 500;
-					letter-spacing: 0.2em;
-
-					@include is-max(1000px) {
-						font-size: 1.2vw;
-					}
-
-					@include is-sp {
-						@include font-line(15, 18);
-						letter-spacing: 0.1em;
-						line-height: 18px;
-					}
-
-					@include is-max(375px) {
-						font-size: 12px;
-					}
-				}
+			p {
+				font-family: yu-gothic-pr6n, sans-serif;
+				@include font-line(12, 15);
+				font-weight: 500;
+				letter-spacing: 0.26em;
 
 				@include is-sp {
-					width: 100%;
-					// padding: 45px 35px 31px 35px;
+					@include font-line(16, 20);
 				}
 			}
 		}
-
-		.phone {
-			background-color: #fff;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
-
+		.info_1 {
+			border: 1px solid #fff;
+			margin: 0 10px 0 0;
 			@include is-sp {
-				width: 100%;
-				min-height: 115px;
-				padding: 15px 10px 10px 10px;
-				display: flex;
-				align-items: center;
-				justify-content: center;
+				margin: 0;
 			}
-
-			a {
-				color: #2790d2 !important;
-			}
-
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-blue.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-
-				@include is-max(800px) {
-					right: 11px;
+			img {
+				width: 14px;
+				@include is-sp {
+					width: 20px;
 				}
-
-				// @include is-sp {
-				// 	display: none;
-				// }
 			}
 		}
-		.line {
-			background-color: #00ad00;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
-			padding: 34px;
-
+		.info_2 {
+			background-color: #F60000;
+			margin: 0 0 0 10px;
 			@include is-sp {
-				width: 100%;
-				min-height: 110px;
-				padding: 12px 10px 10px 10px;
+				margin: 25px 0 0 0;
 			}
-
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-white.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-
-				@include is-max(800px) {
-					right: 11px;
+			img {
+				width: 23px;
+				@include is-sp {
+					width: 32.5px;
 				}
-
-				// @include is-sp {
-				// 	display: none;
-				// }
-			}
-		}
-
-		.email {
-			background-color: #b71e32;
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 32%;
-
-			@include is-sp {
-				width: 100%;
-				min-height: 110px;
-				padding: 12px 10px 10px 10px;
-			}
-
-			&:before {
-				content: "";
-				background: url(../image/page/access/arrow-white.png) no-repeat center;
-				width: 20px;
-				height: 20px;
-				position: absolute;
-				top: 50%;
-				right: 20px;
-				transform: translate(0, -50%);
-
-				@include is-max(800px) {
-					right: 11px;
-				}
-
-				// @include is-sp {
-				// 	display: none;
-				// }
 			}
 		}
 	}

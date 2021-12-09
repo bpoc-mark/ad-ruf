@@ -6,7 +6,7 @@
                         <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
                     </div>
                     <div class="p-cntct-inqrs">
-                        <div class="p-cntct-inqrs-dtl phone">
+                        <!-- <div class="p-cntct-inqrs-dtl phone">
                             <a class="p-cntct-inqrs-dtl-link" href="tel:+0120-173-602 ">
                                 <p>お電話でのお問い合わせ</p>
                                 <p>0120-173-602
@@ -26,7 +26,16 @@
                                 <p>メールでのお問い合わせ</p>
                                 <p>お問い合わせフォーム<br>24時間受付</p>
                             </a>
-                        </div>
+                        </div> -->
+
+                        <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="info info_1">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/phone_i.svg" alt="">
+                            <p>お電話での<br>お問い合わせ</p>
+                        </a>
+                        <a href="#" class="info info_2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/mail_i.svg" alt="">
+                            <p>WEBでの<br>お問い合わせ</p>
+                        </a>
                     </div>
                 </div>
                 <div class="cntct-top">
