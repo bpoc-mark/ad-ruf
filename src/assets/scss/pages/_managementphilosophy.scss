@@ -1,12 +1,12 @@
 .mp {
 	position: relative;
 	.c-banner {
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 		padding: 0 0 65px 0;
 
-		@include is-max(400px){
-            padding: 0 0 95px 0;
-        }
+		@include is-max(400px) {
+			padding: 0 0 95px 0;
+		}
 
 		&--ttl {
 			@include is-sp {
@@ -60,7 +60,7 @@
 				width: 40%;
 				margin: 0 auto;
 				position: absolute;
-				top: 7px;
+				top: -40px;
 				left: 50%;
 			}
 
@@ -106,7 +106,7 @@
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(11);
 
 			@include is-sp {
@@ -124,7 +124,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -139,7 +139,7 @@
 
 	&__section_1 {
 		z-index: 150;
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c4, #000017);
 		padding-bottom: 70px;
 		position: relative;
 		clip-path: polygon(0 7.4%, 100% 1.4%, 100% 87%, 0% 96%);
@@ -148,6 +148,31 @@
 			padding-bottom: 55px;
 			clip-path: polygon(0 3%, 100% 0.2%, 100% 95%, 0% 99%);
 			margin-top: -76px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 39%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 19%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 86%,
+					66% 100%,
+					0% 48%,
+					0% 0%,
+					0% 0%
+				);
+				height: 3%;
+			}
 		}
 
 		.l-wrap {
@@ -199,7 +224,7 @@
 						@include font-line(13, 26);
 						letter-spacing: 0.2em;
 						font-weight: 500;
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						text-align: justify;
 
 						@include is-sp {
@@ -308,7 +333,7 @@
 						@include font-line(13, 26);
 						letter-spacing: 0.2em;
 						font-weight: 500;
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						text-align: justify;
 
 						span {
@@ -425,7 +450,7 @@
 
 	&__sub {
 		color: $color-text03;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 500;
 		letter-spacing: 0.2em;
 		text-align: center;
