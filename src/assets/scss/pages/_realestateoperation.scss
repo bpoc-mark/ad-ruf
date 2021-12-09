@@ -7,7 +7,7 @@
 
 	.c-banner {
 		padding: 0 0 100px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 
 		@include is-sp {
 			padding: 0 0 80px 0;
@@ -42,13 +42,11 @@
 		}
 
 		.bread_crumps {
-
 			.txt {
 				@include is-max(375px) {
 					font-size: 3.4vw;
 				}
 			}
-
 		}
 	}
 
@@ -57,7 +55,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -78,6 +76,31 @@
 			margin-top: 105px;
 		}
 
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 21%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 19%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 86%,
+					66% 100%,
+					0% 48%,
+					0% 0%,
+					0% 0%
+				);
+				height: 3%;
+			}
+		}
+
 		.l-wrap {
 			text-align: center;
 		}
@@ -86,7 +109,7 @@
 			position: absolute;
 			right: 8%;
 			top: -86px;
-			opacity: 0.30;
+			opacity: 0.3;
 
 			@include is-sp {
 				right: 3%;
@@ -96,26 +119,12 @@
 		}
 
 		&__box-big {
-			opacity: 0.30;
-		}
-
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			top: -95px;
-			height: 100px;
-			background: linear-gradient(to right, #003782, #0059b6);
-			clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
-
-			@include is-sp {
-				clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
-			}
+			opacity: 0.3;
 		}
 
 		&__center {
 			padding: 100px 0 160px 0;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 
 			@include is-max(750px) {
 				padding: 75px 0;
@@ -320,7 +329,8 @@
 			}
 		}
 
-		.l-wrap {}
+		.l-wrap {
+		}
 
 		&__inner-realestate {
 			display: flex;
@@ -377,7 +387,7 @@
 				}
 
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -656,7 +666,7 @@
 			}
 
 			.text {
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				@include font-line(13, 26);
 				text-align: left;
@@ -704,7 +714,7 @@
 				}
 
 				&_item {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					text-align: left;
 					@include font-line(9, 26);
 					color: #87b2db;
@@ -782,7 +792,7 @@
 					position: absolute;
 					top: -5px;
 					left: 10px;
-					font-family: 'Bebas Neue';
+					font-family: "Bebas Neue";
 					font-weight: 400;
 					@include font-line(40);
 					color: #fff;
@@ -826,8 +836,6 @@
 				}
 			}
 		}
-
-
 
 		.c-buttonREP {
 			margin-top: 50px;
@@ -969,7 +977,7 @@
 				}
 
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -1015,7 +1023,7 @@
 						font-weight: 700;
 
 						@include is-max(375px) {
-							font-size: 3.3vw !important
+							font-size: 3.3vw !important;
 						}
 
 						span {
@@ -1035,7 +1043,8 @@
 				}
 			}
 
-			&--right {}
+			&--right {
+			}
 
 			.br-point {
 				display: block;
@@ -1114,7 +1123,7 @@
 			left: -2%;
 			top: 24%;
 
-			@include is-sp{
+			@include is-sp {
 				display: none;
 			}
 		}
@@ -1177,7 +1186,7 @@
 				}
 
 				.text {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 					@include font-line(13, 26);
 					text-align: left;
@@ -1237,7 +1246,6 @@
 						@include is-max(500px) {
 							letter-spacing: 0.08em;
 						}
-
 					}
 				}
 			}
@@ -1399,7 +1407,8 @@
 			justify-content: space-between;
 			padding-bottom: 55px;
 
-			@include is-max(750px) {}
+			@include is-max(750px) {
+			}
 		}
 
 		.card_ttl {
@@ -1486,7 +1495,7 @@
 				}
 
 				&-desc {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 
 					@include font-line(13, 26);
@@ -1856,5 +1865,4 @@
 			display: block;
 		}
 	}
-
 }
