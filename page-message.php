@@ -101,7 +101,7 @@ $imagedir = get_template_directory_uri();
                             <p class="section_3-cntnt-rows-1-txt">今後とも宜しくお願い申し上げます。</p>
                         </div>
                         <div class="section_3-cntnt-rows-2">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec1-img.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec3-img.png" alt="">
                         </div>
                     </div>
                     <div class="btns u-d-f u-w-640">

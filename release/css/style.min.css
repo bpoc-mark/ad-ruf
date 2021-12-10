@@ -1686,7 +1686,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .mp .clip-top{position:relative;margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);padding:55px 0 0 0;text-align:center;margin-top:-97px}
 .message{position:relative}
 .message .l-wrap{position:relative}
-.message .c-banner{padding:0 0 80px 0;position:relative;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
+.message .c-banner{padding:0 0 80px 0;position:relative;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017)}
 .message .c-banner--ttl p{line-height:1.4em}
 .message .c-banner--ttl p .br-sp{display:none}
 .message .c-banner .c-inner{position:relative}
@@ -1695,10 +1695,11 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
 .message .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.75rem}
 .message .bread_crumps span{padding:0 8px}
-.message .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
+.message .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);position:absolute;top:0;right:0;margin-top:-115px}
 .message .section_1{position:relative;z-index:150}
+.message .section_1::before{content:"";position:absolute;width:100%;height:38%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,0 13.2%,10% 11.2%,0 13%);clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,0 13.2%,10% 11.2%,0 13%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:151}
 .message .section_1 .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% -68%,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:0}
-.message .section_1 .clipPath{-webkit-clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding-top:0;margin-top:-100px}
+.message .section_1 .clipPath{-webkit-clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding-top:0;margin-top:-100px}
 .message .section_1 .clipPath .cntnt{padding:195px 0 145px 0}
 .message .section_1 .clipPath .cntnt .txt{color:#258acf}
 .message .section_1 .clipPath .cntnt-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#fff}
@@ -1711,9 +1712,9 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-rows-2 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns{width:640px;margin:0 auto}
 .message .section_1 .clipPath .cntnt .section_1-cntnt-btns .btn .txt{letter-spacing:.2em}
-.message .section_1 .sec1-bg1{position:absolute;top:10%;right:8%;z-index:-1}
-.message .section_1 .sec1-bg2{position:absolute;top:28%;left:-6%;z-index:-1;opacity:.5}
-.message .section_1 .sec1-bg3{position:absolute;bottom:16%;right:1%;opacity:.5}
+.message .section_1 .sec1-bg1{position:absolute;top:10%;right:8%;z-index:-1;display:none}
+.message .section_1 .sec1-bg2{position:absolute;top:28%;left:-6%;z-index:-1}
+.message .section_1 .sec1-bg3{position:absolute;bottom:16%;right:1%}
 .message .section_2 .sec2-bg1{position:absolute;top:0;right:5%}
 .message .section_2 .sec2-bg2{position:absolute;top:58%;left:-1%;z-index:-1}
 .message .section_2 .sec2-bg3{position:absolute;bottom:0;right:0}
@@ -1723,7 +1724,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_2-rows-2{font-family:yu-gothic-pr6n,sans-serif;font-weight:500}
 .message .section_2-rows-2-txt{letter-spacing:.2em;font-size:.808125rem;line-height:1.9334880124;text-align:justify}
 .message .section_3{position:relative}
-.message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding:144px 0 99px 0}
+.message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding:144px 0 99px 0}
 .message .section_3-cntnt .txt{color:#258acf}
 .message .section_3-cntnt-rows{margin-bottom:60px;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .message .section_3-cntnt-rows-1-txt{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.808125rem;line-height:1.9334880124;font-weight:500;letter-spacing:.2em;text-align:justify}
@@ -4091,6 +4092,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .message .c-banner--ttl{padding:20px 13px 20px 30px;left:0}
 .message .c-banner--ttl p .br-sp{display:block}
 .message .top-clip{width:77%;height:322px;top:0}
+.message .section_1::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 55%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 55%,0 0,0 0);height:7.5%}
 .message .section_1 .clip-top{padding:90px 0 0 0;-webkit-clip-path:none;clip-path:none}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%);clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%)}
 .message .section_1 .clipPath .cntnt{padding:123px 0 100.5px 0}
