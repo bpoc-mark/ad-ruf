@@ -880,7 +880,7 @@ template{display:none}
 .u-w-640{width:640px !important;margin:0 auto}
 .about{position:relative}
 .about .l-wrap{position:relative}
-.about .c-banner{padding:0 0 50px 0}
+.about .c-banner{padding:0 0 50px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017)}
 .about .c-banner--ttl p{line-height:2.25em}
 .about .c-banner--ttl p .br-sp{display:none}
 .about .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
@@ -888,7 +888,8 @@ template{display:none}
 .about .bread_crumps span{padding:0 8px}
 .about .section_1{position:relative}
 .about .section_1 .section_1-cntnt{padding-top:0}
-.about .section_1 .clipPath{-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding:185px 0 185px 0;margin-top:-70px}
+.about .section_1 .clipPath{-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding:185px 0 185px 0;margin-top:-70px}
+.about .section_1 .clipPath::before{content:"";position:absolute;width:100%;height:44%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 16%,68% 34%,0 16.5%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 16%,68% 34%,0 16.5%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4}
 .about .section_1-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#fff}
 .about .section_1-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:"yu-mincho-pr6n",sans-serif;font-weight:500;color:#fff;letter-spacing:.18em}
 .about .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;text-align:center;color:#fff;letter-spacing:.2em}
@@ -906,8 +907,8 @@ template{display:none}
 .about .section_1-cntnt .txt{color:#2588cd}
 .about .section_1 .sec1-bg1{position:absolute;right:8%;top:-17%;z-index:-1}
 .about .section_2{margin-top:-100px;position:relative;z-index:150}
-.about .section_2 .clipPath{-webkit-clip-path:polygon(19% 13%,100% 0,100% 100%,87% 90%,0 99%,0 0);clip-path:polygon(19% 13%,100% 0,100% 100%,87% 90%,0 99%,0 0);background:-webkit-gradient(linear,left top,right top,from(#2868af),to(#3b86c8));background:linear-gradient(to right,#2868af,#3b86c8);padding:161px 0 161px 0}
-.about .section_2-cntnt{width:100%;height:302px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;color:#fff;background:-webkit-gradient(linear,right top,left top,from(#4c92cf),color-stop(#4d92cf),color-stop(#4c92cf),color-stop(#4a91cf),to(#80b1d2));background:linear-gradient(to left,#4c92cf,#4d92cf,#4c92cf,#4a91cf,#80b1d2);position:relative}
+.about .section_2 .clipPath{-webkit-clip-path:polygon(19% 13%,100% 0,100% 100%,87% 90%,0 99%,0 0);clip-path:polygon(19% 13%,100% 0,100% 100%,87% 90%,0 99%,0 0);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding:161px 0 161px 0}
+.about .section_2-cntnt{width:100%;height:302px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;color:#fff;background:-webkit-gradient(linear,left top,right top,from(#000017),color-stop(30%,#001064),to(#0059c6));background:linear-gradient(90deg,#000017 0,#001064 30%,#0059c6 100%);position:relative}
 .about .section_2-cntnt-row1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;z-index:3}
 .about .section_2-cntnt-row1-imgs{margin-top:-35px}
 .about .section_2-cntnt-row1-ttl{margin-left:20px;text-align:center;margin-top:-50px}
@@ -921,7 +922,7 @@ template{display:none}
 .about .section_2-cntnt:before{position:absolute;top:0;left:0;content:"";width:555px;height:100%;-webkit-clip-path:polygon(0 0,60% 0,100% 100%,0 100%);clip-path:polygon(0 0,60% 0,100% 100%,0 100%);background:linear-gradient(37deg,#4997db,#9abdd5);opacity:.8;display:none}
 .about .section_2-cntnt-img1{position:absolute;right:10.5%;bottom:0;z-index:2}
 .about .section_2-cntnt .cntnt-bg1{position:absolute;top:5%;right:18%;z-index:1}
-.about .section_2-cntnt .cntnt-slant{position:absolute;top:0;width:560px}
+.about .section_2-cntnt .cntnt-slant{position:absolute;top:0;width:563px}
 .about .section_2-cntnt .cntnt-bg2{position:absolute;top:5%;right:17%}
 .about .section_2-cntnt .cntnt-bg3{position:absolute;top:18%;right:23.5%}
 .about .section_2-cntnt .cntnt-bgimg{position:absolute;top:0;left:0;width:100%;height:100%;display:none}
@@ -937,9 +938,9 @@ template{display:none}
 .about .section_3 .cards .cards-card-img-txt-sub{font-family:century-gothic,sans-serif;color:#fff}
 .about .section_3 .cards .cards-card-img-txt-sub p{font-size:8px;line-height:12px;letter-spacing:.26em}
 .about .section_3 .cards .cards-card-img-lnk{position:absolute;bottom:1.5%;right:0}
-.about .section_3 .cards .cards-card-img-lnk a{font-size:10px;letter-spacing:.26em;line-height:12px;color:#fff;padding:3px 20px 3px 15px;background:-webkit-gradient(linear,left top,right top,color-stop(-17%,rgba(2,82,133,0.9)),color-stop(83%,rgba(25,64,96,0.7)));background:linear-gradient(90deg,rgba(2,82,133,0.9) -17%,rgba(25,64,96,0.7) 83%)}
+.about .section_3 .cards .cards-card-img-lnk a{font-size:10px;letter-spacing:.26em;line-height:12px;color:#fff;padding:3px 20px 3px 15px;background-blend-mode:multiply;background:-webkit-gradient(linear,left top,right top,from(#2579bd),to(#2591d3));background:linear-gradient(90deg,#2579bd,#2591d3)}
 .about .section_3 .cards .cards-card-desc{border:1px solid gray;text-align:center;padding:25px 0 18px 0;background-color:#fff}
-.about .section_3 .cards .cards-card-desc-ttl{font-size:.875rem;line-height:1.5;font-weight:700;color:#1f86cb;letter-spacing:.2em}
+.about .section_3 .cards .cards-card-desc-ttl{font-size:.875rem;line-height:1.5;font-weight:700;color:#0059b4;letter-spacing:.2em}
 .about .section_3 .cards .cards-card-desc-txt{font-size:11px;color:gray;line-height:16px;font-weight:500;padding-top:13px;letter-spacing:.2em}
 .about .section_3 .bg_1{position:absolute;top:0;right:4%;z-index:-1}
 .about .section_3 .bg_2{position:absolute;top:21%;left:0;z-index:-1}
@@ -3654,6 +3655,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .about .c-banner--ttl p .br-sp{display:block}
 .about .c-banner--ttl p:nth-child(2){padding-top:15px}
 .about .section_1 .clipPath{padding:150.5px 0 190px 0;-webkit-clip-path:polygon(0 4%,100% 0,100% 100%,0 100%);clip-path:polygon(0 4%,100% 0,100% 100%,0 100%)}
+.about .section_1 .clipPath::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 75%,72% 94%,0 55%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 75%,72% 94%,0 55%,0 0,0 0);height:7.5%}
 .about .section_1-ttl{font-size:.78125rem;line-height:.8}
 .about .section_1-sub1{font-size:1.5625rem;line-height:1.5;padding:23px 0 20px 0}
 .about .section_1-sub2{font-size:.84375rem;line-height:1.4814814815}
@@ -3680,7 +3682,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .about .section_3{padding:110px 0 20px 0}
 .about .section_3 .cards .cards-card{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding-bottom:24px;border-bottom:1px dashed gray;width:100%}
 .about .section_3 .cards .cards-card:nth-child(6){border-bottom:0}
-.about .section_3 .cards .cards-card-img-lnk a{font-size:8px}
+.about .section_3 .cards .cards-card-img-lnk a{font-size:7px}
 .about .section_3 .cards .cards-card-desc{border:0;text-align:left;width:204px;padding-top:0}
 .about .section_3 .cards .cards-card-desc-ttl{font-size:1.0625rem;line-height:1.3235294118;text-align:justify}
 .about .section_3 .cards .cards-card-desc-txt{font-size:.78125rem;line-height:1.48}
