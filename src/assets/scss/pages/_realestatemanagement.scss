@@ -257,7 +257,11 @@
 
 	.sect_2 {
 		position: relative;
-		background: linear-gradient(to right, #2868b1, #3b88ca);
+		background: linear-gradient(
+			90deg,
+			rgba(51, 51, 102, 1) 0%,
+			rgba(0, 89, 182, 1) 100%
+		);
 
 		&__box-big-new {
 			position: absolute;
@@ -295,7 +299,11 @@
 			width: 100%;
 			top: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
 
@@ -312,7 +320,11 @@
 			bottom: -58px;
 			height: 60px;
 			z-index: 1;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 
@@ -661,7 +673,7 @@
 			width: 100%;
 			bottom: -61px;
 			height: 60px;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 
@@ -870,7 +882,7 @@
 	.sect_5 {
 		position: relative;
 		margin-bottom: 60px;
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c6, #000017);
 
 		&--clipbg {
 			background-color: #fff;
@@ -923,7 +935,7 @@
 			width: 100%;
 			bottom: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 100%);
 
@@ -1281,7 +1293,7 @@
 		margin-bottom: 60px;
 		padding-top: 70px;
 		padding-bottom: 33px;
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c6, #000017);
 
 		.c-cards09-desc-ttl {
 			@include is-max(430px) {
@@ -1343,7 +1355,7 @@
 			width: 100%;
 			top: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(20% 95%, 100%, 100% 100%, 0 100%, 0 0);
 
@@ -1359,7 +1371,7 @@
 			width: 100%;
 			bottom: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 			-webkit-clip-path: polygon(0 0, 100% -25%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% -25%, 100% 100%, 85% 5%, 0 98%);
 
