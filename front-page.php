@@ -5,7 +5,7 @@
             <div class="brnd-logo-sp">
                 <a class="brnd-logo-sp-link u-d-f" href="">
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
-                    <p>丸の内 株式会社ルーフ</p>
+                    <p>株式会社ルーフ</p>
                 </a>
             </div>
             <div class=" top-header-bnnr-cnt u-d-f">
@@ -654,7 +654,7 @@
     <div class="page__content top">
     </div>
 
-    <?php get_footer (); ?>
+    <?php get_footer(); ?>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -198,7 +198,7 @@
 		z-index: 999;
 		transform: translateX(-100%);
 		transition: 0.3s ease-in-out;
-		background: linear-gradient(to right, #003782, #0059b6);
+		// background: linear-gradient(to right, #003782, #0059b6);
 	}
 
 	.logo {
@@ -217,13 +217,21 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		max-width: 1200px;
+		max-width: 1100px;
 		margin: 0 auto;
 		z-index: 999;
 		height: 80px;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+
+		@include is-max(1101px){
+			padding: 0 30px;
+		}
+
+		@include is-sp{
+			padding: 0;
+		}
 
 		@include is-sp {
 			width: calc(100% - 105px);
@@ -242,23 +250,19 @@
 			display: flex;
 			width: 33.33%;
 			align-items: center;
-			padding-left: 50px;
+			padding-left: 0;
 			padding-top: 30px;
 			padding-bottom: 0;
 
-			@include is-max(980px) {
-				padding-left: 20px;
-			}
-
 			@include is-sp {
 				width: 100%;
-				padding-top: 34.5px;
+				padding: 34.5px 30px 0 30px;
 				margin-bottom: 22px;
 				padding-bottom: 0;
 			}
 
 			@include is-max(380px) {
-				padding-left: 10px;
+				padding-left: 20px;
 			}
 
 			&-link {
@@ -315,6 +319,8 @@
 			display: flex;
 			justify-content: flex-end;
 			width: 66.67%;
+			align-items: center;
+
 			@include is-sp {
 				width: 100%;
 				flex-wrap: wrap;
@@ -325,7 +331,7 @@
 				justify-content: center;
 				align-items: center;
 				flex-direction: column;
-				width: calc(100% - 150px);
+				width: calc(100% - 46px);
 				padding-right: 30px;
 				@include is-sp {
 					width: 100%;
@@ -361,7 +367,7 @@
 						}
 
 						@include is-max(390px) {
-							padding: 25px 15px;
+							padding: 25px;
 						}
 
 						&:nth-child(1),
@@ -396,6 +402,10 @@
 								letter-spacing: 0.3em;
 								width: 100%;
 								display: inline-block;
+							}
+							
+							@include is-max(470px){
+								font-size: 3vw;
 							}
 						}
 
@@ -437,7 +447,7 @@
 						}
 
 						@include is-max(390px) {
-							padding: 25px 15px;
+							padding: 25px;
 						}
 						&:nth-child(1) {
 							@include is-sp {
@@ -505,6 +515,10 @@
 							@include is-sp {
 								letter-spacing: 0.3em;
 							}
+
+							@include is-max(470px){
+								font-size: 3vw;
+							}
 						}
 
 						&-submenu {
@@ -560,13 +574,15 @@
 			}
 			&-mail {
 				background-color: pink;
-				width: 150px;
+				width: 46px;
+				height: 46px;
+
 				@include is-sp {
 					width: 80%;
 					margin: 30px auto 0;
 				}
 				&-link {
-					background-color: #b71e32;
+					background-color: #f40000;
 					width: 100%;
 					height: 100%;
 					display: block;
@@ -574,18 +590,25 @@
 					align-items: center;
 					justify-content: center;
 					flex-direction: column;
-					border-left: 1px solid #fff;
-					border-bottom: 1px solid #fff;
-					box-shadow: 0px -1px 0px 4px #b71e32;
-					-webkit-box-shadow: 0px -1px 0px 4px #b71e32;
-					-moz-box-shadow: 0px -1px 0px 4px #b71e32;
+					// border-left: 1px solid #fff;
+					// border-bottom: 1px solid #fff;
+					// box-shadow: 0px -1px 0px 4px #b71e32;
+					// -webkit-box-shadow: 0px -1px 0px 4px #b71e32;
+					// -moz-box-shadow: 0px -1px 0px 4px #b71e32;
 					@include is-sp {
-						border-right: 1px solid #fff;
-						border-top: 1px solid #fff;
-						padding: 25px 0;
+						padding: 20px 0;
+						height: auto;
+						position: relative;
+
 					}
 					.mail {
 						width: 22px;
+						position: absolute;
+						margin-top: 5px;
+
+						@include is-sp{
+							margin-left: -80px;
+						}
 					}
 					p {
 						@include font-line(14, 18);
@@ -595,8 +618,11 @@
 						text-align: center;
 						letter-spacing: 0.13em;
 						margin-top: 5px;
+						display: none;
+						
 						@include is-sp {
-							margin-top: 15px;
+							display: block;
+							margin-left: 30px;
 						}
 					}
 				}
@@ -606,7 +632,7 @@
 
 	&-close {
 		width: 105px;
-		background-color: #81b3d4;
+		background-color: #000;
 		display: none;
 		padding-top: 19px;
 
@@ -675,7 +701,7 @@
 			}
 
 			@include is-max(375px) {
-				left: 26px;
+				left: 22%;
 			}
 
 			&-link {
@@ -757,6 +783,7 @@
 				width: 96%;
 				top: 15%;
 				right: -20px;
+				background-size: cover;
 			}
 		}
 		&-cnt {

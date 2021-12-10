@@ -379,17 +379,14 @@
 }
 .p-cntct {
 	padding: 99px 0;
-	// background-image: url(../image/page/access/contact-bg.png);
+	background-image: url(../image/footer/footer_bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 
-	// @include is-sp {
-	// 	background-image: url(../image/page/access/contact-bg-sp.png);
-	// 	padding-bottom: 35px;
-	// }
-
 	@include is-sp {
+		background-image: url(../image/footer/footer_bg_sp.png);
+		background-position: center 0;
 		padding: 99px 0 20px 0;
 	}
 
@@ -632,6 +629,7 @@
 
 			@include is-sp {
 				width: 250px;
+				padding: 22px;
 			}
 
 			@include is-max(365px) {

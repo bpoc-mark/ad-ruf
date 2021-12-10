@@ -121,7 +121,7 @@
 		@include font-line(14.5, 17.5);
 		letter-spacing: 0.24em;
 		font-weight: 700;
-		padding: 35px 0 20px 35px !important;
+		padding: 35px 0 20px 76px !important;
 	}
 
 	@include is-max(375px) {
@@ -134,6 +134,7 @@
 		margin-right: 20px;
 		@include is-sp {
 			margin-right: 12.5px;
+			width: 65.5px;
 		}
 		@include is-max(500px) {
 			width: 65.5px;
