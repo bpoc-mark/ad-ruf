@@ -1,59 +1,61 @@
 .interview {
-	// color: #fff;
-	position: relative;
+    // color: #fff;
+    position: relative;
 
-	.c-banner {
-		padding: 0 0 80px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+    .c-banner {
+        padding: 0 0 80px 0;
+        background: linear-gradient(to right, #2079bd, #1e91d2);
 
-		@include is-sp {
-			padding: 0 0 80px 0;
-		}
+        @include is-sp {
+            padding: 0 0 80px 0;
+        }
 
-		@include is-max(400px) {
-			padding: 0 0 95px 0;
-		}
+        @include is-max(400px){
+            padding: 0 0 95px 0;
+        }
 
-		&--ttl {
-			line-height: 1;
-			top: 28%;
-			left: 20%;
-			text-align: left;
+        &--ttl {
+            line-height: 1;
+            top: 28%;
+            left: 20%;
+            text-align: left;
 
-			@include is-sp {
-				left: 5%;
-			}
+            @include is-sp {
+                left: 5%;
+            }
 
-			p {
-				@include font-line(59);
-				font-family: century-gothic, sans-serif;
-				font-weight: 700;
-				letter-spacing: 0.15em;
+            p {
 
-				@include is-max(1110px) {
-					font-size: 4.9vw;
-				}
+                @include font-line(59);
+                font-family: century-gothic, sans-serif;
+                font-weight: 700;
+                letter-spacing: 0.15em;
 
-				@include is-sp {
-					@include font-line(37);
-				}
+                @include is-max(1110px) {
+                    font-size: 4.9vw;
+                }
 
-				@include is-max(430px) {
-					font-size: 8.5vw;
-				}
-			}
+                @include is-sp {
+                    @include font-line(37);
+                }
 
-			img {
-				@include is-max(1110px) {
-					width: 34vw;
-				}
+                @include is-max(430px) {
+                    font-size: 8.5vw;
+                }
+            }
 
-				@include is-sp {
-					width: 50%;
-				}
-			}
-		}
-	}
+            img {
+                @include is-max(1110px) {
+                    width: 34vw;
+                }
+
+                @include is-sp {
+                    width: 50%;
+                }
+            }
+        }
+
+    }
 }
 
 .bread_crumps {

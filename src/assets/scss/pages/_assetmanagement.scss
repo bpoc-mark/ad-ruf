@@ -939,7 +939,7 @@
 			left: -5%;
 			top: 23%;
 
-			@include is-sp {
+			@include is-sp{
 				display: none;
 			}
 		}
@@ -1003,7 +1003,7 @@
 					padding-top: 15px;
 					padding-bottom: 15px;
 					text-align: justify;
-					letter-spacing: 0;
+                    letter-spacing: 0;
 
 					@include is-max(750px) {
 						padding-right: unset;
@@ -1051,10 +1051,11 @@
 							letter-spacing: 0.1em;
 						}
 
-						@include is-max(500px) {
-							letter-spacing: 0.08em;
-						}
-					}
+                        @include is-max(500px) {
+                            letter-spacing: 0.08em;
+                        }
+
+                    }
 				}
 			}
 			&--right {
