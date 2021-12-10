@@ -5,7 +5,7 @@
 			letter-spacing: 0 !important;
 			line-height: 41px;
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 7.5vw;
 			}
 		}
@@ -13,7 +13,7 @@
 		& p:last-child {
 			line-height: 45px;
 
-			@include is-sp{
+			@include is-sp {
 				line-height: 18px;
 			}
 		}
@@ -75,7 +75,7 @@
 
 	&__sub {
 		color: $color-text03;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 500;
 		letter-spacing: 0.2em;
 		line-height: 1;
@@ -330,7 +330,11 @@
 	}
 
 	&__section_5 {
-		background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+		background: linear-gradient(
+			90deg,
+			rgba(0, 55, 130, 1) 0%,
+			rgba(0, 89, 182, 1) 100%
+		) !important;
 		margin-bottom: 0 !important;
 		overflow: hidden;
 
@@ -388,7 +392,7 @@
 			letter-spacing: 0.2em;
 			line-height: 26px;
 			font-weight: 500;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 
 			@include is-max(770px) {
 				font-size: 1.1vw;
@@ -461,7 +465,7 @@
 	}
 
 	&__section_6 {
-		background: linear-gradient(to right, #003782, #0059b6) !important;
+		background: linear-gradient(to left, #0059c6, #000017) !important;
 
 		@include is-sp {
 			.sect_6__inner-realestate {

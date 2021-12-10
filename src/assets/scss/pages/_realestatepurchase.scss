@@ -3,7 +3,7 @@
 
 	.c-banner {
 		padding: 0 0 100px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c6, #000017);
 
 		@include is-sp {
 			padding: 0 0 80px 0;
@@ -34,7 +34,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c6, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -76,7 +76,7 @@
 			width: 100%;
 			top: -95px;
 			height: 100px;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 			clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 			@include is-sp {
@@ -86,7 +86,7 @@
 
 		&__center {
 			padding: 100px 0 160px 0;
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to left, #0059c6, #000017);
 
 			@include is-max(750px) {
 				padding: 75px 0;
@@ -195,7 +195,11 @@
 
 	.sect_2 {
 		position: relative;
-		background: linear-gradient(to right, #2868b1, #3b88ca);
+		background: linear-gradient(
+			90deg,
+			rgba(51, 51, 102, 1) 0%,
+			rgba(0, 89, 182, 1) 100%
+		);
 
 		&__box-big-new {
 			position: absolute;
@@ -231,7 +235,11 @@
 			width: 100%;
 			top: -59px;
 			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			);
 			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
 			@include is-sp {
@@ -247,7 +255,11 @@
 			bottom: -58px;
 			height: 60px;
 			z-index: 1;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			@include is-sp {

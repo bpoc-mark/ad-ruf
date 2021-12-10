@@ -1,26 +1,23 @@
 .rep2 {
-	
-	.c-case03__txt__sub{
+	.c-case03__txt__sub {
 		letter-spacing: 0.12em !important;
 	}
-	.rep2_s6{
-		
-		@include is-max(375px){
-			.tl{
+	.rep2_s6 {
+		@include is-max(375px) {
+			.tl {
 				text-align: left !important;
 				padding-left: 5px;
-				}
 			}
 		}
+	}
 
 	.sect_1 {
-
-		.ttl_small_sp{
-			@include is-sp{
+		.ttl_small_sp {
+			@include is-sp {
 				letter-spacing: 0.16em !important;
 			}
 
-			@include is-max(495px){
+			@include is-max(495px) {
 				font-size: 2.5vw;
 			}
 		}
@@ -58,17 +55,14 @@
 		}
 	}
 
-	.sect_2{
-		
-		.p-main_content__box1{
+	.sect_2 {
+		.p-main_content__box1 {
 			position: relative;
 		}
-
 	}
 
-	.rep2_s4{
-
-		&--text{
+	.rep2_s4 {
+		&--text {
 			letter-spacing: 0.16em !important;
 		}
 	}
@@ -80,7 +74,7 @@
 	}
 
 	.ttl_small_sp {
-		@include is-max(375px){
+		@include is-max(375px) {
 			font-size: 2.5vw !important;
 		}
 	}
@@ -103,7 +97,11 @@
 
 	&_s4 {
 		position: relative;
-		background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+		background: linear-gradient(
+			90deg,
+			rgba(51, 51, 102, 1) 0%,
+			rgba(0, 89, 182, 1) 100%
+		) !important;
 
 		@include is-sp {
 			.txt_ttl {
@@ -148,7 +146,11 @@
 			top: -59px;
 			height: 60px;
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
-			background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			) !important;
 
 			@include is-sp {
 				top: -29px;
@@ -164,7 +166,11 @@
 			height: 60px;
 			z-index: 1;
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
-			background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+			background: linear-gradient(
+				90deg,
+				rgba(51, 51, 102, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			) !important;
 
 			@include is-sp {
 				background: unset !important;
@@ -217,11 +223,11 @@
 	&_s5 {
 		padding-top: 94px;
 		padding-bottom: 80px;
-		background: linear-gradient(to right, #003782, #0059b6) !important;
+		background: linear-gradient(to left, #0059c6, #000017) !important;
 		padding-top: 165px;
 
 		&::after {
-			background: linear-gradient(to right, #003782, #0059b6) !important;
+			background: linear-gradient(to left, #0059c6, #000017) !important;
 		}
 
 		@include is-sp {
@@ -290,7 +296,11 @@
 			top: -59px;
 			height: 60px;
 			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
-			background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+			background: linear-gradient(
+				90deg,
+				rgba(0, 55, 130, 1) 0%,
+				rgba(0, 89, 182, 1) 100%
+			) !important;
 
 			@include is-sp {
 				top: -29px;
@@ -398,7 +408,7 @@
 				top: -3px;
 				height: 30px;
 				clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
-				background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+				background: linear-gradient(to left, #0059c6, #000017) !important;
 			}
 		}
 
@@ -554,7 +564,7 @@
 					padding-top: 10px;
 				}
 
-				@include is-max(360px){
+				@include is-max(360px) {
 					font-size: 8vw;
 				}
 
@@ -751,7 +761,7 @@
 		white-space: nowrap;
 
 		@include is-sp {
-			left: 35px;
+			left: 10px;
 		}
 
 		p {
