@@ -938,7 +938,7 @@
 			position: absolute;
 			left: -5%;
 			top: 23%;
-			
+
 			@include is-sp{
 				display: none;
 			}
@@ -1004,7 +1004,7 @@
 					padding-bottom: 15px;
 					text-align: justify;
                     letter-spacing: 0;
-                    
+
 					@include is-max(750px) {
 						padding-right: unset;
 						padding-top: 25px;
@@ -1054,7 +1054,7 @@
                         @include is-max(500px) {
                             letter-spacing: 0.08em;
                         }
-                        
+
                     }
 				}
 			}

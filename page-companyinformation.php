@@ -71,7 +71,7 @@ $imagedir = get_template_directory_uri();
 
                                     <div class="info_right-cont">
                                         <p>〒100-6334<br>
-                                            東京都千代田区丸の内2-4-1　<br class="u-d-n-pc">丸の内ビルディング34F 3401区 <br class="u-d-n-pc">THE PREMIER FLOOR<br></p>
+                                        東京都千代田区丸の内2-4-1　<br class="u-d-n-pc">丸の内ビルディング34F 3401区 <br class="u-d-n-pc">THE PREMIER FLOOR<br></p>
                                         <p><span class="bullets">●</span>JR 東京駅…丸の内南口徒歩1分</p>
                                         <p><span class="bullets">●</span>東京メトロ 丸の内線<span class="sp-block">…東京駅より直結</span></p>
                                         <p><span class="bullets">●</span>東京メトロ 千代田線<span class="sp-block">…二重橋駅より直結</span></p>
