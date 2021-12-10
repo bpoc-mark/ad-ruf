@@ -3,7 +3,7 @@
 
 	.c-banner {
 		padding: 0 0 100px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c6, #000017);
 
 		@include is-sp {
 			padding: 0 0 80px 0;
@@ -34,7 +34,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c6, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -794,7 +794,7 @@
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
-			bottom: 8%;
+			bottom: 60%;
 			@include is-sp {
 				display: none;
 			}
@@ -1370,8 +1370,8 @@
 
 		&__box-big-new {
 			position: absolute;
-			left: 57%;
-			top: -73%;
+			left: 70%;
+			top: -25%;
 			opacity: 0.3;
 		}
 		&__box-big-new2 {
@@ -1386,7 +1386,7 @@
 		&__box-big-new3 {
 			position: absolute;
 			right: 0;
-			bottom: 58%;
+			bottom: 75%;
 			@include is-sp {
 				display: none;
 			}
