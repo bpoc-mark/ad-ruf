@@ -642,8 +642,7 @@
 		height: 660px;
 		width: 1100px;
 		position: relative;
-		// background: linear-gradient(to right, #4a93d1, #81b3d4);
-		background: linear-gradient(to right, #003782, #81b3d4);
+		// background: linear-gradient(to right, #003782, #81b3d4);
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
@@ -736,25 +735,28 @@
 				// background: url(../../release/image/header/img-banner1-sp.png);
 				// width: 375px;
 
-				top: 10%;
+				top: 16%;
 				background: url(../../release/image/header/img-banner1-sp.png);
 				background-repeat: no-repeat;
 				background-size: contain;
-				right: -18%;
-				width: 555px;
+				right: 0;
+				width: 393px;
+				height: 76%;
 			}
 
-			@include is-max(650px) {
-				right: -23%;
-			}
+			// @include is-max(650px) {
+			// 	right: -23%;
+			// }
 
 			@include is-max(475px) {
-				right: -6%;
-				width: 446px;
+				right: 0;
+				width: 352px;
 			}
 
 			@include is-max(376px) {
-				width: 413px;
+				width: 96%;
+				top: 15%;
+				right: -20px;
 			}
 		}
 		&-cnt {
@@ -795,6 +797,11 @@
 
 			&-txt {
 				z-index: 2;
+				
+				@include is-sp{
+					margin-top: 32px;
+					width: 100%;
+				}
 
 				&-1 {
 					@include font-line(30, 41);
@@ -805,7 +812,7 @@
 
 					@include is-sp {
 						writing-mode: tb;
-						@include font-line(27.8);
+						@include font-line(27);
 					}
 
 					@include is-max (376px) {
@@ -900,6 +907,12 @@
 
 				@include is-sp {
 					display: block;
+					margin-right: 60px;
+					margin-bottom: 9px;
+				}
+
+				@include is-max(475px){
+					margin-right: 0;
 				}
 			}
 
@@ -966,7 +979,14 @@
 
 			@include is-sp {
 				background-image: url(../../release/image/header/background-bnnr-sp.png);
-				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: 0 11%;
+			}
+
+			@include is-max(432px){
+				background-size: cover;
+				background-position: 73%;
 			}
 		}
 
@@ -977,7 +997,17 @@
 			z-index: 555;
 
 			@include is-sp{
-				right: 3px;
+				right: 67px;
+				top: 80px;
+			}
+
+			@include is-max(475px){
+				right: 10%;
+			}
+
+			@include is-max(375px){
+				top: 70px;
+				right: 8%;
 			}
 
 			&-hon {
@@ -988,7 +1018,7 @@
 				color: #fff;
 
 				@include is-sp {
-					@include font-line(23.3, 64);
+					@include font-line(18, 64);
 					opacity: 0.5;
 				}
 			}
@@ -1003,12 +1033,21 @@
 			top: 83px;
 			right: 0;
 			z-index: 3;
-			// background: red;
-
+		
 			@include is-sp {
 				width: 100%;
-				top: 90px;
+				top: 132px;
+				right: 63px;
 				line-height: 1.4;
+			}
+
+			@include is-max(475px){
+				right: 9%;
+			}
+
+			@include is-max(375px){
+				right: 7%;
+				top: 118px;
 			}
 
 			&-ver {
@@ -1021,7 +1060,7 @@
 				padding-right: 7px;
 
 				@include is-sp {
-					@include font-line(23.3);
+					@include font-line(18);
 					opacity: 0.5;
 				}
 			}

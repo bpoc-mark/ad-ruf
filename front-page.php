@@ -11,7 +11,7 @@
             <div class=" top-header-bnnr-cnt u-d-f">
                 <div class="top-header-bnnr-hdr-01">
                     <div class="top-header-bnnr-hdr-cntnt01-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                     </div>
                     <div class="top-header-bnnr-hdr-01-txt">
                         <p>丸の内株式会社ルーフ</p>
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="top-header-bnnr-hdr-02-spimg">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo2.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                     </div>
                     <div class="top-header-bnnr-hdr-02-desc">
                         <div class="top-header-bnnr-hdr-02-desc-01">
@@ -556,11 +556,10 @@
                             </div>
                         </div>
                         <div class="sect_7-cntnt-rows-01">
-                            <img class="bg_9" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec7_bg_sp.png" alt="">
-                            <div class="sect_7-cntnt-rows-01-txt">
+                            <!-- <div class="sect_7-cntnt-rows-01-txt">
                                 <p>message</p>
                                 <p>選ばれし方々に選ばれ、<br> そして選ばれ続ける</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="sect_7-cntnt-rows-02">
                             <div class="sect_7-cntnt-rows-02-txt">
@@ -655,163 +654,8 @@
     <div class="page__content top">
     </div>
 
-    <div class="page__footer">
-        <div class="p-cntct cntct">
-            <div class="l-wrap cntct-wrap">
-                <div class="p-cntct-hdr">
-                    <p>contact</p>
-                    <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
-                </div>
-                <div class="p-cntct-inqrs">
-                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="info info_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/phone_i.svg" alt="">
-                        <p>お電話での<br>お問い合わせ</p>
-                    </a>
-                    <a href="#" class="info info_2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/mail_i.svg" alt="">
-                        <p>WEBでの<br>お問い合わせ</p>
-                    </a>
-                </div>
-            </div>
-            <div class="cntct-top">
-                <a class="cntct-top-link" href="#page-top">PAGE TOP</a>
-            </div>
-        </div>
-        <div class="l-wrap">
-            <div class="nav-footer">
-                <div class="nav-footer-col1 brand_logo">
-                    <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
-                    </a>
-                </div>
-                <div class="nav-footer-col2">
-                    <div class="ttl f-acc-sp">
-                        <a class="head-link" href="<?php echo esc_url(home_url('/')); ?>">RUF</a>
-                        <a class="head-icon" href="">+</a>
-                    </div>
-                    <div class="link acc-hidden">
-                        <ul class="link__inner">
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo esc_url(home_url('/')); ?>">TOP</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('privacy-policy')) ?>">プライバシーポリシー</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">バリューアップ事例</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">お問い合わせ・ご相談</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="nav-footer-col3">
-                    <div class="ttl f-acc-sp">
-                        <a class="head-link" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">事業内容</a>
-                        <a class="head-icon" href="">+</a>
-                    </div>
-                    <div class="link acc-hidden">
-                        <ul class="link__inner">
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>">収益不動産の売買</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>">収益不動産の買取</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('saleofrealestate')) ?>">収益不動産の売却</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestatemanagement')) ?>">収益不動産の管理</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('realestateoperation')) ?>">収益不動産の運用</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('assetmanagement')) ?>">アセットマネジメント</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('groupbusiness')) ?>">グループ事業 </a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="nav-footer-col4">
-                    <div class="ttl f-acc-sp">
-                        <a class="head-link" href="<?php echo get_permalink(get_page_by_path('about')) ?>">企業情報</a>
-                        <a class="head-icon" href="">+</a>
-                    </div>
-                    <div class="link acc-hidden">
-                        <ul class="link__inner">
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('message')) ?>">代表メッセージ</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">経営理念</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">会社概要</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('result')) ?>">業績</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('access ')) ?>">アクセス</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">オフィス風景</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('interview')) ?>">代表について </a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="nav-footer-col5">
-                    <div class="ttl f-acc-sp">
-                        <a class="head-link">コンテンツ</a>
-                        <a class="head-icon" href="">+</a>
-                    </div>
-                    <div class="link acc-hidden">
-                        <ul class="link__inner">
-                            <li class="c-link">
-                                <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('column')) ?>">記事一覧</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                            <li class="c-link">
-                                <a class="c-link__inner cap-sp" href="">YouTube</a>
-                                <a class="c-link__arr" href="">></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="lower-footer">
-            <p class="lower-footer-copyright">
-                Copyright © RUF Co.,Ltd. All Rights Reserved
-            </p>
-        </div>
-    </div>
+    <?php get_footer (); ?>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
