@@ -70,35 +70,11 @@
 
 	.sect_1 {
 		position: relative;
-		margin-top: 100px;
+		margin-top: 0;
+		background: linear-gradient(to right, #0059c6, #000017);
 
 		@include is-sp {
-			margin-top: 105px;
-		}
-
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			height: 21%;
-			top: 0;
-			left: 0;
-			right: 0;
-			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 19%, 0 0, 0 0);
-			background: linear-gradient(to right, #0059c6, #000017);
-			opacity: 0.4;
-			@include is-sp {
-				clip-path: polygon(
-					50% 0%,
-					100% 0,
-					100% 86%,
-					66% 100%,
-					0% 48%,
-					0% 0%,
-					0% 0%
-				);
-				height: 3%;
-			}
+			margin-top: 0;
 		}
 
 		.l-wrap {
@@ -123,15 +99,55 @@
 		}
 
 		&__center {
-			padding: 100px 0 160px 0;
+			padding: 194px 0 160px 0;
 			background: linear-gradient(to left, #0059c6, #000017);
+			clip-path: polygon(100% 0, 100% 93%, 73% 100%, 16% 93%, 0 81%, 0 11%);
+			z-index: 150;
+			position: relative;
 
-			@include is-max(750px) {
-				padding: 75px 0;
+			@include is-sp {
+				padding: 180px 0 120px 0;
+				clip-path: polygon(100% 0, 100% 89%, 17% 93%, 16% 93%, 0 86%, 0 11%);
 			}
 
 			@include is-between(750px, 767px) {
 				padding: 150px 0;
+			}
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 80%;
+				z-index: 99999;
+				top: 0;
+				left: 0;
+				right: 0;
+				clip-path: polygon(50% 0%, 100% 0, 100% 16%, 72% 33%, 0% 19%, 0 0, 0 0);
+				background: linear-gradient(to right, #0059c6, #000017);
+				opacity: 0.4;
+				@include is-sp {
+					clip-path: polygon(50% 0%, 101% 0, 100% 87%, 67% 100%, 0% 60%, 0% 0%, 0% 0%);
+					height: 19%;
+				}
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				right: 0;
+				height: 135px;
+				background: linear-gradient(to right, #0059b6, #003782);
+				clip-path: polygon(0 85%, 145% 0, 100% 100%);
+				opacity: 1;
+				width: 100%;
+
+				@include is-sp{
+					clip-path: polygon(32% 19%, 100% 61%, 21% 102%, 0 76%, 0 33%);
+					opacity: 0.4;
+				}
 			}
 		}
 
@@ -246,7 +262,11 @@
 
 	.sect_2 {
 		position: relative;
-		background: linear-gradient(to right, #2868b1, #3b88ca);
+		background: linear-gradient(to right, #003782, #0059b6);
+
+		@include is-sp{
+			margin-top: -80px;
+		}
 
 		&__box-big-new {
 			position: absolute;
@@ -258,6 +278,7 @@
 				top: 0;
 				left: auto;
 				right: 0;
+				display: none;
 			}
 		}
 
@@ -282,15 +303,15 @@
 			content: "";
 			position: absolute;
 			width: 100%;
-			top: -59px;
-			height: 60px;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
-			-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
+			top: -108px;
+			height: 123px;
+			background: linear-gradient(to right, #003782, #0059b6);
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
 			@include is-sp {
 				top: -29px;
 				height: 30px;
+				display: none;
 			}
 		}
 
@@ -301,7 +322,7 @@
 			bottom: -58px;
 			height: 60px;
 			z-index: 1;
-			background: linear-gradient(to right, #2868b1, #3b88ca);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 
@@ -847,6 +868,8 @@
 		margin-bottom: 60px;
 		background: linear-gradient(to right, #003782, #0059b6);
 
+
+
 		&--clipbg {
 			background-color: #fff;
 		}
@@ -928,6 +951,47 @@
 
 		.l-wrap {
 			position: relative;
+
+			&::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                top: 0;
+                z-index: 150;
+                height: 340px;
+                background: linear-gradient(to right, #0059C4, #000017);
+                clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 12%);
+                opacity: 0.4;
+                width: 83%;
+                right: 0;
+                @include is-max(1071px){
+                    clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 17%);
+                }
+                @include is-sp {
+                    clip-path: polygon(100% 0%, 100% 49%, 65% 67%, 0 25%);
+                    top: 0;
+                    height: 115px;
+				}
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                height: 135px;
+                background: linear-gradient(to right, #0059C4, #000017);
+                clip-path: polygon(0 71%, 30% 15%, 100% 50%, 0% 100%);
+                opacity: 0.4;
+                width: 84%;
+                    @include is-max(1071px){
+                        height: 205px;
+                        clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
+                    }
+                    @include is-sp {
+                        clip-path: polygon(0 30%, 45% 17%, 100% 76%, 0% 100%);
+                        height: 100px;
+                }
+            }
 		}
 
 		&__inner-realestate {
@@ -1140,6 +1204,9 @@
 
 		.l-wrap {
 			position: relative;
+
+
+
 		}
 
 		&__inner-realestate {
