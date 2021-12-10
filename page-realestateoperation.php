@@ -5,7 +5,8 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content realestateoperation">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/reo_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/reo_banner_sp.png" alt="">
@@ -26,7 +27,8 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__center">
             <div class="l-wrap">
                 <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png"
+                        alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
                     Real Estate Operation
@@ -36,11 +38,12 @@ $imagedir = get_template_directory_uri();
                     首都圏を中心に多数の<br class="u-d-n-pc">物件を運用しています。
                 </p>
                 <p class="header_subtext">
-                    不動産収益を向上させるには「買って終わり」ではなく、その後の運用も大切です。<br class="br-pc">
-                    丸の内ルーフでは、市場と将来を見据えた確かな運用でお客様の利益の最大化を図ります。
+                    不動産収益を向上させるには「買って終わり」ではなく、<br class="u-d-n-pc">その後の運用も大切です。<br class="br-pc">
+                    ルーフでは、市場と将来を見据えた確かな<br class="u-d-n-pc">運用でお客様の利益の最大化を図ります。
                 </p>
                 <div class="sect_1__box-big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png"
+                        alt="">
                 </div>
             </div>
         </div>
@@ -52,10 +55,12 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="sect_2__inner-realestate">
                 <div class="sect_2__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png"
+                        alt="">
                 </div>
                 <div class="sect_2__box-big-new2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png"
+                        alt="">
                 </div>
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
@@ -63,8 +68,7 @@ $imagedir = get_template_directory_uri();
                         収益不動産の運用とは
                     </p>
                     <p class="text">
-                        丸の内ルーフの収益不動産『運用』は、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデルです。大切なことは定期的に保有資産を売却して新規物件に入れ替えること、そして所有されている収益不動産の価値を保ちながら売却時期を逃さない事。この2つの要素を大切にすることにより、更に魅力的な収益不動産の取得に繋がり運用効率を高められます。
-
+                        ルーフの収益不動産『運用』は、収益不動産を最適な時期に適正な価格で購入して賃料収入を得るビジネスモデルです。大切なことは定期的に保有資産を売却して新規物件に入れ替えること、そして所有されている収益不動産の価値を保ちながら売却時期を逃さない事。この2つの要素を大切にすることにより、更に魅力的な収益不動産の取得に繋がり運用効率を高められます。
                     </p>
                     <div class="point">
                         <p class="point_ttl point_ttl--fs">
@@ -86,7 +90,8 @@ $imagedir = get_template_directory_uri();
                     </a> -->
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img1.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img1.png" alt="">
                     <!-- <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
@@ -111,8 +116,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_4">
         <div class="l-wrap">
             <div class="sect_4__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_4__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png" alt="">
@@ -125,7 +133,7 @@ $imagedir = get_template_directory_uri();
                     Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフの収益不動産<br class="u-d-n-pc">の運用3つの特徴
+                    ルーフの収益不動産<br class="u-d-n-pc">の運用3つの特徴
                 </div>
                 <div class="sect_4__header--sub">
                     ルーフがお客様の収益不動産の運用に対して、<br>
@@ -156,7 +164,8 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img2.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img2.png" alt="">
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     首都圏で多数の<br class="br-sp">不動産を運用
@@ -167,14 +176,18 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_4--boxes">
                     <div>
                         <small>01</small>
-                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img3.png" alt="">
+                        <img class="pic"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img3.png"
+                            alt="">
                         <p>世田谷区深沢<br>
-                            <span>マンション<br class="br-sp">3階建</span>
+                            <span>マンション　<br class="br-sp">3階建</span>
                         </p>
                     </div>
                     <div>
                         <small>02</small>
-                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img4.png" alt="">
+                        <img class="pic"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img4.png"
+                            alt="">
                         <p>世田谷区深沢<br>
                             <span>マンション<br>
                                 地上3階<br class="br-sp">地下1階建</span>
@@ -182,7 +195,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                     <div>
                         <small>03</small>
-                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img5.png" alt="">
+                        <img class="pic"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img5.png"
+                            alt="">
                         <p>千葉市中央区<br>
                             <span>マンション<br class="br-sp">11階建</span>
                         </p>
@@ -200,11 +215,15 @@ $imagedir = get_template_directory_uri();
     <section class="sect_5">
         <div class="l-wrap">
             <div class="sect_5__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_5__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
@@ -233,7 +252,8 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img6.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img6.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -251,8 +271,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_6">
         <div class="l-wrap">
             <div class="sect_6__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_6__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png" alt="">
@@ -285,7 +308,8 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img7.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_img7.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -308,10 +332,12 @@ $imagedir = get_template_directory_uri();
     <section class="sect_7">
         <div class="l-wrap">
             <div class="sect_7__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png"
+                    alt="">
             </div>
             <div class="sect_7__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_7--top-casestudy">
                 <div class="sect_7__eng--ttl">
@@ -321,17 +347,20 @@ $imagedir = get_template_directory_uri();
                     バリューアップ事例
                 </div>
                 <div class="sect_7__header--sub">
-                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。<br class="u-d-n-sp">お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。
+                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきたルーフ。ここではその事例の一部をご紹介します。<br
+                        class="u-d-n-sp">お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。
                 </div>
             </div>
             <div class="sect_7-cntnt">
                 <div class="sect_7-cntnt-box-big-newest2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                        alt="">
                 </div>
                 <div class="crd-wrppr">
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
@@ -340,7 +369,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
@@ -351,7 +381,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
@@ -360,7 +391,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
@@ -371,7 +403,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -380,7 +413,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
@@ -391,7 +425,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
@@ -400,7 +435,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
@@ -501,11 +537,15 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_box-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png"
+                    alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/reo_box-sp.png" alt="">
             </div>
             <div class="sect_8__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_8--top">
                 <div class="sect_8__eng--ttl">
@@ -520,35 +560,21 @@ $imagedir = get_template_directory_uri();
         <div class="sect_8--inner">
             <div class="l-wrap">
                 <div class="sect_8__box-big-new3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png"
+                        alt="">
                 </div>
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            不動産投資と株式投資の<br>
+                            違いを教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card07">
-                    <div class="c-card07__top">
-                        <p class="Question">Q</p>
-                        <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
-                        </p>
-                    </div>
-                    <div class="c-card07__bottom">
-                        <p class="Answer">A</p>
-                        <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            不動産投資は株やFXのように売買を繰り返す必要なく、賃貸に出していれば定期的な収益を見込めやすいのが特徴です。また投資目的で不動産を購入する際、銀行や信用金庫等の不動産投資ローンを活用できるため、少ない元手資金で大きな運用が狙うことができます。FXは手軽に始められることができ、不動産と比較して流動性が高く、短期間で大きな利益を手に入れることも可能ですがハイリスク・ハイリターンなため注意が必要です。
                         </p>
                     </div>
                 </div>
@@ -556,14 +582,31 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            不動産投資は節税対策に<br>
+                            なると聞きますが<br>
+                            本当でしょうか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            はい、節税対策になります。所得税・住民税・贈与税・相続税が節税可能です。不動産投資における節税対策については当社のコラム記事で詳しく記述しておりますのでご覧ください。
+                        </p>
+                    </div>
+                </div>
+                <div class="c-card07">
+                    <div class="c-card07__top">
+                        <p class="Question">Q</p>
+                        <p class="qtext">
+                            どのような方が不動産運用<br>
+                            をされていますか？
+                        </p>
+                    </div>
+                    <div class="c-card07__bottom">
+                        <p class="Answer">A</p>
+                        <p class="atext">
+                            資産家や経営者という高所得の方の他、一般のサラリーマンの方や公務員の方々など様々な方が不動産運用をされています。
+                            尚、公務員の方は副業に制限がございますが、不動産投資は資産形成の一部という認識ですので問題ございません。但し、地方団体によってはできない場合もございますので一度勤務先への確認をお勧めしております。
                         </p>
                     </div>
                 </div>
@@ -574,14 +617,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            将来売却することは<br>
+                            可能ですか
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            はい、可能です。当社には売却部門もございますので売却希望の際は責任を持ちお手伝いさせていただきます。
                         </p>
                     </div>
                 </div>
@@ -589,14 +632,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            マンション経営の利回り率は<br>
+                            どれぐらいですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            マンション経営の利回りは、物件によって異なりますが一般的におおよそ4～10％と言われています。当社は自社で収益不動産を所有しており、利回りを上げるノウハウを持っているためこの利回り数値を上げることができるようご提案いたします。
                         </p>
                     </div>
                 </div>
@@ -604,14 +647,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            不動産運用を依頼できる<br>
+                            エリアを教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom card-last">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            東京・神奈川・千葉・埼玉の首都圏エリアが中心となります。他の対応可能エリアもございますので、まずは一度ご相談ください。
                         </p>
                     </div>
                 </div>

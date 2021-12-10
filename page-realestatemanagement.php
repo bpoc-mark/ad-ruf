@@ -5,7 +5,8 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content real_estate_management">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/rem_bg_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/rem_bg_banner-sp.png" alt="">
@@ -26,7 +27,8 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__center">
             <div class="l-wrap">
                 <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-1_2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-1_2.png"
+                        alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
                     Real Estate Management
@@ -36,10 +38,12 @@ $imagedir = get_template_directory_uri();
                     不動産経営に<br class="br-sp">関わること全てサポート
                 </p>
                 <p class="header_subtext">
-                    ルーフは、豊富なバリューアップの経験を武器に<br class="br-sp">最適な不動産管理を行い、<br class="br-sp">
-                    お預かりした大切な収益不動産の価値を高めます。</p>
+                    ルーフは、豊富なバリューアップの経験を武器に<br class="u-d-n-sp br-sp">最適な不動産管理を行い、<br
+                        class="u-d-n-pc">お預かりした大切な収益不動産の価値を高めます。
+                </p>
                 <div class="sect_1__box-big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-2.png"
+                        alt="">
                 </div>
             </div>
         </div>
@@ -51,17 +55,19 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="sect_2__inner-realestate">
                 <div class="sect_2__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png"
+                        alt="">
                 </div>
                 <div class="sect_2__box-big-new2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png"
+                        alt="">
                 </div>
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         ルーフの<br>
                         収益不動産の管理とは</p>
                     <p class="text">
-                        丸の内ルーフの収益不動産『管理』ではオーナー様のお手元に毎月いくら残こせるのかをしっかり追求しております。不動産の稼働率の安定化と管理コストの効率化を常に目指すことで、表面上の利回りだけではなく『実質利回り』に拘りながらお客様の大切な資産である収益不動産の価値を守ってまいります。
+                        ルーフの収益不動産『管理』ではオーナー様のお手元に毎月いくら残こせるのかをしっかり追求しております。不動産の稼働率の安定化と管理コストの効率化を常に目指すことで、表面上の利回りだけではなく『実質利回り』に拘りながらお客様の大切な資産である収益不動産の価値を守ってまいります。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -79,7 +85,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec2.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec2.png"
+                        alt="">
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     ルーフの<br>
@@ -137,8 +145,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_4">
         <div class="l-wrap">
             <div class="sect_4__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_4__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png" alt="">
@@ -151,7 +162,7 @@ $imagedir = get_template_directory_uri();
                     Real Estate Management
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフの収益不動産の管理 3つの特徴
+                    ルーフの収益不動産の管理 3つの特徴
                 </div>
                 <div class="sect_4__header--sub">
                     ルーフがお客様の収益不動産の管理に対して、<br>
@@ -182,7 +193,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -206,11 +219,15 @@ $imagedir = get_template_directory_uri();
     <section class="sect_5">
         <div class="l-wrap">
             <div class="sect_5__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_5__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
@@ -219,7 +236,7 @@ $imagedir = get_template_directory_uri();
                         かけない
                     </p>
                     <p class="text">
-                        ルーフは、必要以上に工事を行うなど、オーナー様の不利益になることは絶対にしません。建物の改修や美観維持にコストをかければ、資産価値を高め、入居促進につながります。しかし、経費をかけ過ぎれば、不動産経営は成立しません。リフォームは、見た目重視ではなく、機能重視。ランニングコストを下げ、資産価値を上げます。また、不動産を保有する重みを知っているからこそ、オーナー様には修繕費を包み隠さずお伝えいたします。
+                        丸の内ルーフは、必要以上に工事を行うなど、オーナー様の不利益になることは絶対にしません。建物の改修や美観維持にコストをかければ、資産価値を高め、入居促進につながります。しかし、経費をかけ過ぎれば、不動産経営は成立しません。リフォームは、見た目重視ではなく、機能重視。ランニングコストを下げ、資産価値を上げます。また、不動産を保有する重みを知っているからこそ、オーナー様には修繕費を包み隠さずお伝えいたします。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -237,7 +254,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec5.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec5.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -256,8 +275,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_6">
         <div class="l-wrap">
             <div class="sect_6__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_6__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png" alt="">
@@ -290,7 +312,9 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec6.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec6.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -313,10 +337,12 @@ $imagedir = get_template_directory_uri();
     <section class="sect_7">
         <div class="l-wrap">
             <div class="sect_7__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png"
+                    alt="">
             </div>
             <div class="sect_7__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_7--top-casestudy">
                 <div class="sect_7__eng--ttl">
@@ -326,18 +352,20 @@ $imagedir = get_template_directory_uri();
                     バリューアップ事例
                 </div>
                 <div class="sect_7__header--sub">
-                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。<br class="u-d-n-sp">
+                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきたルーフ。ここではその事例の一部をご紹介します。<br class="u-d-n-sp">
                     お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。
                 </div>
             </div>
             <div class="sect_7-cntnt">
                 <div class="sect_7-cntnt-box-big-newest2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                        alt="">
                 </div>
                 <div class="crd-wrppr">
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
@@ -346,7 +374,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
@@ -357,7 +386,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
@@ -366,7 +396,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
@@ -377,7 +408,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -386,7 +418,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
@@ -397,7 +430,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
@@ -406,7 +440,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
@@ -507,22 +542,24 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png"
+                    alt="">
             </div>
             <div class="sect_8__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_8--top">
                 <div class="sect_8__eng--ttl">
                     Questions
                 </div>
                 <div class="sect_8__header u-d-n-sp">
-                    丸の内ルーフの収益不動産の売買<br class="u-d-n-sp">
+                    ルーフの収益不動産の管理<br class="u-d-n-sp">
                     よくある質問
                 </div>
                 <div class="sect_8__header u-d-n-pc">
-                    ルーフの収益不動産の売買 <br>
-                    よくある質問
+                    ルーフの収益<br>
+                    不動産の管理よくある質問
                 </div>
 
             </div>
@@ -530,35 +567,22 @@ $imagedir = get_template_directory_uri();
         <div class="sect_8--inner">
             <div class="l-wrap">
                 <div class="sect_8__box-big-new3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png"
+                        alt="">
                 </div>
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            入居者がいる状態で管理会社
+                            をRUFに変更することは可能
+                            ですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card07">
-                    <div class="c-card07__top">
-                        <p class="Question">Q</p>
-                        <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
-                        </p>
-                    </div>
-                    <div class="c-card07__bottom">
-                        <p class="Answer">A</p>
-                        <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
+                            はい、可能です。但し、条件によってお引き受けできないこともございますので、まずは一度ご相談ください。
                         </p>
                     </div>
                 </div>
@@ -566,14 +590,30 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            不動産管理を依頼できる
+                            エリアを教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
+                            東京・神奈川・千葉・埼玉の首都圏エリアが中心となります。他の対応可能エリアもございますので、まずは一度ご相談ください。
+                        </p>
+                    </div>
+                </div>
+                <div class="c-card07">
+                    <div class="c-card07__top">
+                        <p class="Question">Q</p>
+                        <p class="qtext">
+                            所有するマンションの<br class="u-d-n-sp">
+                            築年数が長いのですが、<br class="u-d-n-sp">
+                            賃貸収入は得られますか？
+                        </p>
+                    </div>
+                    <div class="c-card07__bottom">
+                        <p class="Answer">A</p>
+                        <p class="atext">
+                            築年数が経過した物件でも、適切なリニューアルを行うことで資産価値を高めることができます。当社は必要以上に工事を行うなど、オーナー様の不利益になることは致しません。機能を重視したリフォームで入居促進に繋げます。
                         </p>
                     </div>
                 </div>
@@ -584,14 +624,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            入居者募集の際の審査の
+                            内容を教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
+                            家賃滞納やトラブルを避けるため、公的身分証明書の確認やお勤め先、年収等など総合的な観点で判断いたします。またご契約時は当社スタッフが直接ご入居希望の方にお会いし、ご契約内容についてしっかり説明いたします。
                         </p>
                     </div>
                 </div>
@@ -599,14 +639,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            賃主が入居者と直接やり<br class="u-d-n-sp">
+                            取りすることはありますか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
+                            当社がお客様の代理となり、入居者様の窓口となりますのでお客様が直接やり取りすることはございません。
                         </p>
                     </div>
                 </div>
@@ -614,14 +654,16 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            この文章はダミーです<br>
-                            この文章はダミーです
+                            現在任せている不動産<br class="u-d-n-sp">
+                            管理会社の管理料が高い<br class="u-d-n-sp">
+                            気がします。見積もりを出し
+                            てもらうことは可能ですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom xb">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯◯●
+                            もちろん可能です。弊社ではお客様の不動産のご状況を踏まえながら適切な価格で管理をしております。お見積りは無料でお出しできますので、一度ご相談ください。
                         </p>
                     </div>
                 </div>

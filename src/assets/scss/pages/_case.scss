@@ -50,7 +50,7 @@
 				@include font-line(12.5);
 			}
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 3vw !important;
 			}
 
@@ -138,7 +138,7 @@
 		.c-clipbg__CS {
 			padding-bottom: 60px;
 
-			@include is-sp{
+			@include is-sp {
 				padding-bottom: 35px;
 			}
 		}
@@ -243,7 +243,6 @@
 
 .case-all {
 	&--s1_c4 {
-
 		@include is-sp {
 			padding-top: 75px;
 		}
@@ -278,7 +277,7 @@
 	}
 }
 
-.c-case03__txt{
+.c-case03__txt {
 	padding-left: 20px !important;
 }
 
