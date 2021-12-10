@@ -9,7 +9,7 @@
     .c-banner {
         padding: 0 0 80px 0;
         position: relative;
-        background: linear-gradient(to right, #2079bd, #1e91d2);
+        background: linear-gradient(to right, #0059C4,  #000017);
 
         @include is-sp {
             padding-bottom: 80px;
@@ -19,13 +19,13 @@
             padding: 0 0 95px 0;
         }
 
-        .c-ruf-txt {    
+        .c-ruf-txt {
             @include is-sp {
                 padding: 34px 0 30px 35px;
                 @include font-line(14.5,17.5);
                 letter-spacing: 0.24em;
                 font-weight: 700;
-                
+
             }
             @include is-max (375px) {
                 white-space: nowrap;
@@ -34,13 +34,13 @@
 
             @include is-max (373px) {
                 font-size: 3.8vw;
-               
+
             }
 
             img {
                 @include is-sp {
                     margin-right: 12.5px;
-                    
+
                 }
                 @include is-max (500px) {
                     width: 65.5px;
@@ -124,7 +124,7 @@
         width: 800px;
         height: 250px;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        background: linear-gradient(to right, #003782, #0059b6);
+        background: linear-gradient(to right, #0059C4,  #000017);
         position: absolute;
 		top: 0;
 		right: 0%;
@@ -141,7 +141,32 @@
         position: relative;
         z-index: 150;
 
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 38%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 6.3%, 100% 0%, 100% 16%, 72% 33%, 0% 13.2%, 10% 11.2%, 0% 13%);
+			background: linear-gradient(to right, #0059C6, #000017);
+			opacity: 0.4;
+			z-index: 151;
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 76%,
+					66% 100%,
+					0% 55%,
+					0% 0%,
+					0% 0%
+				);
+				height: 7.5%;
+			}
 
+		}
         // clip path
         .clip-top {
             margin-bottom: 50px !important;
@@ -156,10 +181,11 @@
                 padding: 90px 0 0 0;
                 clip-path: none;
             }
+
         }
         .clipPath {
             clip-path: polygon(0 5%, 100% 0, 100% 100%, 86% 95%, 0 100%) ;
-            background: linear-gradient(to right, #003782, #0059b6);
+            background: linear-gradient(to right, #000017, #0059C4);
             padding-top: 0;
             margin-top: -100px;
 
@@ -328,6 +354,7 @@
             top: 10%;
             right: 8%;
             z-index: -1;
+			display: none;
 
             @include is-sp {
                 width: 176px;
@@ -341,13 +368,11 @@
             top: 28%;
             left: -6%;
             z-index: -1;
-            opacity: 0.5;
         }
         .sec1-bg3 {
             position: absolute;
             bottom: 16%;
             right: 1%;
-            opacity: 0.5;
         }
     }
 
@@ -434,7 +459,7 @@
 
         .clipPath {
             clip-path: polygon(19% 11%, 100% 0, 100% 100%, 0 100%, 0 0);
-            background: linear-gradient(to right, #003782, #0059b6);
+            background: linear-gradient(to right, #000017, #0059C4);
             padding: 144px 0 99px 0;
 
             @include is-sp {
