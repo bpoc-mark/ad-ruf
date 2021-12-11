@@ -1,7 +1,7 @@
 .case {
 	position: relative;
 	.c-banner {
-		background: linear-gradient(to right, #2079bd, #1e91d2) !important;
+		background: linear-gradient(to right, #0059c4, #000017) !important;
 		padding: 0 0 80px 0;
 
 		@include is-max(400px) {
@@ -216,7 +216,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;

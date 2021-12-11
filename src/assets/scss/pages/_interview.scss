@@ -1,7 +1,6 @@
 .interview {
 	// color: #fff;
 	position: relative;
-	overflow-x: hidden;
 
 	.c-banner {
 		padding: 0 0 80px 0;
@@ -99,6 +98,11 @@
 			padding-top: 260px;
 			clip-path: polygon(200% 0, 100% 100%, 86% 97%, 0 100%, 0 7%);
 			background: linear-gradient(to right, #000017, #0059c4);
+
+			@include is-max(850px) {
+				clip-path: polygon(200% 2%, 100% 100%, 86% 97%, 0 100%, 0 7%);
+				margin-top: -225px;
+			}
 	
 			@include is-sp {
 				margin-top: -100px;
@@ -542,7 +546,12 @@
 	
 	.section_2 {
 		position: relative;
-		// overflow-x: hidden;
+		overflow-x: hidden;
+		padding-top: 30px;
+
+		@include is-sp {
+			padding-top: 0;
+		}
 	
 		&-cntnt {
 			position: relative;
