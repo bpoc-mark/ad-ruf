@@ -1,6 +1,7 @@
 .interview {
 	// color: #fff;
 	position: relative;
+	overflow-x: hidden;
 
 	.c-banner {
 		padding: 0 0 80px 0;
@@ -114,9 +115,9 @@
 		opacity: 0.4;
 		z-index: 1;
 
-		@include is-max(850px) {
-			top: 13px;
-		}
+		// @include is-max(850px) {
+		// 	top: 13px;
+		// }
 
 		@include is-sp {
 			clip-path: polygon(
@@ -225,7 +226,7 @@
 		justify-content: space-between;
 
 		@include is-sp {
-			padding-top: 58px;
+			padding-top: 40px;
 			padding-bottom: 90px;
 		}
 
@@ -342,6 +343,7 @@
 					@include font-line(13.5, 20);
 					letter-spacing: 0.08em;
 					padding-bottom: 25.5px;
+					padding-top: 25px;
 				}
 			}
 
@@ -580,6 +582,7 @@
 
 .section_2 {
 	position: relative;
+	// overflow-x: hidden;
 
 	&-cntnt {
 		position: relative;
@@ -622,10 +625,11 @@
 
 				&-hdr {
 					@include font-line(26, 37);
-					font-family: 500;
+					font-weight: 500;
 					font-family: yu-mincho-pr6n, sans-serif;
 					color: #013a86;
-					letter-spacing: 0.15em;
+					letter-spacing: 0.4em;
+					white-space: nowrap;
 
 					@include is-max(980px) {
 						font-size: 2.7vw;
@@ -633,6 +637,8 @@
 
 					@include is-sp {
 						@include font-line(25, 37.5);
+						white-space: unset;
+						letter-spacing: 0.15em;
 					}
 
 					@include is-max(350px) {
@@ -642,6 +648,13 @@
 					span {
 						text-indent: -13px;
 						display: inline-block;
+					}
+				}
+
+				.hdr--2 {
+					@include is-max(414px) {
+						font-size: 6vw;
+						white-space: nowrap;
 					}
 				}
 
@@ -656,7 +669,7 @@
 
 					@include is-sp {
 						@include font-line(13.5, 20);
-						padding: 17px 0 22px 0;
+						padding: 17px 0 8px 0;
 						letter-spacing: 0.1em;
 						font-family: yu-gothic-pr6n, sans-serif;
 					}
@@ -795,34 +808,99 @@
 }
 
 .section_2--2 {
-    padding-top: 100px;
-    margin-top: -100px;
-    background: #fff;
-    clip-path: polygon(86% 0, 100% 3%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 5%);
+	padding-top: 100px;
+	margin-top: -125px;
+	background: #fff;
+	clip-path: polygon(86% 0, 100% 3%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 5%);
 
-    @include is-sp {
-        clip-path: polygon(77% 2%, 100% 3%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 3.5%);
-        margin-top: -134px;
-    }
+	@include is-sp {
+		clip-path: polygon(
+			86% 2%,
+			100% 3%,
+			100% 60%,
+			100% 100%,
+			0 100%,
+			0% 60%,
+			0 3%
+		);
+		margin-top: -134px;
+	}
+
+	.section_2-cntnt-rows--last {
+		.section_2-cntnt-rows-2-txt2 {
+			padding-top: 0;
+		}
+	}
+
+	.sec2-bg2 {
+		top: 13%;
+	}
+
+	.sec2-bg3 {
+		bottom: 76%;
+	}
 }
 
 .section_3 {
 	position: relative;
+	overflow-x: hidden;
 
 	.clipPath {
-		clip-path: polygon(14% 4%, 100% 0, 100% 100%, 0 100%, 0 0);
-        // clip-path:  polygon(14% 0, 100% 100%, 86% 97%, 0 100%, 0 0%);
+		clip-path: polygon(14% 3%, 100% 0, 100% 100%, 0 100%, 0 0);
+		// clip-path:  polygon(14% 0, 100% 100%, 86% 97%, 0 100%, 0 0%);
 		background: linear-gradient(to right, #000017, #0059c4);
-		padding: 255px 0 126px 0;
+		padding: 255px 0 180px 0;
 
 		@include is-sp {
 			clip-path: polygon(14% 1%, 100% 0, 100% 100%, 0 100%, 0 0);
+			padding: 135px 0 150px 0;
 		}
 
-		// @include is-max(376px) {
-		// 	clip-path: polygon(14% 2%, 100% 0, 100% 100%, 0 100%, 0 0);
-		// 	padding: 120px 0 99px 0;
-		// }
+		&::before {
+			content: "";
+			position: absolute;
+			width: 86%;
+			height: 18%;
+			top: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 32%, 0% 17%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 80%,
+					69% 100%,
+					0% 35%,
+					0% 0%,
+					0% 0%
+				);
+				height: 3%;
+				top: 0;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			height: 190px;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(0 60%, 40% 0%, 100% 34%, 0% 100%);
+			opacity: 0.4;
+			width: 86%;
+			@include is-max(1071px) {
+				height: 279px;
+				clip-path: polygon(0 71%, 36% 43%, 100% 55%, 0% 100%);
+			}
+			@include is-sp {
+				clip-path: polygon(0 54%, 41% 41%, 100% 66%, 0% 100%);
+				height: 212px;
+			}
+		}
 	}
 
 	&-cntnt {
@@ -840,10 +918,10 @@
 				width: 470px;
 				padding-right: 30px;
 
-                @include is-sp {
-                    width: 100%;
-                    padding-right: 0;
-                }
+				@include is-sp {
+					width: 100%;
+					padding-right: 0;
+				}
 
 				// @include is-max(980px) {
 				// 	padding-right: 20px;
@@ -859,19 +937,21 @@
 					font-weight: 500;
 					font-family: yu-mincho-pr6n, sans-serif;
 					letter-spacing: 0.11em;
+					white-space: nowrap;
 
 					@include is-sp {
 						@include font-line(25, 37.5);
 					}
 
 					@include is-max(414px) {
-						font-size: 5.3vw;
+						font-size: 5.8vw;
 					}
 					@include is-max(320px) {
 						white-space: nowrap;
-                        font-size: 5.7vw;
+						font-size: 5.7vw;
 					}
 				}
+
 
 				&-txt1 {
 					@include font-line(14, 25.5);
@@ -881,12 +961,12 @@
 					color: #95c6e7;
 					padding-bottom: 8px;
 					border-bottom: 1px solid #fff;
-                    font-weight: 700;
+					font-weight: 700;
 
 					@include is-sp {
-						@include font-line(12.5, 18.5);
+						@include font-line(13.5, 18.5);
 						letter-spacing: 0.21em;
-                        font-family: yu-mincho-pr6n, sans-serif;
+						font-family: yu-mincho-pr6n, sans-serif;
 					}
 				}
 
@@ -906,7 +986,7 @@
 					@include font-line(12.93, 25);
 					font-weight: 500;
 					letter-spacing: 0.2em;
-                    padding-top: 14px;
+					padding-top: 14px;
 
 					@include is-max(977px) {
 						font-size: 1.2vw;
@@ -916,7 +996,8 @@
 						@include font-line(13.5, 20);
 						padding-top: 24.5px;
 						letter-spacing: 0.08em;
-                        padding-bottom: 25px;
+						padding-bottom: 25px;
+						text-align: justify;
 					}
 				}
 			}
@@ -925,31 +1006,37 @@
 				@include is-max(977px) {
 					width: calc(100% - 390px);
 				}
-                @include is-sp {
-                    width: 100%;
-                    img {
-                        width: 100%;
-                    }
-                }
+				@include is-sp {
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		&-rows--last {
+			@include is-sp {
+				margin-bottom: 25px;
 			}
 		}
 
 		&-rows--reverse {
 			flex-direction: row-reverse;
 
-            @include is-sp {
-                flex-direction: column;
-            }
+			@include is-sp {
+				flex-direction: column;
+			}
 
 			.section_3-cntnt-rows-1 {
 				width: 470px;
 				padding-left: 30px;
 				padding-right: 0;
 
-                @include is-sp {
-                    width: 100%;
-                    padding-left: 0;
-                }
+				@include is-sp {
+					width: 100%;
+					padding-left: 0;
+				}
 			}
 		}
 
@@ -987,5 +1074,18 @@
 		bottom: 14%;
 		left: -6%;
 		z-index: -1;
+	}
+}
+
+.section_3--2 {
+	.clipPath {
+		padding-bottom: 64px;
+		@include is-sp {
+			padding-bottom: 75px;
+		}
+
+		&::after {
+			display: none;
+		}
 	}
 }

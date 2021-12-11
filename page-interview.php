@@ -120,7 +120,7 @@ get_header(); ?>
                     <div class="u-d-f cntnt-wrppr cntnt-wrppr-reverse">
                         <div class="section_1-cntnt-1">
                             <p class="section_1-cntnt-1-txt2">
-                                次にどういう勝算がいいかを尋ねたところ、父は「今のこのバブルは蜃気楼のようなものでいずれなくなるだろう。その後は負の遺産が20年ほど続くだろう。その負の遺産を整理する時代が来るだろう」と、当時から将来を予測していたんです。私は当時スーパーカーに乗れればなんでもよかったので言われるがままに「じゃあそうするわ」と。じゃあどういうところに就職すればいいかを聞くと、「最初は大手で基本的なことを学んで、次に中堅そしてディベロッパーに行って30歳で独立したらいいんじゃないか」と。私はその通りに就職して、その後いくつかの会社で経験を積み、売買、賃貸、管理、競売という全ての業務を行えるようになりました。<br><br>
+                                次にどういう勝算がいいかを尋ねたところ、父は「今のこのバブルは蜃気楼のようなものでいずれなくなるだろう。その後は負の遺産が20年ほど続くだろう。その負の遺産を整理する時代が来るだろう」と、当時から将来を予測していたんです。私は当時スーパーカーに乗れればなんでもよかったので言われるがままに「じゃあそうするわ」と。じゃあどういうところに就職すればいいかを聞くと、「最初は大手で基本的なことを学んで、次に中堅そしてディベロッパーに行って30歳で独立したらいいんじゃないか」と。私はその通りに就職して、その後いくつかの会社で経験を積み、売買、賃貸、管理、競売という全ての業務を行えるようになりました。<br class="u-d-n-sp"><br class="u-d-n-sp">
                                 そして設立のタイミングは30歳という話があったので、しっかりとそれまで待って独立をしたんですね。なんで30歳なのかというと、「27歳では失敗する」と父に言われたんです。なぜかというと取り扱う物が不動産だから。30歳になって結婚をして守るものができて、家のローンが組めるようになってからじゃないと、上の世代は相手にしないだろうと。堅い人間になっておけば成功した後に失敗しなくなるからと。私はそんな父の言葉を信じて、本当に30歳を節目に会社を設立しました。
                             </p>
                         </div>
@@ -192,7 +192,7 @@ get_header(); ?>
                     <div class="section_2-cntnt-rows-2">
                         <p class="section_2-cntnt-rows-2-txt1 npt">他の不動産会社にない<br class="u-d-n-sp">
                             強み、違いは？</p>
-                        <p class="section_2-cntnt-rows-2-txt2">弊社が他の不動産会社さんより優れている点は、ないと思います。ただ、弊社はお客様に損をさせない会社です。過去21年間会社をやってきて、およそ不動産の売買で400件以上任されてきましたが「お客様に損をさせたことがない」と断言できます。また、当然弊社はプロフェッショナル企業なので保有時もご売却も寄り添って、最終的に損をさせないという形を貫いてきました。<br><br>
+                        <p class="section_2-cntnt-rows-2-txt2">弊社が他の不動産会社さんより優れている点は、ないと思います。ただ、弊社はお客様に損をさせない会社です。過去21年間会社をやってきて、およそ不動産の売買で400件以上任されてきましたが「お客様に損をさせたことがない」と断言できます。また、当然弊社はプロフェッショナル企業なので保有時もご売却も寄り添って、最終的に損をさせないという形を貫いてきました。<br class="u-d-n-sp"><br class="u-d-n-sp">
                             21年前のお客様もずっとお付き合いしていただいていますし、年を重ねるごとにお客様の数も増えていっています。お客様の相談、お悩みにきちんと結果を出すことが私どもの仕事であり使命だと思っています。
                         </p>
                     </div>
@@ -221,8 +221,8 @@ get_header(); ?>
                     <div class="section_3-cntnt-rows section_3-cntnt-rows--reverse u-d-f u-jc-sb">
                         <div class="section_3-cntnt-rows-1">
                             <p class="section_3-cntnt-rows-1-hdr">45歳、未経験からレーサーへ。<br>
-                                スポンサー獲得、<br>
-                                海外名門チームからのオファー。</p>
+                                スポンサー獲得、<br class="u-d-n-sp">
+                                海外名門<br class="u-d-n-pc">チームからのオファー。</p>
                             <p class="section_3-cntnt-rows-1-txt1">レースの世界に飛び込んだ理由は？</p>
 
                             <p class="section_3-cntnt-rows-1-txt2">そもそも私は学生の頃からレーサーになりたかったんです。もともと結構腕が良かったんですが、レーサーになるお金はなかった。そこで父に相談したところ不動産業界を勧められた、それが全てのスタートなんです。45歳でようやく余裕ができたのでいよいよレーサーになろうか、ということで始まりました。</p>
@@ -255,7 +255,7 @@ get_header(); ?>
                         </div>
                     </div>
 
-                    <div class="section_3-cntnt-rows u-d-f u-jc-sb">
+                    <div class="section_3-cntnt-rows section_3-cntnt-rows--last u-d-f u-jc-sb">
                         <div class="section_3-cntnt-rows-1">
                             <p class="section_3-cntnt-rows-1-txt1 npt">自分の中でやれるなって自信はあった？</p>
 
@@ -291,48 +291,56 @@ get_header(); ?>
                 <img class="sec2-bg2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2.png" alt="">
                 <img class="sec2-bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg3.png" alt="">
                 <!-- <img class="sec2-bg1-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg1_sp.png" alt=""> -->
-                <img class="sec2-bg2-sp u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_bg2_sp.png" alt="">
 
                 <div class="section_2-cntnt-rows u-d-f u-jc-sb">
                     <div class="section_2-cntnt-rows-1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img4.png" alt="">
 
                     </div>
                     <div class="section_2-cntnt-rows-2">
-                        <p class="section_2-cntnt-rows-2-hdr"><span>「お客様第一主義」を</span><br>
-                            掲げるために、<br>
-                            揺るぎない覚悟がある。</p>
-                        <p class="section_2-cntnt-rows-2-txt1">起業から実際に会社を経営してみて<br>
-                            苦労したところは？</p>
-                        <p class="section_2-cntnt-rows-2-txt2">実は苦労という苦労をあまり感じてないんです。それはどうしてかと言うと、やはりこの仕事が好きと言う点。そしてこの仕事に価値と未来を感じていて毎日を送っていることが大きいと思います。もちろん今振り返ると企業としての危機もありましたが、ただこの会社は私一人ではありません。お取引先、金融機関、お客様に支えられ、そして優秀な社員も多くいますので、みんなで一緒に荒波を乗り切ってきた。そういった企業文化があるので、「会社をやめたい」とかそういうことは考えたことがないんです。辛さも楽しさとして捉えてきたからこそ、長い航海を続けて来れたのだと思います。</p>
+                        <p class="section_2-cntnt-rows-2-hdr hdr--2"><span>「今でもプロと</span><br>
+                        走るのは苦しい」、<br>
+                        それでも第一線で戦う理由。</p>
+                        <p class="section_2-cntnt-rows-2-txt1">レースの世界で苦労した点は？</p>
+                        <p class="section_2-cntnt-rows-2-txt2">それは 「プロと戦わなければならないこと」ですね。今も苦労していますが、私はプロドライバーと戦っているので、当然彼らは速いんです。彼らと走ると遅いのでもう劣等感で、本当はコンペティションのレースには出たくないんです。ゴルフで例えるとゴルフの上手な人が全米オープンに出るのと同じことで、私は全米オープンに出てしまっているようなものなのです。</p>
                     </div>
                 </div>
 
                 <div class="section_2-cntnt-rows section_2-cntnt-rows--reverse u-d-f u-jc-sb">
                     <div class="section_2-cntnt-rows-1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img2.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img5.png" alt="">
 
                     </div>
                     <div class="section_2-cntnt-rows-2">
-                        <p class="section_2-cntnt-rows-2-txt1">企業としてお客様と接する上で<br>
-                            大切にしていることは？</p>
-                        <p class="section_2-cntnt-rows-2-txt2">月並みですが「お客様第一主義」と言うこと。お客様が言っていることは全て正しいと、それを徹底的に信じてやる。時にはお客様が無理をおっしゃる場合もあります。時には理不尽に怒られることもあります。時には不条理な価格で交渉されることもあります。私はその時こそ「お客様第一主義」を貫けるのかが問われる瞬間だと考えています。調子が良い時は「お客様第一主義」と言うことは簡単です。ところが自分が苦しくて納得いかない場合、そんな時だからこそ初心に立ち返る必要があるんです。「この価格だと厳しいから受けたくない」、そういう時って企業として多々あると思いますし弊社もあります。ただ私はそんな時に社員と一緒に話すんです。「うちはやっぱりお客様第一主義だから」、「お客様がそう言っているんだから寄り添おうじゃないか」と。納得いってるいってないじゃなくて、お客様が言うならもう仕方ない。私はそう言う時にはお客様にも正直に言います。「納得はいってないですけどお客様が言うならいいですよ」と。なぜそういったことができるかと言うと「お客様がおっしゃることが正しい」と信じているからです。弊社にお金を支払ってくれている方を信じられなければいけない。お客様のご希望を叶えたい。そういった覚悟、姿勢こそ、弊社が「お客様第一主義」と掲げられる根拠ではないでしょうか。</p>
+                        <p class="section_2-cntnt-rows-2-txt1">厳しいプロの世界に挑戦するのはなぜ？</p>
+                        <p class="section_2-cntnt-rows-2-txt2">もともとは好きで始めたものでしたがプロ化してきたので、周りに応援していただける方が増えてきたんです。道楽かプロかは、リザルト（結果）でしかないんです。私は自分を道楽ともプロとも実は思っていないんです。でも決めるのは世間です。世間は何で決めるのかと言うと、ラップタイムでしか見ないんです。私は良いラップタイムと戦績を残せるのでスポンサーが付く、スポンサーが付くということはプロということ。自分の中でも線引きがないのですが、結果が全てという世界に身を置いているので、いつの間にかそういう形になっていた、ということです。実際にプロの中で戦うのは非常に辛いですが、その中だからこそ成長できる部分があるのではないかと思っております。</p>
                     </div>
                 </div>
 
-                <div class="section_2-cntnt-rows section_2-cntnt-rows--last u-d-f u-jc-sb ">
+                <div class="section_2-cntnt-rows u-d-f u-jc-sb ">
                     <div class="section_2-cntnt-rows-1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img3.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img6.png" alt="">
 
                     </div>
                     <div class="section_2-cntnt-rows-2">
-                        <p class="section_2-cntnt-rows-2-txt1 npt">他の不動産会社にない<br class="u-d-n-sp">
-                            強み、違いは？</p>
-                        <p class="section_2-cntnt-rows-2-txt2">弊社が他の不動産会社さんより優れている点は、ないと思います。ただ、弊社はお客様に損をさせない会社です。過去21年間会社をやってきて、およそ不動産の売買で400件以上任されてきましたが「お客様に損をさせたことがない」と断言できます。また、当然弊社はプロフェッショナル企業なので保有時もご売却も寄り添って、最終的に損をさせないという形を貫いてきました。<br><br>
-                            21年前のお客様もずっとお付き合いしていただいていますし、年を重ねるごとにお客様の数も増えていっています。お客様の相談、お悩みにきちんと結果を出すことが私どもの仕事であり使命だと思っています。
+                        <p class="section_2-cntnt-rows-2-txt1 npt">レースの世界で得た経験から仕事に<br class="u-d-n-pc">生かされていることは？</p>
+                        <p class="section_2-cntnt-rows-2-txt2">レースというのは非常に激しいスポーツで、一見するとレーサーは気合いで走ってると思われがちです。ところがレースは物理の世界なんです。どんなに気合を入れても、どんなに命懸けで走っても物理の限界は超えられない。エンジン出力以上にアクセルを踏んでも出力が上がることはないですし、タイヤのグリップ力以上にグリップをあげることも事実上不可能です。そのため非常に緻密に走っています。例えばサーキットの世界で2秒のタイム差があるとします。これはレースでは「永遠」と呼ばれています。なぜかと言うと2秒差がつくと1週で120mも離れることになるからです。それが3周目では360m以上の差になって1コーナーも見えなくなるので「永遠」と呼ばれます。それをレーサーである私たちは0.1秒を縮めるための努力をします。これが会社の仕事とすごく似ているんです。1コーナーを速く走るだけではタイムは縮まりません。
                         </p>
                     </div>
                 </div>
+
+                <div class="section_2-cntnt-rows section_2-cntnt-rows--reverse section_2-cntnt-rows--last u-d-f u-jc-sb">
+                    <div class="section_2-cntnt-rows-1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec2_img7.png" alt="">
+
+                    </div>
+                    <div class="section_2-cntnt-rows-2">
+                        
+                        <p class="section_2-cntnt-rows-2-txt2">1周を速く走るためには、すべてのコーナーを丁寧に、まるでほとんどゴミのない床をひたすら何度も何度も掃除をしてチリ取りでホコリを集めるように、少しずつ少しずつ1コーナー1コーナーを丁寧に走ることで初めてタイムを縮められます。しかもそれを毎ラップ繰り返さなくてはなりません。その結果としてリザルトが残るんです。会社の仕事もそうで、一回で結果が出る事はありません。毎時間毎分毎秒の積み重ねが1日の成果を生んで、その1日の積み重ねが一週間単位、一ヶ月単位の結果に繋がります。レースをやっていると時間と生産性のことばかり考えます。だから仕事でも毎日出勤してから退勤するまでが勝負で、この1日が今期の売上につながる、お客様の満足につながる。明日でもなく、来月でもないんです。朝起きてから退社するまで、お客様満足のための基本理念に則った行動ができているのか、それを常に考えています。その積み重ねでしか、会社の数字、お客様の満足はないと考えているんです。1周を大切に、ミスをしてもそれをリカバリーしてしっかりと安定した姿勢で車を走らせる。雨の日も風が強い日も。企業もそうした形で穏やかな経営ができたら、と考えています。</p>
+                    </div>
+                </div>
+
+                
                 <!-- <div class="u-d-f section_2-cntnt-btns">
             <a class="c-buttonCase" href="https://drive.google.com/drive/folders/1sh9HKxPjXklI2VirmBd-X74hSWeUGuHc" target="_blank">
                 <p class="txt">CARGUY／カーガイについて</p>
@@ -346,6 +354,64 @@ get_header(); ?>
             </div>
         </div>
 
+    </div>
+
+    <div class="section_3 section_3--2">
+        <div class="clipPath">
+            <div class="l-wrap">
+                <div class="section_3-cntnt">
+                    <div class="section_3-cntnt-rows section_3-cntnt-rows--reverse u-d-f u-jc-sb">
+                        <div class="section_3-cntnt-rows-1">
+                            <p class="section_3-cntnt-rows-1-hdr">仕事は人生そのものであり、<br>
+                            アイデンティティ。<br>
+                            今、木村武史が<br class="u-d-n-pc">見据えているもの。</p>
+                            <p class="section_3-cntnt-rows-1-txt1">仕事ってどういう存在</p>
+
+                            <p class="section_3-cntnt-rows-1-txt2">私にとって仕事は人生そのものであり、アイデンティティであると考えています。もし私に仕事がなかったら、私は自分が何なのかわからない。動物として家族を愛することはできるかもしれません。慈愛という気持ちはそうですね。会社を21年やってきて、木村武史という一人の人間が社会とどう共存・共栄し、これからどうやって社会と向き合っていけるのかということを考えてきました。今、私は社会に対して自分の立ち位置がどうあるべきかをわかっているつもりです。そういう意味で仕事は、私にとって社会貢献であると同時に、自分の立ち位置、アイデンティティがわかるものであると思っています。お客様からの信用も、新卒入社してくれる社員からの信用も、木村武史というアイデンティティーを数値化して判断してくれていると思っています。仕事を単なる仕事とは捉えていません。仕事は、私が木村武史として生きてきて、そして死ぬまでの間にどうやって社会との接点を作り、どういった社会貢献をしてきたのかを推し量る唯一のものだと考えています。</p>
+                        </div>
+                        <div class="section_3-cntnt-rows-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img5.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="section_3-cntnt-rows u-d-f u-jc-sb">
+                        <div class="section_3-cntnt-rows-1">
+                            <p class="section_3-cntnt-rows-1-txt1 npt">創業期から現在までの変化は？</p>
+
+                            <p class="section_3-cntnt-rows-1-txt2">信用の大きさが格段に上がったと思います。最初は平面だった信用が、今では富士山とまでは言いませんが筑波山ほどには大きくなったかなと。信用が積み重なると、そこから見える景色って全然違うんですね。下からでは見えなかったものが上からだと見える。信用が積み重なったおかげで、より大きな信用で大きな仕事ができるようになりました。それは例えば金融機関さんからの借入だったり、売主・買主様からの大型案件のご依頼だったり、優秀な社員の採用だったり、この丸の内ビルディングに入れるのもその大きな信用の後ろ盾があるからです。多くの方に支えられたおかげで、会社を始めた頃に比べて今の大きな信用が培われたのだと実感しています。</p>
+                        </div>
+                        <div class="section_3-cntnt-rows-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img6.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="section_3-cntnt-rows section_3-cntnt-rows--last section_3-cntnt-rows--reverse u-d-f u-jc-sb">
+                        <div class="section_3-cntnt-rows-1">
+                            <p class="section_3-cntnt-rows-1-txt1 npt">今後の目標は？</p>
+
+                            <p class="section_3-cntnt-rows-1-txt2">会社としては2年前から「企業規模を1,000億円にしたい」と明確に申し上げています。これは売上でも利益でもなく、資産規模。つまり取り扱う資産を1,000億円まで引き上げたいと。それくらいの規模の資産を動かせる信用を持ちたいと考えています。個人としてはル・マンで勝つこと。ル・マン24Hのウィナーになったら、私の人生のほとんどの目標を達成することになります。2つの目標を達成する為に会社は万全な体制を築いているので、今後も仕事とレースにアクセル全開で挑んでいきたいと思います。</p>
+                        </div>
+                        <div class="section_3-cntnt-rows-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-img7.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="u-d-f section_3-cntnt-btns">
+                        <a class="c-buttonCase" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
+                            <p class="txt">ルーフの事業内容を見る</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                        </a>
+                        <a class="c-buttonCase" href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">
+                            <p class="txt">経営理念を見る</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
+                        </a>
+                    </div>
+
+                    <!-- <img class="sec3-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg1.png" alt="">
+                    <img class="sec3-bg2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview/sec3-bg2.png" alt=""> -->
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>
