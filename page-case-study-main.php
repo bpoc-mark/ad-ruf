@@ -29,9 +29,9 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="bg_1" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <p class="section_1__ttl">Case Studies</p>
-            <h1 class="c-case01__title">丸の内ルーフの<br class="u-d-n-pc">バリューアップは<br class="u-d-n-pc">○○○○○<span class="u-d-n-pc">○○○○○</span></h1>
-            <p class="c-case01__sub">私たち丸の内ルーフは○○○○○○○○<br class="u-d-n-pc">○○○○○○○○○。<br>
-                ○○○○○○○○○○○○○<br class="u-d-n-pc">(特徴が入ります)。</p>
+            <h1 class="c-case01__title">新築に負けない価値を生み出す<br class="u-d-n-pc">ルーフのバリューアップ。</h1>
+            <p class="c-case01__sub">ルーフでは、時代のトレンドを抑えながら<br class="u-d-n-pc">その物件の持つ価値を最大限に向上させるための<br class="u-d-n-pc">バリューアップを行います。<br>
+                きめ細やかなリフォームも大型リノベーションも<br class="u-d-n-pc">おまかせください。</p>
         </div>
         <!-- //CONTENT 1 -->
         <div class="c-case--items csm_cpbtm">
@@ -264,7 +264,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="c-case03__txt u-ta-l">
                     <p class="c-case03__txt__ttl">Real estate column</p>
-                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-case03__txt__sub">不動産コラム</a>
+                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-case03__txt__sub">RUF収益不動産コラム</a>
                     <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                         情報収集をして、後悔のない不動産投資を！</p>
                 </div>

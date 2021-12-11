@@ -604,7 +604,7 @@
 			position: absolute;
 			top: 10px;
 			left: 10px;
-			background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+			background: linear-gradient(to left, #000017, #0059c4);
 			height: 62px;
 			width: 62px;
 			clip-path: polygon(0 0, 0% 100%, 100% 0);
@@ -646,7 +646,7 @@
 		letter-spacing: 0.2em;
 		font-family: yu-gothic-pr6n, sans-serif;;
 		font-weight: 700;
-		color: #258acf;
+		color: #0059B4;
 		padding: 20px 10px 30px 10px;
 
 		@include is-sp {
