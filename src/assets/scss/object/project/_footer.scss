@@ -1,813 +1,743 @@
 // footer
 .page__footer {
-    // background: linear-gradient(to right, #003782, #0059b6);
-    background: linear-gradient(to right, #000017, #0059c4);
-
-    .l-wrap {
-        @include is-sp {
-            padding: 0!important;
-        }
-    }
-    .head-link {
-        white-space: nowrap;
-    }
-
-    .cntct {
-
-
-        .p-cntct-inqrs-dtl {
-            @include is-max (1051px) {
-                margin-bottom:30px;
-            }
-        }
-
-        .phone {
-
-            &:before {
-                background: url(../image/footer/arrow-blue.png) no-repeat center !important;
-                
-            }
-        }
-
-        .line,
-        .email {
-
-            &:before {
-                background: url(../image/footer/arrow-white.png) no-repeat center !important;  
-            }
-         
-        }
-
-        &-top {
-            text-align: center;
-            position: relative;
-            bottom: -74px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: inline-block;
-
-            @include is-sp {
-                bottom: 0;
-            }
-
-            &:hover{
-                &::before{
-                    top: -30px;
-                    content: "";
-                }
-            }
-
-            
-            &:before {
-                content: '';
-                position: absolute;
-                top: -75%;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 50px;
-                height: 100%;
-                background: url(../image/footer/arrow-push.png) no-repeat center !important;
-                transition: 0.3s ease-in-out;
-            }
-
-            a {
-                color: #95C6E7;
-                letter-spacing: 0.29em;
-                @include font-line(13);
-            }
-        }
-    }
-    .cntct-wrap {
-        @include is-sp {
-            padding:0 47.5px !important;
-        }
-    }
-    .nav-footer {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 79px;
-
-        &-col1 {
-            padding-right: 100px;
-            display: flex;
-            align-items: center;
-
-            @include is-max (1090px) {
-                padding-right: 50px;
-            }
-
-
-             img {
-                width: 104px;
-                
-                @include is-sp {
-                    width: 99px;
-                }
-
-                @include is-max(575px) {
-                    width: 100px;
-                }
-             }
-
-             @include is-sp {
-                padding: 0;
-                margin-bottom:37.5px;
-             }
-
-        }
-
-        &-col2 {
-            padding-right: 35px;
-
-            @include is-max (854px) {
-                padding-right: 22px;
-            }
-
-         
-
-                .ttl {
-                    font-family: yu-gothic-pr6n, sans-serif;
-                    position: relative;
-                    margin-bottom: 49px;
-                    @include font-line(11,37);
-                    font-weight:500;
-
-                    @include is-sp {
-                        margin-bottom: 0;
-                        padding: 0 45px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        // border-bottom: 1px solid #fff;
-                        border-top: 1px solid #fff;
-                        
-                    }
-
-                    @include is-max(370px) {
-                        padding: 0 20px;
-                    }
-
-                    .head-link {
-                        color: #fff;
-                        letter-spacing: 4px;
-                        white-space: nowrap;
-                        
-                        @include is-max(985px) {
-                            font-size: 1.1vw;
-                        }
-
-                         @include is-sp {
-                            @include font-line(15, 64.5);
-                            letter-spacing: 0.28em;
-                        }
-
-             
-
-                        &:before {
-                            content: '';
-                            position: absolute;
-                            bottom:0;
-                            left: 0;
-                            height: 2px;
-                            width: 52px;
-                            background-color: #fff;
-        
-                            @include is-sp {
-                                display: none;
-                            }
-                        }
-                    }
-
-                    .head-icon {
-                        display: none;
-
-                        @include is-sp {
-                            @include font-line(13.5, 65);
-                            letter-spacing: 0.28em;
-                            display: block;
-                            color:#fff;
-                        }
-                    }
-
-                }
-                .link {
-
-                    // @include is-sp {
-                    //     transition: 0.5s;
-                    // }
-
-            
-                    
-                    .link__inner {
-                    
-                        .c-link {
-
-                            @include is-sp {
-                                display: flex;
-                                justify-content: space-between;
-                                align-items: center;
-                                border-bottom: 1px dashed #fff;
-                                padding: 0 47px 0 75px;
-                                
-                            }
-
-                            @include is-max (370px) {
-                                padding: 0 20px 0 40px;
-                            }
-                            
-        
-                            &__inner {
-                                font-family:yu-gothic-pr6n, sans-serif;
-                                letter-spacing: 2.8px;
-                                @include font-line(12,37);
-                                letter-spacing:0.26em;
-
-                                @include is-max(985px) {
-                                    font-size: 1.1vw;
-                                }
-        
-            
-                                @include is-sp {
-                                    @include font-line(12.5,50);
-                                    letter-spacing: 0.28;
-                                }
-
-                                // @include is-max(575px) {
-    
-                                //     padding-left: 30px;
-                                // }
-
-                                @include is-max(380px){
-                                    // padding-left: 15px;
-                                    letter-spacing: 0.13em;
-                                }
-                            }
-
-                            &__arr {
-                                font-size: 1.5625rem;
-                                line-height: 4;
-                                letter-spacing: 0.28;
-                                color: #fff;
-                                display:none;
-
-                                @include is-sp {
-                                    @include font-line(13.5,50);
-                                    display: block;
-                                }
-                            }
-
-                            &:last-child {
-                                border-bottom: 0;
-                            }
-                        }
-                    }
-
-                }
-
-             @include is-sp {
-                 padding: 0;
-                 width: 100%;
-             }
-        }
-
-            // accordion classes
-            .acc-hidden {
-                @include is-sp {
-                    display: none;
-                }
-            }
-
-          
-        &-col3 {
-            padding: 0 41px 0 32px;
-            border-right: 1px solid #fff;
-            border-left: 1px solid #fff;
-
-            @include is-max (1090px) {
-                padding: 15px;
-                padding-top: 0 !important;
-            }
-
-            .ttl {
-                font-family: yu-gothic-pr6n, sans-serif;
-                position: relative;
-                margin-bottom: 49px;
-                @include font-line(11,37);
-                font-weight:500;
-
-                @include is-sp {
-                    margin-bottom: 0;
-                    padding: 0 45px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    // border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
-
-                @include is-max(370px) {
-                    padding: 0 20px;
-                }
-               
-
-                .head-link { 
-                    color: #fff;
-                    letter-spacing: 4px;
-
-                      
-                    @include is-max(985px) {
-                        font-size: 1.1vw;
-                    }
-
-                    @include is-sp {
-                        @include font-line(15, 64.5);
-                        letter-spacing: 0.28em;
-                    }
-
-
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        bottom:0;
-                        left: 0;
-                        height: 2px;
-                        width: 52px;
-                        background-color: #fff;
-    
-                        @include is-sp {
-                            display: none;
-                            width: 100%;
-                        }
-                    }
-                }
-
-                .head-icon {
-                    display: none;
-                    
-                    @include is-sp {
-                        @include font-line(13.5, 65);
-                        letter-spacing: 0.28em;
-                        display: block;
-                        color:#fff;
-                    }
-                }
-
-            }
-
-            .link {
-
-                
-                // @include is-sp {
-                //     height: 0;
-                //     overflow: hidden;
-                // }
-
-                // @include is-sp {
-                //     transition: 0.5s;
-                // }
-
-        
-
-                .link__inner {
-                  
-                    .c-link {
-
-                        @include is-sp {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            border-bottom: 1px dashed #fff;
-                            padding: 0 47px 0 75px;
-                            
-                        }
-
-                        @include is-max (370px) {
-                            padding: 0 20px 0 40px;
-                        }
-                        
-    
-                        &__inner {
-                            font-family:yu-gothic-pr6n, sans-serif;
-                            letter-spacing: 2.8px;
-                            @include font-line(12,37);
-                            letter-spacing:0.26em;
-
-                            @include is-max(985px) {
-                                font-size: 1.1vw;
-                            }
-    
-        
-                            @include is-sp {
-                                @include font-line(12.5,50);
-                                letter-spacing: 0.28;
-                                
-                            }
-
-                            @include is-max(380px){
-                                letter-spacing: 0.13em;
-                            }
-                        }
-
-                         &__arr {
-                            font-size: 1.5625rem;
-                            line-height: 4;
-                            letter-spacing: 0.28;
-                            color: #fff;
-                            display:none;
-
-                            @include is-sp {
-                                @include font-line(13.5,50);
-                                display: block;
-                            }
-                         }
-
-                         &:last-child {
-                            border-bottom: 0;
-                        }
-                    }
-                }
-            }
-
-             @include is-sp {
-                padding: 0;  
-                border: none;  
-                width: 100%;
-            }
-        }
-        &-col4 {
-            padding: 0 71px 0 31px;
-            border-right: 1px solid #fff;
-
-            @include is-max (1024px) {
-                padding-right: 40px;
-            }
-
-         
-
-            @include is-sp {
-                padding: 0;
-                border: none;
-                width: 100%;
-            }
-            
-            .ttl {
-                font-family: yu-gothic-pr6n, sans-serif;
-                position: relative;
-                margin-bottom: 49px;
-                @include font-line(11,37);
-                font-weight:500;
-
-                @include is-sp {
-                    margin-bottom: 0;
-                    padding: 0 45px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    // border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
-
-                @include is-max(370px) {
-                    padding: 0 20px;
-                }
-              
-                    
-                .head-link  {
-                    color: #fff;
-                    letter-spacing: 4px;
-
-                      
-                    @include is-max(985px) {
-                        font-size: 1.1vw;
-                    }
-
-                    @include is-sp {
-                        @include font-line(15, 64.5);
-                        letter-spacing: 0.28em;
-                    }
-
-                                      
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        bottom:0;
-                        left: 0;
-                        height: 2px;
-                        width: 52px;
-                        background-color: #fff;
-
-                        @include is-sp {
-                            display: none;
-                            width: 100%;
-                        }
-                    }
-                    
-                }
-
-                .head-icon {
-                    display: none;
-                    
-                    @include is-sp {
-                        @include font-line(13.5, 65);
-                        letter-spacing: 0.28em;
-                        display: block;
-                        color:#fff;
-                    }
-                }
-
-               
-            }
-
-            .link {
-
-                
-                // @include is-sp {
-                //     height: 0;
-                //     overflow: hidden;
-                // }
-
-                // @include is-sp {
-                //     transition: 0.5s;
-                // }
-
-            
-
-                .link__inner {
-                  
-                    .c-link {
-
-                        @include is-sp {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            border-bottom: 1px dashed #fff;
-                            padding: 0 47px 0 75px;
-                            
-                        }
-
-                        @include is-max (370px) {
-                            padding: 0 20px 0 40px;
-                        }
-                        
-    
-                        &__inner {
-                            font-family:yu-gothic-pr6n, sans-serif;
-                            letter-spacing: 2.8px;
-                            @include font-line(12,37);
-                            letter-spacing:0.26em;
-
-                            @include is-max(985px) {
-                                font-size: 1.1vw;
-                            }
-    
-        
-                            @include is-sp {
-                                @include font-line(12.5,50);
-                                letter-spacing: 0.28;
-                            }
-
-                            @include is-max(575px) {
-                                @include font-line(12.5,50);
-                            }
-
-                            @include is-max(380px){
-                                letter-spacing: 0.13em;
-                            }
-                        }
-
-                         &__arr {
-                            font-size: 1.5625rem;
-                            line-height: 4;
-                            letter-spacing: 0.28;
-                            color: #fff;
-                            display:none;
-
-                            @include is-sp {
-                                @include font-line(13.5,50);
-                                display: block;
-                            }
-                         }
-
-                         &:last-child {
-                            border-bottom: 0;
-                        }
-                    }
-                }
-            }
-        }
-
-        &-col5 {
-            padding-left: 32px;
-           
-            .ttl {
-                font-family: yu-gothic-pr6n, sans-serif;
-                position: relative;
-                margin-bottom: 49px;
-                @include font-line(11,37);
-                font-weight:500;
-
-                @include is-sp {
-                    margin: 0;
-                    padding: 0 45px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: 1px solid #fff;
-                    border-top: 1px solid #fff;
-                }
-
-                @include is-max(370px) {
-                    padding: 0 20px;
-                }
-
-                
-
-                .head-link {
-                    color: #fff;
-                    letter-spacing: 4px;
-
-                    @include is-max(985px) {
-                        font-size: 1.1vw;
-                    }
-                    @include is-max(982px) {
-                        font-size: 1.1vw;
-                    }
-                    @include is-max(980px) {
-                        font-size: 1.1vw;
-                    }
-
-                    @include is-sp {
-                        @include font-line(15, 64.5);
-                        letter-spacing: 0.28em;
-                    }
-                    @include is-max (376px) {
-                        white-space: nowrap;
-                    }
-                    
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        bottom:0;
-                        left: 0;
-                        height: 2px;
-                        width: 52px;
-                        background-color: #fff;
-
-                        @include is-sp {
-                            display: none;
-                        }
-                    }
-                 
-                }
-
-                .head-icon {
-                    display: none;
-                    
-                    @include is-sp {
-                        @include font-line(13.5, 65);
-                        letter-spacing: 0.28em;
-                        display: block;
-                        color:#fff;
-                    }
-                }
-
-            }
-
-            .link {
-
-                
-                // @include is-sp {
-                //     height: 0;
-                //     overflow: hidden;
-                // }
-
-                // @include is-sp {
-                //     transition: 0.5s;
-                // }
-
-                
-
-                .link__inner {
-                
-                    .c-link {
-
-                        .ad-txt-sp{
-                            display: none;
-                            @include is-sp{
-                                display: inline-block;
-                            }
-                        }
-
-                        .cap-sp{
-                            @include is-sp{
-                                text-transform: uppercase;
-                            }
-                        }
-
-                        @include is-sp {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            border-bottom: 1px dashed #fff;
-                            padding: 0 47px 0 75px;
-                            
-                        }
-
-                        @include is-max (370px) {
-                            padding: 0 20px 0 40px;
-                        }
-                        
-    
-                        &__inner {
-                            font-family:yu-gothic-pr6n, sans-serif;
-                            letter-spacing: 2.8px;
-                            @include font-line(12,37);
-                            letter-spacing:0.26em;
-
-                            @include is-max(985px) {
-                                font-size: 1.1vw;
-                            }
-    
-        
-                            @include is-sp {
-                                @include font-line(12.5,50);
-                                letter-spacing: 0.28;
-                            }
-
-                            @include is-max(575px) {
-                            }
-
-                            @include is-max(380px){
-                                letter-spacing: 0.13em;
-                            }
-
-                        }
-
-                         &__arr {
-                            font-size: 1.5625rem;
-                            line-height: 4;
-                            letter-spacing: 0.28;
-                            color: #fff;
-                            display:none;
-
-                            @include is-sp {
-                                @include font-line(13.5,50);
-                                display: block;
-                            }
-                         }
-
-                        //  &:last-child {
-                        //     border-bottom: 0;
-                        // }
-                    }
-                }
-            }
-
-             @include is-sp {
-                padding: 0;    
-                width: 100%;
-
-            }
-        }
-
-        @include is-sp {
-            flex-direction: column;
-            align-items: center;
-            padding: 75px 0 0 0;
-        }
-
-        @include is-max(375px) {
-            padding:75px 0 0 0;
-        }
-    }
-
-    .lower-footer {
-        padding-top: 50px;
-        text-align: center;
-        padding-bottom: 25px;
-
-        &-copyright {
-            color: #fff;
-            letter-spacing: 2px;
-            font-family: yu-gothic-pr6n, sans-serif;
-            // font: 500 12px/27.5px 'cross-platform-yu-gothic';
-            font-weight: 500;
-            @include font-line(12);
-
-            @include is-sp {
-                @include font-line(13,20);
-                
-            }
-
-        }
-
-        @include is-sp {
-            padding: 39px 0 95px 0;
-        }
-
-        // @include is-max(500px) {
-        //     padding: 37px 0 30px 0;
-        // }
-    }
-
+	// background: linear-gradient(to right, #003782, #0059b6);
+	background: linear-gradient(to right, #000017, #0059c4);
+
+	.l-wrap {
+		@include is-sp {
+			padding: 0 !important;
+		}
+	}
+	.head-link {
+		white-space: nowrap;
+	}
+
+	.cntct {
+		.p-cntct-inqrs-dtl {
+			@include is-max(1051px) {
+				margin-bottom: 30px;
+			}
+		}
+
+		.phone {
+			&:before {
+				background: url(../image/footer/arrow-blue.png) no-repeat center !important;
+			}
+		}
+
+		.line,
+		.email {
+			&:before {
+				background: url(../image/footer/arrow-white.png) no-repeat center !important;
+			}
+		}
+
+		&-top {
+			text-align: center;
+			position: relative;
+			bottom: -74px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: inline-block;
+
+			@include is-sp {
+				bottom: 0;
+			}
+
+			&:hover {
+				&::before {
+					top: -30px;
+					content: "";
+				}
+			}
+
+			&:before {
+				content: "";
+				position: absolute;
+				top: -75%;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 50px;
+				height: 100%;
+				background: url(../image/footer/arrow-push.png) no-repeat center !important;
+				transition: 0.3s ease-in-out;
+			}
+
+			a {
+				color: #95c6e7;
+				letter-spacing: 0.29em;
+				@include font-line(13);
+			}
+		}
+	}
+	.cntct-wrap {
+		@include is-sp {
+			padding: 0 47.5px !important;
+		}
+	}
+	.nav-footer {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 79px;
+
+		&-col1 {
+			padding-right: 100px;
+			display: flex;
+			align-items: center;
+
+			@include is-max(1090px) {
+				padding-right: 50px;
+			}
+
+			img {
+				width: 104px;
+
+				@include is-sp {
+					width: 99px;
+				}
+
+				@include is-max(575px) {
+					width: 100px;
+				}
+			}
+
+			@include is-sp {
+				padding: 0;
+				margin-bottom: 37.5px;
+			}
+		}
+
+		&-col2 {
+			padding-right: 35px;
+
+			@include is-max(854px) {
+				padding-right: 22px;
+			}
+
+			.ttl {
+				font-family: yu-gothic-pr6n, sans-serif;
+				position: relative;
+				margin-bottom: 49px;
+				@include font-line(11, 37);
+				font-weight: 500;
+
+				@include is-sp {
+					margin-bottom: 0;
+					padding: 0 45px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					// border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+				}
+
+				@include is-max(370px) {
+					padding: 0 20px;
+				}
+
+				.head-link {
+					color: #fff;
+					letter-spacing: 4px;
+					white-space: nowrap;
+
+					@include is-max(985px) {
+						font-size: 1.1vw;
+					}
+
+					@include is-sp {
+						@include font-line(15, 64.5);
+						letter-spacing: 0.28em;
+					}
+
+					&:before {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						height: 2px;
+						width: 52px;
+						background-color: #fff;
+
+						@include is-sp {
+							display: none;
+						}
+					}
+				}
+
+				.head-icon {
+					display: none;
+
+					@include is-sp {
+						@include font-line(13.5, 65);
+						letter-spacing: 0.28em;
+						display: block;
+						color: #fff;
+						pointer-events: none;
+					}
+				}
+			}
+			.link {
+				// @include is-sp {
+				//     transition: 0.5s;
+				// }
+
+				.link__inner {
+					.c-link {
+						@include is-sp {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							border-bottom: 1px dashed #fff;
+							padding: 0 47px 0 75px;
+						}
+
+						@include is-max(370px) {
+							padding: 0 20px 0 40px;
+						}
+
+						&__inner {
+							font-family: yu-gothic-pr6n, sans-serif;
+							letter-spacing: 2.8px;
+							@include font-line(12, 37);
+							letter-spacing: 0.26em;
+
+							@include is-max(985px) {
+								font-size: 1.1vw;
+							}
+
+							@include is-sp {
+								@include font-line(12.5, 50);
+								letter-spacing: 0.28;
+							}
+
+							// @include is-max(575px) {
+
+							//     padding-left: 30px;
+							// }
+
+							@include is-max(380px) {
+								// padding-left: 15px;
+								letter-spacing: 0.13em;
+							}
+						}
+
+						&__arr {
+							font-size: 1.5625rem;
+							line-height: 4;
+							letter-spacing: 0.28;
+							color: #fff;
+							display: none;
+
+							@include is-sp {
+								@include font-line(13.5, 50);
+								display: block;
+							}
+						}
+
+						&:last-child {
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+
+			@include is-sp {
+				padding: 0;
+				width: 100%;
+			}
+		}
+
+		// accordion classes
+		.acc-hidden {
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		&-col3 {
+			padding: 0 41px 0 32px;
+			border-right: 1px solid #fff;
+			border-left: 1px solid #fff;
+
+			@include is-max(1090px) {
+				padding: 15px;
+				padding-top: 0 !important;
+			}
+
+			.ttl {
+				font-family: yu-gothic-pr6n, sans-serif;
+				position: relative;
+				margin-bottom: 49px;
+				@include font-line(11, 37);
+				font-weight: 500;
+
+				@include is-sp {
+					margin-bottom: 0;
+					padding: 0 45px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					// border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+				}
+
+				@include is-max(370px) {
+					padding: 0 20px;
+				}
+
+				.head-link {
+					color: #fff;
+					letter-spacing: 4px;
+
+					@include is-max(985px) {
+						font-size: 1.1vw;
+					}
+
+					@include is-sp {
+						@include font-line(15, 64.5);
+						letter-spacing: 0.28em;
+					}
+
+					&:before {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						height: 2px;
+						width: 52px;
+						background-color: #fff;
+
+						@include is-sp {
+							display: none;
+							width: 100%;
+						}
+					}
+				}
+
+				.head-icon {
+					display: none;
+
+					@include is-sp {
+						@include font-line(13.5, 65);
+						letter-spacing: 0.28em;
+						display: block;
+						color: #fff;
+						pointer-events: none;
+					}
+				}
+			}
+
+			.link {
+				// @include is-sp {
+				//     height: 0;
+				//     overflow: hidden;
+				// }
+
+				// @include is-sp {
+				//     transition: 0.5s;
+				// }
+
+				.link__inner {
+					.c-link {
+						@include is-sp {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							border-bottom: 1px dashed #fff;
+							padding: 0 47px 0 75px;
+						}
+
+						@include is-max(370px) {
+							padding: 0 20px 0 40px;
+						}
+
+						&__inner {
+							font-family: yu-gothic-pr6n, sans-serif;
+							letter-spacing: 2.8px;
+							@include font-line(12, 37);
+							letter-spacing: 0.26em;
+
+							@include is-max(985px) {
+								font-size: 1.1vw;
+							}
+
+							@include is-sp {
+								@include font-line(12.5, 50);
+								letter-spacing: 0.28;
+							}
+
+							@include is-max(380px) {
+								letter-spacing: 0.13em;
+							}
+						}
+
+						&__arr {
+							font-size: 1.5625rem;
+							line-height: 4;
+							letter-spacing: 0.28;
+							color: #fff;
+							display: none;
+
+							@include is-sp {
+								@include font-line(13.5, 50);
+								display: block;
+							}
+						}
+
+						&:last-child {
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+
+			@include is-sp {
+				padding: 0;
+				border: none;
+				width: 100%;
+			}
+		}
+		&-col4 {
+			padding: 0 71px 0 31px;
+			border-right: 1px solid #fff;
+
+			@include is-max(1024px) {
+				padding-right: 40px;
+			}
+
+			@include is-sp {
+				padding: 0;
+				border: none;
+				width: 100%;
+			}
+
+			.ttl {
+				font-family: yu-gothic-pr6n, sans-serif;
+				position: relative;
+				margin-bottom: 49px;
+				@include font-line(11, 37);
+				font-weight: 500;
+
+				@include is-sp {
+					margin-bottom: 0;
+					padding: 0 45px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					// border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+				}
+
+				@include is-max(370px) {
+					padding: 0 20px;
+				}
+
+				.head-link {
+					color: #fff;
+					letter-spacing: 4px;
+
+					@include is-max(985px) {
+						font-size: 1.1vw;
+					}
+
+					@include is-sp {
+						@include font-line(15, 64.5);
+						letter-spacing: 0.28em;
+					}
+
+					&:before {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						height: 2px;
+						width: 52px;
+						background-color: #fff;
+
+						@include is-sp {
+							display: none;
+							width: 100%;
+						}
+					}
+				}
+
+				.head-icon {
+					display: none;
+
+					@include is-sp {
+						@include font-line(13.5, 65);
+						letter-spacing: 0.28em;
+						display: block;
+						color: #fff;
+						pointer-events: none;
+					}
+				}
+			}
+
+			.link {
+				// @include is-sp {
+				//     height: 0;
+				//     overflow: hidden;
+				// }
+
+				// @include is-sp {
+				//     transition: 0.5s;
+				// }
+
+				.link__inner {
+					.c-link {
+						@include is-sp {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							border-bottom: 1px dashed #fff;
+							padding: 0 47px 0 75px;
+						}
+
+						@include is-max(370px) {
+							padding: 0 20px 0 40px;
+						}
+
+						&__inner {
+							font-family: yu-gothic-pr6n, sans-serif;
+							letter-spacing: 2.8px;
+							@include font-line(12, 37);
+							letter-spacing: 0.26em;
+
+							@include is-max(985px) {
+								font-size: 1.1vw;
+							}
+
+							@include is-sp {
+								@include font-line(12.5, 50);
+								letter-spacing: 0.28;
+							}
+
+							@include is-max(575px) {
+								@include font-line(12.5, 50);
+							}
+
+							@include is-max(380px) {
+								letter-spacing: 0.13em;
+							}
+						}
+
+						&__arr {
+							font-size: 1.5625rem;
+							line-height: 4;
+							letter-spacing: 0.28;
+							color: #fff;
+							display: none;
+
+							@include is-sp {
+								@include font-line(13.5, 50);
+								display: block;
+							}
+						}
+
+						&:last-child {
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+
+		&-col5 {
+			padding-left: 32px;
+
+			.ttl {
+				font-family: yu-gothic-pr6n, sans-serif;
+				position: relative;
+				margin-bottom: 49px;
+				@include font-line(11, 37);
+				font-weight: 500;
+
+				@include is-sp {
+					margin: 0;
+					padding: 0 45px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					border-bottom: 1px solid #fff;
+					border-top: 1px solid #fff;
+				}
+
+				@include is-max(370px) {
+					padding: 0 20px;
+				}
+
+				.head-link {
+					color: #fff;
+					letter-spacing: 4px;
+
+					@include is-max(985px) {
+						font-size: 1.1vw;
+					}
+					@include is-max(982px) {
+						font-size: 1.1vw;
+					}
+					@include is-max(980px) {
+						font-size: 1.1vw;
+					}
+
+					@include is-sp {
+						@include font-line(15, 64.5);
+						letter-spacing: 0.28em;
+					}
+					@include is-max(376px) {
+						white-space: nowrap;
+					}
+
+					&:before {
+						content: "";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						height: 2px;
+						width: 52px;
+						background-color: #fff;
+
+						@include is-sp {
+							display: none;
+						}
+					}
+				}
+
+				.head-icon {
+					display: none;
+
+					@include is-sp {
+						@include font-line(13.5, 65);
+						letter-spacing: 0.28em;
+						display: block;
+						color: #fff;
+						pointer-events: none;
+					}
+				}
+			}
+
+			.link {
+				// @include is-sp {
+				//     height: 0;
+				//     overflow: hidden;
+				// }
+
+				// @include is-sp {
+				//     transition: 0.5s;
+				// }
+
+				.link__inner {
+					.c-link {
+						.ad-txt-sp {
+							display: none;
+							@include is-sp {
+								display: inline-block;
+							}
+						}
+
+						.cap-sp {
+							@include is-sp {
+								text-transform: uppercase;
+							}
+						}
+
+						@include is-sp {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							border-bottom: 1px dashed #fff;
+							padding: 0 47px 0 75px;
+						}
+
+						@include is-max(370px) {
+							padding: 0 20px 0 40px;
+						}
+
+						&__inner {
+							font-family: yu-gothic-pr6n, sans-serif;
+							letter-spacing: 2.8px;
+							@include font-line(12, 37);
+							letter-spacing: 0.26em;
+
+							@include is-max(985px) {
+								font-size: 1.1vw;
+							}
+
+							@include is-sp {
+								@include font-line(12.5, 50);
+								letter-spacing: 0.28;
+							}
+
+							@include is-max(575px) {
+							}
+
+							@include is-max(380px) {
+								letter-spacing: 0.13em;
+							}
+						}
+
+						&__arr {
+							font-size: 1.5625rem;
+							line-height: 4;
+							letter-spacing: 0.28;
+							color: #fff;
+							display: none;
+
+							@include is-sp {
+								@include font-line(13.5, 50);
+								display: block;
+							}
+						}
+
+						//  &:last-child {
+						//     border-bottom: 0;
+						// }
+					}
+				}
+			}
+
+			@include is-sp {
+				padding: 0;
+				width: 100%;
+			}
+		}
+
+		@include is-sp {
+			flex-direction: column;
+			align-items: center;
+			padding: 75px 0 0 0;
+		}
+
+		@include is-max(375px) {
+			padding: 75px 0 0 0;
+		}
+	}
+
+	.lower-footer {
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 25px;
+
+		&-copyright {
+			color: #fff;
+			letter-spacing: 2px;
+			font-family: yu-gothic-pr6n, sans-serif;
+			// font: 500 12px/27.5px 'cross-platform-yu-gothic';
+			font-weight: 500;
+			@include font-line(12);
+
+			@include is-sp {
+				@include font-line(13, 20);
+			}
+		}
+
+		@include is-sp {
+			padding: 39px 0 95px 0;
+		}
+
+		// @include is-max(500px) {
+		//     padding: 37px 0 30px 0;
+		// }
+	}
 }
