@@ -120,8 +120,12 @@
 	.sect_1 {
 		position: relative;
 		background: linear-gradient(to right, #0059c4, #000017);
-		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 10%, 100% 0, 100% 85%, 75% 100%, 21% 92%, 0 79%);
 		margin-top: 0;
+
+		@include is-sp{
+			clip-path: polygon(0 7vw, 100% 0, 101% 86%, 71% 88%, 15% 93%, 0 89%);
+		}
 
 			&::before {
 				content: "";
@@ -131,13 +135,27 @@
 				z-index: 150;
 				height: 120px;
 				background: linear-gradient(to right, #0059c4, #000017);
-				clip-path: polygon(100% -3%, 100% 50%, 70% 100%, 0 53%);
+				clip-path: polygon(100% -3%, 100% 50%, 70% 100%, 0 52%);
 				opacity: 0.4;
 
 				@include is-sp {
-					clip-path: polygon(100% 0%, 100% 50%, 65% 100%, 0 40%);
-					top: 0;
-					height: 100px;
+					clip-path: polygon(100% 0%, 102% 50%, 65% 72%, 0 7vw);
+				}
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				z-index: 150;
+				height: 120px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(100% 0%, 100% 57%, 77% 100%, 0 78%);
+				opacity: 0.4;
+				
+				@include is-sp{
+					clip-path: polygon(0 30%, 26% 15%, 100% 30%, 100% 66%, 15% 100%, 0 68%);
 				}
 			}
 
@@ -175,6 +193,10 @@
 		&__center {
 			padding-top: 160px;
 			background: linear-gradient(to left, #0059c6, #000017) !important;
+
+			@include is-sp{
+				padding-bottom: 115px;
+			}
 		}
 
 		&__eng_ttl {
@@ -221,6 +243,42 @@
 		}
 	}
 
+	.sect_2{
+			position: relative;
+		    margin-top: -150px;
+		    z-index: -150;
+			padding: 130px 0 10px 0;
+			clip-path: polygon(100% 0, 100% 100%, 81% 92%, 0 100%, 0 0);
+			
+			@include is-sp{
+				clip-path: polygon(100% 0, 100% 100%, 81% 98%, 0 100%, 0 0);
+				margin-top: -170px;
+				padding-bottom: 35px;
+			}
+
+		&::before{
+			display: none;
+		}
+
+		&::after{
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				width: 81%;
+				z-index: 150;
+				height: 120px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(41% -5%, 100% 59%, 100% 67%, 0 100%, 0 56%);
+				z-index: -1;
+				opacity: 0.7;
+
+				@include is-sp{
+					display: none;
+				}
+		}
+	}
+
 	&__section_2 {
 		position: relative;
 
@@ -262,6 +320,10 @@
 		// }
 	}
 
+	.sect_3{
+		
+	}
+
 	&__section_3 {
 		margin-bottom: 160px;
 		background: #fff !important;
@@ -300,10 +362,36 @@
 		}
 	}
 
+	.sect_4{
+		position: relative;
+		padding-bottom: 170px;
+		margin-bottom: 0;
+		
+		&::after{
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: 31px;
+				width: 90%;
+				right: 0;
+				z-index: 150;
+				height: 120px;
+				background: linear-gradient(to right, #0059b6, #003782) !important;
+				clip-path: polygon(0 50%, 100% 25%, 100% 114%, 87% 101%, 0 100%);
+				z-index: -1;
+				opacity: 0.7;
+
+				@include is-sp{
+					display: none;
+			}
+		}
+	}
+
 	&__section_4 {
 		padding-top: 94px;
 		padding-bottom: 80px;
 		background: linear-gradient(to left, #0059c6, #000017) !important;
+		clip-path: polygon(15% 4%, 100% 0, 100% 95%, 75% 98%, 20% 93%, 0 87%, 0 0);
 
 		@include is-sp {
 			padding-top: 60px;
@@ -697,10 +785,11 @@
 
 	.sect_2__box-big-new {
 		opacity: 0.5;
+		top: 153px;
 	}
 
 	.sect_2__box-big-new2 {
-		bottom: 4px;
+		bottom: 20px;
 		opacity: 0.8;
 	}
 }

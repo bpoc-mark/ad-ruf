@@ -278,7 +278,7 @@ $imagedir = get_template_directory_uri();
         </div>
     </section>
 
-    <section class="sect_2 sore__section_4">
+    <section class="sect_4 sore__section_4">
         <div class="l-wrap">
             <div class="sect_2__box-big-new">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
