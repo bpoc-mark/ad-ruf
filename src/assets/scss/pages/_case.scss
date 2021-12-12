@@ -33,6 +33,12 @@
 		}
 	}
 
+	.c-ruf-txt {
+		@include is-max(375px) {
+			width: 70% !important;
+		}
+	}
+
 	.bread_crumps {
 		text-align: left;
 		position: relative;
