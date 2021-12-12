@@ -34,11 +34,64 @@
 
 	.section_1 {
 		padding-bottom: 66px;
+		position: relative;
 
 		@include is-sp {
 			padding-top: 0;
 			clip-path: polygon(0 43px, 100% 12px, 100% 99%, 0% 100%);
 			padding-bottom: 40px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 266px;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 39%, 0% 20%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+	
+			// @include is-max(850px) {
+			// 	top: 13px;
+			// }
+	
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 80%,
+					69% 100%,
+					0% 43%,
+					0% 0%,
+					0% 0%
+				);
+				height: 3%;
+				top: 0;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			height: 110px;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(0 47%, 32% 0%, 100% 44%, 0% 100%);
+			opacity: 0.4;
+			@include is-max(1000px) {
+				// height: 8.8%;
+				clip-path: polygon(0 40%, 32% 0%, 100% 31%, 0% 100%);
+			}
+			@include is-sp {
+				clip-path: polygon(0 54%, 41% 30%, 100% 74%, 0% 100%);
+				height: 4%;
+			}
 		}
 	}
 
@@ -56,8 +109,8 @@
 			line-height: 32px;
 		}
 
-		@include is-max(340px) {
-			font-size: 7vw;
+		@include is-max(420px) {
+			font-size: 5.3vw;
 		}
 	}
 
@@ -91,6 +144,9 @@
 
 	.c-case--items:nth-child(4) {
 		padding-bottom: 0;
+		@include is-sp {
+			padding-bottom: 50px;
+		}
 		.l-wrap {
 			position: relative;
 		}
@@ -215,6 +271,15 @@
 
 		.u-mb-100 {
 			margin-bottom: 98px !important;
+			@include is-sp {
+				margin-bottom: 50px !important;
+			}
+		}
+	}
+
+	.c-case03__txt {
+		@include is-sp {
+			padding-left: 10px !important;
 		}
 	}
 }

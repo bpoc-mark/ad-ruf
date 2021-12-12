@@ -189,11 +189,12 @@
 					width: 100%;
 
 					.img_box {
-						background: linear-gradient(
-							90deg,
-							rgba(37, 121, 191, 1) 0%,
-							rgba(37, 147, 213, 1) 50%
-						);
+						// background: linear-gradient(
+						// 	90deg,
+						// 	rgba(37, 121, 191, 1) 0%,
+						// 	rgba(37, 147, 213, 1) 50%
+						// );
+						background: linear-gradient(to left, #000017, #0059c4);
 						width: 84px;
 						height: 84px;
 						position: absolute;
@@ -226,6 +227,10 @@
 
 							@include font-line(12.5);
 						}
+					}
+
+					.img_box_color {
+						background: linear-gradient(to right, #000017, #0059c4) !important;
 					}
 
 					.img_box--2 {
@@ -254,11 +259,12 @@
 					width: 100%;
 
 					.img_box {
-						background: linear-gradient(
-							90deg,
-							rgba(37, 121, 191, 1) 0%,
-							rgba(37, 147, 213, 1) 50%
-						);
+						// background: linear-gradient(
+						// 	90deg,
+						// 	rgba(37, 121, 191, 1) 0%,
+						// 	rgba(37, 147, 213, 1) 50%
+						// );
+						background: linear-gradient(to left, #000017, #0059c4);
 						width: 84px;
 						height: 84px;
 						position: absolute;
@@ -291,6 +297,10 @@
 
 							@include font-line(12.5);
 						}
+					}
+
+					.img_box_color {
+						background: linear-gradient(to right, #000017, #0059c4) !important;
 					}
 
 					.img_box--2 {
@@ -336,6 +346,7 @@
 
 				&__txt {
 					text-align: left;
+					color: #fff;
 
 					&.ttl {
 						font-family: yu-gothic-pr6n, sans-serif;
@@ -403,15 +414,18 @@
 					text-align: left;
 
 					.ttl {
-						color: #2d2319;
+						color: #333;
+						@include is-sp {
+							color: #000;
+						}
 					}
 
 					.sub {
-						color: #258acf;
+						color: #0059B4;
 					}
 
 					.desc {
-						color: #2d2319;
+						color: #333;
 					}
 				}
 			}
@@ -477,9 +491,9 @@
 			}
 
 			&__sub {
-				color: $color-text01;
-				font-family: yu-mincho-pr6n, sans-serif;
-				font-weight: 500;
+				color: #0059B4;
+				font-family: yu-gothic-pr6n, sans-serif;
+				font-weight: 700;
 				line-height: 1;
 				padding: 20px 0 30px 0;
 				letter-spacing: 0.3em;
@@ -569,11 +583,55 @@
 	&__btm--slant {
 		padding-bottom: 70px !important;
 		clip-path: polygon(0 65px, 100% 0, 100% 86%, 0% 100%) !important;
-		background: linear-gradient(to right, #003782, #0059b6);
-		padding-top: 50px;
+		background: linear-gradient(to right, #000017, #0059c4);
+		padding-top: 65px;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 312px;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 39%, 0% 21%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			// @include is-max(850px) {
+			// 	top: 13px;
+			// }
+
+			@include is-sp {
+				clip-path: polygon(50% 0%, 100% 0, 100% 80%, 69% 100%, 0% 46px, 0% 0%, 0% 0%);
+				height: 15.5%;
+				top: 0;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			height: 21%;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(0 47%, 32% 0%, 100% 33%, 0% 100%);
+			opacity: 0.4;
+
+			@include is-sp {
+				clip-path: polygon(0 55%, 38% 30%, 100% 71%, 0% 100%);
+				height: 21%;
+			}
+		}
 
 		@include is-sp {
 			clip-path: polygon(0 43px, 100% 12px, 100% 94%, 0% 100%) !important;
+			padding-top: 45px;
+			padding-bottom: 97px !important;
 		}
 
 		.c-case--items__contents {

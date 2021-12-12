@@ -41,7 +41,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_1">
 						<div class="img-1">
 							<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img1.png" alt="">
-							<div class="img_box">
+							<div class="img_box img_box_color">
 								<div class="img_box__txt">
 									<p class="img_box__ttl">Before</p>
 									<p class="img_box__sub">外観</p>
@@ -50,7 +50,7 @@ $imagedir = get_template_directory_uri();
 						</div>
 						<div class="img-2">
 							<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img2.png" alt="">
-							<div class="img_box">
+							<div class="img_box img_box_color">
 								<div class="img_box__txt">
 									<p class="img_box__ttl">After</p>
 									<p class="img_box__sub">外観</p>
@@ -81,7 +81,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img3.png" alt="">
-						<div class="img_box img_box--2">
+						<div class="img_box img_box--2 img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub case06__sub">エント<br>ランス</p>
@@ -90,7 +90,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img4.png" alt="">
-						<div class="img_box img_box--2">
+						<div class="img_box img_box--2 img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub case06__sub">エント<br>ランス</p>
@@ -121,7 +121,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img5.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub">ポスト</p>
@@ -130,7 +130,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img6.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub">ポスト</p>
@@ -161,7 +161,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img7.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub">ドア</p>
@@ -170,7 +170,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img8.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub">ドア</p>
@@ -201,7 +201,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img9.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub">通路</p>
@@ -210,7 +210,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img10.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub">通路</p>
@@ -241,7 +241,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img11.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub">フェンス</p>
@@ -250,7 +250,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img12.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub">フェンス</p>
@@ -281,7 +281,7 @@ $imagedir = get_template_directory_uri();
 				<div class="c-case--items__contents--row_1">
 					<div class="img-1">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img13.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">Before</p>
 								<p class="img_box__sub">駐車場</p>
@@ -290,7 +290,7 @@ $imagedir = get_template_directory_uri();
 					</div>
 					<div class="img-2">
 						<img src="<?php echo $imagedir ?>/release/image/page/case2/cs2_img14.png" alt="">
-						<div class="img_box">
+						<div class="img_box img_box_color">
 							<div class="img_box__txt">
 								<p class="img_box__ttl">After</p>
 								<p class="img_box__sub">駐車場</p>
