@@ -1,7 +1,7 @@
 .acc {
 	.c-banner {
 		padding: 0 0 80px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c4, #000017);
 
 		@include is-max(400px) {
 			padding: 0 0 95px 0;
@@ -21,16 +21,49 @@
 	position: relative;
 
 	&__section_1 {
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #000017, #0059c4);
 		clip-path: polygon(0 6%, 100% 0%, 100% 101%, 0% 100%);
 		margin-top: -100px;
 		padding-bottom: 101px;
-		padding-top: 162px;
+		padding-top: 125px;
+		position: relative;
 
 		@include is-sp {
 			padding-bottom: 101px;
 			clip-path: polygon(0 4%, 100% 1%, 100% 101%, 0% 100%);
-			padding-top: 100px;
+			padding-top: 105px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 266px;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 39%, 0% 20%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			// @include is-max(850px) {
+			// 	top: 13px;
+			// }
+
+			@include is-sp {
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 80%,
+					69% 100%,
+					0% 47%,
+					0% 0%,
+					0% 0%
+				);
+				height: 8.5%;
+				top: 0;
+			}
 		}
 
 		.l-wrap {
@@ -79,7 +112,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c4, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -464,7 +497,7 @@
 					&_left {
 						// width: calc(100% - 722px);
 						width: 230px;
-						background: linear-gradient(90deg, #2579bf 0%, #2593d5 50%);
+						background: linear-gradient(to right, #000017, #0059c4);
 						color: $color-text03;
 						display: flex;
 						align-items: center;
@@ -690,6 +723,7 @@
 		@include is-sp {
 			right: 10px;
 			width: 171px;
+			opacity: 0.4;
 		}
 	}
 
@@ -789,7 +823,11 @@
 		}
 
 		@include is-max(440px) {
-			font-size: 5.9vw;
+			font-size: 6.5vw;
+		}
+
+		@include is-max(330px) {
+			white-space: nowrap;
 		}
 	}
 

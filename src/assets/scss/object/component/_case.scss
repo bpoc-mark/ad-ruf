@@ -473,7 +473,7 @@
 	&02 {
 		&__txt {
 			padding-left: 20px;
-			border-left: 3px solid #258acf;
+			border-left: 3px solid #2759AD;
 			text-align: left;
 
 			@include is-sp {
@@ -518,8 +518,7 @@
 	&03 {
 		&__txt {
 			padding-left: 20px;
-			border-left: 3px solid #258acf;
-
+			border-left: 3px solid #2759AD;
 			@include is-sp {
 				padding-left: 10px !important;
 			}

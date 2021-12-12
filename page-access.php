@@ -5,7 +5,7 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content acc">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/access/access_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/access/access_banner_sp.png" alt="">
@@ -26,8 +26,8 @@ $imagedir = get_template_directory_uri();
             <img class="acc__bg_1 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
             <img class="acc__bg_1_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/bg_1_sp.png" alt="">
             <p class="acc__ttl">Access</p>
-            <h1 class="acc__title">丸の内ルーフの<br class="u-d-n-pc">アクセス情報</h1>
-            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> 丸の内ルーフまでのアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
+            <h1 class="acc__title">【丸の内】ルーフの<br class="u-d-n-pc">アクセス情報</h1>
+            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> ルーフまでアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
         </div>
 
         <div class="acc__main-content">
@@ -97,39 +97,6 @@ $imagedir = get_template_directory_uri();
         </div>
 
     </div>
-    <div class="page__footer">
-        <div class="p-cntct cntct acc--cntct">
-            <div class="l-wrap cntct-wrap">
-                <div class="p-cntct-hdr">
-                    <p>contact</p>
-                    <p>売却から管理改善まで、<br class="u-d-n-pc">まずはお気軽に<br class="u-d-n-pc">ご相談ください。</p>
-                </div>
-                <div class="p-cntct-inqrs">
-                    <div class="p-cntct-inqrs-dtl phone">
-                        <a class="p-cntct-inqrs-dtl-link" href="">
-                            <p>お電話でのお問い合わせ</p>
-                            <p>0120-173-602
-                                <br>
-                                受付時間：9：00～18：00<br class="u-d-n-pc">（土日祝除く）
-                            </p>
-                        </a>
-                    </div>
-                    <div class="p-cntct-inqrs-dtl line">
-                        <a class="p-cntct-inqrs-dtl-link" href="">
-                            <p>LINEお問い合わせ</p>
-                            <p>お問い合わせ24時間受付</p>
-                        </a>
-                    </div>
-                    <div class="p-cntct-inqrs-dtl email">
-                        <a class="p-cntct-inqrs-dtl-link" href="">
-                            <p>メールでのお問い合わせ</p>
-                            <p>お問い合わせフォーム<br>24時間受付</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="section_3">
         <div class="l-wrap pt100">
@@ -138,7 +105,7 @@ $imagedir = get_template_directory_uri();
 
             <div class="c-case03__txt section_3__cnt01">
                 <p class="c-case03__txt__ttl acc_ttl">Access</p>
-                <p class="c-case03__txt__sub acc_sub">東京駅から<br class="u-d-n-pc">丸の内ルーフまでの<br class="br-sp">アクセス</p>
+                <p class="c-case03__txt__sub acc_sub">東京駅から株式会社ルーフ<br class="u-d-n-pc">までのアクセス</p>
             </div>
             <img class="section_3__bg_2" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <img class="section_3__bg_3 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_14.png" alt="">
