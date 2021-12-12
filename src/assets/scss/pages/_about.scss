@@ -7,6 +7,7 @@
 
 	.c-banner {
 		padding: 0 0 50px 0;
+		background: linear-gradient(to right, #0059C4,  #000017);
 
 		&--ttl {
 
@@ -70,7 +71,7 @@
 
 		.clipPath {
 			clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
-			background: linear-gradient(to right, #003782, #0059b6);
+			background: linear-gradient(to right, #000017, #0059C4);
 			padding: 185px 0 185px 0;
 			margin-top: -70px;
 
@@ -81,6 +82,30 @@
 			@include is-sp {
 				padding: 150.5px 0 190px 0;
 				clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+			}
+			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 44%;
+				top: 0;
+				left: 0;
+				right: 0;
+				clip-path: polygon(50% 0%, 100% 0, 100% 16%, 68% 34%, 0% 16.5%, 0 0, 0 0);
+				background: linear-gradient(to right, #0059C6, #000017);
+				opacity: 0.4;
+				@include is-sp {
+					clip-path: polygon(
+						50% 0%,
+						100% 0,
+						100% 75%,
+						72% 94%,
+						0% 55%,
+						0% 0%,
+						0% 0%
+						);
+					height: 7.5%;
+				}
 			}
 		}
 
@@ -280,7 +305,7 @@
 
 		.clipPath {
 			clip-path: polygon(19% 13%, 100% 0, 100% 100%, 87% 90%, 0 99%, 0 0);
-			background: linear-gradient(to right, #2868af, #3b86c8);
+			background: linear-gradient(to right, #003782, #0059b6);
 			padding: 161px 0 161px 0;
 
 			@include is-sp {
@@ -295,7 +320,7 @@
 			display: flex;
 			justify-content: space-between;
 			color: #fff;
-			background: linear-gradient(to left, #4c92cf, #4d92cf, #4c92cf, #4a91cf, #80b1d2);
+			background: linear-gradient(90deg, #000017 0%, #001064 30%, #0059c6 100%);
 			position: relative;
 
 			@include is-max(480px){
@@ -516,7 +541,7 @@
 			.cntnt-slant {
 				position: absolute;
 				top: 0;
-				width: 560px;
+				width: 563px;
 
 				@include is-sp {
 					height: 100%;
@@ -560,7 +585,7 @@
 				}
 
 				@include is-max(705px) {
-					
+
 
 				}
 			}
@@ -599,7 +624,7 @@
 		}
 
 		.c-case02__txt__desc{
-			
+
 			@include is-max(385px){
 				font-size: 3.3vw;
 			}
@@ -695,10 +720,11 @@
 							line-height: 12px;
 							color: #fff;
 							padding: 3px 20px 3px 15px;
-							background: linear-gradient(90deg, rgba(2, 82, 133, 0.9) -17%, rgba(25, 64, 96, 0.7) 83%);
+							background-blend-mode: multiply;
+							background: linear-gradient(90deg, #2579bd, #2591d3);
 
 							@include is-sp{
-								font-size: 8px;
+								font-size: 7px;
 							}
 						}
 					}
@@ -728,7 +754,7 @@
 					&-ttl {
 						@include font-line(14, 21);
 						font-weight: 700;
-						color: #1f86cb;
+						color: #0059b4;
 						letter-spacing: 0.2em;
 
 						@include is-sp {
@@ -802,7 +828,7 @@
 			display: block;
 		}
 	}
-	
+
 	.br-sp{
 		display: none;
 

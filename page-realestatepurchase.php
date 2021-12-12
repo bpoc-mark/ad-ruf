@@ -5,7 +5,8 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content real_estate_purchase">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/real_estate_bnr_sp.png" alt="">
@@ -26,22 +27,24 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__center">
             <div class="l-wrap">
                 <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png"
+                        alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
                     Real Estate Purchase
                 </p>
                 <p class="sect_1__headers">
-                    <span class="ttl_small">丸の内ルーフは、あなたの大切な一棟マンションやアパートなどの</span> <br>
-                    収益不動産を最大限に <br class="u-d-n-pc"> 評価して買取いたします。
+                    <span class="ttl_small">ルーフは、あなたの大切な一棟マンションやアパートなどの</span><br>
+                    収益不動産を最大限に<br class="u-d-n-pc">評価して買取いたします。
                 </p>
                 <p class="header_subtext">
-                    丸の内リーフでは常にスピード感を大切にし、お客様の不動産売買ニーズに対して迅速かつ誠実に対応できるように心掛けています。<br class="u-d-n-sp">
-                    創業以来20年で500棟以上の売買をサポートしてきた豊富な実績により培ってきたノウハウをもとに、<br class="u-d-n-sp">
-                    それぞれのお客様にベストアンサーを提案します。
+                    ルーフでは常にスピード感を大切にし、お客様の不動産売買ニーズに対して迅速かつ誠実に対応できるように心掛けています。<br
+                        class="u-d-n-sp">創業以来20年で500棟以上の売買をサポートしてきた豊富な実績により培ってきたノウハウをもとに、<br
+                        class="u-d-n-sp">それぞれのお客様にベストアンサーを提案します。
                 </p>
                 <div class="sect_1__box-big">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png"
+                        alt="">
                 </div>
             </div>
         </div>
@@ -53,14 +56,16 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="sect_2__inner-realestate">
                 <div class="sect_2__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png"
+                        alt="">
                 </div>
                 <div class="sect_2__box-big-new2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png"
+                        alt="">
                 </div>
                 <div class="sect_2__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        丸の内ルーフの<br>
+                        ルーフの<br>
                         収益不動産の買取とは
                     </p>
                     <p class="text">
@@ -86,7 +91,9 @@ $imagedir = get_template_directory_uri();
                     </a>
                 </div>
                 <div class="sect_2__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1-nb.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1-nb.png"
+                        alt="">
                     <!-- <div class="c-img_box02">
                         <div class="c-img_box02--ttl">
                             見極める<br>価値を
@@ -113,7 +120,7 @@ $imagedir = get_template_directory_uri();
             <div class="sect_3__inner-realestate">
                 <div class="sect_3__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        丸の内ルーフの<br>
+                        ルーフの<br>
                         収益不動産の売却とは</p>
                     <p class="text">
                         お客様の資産背景や購入動機に合わせ、収益不動産のエキスパートが収益性の高い物件を厳選してご提案。丁寧なヒアリングと確かな目利きによって、お客様の理想を超えるようなご提案を目指します。
@@ -126,7 +133,7 @@ $imagedir = get_template_directory_uri();
                             ● <span>スピーディーなお取引</span>
                         </p>
                         <p class="point_item">
-                            ● <span>収益不動産を最大限評価</span>
+                            ● <span>収益性の高い物件の提案</span>
                         </p>
                         <p class="point_item">
                             ● <span>首都圏エリアの動向の見極め</span>
@@ -139,13 +146,14 @@ $imagedir = get_template_directory_uri();
                 </div>
                 <div class="sect_3__inner-realestate--right">
                     <div style="position: relative;">
-                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1-nb.png" alt="">
+                        <img class="pic"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/real-estate_sect1_img1_nb-2.png"
+                            alt="">
                     </div>
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     丸の内ルーフの<br>
                     収益不動産の売却とは</p>
-
             </div>
         </div>
     </section>
@@ -153,8 +161,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_4">
         <div class="l-wrap">
             <div class="sect_4__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_4__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png" alt="">
@@ -167,7 +178,7 @@ $imagedir = get_template_directory_uri();
                     Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    丸の内ルーフの収益不動産<br class="br-sp">の売買 3つの特徴
+                    ルーフの収益不動産<br class="br-sp">の売買3つの特徴
                 </div>
                 <div class="sect_4__header--sub u-d-n-sp">
                     ルーフがお客様の不動産売買ニーズに対して、<br>
@@ -186,7 +197,8 @@ $imagedir = get_template_directory_uri();
                         20年で500棟以上の買取実績
                     </p>
                     <p class="text">
-                        丸の内ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、丸の内ルーフなら1週間で完結することができます。 <span class="br-sp">※物件画像は一例です</span>
+                        ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、ルーフなら1週間で完結することができます。
+                        <span class="br-sp">※物件画像は一例です</span>
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -204,7 +216,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img1.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img1.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -216,7 +230,8 @@ $imagedir = get_template_directory_uri();
                 <p class="txt_ttl u-d-n-pc">
                     20年で500棟以上の買取実績
                 </p>
-                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>/#買取実績">
+                <a class="c-buttonREP"
+                    href="<?php echo get_permalink(get_page_by_path('realestatepurchase2')) ?>/#買取実績">
                     <p class="txt">実績を見る</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
@@ -228,21 +243,22 @@ $imagedir = get_template_directory_uri();
     <section class="sect_5">
         <div class="l-wrap">
             <div class="sect_5__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_5__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
-                    <p class="txt_ttl u-d-n-sp">
-                        売却時の <br>
-                        リフォームは不要
-                    </p>
+                    <p class="txt_ttl u-d-n-sp">売却時の<br>リフォームは不要</p>
                     <p class="text">
                         丸の内ルーフには、不動産の問題点を正常化させる「解決力」があります。例えば、築年数が古い、<br>
-                        修繕が必要、隣地との境界が曖昧、滞納者が存在するなど、物件にネガティブな条件がある場合でもご遠慮なくご相談ください。リフォームを含め、買取後に全てサポートするのでお客様のお手間が一切かかりませんr。また、必要以上の価格交渉の材料に使うこともありませんのでご安心ください。
+                        ルーフには、不動産の問題点を正常化させる「解決力」があります。例えば、築年数が古い、修繕が必要、隣地との境界が曖昧、滞納者が存在するなど、物件にネガティブな条件がある場合でもご遠慮なくご相談ください。リフォームを含め、買取後に全てサポートするのでお客様のお手間が一切かかりません。また、必要以上の価格交渉の材料に使うこともありませんのでご安心ください。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -260,7 +276,9 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_imgs_2.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_imgs_2.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -279,8 +297,11 @@ $imagedir = get_template_directory_uri();
     <section class="sect_6">
         <div class="l-wrap">
             <div class="sect_6__box-big-new">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
+                <img class="pc"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1.png" alt="">
+                <img class="sp"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png"
+                    alt="">
             </div>
             <div class="sect_6__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-2.png" alt="">
@@ -294,7 +315,7 @@ $imagedir = get_template_directory_uri();
                         買取物件をバリューアップ
                     </p>
                     <p class="text">
-                        丸の内ルーフは「仲介業者」ではありません。オーナー様や入居者様の「幸せ」をお手伝いすることを第一に考え、収益不動産を自社所有する「プロのオーナー」です。不動産買取後の「バリューアップ」はそのための手段であり私たちの強みです。費用対効果をしっかり見極めた上で、物件の問題点を解消し、資産価値を高めるための経験とノウハウがあります。
+                        ルーフは「仲介業者」ではありません。オーナー様や入居者様の「幸せ」をお手伝いすることを第一に考え、収益不動産を自社所有する「プロのオーナー」です。不動産買取後の「バリューアップ」はそのための手段であり私たちの強みです。費用対効果をしっかり見極めた上で、物件の問題点を解消し、資産価値を高めるための経験とノウハウがあります。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -313,7 +334,9 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img3.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/column_img3.png"
+                        alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -336,10 +359,12 @@ $imagedir = get_template_directory_uri();
     <section class="sect_7">
         <div class="l-wrap">
             <div class="sect_7__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png"
+                    alt="">
             </div>
             <div class="sect_7__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_7--top-casestudy">
                 <div class="sect_7__eng--ttl">
@@ -349,18 +374,20 @@ $imagedir = get_template_directory_uri();
                     バリューアップ事例
                 </div>
                 <div class="sect_7__header--sub">
-                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきた丸の内ルーフ。ここではその事例の一部をご紹介します。<br class="u-d-n-sp">
+                    20年で500棟の売買、2000戸、100テナントの管理・運用を行なってきたルーフ。ここではその事例の一部をご紹介します。<br class="u-d-n-sp">
                     お客様の物件の稼働率および資産価値の向上のため、きめ細やかなアプローチを行なっています。
                 </div>
             </div>
             <div class="sect_7-cntnt">
                 <div class="sect_7-cntnt-box-big-newest2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-2.png.png"
+                        alt="">
                 </div>
                 <div class="crd-wrppr">
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img1.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
@@ -369,7 +396,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
@@ -380,7 +408,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img2.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
@@ -389,7 +418,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
@@ -400,7 +430,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -409,7 +440,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
@@ -420,7 +452,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png"
+                                alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
@@ -429,7 +462,8 @@ $imagedir = get_template_directory_uri();
                             </a> -->
                         </div>
                         <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                            <a class="c-cards09-img-view"
+                                href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
                             <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
@@ -530,10 +564,12 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_7_box-1.png.png"
+                    alt="">
             </div>
             <div class="sect_8__box-big-new2">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png"
+                    alt="">
             </div>
             <div class="sect_8--top">
                 <div class="sect_8__eng--ttl">
@@ -553,35 +589,21 @@ $imagedir = get_template_directory_uri();
         <div class="sect_8--inner">
             <div class="l-wrap">
                 <div class="sect_8__box-big-new3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-3.png.png"
+                        alt="">
                 </div>
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            買取までどのくらいの期間<br>
-                            かかりますか?
-                        </p>
-                    </div>
-                    <div class="c-card07__bottom">
-                        <p class="Answer">A</p>
-                        <p class="atext">
-                            物件によって変動はありますが、ルーフなら最短1週間で完結することができます。経験豊富なエキスパートなので、圧倒的なスピードでの意思決定が可能です。
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card07">
-                    <div class="c-card07__top">
-                        <p class="Question">Q</p>
-                        <p class="qtext">
-                            収益物件とは<br>
+                            『収益不動産』とは<br>
                             なんですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            収益物件とは、毎月一定の賃金収入のある不動産のことをさします。そのため、ほとんどの不動産が該当します。お気軽にお問い合わせください。
+                            収益不動産とは、毎月一定の賃金収入のある不動産のことをさし、マンションやアパートなどが該当いたします。当社ではこの収益不動産の売買・管理・運用・アセットマネジメントなどに関して豊富なノウハウと実績を持っております。お困り事がございましたら、ご相談は無料ですのでお気軽に当社にお問い合わせください。
                         </p>
                     </div>
                 </div>
@@ -589,14 +611,30 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            取り扱いできない不動産は<br>
-                            ありますか？
+                            買取までどのくらいの期間<br>
+                            がかかりますか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ●●●●●●です。また築年数が古い、修繕が必要、境界非明示物件、滞納者が存在する物件の場合でもルーフでは対応可能ですので、遠慮なくご相談ください。
+                            物件によって変動はありますが、当社の場合最短1週間で完結することが可能です。（他社では平均1ヶ月程度かかります。）スピード感のある意思決定によりお手を煩わせず、経験豊富なスタッフがお客様の大切な収益不動産を最大限に評価するのが特徴です。
+                        </p>
+                    </div>
+                </div>
+                <div class="c-card07">
+                    <div class="c-card07__top">
+                        <p class="Question">Q</p>
+                        <p class="qtext">
+                            すぐに売るつもりではない
+                            ですが、<br>
+                            査定依頼はできますか？
+                        </p>
+                    </div>
+                    <div class="c-card07__bottom">
+                        <p class="Answer">A</p>
+                        <p class="atext">
+                            当社では将来を見据えたご相談なども承っております。具体的な売却時期が未定の場合でも、お気軽にご相談ください。
                         </p>
                     </div>
                 </div>
@@ -607,14 +645,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産売買の相談に必要な<br>
-                            ものはありますか？
+                            『仲介』と『買取』の違いを<br>
+                            教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            『仲介』とは、不動産会社が購入希望者様を探し、購入希望者様に不動産を購入いただく方法です。一方で『買取』とは、不動産会社が直接不動産を買取り、リフォームなどをして販売をする方法です。当社は『買取』に強みを持ち、オーナー様がお持ちの収益不動産の価値の最大化と収益の向上のために、豊富な経験とノウハウを生かして全ての業務をワンストップで提供しております。仲介のデメリットである「売れないリスク」を抱えずに、利益を最大化させることができます。
                         </p>
                     </div>
                 </div>
@@ -622,14 +660,15 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            売買完了までの流れを<br>
-                            教えてください。
+                            同時に複数の不動産会社<br class="u-d-n-sp">
+                            に査定を依頼しても
+                            よいですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            はい、可能です。大切な不動産を売却するにあたって、最も大切なポイントは良い不動産会社選びです。高額な商品だからこそ、複数の不動産会社に査定を依頼していただくことは、当然のことだと考えております。当社では最終的にご満足いただける結果になるよう、専門的な知識と技術力・スピード感を持ってサポートさせていただきます。
                         </p>
                     </div>
                 </div>
@@ -637,14 +676,14 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産売買の相談は<br>
-                            相談料はかかりますか？
+                            査定をお願いした場合は、絶対に売らないと<br class="u-d-n-sp">
+                            いけないのでしょうか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            ◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●◯◯◯◯◯◯◯◯◯●
+                            いいえ、そのようなことはありません。当社では査定価格やこれからのサポート内容をご確認いただき、オーナー様にご納得いただけた場合のみ、今後の流れについてご相談させていただきます。
                         </p>
                     </div>
                 </div>

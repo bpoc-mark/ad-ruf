@@ -4,9 +4,7 @@
 	}
 	.sect_1 {
 		position: relative;
-
 		z-index: 4;
-		// background: rgb(95, 165, 205);
 		background: linear-gradient(to right, #0059c4, #000017);
 		position: relative;
 		padding-top: 115px;
@@ -73,7 +71,7 @@
 					clip-path: polygon(100% 0%, 100% 50%, 65% 100%, 0 40%);
 					top: 0;
 					height: 100px;
-					}
+				}
 			}
 
 			&::after {

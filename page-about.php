@@ -7,7 +7,7 @@ $imagedir = get_template_directory_uri();
 get_header(); ?>
 <div class="page__content about">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/about/about_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/about/about_bnr_sp.png" alt="">
@@ -29,8 +29,8 @@ get_header(); ?>
             <div class="l-wrap">
                 <img class="sec1-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec1-bg1.png" alt="">
                 <p class="section_1-ttl">CONCEPT</p>
-                <h1 class="section_1-sub1">この文章はダミーです特徴入れてください</h1>
-                <p class="section_1-sub2"> 私たちルーフは○○○○○○○○。<br>○○○○○○○○○。<br>○○○○○○○○○○○○○<br class="mp">(特徴が入ります)。</p>
+                <h1 class="section_1-sub1">「お客様第一主義」を貫く覚悟がある。</h1>
+                <p class="section_1-sub2"> 私たちルーフが掲げる「お客様第一主義」のお約束。<br class="u-d-n-sp">それは、<br class="u-d-n-pc">創業当初からお一人おひとりのお客様と真摯<br class="u-d-n-sp">に向き合い続けてきた<br class="u-d-n-pc">私たちの誇りです。<br class="mp">(特徴が入ります)。</p>
 
                 <div class="section_1-cntnt">
                     <div class="cards u-d-f u-jc-sb">
@@ -43,10 +43,10 @@ get_header(); ?>
                             </div>
                             <div class="cards-card-txt">
                                 <div class="cards-card-txt-ttl">
-                                    <p>特徴1が入ります<br>ダミーです</p>
+                                    <p>収益不動産の<br>価値を最大化。</p>
                                 </div>
                                 <div class="cards-card-txt-sub">
-                                    <p>この文章はダミーです<br>この文章はダミーです</p>
+                                    <p>あなたの収益不動産を<br class="u-d-n-pc">最大限に<br>評価して買取します。</p>
                                 </div>
                             </div>
                         </div>
@@ -60,10 +60,10 @@ get_header(); ?>
                             </div>
                             <div class="cards-card-txt">
                                 <div class="cards-card-txt-ttl">
-                                    <p>特徴1が入ります<br>ダミーです</p>
+                                    <p>確かな目利き力で<br>ベストな提案を。</p>
                                 </div>
                                 <div class="cards-card-txt-sub">
-                                    <p>この文章はダミーです<br>この文章はダミーです</p>
+                                    <p>収益不動産の<br class="u-d-n-pc">エキスパートが<br class="u-d-n-sp">収益性の<br class="u-d-n-pc">高い不動産を提案。</p>
                                 </div>
                             </div>
                         </div>
@@ -77,10 +77,10 @@ get_header(); ?>
                             </div>
                             <div class="cards-card-txt">
                                 <div class="cards-card-txt-ttl">
-                                    <p>特徴1が入ります<br>ダミーです</p>
+                                    <p>面倒な管理作業を<br>オールサポート。</p>
                                 </div>
                                 <div class="cards-card-txt-sub">
-                                    <p>この文章はダミーです<br>この文章はダミーです</p>
+                                    <p>保守管理も修繕工事も<br class="u-d-n-pc">すべて<br class="u-d-n-sp">サポートし<br class="u-d-n-pc">負担をかけません。</p>
                                 </div>
                             </div>
                         </div>
@@ -94,10 +94,10 @@ get_header(); ?>
                             </div>
                             <div class="cards-card-txt">
                                 <div class="cards-card-txt-ttl">
-                                    <p>特徴1が入ります<br>ダミーです</p>
+                                    <p>損をさせない<br>物件運用を実現。</p>
                                 </div>
                                 <div class="cards-card-txt-sub">
-                                    <p>この文章はダミーです<br>この文章はダミーです</p>
+                                    <p>将来を見据えた戦略で<br class="u-d-n-pc">お客様の<br>利益の最大化を図ります。</p>
                                 </div>
                             </div>
                         </div>
