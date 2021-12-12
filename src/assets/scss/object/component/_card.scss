@@ -544,11 +544,11 @@
 		padding: 20px 5px 18px;
 		border: 2px solid #f1f1f1;
 
-		@include is-sp{
+		@include is-sp {
 			padding: 15px 5px 18px;
 		}
 
-		@include is-max(500px){
+		@include is-max(500px) {
 			padding: 15px 5px 50px;
 		}
 
@@ -574,7 +574,7 @@
 			letter-spacing: 0.2em;
 			padding-top: 13px;
 
-			@include is-sp{
+			@include is-sp {
 				padding-top: 5px;
 			}
 
@@ -633,20 +633,31 @@
 			display: flex;
 			align-items: center;
 			padding: 5px 12px 5px 19px;
-			background: linear-gradient(
-				90deg,
-				rgba(2, 82, 133, 0.9) -17%,
-				rgba(25, 64, 96, 0.7) 83%
-			);
+	
+			&::before {
+				content: "";
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				inset: 0;
+				display: block;
+				background-color: #0059b4;
+				mix-blend-mode: multiply;
+				z-index: 1;
+			}
+
+			p {
+				z-index: 2;
+			}
 		}
 	}
 	&__center {
 		@include font-line(14);
 		line-height: 21px;
 		letter-spacing: 0.2em;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 700;
-		color: #0059B4;
+		color: #0059b4;
 		padding: 20px 10px 30px 10px;
 
 		@include is-sp {
@@ -663,7 +674,7 @@
 		@include font-line(11);
 		line-height: 16.5px;
 		letter-spacing: 0.2em;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 500;
 		color: #808080;
 		padding: 0 15px 20px 15px;
@@ -788,7 +799,7 @@
 			letter-spacing: 0.2em;
 			@include font-line(14);
 			line-height: 21px;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			color: #ffffff;
 			font-weight: 700;
 
@@ -914,7 +925,7 @@
 			@include font-line(14, 14);
 			font-weight: 700;
 			letter-spacing: 0.2em;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			color: #1f80c3;
 			text-align: center;
 			padding: 25px 0 15px 0;
@@ -936,7 +947,7 @@
 			@include font-line(11, 16.5);
 			font-weight: 500;
 			letter-spacing: 0.2em;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			color: #808080;
 			text-align: justify;
 
@@ -945,7 +956,6 @@
 			}
 		}
 	}
-
 }
 
 .c-card12 {
@@ -985,7 +995,7 @@
 				font-weight: 700;
 				letter-spacing: 0.15em;
 				line-height: 21px;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				@include font-line(12);
 
 				@include is-sp {
@@ -998,7 +1008,7 @@
 				font-weight: 700;
 				letter-spacing: 0.13em;
 				line-height: 26px;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				@include font-line(20.56);
 			}
 		}
@@ -1062,7 +1072,7 @@
 					}
 				}
 			}
-			
+
 			border-top: 1px dashed #9e9e9e !important;
 		}
 
@@ -1082,7 +1092,7 @@
 				font-weight: 700;
 				letter-spacing: 0.15em;
 				line-height: 21px;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				@include font-line(12);
 
 				@include is-sp {
@@ -1095,7 +1105,7 @@
 				font-weight: 500;
 				letter-spacing: 0.1em;
 				line-height: 26px;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				@include font-line(13);
 
 				@include is-sp {
