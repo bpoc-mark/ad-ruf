@@ -1739,9 +1739,10 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);position:absolute;top:0;right:0;margin-top:-115px}
 .message .section_1{position:relative;z-index:150}
 .message .section_1::before{content:"";position:absolute;width:100%;height:38%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,0 13.2%,10% 11.2%,0 13%);clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,0 13.2%,10% 11.2%,0 13%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:151}
+.message .section_1::after{content:"";position:absolute;bottom:0;height:13%;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(0 51%,40% 0,100% 61%,0 100%);clip-path:polygon(0 51%,40% 0,100% 61%,0 100%);opacity:.4;width:86%}
 .message .section_1 .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% -68%,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:0}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding-top:0;margin-top:-100px}
-.message .section_1 .clipPath .cntnt{padding:195px 0 145px 0}
+.message .section_1 .clipPath .cntnt{padding:165px 0 145px 0}
 .message .section_1 .clipPath .cntnt .txt{color:#258acf}
 .message .section_1 .clipPath .cntnt-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#fff}
 .message .section_1 .clipPath .cntnt-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.22em;color:#fff;padding:18px 0 28px 0}
@@ -1766,6 +1767,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_2-rows-2-txt{letter-spacing:.2em;font-size:.808125rem;line-height:1.9334880124;text-align:justify}
 .message .section_3{position:relative}
 .message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding:144px 0 99px 0}
+.message .section_3 .clipPath::before{content:"";position:absolute;width:81%;height:66%;top:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 17%,67% 32%,0 17%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 17%,67% 32%,0 17%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:1}
 .message .section_3-cntnt .txt{color:#258acf}
 .message .section_3-cntnt-rows{margin-bottom:60px;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .message .section_3-cntnt-rows-1-txt{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.808125rem;line-height:1.9334880124;font-weight:500;letter-spacing:.2em;text-align:justify}
@@ -1774,7 +1776,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_3-cntnt-rows-2 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .message .section_3-cntnt .btns{width:640px;margin:0 auto}
 .message .section_3-cntnt .btns .btn .txt{letter-spacing:.2em}
-.message .section_3 .sec3-bg1{position:absolute;top:-19%;right:31.4%;z-index:-1}
+.message .section_3 .sec3-bg1{position:absolute;top:-22%;right:31.4%;z-index:-1}
 .message .section_3 .sec3-bg2{position:absolute;top:66%;left:0;z-index:-1}
 .office_gal{position:relative}
 .office_gal .c-banner{padding:0 0 80px 0}
@@ -4195,6 +4197,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .message .c-banner--ttl p .br-sp{display:block}
 .message .top-clip{width:77%;height:322px;top:0}
 .message .section_1::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 55%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 55%,0 0,0 0);height:7.5%}
+.message .section_1::after{-webkit-clip-path:polygon(0 54%,45% 0,100% 54%,0 100%);clip-path:polygon(0 54%,45% 0,100% 54%,0 100%);height:8%;width:80%}
 .message .section_1 .clip-top{padding:90px 0 0 0;-webkit-clip-path:none;clip-path:none}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%);clip-path:polygon(100% 0,100% 100%,87% 96%,0 100%,-83% 9%)}
 .message .section_1 .clipPath .cntnt{padding:123px 0 100.5px 0}
@@ -4214,14 +4217,15 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .message .section_2-rows-1{width:100%}
 .message .section_2-rows-2{width:100% !important;padding-left:0;padding-top:24px}
 .message .section_2-rows-2-txt{font-size:.84375rem;line-height:1.4814814815}
-.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);padding:110px 0 90px 0}
+.message .section_3 .clipPath{-webkit-clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(14% 5%,100% 0,100% 100%,0 100%,0 0);padding:110px 0 75px 0}
+.message .section_3 .clipPath::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 73%,50% 100%,0 27%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 73%,50% 100%,0 27%,0 0,0 0);height:12%;top:0}
 .message .section_3-cntnt-rows{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;margin-bottom:50px}
 .message .section_3-cntnt-rows-1{width:100% !important;padding-right:0;padding-top:25px}
 .message .section_3-cntnt-rows-1-txt{font-size:.84375rem;line-height:1.4814814815;letter-spacing:.08em}
 .message .section_3-cntnt-rows-2{width:100%}
 .message .section_3-cntnt .btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:140px;width:100% !important}
 .message .section_3-cntnt .btns .btn{width:100% !important;border:2px solid #81b3d4}
-.message .section_3 .sec3-bg1{width:170px;top:-15%;right:3.4%}
+.message .section_3 .sec3-bg1{width:138px;top:-14%;right:1.4%}
 .office_gal .section_1 .l-wrap .bg_1{width:46.67%;top:-100px;right:0}
 .office_gal .section_1 .l-wrap .sp{display:block}
 .office_gal .top-clip{width:77%;height:322px;top:0}
@@ -5003,7 +5007,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .contact-frm .bcksub .sub{width:100%}
 .contact-frm .bcksub .sub input{width:90% !important}
 input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{margin:0}
-}@media only screen and (max-width:640px){.message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%);clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%)}
+}@media only screen and (max-width:640px){.message .section_1::after{height:6%;-webkit-clip-path:polygon(0 54%,45% 0,100% 69%,0 100%);clip-path:polygon(0 54%,45% 0,100% 69%,0 100%);width:80%}
+.message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%);clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%)}
 }@media only screen and (max-width:600px){.top .sect_2 .c-buttonCase{margin-bottom:15px}
 }@media only screen and (max-width:575px){.page__footer .nav-footer-col1 img{width:100px}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4}

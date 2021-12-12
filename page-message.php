@@ -9,7 +9,7 @@ $imagedir = get_template_directory_uri();
 
 <div class="page__content message">
     <div class="c-banner ">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/message/message_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/message/message_banner_sp.png" alt="">
@@ -38,7 +38,7 @@ $imagedir = get_template_directory_uri();
 
                 <div class="cntnt">
                     <p class="cntnt-ttl">The Message</p>
-                    <p class="cntnt-sub1">株式会社ルーフについての<br class="u-d-n-pc">ご紹介<br>代表からの ご挨拶</p>
+                    <p class="cntnt-sub1">株式会社ルーフについての<br class="u-d-n-pc">ご紹介<br>代表からのご挨拶</p>
                     <p class="cntnt-sub2"> 株式会社ルーフ代表取締役 木村武史です。<br>当社は収益不動産の『売買・管理・運用』を３つの柱として事業展開しております。</p>
 
                     <div class="section_1-cntnt">
@@ -90,7 +90,8 @@ $imagedir = get_template_directory_uri();
     <div class="section_3">
         <div class="clipPath">
             <div class="l-wrap">
-                <img class="sec3-bg1" src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec3_bg1.png" alt="">
+                <img class="sec3-bg1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec3_bg1.png" alt="">
+                <img class="sec3-bg1 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg21.png" alt="">
                 <img class="sec3-bg2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/message/sec3-bg2.png" alt="">
                 <div class="section_3-cntnt">
                     <div class="section_3-cntnt-rows u-d-f u-jc-sb">

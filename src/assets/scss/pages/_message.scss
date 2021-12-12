@@ -167,6 +167,30 @@
 			}
 
 		}
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            height: 13%;
+            background: linear-gradient(to right, #0059c4, #000017);
+            clip-path: polygon(0 51%, 40% 0%, 100% 61%, 0% 100%);
+            opacity: 0.4;
+            width: 86%;
+
+            @include is-sp {
+                clip-path: polygon(0 54%, 45% 0%, 100% 54%, 0% 100%);
+                height: 8%;
+                width: 80%;
+            }
+
+            @include is-max(640px) {
+                height: 6%;
+                clip-path: polygon(0 54%, 45% 0%, 100% 69%, 0% 100%);
+                width: 80%;
+            }
+        }
+
         // clip path
         .clip-top {
             margin-bottom: 50px !important;
@@ -198,7 +222,7 @@
             }
 
             .cntnt {
-                padding: 195px 0 145px 0;
+                padding: 165px 0 145px 0;
 
                 @include is-sp {
                     padding: 123px 0 100.5px 0;
@@ -218,7 +242,7 @@
 
                     @include is-sp {
                         @include font-line(12.5, 10);
-                        color: #95c6e7;
+                        color: #95C6E7;
                     }
                 }
 
@@ -457,6 +481,8 @@
     .section_3 {
         position: relative;
 
+        
+
         .clipPath {
             clip-path: polygon(19% 11%, 100% 0, 100% 100%, 0 100%, 0 0);
             background: linear-gradient(to right, #000017, #0059C4);
@@ -464,11 +490,30 @@
 
             @include is-sp {
                 clip-path: polygon(14% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
-                padding: 110px 0 90px 0;
+                padding: 110px 0 75px 0;
             }
 
             @include is-max(426px) {
                 clip-path: polygon(18% 3%, 100% 0, 100% 100%, 0 100%, 0 0);
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 81%;
+                height: 66%;
+                top: 0;
+                right: 0;
+                clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 32%, 0% 17%, 0 0, 0 0);
+                background: linear-gradient(to right, #0059c6, #000017);
+                opacity: 0.4;
+                z-index: 1;
+    
+                @include is-sp {
+                    clip-path: polygon(50% 0%, 100% 0, 100% 73%, 50% 100%, 0% 27%, 0% 0%, 0% 0%);
+                    height: 12%;
+                    top: 0;
+                }
             }
         }
 
@@ -554,14 +599,14 @@
 
         .sec3-bg1 {
             position: absolute;
-            top: -19%;
+            top: -22%;
             right: 31.4%;
             z-index: -1;
 
             @include is-sp {
-                width: 170px;
-                top: -15%;
-                right: 3.4%;
+                width: 138px;
+                top: -14%;
+                right: 1.4%;
             }
         }
 
