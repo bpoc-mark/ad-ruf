@@ -11,14 +11,14 @@
 	}
 
 	@include is-sp {
-		border: 1px solid #258acf;
+		border: 1px solid #003780;
 		flex-direction: column;
 		padding: 20px;
 	}
 
 	.p1 {
 		background-color: #e2f3fb;
-		padding: 10px 30px;
+		padding: 10px 15px;
 
 		@include is-sp {
 			width: 100%;
@@ -28,8 +28,8 @@
 			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(15);
 			font-weight: 700;
-			color: #258acf;
-			letter-spacing: 0.320em;
+			color: #003780;
+			letter-spacing: 0.24em;
 		}
 	}
 
@@ -45,17 +45,17 @@
 				font-family: century-gothic, sans-serif;
 				@include font-line(36);
 				font-weight: 700;
-				color: #258acf;
+				color: #003780;
 				display: flex;
 				align-items: center;
 
-				@include is-max(385px){
+				@include is-max(385px) {
 					font-size: 8vw;
 				}
 			}
 
-			img{
-				@include is-max(385px){
+			img {
+				@include is-max(385px) {
 					width: 14%;
 				}
 			}

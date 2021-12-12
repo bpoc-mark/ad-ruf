@@ -4,7 +4,8 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content contact-frm">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg_sp.png" alt="">
@@ -28,7 +29,9 @@ $imagedir = get_template_directory_uri();
                     <p class="txt">電話でのお問い合わせはこちら</p>
                 </div>
                 <div class="p2">
-                    <p class="txt"><a href="#"><img src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png" alt="Living Room">&nbsp;0120-173-602</a></p>
+                    <p class="txt"><a href="#"><img
+                                src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png"
+                                alt="Living Room">&nbsp;0120-173-602</a></p>
                 </div>
                 <div class="p3">
                     <p class="txt">TEL：03-3211-0123（代表）<br>
@@ -40,9 +43,9 @@ $imagedir = get_template_directory_uri();
                 <div class="contact-frm__bg-txt">
                     <h2 class="contact-frm__bg-txt--ttl">メールフォームによるお問い合わせ</h2>
                 </div>
-                <p class="contact-frm__desc">下記フォームにお問い合わせ内容をご記入の上、確認ボタンをクリックして下さい。<br>
+                <p class="contact-frm__desc">下記フォームにお問い合わせ内容をご記入の上、<br class="u-d-n-pc">確認ボタンをクリックして下さい。<br>
                     ※は必須項目となります。<br>
-                    お問い合わせ状況やご質問内容によって、返信に多少のお時間を頂く場合がございます。あらかじめご了承ください。</p>
+                    お問い合わせ状況やご質問内容によって、<br class="u-d-n-pc">返信に多少のお時間を頂く場合がございます。<br class="u-d-n-pc">あらかじめご了承ください。</p>
 
                 <div class="form">
                     <div class="contact-frm__req">
