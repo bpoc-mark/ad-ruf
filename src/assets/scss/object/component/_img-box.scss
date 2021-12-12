@@ -87,7 +87,7 @@
 		margin-left: 4px;
 
 		@include is-sp {
-			width:91px;
+			width: 91px;
 			margin-top: 17px;
 			margin-left: 4px;
 		}
@@ -98,11 +98,7 @@
 }
 
 .c-img_box03 {
-	background: linear-gradient(
-		90deg,
-		rgba(37, 121, 191, 1) 0%,
-		rgba(37, 147, 213, 1) 50%
-	);
+	background: linear-gradient(to left, #0059c6, #000017);
 	width: 84px;
 	height: 84px;
 	position: absolute;
@@ -111,7 +107,7 @@
 	padding: 5px;
 	text-align: center;
 
-	@include is-max(768px){
+	@include is-max(768px) {
 		width: 64px;
 		height: 64px;
 	}
@@ -128,7 +124,7 @@
 		letter-spacing: 0.26em;
 		padding-top: 5px;
 		@include font-line(11, 22);
-		@include is-max(768px){
+		@include is-max(768px) {
 			@include font-line(9, 18);
 		}
 	}
@@ -138,10 +134,10 @@
 		font-family: century-gothic, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.26em;
-		line-height: .9;
+		line-height: 0.9;
 		padding-left: 8%;
 		@include font-line(37);
-		@include is-max(768px){
+		@include is-max(768px) {
 			@include font-line(33);
 		}
 	}

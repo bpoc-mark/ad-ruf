@@ -322,7 +322,7 @@ template{display:none}
 .c-img_box02--sub{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;-webkit-writing-mode:vertical-lr;-ms-writing-mode:tb-lr;writing-mode:vertical-lr;letter-spacing:.22em;font-size:.625rem;line-height:3.1}
 .c-img_box02--logo{width:127px;height:57px;margin-top:37px;margin-left:4px}
 .c-img_box02--logo img{width:100%}
-.c-img_box03{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);width:84px;height:84px;position:absolute;top:0;left:0;padding:5px;text-align:center}
+.c-img_box03{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);width:84px;height:84px;position:absolute;top:0;left:0;padding:5px;text-align:center}
 .c-img_box03__txt{border-top:1px solid #fff;border-right:1px solid #ffff}
 .c-img_box03__ttl{color:#9ec4e3;font-family:century-gothic,sans-serif;font-weight:700;letter-spacing:.26em;padding-top:5px;font-size:.6875rem;line-height:2}
 .c-img_box03__sub{color:#9ec4e3;font-family:century-gothic,sans-serif;font-weight:700;letter-spacing:.26em;line-height:.9;padding-left:8%;font-size:2.3125rem}
@@ -1019,14 +1019,14 @@ template{display:none}
 .archive .inner_content{width:100%;padding:20px}
 .assetmanagement{position:relative}
 .assetmanagement .c-img_box03__txt{height:100% !important}
-.assetmanagement .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
-.assetmanagement .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
+.assetmanagement .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
+.assetmanagement .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);position:absolute;top:0;right:0;margin-top:-115px}
 .assetmanagement .sect_1{position:relative;margin-top:100px}
 .assetmanagement .sect_1 .l-wrap{text-align:center}
 .assetmanagement .sect_1__box-big-new{position:absolute;right:7%;top:-95px;opacity:.1}
 .assetmanagement .sect_1__box-big{opacity:.1}
 .assetmanagement .sect_1::before{content:"";position:absolute;width:100%;top:-95px;height:100px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 50%,100% 0,100% 100%,0 100%);clip-path:polygon(0 50%,100% 0,100% 100%,0 100%)}
-.assetmanagement .sect_1__center{padding:100px 0 160px 0;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
+.assetmanagement .sect_1__center{padding:100px 0 160px 0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .assetmanagement .sect_1__eng_ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;color:#fff;letter-spacing:.32em}
 .assetmanagement .sect_1__headers{font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.6;color:#fff;letter-spacing:.18em;padding-top:10px;padding-bottom:23px}
 .assetmanagement .sect_1__headers .ttl_small{font-family:yu-mincho-pr6n,sans-serif;font-size:1.25rem;line-height:1.75;color:#fff;line-height:0;letter-spacing:.18em}
@@ -1034,12 +1034,12 @@ template{display:none}
 .assetmanagement .sect_1__box-sm{position:absolute;top:117px;right:138px}
 .assetmanagement .sect_1__box-big{position:absolute;left:-6%;top:63px;width:265px}
 .assetmanagement .sect_1 p{position:relative;z-index:150}
-.assetmanagement .sect_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#2868b1),to(#3b88ca));background:linear-gradient(to right,#2868b1,#3b88ca)}
+.assetmanagement .sect_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(90deg,#003782 0,#0059b6 100%)}
 .assetmanagement .sect_2__box-big-new{position:absolute;left:46%;top:18px}
 .assetmanagement .sect_2__box-big-new2{position:absolute;bottom:11px;margin-left:-60px}
 .assetmanagement .sect_2 .c-buttonREP .txt{color:#2589ce;letter-spacing:.2em}
-.assetmanagement .sect_2::before{content:"";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#2868b1),to(#3b88ca));background:linear-gradient(to right,#2868b1,#3b88ca);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0)}
-.assetmanagement .sect_2::after{content:"";position:absolute;width:100%;bottom:-58px;height:60px;z-index:1;background:-webkit-gradient(linear,left top,right top,from(#2868b1),to(#3b88ca));background:linear-gradient(to right,#2868b1,#3b88ca);-webkit-clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%)}
+.assetmanagement .sect_2::before{content:"";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(90deg,#003782 0,#0059b6 100%);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0)}
+.assetmanagement .sect_2::after{content:"";position:absolute;width:100%;bottom:-58px;height:60px;z-index:1;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(90deg,#003782 0,#0059b6 100%);-webkit-clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%)}
 .assetmanagement .sect_2 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.16em;position:relative}
 .assetmanagement .sect_2__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:90px 0}
 .assetmanagement .sect_2__inner-realestate--left,.assetmanagement .sect_2__inner-realestate--right{width:50%;position:relative;z-index:4}
@@ -1060,7 +1060,7 @@ template{display:none}
 .assetmanagement .sect_4__box-big-new .sp{display:none}
 .assetmanagement .sect_4__box-big-new2{position:absolute;left:0;top:160px}
 .assetmanagement .sect_4__box-big-new3{position:absolute;right:0;top:54.5%}
-.assetmanagement .sect_4::after{content:"";position:absolute;width:100%;bottom:-61px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0)}
+.assetmanagement .sect_4::after{content:"";position:absolute;width:100%;bottom:-61px;height:60px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0)}
 .assetmanagement .sect_4 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;position:relative}
 .assetmanagement .sect_4 .l-wrap{position:relative}
 .assetmanagement .sect_4--top-realestate{border-left:3px solid #4688c8;padding-left:20px;position:relative}
@@ -1080,13 +1080,13 @@ template{display:none}
 .assetmanagement .sect_4__inner-realestate .point_item span{margin-left:10px;font-weight:700;color:#2589ce;font-size:.8125rem;line-height:2;letter-spacing:.2em}
 .assetmanagement .sect_4__inner-realestate--right img{width:100%;height:100%}
 .assetmanagement .sect_4 .c-buttonREP{margin-top:50px}
-.assetmanagement .sect_5{position:relative;margin-bottom:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
+.assetmanagement .sect_5{position:relative;margin-bottom:60px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .assetmanagement .sect_5--clipbg{background-color:#fff}
 .assetmanagement .sect_5__box-big-new{position:absolute;left:46%;top:5px;opacity:.5}
 .assetmanagement .sect_5__box-big-new .pc{display:none}
 .assetmanagement .sect_5__box-big-new .sp{display:none}
 .assetmanagement .sect_5__box-big-new2{position:absolute;left:0;bottom:8%;opacity:.5}
-.assetmanagement .sect_5::after{content:"";position:absolute;width:100%;bottom:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%);clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%)}
+.assetmanagement .sect_5::after{content:"";position:absolute;width:100%;bottom:-59px;height:60px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%);clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 100%)}
 .assetmanagement .sect_5 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.3em}
 .assetmanagement .sect_5 .l-wrap{position:relative}
 .assetmanagement .sect_5__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:90px 0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -1118,13 +1118,13 @@ template{display:none}
 .assetmanagement .sect_6__inner-realestate--left .point_ttl{font-family:century-gothic,sans-serif;font-size:.6875rem;line-height:2;color:#2589ce;letter-spacing:.26em;text-align:center;font-weight:700;padding-bottom:5px}
 .assetmanagement .sect_6__inner-realestate--left .point_item{font-family:yu-gothic-pr6n,sans-serif;text-align:left;font-size:.5625rem;line-height:2.8888888889;color:#87b2db;font-weight:700}
 .assetmanagement .sect_6__inner-realestate--left .point_item span{margin-left:10px;font-weight:700;color:#2589ce;font-size:.8125rem;line-height:2;letter-spacing:.2em}
-.assetmanagement .sect_7{position:relative;margin-top:60px;margin-bottom:60px;padding-top:70px;padding-bottom:33px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
+.assetmanagement .sect_7{position:relative;margin-top:60px;margin-bottom:60px;padding-top:70px;padding-bottom:33px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .assetmanagement .sect_7 .c-buttonREP{margin-top:0}
 .assetmanagement .sect_7 .c-buttonREP .txt{color:#2589ce}
 .assetmanagement .sect_7__box-big-new{position:absolute;left:46%;top:-12%;opacity:.5}
 .assetmanagement .sect_7__box-big-new2{position:absolute;left:0;top:24%;opacity:.5}
-.assetmanagement .sect_7::before{content:" ";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100%,100% 100%,0 100%,0 0)}
-.assetmanagement .sect_7::after{content:" ";position:absolute;width:100%;bottom:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% -25%,100% 100%,85% 5%,0 98%)}
+.assetmanagement .sect_7::before{content:" ";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100%,100% 100%,0 100%,0 0)}
+.assetmanagement .sect_7::after{content:" ";position:absolute;width:100%;bottom:-59px;height:60px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 0,100% -25%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% -25%,100% 100%,85% 5%,0 98%)}
 .assetmanagement .sect_7 .l-wrap{position:relative}
 .assetmanagement .sect_7--top-casestudy{border-left:3px solid #fff;padding-left:15px}
 .assetmanagement .sect_7__eng--ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;color:#95c6e7;letter-spacing:.32em;text-align:left;font-weight:500;margin-bottom:5px}
