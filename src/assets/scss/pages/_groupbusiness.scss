@@ -10,7 +10,7 @@
 		}
 
 		padding: 0 0 100px 0;
-		background: linear-gradient(to right, #2079bd, #1e91d2);
+		background: linear-gradient(to right, #0059c6, #000017);
 		&--ttl {
 			top: 45%;
 
@@ -46,7 +46,7 @@
 
 .sect_1 {
 	position: relative;
-	background: linear-gradient(to right, #2079bd, #1e91d2);
+	background: linear-gradient(to left, #0059c6, #000017);
 
 	.l-wrap {
 		text-align: center;
@@ -75,7 +75,7 @@
 	&__center {
 		margin-top: -120px;
 		padding: 180px 0 100px 0;
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c6, #000017);
 
 		@include is-sp {
 			margin-top: -98px;
@@ -135,7 +135,7 @@
 
 		&--left {
 			width: calc(100% - 300px);
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 500;
 			@include font-line(13, 26);
 			text-align: justify;
@@ -197,7 +197,7 @@
 			padding-bottom: 15px;
 			border-radius: 50px;
 			border: 3px solid rgba(255, 255, 255, 0.8);
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 700;
 
 			@include is-max(1000px) {
@@ -265,7 +265,7 @@
 }
 
 .horizontal--background {
-	background-color: #003782;
+	background: linear-gradient(to left, #0059c6, #000017);
 	width: 100%;
 	height: 40px;
 

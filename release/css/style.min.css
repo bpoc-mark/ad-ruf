@@ -1545,15 +1545,15 @@ form.wpcf7-form.custom-wpcf7c-confirmed .contact-frm__flex.seventh .col-2 .row-1
 form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .contact-frm__flex.seventh .col-2 .row-1 .pc-hide{display:block}
 form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .group-business{position:relative}
-.group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
+.group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
 .group-business .c-banner--ttl{top:45%}
 .group-business .c-banner--ttl p:nth-child(1){line-height:1.5em}
 .group-business .top-clip{margin-top:-115px}
-.sect_1{position:relative;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
+.sect_1{position:relative;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .sect_1 .l-wrap{text-align:center;position:relative}
 .sect_1 .l-wrap .rect-one{position:absolute;right:0;bottom:20px}
 .sect_1 .clip_cont{-webkit-clip-path:polygon(0 5.4%,100% 0,100% 100%,0 100%);clip-path:polygon(0 5.4%,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#2579bf),to(#2593d5));background:linear-gradient(to right,#2579bf,#2593d5)}
-.sect_1__center{margin-top:-120px;padding:180px 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
+.sect_1__center{margin-top:-120px;padding:180px 0 100px 0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .sect_1__eng_ttl{font-family:century-gothic,sans-serif;font-size:.625rem;color:#fff;letter-spacing:4px}
 .sect_1__header{font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.6;color:#fff;letter-spacing:.22em;padding-top:7px;padding-bottom:55px}
 .sect_1__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -1564,7 +1564,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .sect_1__btn--wrap .btn--right{margin-left:50px}
 .sect_1__box-sm{position:absolute;top:87px;right:127px}
 .sect_1__box-big{position:absolute;left:0;top:245px}
-.horizontal--background{background-color:#003782;width:100%;height:40px}
+.horizontal--background{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);width:100%;height:40px}
 .interview{position:relative}
 .interview .c-banner{padding:0 0 80px 0;background:-webkit-gradient(linear,left top,right top,from(#2079bd),to(#1e91d2));background:linear-gradient(to right,#2079bd,#1e91d2)}
 .interview .c-banner--ttl{line-height:1;top:28%;left:20%;text-align:left}
