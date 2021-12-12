@@ -5,7 +5,7 @@
 			letter-spacing: 0 !important;
 			line-height: 41px;
 
-			@include is-max(400px){
+			@include is-max(400px) {
 				font-size: 7.5vw;
 			}
 		}
@@ -13,7 +13,7 @@
 		& p:last-child {
 			line-height: 45px;
 
-			@include is-sp{
+			@include is-sp {
 				line-height: 18px;
 			}
 		}
@@ -75,7 +75,7 @@
 
 	&__sub {
 		color: $color-text03;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 500;
 		letter-spacing: 0.2em;
 		line-height: 1;
@@ -118,6 +118,29 @@
 	}
 
 	.sect_1 {
+		position: relative;
+		background: linear-gradient(to right, #0059c4, #000017);
+		clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+		margin-top: 0;
+
+			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				top: 0;
+				z-index: 150;
+				height: 120px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(100% -3%, 100% 50%, 70% 100%, 0 53%);
+				opacity: 0.4;
+
+				@include is-sp {
+					clip-path: polygon(100% 0%, 100% 50%, 65% 100%, 0 40%);
+					top: 0;
+					height: 100px;
+				}
+			}
+
 		@include is-sp {
 			&__box-sm {
 				display: none;
@@ -134,7 +157,7 @@
 
 		&__box-big,
 		&__box-big-new {
-			opacity: 0.3;
+			opacity: 1;
 			right: 5%;
 			top: -83px;
 		}
@@ -142,6 +165,7 @@
 		&__box-big {
 			left: -92px;
 			top: 75px;
+			opacity: 0.3;
 
 			@include is-max(1000px) {
 				display: block;
@@ -149,7 +173,8 @@
 		}
 
 		&__center {
-			padding-top: 65px;
+			padding-top: 160px;
+			background: linear-gradient(to left, #0059c6, #000017) !important;
 		}
 
 		&__eng_ttl {
@@ -231,10 +256,10 @@
 			}
 		}
 
-		.top-box-db {
-			background: #011c71;
-			mix-blend-mode: hard-light;
-		}
+		// .top-box-db {
+		// 	background: #011c71;
+		// 	mix-blend-mode: hard-light;
+		// }
 	}
 
 	&__section_3 {
@@ -278,7 +303,7 @@
 	&__section_4 {
 		padding-top: 94px;
 		padding-bottom: 80px;
-		background: linear-gradient(to right, #003782, #0059b6) !important;
+		background: linear-gradient(to left, #0059c6, #000017) !important;
 
 		@include is-sp {
 			padding-top: 60px;
@@ -304,7 +329,7 @@
 
 		&::after,
 		&::before {
-			background: linear-gradient(to right, #003782, #0059b6) !important;
+			background: linear-gradient(to left, #0059c6, #000017) !important;
 		}
 
 		&--separator {
@@ -330,7 +355,11 @@
 	}
 
 	&__section_5 {
-		background: linear-gradient(to right, #2868b1, #3b88ca) !important;
+		background: linear-gradient(
+			90deg,
+			rgba(51, 51, 102, 1) 0%,
+			rgba(0, 89, 182, 1) 100%
+		) !important;
 		margin-bottom: 0 !important;
 		overflow: hidden;
 
@@ -388,7 +417,7 @@
 			letter-spacing: 0.2em;
 			line-height: 26px;
 			font-weight: 500;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 
 			@include is-max(770px) {
 				font-size: 1.1vw;
@@ -461,7 +490,7 @@
 	}
 
 	&__section_6 {
-		background: linear-gradient(to right, #003782, #0059b6) !important;
+		background: linear-gradient(to left, #0059c6, #000017) !important;
 
 		@include is-sp {
 			.sect_6__inner-realestate {
