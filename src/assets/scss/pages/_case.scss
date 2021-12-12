@@ -33,6 +33,12 @@
 		}
 	}
 
+	// .c-ruf-txt {
+	// 	@include is-max(375px) {
+	// 		width: 70% !important;
+	// 	}
+	// }
+
 	.bread_crumps {
 		text-align: left;
 		position: relative;
@@ -160,7 +166,7 @@
 
 	.section_2 {
 		padding-top: 55px;
-		padding-bottom: 100px;
+		padding-bottom: 57px;
 		position: relative;
 
 		@include is-sp {

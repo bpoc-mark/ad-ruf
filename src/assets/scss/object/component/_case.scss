@@ -1,4 +1,4 @@
-.c-case {
+.c-case {	
 	&01 {
 		&__title {
 			color: $color-text03;
@@ -539,7 +539,7 @@
 			}
 
 			&__sub {
-				color: $color-text01;
+				color: #0059B4;
 				font-family: yu-mincho-pr6n, sans-serif;
 				font-weight: 500 !important;
 				padding: 15px 0 20px 0;
@@ -579,6 +579,8 @@
 			}
 		}
 	}
+
+	
 
 	&__btm--slant {
 		padding-bottom: 70px !important;
