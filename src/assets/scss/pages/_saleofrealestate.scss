@@ -325,7 +325,7 @@
 	}
 
 	&__section_3 {
-		margin-bottom: 160px;
+		margin-bottom: 0;
 		background: #fff !important;
 		padding-top: 156px;
 
@@ -366,6 +366,18 @@
 		position: relative;
 		padding-bottom: 170px;
 		margin-bottom: 0;
+		padding-top: 145px;
+		margin-top: 85px;
+
+		@include is-max(970px){
+			padding-bottom: 230px;
+		}
+
+		@include is-sp{
+			margin-top: 85px;
+			padding-top: 100px;
+			padding-bottom: 270px;
+		}
 		
 		&::after{
 				content: "";
@@ -377,9 +389,15 @@
 				z-index: 150;
 				height: 120px;
 				background: linear-gradient(to right, #0059b6, #003782) !important;
-				clip-path: polygon(0 50%, 100% 25%, 100% 114%, 87% 101%, 0 100%);
+				clip-path: polygon(0 50%, 100% 10%, 100% 114%, 87% 102%, 0 100%);
 				z-index: -1;
 				opacity: 0.7;
+
+				@include is-max(970px){
+					height: 170px;
+					clip-path: polygon(0 16%, 100% 10%, 100% 114%, 87% 102%, 0 97%);
+					
+				}
 
 				@include is-sp{
 					display: none;
@@ -393,8 +411,13 @@
 		background: linear-gradient(to left, #0059c6, #000017) !important;
 		clip-path: polygon(15% 4%, 100% 0, 100% 95%, 75% 98%, 20% 93%, 0 87%, 0 0);
 
+		@include is-max(970px){
+			clip-path: polygon(15% 2%, 100% 0, 100% 95%, 75% 97%, 20% 93%, 0 90%, 0 0);
+		}
+
 		@include is-sp {
 			padding-top: 60px;
+			clip-path: polygon(20% 1%, 100% 0, 100% 94%, 75% 94%, 0% 94%, 0 87%, 0 0);
 
 			.sect_2__box-big-new {
 				width: 125px;
@@ -413,6 +436,10 @@
 			top: 120px;
 			left: 8px;
 			position: absolute;
+
+			@include is-sp{
+				top: 53px;
+			}
 		}
 
 		&::after,
@@ -442,7 +469,26 @@
 		}
 	}
 
+	.sect_5{
+		margin-top: -190px;
+		padding-top: 42px;
+		z-index: -150;
+
+		@include is-max(970px){
+			margin-top: -300px;
+		}
+
+		@include is-sp{
+			margin-top: -225px;
+		}
+		
+		@include is-max(375px){
+			margin-top: -185px;
+		}
+	}
+
 	&__section_5 {
+		position: relative;
 		background: linear-gradient(
 			90deg,
 			rgba(51, 51, 102, 1) 0%,
@@ -451,7 +497,21 @@
 		margin-bottom: 0 !important;
 		overflow: hidden;
 
-		
+		@include is-sp{
+			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				top: 7px;
+				z-index: 150;
+				height: 120px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(0 0, 100% 0, 100% 7%, 16% 30%);
+				opacity: 0.4;
+				
+			}
+		}
+
 		.sect_5__inner-realestate--left {
 			padding-right: 5px;
 
@@ -513,7 +573,7 @@
 			}
 
 			@include is-sp {
-				padding-top: 148px;
+				padding-top: 84px;
 				@include font-line(13.5);
 				text-align: center !important;
 				letter-spacing: 0.02em;
@@ -786,7 +846,15 @@
 
 	.sect_2__box-big-new {
 		opacity: 0.5;
-		top: 153px;
+		top: 117px;
+
+		@include is-max(970px){
+			top: 156px;
+		}
+
+		@include is-sp{
+			top: 8px;
+		}
 	}
 
 	.sect_2__box-big-new2 {
