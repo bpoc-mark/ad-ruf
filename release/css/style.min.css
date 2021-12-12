@@ -313,9 +313,9 @@ template{display:none}
 .c-heading04{font-weight:700;color:#258acf;text-align:left;position:relative}
 .c-heading04::before{content:'';border-left:7px solid #0072a6;height:100%;position:absolute;left:0;display:block}
 .c-heading05{background-color:#807f7f;height:35px;margin:0 0 20px;padding:0 0 0 10px;font-weight:700;font-size:1.0625rem;line-height:2.0588235294;color:#258acf;text-align:left}
-.c-img_box{background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);width:84px;height:84px;position:absolute;top:0;left:0;padding:5px}
+.c-img_box{background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);width:84px;height:84px;position:absolute;top:0;left:0;padding:5px}
 .c-img_box__txt{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-top:1px solid #fff;border-right:1px solid #ffff;width:100%;height:100%}
-.c-img_box__ttl{color:#fff;font-family:century-gothic,sans-serif;font-weight:700;padding-top:20px;padding-bottom:12px;font-size:.625rem}
+.c-img_box__ttl{color:#fff;font-family:century-gothic,sans-serif;font-weight:700;padding-top:20px;padding-bottom:12px;font-size:.5625rem}
 .c-img_box__sub{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:700;padding-bottom:10px;font-size:.78125rem}
 .c-img_box02{position:absolute;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;top:0;left:0;padding-left:37px;padding-top:37px;width:200px}
 .c-img_box02--ttl{color:#fff;font-family:yu-mincho-pr6n,sans-serif;-webkit-writing-mode:vertical-lr;-ms-writing-mode:tb-lr;writing-mode:vertical-lr;font-weight:700;letter-spacing:.14em;font-size:3.125rem;line-height:1.08}
@@ -1737,8 +1737,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_3 .sec3-bg1{position:absolute;top:-19%;right:31.4%;z-index:-1}
 .message .section_3 .sec3-bg2{position:absolute;top:66%;left:0;z-index:-1}
 .office_gal{position:relative}
-.office_gal .c-banner{padding:0 0 80px 0}
-.office_gal .section_1{position:relative;margin:0;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);text-align:center}
+.office_gal .c-banner{padding:0 0 80px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
+.office_gal .section_1{position:relative;margin:0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);text-align:center}
 .office_gal .section_1::before{content:"";position:absolute;width:100%;top:-89px;left:0;height:90px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 40%,0 100%,100% 100%)}
 .office_gal .section_1 .l-wrap{position:relative}
 .office_gal .section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
@@ -1748,7 +1748,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .office_gal .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
 .office_gal .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.75rem}
 .office_gal .bread_crumps span{padding:0 8px}
-.office_gal .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);position:absolute;top:0;right:0;margin-top:-115px}
+.office_gal .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);position:absolute;top:0;right:0;margin-top:-115px}
 .office_gal__bg_1{position:absolute;right:92px;top:-85px;z-index:0;width:344px}
 .office_gal__bg_2{position:absolute;right:92px;top:-60px;z-index:0;width:373px}
 .office_gal__bg_2-1{position:absolute;right:92px;top:-60px;z-index:0;width:373px}

@@ -1,9 +1,5 @@
 .c-img_box {
-	background: linear-gradient(
-		90deg,
-		rgba(37, 121, 191, 1) 0%,
-		rgba(37, 147, 213, 1) 50%
-	);
+	background: linear-gradient(to right, #0059c6, #000017);
 	width: 84px;
 	height: 84px;
 	position: absolute;
@@ -31,7 +27,7 @@
 		font-weight: 700;
 		padding-top: 20px;
 		padding-bottom: 12px;
-		@include font-line(10);
+		@include font-line(9);
 	}
 
 	&__sub {

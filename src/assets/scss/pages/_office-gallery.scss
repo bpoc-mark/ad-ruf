@@ -3,13 +3,13 @@
 
 	.c-banner {
 		padding: 0 0 80px 0;
+		background: linear-gradient(to right, #0059c6, #000017);
 
 		@include is-max(400px) {
 			padding: 0 0 95px 0;
 		}
 
 		&--ttl {
-
 			p {
 				@include is-max(400px) {
 					&:nth-child(1) {
@@ -22,14 +22,13 @@
 					}
 				}
 			}
-
 		}
 	}
 
 	.section_1 {
 		position: relative;
 		margin: 0 0 0 0;
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to left, #0059c6, #000017);
 		text-align: center;
 
 		&::before {
@@ -87,7 +86,6 @@
 		}
 	}
 
-
 	.bread_crumps {
 		text-align: left;
 		position: relative;
@@ -99,7 +97,7 @@
 			margin: 0 auto;
 			max-width: 1100px;
 			color: #fff;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(12);
 		}
 
@@ -113,7 +111,7 @@
 		width: 800px;
 		height: 250px;
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-		background: linear-gradient(to right, #003782, #0059b6);
+		background: linear-gradient(to right, #0059c6, #000017);
 		position: absolute;
 		top: 0;
 		right: 0%;
@@ -125,7 +123,6 @@
 			top: 0;
 		}
 	}
-
 
 	&__bg_1 {
 		position: absolute;
@@ -176,7 +173,7 @@
 		z-index: 0;
 		width: 373px;
 		opacity: 0.3;
-		@include is-sp{
+		@include is-sp {
 			width: 186px;
 			right: 4%;
 		}
@@ -189,7 +186,7 @@
 		z-index: 0;
 		width: 373px;
 
-		@include is-sp{
+		@include is-sp {
 			width: 186px;
 			right: 4%;
 		}
@@ -205,8 +202,7 @@
 		}
 
 		&:nth-child(2) {
-			padding-bottom: 153px !important; 
-			
+			padding-bottom: 153px !important;
 		}
 
 		&:nth-of-type(even) {
@@ -338,7 +334,7 @@
 				}
 
 				.desc {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					@include font-line(13, 26);
 					font-weight: 500;
 					letter-spacing: 0.1em;
@@ -402,7 +398,7 @@
 		padding: 75px 0 50px 0;
 		background-color: #fff;
 		margin-top: -135px;
-		@include is-sp{
+		@include is-sp {
 			margin-top: -80px;
 		}
 
@@ -497,7 +493,11 @@
 							line-height: 12px;
 							color: #fff;
 							padding: 3px 20px 3px 15px;
-							background: linear-gradient(90deg, rgba(2, 82, 133, 0.9) -17%, rgba(25, 64, 96, 0.7) 83%);
+							background: linear-gradient(
+								90deg,
+								rgba(2, 82, 133, 0.9) -17%,
+								rgba(25, 64, 96, 0.7) 83%
+							);
 						}
 					}
 				}
@@ -520,7 +520,7 @@
 						padding-left: 10px;
 					}
 
-					@include is-max (445px) {
+					@include is-max(445px) {
 						padding-bottom: 0;
 					}
 
@@ -556,7 +556,7 @@
 							padding-top: 5px;
 						}
 
-						@include is-max(400px){
+						@include is-max(400px) {
 							font-size: 3vw;
 						}
 					}
@@ -595,5 +595,4 @@
 			width: 122px;
 		}
 	}
-
 }
