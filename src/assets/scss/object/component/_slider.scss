@@ -220,11 +220,11 @@
 
 					&:nth-of-type(1) {
 						font-weight: 500;
-						@include font-line(6);
+						@include font-line(8);
 					}
 
 					font-weight: 700;
-					@include font-line(9);
+					@include font-line(11);
 				}
 			}
 		}
@@ -235,7 +235,7 @@
 			line-height: 1;
 			padding: 20px 0;
 			line-height: 21px;
-			color: #258acf;
+			color: #0059b2;
 			@include font-line(14);
 
 			@include is-max(780px) {

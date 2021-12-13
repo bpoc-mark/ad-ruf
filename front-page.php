@@ -15,7 +15,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                     </div>
                     <div class="top-header-bnnr-hdr-01-txt">
-                        <p>丸の内株式会社ルーフ</p>
+                        <p>【丸の内】株式会社ルーフ</p>
                     </div>
                 </div>
                 <div class="top-header-bnnr-hdr-02">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="sect_1-hdr-desc">
                         <p class="sect_1-hdr-desc-txt">
-                            私たちは、不動産コンサルティング会社ではありません。丸の内ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br class="u-d-n-sp">
+                            私たちは、不動産コンサルティング会社ではありません。ルーフが目指すのは、オーナーであるお客様の収益の最大化。<br class="u-d-n-sp">
                             首都圏の収益不動産を中心に「売買」、「管理」、「運用」、「アセットマネジメント」まで、ワンストップでトータルサポート。<br class="u-d-n-sp">
                             自社で収益不動産を所有する「プロのオーナー」として、お客様と同じ目線でサービスを提供します。
                         </p>
@@ -152,7 +152,7 @@
                             </div>
 
                             <a href="<?php echo get_permalink(get_page_by_path('realestatepurchase')) ?>"
-                                class="c-buttonCase u-l-algn" style="color: #258acf;">
+                                class="c-buttonCase u-l-algn">
                                 <p class="txt">収益不動産の売買について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg"
                                     alt="">
@@ -392,9 +392,9 @@
                                     href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                     <p>VIEW <br>MORE</p>
                                 </a>
-                                <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
+                                <p class="c-cards09-desc-ttl">築30年の大規模<br>リノベーション
                                 </p>
-                                <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
+                                <p class="c-cards09-desc-txt">室内フルリフォームで<br>快適空間</p>
                             </div>
                         </div>
 
@@ -414,7 +414,7 @@
                                     href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                     <p>VIEW <br>MORE</p>
                                 </a>
-                                <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
+                                <p class="c-cards09-desc-ttl">エントランスの<br>バリューアップ
                                 </p>
                                 <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
                             </div>
@@ -590,7 +590,7 @@
                 </div>
                 <div class="l-wrap">
                     <a href="<?php echo get_permalink(get_page_by_path('column')) ?>" class="c-buttonCase">
-                        <p class="txt">その他のコラムを見る</p>
+                        <p class="txt">その他の記事を見る</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg"
                             alt="">
                     </a>
@@ -664,7 +664,7 @@
             <div class="sect_8-cntnt">
                 <div class="sect_8-cntnt-txt">
                     <p class="sect_8-cntnt-txt-ttl">NEWS</p>
-                    <p class="sect_8-cntnt-txt-sub">丸の内ルーフのニュース</p>
+                    <p class="sect_8-cntnt-txt-sub">株式会社ルーフのニュース</p>
                 </div>
 
                 <div class="sect_8-cntnt-news">
