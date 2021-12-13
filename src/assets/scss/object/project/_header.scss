@@ -529,6 +529,22 @@
 							transform: translate(-50%, 0);
 							padding: 10px 0;
 
+							&.submenu2{
+								left: 100%;
+
+								@include is-sp{
+									left: 0;
+								}
+							}
+
+							&.submenu3{
+								left: 66%;
+
+								@include is-sp{
+									left: 0;
+								}
+							}
+
 							@include is-sp {
 								position: relative;
 								bottom: unset;
@@ -1102,6 +1118,15 @@
             }
         }
 	}
+
+	.pc{
+		display: block;
+
+		@include is-sp{
+			display: none;
+		}
+	}
+
 }
 
 .slide {
