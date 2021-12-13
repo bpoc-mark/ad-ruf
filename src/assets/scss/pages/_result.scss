@@ -185,7 +185,7 @@
 	}
 
 	.result_ttl {
-		letter-spacing: 0.18em;
+		letter-spacing: 0.1em;
 		font-weight: 500;
 
 		@include is-max(985px) {
@@ -201,8 +201,8 @@
 			letter-spacing: 0.01em;
 		}
 
-		@include is-max(400px) {
-			font-size: 6vw;
+		@include is-max(445px) {
+			font-size: 5.4vw;
 		}
 	}
 

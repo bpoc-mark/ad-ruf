@@ -10,7 +10,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/result/result_bnr.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/result/result_bnr_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>丸 の 内 ル ー フ<br class="br-sp">の 業 績</p>
+                <p>株 式 会 社 ル ー フ<br class="br-sp">の 業 績</p>
                 <p>The Results</p>
             </div>
         </div>
@@ -30,8 +30,8 @@ $imagedir = get_template_directory_uri();
                     <img src="<?php echo $imagedir ?>/release/image/page/result/bg_min_square.png" alt="">
                 </div>
                 <p class="section_1__ttl">The Results</p>
-                <h1 class="c-case01__title result_ttl">丸の内ルーフはさらなる長期的<br class="u-d-n-pc">発展を目指して参ります。</h1>
-                <p class="c-case01__sub result_sub">私たち丸の内ルーフは創業以来、赤字を出すことなく、<br>利益水準を持続的に成長させてきました。</p>
+                <h1 class="c-case01__title result_ttl">【丸の内】ルーフはさらなる長期的<br class="u-d-n-pc">発展を目指して参ります。</h1>
+                <p class="c-case01__sub result_sub">私たちルーフは創業以来、赤字を出すことなく、<br>利益水準を持続的に成長させてきました。</p>
 
                 <div class="section_1__charts u-d-n-sp">
                     <img src="<?php echo $imagedir ?>/release/image/page/result/chart_1.png" alt="">

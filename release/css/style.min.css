@@ -2522,7 +2522,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .result .section_1__charts img:nth-of-type(2){padding-top:40px}
 .result .section_1__chart-ins{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;padding:40px 0 60px 0;letter-spacing:.2em;font-size:.8125rem;line-height:2}
 .result .section_1__result_btns{max-width:640px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.result .result_ttl{letter-spacing:.18em;font-weight:500}
+.result .result_ttl{letter-spacing:.1em;font-weight:500}
 .result .br-sp{display:none}
 .sore{position:relative}
 .sore .c-banner--ttl p:first-child{font-size:1.875rem;letter-spacing:0 !important;line-height:41px}
@@ -5173,6 +5173,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .office_gal .section_3 .cards .cards-card-desc{padding-bottom:0}
 .office_gal .section_3 .cards .cards-card-desc-ttl{font-size:3.5vw}
 .office_gal .section_3 .cards .cards-card-desc-txt{padding-top:5px}
+.result .result_ttl{font-size:5.4vw}
 }@media only screen and (max-width:440px){.acc .section_3 .c-case03__txt__sub{letter-spacing:.04em !important}
 .acc .acc_sub{font-size:6.5vw}
 .ci__main-content--row .col .info_right{width:calc(100% - 106.5px)}
@@ -5269,7 +5270,6 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .rep2_s4 .txt_ttl{font-size:6vw !important}
 .result .c-banner{padding-bottom:95px}
 .result .section_1__chart-ins{font-size:3.2vw}
-.result .result_ttl{font-size:6vw}
 .sore .c-banner--ttl p:first-child{font-size:7.5vw}
 .single_page .single_content .col1 .single-post .post-item ul li p:first-child{border-right:0}
 .single_page .single_content .col1 .single-post .post-item ul li p:last-child{border-left:2px solid #15377b;line-height:1.4}
