@@ -5,7 +5,8 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content real_estate_purchase sore rep2">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/rep2_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_banner_sp.png" alt="">
@@ -26,21 +27,23 @@ $imagedir = get_template_directory_uri();
         <div class="sect_1__center">
             <div class="l-wrap">
                 <div class="sect_1__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-1.png"
+                        alt="">
                 </div>
                 <div class="sect_1__box-big u-d-n-sp">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png"
+                        alt="">
                 </div>
                 <p class="sect_1__eng_ttl">
                     Real Estate Purchase
                 </p>
-                <span class="ttl_small_sp u-d-n-pc">丸の内ルーフは、あなたの大切な一棟マンションやアパートなどの</span>
+                <span class="ttl_small_sp u-d-n-pc">ルーフは、あなたの大切な一棟マンションやアパートなどの</span>
                 <p class="sect_1__headers">
-                    <span class="ttl_small u-d-n-sp">丸の内ルーフは、あなたの大切な一棟マンションやアパートなどの</span> <br class="u-d-n-sp">
-                    収益不動産を最大限に<br class="u-d-n-pc"> 評価して買取いたします。
+                    <span class="ttl_small u-d-n-sp">ルーフは、あなたの大切な一棟マンションやアパートなどの</span> <br
+                        class="u-d-n-sp">収益不動産を最大限に<br class="u-d-n-pc">評価して買取いたします。
                 </p>
                 <p class="header_subtext">
-                    丸の内ルーフでは私たちが直接「収益不動産の買取」を行います。<br class="u-d-n-sp">
+                    ルーフでは私たちが直接「収益不動産の買取」を行います。<br class="u-d-n-sp">
                     売主様のご負担を極力少なくできるよう、<br class="u-d-n-sp">
                     迅速かつ誠実に対応出来るように心掛けており、<br class="u-d-n-sp">
                     スタッフ全員が経験豊富なエキスパートのため、圧倒的なスピード感での意思決定を実現しております。
@@ -136,7 +139,8 @@ $imagedir = get_template_directory_uri();
 
     <section class="sect_3 sore__section_3 rep2_s3">
         <div class="l-wrap">
-            <img class="u-d-n-pc sp_bg6" src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec6_bg_sp.png" alt="">
+            <img class="u-d-n-pc sp_bg6"
+                src="<?php echo get_template_directory_uri(); ?>/release/image/background/sec6_bg_sp.png" alt="">
             <img class="bg_15" src="<?php echo $imagedir ?>/release/image/page/case/bg_3.png" alt="">
             <img class="bg_16" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <div class="c-case03__txt sore__headline">
@@ -171,7 +175,8 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col02">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img class="flow-2" src="<?php echo $imagedir ?>/release/image/realestate/sore_img5.png" alt="">
+                                <img class="flow-2" src="<?php echo $imagedir ?>/release/image/realestate/sore_img5.png"
+                                    alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>02</p>
@@ -198,7 +203,8 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col03">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img class="flow-3" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img4.png" alt="">
+                                <img class="flow-3" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img4.png"
+                                    alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>03</p>
@@ -263,7 +269,8 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
             </div>
-            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_3--btn">
+            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"
+                class="c-buttonCase sore__section_3--btn">
                 <p class="txt">無料相談する</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
@@ -295,14 +302,16 @@ $imagedir = get_template_directory_uri();
                         投資用の収益不動産の売却を成功させるには、一般的な居住用不動産の売却とは異なる知識やノウハウが求められます。私たち丸の内ルーフでは、大切な不動産の「正しい価値」を見極め適切に伝えること、また問題がある場合の解決策の提案力・実行力により、オーナー様にとってより好条件のお取引を実現できるよう努めています。
                     </p>
 
-                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn u-mt-35">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"
+                        class="c-buttonCase sore__section_6--btn u-mt-35">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
 
                 </div>
                 <div class="sect_6__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img6.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img6.png" alt="">
                     <div class="horizontal_txt hr1">
                         <p>豊富な経験と.ウハウによって、</p>
                     </div>
@@ -321,14 +330,17 @@ $imagedir = get_template_directory_uri();
 
     <section id="買取実績" class="sect_2  rep2_s5">
         <div class="l-wrap">
-            <img class="u-d-n-pc sp_bg3" src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
+            <img class="u-d-n-pc sp_bg3"
+                src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
 
             <div class="p-main_content__box1">
                 <div class="sect_2__box-big-new">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png"
+                        alt="">
                 </div>
                 <div class="sect_2__box-big-new2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-2.png"
+                        alt="">
                 </div>
                 <p class="sore__ttl sore__section_2-ttl s4-ttl">CASE STUDIES</p>
                 <h1 class="sore__title sore__section_2-title rep2_s5-title">買取実績</h1>
@@ -511,8 +523,10 @@ $imagedir = get_template_directory_uri();
                     </div>
                     <div class="row">
                         <div class="col col1">
-                            <img class="u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9.png" alt="">
-                            <img class="u-d-n-pc" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9_sp.png" alt="">
+                            <img class="u-d-n-sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9.png"
+                                alt="">
+                            <img class="u-d-n-pc"
+                                src="<?php echo $imagedir ?>/release/image/realestate/rep2_img9_sp.png" alt="">
                             <div class="text u-d-n-pc">
                                 <p>
                                     売却したい時期が<br>
@@ -543,7 +557,8 @@ $imagedir = get_template_directory_uri();
                 </div>
 
                 <div class="center">
-                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"
+                        class="c-buttonCase sore__section_6--btn">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -559,14 +574,14 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/realestate/sect_2_box-1.png" alt="">
             </div>
             <img class="bg_21 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/background/bg_20.png" alt="">
-            <p class="txt_small pt103 u-d-n-pc tl">私たちは不動産会社によくある“簡単査定”は行いません</p>
+            <p class="txt_small pt103 u-d-n-pc tl">私たちは不動産会社によくある“簡単査定”は行いません。</p>
             <p class="txt_ttl sore__section_5--ttl ws u-d-n-pc">
                 自分たちの目で価値を見極め、<br>
                 正しい査定額をご提示します。
             </p>
             <div class="sect_5__inner-realestate">
                 <div class="sect_5__inner-realestate--left">
-                    <p class="txt_small  u-d-n-sp">私たちは不動産会社によくある“簡単査定”は行いません</p>
+                    <p class="txt_small  u-d-n-sp">私たちは不動産会社によくある“簡単査定”は行いません。</p>
                     <p class="txt_ttl sore__section_5--ttl u-d-n-sp">
                         自分たちの目で価値を見極め、<br>
                         正しい査定額をご提示します。
@@ -577,7 +592,8 @@ $imagedir = get_template_directory_uri();
 
                 </div>
                 <div class="sect_5__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img7.png" alt="">
+                    <img class="pic"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img7.png" alt="">
                     <div class="horizontal_txt hr4">
                         <p>私たちは不動産会社によくある</p>
                     </div>
@@ -609,7 +625,8 @@ $imagedir = get_template_directory_uri();
                         <span>プロの目線であなたの不動産を最大限に評価いたします。<span>
                     </p>
 
-                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="c-buttonCase sore__section_6--btn u-mt-35">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"
+                        class="c-buttonCase sore__section_6--btn u-mt-35">
                         <p class="txt">無料相談する</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -617,7 +634,9 @@ $imagedir = get_template_directory_uri();
                 </div>
                 <div class="sect_6__inner-realestate--right">
                     <div style="position: relative">
-                        <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img8.png" alt="">
+                        <img class="pic"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img8.png"
+                            alt="">
                         <div class="horizontal_txt hr6">
                             <p>確かな目利き力を持った</p>
                         </div>

@@ -127,7 +127,8 @@ get_header(); ?>
                                                 $output = '';
                                                 if (!empty($categories)) {
                                                     foreach ($categories as $category) {
-                                                        $output .= '<span class="cat"><span class="cat-hash">#</span>' . esc_html($category->name) . '</span>';
+                                                        // $output .= '<span class="cat"><span class="cat-hash">#</span>' . esc_html($category->name) . '</span>';
+                                                        echo '<a href="' . get_category_link($category->term_id) . '" class="cat"><span class="cat-hash">#</span>' . $category->name . '</a>';
                                                     }
                                                     echo trim($output);
                                                 }
@@ -191,7 +192,7 @@ get_header(); ?>
                                                 <?php
                                                 $category = get_the_category();
                                                 if (!empty($category)) {
-                                                    echo '<span class="cat"><span class="cat-hash">#</span>' .  $category[0]->cat_name . '</span>';
+                                                    echo  '<span class="cat"><span class="cat-hash">#</span>' .  $category[0]->cat_name . '</span>';
                                                 }
                                                 ?>
                                             </div>
