@@ -8,7 +8,7 @@ $imagedir = get_template_directory_uri();
 <div class="page__content group-business">
     <div class="c-banner">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
-                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr.png"
                 alt="">
@@ -35,7 +35,7 @@ $imagedir = get_template_directory_uri();
                         Group Business
                     </p>
                     <p class="sect_1__header">
-                        クルマが持つ新しい <br class="u-d-n-pc">世界観の創出<br>『CARGUY／カーガイ』
+                        クルマが持つ新しい<br class="u-d-n-pc">世界観の創出<br>『CARGUY／カーガイ』
                     </p>
                     <div class="sect_1__inner">
                         <div class="sect_1__inner--left">
@@ -71,16 +71,17 @@ $imagedir = get_template_directory_uri();
                     <img class="rect-one"
                         src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_one.png"
                         alt="">
-                </div>
-            </div>
-        </div>
-        <div class="sect_1__box-sm">
+                        <div class="sect_1__box-sm">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/bg_1.png" alt="">
         </div>
         <div class="sect_1__box-big">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_big.png" alt="">
         </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
-    <div class="horizontal--background"></div>
+    <!-- <div class="horizontal--background"></div> -->
 </div>
 <?php get_footer(); ?>
