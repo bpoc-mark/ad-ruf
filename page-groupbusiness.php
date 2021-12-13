@@ -7,13 +7,10 @@ $imagedir = get_template_directory_uri();
 
 <div class="page__content group-business">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
-                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
-            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr.png"
-                alt="">
-            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr_sp.png"
-                alt="">
+            <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr.png" alt="">
+            <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/groupbusiness/groupbusiness_bnr_sp.png" alt="">
             <div class="c-banner--ttl">
                 <p>グ ル ー プ<br class="bnr_sp"> 事 業</p>
                 <p>Group <br class="bnr_sp">Business</p>
@@ -49,38 +46,31 @@ $imagedir = get_template_directory_uri();
                             </p>
                         </div>
                         <div class="sect_1__inner--right">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/carguy_img.png"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/carguy_img.png" alt="">
                         </div>
                     </div>
                     <div class="sect_1__btn--wrap">
-                        <a href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>"
-                            class="c-buttonCase btn--left">
+                        <a href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>" class="c-buttonCase btn--left">
                             <p class="txt">ルーフのメイン事業内容を見る</p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
 
-                        <a href="https://drive.google.com/drive/folders/1sh9HKxPjXklI2VirmBd-X74hSWeUGuHc"
-                            class="c-buttonCase btn--right">
+                        <a href="https://drive.google.com/drive/folders/1sh9HKxPjXklI2VirmBd-X74hSWeUGuHc" class="c-buttonCase btn--right">
                             <p class="txt">公式サイトへ</p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg"
-                                alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
                     </div>
-                    <img class="rect-one"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_one.png"
-                        alt="">
-                        <div class="sect_1__box-sm">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/bg_1.png" alt="">
-        </div>
-        <div class="sect_1__box-big">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_big.png" alt="">
-        </div>
+                    <img class="rect-one" src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_one.png" alt="">
+                    <div class="sect_1__box-sm">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/bg_1.png" alt="">
+                    </div>
+                    <div class="sect_1__box-big">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/groupbusiness/rect_big.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!-- <div class="horizontal--background"></div> -->
 </div>

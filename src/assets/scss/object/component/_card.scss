@@ -409,7 +409,7 @@
 	}
 
 	&__top {
-		border-bottom: 1px solid #2589ce;
+		border-bottom: 1px solid #0059B4;
 		@include is-max(1000px) {
 			padding-top: 30px;
 		}
@@ -558,7 +558,7 @@
 			font-weight: 700;
 			font-family: yu-gothic-pr6n, sans-serif;
 			letter-spacing: 0.2em;
-			color: #258acf;
+			color: #0059B4;
 
 			@include is-max(430px) {
 				font-size: 3vw;

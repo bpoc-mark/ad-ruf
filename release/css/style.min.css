@@ -180,7 +180,7 @@ template{display:none}
 .c-card07:nth-child(7)::before{border-left:2px dashed #aeaeae;position:absolute;height:100%;content:"";left:-8%}
 .c-card07:nth-child(7)::after{border-left:2px dashed #aeaeae;position:absolute;height:100%;content:"";right:-8%;top:0}
 .c-card07__top,.c-card07__bottom{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.c-card07__top{border-bottom:1px solid #2589ce}
+.c-card07__top{border-bottom:1px solid #0059b4}
 .c-card07__bottom{padding-top:15px}
 .c-card07:last-child,.c-card07:nth-of-type(3){padding-right:unset}
 .c-card07:nth-of-type(5){padding-left:unset}
@@ -194,7 +194,7 @@ template{display:none}
 .c-cards09-img-view p{font-size:10px;line-height:10px;-webkit-transform:rotate(310deg);transform:rotate(310deg);color:#fff;padding-top:34px;padding-left:0;padding-right:13px;position:relative}
 .c-cards09-img-view p::before{content:"";position:absolute;bottom:-20%;left:27%;width:26%;height:30%;-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 0,0 100%,100% 100%);background-color:black;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
 .c-cards09-desc{position:relative;text-align:center;background-color:#fff;padding:20px 5px 18px;border:2px solid #f1f1f1}
-.c-cards09-desc-ttl{font-size:14px;line-height:21px;font-weight:700;font-family:yu-gothic-pr6n,sans-serif;letter-spacing:.2em;color:#258acf}
+.c-cards09-desc-ttl{font-size:14px;line-height:21px;font-weight:700;font-family:yu-gothic-pr6n,sans-serif;letter-spacing:.2em;color:#0059b4}
 .c-cards09-desc-txt{font-size:11px;line-height:16px;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;color:#333;letter-spacing:.2em;padding-top:13px}
 .c-card08{text-align:center;background-color:#fff}
 .c-card08__top{position:relative}
@@ -2236,10 +2236,10 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase{position:relative}
 .real_estate_purchase .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
 .real_estate_purchase .top-clip{width:800px;height:250px;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);position:absolute;top:0;right:0;margin-top:-115px}
-.real_estate_purchase .sect_1{position:relative;margin-top:100px}
+.real_estate_purchase .sect_1{position:relative}
 .real_estate_purchase .sect_1 .l-wrap{text-align:center}
 .real_estate_purchase .sect_1__box-big-new{position:absolute;right:7%;top:-95px;opacity:.3}
-.real_estate_purchase .sect_1::before{content:"";position:absolute;width:100%;top:-95px;height:100px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 50%,100% 0,100% 100%,0 100%);clip-path:polygon(0 50%,100% 0,100% 100%,0 100%)}
+.real_estate_purchase .sect_1::before{content:"";position:absolute;width:100%;top:-95px;height:100px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 10%,100% 0,100% 85%,75% 100%,21% 92%,0 79%);clip-path:polygon(0 10%,100% 0,100% 85%,75% 100%,21% 92%,0 79%)}
 .real_estate_purchase .sect_1__center{padding:100px 0 160px 0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017)}
 .real_estate_purchase .sect_1__eng_ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;color:#fff;letter-spacing:.32em}
 .real_estate_purchase .sect_1__headers{font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;line-height:1.6;color:#fff;letter-spacing:.18em;padding-top:10px;padding-bottom:23px}
@@ -2251,7 +2251,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%)}
 .real_estate_purchase .sect_2__box-big-new{position:absolute;left:46%;top:18px}
 .real_estate_purchase .sect_2__box-big-new2{position:absolute;bottom:30px;margin-left:-60px}
-.real_estate_purchase .sect_2 .c-buttonREP .txt{color:#2589ce;letter-spacing:.2em}
+.real_estate_purchase .sect_2 .c-buttonREP .txt{color:#0059b4;letter-spacing:.2em}
 .real_estate_purchase .sect_2::before{content:"";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0)}
 .real_estate_purchase .sect_2::after{content:"";position:absolute;width:100%;bottom:-58px;height:60px;z-index:1;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%);-webkit-clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%)}
 .real_estate_purchase .sect_2 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.3em;position:relative}
@@ -2262,12 +2262,12 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_2__inner-realestate--left .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.3em}
 .real_estate_purchase .sect_2__inner-realestate--left .text{font-family:yu-gothic-pr6n,sans-serif;font-weight:500;font-size:.8125rem;line-height:2;text-align:left;color:#fff;padding-top:15px;padding-bottom:15px;letter-spacing:.11em;text-align:justify}
 .real_estate_purchase .sect_2__inner-realestate--left .point{background-color:#fff;padding-left:30px;padding-right:30px;padding-top:15px;padding-bottom:15px;border:1px solid #8bb1d0}
-.real_estate_purchase .sect_2__inner-realestate--left .point_ttl{font-family:century-gothic,sans-serif;font-size:.6875rem;line-height:2;color:#2589ce;letter-spacing:.26em;text-align:center;font-weight:700;padding-bottom:5px}
+.real_estate_purchase .sect_2__inner-realestate--left .point_ttl{font-family:century-gothic,sans-serif;font-size:.6875rem;line-height:2;color:#0059b4;letter-spacing:.26em;text-align:center;font-weight:700;padding-bottom:5px}
 .real_estate_purchase .sect_2__inner-realestate--left .point_item{font-family:yu-gothic-pr6n,sans-serif;text-align:left;font-size:.5625rem;line-height:2.8888888889;color:#87b2db;font-weight:700}
-.real_estate_purchase .sect_2__inner-realestate--left .point_item span{margin-left:10px;font-weight:700;color:#2589ce;font-size:.8125rem;line-height:2;letter-spacing:.2em}
+.real_estate_purchase .sect_2__inner-realestate--left .point_item span{margin-left:10px;font-weight:700;color:#0059b4;font-size:.8125rem;line-height:2;letter-spacing:.2em}
 .real_estate_purchase .sect_3{position:relative;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
 .real_estate_purchase .sect_3 .point{border:1px solid #8bb1d0}
-.real_estate_purchase .sect_3 .c-buttonREP .txt{color:#2589ce;letter-spacing:.2em}
+.real_estate_purchase .sect_3 .c-buttonREP .txt{color:#0059b4;letter-spacing:.2em}
 .real_estate_purchase .sect_3 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#fff;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.3em}
 .real_estate_purchase .sect_3::after{content:"";position:absolute;width:100%;bottom:-58px;height:60px;z-index:1;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 0,100% 1%,100% 100%,80% 5%,0 98%);clip-path:polygon(0 0,100% 1%,100% 100%,85% 5%,0 98%)}
 .real_estate_purchase .sect_3__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;padding:160px 0 55px 0}
@@ -2285,18 +2285,18 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_4__box-big-new .pc{display:none}
 .real_estate_purchase .sect_4__box-big-new .sp{display:none}
 .real_estate_purchase .sect_4__box-big-new2{position:absolute;left:0;top:160px}
-.real_estate_purchase .sect_4__box-big-new3{position:absolute;right:0;top:43%}
+.real_estate_purchase .sect_4__box-big-new3{position:absolute;right:0;top:55%}
 .real_estate_purchase .sect_4::after{content:"";position:absolute;width:100%;bottom:-61px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0)}
-.real_estate_purchase .sect_4 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;position:relative}
+.real_estate_purchase .sect_4 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#0059b4;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;position:relative}
 .real_estate_purchase .sect_4 .l-wrap{position:relative}
 .real_estate_purchase .sect_4--top-realestate{border-left:3px solid #4688c8;padding-left:15px;position:relative}
 .real_estate_purchase .sect_4__eng--ttl{font-family:century-gothic,sans-serif;font-size:.8125rem;line-height:1.5384615385;color:#9ec4e3;letter-spacing:.21em;text-align:left;font-weight:600;margin-bottom:5px}
-.real_estate_purchase .sect_4__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;padding-bottom:15px}
+.real_estate_purchase .sect_4__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#0059b4;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;padding-bottom:15px}
 .real_estate_purchase .sect_4__header--sub{font-family:yu-gothic-pr6n,sans-serif;text-align:left;font-size:.8125rem;line-height:2;color:#000;font-weight:500;letter-spacing:.197em;margin-bottom:70px}
 .real_estate_purchase .sect_4__inner-realestate{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;padding-bottom:100px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .real_estate_purchase .sect_4__inner-realestate--left,.real_estate_purchase .sect_4__inner-realestate--right{width:50%;position:relative;z-index:4}
 .real_estate_purchase .sect_4__inner-realestate--left{padding-left:95px}
-.real_estate_purchase .sect_4__inner-realestate--left .txt_ttl{font-size:1.625rem;line-height:1.1538461538;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em}
+.real_estate_purchase .sect_4__inner-realestate--left .txt_ttl{font-size:1.625rem;line-height:1.1538461538;text-align:left;color:#0059b4;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em}
 .real_estate_purchase .sect_4__inner-realestate .text{font-family:yu-gothic-pr6n,sans-serif;font-weight:500;font-size:.8125rem;line-height:2;text-align:left;color:#000;padding-top:15px;padding-bottom:15px;letter-spacing:.2em;text-align:justify;font-weight:600}
 .real_estate_purchase .sect_4__inner-realestate .text span{font-size:.6875rem;line-height:2.3636363636;letter-spacing:.2em}
 .real_estate_purchase .sect_4__inner-realestate .point{background-color:#fff;padding-left:30px;padding-right:30px;padding-top:15px;padding-bottom:15px;border:2px solid #87b2db}
@@ -2304,6 +2304,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_4__inner-realestate .point_item{font-family:yu-gothic-pr6n,sans-serif;text-align:left;font-size:.5625rem;line-height:2.8888888889;color:#87b2db;font-weight:700}
 .real_estate_purchase .sect_4__inner-realestate .point_item span{margin-left:10px;font-weight:700;color:#2589ce;font-size:.8125rem;line-height:2;letter-spacing:.2em}
 .real_estate_purchase .sect_4 .c-buttonREP{margin-top:50px}
+.real_estate_purchase .sect_4 .c-buttonREP .txt{color:#0059b4}
 .real_estate_purchase .sect_5{position:relative;margin-bottom:60px;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%)}
 .real_estate_purchase .sect_5--clipbg{background-color:#fff}
 .real_estate_purchase .sect_5__box-big-new{position:absolute;left:46%;top:5px}
@@ -2326,7 +2327,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_5__inner-realestate .br-point{display:block}
 .real_estate_purchase .sect_6{background:#fff}
 .real_estate_purchase .sect_6 .c-buttonREP .txt{letter-spacing:.2em}
-.real_estate_purchase .sect_6 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#4688c8;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;padding-bottom:20px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
+.real_estate_purchase .sect_6 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#0059b4 !important;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;padding-bottom:20px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
 .real_estate_purchase .sect_6__box-big-new{position:absolute;left:60%;top:-3%}
 .real_estate_purchase .sect_6__box-big-new .pc{display:none}
 .real_estate_purchase .sect_6__box-big-new .sp{display:none}
@@ -2366,21 +2367,21 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_7-cntnt .crd-wrppr{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0 0 58px 0;-webkit-column-gap:30px;-moz-column-gap:30px;column-gap:30px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .real_estate_purchase .sect_8{padding-top:70px;background-color:#fff}
 .real_estate_purchase .sect_8--clipbg{background-color:#fff}
-.real_estate_purchase .sect_8 .c-buttonREP .txt{color:#2589ce}
+.real_estate_purchase .sect_8 .c-buttonREP .txt{color:#0059b4}
 .real_estate_purchase .sect_8__box-big-new{position:absolute;left:70%;top:-25%;opacity:.3}
 .real_estate_purchase .sect_8__box-big-new2{position:absolute;left:-4%;top:139%}
 .real_estate_purchase .sect_8__box-big-new3{position:absolute;right:0;bottom:75%}
 .real_estate_purchase .sect_8 .l-wrap{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .real_estate_purchase .sect_8--top{border-left:3px solid #2589ce;padding-left:15px;position:relative}
 .real_estate_purchase .sect_8__eng--ttl{font-family:century-gothic,sans-serif;font-size:.625rem;line-height:2;color:#94c5e6;letter-spacing:.32em;text-align:left;font-weight:600;margin-bottom:5px}
-.real_estate_purchase .sect_8__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#2589ce;font-family:yu-mincho-pr6n,sans-serif;font-weight:600;letter-spacing:.34em}
+.real_estate_purchase .sect_8__header{font-size:1.625rem;line-height:1.4230769231;text-align:left;color:#0059b4;font-family:yu-mincho-pr6n,sans-serif;font-weight:600;letter-spacing:.34em}
 .real_estate_purchase .sect_8--inner{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .real_estate_purchase .sect_8--inner .l-wrap{position:relative;margin-top:70px;margin-bottom:70px;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .real_estate_purchase .sect_8 .hide-sp{width:100%;height:70px}
 .real_estate_purchase .sect_8 .Question,.real_estate_purchase .sect_8 .Answer{width:15%;padding-left:4px}
 .real_estate_purchase .sect_8 .qtext,.real_estate_purchase .sect_8 .atext{width:85%}
 .real_estate_purchase .sect_8 .Question{font-family:century-gothic,sans-serif;font-size:2.3125rem;color:#9ec4e3;letter-spacing:.26em;text-align:left;font-weight:700;line-height:1}
-.real_estate_purchase .sect_8 .qtext{font-family:yu-gothic-pr6n,sans-serif;font-size:1rem;line-height:1.5;color:#2589ce;letter-spacing:.2em;text-align:left;font-weight:700;padding-bottom:10px;padding-left:15px}
+.real_estate_purchase .sect_8 .qtext{font-family:yu-gothic-pr6n,sans-serif;font-size:1rem;line-height:1.5;color:#0059b4;letter-spacing:.2em;text-align:left;font-weight:700;padding-bottom:10px;padding-left:15px}
 .real_estate_purchase .sect_8 .Answer{font-family:century-gothic,sans-serif;font-size:2.3125rem;line-height:2.027027027;color:#a72f37;letter-spacing:.26em;text-align:left;font-weight:700;padding-bottom:5px}
 .real_estate_purchase .sect_8 .atext{font-family:yu-gothic-pr6n,sans-serif;font-size:.8125rem;line-height:2;color:#333;letter-spacing:.15em;text-align:justify;font-weight:700;padding-bottom:5px;padding-left:15px}
 .real_estate_purchase .sect_8__btn--wrap{position:relative;padding-top:55px;width:640px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:auto;z-index:2}
@@ -2393,6 +2394,32 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .br-sp{display:none;font-family:yu-gothic-pr6n,sans-serif}
 .real_estate_purchase .br-pc{display:none}
 .real_estate_purchase .br-pc .br-sp{display:none}
+.rep1 .sect_1{-webkit-clip-path:polygon(0 12%,100% 0,100% 100%,0 100%);clip-path:polygon(0 12%,100% 0,100% 100%,0 100%)}
+.rep1 .sect_1__center{padding:155px 0 120px 0}
+.rep1 .sect_1__center::before{height:66%}
+.rep1 .sect_1__center::after{content:"";position:absolute;width:100%;bottom:-3px;width:81%;z-index:150;height:122px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(40% 2%,100% 58%,100% 67%,0 100%,0 45%);clip-path:polygon(40% 2%,100% 58%,100% 67%,0 100%,0 45%);z-index:1;opacity:.7}
+.rep1 .sect_1 .sect_1__box-big-new{top:-75px}
+.rep1 .sect_2{background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);padding-bottom:172px}
+.rep1 .sect_2::before{background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6)}
+.rep1 .sect_2::after{display:none}
+.rep1 .sect_2__box-big-new2{bottom:198px;opacity:.2}
+.rep1 .sect_3{background:-webkit-gradient(linear,right top,left top,from(#0059c4),to(#000017));background:linear-gradient(to left,#0059c4,#000017);-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);margin-top:-190px;padding-bottom:200px}
+.rep1 .sect_3::before{content:"";position:absolute;width:100%;height:34%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 22%,58% 49%,0 24%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 22%,58% 49%,0 24%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:1}
+.rep1 .sect_3::after{content:"";position:absolute;z-index:150;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);z-index:1;opacity:.7;bottom:102px;width:86%;-webkit-clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);height:161px}
+.rep1 .sect_4{-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);margin-top:-180px;padding-top:125px}
+.rep1 .sect_5{-webkit-clip-path:polygon(17% 9%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(17% 9%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,right top,left top,from(#0059c4),to(#000017));background:linear-gradient(to left,#0059c4,#000017);margin-top:-85px;padding-top:75px;padding-bottom:100px}
+.rep1 .sect_5::before{content:"";position:absolute;width:84%;height:41%;top:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 21%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 21%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:1}
+.rep1 .sect_5::after{content:"";position:absolute;z-index:150;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);z-index:1;opacity:.7;bottom:20px;width:86%;-webkit-clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);height:161px}
+.rep1 .sect_6{-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%);margin-top:-158px;padding-top:85px}
+.rep1 .sect_7{background:-webkit-gradient(linear,right top,left top,from(#0059c4),to(#000017));background:linear-gradient(to left,#0059c4,#000017);-webkit-clip-path:polygon(17% 9%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(17% 9%,100% 0,100% 100%,0 100%,0 0);margin-top:0;padding-top:150px;padding-bottom:141px}
+.rep1 .sect_7::before{content:"";position:absolute;width:84%;height:41%;top:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 21%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 21%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:1}
+.rep1 .sect_7::after{content:"";position:absolute;z-index:150;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);z-index:1;opacity:.7;bottom:20px;width:86%;-webkit-clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);clip-path:polygon(40% 2%,100% 52%,100% 67%,0 100%,0 45%);height:161px}
+.rep1 .sect_7__box-big-new2{opacity:.1}
+.rep1 .sect_7 .c-buttonCase{z-index:2}
+.rep1 .sect_8{-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 5%);clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 5%);margin-top:-160px;padding-top:150px}
+.rep1 .sect_8__box-big-new{opacity:1}
+.rep1 .point_ttl{color:#0059b4 !important}
+.rep1 .point_item span{color:#0059b4 !important}
 .rep2 .c-case03__txt__sub{letter-spacing:.12em !important}
 .rep2 .sect_1__eng_ttl{color:#fff !important}
 .rep2 .sect_1__headers{padding-top:5px}
@@ -3041,6 +3068,9 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .top .sect_7 .clipPath::after{height:205px;-webkit-clip-path:polygon(0 71%,36% 43%,100% 54%,0 100%);clip-path:polygon(0 71%,36% 43%,100% 54%,0 100%)}
 }@media only screen and (max-width:1070px){.interview .section_1 .section_1-cntnt .cntnt-wrppr--last{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .interview .section_1 .section_1-cntnt .cntnt-wrppr--last .section_1-cntnt-2{padding-bottom:30px}
+.rep1 .sect_7{-webkit-clip-path:polygon(17% 4%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(17% 4%,100% 0,100% 100%,0 100%,0 0)}
+.rep1 .sect_7::before{height:28%;-webkit-clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 14%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 24%,67% 43%,0 14%,0 0,0 0)}
+.rep1 .sect_8{-webkit-clip-path:polygon(86% 0,100% 4%,100% 100%,50% 100%,0 100%,0 4%);clip-path:polygon(86% 0,100% 4%,100% 100%,50% 100%,0 100%,0 4%)}
 }@media only screen and (max-width:1067px){.assetmanagement .sect_4__inner-realestate{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .real_estate_management .sect_4__inner-realestate{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .realestateoperation .sect_4__inner-realestate{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
@@ -4465,7 +4495,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .real_estate_purchase .sect_5__box-big-new .sp{display:block}
 .real_estate_purchase .sect_5__box-big-new2{display:none}
 .real_estate_purchase .sect_5::after{height:30px;bottom:-29px}
-.real_estate_purchase .sect_5 .txt_ttl{padding-bottom:20px;letter-spacing:normal}
+.real_estate_purchase .sect_5 .txt_ttl{padding-bottom:20px;letter-spacing:normal;width:100%}
 .real_estate_purchase .sect_5__inner-realestate .br-point .br-pc{display:none}
 .real_estate_purchase .sect_6 .txt_ttl{font-size:21px}
 .real_estate_purchase .sect_6__box-big-new{left:auto;width:122px;right:6%;top:0}
@@ -4489,6 +4519,34 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .real_estate_purchase .sect_8__btn--wrap .c-buttonREP:first-child{margin-top:0}
 .real_estate_purchase .br-sp{font-size:1rem;font-weight:500;display:block}
 .real_estate_purchase .br-pc .br-sp{display:block}
+.rep1 .c-banner--ttl{line-height:34px}
+.rep1 .c-banner--ttl p:nth-child(2){line-height:18px}
+.rep1 .sect_1{margin-top:0;-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);clip-path:polygon(0 7%,100% 0,100% 100%,0 100%)}
+.rep1 .sect_1__eng_ttl{color:#95c6e7}
+.rep1 .sect_1__center{padding-bottom:80px}
+.rep1 .sect_1__center::before{height:15%}
+.rep1 .sect_1__center::after{bottom:-38px;width:100%;height:100px;-webkit-clip-path:polygon(32% 2%,100% 33%,100% 67%,0 100%,0 30%);clip-path:polygon(32% 2%,100% 33%,100% 67%,0 100%,0 30%)}
+.rep1 .sect_2::after{display:block;content:"";bottom:81px;width:86%;height:125px;-webkit-clip-path:polygon(39% 2%,100% 47%,100% 69%,0 100%,0 22%);clip-path:polygon(39% 2%,100% 47%,100% 69%,0 100%,0 22%);position:absolute;z-index:1;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017)}
+.rep1 .sect_2__inner-realestate{padding-bottom:46px}
+.rep1 .sect_3{-webkit-clip-path:polygon(86% 0,100% 3%,100% 100%,50% 100%,0 100%,0 3%);clip-path:polygon(86% 0,100% 3%,100% 100%,50% 100%,0 100%,0 3%);margin-top:-148px;z-index:3;padding-bottom:55px}
+.rep1 .sect_3::before{display:none}
+.rep1 .sect_3::after{display:none}
+.rep1 .sect_4{-webkit-clip-path:polygon(86% 0,100% 2%,100% 100%,50% 100%,0 100%,0 2%);clip-path:polygon(86% 0,100% 2%,100% 100%,50% 100%,0 100%,0 2%);margin-top:-57px;z-index:4}
+.rep1 .sect_4 .sect_4__inner-realestate{padding-bottom:90px}
+.rep1 .sect_5{-webkit-clip-path:polygon(17% 3%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(17% 3%,100% 0,100% 100%,0 100%,0 0);margin-top:-58px}
+.rep1 .sect_5 .sect_5__inner-realestate{padding-bottom:35px;padding-top:10px}
+.rep1 .sect_5__box-big-new{top:-4%}
+.rep1 .sect_5::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 36%,55% 44%,0 16%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 36%,55% 44%,0 16%,0 0,0 0);height:18%}
+.rep1 .sect_5::after{width:81%;-webkit-clip-path:polygon(40% 21%,100% 66%,100% 67%,0 100%,0 45%);clip-path:polygon(40% 21%,100% 66%,100% 67%,0 100%,0 45%);height:130px}
+.rep1 .sect_6{-webkit-clip-path:polygon(81% 3%,100% 7%,100% 100%,50% 100%,0 100%,0 6%);clip-path:polygon(81% 3%,100% 7%,100% 100%,50% 100%,0 100%,0 6%);padding-top:80px}
+.rep1 .sect_6 .sect_6__inner-realestate{padding-top:70px}
+.rep1 .sect_7{-webkit-clip-path:polygon(17% 2%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(17% 2%,100% 0,100% 100%,0 100%,0 0);padding-bottom:186px}
+.rep1 .sect_7__box-big-new{top:-10%;width:140px;right:3%}
+.rep1 .sect_7 .sect_7-cntnt{padding-bottom:0}
+.rep1 .sect_7 .sect_7-cntnt-box-big-newest2{opacity:.1;width:148px}
+.rep1 .sect_7::before{height:14%;-webkit-clip-path:polygon(50% 0,100% 0,100% 36%,57% 50%,0 14%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 36%,57% 50%,0 14%,0 0,0 0)}
+.rep1 .sect_7::after{-webkit-clip-path:polygon(40% 11%,100% 50%,100% 67%,0 100%,0 25%);clip-path:polygon(40% 11%,100% 50%,100% 67%,0 100%,0 25%)}
+.rep1 .sect_8{-webkit-clip-path:polygon(86% 0,100% 1%,100% 100%,50% 100%,0 100%,0 1%);clip-path:polygon(86% 0,100% 1%,100% 100%,50% 100%,0 100%,0 1%);padding-top:100px}
 .rep2 .sect_1 .ttl_small_sp{letter-spacing:.16em !important}
 .rep2 .sect_1__eng_ttl{color:#96bcdb !important}
 .rep2 .sect_1__headers{font-size:25px !important}
@@ -4989,7 +5047,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .real_estate_purchase .sect_5__inner-realestate{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
 .real_estate_purchase .sect_5__inner-realestate--left,.real_estate_purchase .sect_5__inner-realestate--right{width:100%}
 .real_estate_purchase .sect_5__inner-realestate--left{padding-right:unset}
-.real_estate_purchase .sect_5__inner-realestate--left .text{padding-right:unset;padding-top:25px;text-align:justify;letter-spacing:.06em}
+.real_estate_purchase .sect_5__inner-realestate--left .text{padding-right:unset;padding-top:25px;text-align:justify;letter-spacing:.06em;padding-bottom:40px}
 .real_estate_purchase .sect_6__inner-realestate{display:grid}
 .real_estate_purchase .sect_6__inner-realestate--left,.real_estate_purchase .sect_6__inner-realestate--right{width:100%}
 .real_estate_purchase .sect_6__inner-realestate--left{padding-left:unset;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}
