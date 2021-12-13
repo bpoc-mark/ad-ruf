@@ -5,12 +5,12 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content real_estate_purchase sore sore_1">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/sore_banner_sp.png" alt="">
             <div class="c-banner--ttl">
-                <p>収 益 不 動 産 の 売 却</p>
+                <p>収 益 不 動 産 の<br class="br-sp">売 却</p>
                 <p>Sale of<br class="u-d-n-pc"> real estate</p>
             </div>
         </div>
@@ -34,9 +34,9 @@ $imagedir = get_template_directory_uri();
                 <p class="sect_1__eng_ttl">
                     Sale of real estate
                 </p>
-                <span class="ttl_small_sp u-d-n-pc">丸の内ルーフは、エキスパートによる<br class="u-d-n-pc">ヒアリングと確かな目利き力によって、</span>
+                <span class="ttl_small_sp u-d-n-pc">ルーフは、エキスパートによる<br class="u-d-n-pc">ヒアリングと確かな目利き力によって、</span>
                 <p class="sect_1__headers">
-                    <span class="ttl_small u-d-n-sp">丸の内ルーフは、エキスパートによる<br class="u-d-n-pc">ヒアリングと確かな目利き力によって、</span> <br class="u-d-n-sp">
+                    <span class="ttl_small u-d-n-sp">ルーフは、エキスパートによる<br class="u-d-n-pc">ヒアリングと確かな目利き力によって、</span> <br class="u-d-n-sp">
                     お客様の理想を超える<br class="u-d-n-pc"> 投資用 <br class="u-d-n-sp"> 収益不動産の<br class="u-d-n-pc">ご提案を目指します。
                 </p>
                 <p class="header_subtext">
@@ -62,7 +62,7 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="p-main_content__box3">
                 <p class="sore__ttl sore__section_2-ttl">Sale of real estate</p>
-                <h1 class="sore__title sore__section_2-title">丸の内ルーフの収益不動産の<br class="u-d-n-pc">売却 3つの特徴</h1>
+                <h1 class="sore__title sore__section_2-title">ルーフの収益不動産の<br class="u-d-n-pc">売却 3つの特徴</h1>
                 <div class="p-main_content__box3-row">
                     <div class="p-main_content__box3-col p-main_content__box3-col01">
                         <div class="c-card10">
@@ -489,7 +489,7 @@ $imagedir = get_template_directory_uri();
             </p>
             <div class="sect_6__inner-realestate">
                 <div class="sect_6__inner-realestate--left">
-                    <p class="txt_ttl sore__section_6--ttl u-d-n-sp">
+                    <p class="txt_ttl sore__section_6--ttl white u-d-n-sp">
                         購入から管理・運用まで<br>
                         トータルでサポート
                     </p>

@@ -487,6 +487,10 @@
 		@include is-sp{
 			margin-top: -225px;
 		}
+
+		@include is-max(458px){
+			margin-top: -195px;
+		}
 		
 		@include is-max(375px){
 			margin-top: -185px;
@@ -645,6 +649,10 @@
 
 	&__section_6 {
 		background: linear-gradient(to left, #0059c6, #000017) !important;
+
+		.white{
+			color: #fff !important;
+		}
 
 		@include is-sp {
 			.sect_6__inner-realestate {

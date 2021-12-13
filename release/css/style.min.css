@@ -2333,7 +2333,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_5__inner-realestate .br-point{display:block}
 .real_estate_purchase .sect_6{background:#fff}
 .real_estate_purchase .sect_6 .c-buttonREP .txt{letter-spacing:.2em}
-.real_estate_purchase .sect_6 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#0059b4 !important;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;padding-bottom:20px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
+.real_estate_purchase .sect_6 .txt_ttl{font-size:1.5rem;line-height:1.25;text-align:left;color:#0059b4;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.15em;padding-bottom:20px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
 .real_estate_purchase .sect_6__box-big-new{position:absolute;left:60%;top:-3%}
 .real_estate_purchase .sect_6__box-big-new .pc{display:none}
 .real_estate_purchase .sect_6__box-big-new .sp{display:none}
@@ -2399,7 +2399,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .pic{width:100%}
 .real_estate_purchase .br-sp{display:none;font-family:yu-gothic-pr6n,sans-serif}
 .real_estate_purchase .br-pc{display:none}
-.real_estate_purchase .br-pc .br-sp{display:none}
+.real_estate_purchase .br-sp{display:none}
 .rep1 .sect_1{-webkit-clip-path:polygon(0 12%,100% 0,100% 100%,0 100%);clip-path:polygon(0 12%,100% 0,100% 100%,0 100%)}
 .rep1 .sect_1__center{padding:155px 0 120px 0}
 .rep1 .sect_1__center::before{height:66%}
@@ -2574,6 +2574,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .sore__section_5::after{content:unset !important}
 .sore__section_5 .sect_5__inner-realestate{padding-top:160px}
 .sore__section_6{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017)) !important;background:linear-gradient(to left,#0059c6,#000017) !important}
+.sore__section_6 .white{color:#fff !important}
 .sore__section_6--ttl{color:#fff !important;font-weight:500 !important}
 .sore__section_6--text{color:#fff !important;font-weight:500 !important}
 .sore__section_6--btn{margin-left:0}
@@ -4549,7 +4550,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .real_estate_purchase .sect_8__btn--wrap{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .real_estate_purchase .sect_8__btn--wrap .c-buttonREP:first-child{margin-top:0}
 .real_estate_purchase .br-sp{font-size:1rem;font-weight:500;display:block}
-.real_estate_purchase .br-pc .br-sp{display:block}
+.real_estate_purchase .br-sp{display:block}
 .rep1 .c-banner--ttl{line-height:34px}
 .rep1 .c-banner--ttl p:nth-child(2){line-height:18px}
 .rep1 .sect_1{margin-top:0;-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 100%);clip-path:polygon(0 7%,100% 0,100% 100%,0 100%)}
@@ -5151,6 +5152,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .top-header-nav .nav-links-ul-02-link a{font-size:3vw}
 .about .section_2-cntnt-row1-ttl h1,.about .section_2-cntnt-row1-ttl a{font-size:37px}
 .about .section_2-cntnt-row1-ttl-txt-02{font-size:13px}
+}@media only screen and (max-width:458px){.sore .sect_5{margin-top:-195px}
 }@media only screen and (max-width:450px){.c-case--items .img_box{padding:3px !important;width:50px !important;height:50px !important}
 .c-case--items .img_box__txt{height:100% !important}
 .c-case--items .img_box__ttl{font-size:6.5px !important;padding-top:8px !important}
