@@ -487,7 +487,7 @@
                     <div class="c-case--items__contents">
                         <div class="c-case03__txt u-ta-l">
                             <p class="c-case03__txt__ttl">Real estate column</p>
-                            <p class="c-case03__txt__sub">不動産コラム</p>
+                            <p class="c-case03__txt__sub">RUF収益不動産コラム</p>
                             <p class="c-case03__txt__desc">不動産の売買や管理運用に関する情報や<br
                                     class="u-d-n-pc">運用者インタビューを発信をするコラムです。<br>
                                 情報収集をして、後悔のない不動産投資を！</p>
@@ -631,19 +631,17 @@
                             </div>
                             <div class="sect_7-cntnt-rows-02-txt">
                                 <p class="sect_7-cntnt-rows-02-txt-03">不動産投資におきまして、<br class="u-d-n-sp">最も大切なことは<br
-                                        class="u-d-n-pc">所有されている収益不動産の価値を保ちながら <br>
-                                    売却時期を逃さない事。 <br>
-                                    その為、当社のスタッフは専門知識は勿論、<br class="u-d-n-pc">目利きの確かさ、<br class="u-d-n-sp">
-                                    きめ細かいサービス、先任責任主義、迅速な行動、発想の展開性など <br>
-                                    的確に業務を遂行するノウハウが一人残らず<br class="u-d-n-pc">浸透しております。<br>
-                                    収益不動産のエキスパートとして、<br class="u-d-n-pc">お客様に満足して頂く為に、<br>
-                                    スタッフ一同磐石の体制でお客様のニーズを<br class="u-d-n-pc">現実化していきます。<br>
-                                    今後とも宜しくお願い申し上げます。</p>
+                                        class="u-d-n-pc">所有されている収益不動産の価値を保ちながら <br>売却時期を逃さない事。
+                                    <br>その為、当社のスタッフは専門知識は勿論、<br class="u-d-n-pc">目利きの確かさ、<br
+                                        class="u-d-n-sp">きめ細かいサービス、先任責任主義、迅速な行動、発想の展開性など <br>
+                                    的確に業務を遂行するノウハウが一人残らず<br class="u-d-n-pc">浸透しております。<br>収益不動産のエキスパートとして、<br
+                                        class="u-d-n-pc">お客様に満足して頂く為に、<br>スタッフ一同磐石の体制でお客様のニーズを<br
+                                        class="u-d-n-pc">現実化していきます。<br>今後とも宜しくお願い申し上げます。</p>
                             </div>
 
                             <a href="<?php echo get_permalink(get_page_by_path('about')) ?>"
                                 class="c-buttonCase u-l-algn">
-                                <p class="txt">丸の内RUFについて</p>
+                                <p class="txt">RUFについて</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg"
                                     alt="">
                             </a>

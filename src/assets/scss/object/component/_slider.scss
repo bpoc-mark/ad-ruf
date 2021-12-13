@@ -31,7 +31,7 @@
 		}
 
 		@include is-max(377px) {
-			top: 21.5%;
+			top: 29.5%;
 		}
 
 		@include is-max(350px) {
@@ -68,7 +68,7 @@
 		}
 
 		@include is-max(377px) {
-			top: 21.5%;
+			top: 29.5%;
 		}
 
 		@include is-max(350px) {
@@ -216,7 +216,7 @@
 
 				p {
 					color: $color-text03;
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 
 					&:nth-of-type(1) {
 						font-weight: 500;
@@ -230,7 +230,7 @@
 		}
 		&--ttl {
 			text-align: center;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 700;
 			line-height: 1;
 			padding: 20px 0;
@@ -250,7 +250,7 @@
 		&--sub {
 			color: $color-text-default;
 			text-align: justify;
-			font-family: yu-gothic-pr6n, sans-serif;;
+			font-family: yu-gothic-pr6n, sans-serif;
 			font-weight: 500;
 			@include font-line(11);
 			line-height: 16.5px;
@@ -259,7 +259,7 @@
 	}
 
 	.slick-prev:before,
-	.slick-next:before{
+	.slick-next:before {
 		content: none !important;
 	}
 
