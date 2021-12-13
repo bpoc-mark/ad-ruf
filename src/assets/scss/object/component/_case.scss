@@ -1,4 +1,4 @@
-.c-case {	
+.c-case {
 	&01 {
 		&__title {
 			color: $color-text03;
@@ -421,7 +421,7 @@
 					}
 
 					.sub {
-						color: #0059B4;
+						color: #0059b4;
 					}
 
 					.desc {
@@ -465,7 +465,7 @@
 
 			@include is-sp {
 				z-index: -1;
-				top: 13px
+				top: 13px;
 			}
 		}
 	}
@@ -473,7 +473,7 @@
 	&02 {
 		&__txt {
 			padding-left: 20px;
-			border-left: 3px solid #2759AD;
+			border-left: 3px solid #2759ad;
 			text-align: left;
 
 			@include is-sp {
@@ -491,7 +491,7 @@
 			}
 
 			&__sub {
-				color: #0059B4;
+				color: #0059b4;
 				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 700;
 				line-height: 1;
@@ -518,7 +518,7 @@
 	&03 {
 		&__txt {
 			padding-left: 20px;
-			border-left: 3px solid #2759AD;
+			border-left: 3px solid #2759ad;
 			@include is-sp {
 				padding-left: 10px !important;
 			}
@@ -538,7 +538,7 @@
 			}
 
 			&__sub {
-				color: #0059B4;
+				color: #0059b4;
 				font-family: yu-mincho-pr6n, sans-serif;
 				font-weight: 500 !important;
 				padding: 15px 0 20px 0;
@@ -560,7 +560,7 @@
 			}
 
 			&__desc {
-				color: $color-text-default;
+				color: #000;
 				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				text-align: justify;
@@ -578,8 +578,6 @@
 			}
 		}
 	}
-
-	
 
 	&__btm--slant {
 		padding-bottom: 70px !important;
@@ -606,7 +604,15 @@
 			// }
 
 			@include is-sp {
-				clip-path: polygon(50% 0%, 100% 0, 100% 80%, 69% 100%, 0% 46px, 0% 0%, 0% 0%);
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 80%,
+					69% 100%,
+					0% 46px,
+					0% 0%,
+					0% 0%
+				);
 				height: 15.5%;
 				top: 0;
 			}
