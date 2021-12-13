@@ -159,7 +159,7 @@
                         <div class="link acc-hidden">
                             <ul class="link__inner">
                                 <li class="c-link">
-                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('column')) ?>">記事一覧</a>
+                                    <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('column')) ?>">RUF収益不動産コラム</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                                 <li class="c-link">
