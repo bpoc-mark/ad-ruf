@@ -2427,7 +2427,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep1 .point_ttl{color:#0059b4 !important}
 .rep1 .point_item span{color:#0059b4 !important}
 .rep2 .c-case03__txt__sub{letter-spacing:.12em !important}
-.rep2 .sect_1::before{display:none}
+.rep2 .sect_1::before{height:21%;-webkit-clip-path:polygon(100% 0,100% 50%,70% 100%,0 48%) !important;clip-path:polygon(100% 0,100% 50%,70% 100%,0 48%) !important}
 .rep2 .sect_1__center::before{height:62%;-webkit-clip-path:polygon(50% -10%,100% 0,100% 16%,72% 33%,0 17%,0 0,0 0);clip-path:polygon(50% -10%,100% 0,100% 16%,72% 33%,0 17%,0 0,0 0)}
 .rep2 .sect_1__eng_ttl{color:#fff !important}
 .rep2 .sect_1__headers{padding-top:5px}
@@ -2446,13 +2446,13 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep2_s4--text{padding-bottom:7px !important}
 .rep2_s4 .sect_2__box-big-new2{opacity:.8;bottom:unset;top:107px;left:44%;width:211px}
 .rep2_s4 .sect_6__inner-realestate{padding:40px 0}
-.rep2_s5{padding-top:290px !important;padding-bottom:80px;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017)) !important;background:linear-gradient(to left,#0059c6,#000017) !important;padding-top:165px}
+.rep2_s5{padding-top:130px !important;padding-bottom:200px !important;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017)) !important;background:linear-gradient(to left,#0059c6,#000017) !important;-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%) !important;clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%) !important;z-index:1 !important}
 .rep2_s5::after{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017)) !important;background:linear-gradient(to left,#0059c6,#000017) !important}
 .rep2_s5 .sect_2__box-big-new{top:-73px;left:46%;z-index:-1}
 .rep2_s5 .sect_2__box-big-new2{top:194px;left:1%;opacity:.6 !important}
 .rep2_s5 .sp_bg3{opacity:.2;width:114px;top:120px;left:8px;position:absolute}
 .rep2_s5 .sore__section_2-title{letter-spacing:.34em !important;padding-bottom:50px !important}
-.rep2_s6{overflow:unset !important}
+.rep2_s6{overflow:unset !important;padding-top:200px !important;-webkit-clip-path:polygon(21% 14%,100% 0,100% 100%,0 100%,0 0) !important;clip-path:polygon(21% 14%,100% 0,100% 100%,0 100%,0 0) !important;z-index:1 !important}
 .rep2_s6::before{content:"";position:absolute;width:100%;top:-59px;height:60px;-webkit-clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6)) !important;background:linear-gradient(90deg,#003782 0,#0059b6 100%) !important}
 .rep2_s6 .l-wrap{overflow:hidden}
 .rep2_s6 .bg_21{top:97px !important}
@@ -2465,7 +2465,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep2_s7 .sect_6__inner-realestate--left span{display:inline-block;padding-top:20px}
 .rep2_s7 .txt_ttl{padding-top:0}
 .rep2_s7--text{padding-top:10px !important}
-.rep2_s8{background-color:#fff;padding:121px 0 150px 0}
+.rep2_s8{background-color:#fff;padding:121px 0 240px 0;-webkit-clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%) !important;clip-path:polygon(86% 0,100% 7%,100% 100%,50% 100%,0 100%,0 8%) !important;margin-top:-150px;z-index:1;position:relative}
 .rep2_s8 .l-wrap{position:relative}
 .rep2_s8 .s8_bg{position:absolute;top:-74px;right:32px;width:370px}
 .rep2_s8 .s8_bg2{position:absolute;top:71px;left:-28px}
@@ -2506,6 +2506,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep2 .hr5{top:73%}
 .rep2 .hr6{left:21px;bottom:18%;top:unset}
 .rep2 .hr7{left:20px;bottom:7%;top:unset}
+.rep2_sect_4{-webkit-clip-path:polygon(21% 14%,100% 0,100% 100%,0 100%,0 0) !important;clip-path:polygon(21% 14%,100% 0,100% 100%,0 100%,0 0) !important;padding-top:140px;padding-bottom:110px}
 .result{position:relative}
 .result .c-banner{background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);padding:0 0 80px 0}
 .result .c-banner--ttl .br-sp{display:none}

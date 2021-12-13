@@ -14,13 +14,15 @@
 	.sect_1 {
 
 		&::before {
-			display: none;
+			height: 21%;
+			clip-path: polygon(100% 0%, 100% 50%, 70% 100%, 0% 48%) !important;
 		}
 
 		&__center {
 			&::before {
 				height: 62%;
 				clip-path: polygon(50% -10%, 100% 0, 100% 16%, 72% 33%, 0% 17%, 0 0, 0 0);
+				
 			}
 		}
 
@@ -252,10 +254,11 @@
 	}
 
 	&_s5 {
-		    padding-top: 290px !important;
-		padding-bottom: 80px;
+		padding-top: 130px !important;
+		padding-bottom: 200px !important;
 		background: linear-gradient(to left, #0059c6, #000017) !important;
-		padding-top: 165px;
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 8%) !important;
+		z-index: 1 !important;
 
 		&::after {
 			background: linear-gradient(to left, #0059c6, #000017) !important;
@@ -320,6 +323,9 @@
 
 	&_s6 {
 		overflow: unset !important;
+		padding-top: 200px !important;
+		clip-path: polygon(21% 14%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
+		z-index: 1 !important;
 		&::before {
 			content: "";
 			position: absolute;
@@ -506,7 +512,11 @@
 
 	&_s8 {
 		background-color: #fff;
-		padding: 121px 0 150px 0;
+		padding: 121px 0 240px 0;
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 8%) !important;
+		margin-top: -150px;
+		z-index: 1;
+		position: relative;
 
 		@include is-sp {
 			padding: 121px 0 121px 0;
@@ -896,5 +906,11 @@
 		left: 20px;
 		bottom: 7%;
 		top: unset;
+	}
+
+	&_sect_4 {
+		clip-path: polygon(21% 14%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
+		padding-top: 140px;
+		padding-bottom: 110px;
 	}
 }
