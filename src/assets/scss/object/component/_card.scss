@@ -506,7 +506,11 @@
 			bottom: 2%;
 			right: 2%;
 			font-family: century-gothic, sans-serif;
-			background: #0059b4;
+			background: linear-gradient(
+				90deg,
+				rgba(0, 55, 128, 1) 0%,
+				rgba(0, 89, 178, 1) 90%
+			);
 			width: 62px;
 			height: 62px;
 			clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -558,7 +562,7 @@
 			font-weight: 700;
 			font-family: yu-gothic-pr6n, sans-serif;
 			letter-spacing: 0.2em;
-			color: #0059b4;
+			color: #0059b2;
 
 			@include is-max(430px) {
 				font-size: 3vw;
@@ -633,7 +637,7 @@
 			display: flex;
 			align-items: center;
 			padding: 5px 12px 5px 19px;
-	
+
 			&::before {
 				content: "";
 				width: 100%;
