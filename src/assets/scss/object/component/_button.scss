@@ -412,13 +412,13 @@
 	justify-content: center;
 	position: relative;
 	background: #fff;
-	color: #0059B4;
+	color: #0059b4;
 	letter-spacing: 0.2em;
 	transition: 0.3s ease-in-out;
 
 	&:hover {
 		img {
-			right: 15px;
+			right: 5px;
 		}
 	}
 
@@ -445,10 +445,11 @@
 
 	.txt {
 		text-align: center;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 700;
 		padding: 20px 0;
 		line-height: 1;
+		letter-spacing: 0.2em;
 		@include font-line(14);
 		white-space: nowrap !important;
 	}
@@ -457,7 +458,7 @@
 		width: 12px;
 		height: 12px;
 		position: absolute;
-		right: 20px;
+		right: 9px;
 		transition: 0.3s ease-in-out;
 	}
 }
@@ -497,7 +498,7 @@
 
 	.txt {
 		text-align: center;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 700;
 		padding: 20px 0;
 		line-height: 1;
@@ -584,7 +585,7 @@
 
 	.txt {
 		text-align: center;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 700;
 		padding: 20px 0;
 		line-height: 1;
@@ -625,7 +626,7 @@
 
 	.txt {
 		text-align: center;
-		font-family: yu-gothic-pr6n, sans-serif;;
+		font-family: yu-gothic-pr6n, sans-serif;
 		font-weight: 700;
 		padding: 20px 0;
 		line-height: 1;

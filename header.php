@@ -91,7 +91,8 @@
                                         </ul>
                                     </li>
                                     <li class="nav-links-ul-02-link submenu-clk">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                        <p class="plus u-d-n-pc">+</p>
                                         <a href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">事業内容</a>
                                         <ul class="nav-links-ul-02-link-submenu">
                                             <li class="nav-links-ul-02-submenu-link">
@@ -118,32 +119,60 @@
                                         <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
                                         <p class="plus u-d-n-pc">+</p>
                                         <a href="<?php echo get_permalink(get_page_by_path('about')) ?>">企業情報</a>
-                                        <!-- <ul class="nav-links-ul-02-link-submenu">
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 1</a>
-                                        </li>
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 2</a>
-                                        </li>
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 3</a>
-                                        </li>
-                                    </ul> -->
+                                        <ul class="nav-links-ul-02-link-submenu submenu2">
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('message')) ?>">代表メッセージ</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('management-philosophy')) ?>">経営理念</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('companyinformation')) ?>">会社概要</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('result')) ?>">業績</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('access ')) ?>">アクセス</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('office-gallery')) ?>">オフィス風景</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('interview')) ?>">代表について </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-links-ul-02-link submenu-clk">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                        <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">
+                                        <p class="plus u-d-n-pc">+</p>
                                         <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">バリューアップ事例</a>
-                                        <!-- <ul class="nav-links-ul-02-link-submenu">
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 1</a>
-                                        </li>
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 2</a>
-                                        </li>
-                                        <li class="nav-links-ul-02-submenu-link">
-                                            <a href="">Item 3</a>
-                                        </li>
-                                    </ul> -->
+                                        <ul class="nav-links-ul-02-link-submenu submenu3">
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">バリューアップ事例01</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">バリューアップ事例02</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">バリューアップ事例03</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">バリューアップ事例04</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>">バリューアップ事例05</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study6')) ?>">バリューアップ事例06</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study7')) ?>">バリューアップ事例07</a>
+                                            </li>
+                                            <li class="nav-links-ul-02-submenu-link">
+                                                <a href="<?php echo get_permalink(get_page_by_path('case-study08')) ?>">バリューアップ事例08</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-links-ul-02-link submenu-clk">
                                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg" alt="">

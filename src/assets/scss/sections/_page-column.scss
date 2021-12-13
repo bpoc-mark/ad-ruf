@@ -388,14 +388,19 @@
 							&.u-d-f {
 								flex-wrap: wrap;
 								align-items: flex-start;
+
+								@include is-sp{
+									flex-wrap: unset;
+								}
 							}
 						}
 
 						&-img {
 							width: 100%;
 							height: auto;
+
 							@include is-sp {
-								width: 48%;
+								width: 100%;
 							}
 						}
 

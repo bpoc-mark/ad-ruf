@@ -3,7 +3,7 @@
 <?php get_header();
 $imagedir = get_template_directory_uri();
 ?>
-<div class="page__content real_estate_purchase sore rep2">
+<div class="page__content real_estate_purchase sore rep2 rep3">
     <div class="c-banner">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
                 src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>

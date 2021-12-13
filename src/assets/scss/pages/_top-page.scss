@@ -12,10 +12,9 @@
 		overflow: hidden;
 		clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 
-		@include is-sp{
+		@include is-sp {
 			clip-path: polygon(0 0, 100% 0, 100% 98%, 0% 100%);
 		}
-
 
 		// clip top
 
@@ -85,14 +84,11 @@
 				clip-path: polygon(0 71%, 30% 15%, 100% 38%, 0% 100%);
 				opacity: 0.4;
 
-					@include is-sp {
-						clip-path: polygon(0 57%, 30% 35%, 100% 69%, 0% 100%);
-					}
+				@include is-sp {
+					clip-path: polygon(0 57%, 30% 35%, 100% 69%, 0% 100%);
 				}
 			}
-
-		
-
+		}
 
 		&-hdr {
 			text-align: center;
@@ -115,7 +111,7 @@
 				}
 			}
 			&-sub {
-				font-family: yu-mincho-pr6n, sans-serif;
+				font-family: YakuHanJP, yu-mincho-pr6n, sans-serif;
 
 				&-txt {
 					@include font-line(30, 48);
@@ -127,18 +123,20 @@
 						@include font-line(25, 36);
 						letter-spacing: 0.2em;
 						margin-bottom: 17px;
+						margin-top: 35px;
 					}
 				}
 			}
 
 			&-desc {
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 
 				&-txt {
 					@include font-line(13, 26);
 					font-weight: 500;
 					color: #fff;
 					letter-spacing: 0.2em;
+					padding-top: 10px;
 
 					@include is-sp {
 						@include font-line(13.5, 20);
@@ -358,7 +356,7 @@
 						}
 
 						&-03 {
-							font-family: yu-gothic-pr6n, sans-serif;;
+							font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -389,8 +387,9 @@
 		}
 		.bg_1 {
 			position: absolute;
-			top: -14%;
-			right: 8%;
+			top: -11%;
+			right: -2%;
+			width: 352px;
 
 			@include is-sp {
 				display: none;
@@ -399,8 +398,8 @@
 
 		.bg_2 {
 			position: absolute;
-			left: -6%;
-			top: 9%;
+			left: -5.6%;
+			top: 7%;
 			z-index: -1;
 			opacity: 0.3;
 
@@ -523,7 +522,7 @@
 						&-01-txt01 {
 							@include font-line(25, 37.5);
 							letter-spacing: 0.5em;
-							color: #258acf;
+							color: #0059b2;
 							font-family: yu-mincho-pr6n, sans-serif;
 
 							@include is-sp {
@@ -659,7 +658,7 @@
 				}
 
 				&-01 {
-					width: 489px;
+					width: 495px;
 
 					@include is-max(1015px) {
 						padding-right: 20px;
@@ -703,7 +702,7 @@
 						}
 
 						&-03 {
-							font-family: yu-gothic-pr6n, sans-serif;;
+							font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -768,13 +767,13 @@
 		}
 		.bg_6 {
 			position: absolute;
-			right: 0;
+			right: 0%;
 			bottom: -10%;
 
 			@include is-sp {
 				position: absolute;
-				right: 3%;
-				top: 3%;
+				right: 1%;
+				top: 3.5%;
 				width: 163px;
 				z-index: -1;
 			}
@@ -792,7 +791,7 @@
 		}
 
 		.c-buttonCase {
-			color: #258acf;
+			color: #0059b2;
 
 			@include is-sp {
 				border: 2px solid #81b3d4;
@@ -838,7 +837,7 @@
 					clip-path: polygon(100% 0%, 100% 49%, 65% 75%, 0 37%);
 					top: 0;
 					height: 100px;
-					}
+				}
 			}
 
 			&::after {
@@ -852,9 +851,9 @@
 				clip-path: polygon(0 71%, 30% 15%, 100% 57%, 0% 100%);
 				opacity: 0.4;
 
-					@include is-sp {
-						clip-path: polygon(0 30%, 30% 17%, 100% 36%, 0% 100%);
-					}
+				@include is-sp {
+					clip-path: polygon(0 30%, 30% 17%, 100% 36%, 0% 100%);
+				}
 			}
 		}
 
@@ -1070,7 +1069,7 @@
 						}
 
 						&-03 {
-							font-family: yu-gothic-pr6n, sans-serif;;
+							font-family: yu-gothic-pr6n, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -1088,7 +1087,7 @@
 					}
 
 					.wh {
-						color: #258acf;
+						color: #0059b2;
 						.txt {
 							@include is-sp {
 								letter-spacing: 0.13em;
@@ -1387,7 +1386,7 @@
 						}
 
 						&-03 {
-							font-family: yu-gothic-pr6n, sans-serif;;
+							font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 							@include font-line(13, 26);
 							font-weight: 500;
 							letter-spacing: 0.2em;
@@ -1405,7 +1404,7 @@
 						}
 					}
 					.rd {
-						border: 1px solid #0059b2;
+						// border: 1px solid #0059b2;
 
 						.txt {
 							color: #0059b2;
@@ -1489,7 +1488,16 @@
 		.clipPath {
 			position: relative;
 
-			clip-path: polygon(17% 5%, 80% 2%, 100% 0, 100% 100%, 85% 92%, 23% 98%, 0 100%, 0 0);
+			clip-path: polygon(
+				17% 5%,
+				80% 2%,
+				100% 0,
+				100% 100%,
+				85% 92%,
+				23% 98%,
+				0 100%,
+				0 0
+			);
 			background: linear-gradient(to right, #000017, #0059c4);
 
 			@include is-sp {
@@ -1518,7 +1526,7 @@
 				width: 83%;
 				right: 0;
 
-				@include is-max(1071px){
+				@include is-max(1071px) {
 					clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 17%);
 				}
 
@@ -1526,7 +1534,7 @@
 					clip-path: polygon(100% 0%, 100% 49%, 65% 67%, 0 25%);
 					top: 0;
 					height: 115px;
-					}
+				}
 			}
 
 			&::after {
@@ -1540,17 +1548,16 @@
 				opacity: 0.4;
 				width: 84%;
 
-					@include is-max(1071px){
-						height: 205px;
-						clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
-					}
+				@include is-max(1071px) {
+					height: 205px;
+					clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
+				}
 
-					@include is-sp {
-						clip-path: polygon(0 30%, 45% 17%, 100% 76%, 0% 100%);
-						height: 100px;
+				@include is-sp {
+					clip-path: polygon(0 30%, 45% 17%, 100% 76%, 0% 100%);
+					height: 100px;
 				}
 			}
-
 		}
 
 		&-cntnt {
@@ -1567,8 +1574,9 @@
 
 				&-ttl {
 					font-family: century-gothic, sans-serif;
-					@include font-line(10, 20);
+					@include font-line(10);
 					letter-spacing: 0.32em;
+					line-height: 1;
 					color: #95c6e7;
 					padding-bottom: 10px;
 
@@ -1578,9 +1586,11 @@
 					}
 				}
 				&-sub {
-					font-family: yu-mincho-pr6n, sans-serif;
-					@include font-line(26, 37);
-					letter-spacing: 0.34;
+					font-family: YakuHanJP, yu-mincho-pr6n, sans-serif;
+					@include font-line(26);
+					line-height: 1;
+					letter-spacing: 0.34em;
+					padding-top: 21px;
 					padding-bottom: 10px;
 
 					@include is-sp {
@@ -1595,7 +1605,7 @@
 				}
 
 				&-desc {
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 					font-weight: 500;
 
 					@include font-line(13, 26);
@@ -1661,7 +1671,7 @@
 		}
 
 		.c-buttonCase {
-			color: #258acf;
+			color: #0059b2;
 			position: relative;
 			z-index: 150;
 		}
@@ -1749,7 +1759,7 @@
 		}
 
 		.c-buttonCase {
-			color: #258acf;
+			color: #0059b2;
 		}
 	}
 
@@ -1795,7 +1805,7 @@
 				width: 83%;
 				right: 0;
 
-				@include is-max(940px){
+				@include is-max(940px) {
 					clip-path: polygon(100% -3%, 100% 19%, 70% 44%, 0 22%);
 				}
 
@@ -1803,7 +1813,7 @@
 					clip-path: polygon(100% 0%, 100% 49%, 65% 75%, 0 25%);
 					top: 0;
 					height: 100px;
-					}
+				}
 			}
 
 			&::after {
@@ -1817,17 +1827,16 @@
 				opacity: 0.4;
 				width: 84%;
 
-					@include is-max(1071px){
-						height: 205px;
-						clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
-					}
+				@include is-max(1071px) {
+					height: 205px;
+					clip-path: polygon(0 71%, 36% 43%, 100% 54%, 0% 100%);
+				}
 
-					@include is-sp {
-						clip-path: polygon(0 30%, 30% 17%, 100% 76%, 0% 100%);
-						height: 100px;
+				@include is-sp {
+					clip-path: polygon(0 30%, 30% 17%, 100% 76%, 0% 100%);
+					height: 100px;
 				}
 			}
-
 		}
 
 		&-cntnt {
@@ -1924,7 +1933,7 @@
 							@include font-line(16);
 						}
 
-						@include is-max(360px){
+						@include is-max(360px) {
 							font-size: 4.3vw;
 						}
 					}
@@ -1994,7 +2003,7 @@
 						@include font-line(12, 26);
 						letter-spacing: 0.15em;
 						font-weight: 500;
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						padding-bottom: 37px;
 
 						@include is-sp {
@@ -2017,14 +2026,14 @@
 
 		.bg_11 {
 			position: absolute;
-			top: 8.5%;
+			top: 75px;
 			right: 32%;
 			z-index: -4;
 			opacity: 0.3;
 
 			@include is-sp {
 				position: absolute;
-				top: 1.5%;
+				top: 1%;
 				right: 2%;
 				z-index: -4;
 				width: 176px;
@@ -2038,7 +2047,7 @@
 		}
 		.bg_10 {
 			position: absolute;
-			top: 53%;
+			top: 53.5%;
 			left: 0%;
 			z-index: -4;
 			opacity: 0.3;
@@ -2056,7 +2065,7 @@
 		}
 
 		.c-buttonCase {
-			color: #258acf;
+			color: #0059b2;
 		}
 	}
 
@@ -2094,7 +2103,7 @@
 					letter-spacing: 0.34px;
 					font-weight: 500;
 					font-family: yu-mincho-pr6n, sans-serif;
-					color: #258acf;
+					color: #0059b2;
 
 					@include is-sp {
 						@include font-line(25, 37.5);
@@ -2137,11 +2146,11 @@
 					}
 
 					&-date {
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						padding-top: 4px;
 						// padding-right: 111px;
-						width: 230px;
-						color: #258acf;
+						width: 250px;
+						color: #0059b2;
 
 						@include is-sp {
 							padding: 34px 0 26.5px 0;
@@ -2163,7 +2172,7 @@
 					}
 
 					&-txt {
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 						color: #333;
 						width: 770px;
 
@@ -2172,8 +2181,7 @@
 							width: 100%;
 						}
 						p {
-							font-size: 12px;
-							line-height: 26px;
+							@include font-line(12, 26);
 							font-weight: 500;
 							letter-spacing: 0.22em;
 
@@ -2203,7 +2211,11 @@
 			z-index: -1;
 
 			@include is-sp {
-				display: none;
+				display: block;
+				width: 122px;
+				right: 5%;
+				top: 3%;
+				transform: scaleY(-1) rotate(8deg);
 			}
 		}
 		.bg_13 {
@@ -2218,7 +2230,7 @@
 		}
 		.bg_14 {
 			position: absolute;
-			bottom: 33%;
+			bottom: 23.5%;
 			right: 0%;
 			z-index: -1;
 
@@ -2249,8 +2261,7 @@
 		// }
 	}
 
-	.p-cntct{
+	.p-cntct {
 		background-color: #0059b6;
 	}
-
 }
