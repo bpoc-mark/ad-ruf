@@ -11,7 +11,8 @@
 		margin-top: -115px;
 		overflow: hidden;
 		clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
-
+ 
+		
 		@include is-sp{
 			clip-path: polygon(0 0, 100% 0, 100% 98%, 0% 100%);
 		}
