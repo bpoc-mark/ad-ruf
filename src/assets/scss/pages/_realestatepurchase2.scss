@@ -12,6 +12,18 @@
 	}
 
 	.sect_1 {
+
+		&::before {
+			display: none;
+		}
+
+		&__center {
+			&::before {
+				height: 62%;
+				clip-path: polygon(50% -10%, 100% 0, 100% 16%, 72% 33%, 0% 17%, 0 0, 0 0);
+			}
+		}
+
 		.ttl_small_sp {
 			@include is-sp {
 				letter-spacing: 0.16em !important;
@@ -56,9 +68,32 @@
 	}
 
 	.sect_2 {
+		background: linear-gradient(to right, #003782, #0059b6);
+
+		&::after {
+			background: linear-gradient(to right, #0058B4, #003782);
+			height: 137px !important;
+			clip-path: polygon(41% 0%, 100% 60%, 100% 67%, 0 100%, 0 50%) !important;
+		}
+		
+
+		.p-main_content__box3 {
+			padding-bottom: 130px;
+		}
+
 		.p-main_content__box1 {
 			position: relative;
 		}
+
+		&__box-big-new2 {
+			bottom: 64px !important;
+			width: 221px !important;
+			opacity: 0.1 !important;
+		}
+	}
+
+	.sect_3 {
+		padding: 100px 0 160px 0 !important;
 	}
 
 	.rep2_s4 {
@@ -97,11 +132,7 @@
 
 	&_s4 {
 		position: relative;
-		background: linear-gradient(
-			90deg,
-			rgba(51, 51, 102, 1) 0%,
-			rgba(0, 89, 182, 1) 100%
-		) !important;
+		background: linear-gradient(to right, #003782, #0059b6) !important;
 
 		@include is-sp {
 			.txt_ttl {
@@ -139,44 +170,44 @@
 			}
 		}
 
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			top: -59px;
-			height: 60px;
-			clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
-			background: linear-gradient(
-				90deg,
-				rgba(51, 51, 102, 1) 0%,
-				rgba(0, 89, 182, 1) 100%
-			) !important;
+		// &::before {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	top: -59px;
+		// 	height: 60px;
+		// 	clip-path: polygon(15% 90%, 100% 0, 100% 100%, 0 100%, 0 0);
+		// 	background: linear-gradient(
+		// 		90deg,
+		// 		rgba(51, 51, 102, 1) 0%,
+		// 		rgba(0, 89, 182, 1) 100%
+		// 	) !important;
 
-			@include is-sp {
-				top: -29px;
-				height: 30px;
-			}
-		}
+		// 	@include is-sp {
+		// 		top: -29px;
+		// 		height: 30px;
+		// 	}
+		// }
 
-		&::after {
-			content: "";
-			position: absolute;
-			width: 100%;
-			bottom: -58px;
-			height: 60px;
-			z-index: 1;
-			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
-			background: linear-gradient(
-				90deg,
-				rgba(51, 51, 102, 1) 0%,
-				rgba(0, 89, 182, 1) 100%
-			) !important;
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	bottom: -58px;
+		// 	height: 60px;
+		// 	z-index: 1;
+		// 	clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
+		// 	background: linear-gradient(
+		// 		90deg,
+		// 		rgba(51, 51, 102, 1) 0%,
+		// 		rgba(0, 89, 182, 1) 100%
+		// 	) !important;
 
-			@include is-sp {
-				background: unset !important;
-				display: none;
-			}
-		}
+		// 	@include is-sp {
+		// 		background: unset !important;
+		// 		display: none;
+		// 	}
+		// }
 
 		&--ttl {
 			font-weight: 500;
@@ -221,7 +252,7 @@
 	}
 
 	&_s5 {
-		padding-top: 94px;
+		    padding-top: 290px !important;
 		padding-bottom: 80px;
 		background: linear-gradient(to left, #0059c6, #000017) !important;
 		padding-top: 165px;

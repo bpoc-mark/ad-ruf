@@ -12,7 +12,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/rep2_banner_sp.png" alt="">
             <div class="c-banner--ttl">
                 <p>収 益 不 動 産 の<br class="u-d-n-pc">買 取</p>
-                <p>Real Estate<br class="u-d-n-pc">Purchase</p>
+                <p>Real Estate<br class="u-d-n-pc"> Purchase</p>
             </div>
         </div>
         <!-- <div class="bread_crumps">
@@ -65,7 +65,7 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="p-main_content__box3">
                 <p class="sore__ttl sore__section_2-ttl">Real Estate Purchase</p>
-                <h1 class="sore__title rep2_s2--title">丸の内ルーフの収益不動産の<br class="u-d-n-pc">買取 3つの特徴</h1>
+                <h1 class="sore__title rep2_s2--title">ルーフの収益不動産の<br class="u-d-n-pc">買取 3つの特徴</h1>
                 <div class="p-main_content__box3-row">
                     <div class="p-main_content__box3-col p-main_content__box3-col01">
                         <div class="c-card10">
@@ -224,14 +224,14 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col04">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img5.png" alt="">
+                                <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img20.png" alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>04</p>
                                     </div>
                                 </div>
 
-                                <div class="top-circle">
+                                <div class="top-circle top-circle--2">
                                     <div class="top-circle-content">
                                         <p class="f16">最短<br>
                                             1週間</p>
@@ -251,7 +251,7 @@ $imagedir = get_template_directory_uri();
                     <div class="p-main_content__box5-col p-main_content__box5-col05">
                         <div class="c-card11">
                             <div class="c-card11-top">
-                                <img src="<?php echo $imagedir ?>/release/image/realestate/sore_img7.png" alt="">
+                                <img src="<?php echo $imagedir ?>/release/image/realestate/rep2_img5.png" alt="">
                                 <div class="top-box">
                                     <div class="top-box-content">
                                         <p>05</p>

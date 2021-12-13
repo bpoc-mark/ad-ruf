@@ -49,7 +49,7 @@
 
 	.sect_1 {
 		position: relative;
-		margin-top: 100px;
+		// margin-top: 100px;
 		@include is-sp {
 			margin-top: 105px;
 		}
@@ -77,7 +77,7 @@
 			top: -95px;
 			height: 100px;
 			background: linear-gradient(to left, #0059c6, #000017);
-			clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+			clip-path: polygon(0 10%, 100% 0, 100% 85%, 75% 100%, 21% 92%, 0 79%);
 
 			@include is-sp {
 				clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
@@ -224,7 +224,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 				letter-spacing: 0.2em;
 			}
 		}
@@ -357,7 +357,7 @@
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
-						color: #2589ce;
+						color: #0059b4;
 						letter-spacing: 0.26em;
 						text-align: center;
 						font-weight: 700;
@@ -374,7 +374,7 @@
 						span {
 							margin-left: 10px;
 							font-weight: 700;
-							color: #2589ce;
+							color: #0059b4;
 							@include font-line(13, 26);
 							letter-spacing: 0.2em;
 						}
@@ -396,7 +396,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 				letter-spacing: 0.2em;
 			}
 		}
@@ -569,7 +569,7 @@
 		&__box-big-new3 {
 			position: absolute;
 			right: 0;
-			top: 43%;
+			top: 55%;
 			@include is-sp {
 				display: none;
 			}
@@ -591,7 +591,7 @@
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.15em;
@@ -630,7 +630,7 @@
 		&__header {
 			@include font-line(26, 37);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.2em;
@@ -695,7 +695,7 @@
 				.txt_ttl {
 					@include font-line(26, 30);
 					text-align: left;
-					color: #4688c8;
+					color: #0059b4;
 					font-family: yu-mincho-pr6n, sans-serif;
 					font-weight: 500;
 					letter-spacing: 0.15em;
@@ -769,6 +769,9 @@
 
 		.c-buttonREP {
 			margin-top: 50px;
+			.txt {
+				color: #0059b4;
+			}
 		}
 	}
 
@@ -841,6 +844,7 @@
 			@include is-sp {
 				padding-bottom: 20px;
 				letter-spacing: normal;
+				width: 100%;
 			}
 			@include is-max(400px) {
 				font-size: 6vw;
@@ -908,6 +912,7 @@
 						padding-top: 25px;
 						text-align: justify;
 						letter-spacing: 0.06em;
+						padding-bottom: 40px;
 					}
 				}
 
@@ -971,7 +976,7 @@
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4 !important;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.15em;
@@ -1380,7 +1385,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 			}
 		}
 
@@ -1437,7 +1442,7 @@
 		&__header {
 			@include font-line(26, 37);
 			text-align: left;
-			color: #2589ce;
+			color: #0059B4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 600;
 			letter-spacing: 0.34em;
@@ -1500,7 +1505,7 @@
 		.qtext {
 			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(16, 24);
-			color: #2589ce;
+			color: #0059b4;
 			letter-spacing: 0.2em;
 			text-align: left;
 			font-weight: 700;
@@ -1639,6 +1644,362 @@
 			@include is-sp {
 				display: block;
 			}
+		}
+	}
+}
+
+.rep1 {
+	@include is-sp {
+		.c-banner--ttl {
+			line-height: 34px;
+
+			& p:nth-child(2) {
+				line-height: 18px;
+			}
+		}
+	}
+
+	.sect_1 {
+		clip-path: polygon(0% 12%, 100% 0%, 100% 100%, 0% 100%);
+		@include is-sp {
+			margin-top: 0;
+			clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 100%);
+			&__eng_ttl {
+				color: #95c6e7;
+			}
+		}
+
+		&__center {
+			padding: 155px 0 120px 0;
+
+			@include is-sp {
+				padding-bottom: 80px;
+			}
+
+			&::before {
+				height: 66%;
+
+				@include is-sp {
+					height: 15%;
+				}
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				bottom: -3px;
+				width: 81%;
+				z-index: 150;
+				height: 122px;
+				background: linear-gradient(to right, #0059c4, #000017);
+				clip-path: polygon(40% 2%, 100% 58%, 100% 67%, 0 100%, 0 45%);
+				z-index: 1;
+				opacity: 0.7;
+
+				@include is-sp {
+					bottom: -38px;
+					width: 100%;
+					height: 100px;
+					clip-path: polygon(32% 2%, 100% 33%, 100% 67%, 0 100%, 0 30%);
+				}
+			}
+		}
+
+		.sect_1__box-big-new {
+			top: -75px;
+		}
+	}
+
+	.sect_2 {
+		background: linear-gradient(to right, #003782, #0059b6);
+		padding-bottom: 172px;
+
+		&::before {
+			background: linear-gradient(to right, #003782, #0059b6);
+		}
+
+		&::after {
+			display: none;
+			@include is-sp {
+				display: block;
+				content: "";
+				bottom: 81px;
+				width: 86%;
+				height: 125px;
+				clip-path: polygon(39% 2%, 100% 47%, 100% 69%, 0 100%, 0 22%);
+				position: absolute;
+				z-index: 1;
+				background: linear-gradient(to right, #0059c4, #000017);
+			}
+		}
+
+		&__inner-realestate {
+			@include is-sp {
+				padding-bottom: 46px;
+			}
+		}
+
+		&__box-big-new2 {
+			bottom: 198px;
+			opacity: 0.2;
+		}
+	}
+
+	.sect_3 {
+		background: linear-gradient(to left, #0059c4, #000017);
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 8%);
+		margin-top: -190px;
+		padding-bottom: 200px;
+
+		@include is-sp {
+			clip-path: polygon(86% 0, 100% 3%, 100% 100%, 50% 100%, 0 100%, 0 3%);
+			margin-top: -148px;
+			z-index: 3;
+			padding-bottom: 55px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 34%;
+			top: 0;
+			left: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 22%, 58% 49%, 0% 24%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			z-index: 150;
+			background: linear-gradient(to right, #0059c4, #000017);
+			z-index: 1;
+			opacity: 0.7;
+			bottom: 102px;
+			width: 86%;
+			clip-path: polygon(40% 2%, 100% 52%, 100% 67%, 0 100%, 0 45%);
+			height: 161px;
+
+			@include is-sp {
+				// bottom: -38px;
+				// width: 100%;
+				// height: 100px;
+				// clip-path: polygon(32% 2%, 100% 33%, 100% 67%, 0 100%, 0 30%);
+				display: none;
+			}
+		}
+	}
+
+	.sect_4 {
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 8%);
+		margin-top: -180px;
+		padding-top: 125px;
+
+		@include is-sp {
+			clip-path: polygon(86% 0, 100% 2%, 100% 100%, 50% 100%, 0 100%, 0 2%);
+			margin-top: -57px;
+			z-index: 4;
+
+			.sect_4__inner-realestate {
+				padding-bottom: 90px;
+			}
+		}
+	}
+
+	.sect_5 {
+		clip-path: polygon(17% 9%, 100% 0, 100% 100%, 0 100%, 0% 0);
+		background: linear-gradient(to left, #0059c4, #000017);
+		margin-top: -85px;
+		padding-top: 75px;
+		padding-bottom: 100px;
+
+		@include is-sp {
+			clip-path: polygon(17% 3%, 100% 0, 100% 100%, 0 100%, 0% 0);
+			margin-top: -58px;
+
+			.sect_5__inner-realestate {
+				padding-bottom: 35px;
+				padding-top: 10px;
+			}
+
+			&__box-big-new {
+				top: -4%;
+			}
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 84%;
+			height: 41%;
+			top: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 24%, 67% 43%, 0% 21%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			@include is-sp {
+				clip-path: polygon(50% 0%, 100% 0, 100% 36%, 55% 44%, 0% 16%, 0 0, 0 0);
+				height: 18%;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			z-index: 150;
+			background: linear-gradient(to right, #0059c4, #000017);
+			z-index: 1;
+			opacity: 0.7;
+			bottom: 20px;
+			width: 86%;
+			clip-path: polygon(40% 2%, 100% 52%, 100% 67%, 0 100%, 0 45%);
+			height: 161px;
+
+			@include is-sp {
+				width: 81%;
+				clip-path: polygon(40% 21%, 100% 66%, 100% 67%, 0 100%, 0 45%);
+				height: 130px;
+			}
+		}
+	}
+
+	.sect_6 {
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 8%);
+		margin-top: -158px;
+		padding-top: 85px;
+
+		@include is-sp {
+			clip-path: polygon(81% 3%, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 6%);
+			padding-top: 80px;
+
+			.sect_6__inner-realestate {
+				padding-top: 70px;
+			}
+		}
+	}
+
+	.sect_7 {
+		background: linear-gradient(to left, #0059c4, #000017);
+		clip-path: polygon(17% 9%, 100% 0, 100% 100%, 0 100%, 0% 0);
+		margin-top: 0;
+		padding-top: 150px;
+		padding-bottom: 141px;
+
+		@include is-max(1070px) {
+			clip-path: polygon(17% 4%, 100% 0, 100% 100%, 0 100%, 0% 0);
+		}
+
+		@include is-sp {
+			clip-path: polygon(17% 2%, 100% 0, 100% 100%, 0 100%, 0% 0);
+			padding-bottom: 186px;
+
+			&__box-big-new {
+				top: -10%;
+				width: 140px;
+				right: 3%;
+			}
+
+			.sect_7-cntnt {
+				padding-bottom: 0;
+			}
+
+			.sect_7-cntnt-box-big-newest2 {
+				opacity: 0.1;
+				width: 148px;
+			}
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 84%;
+			height: 41%;
+			top: 0;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 24%, 67% 43%, 0% 21%, 0 0, 0 0);
+			background: linear-gradient(to right, #0059c6, #000017);
+			opacity: 0.4;
+			z-index: 1;
+
+			@include is-max(1070px) {
+				height: 28%;
+				clip-path: polygon(50% 0%, 100% 0, 100% 24%, 67% 43%, 0% 14%, 0 0, 0 0);
+			}
+
+			@include is-sp {
+				height: 14%;
+				clip-path: polygon(50% 0%, 100% 0, 100% 36%, 57% 50%, 0% 14%, 0 0, 0 0);
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			z-index: 150;
+			background: linear-gradient(to right, #0059c4, #000017);
+			z-index: 1;
+			opacity: 0.7;
+			bottom: 20px;
+			width: 86%;
+			clip-path: polygon(40% 2%, 100% 52%, 100% 67%, 0 100%, 0 45%);
+			height: 161px;
+
+			@include is-sp {
+				// bottom: -38px;
+				// width: 100%;
+				// height: 100px;
+				// clip-path: polygon(32% 2%, 100% 33%, 100% 67%, 0 100%, 0 30%);
+				// display: none;
+				clip-path: polygon(40% 11%, 100% 50%, 100% 67%, 0 100%, 0 25%);
+			}
+		}
+
+		&__box-big-new2 {
+			opacity: 0.1;
+		}
+
+		.c-buttonCase {
+			z-index: 2;
+		}
+	}
+
+	.sect_8 {
+		clip-path: polygon(86% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 5%);
+		margin-top: -160px;
+		padding-top: 150px;
+
+		@include is-max(1070px) {
+			clip-path: polygon(86% 0, 100% 4%, 100% 100%, 50% 100%, 0 100%, 0 4%);
+		}
+
+		@include is-sp {
+			clip-path: polygon(86% 0, 100% 1%, 100% 100%, 50% 100%, 0% 100%, 0 1%);
+			padding-top: 100px;
+		}
+
+		&__box-big-new {
+			opacity: 1;
+		}
+	}
+
+	.point_ttl {
+		color: #0059b4 !important;
+	}
+
+	.point_item {
+		span {
+			color: #0059b4 !important;
 		}
 	}
 }
