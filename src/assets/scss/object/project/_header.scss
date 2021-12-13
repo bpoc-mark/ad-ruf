@@ -225,11 +225,11 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 
-		@include is-max(1101px){
+		@include is-max(1101px) {
 			padding: 0 30px;
 		}
 
-		@include is-sp{
+		@include is-sp {
 			padding: 0;
 		}
 
@@ -291,7 +291,7 @@
 				p {
 					@include font-line(14, 19);
 					font-weight: 700;
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					color: #fff;
 					align-items: center;
 					letter-spacing: 0.3em;
@@ -341,7 +341,7 @@
 				a {
 					@include font-line(11);
 					font-weight: 700;
-					font-family: yu-gothic-pr6n, sans-serif;;
+					font-family: yu-gothic-pr6n, sans-serif;
 					color: #fff;
 
 					@include is-sp {
@@ -385,11 +385,11 @@
 								content: "/";
 								@include font-line(11);
 								font-weight: 500;
-								font-family: yu-gothic-pr6n, sans-serif;;
+								font-family: yu-gothic-pr6n, sans-serif;
 								color: #fff;
 								padding: 0 15px 0 10px;
 
-								@include is-sp{
+								@include is-sp {
 									content: none;
 								}
 							}
@@ -403,8 +403,8 @@
 								width: 100%;
 								display: inline-block;
 							}
-							
-							@include is-max(470px){
+
+							@include is-max(470px) {
 								font-size: 3vw;
 							}
 						}
@@ -516,7 +516,7 @@
 								letter-spacing: 0.3em;
 							}
 
-							@include is-max(470px){
+							@include is-max(470px) {
 								font-size: 3vw;
 							}
 						}
@@ -568,7 +568,7 @@
 								text-align: left;
 								transition-duration: 0.5s;
 
-								&:hover{
+								&:hover {
 									background: #b71e32;
 								}
 
@@ -579,7 +579,7 @@
 								a {
 									color: #fff;
 
-									@include is-max(390px){
+									@include is-max(390px) {
 										font-size: 4vw;
 									}
 								}
@@ -615,27 +615,25 @@
 						padding: 20px 0;
 						height: auto;
 						position: relative;
-
 					}
 					.mail {
 						width: 22px;
 						position: absolute;
-						margin-top: 5px;
 
-						@include is-sp{
+						@include is-sp {
 							margin-left: -80px;
 						}
 					}
 					p {
 						@include font-line(14, 18);
 						font-weight: 500;
-						font-family: yu-gothic-pr6n, sans-serif;;
+						font-family: yu-gothic-pr6n, sans-serif;
 						color: #fff;
 						text-align: center;
 						letter-spacing: 0.13em;
 						margin-top: 5px;
 						display: none;
-						
+
 						@include is-sp {
 							display: block;
 							margin-left: 30px;
@@ -671,7 +669,7 @@
 			p {
 				color: #fff;
 				text-transform: uppercase;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				@include font-line(11, 43);
 			}
 		}
@@ -712,12 +710,9 @@
 			left: 45px;
 
 			@include is-sp {
-				display: block;
+				display: flex;
 				width: 90%;
-			}
-
-			@include is-max(375px) {
-				left: 22%;
+				justify-content: center;
 			}
 
 			&-link {
@@ -725,7 +720,7 @@
 				width: 100%;
 				@include font-line(14.5, 19);
 				font-weight: 700;
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				color: #fff;
 				align-items: center;
 				display: none;
@@ -737,6 +732,7 @@
 
 				@include is-sp {
 					display: flex;
+					width: unset;
 				}
 
 				p {
@@ -752,7 +748,11 @@
 			left: 0;
 			height: 380px;
 			width: 100vw;
-			background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(37, 121, 191, 1));
+			background-image: linear-gradient(
+				to bottom,
+				rgba(255, 0, 0, 0),
+				rgba(37, 121, 191, 1)
+			);
 			display: none;
 
 			@include is-sp {
@@ -812,7 +812,7 @@
 				text-align: center;
 				@include font-line(14, 19);
 				font-weight: 700;
-				font-family: yu-gothic-pr6n, sans-serif;
+				font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
 
 				p {
 					color: #fff;
@@ -840,8 +840,8 @@
 
 			&-txt {
 				z-index: 2;
-				
-				@include is-sp{
+
+				@include is-sp {
 					margin-top: 32px;
 					width: 100%;
 				}
@@ -858,7 +858,7 @@
 						@include font-line(27);
 					}
 
-					@include is-max (376px) {
+					@include is-max(376px) {
 						white-space: nowrap;
 					}
 				}
@@ -884,7 +884,6 @@
 							@include font-line(13.5, 30);
 							letter-spacing: 0.28em;
 							padding-left: 10px;
-							margin-bottom: 6px;
 
 							@include is-max(370px) {
 								font-size: 3vw;
@@ -919,7 +918,7 @@
 					font-weight: 400;
 					font-family: century-gothic, sans-serif;
 					color: #fff;
-					letter-spacing: 0.2em;
+					letter-spacing: 0.08em;
 
 					@include is-max(376px) {
 						white-space: nowrap;
@@ -954,7 +953,7 @@
 					margin-bottom: 9px;
 				}
 
-				@include is-max(475px){
+				@include is-max(475px) {
 					margin-right: 0;
 				}
 			}
@@ -1027,7 +1026,7 @@
 				background-position: 0 11%;
 			}
 
-			@include is-max(432px){
+			@include is-max(432px) {
 				background-size: cover;
 				background-position: 73%;
 			}
@@ -1035,20 +1034,20 @@
 
 		&-txt01 {
 			position: absolute;
-			top: 40px;
+			top: 15px;
 			right: 9px;
 			z-index: 555;
 
-			@include is-sp{
+			@include is-sp {
 				right: 67px;
-				top: 80px;
+				top: 70px;
 			}
 
-			@include is-max(475px){
+			@include is-max(475px) {
 				right: 10%;
 			}
 
-			@include is-max(375px){
+			@include is-max(375px) {
 				top: 70px;
 				right: 8%;
 			}
@@ -1073,22 +1072,22 @@
 			justify-content: flex-end;
 			align-items: flex-start;
 			position: absolute;
-			top: 83px;
+			top: 60px;
 			right: 0;
 			z-index: 3;
-		
+
 			@include is-sp {
 				width: 100%;
-				top: 132px;
+				top: 120px;
 				right: 63px;
 				line-height: 1.4;
 			}
 
-			@include is-max(475px){
+			@include is-max(475px) {
 				right: 9%;
 			}
 
-			@include is-max(375px){
+			@include is-max(375px) {
 				right: 7%;
 				top: 118px;
 			}
@@ -1109,24 +1108,15 @@
 			}
 		}
 		.bdg-wrppr {
-            position: absolute;
-            top: 54%;
-            left: 77.6%;
-            z-index: 200;
-            @include is-max(875px) {
-                top: 58%;
-            }
-        }
-	}
-
-	.pc{
-		display: block;
-
-		@include is-sp{
-			display: none;
+			position: absolute;
+			top: 54%;
+			left: 77.6%;
+			z-index: 200;
+			@include is-max(875px) {
+				top: 58%;
+			}
 		}
 	}
-
 }
 
 .slide {
@@ -1176,17 +1166,17 @@
 			}
 			&-txt {
 				@include font-line(15);
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				margin-left: 20px;
-				color: #258acf;
+				color: #003780;
 			}
 		}
 
 		&-mail {
 			width: 50%;
 			padding-left: 14px;
-			background: #b71e32;
+			background: #f40000;
 			display: flex;
 			justify-content: space-around;
 			cursor: pointer;
@@ -1198,7 +1188,7 @@
 			}
 			&-txt {
 				@include font-line(15);
-				font-family: yu-gothic-pr6n, sans-serif;;
+				font-family: yu-gothic-pr6n, sans-serif;
 				font-weight: 500;
 				color: #fff;
 				padding-left: 10px;
