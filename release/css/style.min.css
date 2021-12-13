@@ -548,6 +548,7 @@ template{display:none}
 .p-header.scroll .lp__main .promotion{display:none}
 .p-header.scroll .lp__button{border-radius:5px;-webkit-box-shadow:0 3px 7px 1px rgba(0,0,0,0);box-shadow:0 3px 7px 1px rgba(0,0,0,0)}
 .p-header.scroll .lp__landingInner{padding:0 !important}
+.p-header .pc{display:block}
 .top-header{padding-top:105px;overflow:hidden;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017)}
 .top-header .logo{width:70px}
 .top-header .mail{width:22px}
@@ -624,6 +625,7 @@ template{display:none}
 .top-header-bnnr-txt02{width:93%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;position:absolute;top:60px;right:0;z-index:3}
 .top-header-bnnr-txt02-ver{-webkit-writing-mode:tb;-ms-writing-mode:tb;writing-mode:tb;font-family:yu-mincho-pr6n,sans-serif;font-size:1.875rem;font-weight:500;letter-spacing:.3em;color:#fff;padding-right:7px}
 .top-header-bnnr .bdg-wrppr{position:absolute;top:54%;left:77.6%;z-index:200}
+.top-header .pc{display:block}
 .slide{-webkit-transform:translateX(0);transform:translateX(0)}
 .ovf{overflow:hidden}
 .float-menu{position:fixed;bottom:0;z-index:990;width:100%;display:none}
@@ -3555,6 +3557,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .p-header__branding{width:50%}
 .p-header__branding .logo{width:200px}
 .p-header__colsigation{width:50%}
+.p-header .pc{display:none}
 .top-header{overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;padding-top:0;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;-webkit-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 .top-header .logo{width:131px}
 .top-header-nav{padding:0}
@@ -3607,6 +3610,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .top-header-bnnr-txt01-hon{font-size:1.125rem;line-height:3.5555555556;opacity:.5}
 .top-header-bnnr-txt02{width:100%;top:120px;right:63px;line-height:1.4}
 .top-header-bnnr-txt02-ver{font-size:1.125rem;opacity:.5}
+.top-header .pc{display:none}
 .float-menu{display:block}
 .p-introduction__intro .headline{text-align:center}
 .p-introduction__intro .headline__text{font-size:1.125rem}

@@ -175,6 +175,14 @@
 			}
 		}
 	}
+
+	.pc{
+		display: block;
+
+		@include is-sp{
+			display: none;
+		}
+	}
 }
 
 // header
@@ -1115,6 +1123,14 @@
 			@include is-max(875px) {
 				top: 58%;
 			}
+		}
+	}
+
+	.pc{
+		display: block;
+
+		@include is-sp{
+			display: none;
 		}
 	}
 }
