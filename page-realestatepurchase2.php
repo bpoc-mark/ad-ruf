@@ -299,7 +299,7 @@ $imagedir = get_template_directory_uri();
                         不動産買取を実行します
                     </p>
                     <p class="text sore__section_6--text rep2_s4--text">
-                        投資用の収益不動産の売却を成功させるには、一般的な居住用不動産の売却とは異なる知識やノウハウが求められます。私たち丸の内ルーフでは、大切な不動産の「正しい価値」を見極め適切に伝えること、また問題がある場合の解決策の提案力・実行力により、オーナー様にとってより好条件のお取引を実現できるよう努めています。
+                    投資用の収益不動産の売却を成功させるには、一般的な居住用不動産の売却とは異なる知識やノウハウが求められます。私たちルーフでは、大切な不動産の「正しい価値」を見極め適切に伝えること、また問題がある場合の解決策の提案力・実行力により、オーナー様にとってより好条件のお取引を実現できるよう努めています。
                     </p>
 
                     <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>"
@@ -313,7 +313,7 @@ $imagedir = get_template_directory_uri();
                     <img class="pic"
                         src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rep2_img6.png" alt="">
                     <div class="horizontal_txt hr1">
-                        <p>豊富な経験と.ウハウによって、</p>
+                        <p>豊富な経験とノウハウによって、</p>
                     </div>
 
                     <div class="horizontal_txt hr2">

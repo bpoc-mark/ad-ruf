@@ -2504,7 +2504,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep2_s8 .t51{top:51px}
 .rep2 .ws{white-space:nowrap}
 .rep2 .horizontal_txt{color:#fff;position:absolute;top:25px;left:60px;white-space:nowrap}
-.rep2 .horizontal_txt p{font-size:1.0625rem;letter-spacing:.18em;font-family:yu-mincho-pr6n,sans-serif;line-height:26px;background-color:#fff;color:#2581c6;font-weight:500}
+.rep2 .horizontal_txt p{font-size:1.0625rem;letter-spacing:.18em;font-family:yu-mincho-pr6n,sans-serif;line-height:26px;background-color:#fff;color:#0059b4;font-weight:500}
 .rep2 .horizontal_txt p:first-child{text-indent:3px}
 .rep2 .hr1{top:127px;left:169px}
 .rep2 .hr2{top:354px;left:9px}
@@ -2558,7 +2558,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .sore .sect_2{position:relative;margin-top:-150px;z-index:-150;padding:130px 0 10px 0;-webkit-clip-path:polygon(100% 0,100% 100%,81% 92%,0 100%,0 0);clip-path:polygon(100% 0,100% 100%,81% 92%,0 100%,0 0)}
 .sore .sect_2::before{display:none}
 .sore .sect_2::after{content:"";position:absolute;width:100%;bottom:0;width:81%;z-index:150;height:120px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(41% -5%,100% 59%,100% 67%,0 100%,0 56%);clip-path:polygon(41% -5%,100% 59%,100% 67%,0 100%,0 56%);z-index:-1;opacity:.7}
-.sore__section_2{position:relative}
+.sore__section_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6)) !important;background:linear-gradient(to right,#003782,#0059b6) !important}
 .sore__section_2-ttl{padding-top:0 !important}
 .sore__section_2-title{font-size:1.625rem;letter-spacing:.01em !important;padding-top:18px !important}
 .sore__section_3{margin-bottom:0;background:#fff !important;padding-top:156px}
@@ -2575,7 +2575,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .sore__section_4 .s4-title{letter-spacing:.34em !important;padding-bottom:26px}
 .sore__section_4 .sect_2__box-big-new2{top:247px}
 .sore .sect_5{margin-top:-190px;padding-top:42px;z-index:-150}
-.sore__section_5{position:relative;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6)) !important;background:linear-gradient(90deg,#336 0,#0059b6 100%) !important;margin-bottom:0 !important;overflow:hidden}
+.sore__section_5{position:relative;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6)) !important;background:linear-gradient(to right,#003782,#0059b6) !important;margin-bottom:0 !important;overflow:hidden}
 .sore__section_5 .sect_5__inner-realestate--left{padding-right:5px}
 .sore__section_5 .sect_5__inner-realestate--right{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .sore__section_5 .sect_2__box-big-new{position:absolute;left:75%;top:115px;opacity:.7;width:225px}
