@@ -252,7 +252,7 @@ template{display:none}
 .c-card12--row .col2{padding:17px 12px 10px 17px;position:relative}
 .c-card12--row .col2::after{content:"";position:absolute;width:1px;border-right:1px dotted #9e9e9e;height:100%;top:0;right:0}
 .c-card12--row .col3{width:29%;padding:0 0 0 16px}
-.c-case01__title{color:#fff;font-family:yu-mincho-pr6n,sans-serif;letter-spacing:.18em;line-height:1;padding:15px 0 20px 0;font-weight:500;font-size:1.875rem;line-height:1.6}
+.c-case01__title{color:#fff;font-family:YakuHanJP,yu-mincho-pr6n,sans-serif;letter-spacing:.18em;line-height:1;padding:15px 0 20px 0;font-weight:500;font-size:1.875rem;line-height:1.6}
 .c-case01__sub{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;line-height:1;font-size:.8125rem;line-height:2}
 .c-case01__sub2{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.07em;line-height:1;padding-top:20px;font-size:.8125rem;line-height:1.3846153846}
 .c-case--items .l-wrap{position:relative}
@@ -2508,14 +2508,15 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .rep2 .hr6{left:21px;bottom:18%;top:unset}
 .rep2 .hr7{left:20px;bottom:7%;top:unset}
 .result{position:relative}
+.result .l-wrap{position:relative}
 .result .c-banner{background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);padding:0 0 80px 0}
 .result .c-banner--ttl .br-sp{display:none}
 .result .c-banner--ttl p:nth-child(1){line-height:1.45em}
 .result .bread_crumps{text-align:left;position:relative;z-index:150;padding-top:12px}
 .result .bread_crumps .txt{width:90%;margin:0 auto;max-width:1100px;color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.6875rem}
 .result .bread_crumps span{padding:0 8px}
-.result .section_1{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);margin-top:-100px}
-.result .section_1::before{content:"";position:absolute;width:100%;height:20%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 16%,72% 33%,0 19%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 16%,72% 33%,0 19%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4}
+.result .section_1{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);-webkit-clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);clip-path:polygon(0 50px,100% 0,100% 100%,0 100%);margin-top:-100px;position:relative}
+.result .section_1::before{content:"";position:absolute;width:100%;height:22%;top:0;left:0;right:0;-webkit-clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,-8% 13.2%,10% 11.2%,0 13%);clip-path:polygon(50% 6.3%,100% 0,100% 16%,72% 33%,-8% 13.2%,10% 11.2%,0 13%);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:151}
 .result .section_1 .clip-path{padding:160px 0 100px 0;text-align:center}
 .result .section_1 .l-wrap .bg-sq{position:absolute;right:82px;top:-94px}
 .result .section_1__ttl{color:#fff;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;line-height:1;font-size:.625rem}
@@ -4625,7 +4626,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .result .c-banner--ttl .br-sp{display:block}
 .result .bread_crumps .txt{font-size:.78125rem}
 .result .section_1{-webkit-clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);clip-path:polygon(0 43px,100% 12px,100% 101%,0 100%);padding:115px 0 76.5px 0;margin-top:-100px}
-.result .section_1::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 86%,66% 100%,0 48%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 86%,66% 100%,0 48%,0 0,0 0);height:7%}
+.result .section_1::before{-webkit-clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 48%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 76%,66% 100%,0 48%,0 0,0 0);height:7%}
 .result .section_1 .clip-path{padding:15px 0 0 0}
 .result .section_1 .l-wrap .bg-sq{width:178px;right:10px;top:-83px}
 .result .section_1__ttl{color:#9dc2e1}
