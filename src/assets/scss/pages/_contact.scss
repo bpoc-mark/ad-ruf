@@ -48,7 +48,7 @@
 
 	input {
 		font-family: yu-gothic-pr6n, sans-serif;
-		font-weight: 500;
+		font-weight: 600;
 		letter-spacing: 0.28em;
 	}
 
@@ -1098,6 +1098,12 @@
 
 		.bck {
 			position: relative;
+			
+			img{
+				position: absolute;
+				left: 18px;
+				top: 18px;
+			}
 
 			@include is-max(670px) {
 				width: 100%;
@@ -1129,6 +1135,12 @@
 
 		.sub {
 			position: relative;
+
+			img{
+				position: absolute;
+				right: 40px;
+				top: 18px;
+			}
 
 			@include is-max(670px) {
 				width: 100%;
@@ -1657,4 +1669,30 @@ form.wpcf7-form.custom-wpcf7c-confirmed {
 			width: 100% !important;
 		}
 	}
+}
+
+form.wpcf7-form.invalid{
+	.contact-frm__flex.ten{
+		display: none;
+	}
+}
+
+form.wpcf7-form.init{
+	.bcksub{
+		.bck{
+			img{
+				display: none;
+			}
+		}
+	}
+}
+
+form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm{
+	.bcksub{
+		.bck{
+			img{
+				display: none;
+			}
+		}
+	}	
 }

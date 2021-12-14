@@ -1410,7 +1410,7 @@ template{display:none}
 .contact-frm .c-banner{padding:0 0 80px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
 .contact-frm .c-banner--ttl{line-height:34px;top:40%}
 .contact-frm .c-banner--ttl .br-sp{display:none}
-.contact-frm input{font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.28em}
+.contact-frm input{font-family:yu-gothic-pr6n,sans-serif;font-weight:600;letter-spacing:.28em}
 .contact-frm .sect_1{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);padding:100px 0 20px 0;-webkit-clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);margin-top:-100px;padding-bottom:101px;padding-top:80px}
 .contact-frm .sect_1 .l-wrap{max-width:1200px}
 .contact-frm__bg-white{background-color:#fff;margin:11px 0 0 0;padding:30px 30px 60px 30px}
@@ -1508,8 +1508,10 @@ template{display:none}
 .contact-frm .btn-confirm .btn{background-color:#003780}
 .contact-frm .bcksub{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .contact-frm .bcksub .bck{position:relative}
+.contact-frm .bcksub .bck img{position:absolute;left:18px;top:18px}
 .contact-frm .bcksub .bck .btn-back::before{content:"";background:url(../../release/image/page/contact/arrow_left.svg);background-size:cover;background-repeat:no-repeat;height:50px;width:50px;position:absolute}
 .contact-frm .bcksub .sub{position:relative}
+.contact-frm .bcksub .sub img{position:absolute;right:40px;top:18px}
 .contact-frm .col-1{width:34%}
 .contact-frm .col-1 label{color:#003780;font-weight:700}
 .contact-frm .col-2{width:66%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -1568,6 +1570,9 @@ form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .contact-frm__flex.second 
 form.wpcf7-form.custom-wpcf7c-confirmed .contact-frm__flex.seventh .col-2 .row-1 .pc-hide{display:none}
 form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .contact-frm__flex.seventh .col-2 .row-1 .pc-hide{display:block}
 form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
+form.wpcf7-form.invalid .contact-frm__flex.ten{display:none}
+form.wpcf7-form.init .bcksub .bck img{display:none}
+form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .bcksub .bck img{display:none}
 .group-business{position:relative}
 .group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
 .group-business .c-banner--ttl{top:45%}
