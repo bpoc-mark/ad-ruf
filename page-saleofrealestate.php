@@ -284,7 +284,7 @@ $imagedir = get_template_directory_uri();
 
             <div class="p-main_content__box1">
                 <p class="sore__ttl sore__section_2-ttl s4-ttl">CASE STUDIES</p>
-                <h1 class="sore__title sore__section_2-title s4-title">買取実績</h1>
+                <h1 class="sore__title sore__section_2-title s4-title">売却実績</h1>
 
                 <div class="p-main_content__box1-row1">
                     <div class="img">

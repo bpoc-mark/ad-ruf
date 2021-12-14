@@ -5,7 +5,7 @@ $imagedir = get_template_directory_uri();
 <div class="page__content contact-frm">
     <div class="c-banner">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
-                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/contact/contact_bg_sp.png" alt="">
@@ -31,11 +31,11 @@ $imagedir = get_template_directory_uri();
                 <div class="p2">
                     <p class="txt"><a href="#"><img
                                 src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png"
-                                alt="Living Room">&nbsp;0120-173-602</a></p>
+                                alt="Living Room"><span>&nbsp;0120-173-602</span></a></p>
                 </div>
                 <div class="p3">
-                    <p class="txt">TEL：03-3211-0123（代表）<br>
-                        受付時間：9：00～18：00（土日祝除く）</p>
+                    <p class="txt">TEL: 03-3211-0123（代表）<br>
+                        受付時間: 9: 00～18: 00（土日祝除く）</p>
                 </div>
             </div>
 

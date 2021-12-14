@@ -260,8 +260,7 @@ get_header(); ?>
                                 <p>経営理念</p>
                             </div>
                             <div class="cards-card-img-txt-sub">
-                                <p>Management
-                                    Philosophy</p>
+                                <p>Management <br class="br-sp">Philosophy</p>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
@@ -288,8 +287,7 @@ get_header(); ?>
                                 <p>会社概要</p>
                             </div>
                             <div class="cards-card-img-txt-sub">
-                                <p>Company
-                                    Information</p>
+                                <p>Company <br class="br-sp">Information</p>
                             </div>
                         </div>
                         <div class="cards-card-img-lnk">
@@ -365,7 +363,7 @@ get_header(); ?>
                             alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
-                                <p>オフィス風景</p>
+                                <p class="l-spacing">オフィス風景</p>
                             </div>
                             <div class="cards-card-img-txt-sub">
                                 <p>Office Gallery</p>

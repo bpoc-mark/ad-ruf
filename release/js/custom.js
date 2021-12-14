@@ -32,7 +32,7 @@ $('.slider').slick({
     }
   }]
 });
-$(document).on('click', '.submenu-clk', function () {
+$('.submenu-clk').click(function () {
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideUp();
@@ -42,6 +42,8 @@ $(document).on('click', '.submenu-clk', function () {
     $(this).find('.nav-links-ul-02-link-submenu').slideDown();
     $(this).find('.plus').text('-').css('transform', 'rotate(0deg)');
   }
+
+  return false;
 });
 var clickAllowed = true;
 $(window).on('load resize', function () {
@@ -219,11 +221,10 @@ $('.show-ad').click(function () {
   if ($('.zip_s').val() === '') {
     $('.prefecture_s').val(''), $('.municipality_s').val(''), $('.address_s').val(''); // $('.address_s2').val('')
   }
-});
-$(document).on('click')(function () {
-  alert();
-  $("#non").css("display", "none");
-});
+}); // $(document).on('click')(function () {
+//   alert();
+//     $("#non").css("display", "none");
+// });
 
 function clickClass() {
   if ($('.wpcf7-form').hasClass('init') || $('.wpcf7-form').hasClass('invalid')) {} else {

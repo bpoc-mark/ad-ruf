@@ -41,7 +41,7 @@
 
                     <div class="nav-links">
                         <div class="nav-links-ul">
-                            <ul class="nav-links-ul-01">
+                            <ul class="nav-links-ul-01 mg-r-30">
                                 <li class="nav-links-ul-01-link">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg"
                                         alt="">
@@ -207,10 +207,10 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-links-ul-02-link submenu-clk">
+                                <li class="nav-links-ul-02-link submenu-clk" style="display: none;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/menu_link_icon.svg"
                                         alt="">
-                                    <a href="<?php echo get_permalink(get_page_by_path('column')) ?>">RUF収益不動産コラム</a>
+                                    <!-- <a href="<?php echo get_permalink(get_page_by_path('column')) ?>">RUF収益不動産コラム</a> -->
                                     <ul class="nav-links-ul-02-link-submenu u-d-n-pc">
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a href="">Item 1</a>

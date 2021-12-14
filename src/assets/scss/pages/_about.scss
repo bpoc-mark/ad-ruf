@@ -279,9 +279,9 @@
 				}
 			}
 
-			.txt {
-				color: #2588cd;
-			}
+			// .txt {
+			// 	color: #2588cd;
+			// }
 		}
 
 		.sec1-bg1 {
@@ -679,6 +679,10 @@
 							font-size: 18px;
 							color: #fff;
 
+							.l-spacing{
+								letter-spacing: 0.1em;
+							}
+
 							p {
 								line-height: 25px;
 								font-weight: 500;
@@ -688,8 +692,8 @@
 									letter-spacing: 0.1em;
 								}
 
-								@include is-max(480px) {
-									font-size: 3.8vw;
+								@include is-max(560px) {
+									font-size: 3.1vw;
 								}
 							}
 						}

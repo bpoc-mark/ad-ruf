@@ -263,7 +263,7 @@
                                 </p>
                             </div>
 
-                            <a href="https://www.ruf.jp/business/operation.html" target="_blank" class="c-buttonCase u-l-algn wh">
+                            <a href="<?php echo get_permalink(get_page_by_path('realestateoperation')) ?>" class="c-buttonCase u-l-algn wh">
                                 <p class="txt">収益不動産の運用について</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                             </a>
@@ -437,7 +437,7 @@
         </div>
     </section>
 
-    <section class="sect_6">
+    <!-- <section class="sect_6">
         <div class="clipPath">
             <div class="c-case--items fp">
                 <div class="l-wrap">
@@ -547,7 +547,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="sect_7">
         <div class="clipPath">
@@ -659,8 +659,3 @@
     </div>
 
     <?php get_footer(); ?>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>

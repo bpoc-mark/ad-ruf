@@ -5,8 +5,7 @@ $imagedir = get_template_directory_uri();
 ?>
 <div class="page__content office_gal">
     <div class="c-banner">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
-                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/office_gal/office_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/office_banner_sp.png" alt="">
@@ -29,8 +28,7 @@ $imagedir = get_template_directory_uri();
         <div class="office_gal--items office_gal--shadow">
             <div class="l-wrap">
                 <img class="office_gal__bg_1 pc" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
-                <img class="office_gal__bg_1 sp"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
+                <img class="office_gal__bg_1 sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
                 <div class="office_gal--contents">
                     <div class="office_gal--contents__col1">
                         <div class="office_gal--contents__col1--text">
@@ -69,10 +67,8 @@ $imagedir = get_template_directory_uri();
         <!-- //CONTENT 2 -->
         <div class="office_gal--items sp-pb">
             <div class="l-wrap">
-                <img class="office_gal__bg_2 pc"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
-                <img class="office_gal__bg_2 sp"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
+                <img class="office_gal__bg_2 pc" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
+                <img class="office_gal__bg_2 sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
                 <div class="office_gal--contents">
                     <div class="office_gal--contents__col1">
                         <div class="office_gal--contents__col1--text">
@@ -83,14 +79,11 @@ $imagedir = get_template_directory_uri();
                                 Meeting room
                             </div>
                             <div class="office_gal--contents__col1--text desc">
-                                <img class="office_gal__bg_2-1 sp"
-                                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp-2-1.png"
-                                    alt="">
+                                <img class="office_gal__bg_2-1 sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp-2-1.png" alt="">
                                 ミーティングルーム心地いい空間へのこだわりはミーティングルームにも。快適性も機能性もどちらも備えた場所だからこそ、お打ち合わせやご商談の時間も常にリラックスいただけます。ルーフは、収益不動産のエキスパートとして、スタッフ一同磐石の体制でお客様の収益不動産の成功をサポートします。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp"
-                            href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
                             <p class="txt">ルーフの事例を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -110,8 +103,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonOG hide-pc"
-                        href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
+                    <a class="c-buttonOG hide-pc" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
                         <p class="txt">ルーフの事例を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -122,8 +114,7 @@ $imagedir = get_template_directory_uri();
         <!-- //CONTENT 3 -->
         <div class="office_gal--items office_gal--shadow2">
             <div class="l-wrap">
-                <img class="office_gal__bg_3"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content3.png" alt="">
+                <img class="office_gal__bg_3" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content3.png" alt="">
                 <div class="office_gal--contents">
                     <div class="office_gal--contents__col1">
                         <div class="office_gal--contents__col1--text">
@@ -167,10 +158,8 @@ $imagedir = get_template_directory_uri();
         <!-- //CONTENT 4 -->
         <div class="office_gal--items">
             <div class="l-wrap">
-                <img class="office_gal__bg_2 pc"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
-                <img class="office_gal__bg_4 sp sp-bg4"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
+                <img class="office_gal__bg_2 pc" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
+                <img class="office_gal__bg_4 sp sp-bg4" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
                 <div class="office_gal--contents">
                     <div class="office_gal--contents__col1">
                         <div class="office_gal--contents__col1--text">
@@ -184,8 +173,7 @@ $imagedir = get_template_directory_uri();
                                 ルーフでは、お客様の満足度はもちろん、スタッフの満足度も追及します。居心地のいい事務所からは、東京駅近郊の美しい景色が一望可能。不動産の専門知識はもちろん、目利きの確かさ、迅速な行動、先見性のある提案など、収益不動産のプロであるスタッフがきめ細やかにサポートします。
                             </div>
                         </div>
-                        <a class="c-buttonOG hide-tabsp"
-                            href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
+                        <a class="c-buttonOG hide-tabsp" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
                             <p class="txt">事業内容を見る</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                         </a>
@@ -205,8 +193,7 @@ $imagedir = get_template_directory_uri();
                             </div>
                         </div>
                     </div>
-                    <a class="c-buttonOG hide-pc"
-                        href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
+                    <a class="c-buttonOG hide-pc" href="<?php echo get_permalink(get_page_by_path('our-enterprises')) ?>">
                         <p class="txt">事業内容を見る</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
                     </a>
@@ -216,15 +203,11 @@ $imagedir = get_template_directory_uri();
 
         <div class="section_3">
             <div class="l-wrap">
-                <img class="office_gal__bg_4 pc"
-                    src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
+                <img class="office_gal__bg_4 pc" src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
                 <!-- <img class="bg_1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg1.png" alt=""> -->
-                <img class="bg_2 u-d-n-sp"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg2.png" alt="">
-                <img class="bg_3 u-d-n-sp"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg3.png" alt="">
-                <img class="bg_4 u-d-n-pc"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg_1sp.png" alt="">
+                <img class="bg_2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg2.png" alt="">
+                <img class="bg_3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg3.png" alt="">
+                <img class="bg_4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3_bg_1sp.png" alt="">
                 <div class="c-case02__txt">
                     <p class="c-case02__txt__ttl">About Us</p>
                     <p class="c-case02__txt__sub">企業情報</p>
@@ -235,12 +218,8 @@ $imagedir = get_template_directory_uri();
                 <div class="cards">
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-1 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png"
-                                alt="">
-                            <img class="bg-1-s[ u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg1_sp.png"
-                                alt="">
+                            <img class="bg-1 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img1.png" alt="">
+                            <img class="bg-1-s[ u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg1_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
                                     <p>代表メッセージ</p>
@@ -261,12 +240,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-2 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png"
-                                alt="">
-                            <img class="bg-2 u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg2_sp.png"
-                                alt="">
+                            <img class="bg-2 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img2.png" alt="">
+                            <img class="bg-2 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg2_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
                                     <p>経営理念</p>
@@ -289,12 +264,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-3 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png"
-                                alt="">
-                            <img class="bg-3 u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg3_sp.png"
-                                alt="">
+                            <img class="bg-3 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img3.png" alt="">
+                            <img class="bg-3 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg3_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
                                     <p>会社概要</p>
@@ -317,12 +288,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-4 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png"
-                                alt="">
-                            <img class="bg-4 u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg4_sp.png"
-                                alt="">
+                            <img class="bg-4 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img4.png" alt="">
+                            <img class="bg-4 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg4_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
                                     <p>業績</p>
@@ -343,12 +310,8 @@ $imagedir = get_template_directory_uri();
 
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-5 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png"
-                                alt="">
-                            <img class="bg-5 u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg5_sp.png"
-                                alt="">
+                            <img class="bg-5 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img5.png" alt="">
+                            <img class="bg-5 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg5_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
                                     <p>アクセス</p>
@@ -369,15 +332,11 @@ $imagedir = get_template_directory_uri();
 
                     <div class="cards-card">
                         <div class="cards-card-img">
-                            <img class="bg-6 u-d-n-sp"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png"
-                                alt="">
-                            <img class="bg-6 u-d-n-pc"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg6_sp.png"
-                                alt="">
+                            <img class="bg-6 u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/sec3-img6.png" alt="">
+                            <img class="bg-6 u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/page/about/crdimg6_sp.png" alt="">
                             <div class="cards-card-img-txt">
                                 <div class="cards-card-img-txt-ttl">
-                                    <p>オフィス風景</p>
+                                    <p class="l-spacing">オフィス風景</p>
                                 </div>
                                 <div class="cards-card-img-txt-sub">
                                     <p>Office Gallery</p>
