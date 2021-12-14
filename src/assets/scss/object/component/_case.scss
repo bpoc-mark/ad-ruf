@@ -498,6 +498,10 @@
 				padding: 20px 0 30px 0;
 				letter-spacing: 0.3em;
 				@include font-line(20);
+
+				@include is-sp {
+					padding: 15px 0 25px 0;
+				}
 			}
 
 			&__desc {

@@ -7,10 +7,9 @@
 
 	.c-banner {
 		padding: 0 0 50px 0;
-		background: linear-gradient(to right, #0059C4,  #000017);
+		background: linear-gradient(to right, #0059c4, #000017);
 
 		&--ttl {
-
 			p {
 				line-height: 2.25em;
 
@@ -61,7 +60,6 @@
 		}
 	}
 
-
 	.section_1 {
 		position: relative;
 
@@ -71,7 +69,7 @@
 
 		.clipPath {
 			clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
-			background: linear-gradient(to right, #000017, #0059C4);
+			background: linear-gradient(to right, #000017, #0059c4);
 			padding: 185px 0 185px 0;
 			margin-top: -70px;
 
@@ -91,8 +89,16 @@
 				top: 0;
 				left: 0;
 				right: 0;
-				clip-path: polygon(50% 0%, 100% 0, 100% 16%, 68% 34%, 0% 16.5%, 0 0, 0 0);
-				background: linear-gradient(to right, #0059C6, #000017);
+				clip-path: polygon(
+					50% 0%,
+					100% 0,
+					100% 16%,
+					68% 34%,
+					0% 16.5%,
+					0 0,
+					0 0
+				);
+				background: linear-gradient(to right, #0059c6, #000017);
 				opacity: 0.4;
 				@include is-sp {
 					clip-path: polygon(
@@ -103,7 +109,7 @@
 						0% 55%,
 						0% 0%,
 						0% 0%
-						);
+					);
 					height: 7.5%;
 				}
 			}
@@ -125,7 +131,7 @@
 		&-sub1 {
 			@include font-line(30, 48);
 			text-align: center;
-			font-family: "yu-mincho-pr6n", sans-serif;
+			font-family: YakuHanJP, "yu-mincho-pr6n", sans-serif;
 			font-weight: 500;
 			color: #fff;
 			letter-spacing: 0.18em;
@@ -152,8 +158,8 @@
 				@include font-line(13.5, 20);
 			}
 
-			@include is-max(397px) {
-				font-size: 4vw;
+			@include is-max(430px) {
+				font-size: 3.1vw;
 			}
 
 			.mp {
@@ -169,7 +175,7 @@
 			margin-top: 58px;
 
 			.cards {
-				margin-bottom: 25px;
+				margin-bottom: 30px;
 
 				@include is-max(1001px) {
 					flex-wrap: wrap;
@@ -178,8 +184,6 @@
 
 				.cards-card {
 					width: 220px;
-
-
 
 					@include is-max(1001px) {
 						width: 48%;
@@ -256,6 +260,7 @@
 
 							@include is-sp {
 								@include font-line(12.5, 18.5);
+								padding-top: 5px;
 							}
 
 							p {
@@ -323,7 +328,7 @@
 			background: linear-gradient(90deg, #000017 0%, #001064 30%, #0059c6 100%);
 			position: relative;
 
-			@include is-max(480px){
+			@include is-max(480px) {
 				height: 235px;
 			}
 
@@ -366,13 +371,14 @@
 					text-align: center;
 					margin-top: -50px;
 
-					h1,a{
-						@include is-max(470px){
+					h1,
+					a {
+						@include is-max(470px) {
 							font-size: 37px;
 						}
 					}
 
-					@include is-max(350px){
+					@include is-max(350px) {
 						margin-left: 0;
 					}
 
@@ -393,7 +399,7 @@
 								@include font-line(43, 51.5);
 							}
 
-							@include is-max(350px){
+							@include is-max(350px) {
 								font-size: 36px;
 							}
 						}
@@ -414,7 +420,7 @@
 								letter-spacing: -0.01em;
 							}
 
-							@include is-max(470px){
+							@include is-max(470px) {
 								font-size: 13px;
 							}
 
@@ -433,10 +439,10 @@
 							@include is-sp {
 								@include font-line(44, 55);
 								padding-bottom: 0;
-								letter-spacing: 0.20em;
+								letter-spacing: 0.2em;
 							}
 
-							@include is-max(350px){
+							@include is-max(350px) {
 								font-size: 38px;
 							}
 						}
@@ -555,7 +561,6 @@
 				right: 17%;
 
 				@include is-sp {
-
 				}
 			}
 
@@ -565,7 +570,6 @@
 				right: 23.5%;
 
 				@include is-sp {
-
 				}
 			}
 
@@ -585,8 +589,6 @@
 				}
 
 				@include is-max(705px) {
-
-
 				}
 			}
 		}
@@ -619,13 +621,12 @@
 	.section_3 {
 		padding: 110px 0 50px 0;
 
-		@include is-sp{
+		@include is-sp {
 			padding: 110px 0 20px 0;
 		}
 
-		.c-case02__txt__desc{
-
-			@include is-max(385px){
+		.c-case02__txt__desc {
+			@include is-max(385px) {
 				font-size: 3.3vw;
 			}
 		}
@@ -723,7 +724,7 @@
 							background-blend-mode: multiply;
 							background: linear-gradient(90deg, #2579bd, #2591d3);
 
-							@include is-sp{
+							@include is-sp {
 								font-size: 7px;
 							}
 						}
@@ -740,14 +741,14 @@
 						border: none;
 						text-align: left;
 						width: 204px;
-						padding-top: 0;
+						padding-top: 11px;
 					}
 
 					@include is-max(702px) {
 						padding-left: 10px;
 					}
 
-					@include is-max (445px) {
+					@include is-max(445px) {
 						padding-bottom: 0;
 					}
 
@@ -763,7 +764,7 @@
 						}
 
 						@include is-max(445px) {
-							font-size: 3.5vw;
+							font-size: 3.1vw;
 						}
 					}
 
@@ -821,18 +822,18 @@
 		}
 	}
 
-	.br-pc{
+	.br-pc {
 		display: none;
 
-		@include is-pc{
+		@include is-pc {
 			display: block;
 		}
 	}
 
-	.br-sp{
+	.br-sp {
 		display: none;
 
-		@include is-sp{
+		@include is-sp {
 			display: block;
 		}
 	}
