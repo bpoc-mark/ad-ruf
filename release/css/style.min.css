@@ -282,11 +282,11 @@ template{display:none}
 .c-case--items__contents--row_1 .img-2 .img_box_color{background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4)) !important;background:linear-gradient(to right,#000017,#0059c4) !important}
 .c-case--items__contents--row_1 .img-2 .img_box--2 .img_box__ttl{padding:13px 0 6px 0;line-height:1}
 .c-case--items__contents--row_1 .img-2 .img_box--2 .img_box__sub{padding-bottom:0;line-height:19px}
-.c-case--items__contents--row_2{width:calc(100% - 57.14%);padding-left:120px}
+.c-case--items__contents--row_2{width:calc(100% - 58.14%);padding-left:120px}
 .c-case--items__contents--row_2__txt{text-align:left;color:#fff}
-.c-case--items__contents--row_2__txt.ttl{font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;font-size:.8125rem;line-height:2;white-space:nowrap}
+.c-case--items__contents--row_2__txt.ttl{font-family:YakuHanJP,yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;font-size:.8125rem;line-height:2;white-space:nowrap}
 .c-case--items__contents--row_2__txt.sub{font-family:yu-mincho-pr6n,sans-serif;font-weight:500;padding:0 0 15px 0;letter-spacing:.18em;font-size:1.875rem;line-height:1.6}
-.c-case--items__contents--row_2__txt.desc{font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.09em;text-align:justify;font-size:.8125rem;line-height:2}
+.c-case--items__contents--row_2__txt.desc{font-family:YakuHanJP,yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.09em;text-align:justify;font-size:.8125rem;line-height:2}
 .c-case--items__contents--row_2 .row2__txt--02{text-align:left}
 .c-case--items__contents--row_2 .row2__txt--02 .ttl{color:#333}
 .c-case--items__contents--row_2 .row2__txt--02 .sub{color:#0059b4}
