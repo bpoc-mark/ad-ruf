@@ -1789,8 +1789,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_3 .sec3-bg2{position:absolute;top:66%;left:0;z-index:-1}
 .office_gal{position:relative}
 .office_gal .c-banner{padding:0 0 80px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
-.office_gal .section_1{position:relative;margin:0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);text-align:center}
-.office_gal .section_1::before{content:"";position:absolute;width:100%;top:-89px;left:0;height:90px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(100% 0,0 100%,100% 100%);clip-path:polygon(100% 40%,0 100%,100% 100%)}
+.office_gal .section_1{position:relative;margin:0;background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);text-align:center;-webkit-clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);clip-path:polygon(0 2%,100% 0,100% 100%,0 100%)}
 .office_gal .section_1 .l-wrap{position:relative}
 .office_gal .section_1 .l-wrap .bg_1{position:absolute;top:-90px;right:85px}
 .office_gal .section_1 .l-wrap .pc{display:none}
@@ -1805,7 +1804,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .office_gal__bg_2-1{position:absolute;right:92px;top:-60px;z-index:0;width:373px}
 .office_gal__bg_3{position:absolute;right:112px;top:-50px;z-index:0;width:373px;opacity:.3}
 .office_gal__bg_4{position:absolute;right:55px;top:0;z-index:0;width:373px}
-.office_gal--items{position:relative;padding:100px 0 100px 0;margin-top:-45px}
+.office_gal--items{position:relative;padding:170px 0 170px 0;margin-top:-100px}
+.office_gal--items::before{content:"";position:absolute;width:100%;top:0;left:0;height:90px;background:-webkit-gradient(linear,left top,right top,from(#003782),to(#0059b6));background:linear-gradient(to right,#003782,#0059b6);-webkit-clip-path:polygon(0 13%,100% 0,100% 14%,70% 38%);clip-path:polygon(0 13%,100% 0,100% 14%,70% 38%)}
 .office_gal--items:nth-child(2){padding-bottom:153px !important}
 .office_gal--items:nth-of-type(even){padding:150px 0;background-color:#fff;-webkit-clip-path:polygon(0 15%,100% 0,100% 85%,0 100%);clip-path:polygon(0 15%,100% 0,100% 85%,0 100%)}
 .office_gal--items:nth-of-type(even) .office_gal--contents{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}

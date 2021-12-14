@@ -30,18 +30,19 @@
 		margin: 0 0 0 0;
 		background: linear-gradient(to left, #0059c6, #000017);
 		text-align: center;
+		clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
 
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			top: -89px;
-			left: 0;
-			height: 90px;
-			background: linear-gradient(to right, #003782, #0059b6);
-			-webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-			clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
-		}
+		// &::before {
+		// 	content: "";
+		// 	position: absolute;
+		// 	width: 100%;
+		// 	top: -89px;
+		// 	left: 0;
+		// 	height: 90px;
+		// 	background: linear-gradient(to right, #003782, #0059b6);
+		// 	-webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+		// 	clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
+		// }
 
 		.l-wrap {
 			position: relative;
@@ -194,8 +195,19 @@
 
 	&--items {
 		position: relative;
-		padding: 100px 0 100px 0;
-		margin-top: -45px;
+		padding: 170px 0 170px 0;
+		margin-top: -100px;
+
+		&::before{
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: 0;
+			left: 0;
+			height: 90px;
+			background: linear-gradient(to right, #003782, #0059b6);
+			clip-path: polygon(0 13%, 100% 0, 100% 14%, 70% 38%);
+		}
 
 		@include is-sp {
 			margin-top: -50px;
