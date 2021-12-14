@@ -718,6 +718,16 @@
 			text-align: center;
 			padding: 2px;
 
+			&::before {
+				content: "";
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				inset: 0;
+				mix-blend-mode: multiply;
+				background-color: #0059B4;
+			}
+
 			@include is-sp {
 				width: 44.5px;
 				height: 44.5px;
@@ -730,6 +740,8 @@
 				justify-content: center;
 				border-top: 1px solid #fff;
 				border-right: 1px solid #fff;
+				z-index: 2;
+				position: relative;
 				p:first-child {
 					@include font-line(8.17);
 					color: #96bcdb;
@@ -944,7 +956,7 @@
 			font-weight: 700;
 			letter-spacing: 0.2em;
 			font-family: yu-gothic-pr6n, sans-serif;
-			color: #1f80c3;
+			color: #0059B4;
 			text-align: center;
 			padding: 25px 0 15px 0;
 
@@ -1022,7 +1034,7 @@
 			}
 
 			& p:last-child {
-				color: #2581c6;
+				color: #0059B4;
 				font-weight: 700;
 				letter-spacing: 0.13em;
 				line-height: 26px;
@@ -1119,7 +1131,7 @@
 			}
 
 			& p:last-child {
-				color: #2581c6;
+				color: #0059B4;
 				font-weight: 500;
 				letter-spacing: 0.1em;
 				line-height: 26px;
