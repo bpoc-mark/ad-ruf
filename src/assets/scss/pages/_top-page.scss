@@ -1487,6 +1487,7 @@
 
 		.clipPath {
 			position: relative;
+			z-index: 999;
 
 			clip-path: polygon(
 				17% 5%,
@@ -1764,6 +1765,41 @@
 	}
 
 	.sect_7 {
+		position: relative;
+
+			// &::before {
+			// 	content: "";
+			// 	position: absolute;
+			// 	width: 100%;
+			// 	top: -71px;
+			// 	height: 250px;
+			// 	background: linear-gradient(to right, #000017, #0059c4);
+			// 	// clip-path: polygon(100% -3%, 100% 50%, 61% 100%, 0 81%);
+
+			// 	@include is-sp {
+			// 		clip-path: polygon(100% 0%, 100% 50%, 65% 100%, 0 40%);
+			// 		top: 0;
+			// 		height: 100px;
+			// 	}
+			// }
+
+			// &::after {
+			// 	content: "";
+			// 	position: absolute;
+			// 	width: 100%;
+			// 	bottom: 0;
+			// 	z-index: 150;
+			// 	height: 135px;
+			// 	background: linear-gradient(to right, #0059c4, #000017);
+			// 	clip-path: polygon(0 71%, 30% 15%, 100% 38%, 0% 100%);
+			// 	opacity: 0.4;
+
+			// 	@include is-sp {
+			// 		clip-path: polygon(0 57%, 30% 35%, 100% 69%, 0% 100%);
+			// 	}
+			// }
+
+
 		.clipPath {
 			position: relative;
 

@@ -28,11 +28,11 @@
                             </a>
                         </div> -->
 
-                        <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="info info_1">
+                        <a href="tel:0120-173-602" class="info info_1">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/phone_i.svg" alt="">
                             <p>お電話での<br>お問い合わせ</p>
                         </a>
-                        <a href="#" class="info info_2">
+                        <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="info info_2">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/mail_i.svg" alt="">
                             <p>WEBでの<br>お問い合わせ</p>
                         </a>
@@ -158,10 +158,10 @@
                         </div>
                         <div class="link acc-hidden">
                             <ul class="link__inner">
-                                <li class="c-link">
+                                <!-- <li class="c-link">
                                     <a class="c-link__inner" href="<?php echo get_permalink(get_page_by_path('column')) ?>">RUF収益不動産コラム</a>
                                     <a class="c-link__arr" href="">></a>
-                                </li>
+                                </li> -->
                                 <li class="c-link">
                                     <a class="c-link__inner cap-sp" href="">YouTube</a>
                                     <a class="c-link__arr" href="">></a>
@@ -185,7 +185,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
+        <!-- <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script> -->
         <script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
 
         <?php wp_footer(); ?>

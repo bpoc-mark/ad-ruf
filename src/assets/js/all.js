@@ -36,16 +36,17 @@ $('.slider').slick({
   ]
 });
 
-$(document).on('click', '.submenu-clk', function(){
-  if($(this).hasClass('active')){
+$('.submenu-clk').click(function(){
+  if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideUp();
     $(this).find('.plus').text('+').css('transform', 'rotate(-90deg)')
-  }else{
+  } else {
     $(this).addClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideDown();
     $(this).find('.plus').text('-').css('transform', 'rotate(0deg)')
   }
+  return false;
 })
   
   let clickAllowed = true;
@@ -225,10 +226,10 @@ $('.show-ad').click(function()
         }
 });
 
-$(document).on('click')(function () {
-  alert();
-    $("#non").css("display", "none");
-});
+// $(document).on('click')(function () {
+//   alert();
+//     $("#non").css("display", "none");
+// });
 
 function clickClass(){
 	if($('.wpcf7-form').hasClass('init') || $('.wpcf7-form').hasClass('invalid')){

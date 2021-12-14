@@ -328,7 +328,15 @@
 			justify-content: flex-end;
 			width: 66.67%;
 			align-items: center;
+			
+			.mg-r-30{
+				margin-right: 30px;
 
+				@include is-sp{
+					margin-right: 0;
+				}
+			}
+			
 			@include is-sp {
 				width: 100%;
 				flex-wrap: wrap;

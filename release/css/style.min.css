@@ -559,6 +559,7 @@ template{display:none}
 .top-header-nav .brnd-logo-link .logo{margin-right:15px}
 .top-header-nav .brnd-logo-link p{font-size:.875rem;line-height:1.3571428571;font-weight:700;font-family:yu-gothic-pr6n,sans-serif;color:#fff;-webkit-box-align:center;-ms-flex-align:center;align-items:center;letter-spacing:.3em}
 .top-header-nav .nav-links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;width:66.67%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.top-header-nav .nav-links .mg-r-30{margin-right:30px}
 .top-header-nav .nav-links-ul{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:calc(100% - 46px);padding-right:30px}
 .top-header-nav .nav-links-ul a{font-size:.6875rem;font-weight:700;font-family:yu-gothic-pr6n,sans-serif;color:#fff}
 .top-header-nav .nav-links-ul-01{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
@@ -2826,7 +2827,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .top .sect_4 .bg_2_rd_sp{display:none}
 .top .sect_4 .bg_3_rd{position:absolute;bottom:3%;right:2%}
 .top .sect_5{background-color:#fff}
-.top .sect_5 .clipPath{position:relative;-webkit-clip-path:polygon(17% 5%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);clip-path:polygon(17% 5%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4)}
+.top .sect_5 .clipPath{position:relative;z-index:999;-webkit-clip-path:polygon(17% 5%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);clip-path:polygon(17% 5%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4)}
 .top .sect_5 .clipPath::before{content:"";position:absolute;width:100%;top:0;z-index:150;height:340px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(100% -3%,100% 19%,70% 44%,0 12%);clip-path:polygon(100% -3%,100% 19%,70% 44%,0 12%);opacity:.4;width:83%;right:0}
 .top .sect_5 .clipPath::after{content:"";position:absolute;width:100%;bottom:0;height:135px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(0 71%,30% 15%,100% 50%,0 100%);clip-path:polygon(0 71%,30% 15%,100% 50%,0 100%);opacity:.4;width:84%}
 .top .sect_5-cntnt{padding:164px 0 82px 0}
@@ -2848,6 +2849,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .top .sect_6 .bg_3{position:absolute;bottom:8%;right:3%}
 .top .sect_6 .bg_6_sp{display:none}
 .top .sect_6 .c-buttonCase{color:#0059b2}
+.top .sect_7{position:relative}
 .top .sect_7 .clipPath{position:relative;-webkit-clip-path:polygon(17% 9%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);clip-path:polygon(17% 9%,80% 2%,100% 0,100% 100%,85% 92%,23% 98%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4)}
 .top .sect_7 .clipPath::before{content:"";position:absolute;width:100%;top:0;z-index:150;height:340px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(100% -3%,100% 19%,60% 44%,0 18%);clip-path:polygon(100% -3%,100% 19%,60% 44%,0 18%);opacity:.4;width:83%;right:0}
 .top .sect_7 .clipPath::after{content:"";position:absolute;width:100%;bottom:0;height:135px;background:-webkit-gradient(linear,left top,right top,from(#0059c4),to(#000017));background:linear-gradient(to right,#0059c4,#000017);-webkit-clip-path:polygon(0 70%,38% 15%,100% 59%,0 100%);clip-path:polygon(0 70%,38% 15%,100% 59%,0 100%);opacity:.4;width:84%}
@@ -3582,6 +3584,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .top-header-nav .brnd-logo{width:100%;padding:34.5px 30px 0 30px;margin-bottom:22px;padding-bottom:0}
 .top-header-nav .brnd-logo-link .logo{width:65px}
 .top-header-nav .brnd-logo-link p{font-size:.8125rem;line-height:1.3461538462}
+.top-header-nav .nav-links .mg-r-30{margin-right:0}
 .top-header-nav .nav-links{width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .top-header-nav .nav-links-ul{width:100%;padding-right:0}
 .top-header-nav .nav-links-ul a{font-size:.9375rem;font-weight:500;letter-spacing:.28em}
