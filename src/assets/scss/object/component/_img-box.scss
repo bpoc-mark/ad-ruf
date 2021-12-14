@@ -28,6 +28,10 @@
 		padding-top: 20px;
 		padding-bottom: 12px;
 		@include font-line(9);
+
+		@include is-max(380px) {
+			font-size: 2vw;
+		}
 	}
 
 	&__sub {
