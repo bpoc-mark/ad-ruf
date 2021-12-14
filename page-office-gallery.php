@@ -26,7 +26,7 @@ $imagedir = get_template_directory_uri();
     <div class="section_1">
 
         <!-- //CONTENT 1 -->
-        <div class="office_gal--items">
+        <div class="office_gal--items office_gal--shadow">
             <div class="l-wrap">
                 <img class="office_gal__bg_1 pc" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
                 <img class="office_gal__bg_1 sp"
@@ -120,7 +120,7 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
         <!-- //CONTENT 3 -->
-        <div class="office_gal--items">
+        <div class="office_gal--items office_gal--shadow2">
             <div class="l-wrap">
                 <img class="office_gal__bg_3"
                     src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content3.png" alt="">
