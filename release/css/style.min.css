@@ -332,7 +332,7 @@ template{display:none}
 .c-img_box02--logo{width:127px;height:57px;margin-top:37px;margin-left:4px}
 .c-img_box02--logo img{width:100%}
 .c-img_box03{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);width:84px;height:84px;position:absolute;top:0;left:0;padding:5px;text-align:center}
-.c-img_box03__txt{border-top:1px solid #fff;border-right:1px solid #ffff}
+.c-img_box03__txt{border-top:1px solid #fff;border-right:1px solid #ffff;height:100%}
 .c-img_box03__ttl{color:#9ec4e3;font-family:century-gothic,sans-serif;font-weight:700;letter-spacing:.26em;padding-top:5px;font-size:.6875rem;line-height:2}
 .c-img_box03__sub{color:#9ec4e3;font-family:century-gothic,sans-serif;font-weight:700;letter-spacing:.26em;line-height:.9;padding-left:8%;font-size:2.3125rem}
 .c-link{padding:4px 0}
