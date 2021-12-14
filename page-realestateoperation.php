@@ -543,8 +543,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産投資は節税対策に<br>
-                            なると聞きますが<br>
+                            不動産投資は節税対策に<br class="u-d-n-sp">なると<br class="u-d-n-pc">聞きますが<br class="u-d-n-sp">
                             本当でしょうか？
                         </p>
                     </div>
