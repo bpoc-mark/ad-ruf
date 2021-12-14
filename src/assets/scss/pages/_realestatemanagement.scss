@@ -139,7 +139,7 @@
 			padding: 200px 0 135px 0;
 			background: linear-gradient(to left, #0059c6, #000017);
 
-			&::before{
+			&::before {
 				display: none;
 			}
 
@@ -273,11 +273,7 @@
 
 	.sect_2 {
 		position: relative;
-		background: linear-gradient(
-			90deg,
-			rgba(51, 51, 102, 1) 0%,
-			rgba(0, 89, 182, 1) 100%
-		);
+		background: linear-gradient(to right, #003782, #0059b6);
 
 		&__box-big-new {
 			position: absolute;
@@ -318,11 +314,7 @@
 			top: -190px;
 			z-index: -150;
 			height: 100%;
-			background: linear-gradient(
-				90deg,
-				rgba(51, 51, 102, 1) 0%,
-				rgba(0, 89, 182, 1) 100%
-			);
+			background: linear-gradient(to right, #003782, #0059b6);
 
 			@include is-sp {
 				top: -100px;
@@ -337,11 +329,7 @@
 			bottom: -58px;
 			height: 60px;
 			z-index: 1;
-			background: linear-gradient(
-				90deg,
-				rgba(51, 51, 102, 1) 0%,
-				rgba(0, 89, 182, 1) 100%
-			);
+			background: linear-gradient(to right, #003782, #0059b6);
 			-webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 			clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 
@@ -903,7 +891,7 @@
 		background: linear-gradient(to left, #0059c6, #000017);
 		clip-path: polygon(17% 8%, 100% 0, 100% 100%, 87% 93%, 0 100%, 0 0);
 
-		@include is-sp{
+		@include is-sp {
 			clip-path: polygon(17% 2%, 100% 0, 100% 100%, 87% 98%, 0 100%, 0 0);
 			margin-bottom: 30px;
 		}
@@ -912,10 +900,10 @@
 			content: "";
 			position: absolute;
 			width: 83%;
-			height: 25%;
+			height: 30%;
 			top: 0;
 			right: 0;
-			clip-path: polygon(0 0, 100% 0, 100% 18%, 70% 55%, 0 32%);
+			clip-path: polygon(0 0, 100% 0, 100% 24%, 70% 55%, 0 28%);
 			background: linear-gradient(to right, #0059c6, #000017);
 			opacity: 0.4;
 			@include is-sp {
@@ -949,7 +937,7 @@
 		&__box-big-new {
 			position: absolute;
 			left: 46%;
-			top: 45px;
+			top: 57px;
 
 			@include is-sp {
 				width: 100px;
@@ -985,7 +973,6 @@
 				display: none;
 			}
 		}
-
 
 		.txt_ttl {
 			@include font-line(24, 30);
@@ -1136,6 +1123,10 @@
 					}
 				}
 			}
+		}
+
+		.s5_pt {
+			padding-top: 130px;
 		}
 	}
 
@@ -1339,7 +1330,7 @@
 		background: linear-gradient(to left, #0059c6, #000017);
 		clip-path: polygon(17% 8%, 100% 0, 100% 100%, 87% 93%, 0 100%, 0 0);
 
-		@include is-sp{
+		@include is-sp {
 			padding-top: 90px;
 			padding-bottom: 10px;
 			clip-path: polygon(17% 2%, 100% 0, 100% 100%, 87% 98.6%, 0 100%, 0 0);
@@ -1379,7 +1370,6 @@
 				height: 20%;
 			}
 		}
-		
 
 		.c-cards09-desc-ttl {
 			@include is-max(430px) {
@@ -1882,5 +1872,12 @@
 
 	.pic {
 		width: 100%;
+	}
+
+	.qtext {
+		letter-spacing: 0.12em !important;
+		@include is-sp {
+			letter-spacing: 0.2em;
+		}
 	}
 }
