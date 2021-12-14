@@ -595,9 +595,9 @@
 								a {
 									color: #fff;
 
-									@include is-max(390px) {
-										font-size: 4vw;
-									}
+									// @include is-max(390px) {
+									// 	font-size: 4vw;
+									// }
 								}
 							}
 						}

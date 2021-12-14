@@ -5173,6 +5173,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 }@media only screen and (max-width:600px){.top .sect_2 .c-buttonCase{margin-bottom:15px}
 }@media only screen and (max-width:575px){.page__footer .nav-footer-col1 img{width:100px}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4}
+}@media only screen and (max-width:560px){.about .section_3 .cards .cards-card-img-txt-ttl p{font-size:3.1vw}
 }@media only screen and (max-width:535px){.column .jumbo_section .slider_wrapper .slider_realestate .slick-prev{left:27%}
 .column .jumbo_section .slider_wrapper .slider_realestate .slick-next{right:27%}
 }@media only screen and (max-width:500px){.c-ruf-txt img{width:65.5px}
@@ -5200,7 +5201,6 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 }@media only screen and (max-width:495px){.rep2 .sect_1 .ttl_small_sp{font-size:2.5vw}
 }@media only screen and (max-width:490px){.case-all--s1_title{font-size:5vw !important}
 }@media only screen and (max-width:480px){.about .section_2-cntnt{height:235px}
-.about .section_3 .cards .cards-card-img-txt-ttl p{font-size:3.8vw}
 .about .section_3 .cards .cards-card-img-txt-sub p{font-size:2vw}
 .case05__title{font-size:6.5vw !important}
 .office_gal .section_3 .cards .cards-card-img-txt-ttl p{font-size:3.8vw}
@@ -5342,7 +5342,6 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .top-header-nav .brnd-logo-link p{font-size:.75rem;line-height:1.4583333333}
 .top-header-nav .nav-links-ul-01-link{padding:25px}
 .top-header-nav .nav-links-ul-02-link{padding:25px}
-.top-header-nav .nav-links-ul-02-link-submenu li a{font-size:4vw}
 .about .section_1-sub1{font-size:7vw}
 .about .section_1-cntnt .cards .cards-card-txt-ttl p{font-size:4vw}
 .about .section_1-cntnt .cards .cards-card-txt-sub p{font-size:3vw}
