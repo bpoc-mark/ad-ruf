@@ -12,6 +12,16 @@
 	}
 
 	.sect_1 {
+	    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 100% 87%, 19% 100%, 0 83%) !important;
+
+		&::after {
+			display: none;
+
+			@include is-sp {
+				display: block;
+			}
+		}
+
 		@include is-sp {
 			margin-top: 15px !important;
 			clip-path: polygon(
@@ -95,6 +105,8 @@
 	.sect_2 {
 		background: linear-gradient(to right, #003782, #0059b6);
 
+	
+
 		@include is-sp {
 			.sect_2__box-big-new {
 				top: 132px !important;
@@ -126,6 +138,10 @@
 			width: 221px !important;
 			opacity: 0.1 !important;
 		}
+
+		&__box-big-new {
+			top: 156px !important;
+		}
 	}
 
 	.sect_3 {
@@ -133,6 +149,10 @@
 		@include is-sp {
 			padding-bottom: 0 !important;
 		}
+	}
+
+	.sect_5 {
+		background: linear-gradient(to right, #003782, #0059b6) !important;
 	}
 
 	.rep2_s4 {
@@ -304,6 +324,11 @@
 		) !important;
 		z-index: 1 !important;
 
+		&::before {
+			display: none !important;
+		}
+
+
 		@include is-max(970px) {
 			clip-path: polygon(
 				85% 2%,
@@ -360,12 +385,20 @@
 				clip-path: polygon(0 0, 100% 1%, 100% 100%, 80% 5%, 0 98%);
 				background: linear-gradient(to right, #003782, #0059b6) !important;
 			}
+
+			.bg_rep2-1 {
+				width: 120px;
+				position: absolute;
+				top: 45px;
+				right: 19px;
+			}
 		}
 
 		.sect_2__box-big-new {
 			top: -73px !important;
 			left: 46%;
 			z-index: -1;
+			
 
 			@include is-sp {
 				width: 125px;
@@ -401,6 +434,7 @@
 		clip-path: polygon(15% 11%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
 		z-index: 1 !important;
 		margin-top: -190px !important;
+		
 
 		@include is-sp {
 			clip-path: polygon(15% 4%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
@@ -442,6 +476,10 @@
 
 		.sect_2__box-big-new {
 			top: 31px !important;
+
+			@include is-sp {
+				opacity: 0.2 !important;
+			}
 		}
 
 		.sect_5__inner-realestate {
@@ -539,6 +577,7 @@
 			clip-path: polygon(86% 0, 100% 2%, 100% 100%, 50% 100%, 0 100%, 0 2%) !important;
 			margin-top: -21px;
 			z-index: 1;
+			margin-bottom: -2px !important;
 		}
 
 		@include is-sp {
@@ -1016,6 +1055,32 @@
 		top: unset;
 	}
 
+	&__section_2 {
+		&::before {
+			content: "";
+			position: absolute;
+			width: 81% !important;
+			height: 80% !important;
+			top: 0 !important;
+			right: 0;
+			clip-path: polygon(50% 0%, 100% 0, 100% 24%, 60% 40%, 0% 28%, 0 0, 0 0) !important;
+			background: linear-gradient(to right, #0059c6, #000017) !important;
+			opacity: 0.4;
+			z-index: 9999 !important;
+			display: block !important;
+			
+			@include is-max(900px) {
+				height: 54% !important;
+			}
+
+			@include is-sp {
+				display: none !important;
+			}
+		}
+
+		
+	}
+
 	&_sect_4 {
 		clip-path: polygon(15% 9%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
 		padding-top: 140px;
@@ -1087,6 +1152,7 @@
 			width: 86% !important;
 			height: 229px !important;
 		}
+		
 		@include is-sp {
 			clip-path: polygon(15% 1%, 100% 0, 100% 100%, 0 100%, 0% 0) !important;
 

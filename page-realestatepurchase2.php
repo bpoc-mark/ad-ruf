@@ -55,7 +55,7 @@ $imagedir = get_template_directory_uri();
         </div>
 
     </section>
-    <section class="sect_2 sore__section_2">
+    <section class="sect_2 rep2__section_2">
         <div class="l-wrap">
             <div class="sect_2__box-big-new">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_2_box-1.png" alt="">
@@ -332,6 +332,8 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <img class="u-d-n-pc sp_bg3"
                 src="<?php echo get_template_directory_uri(); ?>/release/image/background/bg_20.png" alt="">
+
+            <img class="u-d-n-pc bg_rep2-1" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/bg_rep2-1.png" alt="">
 
             <div class="p-main_content__box1">
                 <div class="sect_2__box-big-new">
