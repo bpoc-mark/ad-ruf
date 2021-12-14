@@ -888,7 +888,7 @@ template{display:none}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
 .u-ta-l{text-align:left}
-.u-w-390{width:390px !important}
+.u-w-390{width:410px !important}
 .u-w-640{width:640px !important;margin:0 auto}
 .about{position:relative}
 .about .l-wrap{position:relative}
@@ -1751,7 +1751,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_1 .clip-top{margin-bottom:50px !important;-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% -68%,0 0,0 100%);padding:55px 0 0 0;background:#5fa5cd;text-align:center;margin-top:0}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);clip-path:polygon(0 5%,100% 0,100% 100%,86% 95%,0 100%);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding-top:0;margin-top:-100px}
 .message .section_1 .clipPath .cntnt{padding:165px 0 145px 0}
-.message .section_1 .clipPath .cntnt .txt{color:#258acf}
+.message .section_1 .clipPath .cntnt .txt{color:#0059b4}
 .message .section_1 .clipPath .cntnt-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400;color:#fff}
 .message .section_1 .clipPath .cntnt-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500;letter-spacing:.22em;color:#fff;padding:18px 0 28px 0}
 .message .section_1 .clipPath .cntnt-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;text-align:center;letter-spacing:.26em;color:#fff}
@@ -1771,12 +1771,12 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .message .section_2-rows{padding:100px 0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .message .section_2-rows-1{position:relative}
 .message .section_2-rows-1 .bdg-wrppr{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
-.message .section_2-rows-2{font-family:yu-gothic-pr6n,sans-serif;font-weight:500}
+.message .section_2-rows-2{font-family:YakuHanJP,yu-gothic-pr6n,sans-serif;font-weight:500}
 .message .section_2-rows-2-txt{letter-spacing:.2em;font-size:.808125rem;line-height:1.9334880124;text-align:justify}
 .message .section_3{position:relative}
 .message .section_3 .clipPath{-webkit-clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(19% 11%,100% 0,100% 100%,0 100%,0 0);background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4);padding:144px 0 99px 0}
 .message .section_3 .clipPath::before{content:"";position:absolute;width:81%;height:66%;top:0;right:0;-webkit-clip-path:polygon(50% 0,100% 0,100% 17%,67% 32%,0 17%,0 0,0 0);clip-path:polygon(50% 0,100% 0,100% 17%,67% 32%,0 17%,0 0,0 0);background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017);opacity:.4;z-index:1}
-.message .section_3-cntnt .txt{color:#258acf}
+.message .section_3-cntnt .txt{color:#0059b4}
 .message .section_3-cntnt-rows{margin-bottom:60px;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .message .section_3-cntnt-rows-1-txt{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-size:.808125rem;line-height:1.9334880124;font-weight:500;letter-spacing:.2em;text-align:justify}
 .message .section_3-cntnt-rows-2{position:relative}
