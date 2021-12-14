@@ -189,7 +189,7 @@ $imagedir = get_template_directory_uri();
                 </div>
             </div>
 
-            <a class="c-buttonREP" href="#">
+            <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
                 <p class="txt">実績を見る</p>
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
@@ -299,7 +299,7 @@ $imagedir = get_template_directory_uri();
                     コストカットと安定した稼働率
                 </p>
 
-                <a class="c-buttonREP red" href="#">
+                <a class="c-buttonREP red" href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                     <p class="txt">お問い合わせ・ご相談</p>
                     <img src="<?php echo $imagedir ?>/release/image/page/groupbusiness/arrow_1.svg" alt="">
                 </a>
@@ -412,7 +412,7 @@ $imagedir = get_template_directory_uri();
                     </div>
                 </div>
 
-                <a href="#" class="c-buttonCase">
+                <a href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>" class="c-buttonCase">
                     <p class="txt">その他の事例を見る</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
                 </a>
@@ -543,8 +543,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産投資は節税対策に<br>
-                            なると聞きますが<br>
+                            不動産投資は節税対策に<br class="u-d-n-sp">なると<br class="u-d-n-pc">聞きますが<br class="u-d-n-sp">
                             本当でしょうか？
                         </p>
                     </div>
