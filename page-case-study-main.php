@@ -251,8 +251,7 @@ $imagedir = get_template_directory_uri();
     </div>
 
     <!-- //CONTENT 2 -->
-    <div class="c-case--items u-mb-100">
-
+    <!-- <div class="c-case--items u-mb-100">
         <div class="l-wrap">
             <img class="bg_2 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_2.png" alt="">
             <img class="bg_7 u-d-n-sp" src="<?php echo $imagedir ?>/release/image/page/case/bg_7.png" alt="">
@@ -357,7 +356,7 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
         </div>
-    </div>
+    </div> -->
 
 
     <?php get_footer(); ?>
