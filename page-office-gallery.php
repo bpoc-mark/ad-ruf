@@ -228,7 +228,7 @@ $imagedir = get_template_directory_uri();
                 <div class="c-case02__txt">
                     <p class="c-case02__txt__ttl">About Us</p>
                     <p class="c-case02__txt__sub">企業情報</p>
-                    <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・理念を<br>
+                    <p class="c-case02__txt__desc">株式会社ルーフが大切にしていることや業績・理念を<br class="u-d-n-sp">
                         ご紹介いたします。</p>
                 </div>
 
@@ -272,7 +272,7 @@ $imagedir = get_template_directory_uri();
                                     <p>経営理念</p>
                                 </div>
                                 <div class="cards-card-img-txt-sub">
-                                    <p>Management
+                                    <p>Management<br>
                                         Philosophy</p>
                                 </div>
                             </div>
@@ -283,7 +283,7 @@ $imagedir = get_template_directory_uri();
                         </div>
                         <div class="cards-card-desc">
                             <p class="cards-card-desc-ttl">経営理念</p>
-                            <p class="cards-card-desc-txt"> 株式会社ルーフの経営理念を<br class="u-d-n-sp">ご紹介いたします。</p>
+                            <p class="cards-card-desc-txt">株式会社ルーフの経営理念を<br class="u-d-n-sp">ご紹介いたします。</p>
                         </div>
                     </div>
 
@@ -300,7 +300,7 @@ $imagedir = get_template_directory_uri();
                                     <p>会社概要</p>
                                 </div>
                                 <div class="cards-card-img-txt-sub">
-                                    <p>Company
+                                    <p>Company<br>
                                         Information</p>
                                 </div>
                             </div>

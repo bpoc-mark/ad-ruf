@@ -4321,7 +4321,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .office_gal--items:nth-of-type(even){padding:75px 0 100px 0;-webkit-clip-path:polygon(0 7%,100% 0,100% 93%,0 100%);clip-path:polygon(0 7%,100% 0,100% 93%,0 100%)}
 .office_gal--items:last-of-type{-webkit-clip-path:polygon(0 7%,100% 0,100% 100%,0 105%);clip-path:polygon(0 7%,100% 0,100% 100%,0 105%)}
 .office_gal--contents__col1--text.ttl{line-height:normal}
-.office_gal--contents__col1--text.ttl_sub{text-transform:lowercase;padding:5px 0 15px 0}
+.office_gal--contents__col1--text.ttl_sub{padding:5px 0 15px 0}
 .office_gal .section_3{margin-top:-80px}
 .office_gal .section_3 .cards .cards-card{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding-bottom:24px;border-bottom:1px dashed gray;width:100%}
 .office_gal .section_3 .cards .cards-card:nth-child(6){border-bottom:0}
@@ -5207,7 +5207,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .about .section_3 .cards .cards-card-desc-ttl{font-size:3.5vw}
 .about .section_3 .cards .cards-card-desc-txt{padding-top:5px}
 .office_gal .section_3 .cards .cards-card-desc{padding-bottom:0}
-.office_gal .section_3 .cards .cards-card-desc-ttl{font-size:3.5vw}
+.office_gal .section_3 .cards .cards-card-desc-ttl{font-size:3.1vw}
 .office_gal .section_3 .cards .cards-card-desc-txt{padding-top:5px}
 .result .result_ttl{font-size:5.4vw}
 }@media only screen and (max-width:440px){.acc .section_3 .c-case03__txt__sub{letter-spacing:.04em !important}
@@ -5327,7 +5327,8 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .c-card11-bottom-title{font-size:4.2vw}
 .about .section_3 .c-case02__txt__desc{font-size:3.3vw}
 .contact-thks__inner--desc{font-size:3.3vw}
-}@media only screen and (max-width:380px){.page__footer .nav-footer-col2 .link .link__inner .c-link__inner{letter-spacing:.13em}
+}@media only screen and (max-width:380px){.c-img_box__ttl{font-size:2vw}
+.page__footer .nav-footer-col2 .link .link__inner .c-link__inner{letter-spacing:.13em}
 .page__footer .nav-footer-col3 .link .link__inner .c-link__inner{letter-spacing:.13em}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{letter-spacing:.13em}
 .page__footer .nav-footer-col5 .link .link__inner .c-link__inner{letter-spacing:.13em}
