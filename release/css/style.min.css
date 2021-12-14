@@ -3371,7 +3371,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .c-banner--ttl{left:20px}
 .c-banner--ttl p:first-child{font-size:1.5625rem;letter-spacing:.075em !important}
 .c-banner--ttl p:nth-child(2){font-weight:400 !important;letter-spacing:.26em !important;padding-top:5px !important}
-.c-banner--ttl2{left:0;padding:10px 11px 6px 25px;top:28%;background:-webkit-gradient(linear,right top,left top,from(#000017),to(#0059c4));background:linear-gradient(to left,#000017,#0059c4)}
+.c-banner--ttl2{left:0;padding:10px 11px 6px 25px;top:28%;background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c4));background:linear-gradient(to right,#000017,#0059c4)}
 .c-banner--ttl2 p:first-child{font-size:1.5625rem;letter-spacing:.075em !important}
 .c-banner--ttl2 p:nth-child(2){font-weight:400 !important;letter-spacing:.26em !important;padding-top:5px !important}
 .top-clip{height:36vw !important;margin-top:0 !important}

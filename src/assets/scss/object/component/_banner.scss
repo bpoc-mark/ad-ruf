@@ -24,7 +24,6 @@
 		}
 
 		p {
-
 			&:first-child {
 				letter-spacing: 0.15em !important;
 				@include is-sp {
@@ -63,11 +62,10 @@
 			left: 0;
 			padding: 10px 11px 6px 25px;
 			top: 28%;
-			background: linear-gradient(to left, #000017, #0059c4);
+			background: linear-gradient(to right, #000017, #0059c4);
 		}
 
 		p {
-
 			&:first-child {
 				letter-spacing: 0.15em !important;
 				@include is-sp {
@@ -93,13 +91,13 @@
 	}
 }
 
-.top-clip{
-	@include is-sp{
+.top-clip {
+	@include is-sp {
 		height: 36vw !important;
 		margin-top: 0 !important;
 	}
 
-	@include is-max(375px){
+	@include is-max(375px) {
 		height: 42vw !important;
 		width: 73% !important;
 	}
