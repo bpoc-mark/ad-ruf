@@ -279,9 +279,9 @@
 				}
 			}
 
-			.txt {
-				color: #2588cd;
-			}
+			// .txt {
+			// 	color: #2588cd;
+			// }
 		}
 
 		.sec1-bg1 {
@@ -678,6 +678,10 @@
 							font-family: yu-mincho-pr6n, sans-serif;
 							font-size: 18px;
 							color: #fff;
+
+							.l-spacing{
+								letter-spacing: 0.1em;
+							}
 
 							p {
 								line-height: 25px;

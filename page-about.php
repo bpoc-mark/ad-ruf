@@ -363,7 +363,7 @@ get_header(); ?>
                             alt="">
                         <div class="cards-card-img-txt">
                             <div class="cards-card-img-txt-ttl">
-                                <p>オフィス風景</p>
+                                <p class="l-spacing">オフィス風景</p>
                             </div>
                             <div class="cards-card-img-txt-sub">
                                 <p>Office Gallery</p>
