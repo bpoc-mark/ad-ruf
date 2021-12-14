@@ -508,7 +508,7 @@ $imagedir = get_template_directory_uri();
                     よくある質問
                 </div>
                 <div class="sect_8__header u-d-n-pc">
-                    丸の内ルーフのアセット <br>
+                    ルーフのアセット <br>
                     マネジメントよくある質問
                 </div>
 
