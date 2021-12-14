@@ -1,145 +1,142 @@
 .message {
-    position: relative;
-    // padding-bottom: 150px;
+	position: relative;
+	// padding-bottom: 150px;
 
-    .l-wrap {
-        position: relative;
-    }
+	.l-wrap {
+		position: relative;
+	}
 
-    .c-banner {
-        padding: 0 0 80px 0;
-        position: relative;
-        background: linear-gradient(to right, #0059C4,  #000017);
+	.c-banner {
+		padding: 0 0 80px 0;
+		position: relative;
+		background: linear-gradient(to right, #0059c4, #000017);
 
-        @include is-sp {
-            padding-bottom: 80px;
-        }
+		@include is-sp {
+			padding-bottom: 80px;
+		}
 
-        @include is-max(400px){
-            padding: 0 0 95px 0;
-        }
+		@include is-max(400px) {
+			padding: 0 0 95px 0;
+		}
 
-        .c-ruf-txt {
-            @include is-sp {
-                padding: 34px 0 30px 35px;
-                @include font-line(14.5,17.5);
-                letter-spacing: 0.24em;
-                font-weight: 700;
+		.c-ruf-txt {
+			@include is-sp {
+				padding: 34px 0 30px 35px;
+				@include font-line(14.5, 17.5);
+				letter-spacing: 0.24em;
+				font-weight: 700;
+			}
+			@include is-max(375px) {
+				white-space: nowrap;
+				padding: 34px 0 30px 30px;
+			}
 
-            }
-            @include is-max (375px) {
-                white-space: nowrap;
-                padding: 34px 0 30px 30px;
-            }
+			@include is-max(373px) {
+				font-size: 3.8vw;
+			}
 
-            @include is-max (373px) {
-                font-size: 3.8vw;
+			img {
+				@include is-sp {
+					margin-right: 12.5px;
+				}
+				@include is-max(500px) {
+					width: 65.5px;
+				}
+			}
+		}
+		&--ttl {
+			@include is-sp {
+				padding: 20px 13px 20px 30px;
+				left: 0;
+			}
 
-            }
+			@include is-max(500px) {
+				top: 25%;
+			}
 
-            img {
-                @include is-sp {
-                    margin-right: 12.5px;
+			p {
+				line-height: 1.4em;
+				.br-sp {
+					display: none;
+					@include is-sp {
+						display: block;
+					}
+				}
 
-                }
-                @include is-max (500px) {
-                    width: 65.5px;
-                }
-            }
-        }
-        &--ttl {
-            @include is-sp {
-                padding: 20px 13px 20px 30px;
-                left: 0;
-            }
+				&:nth-child(1) {
+					@include is-max(500px) {
+						font-size: 6vw;
+					}
+				}
+				&:nth-child(2) {
+					@include is-max(500px) {
+						font-size: 3vw;
+					}
+				}
+			}
+		}
 
-            @include is-max(500px) {
-                top: 25%;
-            }
+		.c-inner {
+			position: relative;
 
-            p {
-                line-height: 1.4em;
-                .br-sp {
-                    display: none;
-                    @include is-sp {
-                        display: block;
-                    }
-                }
+			.person-bnr {
+				width: 29%;
+				margin: 0 auto;
+				position: absolute;
+				top: -30px;
+				left: 53%;
+			}
 
-                &:nth-child(1) {
-                    @include is-max(500px) {
-                        font-size: 6vw;
-                    }
-                }
-                &:nth-child(2) {
-                    @include is-max(500px) {
-                        font-size: 3vw;
-                    }
-                }
-            }
-        }
+			.bdg-wrppr {
+				position: absolute;
+				top: 80%;
+				left: 69%;
+				z-index: 9999;
+			}
+		}
+	}
 
-        .c-inner {
-            position: relative;
+	.bread_crumps {
+		text-align: left;
+		position: relative;
+		z-index: 150;
+		padding-top: 12px;
 
-            .person-bnr {
-                width: 29%;
-                margin: 0 auto;
-                position: absolute;
-                top: -30px;
-                left: 53%;
-            }
+		.txt {
+			width: 90%;
+			margin: 0 auto;
+			max-width: 1100px;
+			color: #fff;
+			font-family: yu-gothic-pr6n, sans-serif;
+			@include font-line(12);
+		}
 
-            .bdg-wrppr {
-                position: absolute;
-                top: 80%;
-                left: 69%;
-                z-index: 9999;
-            }
-        }
-    }
+		span {
+			padding: 0 8px;
+		}
+	}
 
-    .bread_crumps {
-        text-align: left;
-        position: relative;
-        z-index: 150;
-        padding-top: 12px;
-
-        .txt {
-            width: 90%;
-            margin: 0 auto;
-            max-width: 1100px;
-            color: #fff;
-            font-family: yu-gothic-pr6n, sans-serif;;
-            @include font-line(12);
-        }
-
-        span {
-            padding: 0 8px;
-        }
-    }
-
-    // clip top
-    .top-clip {
-        width: 800px;
-        height: 250px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        background: linear-gradient(to right, #0059C4,  #000017);
-        position: absolute;
+	// clip top
+	.top-clip {
+		width: 800px;
+		height: 250px;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		background: linear-gradient(to right, #0059c4, #000017);
+		position: absolute;
 		top: 0;
 		right: 0%;
-        margin-top: -115px;
+		margin-top: -115px;
 
-        @include is-sp {
+		@include is-sp {
 			width: 77%;
 			height: 322px;
 			top: 0;
-        }
-    }
+		}
+	}
 
-    .section_1 {
-        position: relative;
-        z-index: 150;
+	.section_1 {
+		position: relative;
+		z-index: 150;
 
 		&::before {
 			content: "";
@@ -149,8 +146,16 @@
 			top: 0;
 			left: 0;
 			right: 0;
-			clip-path: polygon(50% 6.3%, 100% 0%, 100% 16%, 72% 33%, 0% 13.2%, 10% 11.2%, 0% 13%);
-			background: linear-gradient(to right, #0059C6, #000017);
+			clip-path: polygon(
+				50% 6.3%,
+				100% 0%,
+				100% 16%,
+				72% 33%,
+				0% 13.2%,
+				10% 11.2%,
+				0% 13%
+			);
+			background: linear-gradient(to right, #0059c6, #000017);
 			opacity: 0.4;
 			z-index: 151;
 			@include is-sp {
@@ -165,456 +170,459 @@
 				);
 				height: 7.5%;
 			}
-
 		}
 
-        &::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            height: 13%;
-            background: linear-gradient(to right, #0059c4, #000017);
-            clip-path: polygon(0 51%, 40% 0%, 100% 61%, 0% 100%);
-            opacity: 0.4;
-            width: 86%;
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			height: 13%;
+			background: linear-gradient(to right, #0059c4, #000017);
+			clip-path: polygon(0 51%, 40% 0%, 100% 61%, 0% 100%);
+			opacity: 0.4;
+			width: 86%;
 
-            @include is-sp {
-                clip-path: polygon(0 54%, 45% 0%, 100% 54%, 0% 100%);
-                height: 8%;
-                width: 80%;
-            }
+			@include is-sp {
+				clip-path: polygon(0 54%, 45% 0%, 100% 54%, 0% 100%);
+				height: 8%;
+				width: 80%;
+			}
 
-            @include is-max(640px) {
-                height: 6%;
-                clip-path: polygon(0 54%, 45% 0%, 100% 69%, 0% 100%);
-                width: 80%;
-            }
-        }
+			@include is-max(640px) {
+				height: 6%;
+				clip-path: polygon(0 54%, 45% 0%, 100% 69%, 0% 100%);
+				width: 80%;
+			}
+		}
 
-        // clip path
-        .clip-top {
-            margin-bottom: 50px !important;
-            -webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
-            clip-path: polygon(100% -68%, 0 0, 0% 100%);
-            padding: 55px 0 0 0;
-            background: rgb(95, 165, 205);
-            text-align: center;
-            margin-top: 0;
+		// clip path
+		.clip-top {
+			margin-bottom: 50px !important;
+			-webkit-clip-path: polygon(100% 0%, 0 0, 0% 100%);
+			clip-path: polygon(100% -68%, 0 0, 0% 100%);
+			padding: 55px 0 0 0;
+			background: rgb(95, 165, 205);
+			text-align: center;
+			margin-top: 0;
 
-            @include is-sp {
-                padding: 90px 0 0 0;
-                clip-path: none;
-            }
+			@include is-sp {
+				padding: 90px 0 0 0;
+				clip-path: none;
+			}
+		}
+		.clipPath {
+			clip-path: polygon(0 5%, 100% 0, 100% 100%, 86% 95%, 0 100%);
+			background: linear-gradient(to right, #000017, #0059c4);
+			padding-top: 0;
+			margin-top: -100px;
 
-        }
-        .clipPath {
-            clip-path: polygon(0 5%, 100% 0, 100% 100%, 86% 95%, 0 100%) ;
-            background: linear-gradient(to right, #000017, #0059C4);
-            padding-top: 0;
-            margin-top: -100px;
+			@include is-sp {
+				clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 9%);
+			}
 
-            @include is-sp {
-                clip-path: polygon(100% 0%, 100% 100%, 87% 96%, 0% 100%, -83% 9%);
-            }
+			@include is-max(640px) {
+				clip-path: polygon(100% 0%, 100% 100%, 84% 98%, 0% 100%, 0 4%);
+			}
 
-            @include is-max(640px) {
-                clip-path: polygon(100% 0%, 100% 100%, 84% 98%, 0% 100%, 0 4%);
-            }
+			.cntnt {
+				padding: 165px 0 145px 0;
 
-            .cntnt {
-                padding: 165px 0 145px 0;
+				@include is-sp {
+					padding: 123px 0 100.5px 0;
+				}
 
-                @include is-sp {
-                    padding: 123px 0 100.5px 0;
-                }
+				.txt {
+					color: #0059b4;
+				}
 
-                .txt {
-                    color: #258acf;
-                }
+				&-ttl {
+					text-align: center;
+					@include font-line(10, 20);
+					font-family: century-gothic, sans-serif;
+					letter-spacing: 0.32em;
+					font-weight: 400;
+					color: #fff;
 
-                &-ttl {
-                    text-align: center;
-                    @include font-line(10, 20);
-                    font-family: century-gothic, sans-serif;
-                    letter-spacing: 0.32em;
-                    font-weight: 400;
-                    color: #fff;
+					@include is-sp {
+						@include font-line(12.5, 10);
+						color: #95c6e7;
+					}
+				}
 
-                    @include is-sp {
-                        @include font-line(12.5, 10);
-                        color: #95C6E7;
-                    }
-                }
+				&-sub1 {
+					@include font-line(30, 48);
+					text-align: center;
+					font-family: yu-mincho-pr6n, sans-serif;
+					font-weight: 500;
+					letter-spacing: 0.22em;
+					color: #fff;
+					padding: 18px 0 28px 0;
 
-                &-sub1 {
-                    @include font-line(30, 48);
-                    text-align: center;
-                    font-family: yu-mincho-pr6n, sans-serif;
-                    font-weight: 500;
-                    letter-spacing: 0.22em;
-                    color: #fff;
-                    padding: 18px 0 28px 0;
+					@include is-sp {
+						@include font-line(25, 37.5);
+						padding: 23px 0 23.5px 0;
+					}
 
-                    @include is-sp {
-                        @include font-line(25, 37.5);
-                        padding: 23px 0 23.5px 0;
-                    }
+					@include is-max(406px) {
+						font-size: 6vw;
+						white-space: nowrap;
+					}
+				}
 
-                    @include is-max(406px) {
-                        font-size: 6vw;
-                        white-space: nowrap;
-                    }
-                }
+				&-sub2 {
+					@include font-line(13, 26);
+					font-weight: 500;
+					font-family: yu-gothic-pr6n, sans-serif;
+					text-align: center;
+					letter-spacing: 0.26em;
+					color: #fff;
 
-                &-sub2 {
-                    @include font-line(13, 26);
-                    font-weight: 500;
-                    font-family: yu-gothic-pr6n, sans-serif;;
-                    text-align: center;
-                    letter-spacing: 0.26em;
-                    color: #fff;
+					@include is-sp {
+						@include font-line(13.5, 20);
+					}
 
-                    @include is-sp {
-                        @include font-line(13.5, 20);
-                    }
+					@include is-max(375px) {
+						font-size: 3.5vw;
+					}
+					@include is-max(337px) {
+						font-size: 3.4vw;
+					}
+				}
 
-                    @include is-max(375px) {
-                        font-size: 3.5vw;
-                    }
-                    @include is-max(337px) {
-                        font-size: 3.4vw;
-                    }
-                }
+				.section_1-cntnt {
+					padding-top: 50px;
 
-                .section_1-cntnt {
-                    padding-top: 50px;
+					@include is-sp {
+						padding-top: 25px;
+					}
 
-                    @include is-sp {
-                        padding-top: 25px;
-                    }
+					&-rows {
+						margin-bottom: 60px;
+						align-items: center;
 
-                    &-rows {
-                        margin-bottom: 60px;
-                        align-items: center;
+						@include is-sp {
+							flex-direction: column-reverse;
+							margin-bottom: 50px;
+						}
 
-                        @include is-sp {
-                            flex-direction: column-reverse;
-                            margin-bottom: 50px;
-                        }
+						&-1 {
+							@include is-max(984px) {
+								padding-right: 20px;
+							}
 
-                        &-1 {
-                            @include is-max(984px) {
-                                padding-right: 20px;
-                            }
+							@include is-sp {
+								width: 100% !important;
+								padding-top: 25px;
+								padding-right: 0;
+							}
 
-                            @include is-sp {
-                                width: 100% !important;
-                                padding-top: 25px;
-                                padding-right: 0;
-                            }
+							&-txt {
+								color: #fff;
+								font-family: yu-gothic-pr6n, sans-serif;
+								@include font-line(13, 26);
+								font-weight: 500;
+								letter-spacing: 0.2em;
+								text-align: justify;
 
-                            &-txt {
-                                color: #fff;
-                                font-family: yu-gothic-pr6n, sans-serif;;
-                                @include font-line(13, 26);
-                                font-weight: 500;
-                                letter-spacing: 0.2em;
-                                text-align: justify;
+								@include is-sp {
+									@include font-line(13.5, 20);
+								}
+							}
+						}
 
-                                @include is-sp {
-                                    @include font-line(13.5, 20);
-                                }
-                            }
-                        }
+						&-2 {
+							position: relative;
 
-                        &-2 {
-                            position: relative;
+							@include is-sp {
+								width: 100%;
+							}
+							img {
+								@include is-sp {
+									width: 100%;
+								}
+							}
 
-                            @include is-sp {
-                                width: 100%;
-                            }
-                            img {
-                                @include is-sp {
-                                    width: 100%;
-                                }
-                            }
+							.bdg-wrppr {
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+							}
+						}
+					}
 
-                            .bdg-wrppr {
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%);
-                            }
-                        }
-                    }
+					&-btns {
+						width: 640px;
+						margin: 0 auto;
 
-                    &-btns {
-                        width: 640px;
-                        margin: 0 auto;
+						@include is-sp {
+							flex-direction: column;
+							justify-content: space-between;
+							height: 140px;
+							width: 100% !important;
+						}
 
-                        @include is-sp {
-                            flex-direction: column;
-                            justify-content: space-between;
-                            height: 140px;
-                            width: 100% !important;
-                        }
+						.btn {
+							@include is-sp {
+								width: 100% !important;
+								border: 2px solid #81b3d4;
+							}
+							.txt {
+								letter-spacing: 0.2em;
+							}
+						}
+					}
+				}
+			}
+		}
 
-                        .btn {
-                            @include is-sp {
-                                width: 100% !important;
-                                border: 2px solid #81b3d4;
-                            }
-                            .txt {
-                                letter-spacing: 0.2em;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .sec1-bg1 {
-            position: absolute;
-            top: 10%;
-            right: 8%;
-            z-index: -1;
+		.sec1-bg1 {
+			position: absolute;
+			top: 10%;
+			right: 8%;
+			z-index: -1;
 			display: none;
 
-            @include is-sp {
-                width: 176px;
-                right: 3%;
-                top: 3%;
-            }
-        }
+			@include is-sp {
+				width: 176px;
+				right: 3%;
+				top: 3%;
+			}
+		}
 
-        .sec1-bg2 {
-            position: absolute;
-            top: 28%;
-            left: -6%;
-            z-index: -1;
-        }
-        .sec1-bg3 {
-            position: absolute;
-            bottom: 16%;
-            right: 1%;
-        }
-    }
+		.sec1-bg2 {
+			position: absolute;
+			top: 28%;
+			left: -6%;
+			z-index: -1;
+		}
+		.sec1-bg3 {
+			position: absolute;
+			bottom: 16%;
+			right: 1%;
+		}
+	}
 
-    // SECTION 2
-    .section_2 {
-        .sec2-bg1 {
-            position: absolute;
-            top: 0;
-            right: 5%;
-        }
+	// SECTION 2
+	.section_2 {
+		.sec2-bg1 {
+			position: absolute;
+			top: 0;
+			right: 5%;
+		}
 
-        .sec2-bg2 {
-            position: absolute;
-            top: 58%;
-            left: -1%;
-            z-index: -1;
-        }
-        .sec2-bg3 {
-            position: absolute;
-            bottom: 0%;
-            right: 0%;
-        }
+		.sec2-bg2 {
+			position: absolute;
+			top: 58%;
+			left: -1%;
+			z-index: -1;
+		}
+		.sec2-bg3 {
+			position: absolute;
+			bottom: 0%;
+			right: 0%;
+		}
 
-        &-rows {
-            padding: 100px 0;
-            align-items: center;
+		&-rows {
+			padding: 100px 0;
+			align-items: center;
 
-            @include is-sp {
-                flex-direction: column;
+			@include is-sp {
+				flex-direction: column;
 
-                padding: 59.5px 0 100.5px 0;
-            }
+				padding: 59.5px 0 100.5px 0;
+			}
 
-            &-1 {
-                position: relative;
-                @include is-sp {
-                    width: 100%;
+			&-1 {
+				position: relative;
+				@include is-sp {
+					width: 100%;
 
-                    img {
-                        @include is-sp {
-                            width: 100%;
-                        }
-                    }
-                }
+					img {
+						@include is-sp {
+							width: 100%;
+						}
+					}
+				}
 
-                .bdg-wrppr {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-            }
+				.bdg-wrppr {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			}
 
-            &-2 {
-                font-family: yu-gothic-pr6n, sans-serif;;
-                font-weight: 500;
+			&-2 {
+				font-family: YakuHanJP, yu-gothic-pr6n, sans-serif;
+				font-weight: 500;
 
-                @include is-max(982px) {
-                    padding-left: 20px;
-                }
-                @include is-sp {
-                    width: 100% !important;
-                    padding-left: 0;
-                    padding-top: 24px;
-                }
+				@include is-max(982px) {
+					padding-left: 20px;
+				}
+				@include is-sp {
+					width: 100% !important;
+					padding-left: 0;
+					padding-top: 24px;
+				}
 
-                &-txt {
-                    letter-spacing: 0.2em;
-                    @include font-line(12.93, 25);
-                    text-align: justify;
+				&-txt {
+					letter-spacing: 0.2em;
+					@include font-line(12.93, 25);
+					text-align: justify;
 
-                    @include is-sp {
-                        @include font-line(13.5, 20);
-                    }
-                }
-            }
-        }
-    }
+					@include is-sp {
+						@include font-line(13.5, 20);
+					}
+				}
+			}
+		}
+	}
 
-    // SECTION 3
+	// SECTION 3
 
-    .section_3 {
-        position: relative;
+	.section_3 {
+		position: relative;
 
-        
+		.clipPath {
+			clip-path: polygon(19% 11%, 100% 0, 100% 100%, 0 100%, 0 0);
+			background: linear-gradient(to right, #000017, #0059c4);
+			padding: 144px 0 99px 0;
 
-        .clipPath {
-            clip-path: polygon(19% 11%, 100% 0, 100% 100%, 0 100%, 0 0);
-            background: linear-gradient(to right, #000017, #0059C4);
-            padding: 144px 0 99px 0;
+			@include is-sp {
+				clip-path: polygon(14% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
+				padding: 110px 0 75px 0;
+			}
 
-            @include is-sp {
-                clip-path: polygon(14% 5%, 100% 0, 100% 100%, 0 100%, 0 0);
-                padding: 110px 0 75px 0;
-            }
+			@include is-max(426px) {
+				clip-path: polygon(18% 3%, 100% 0, 100% 100%, 0 100%, 0 0);
+			}
 
-            @include is-max(426px) {
-                clip-path: polygon(18% 3%, 100% 0, 100% 100%, 0 100%, 0 0);
-            }
+			&::before {
+				content: "";
+				position: absolute;
+				width: 81%;
+				height: 66%;
+				top: 0;
+				right: 0;
+				clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 32%, 0% 17%, 0 0, 0 0);
+				background: linear-gradient(to right, #0059c6, #000017);
+				opacity: 0.4;
+				z-index: 1;
 
-            &::before {
-                content: "";
-                position: absolute;
-                width: 81%;
-                height: 66%;
-                top: 0;
-                right: 0;
-                clip-path: polygon(50% 0%, 100% 0, 100% 17%, 67% 32%, 0% 17%, 0 0, 0 0);
-                background: linear-gradient(to right, #0059c6, #000017);
-                opacity: 0.4;
-                z-index: 1;
-    
-                @include is-sp {
-                    clip-path: polygon(50% 0%, 100% 0, 100% 73%, 50% 100%, 0% 27%, 0% 0%, 0% 0%);
-                    height: 12%;
-                    top: 0;
-                }
-            }
-        }
+				@include is-sp {
+					clip-path: polygon(
+						50% 0%,
+						100% 0,
+						100% 73%,
+						50% 100%,
+						0% 27%,
+						0% 0%,
+						0% 0%
+					);
+					height: 12%;
+					top: 0;
+				}
+			}
+		}
 
-        &-cntnt {
-            .txt {
-                color: #258acf;
-            }
-            &-rows {
-                margin-bottom: 60px;
-                align-items: flex-start;
+		&-cntnt {
+			.txt {
+				color: #0059b4;
+			}
+			&-rows {
+				margin-bottom: 60px;
+				align-items: flex-start;
 
-                @include is-sp {
-                    flex-direction: column-reverse;
-                    margin-bottom: 50px;
-                }
+				@include is-sp {
+					flex-direction: column-reverse;
+					margin-bottom: 50px;
+				}
 
-                &-1 {
-                    @include is-max(982px) {
-                        padding-right: 20px;
-                    }
+				&-1 {
+					@include is-max(982px) {
+						padding-right: 20px;
+					}
 
-                    @include is-sp {
-                        width: 100% !important;
-                        padding-right: 0;
-                        padding-top: 25px;
-                    }
-                    &-txt {
-                        color: #fff;
-                        font-family: yu-gothic-pr6n, sans-serif;;
-                        @include font-line(12.93
-                        , 25);
-                        font-weight: 500;
-                        letter-spacing: 0.2em;
-                        text-align: justify;
+					@include is-sp {
+						width: 100% !important;
+						padding-right: 0;
+						padding-top: 25px;
+					}
+					&-txt {
+						color: #fff;
+						font-family: yu-gothic-pr6n, sans-serif;
+						@include font-line(12.93, 25);
+						font-weight: 500;
+						letter-spacing: 0.2em;
+						text-align: justify;
 
-                        @include is-sp {
-                            @include font-line(13.5, 20);
-                            letter-spacing: 0.08em;
-                        }
-                    }
-                }
+						@include is-sp {
+							@include font-line(13.5, 20);
+							letter-spacing: 0.08em;
+						}
+					}
+				}
 
-                &-2 {
-                    position: relative;
-                    @include is-sp {
-                        width: 100%;
-                    }
+				&-2 {
+					position: relative;
+					@include is-sp {
+						width: 100%;
+					}
 
-                    img {
-                        width: 100%;
-                    }
+					img {
+						width: 100%;
+					}
 
-                    .bdg-wrppr {
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                    }
-                }
-            }
-            .btns {
-                width: 640px;
-                margin: 0 auto;
+					.bdg-wrppr {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+			}
+			.btns {
+				width: 640px;
+				margin: 0 auto;
 
-                @include is-sp {
-                    flex-direction: column;
-                    justify-content: space-between;
-                    height: 140px;
-                    width: 100% !important;
-                }
+				@include is-sp {
+					flex-direction: column;
+					justify-content: space-between;
+					height: 140px;
+					width: 100% !important;
+				}
 
-                .btn {
-                    @include is-sp {
-                        width: 100% !important;
-                        border: 2px solid #81b3d4;
-                    }
-                    .txt {
-                        letter-spacing: 0.2em;
-                    }
-                }
-            }
-        }
+				.btn {
+					@include is-sp {
+						width: 100% !important;
+						border: 2px solid #81b3d4;
+					}
+					.txt {
+						letter-spacing: 0.2em;
+					}
+				}
+			}
+		}
 
-        .sec3-bg1 {
-            position: absolute;
-            top: -22%;
-            right: 31.4%;
-            z-index: -1;
+		.sec3-bg1 {
+			position: absolute;
+			top: -22%;
+			right: 31.4%;
+			z-index: -1;
 
-            @include is-sp {
-                width: 138px;
-                top: -14%;
-                right: 1.4%;
-            }
-        }
+			@include is-sp {
+				width: 138px;
+				top: -14%;
+				right: 1.4%;
+			}
+		}
 
-        .sec3-bg2 {
-            position: absolute;
-            top: 66%;
-            left: 0%;
-            z-index: -1;
-        }
-    }
+		.sec3-bg2 {
+			position: absolute;
+			top: 66%;
+			left: 0%;
+			z-index: -1;
+		}
+	}
 }
