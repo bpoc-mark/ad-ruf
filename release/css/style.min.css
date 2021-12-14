@@ -2257,7 +2257,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .real_estate_purchase .sect_1__box-big{position:absolute;left:-6%;top:63px;width:265px;opacity:.3}
 .real_estate_purchase .sect_1 p{position:relative;z-index:150}
 .real_estate_purchase .sect_2{position:relative;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%)}
-.real_estate_purchase .sect_2__box-big-new{position:absolute;left:46%;top:18px}
+.real_estate_purchase .sect_2__box-big-new{opacity:.3;position:absolute;left:46%;top:18px}
 .real_estate_purchase .sect_2__box-big-new2{position:absolute;bottom:30px;margin-left:-60px}
 .real_estate_purchase .sect_2 .c-buttonREP .txt{color:#0059b4;letter-spacing:.2em}
 .real_estate_purchase .sect_2::before{content:"";position:absolute;width:100%;top:-59px;height:60px;background:-webkit-gradient(linear,left top,right top,from(#336),to(#0059b6));background:linear-gradient(90deg,#336 0,#0059b6 100%);-webkit-clip-path:polygon(20% 95%,100% 0,100% 100%,0 100%,0 0);clip-path:polygon(15% 90%,100% 0,100% 100%,0 100%,0 0)}

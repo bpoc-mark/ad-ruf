@@ -164,7 +164,7 @@ $imagedir = get_template_directory_uri();
                     Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    ルーフの収益不動産<br class="br-sp">の売買3つの特徴
+                    ルーフの収益不動産<br class="br-sp">の売買 3つの特徴
                 </div>
                 <div class="sect_4__header--sub u-d-n-sp">
                     ルーフがお客様の不動産売買ニーズに対して、<br>
@@ -180,11 +180,11 @@ $imagedir = get_template_directory_uri();
             <div class="sect_4__inner-realestate">
                 <div class="sect_4__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        20年で500棟以上の買取実績
+                    20年で500棟以上の買取実績
                     </p>
                     <p class="text">
-                        ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、ルーフなら1週間で完結することができます。
-                        <span class="br-sp">※物件画像は一例です</span>
+                        ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、ルーフなら1週間で完結することができます。<br class="u-d-n-pc">
+                        <span>※物件画像は一例です</span>
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -584,7 +584,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             すぐに売るつもりではない
-                            ですが、<br>
+                            ですが、<br class="u-d-n-sp">
                             査定依頼はできますか？
                         </p>
                     </div>
@@ -618,7 +618,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             同時に複数の不動産会社<br class="u-d-n-sp">
-                            に査定を依頼しても
+                            に査定を依頼しても<br class="u-d-n-sp">
                             よいですか？
                         </p>
                     </div>
