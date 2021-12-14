@@ -31,11 +31,11 @@ $imagedir = get_template_directory_uri();
                 <div class="p2">
                     <p class="txt"><a href="#"><img
                                 src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png"
-                                alt="Living Room">&nbsp;0120-173-602</a></p>
+                                alt="Living Room"><span>&nbsp;0120-173-602</span></a></p>
                 </div>
                 <div class="p3">
-                    <p class="txt">TEL：03-3211-0123（代表）<br>
-                        受付時間：9：00～18：00（土日祝除く）</p>
+                    <p class="txt">TEL: 03-3211-0123（代表）<br>
+                        受付時間: 9: 00～18: 00（土日祝除く）</p>
                 </div>
             </div>
 

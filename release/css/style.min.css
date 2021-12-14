@@ -5225,7 +5225,8 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .ci__main-content--row .col .info_right-cont-flex p{text-indent:-21px;margin-left:21px}
 .contact-thks .c-banner .bread_crumps .txt{font-size:2.8vw;letter-spacing:-0.1em}
 }@media only screen and (max-width:432px){.top-header-bnnr::after{background-size:cover;background-position:73%}
-}@media only screen and (max-width:430px){.c-cards09-desc-ttl{font-size:3vw}
+}@media only screen and (max-width:430px){.c-contact-box .p2 .txt a{font-size:7.7vw}
+.c-cards09-desc-ttl{font-size:3vw}
 .c-cards09-desc-txt{font-size:3vw}
 .about .c-banner--ttl p:nth-child(1){font-size:7vw}
 .about .section_1-sub2{font-size:3.1vw}
@@ -5326,8 +5327,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .about .section_1-cntnt .cards .cards-card-txt-sub p{font-size:3vw}
 }@media only screen and (max-width:389px){.p-cntct-hdr p:nth-child(2){font-size:6vw}
 .top .sect_8-cntnt-txt-sub{font-size:6vw}
-}@media only screen and (max-width:385px){.c-contact-box .p2 .txt a{font-size:8vw}
-.c-contact-box .p2 .txt img{width:14%}
+}@media only screen and (max-width:385px){.c-contact-box .p2 .txt img{width:14%}
 .c-card11-bottom-title{font-size:4.2vw}
 .about .section_3 .c-case02__txt__desc{font-size:3.3vw}
 .contact-thks__inner--desc{font-size:3.3vw}
