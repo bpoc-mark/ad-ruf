@@ -108,7 +108,7 @@
 			top: 0;
 			left: 0;
 			right: 0;
-			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 73% 27%, 0% 12%, 0 0, 0 0);
+			clip-path: polygon(50% 0%, 100% 0, 100% 16%, 68% 27%, 0% 12%, 0 0, 0 0);
 			background: linear-gradient(to right, #0059c6, #000017);
 			opacity: 0.4;
 			@include is-sp {
@@ -136,8 +136,12 @@
 		}
 
 		&__center {
-			padding: 209px 0 135px 0;
+			padding: 200px 0 135px 0;
 			background: linear-gradient(to left, #0059c6, #000017);
+
+			&::before{
+				display: none;
+			}
 
 			@include is-max(750px) {
 				padding: 170px 0 150px 0;
@@ -164,7 +168,7 @@
 			@include font-line(30, 48);
 			color: #fff;
 			letter-spacing: 0.18em;
-			padding-top: 10px;
+			padding-top: 5px;
 			padding-bottom: 23px;
 
 			@include is-max(750px) {
@@ -181,7 +185,7 @@
 			}
 
 			.ttl_small {
-				font-family: yu-mincho-pr6n, sans-serif;
+				font-family: YakuHanJP, yu-mincho-pr6n, sans-serif;
 				@include font-line(20, 35);
 				color: #fff;
 				line-height: 0;
@@ -283,9 +287,9 @@
 
 			@include is-sp {
 				width: 164px;
-				top: 0;
+				top: -38px;
 				left: auto;
-				right: 0;
+				right: 21px;
 			}
 		}
 
@@ -302,7 +306,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 				letter-spacing: 0.2em;
 			}
 		}
@@ -372,6 +376,7 @@
 
 			@include is-max(750px) {
 				flex-direction: column-reverse;
+				padding: 30px 0 90px 0;
 			}
 
 			&--left,
@@ -449,7 +454,7 @@
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
-						color: #2589ce;
+						color: #0059b4;
 						letter-spacing: 0.26em;
 						text-align: center;
 						font-weight: 700;
@@ -466,7 +471,7 @@
 						span {
 							margin-left: 10px;
 							font-weight: 700;
-							color: #2589ce;
+							color: #0059b4;
 							@include font-line(13, 26);
 							letter-spacing: 0.2em;
 						}
@@ -489,7 +494,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 				letter-spacing: 0.2em;
 			}
 		}
@@ -626,7 +631,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 				letter-spacing: 0.2em;
 			}
 		}
@@ -698,7 +703,7 @@
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.15em;
@@ -723,7 +728,7 @@
 		}
 
 		&--top-realestate {
-			border-left: 3px solid #4688c8;
+			border-left: 3px solid #0059b4;
 			padding-left: 15px;
 			position: relative;
 		}
@@ -741,7 +746,7 @@
 		&__header {
 			@include font-line(26, 37);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.2em;
@@ -767,7 +772,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
-			padding-bottom: 100px;
+			padding-bottom: 55px;
 			align-items: center;
 
 			@include is-max(1067px) {
@@ -777,7 +782,7 @@
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 				display: grid;
-				padding-bottom: 75px;
+				padding-bottom: 60px;
 			}
 
 			&--left,
@@ -806,7 +811,7 @@
 				.txt_ttl {
 					@include font-line(26, 30);
 					text-align: left;
-					color: #4688c8;
+					color: #0059b4;
 					font-family: yu-mincho-pr6n, sans-serif;
 					font-weight: 500;
 					letter-spacing: 0.01em;
@@ -856,7 +861,7 @@
 				&_ttl {
 					font-family: century-gothic, sans-serif;
 					@include font-line(11, 22);
-					color: #2589ce;
+					color: #0059b4;
 					letter-spacing: 0.26em;
 					text-align: center;
 					font-weight: 700;
@@ -873,7 +878,7 @@
 					span {
 						margin-left: 10px;
 						font-weight: 700;
-						color: #2589ce;
+						color: #0059b4;
 						@include font-line(13, 26);
 						letter-spacing: 0.2em;
 					}
@@ -900,6 +905,7 @@
 
 		@include is-sp{
 			clip-path: polygon(17% 2%, 100% 0, 100% 100%, 87% 98%, 0 100%, 0 0);
+			margin-bottom: 30px;
 		}
 
 		&::before {
@@ -943,7 +949,7 @@
 		&__box-big-new {
 			position: absolute;
 			left: 46%;
-			top: 67px;
+			top: 45px;
 
 			@include is-sp {
 				width: 100px;
@@ -973,7 +979,7 @@
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
-			bottom: 13%;
+			bottom: 11%;
 
 			@include is-sp {
 				display: none;
@@ -1084,7 +1090,7 @@
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
-						color: #2589ce;
+						color: #0059b4;
 						letter-spacing: 0.26em;
 						text-align: center;
 						font-weight: 700;
@@ -1102,7 +1108,7 @@
 						span {
 							margin-left: 10px;
 							font-weight: 700;
-							color: #2589ce;
+							color: #0059b4;
 							@include font-line(13, 26);
 							letter-spacing: 0.2em;
 
@@ -1146,7 +1152,7 @@
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
-			color: #4688c8;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.15em;
@@ -1215,7 +1221,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row-reverse;
-			padding: 90px 0;
+			padding: 90px 0 35px 0;
 
 			@include is-sp {
 				padding: 70px 0;
@@ -1251,7 +1257,7 @@
 				.txt_ttl {
 					@include font-line(24, 30);
 					text-align: left;
-					color: #4688c8;
+					color: #0059b4;
 					font-family: yu-mincho-pr6n, sans-serif;
 					font-weight: 500;
 					letter-spacing: 0.15em;
@@ -1291,7 +1297,7 @@
 					&_ttl {
 						font-family: century-gothic, sans-serif;
 						@include font-line(11, 22);
-						color: #2589ce;
+						color: #0059b4;
 						letter-spacing: 0.26em;
 						text-align: center;
 						font-weight: 700;
@@ -1308,7 +1314,7 @@
 						span {
 							margin-left: 10px;
 							font-weight: 700;
-							color: #2589ce;
+							color: #0059b4;
 							@include font-line(13, 26);
 							letter-spacing: 0.2em;
 						}
@@ -1343,10 +1349,10 @@
 			content: "";
 			position: absolute;
 			width: 83%;
-			height: 25%;
+			height: 30%;
 			top: 0;
 			right: 0;
-			clip-path: polygon(0 0, 100% 0, 100% 18%, 70% 55%, 0 32%);
+			clip-path: polygon(0 0, 100% 0, 100% 18%, 70% 55%, 0 27%);
 			background: linear-gradient(to right, #0059c6, #000017);
 			opacity: 0.4;
 			@include is-sp {
@@ -1389,14 +1395,14 @@
 			margin-top: 0;
 
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 			}
 		}
 
 		&__box-big-new {
 			position: absolute;
 			left: 46%;
-			top: -12%;
+			top: -14%;
 
 			@include is-max(1075px) {
 				left: 52%;
@@ -1404,7 +1410,7 @@
 			}
 
 			@include is-sp {
-				top: -4%;
+				top: -5%;
 				width: 122px;
 				right: 10%;
 				left: auto;
@@ -1479,6 +1485,7 @@
 			@include is-sp {
 				text-align: justify;
 				margin-bottom: 25px;
+				letter-spacing: 0.1em;
 			}
 		}
 
@@ -1495,14 +1502,14 @@
 		.card_ttl {
 			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(14, 21);
-			color: #2589ce;
+			color: #0059b4;
 			font-weight: 700;
 			letter-spacing: 0.2em;
 			padding-bottom: 10px;
 
 			@include is-max(750px) {
 				@include font-line(14, 21);
-				color: #2589ce;
+				color: #0059b4;
 				font-weight: 700;
 				letter-spacing: 0.1em;
 			}
@@ -1525,9 +1532,11 @@
 
 				@include is-sp {
 					display: block;
-					width: 115px;
-					top: -4%;
-					left: -2%;
+					width: 145px;
+					position: relative;
+					bottom: -9px;
+					left: -6px;
+					opacity: 0.3;
 				}
 
 				// @include is-max(375px){
@@ -1612,7 +1621,7 @@
 	}
 
 	.sect_8 {
-		padding-top: 70px;
+		padding-top: 25px;
 		background-color: #fff;
 
 		.xb {
@@ -1625,7 +1634,7 @@
 
 		.c-buttonREP {
 			.txt {
-				color: #2589ce;
+				color: #0059b4;
 			}
 		}
 
@@ -1662,7 +1671,7 @@
 		}
 
 		&--top {
-			border-left: 3px solid #2589ce;
+			border-left: 3px solid #0059b4;
 			padding-left: 15px;
 			position: relative;
 		}
@@ -1685,7 +1694,7 @@
 		&__header {
 			@include font-line(26, 37);
 			text-align: left;
-			color: #2589ce;
+			color: #0059b4;
 			font-family: yu-mincho-pr6n, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.34em;
@@ -1747,7 +1756,7 @@
 		.qtext {
 			font-family: yu-gothic-pr6n, sans-serif;
 			@include font-line(16, 24);
-			color: #2589ce;
+			color: #0059b4;
 			letter-spacing: 0.2em;
 			text-align: left;
 			font-weight: 700;
@@ -1847,7 +1856,7 @@
 		&_ttl {
 			font-family: century-gothic, sans-serif;
 			@include font-line(11, 22);
-			color: #2589ce;
+			color: #0059b4;
 			letter-spacing: 0.26em;
 			text-align: center;
 			font-weight: 700;
@@ -1864,7 +1873,7 @@
 			span {
 				margin-left: 10px;
 				font-weight: 700;
-				color: #2589ce;
+				color: #0059b4;
 				@include font-line(13, 26);
 				letter-spacing: 0.2em;
 			}
