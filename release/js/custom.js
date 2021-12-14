@@ -32,7 +32,7 @@ $('.slider').slick({
     }
   }]
 });
-$('.submenu-clk').click(function () {
+$(document).on('click', '.submenu-clk', function () {
   if ($(this).hasClass('active')) {
     $(this).removeClass('active');
     $(this).find('.nav-links-ul-02-link-submenu').slideUp();
@@ -42,8 +42,6 @@ $('.submenu-clk').click(function () {
     $(this).find('.nav-links-ul-02-link-submenu').slideDown();
     $(this).find('.plus').text('-').css('transform', 'rotate(0deg)');
   }
-
-  return false;
 });
 var clickAllowed = true;
 $(window).on('load resize', function () {
