@@ -1599,7 +1599,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .interview .section_1 .l-wrap{position:relative}
 .interview .section_1-ttl{text-align:center;font-size:.625rem;line-height:2;font-family:century-gothic,sans-serif;letter-spacing:.32em;font-weight:400}
 .interview .section_1-sub1{font-size:1.875rem;line-height:1.6;text-align:center;font-family:yu-mincho-pr6n,sans-serif;font-weight:500}
-.interview .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;text-align:center;letter-spacing:.2em}
+.interview .section_1-sub2{font-size:.8125rem;line-height:2;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;text-align:center;letter-spacing:.2em;padding-top:10px}
 .interview .section_1 .section_1-cntnt{padding-top:90px;padding-bottom:200px;position:relative;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .interview .section_1 .section_1-cntnt .cntnt-wrppr{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .interview .section_1 .section_1-cntnt .cntnt-wrppr-reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
@@ -1628,7 +1628,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .interview .section_1 .section_1-cntnt-2 .biography-sp-cntnt{color:black}
 .interview .section_1 .section_1-cntnt-2 .biography-sp-cntnt-yr{color:#258acf;font-size:.78125rem;line-height:1.8;font-weight:700;font-family:yu-gothic-pr6n,sans-serif;letter-spacing:.2em}
 .interview .section_1 .section_1-cntnt-2 .biography-sp-cntnt-txt{margin-left:18px;font-size:.78125rem;line-height:1.8;font-weight:500;font-family:yu-gothic-pr6n,sans-serif;letter-spacing:.2em}
-.interview .section_1 .bg_1{position:absolute;top:-90px;right:9%}
+.interview .section_1 .bg_1{position:absolute;top:-96px;right:10%}
 .interview .section_1 .bg_2{position:absolute;top:5%;left:-6%;opacity:.3}
 .interview .section_1 .bg_3{position:absolute;right:2%;bottom:69%;z-index:-3;opacity:.3}
 .interview .section_2{position:relative;overflow-x:hidden;padding-top:30px}
@@ -1674,7 +1674,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .interview .section_3-cntnt-rows--reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
 .interview .section_3-cntnt-rows--reverse .section_3-cntnt-rows-1{width:470px;padding-left:30px;padding-right:0}
 .interview .section_3-cntnt-btns{width:640px;margin:0 auto}
-.interview .section_3-cntnt-btns .txt{letter-spacing:.1em}
+.interview .section_3-cntnt-btns .txt{letter-spacing:.1em;padding:23px 0}
 .interview .section_3 .sec3-bg1{position:absolute;top:-9%;right:30%;z-index:-1}
 .interview .section_3 .sec3-bg2{position:absolute;bottom:14%;left:-6%;z-index:-1}
 .interview .section_3--2 .clipPath{padding-bottom:64px}
@@ -1721,7 +1721,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .mp__section_2--main-content .row .col-left .badge{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);padding:4px 5px;line-height:1;background:-webkit-gradient(linear,left top,right top,from(#2579bf),color-stop(50%,#2593d5));background:linear-gradient(90deg,#2579bf 0,#2593d5 50%);color:#fff;font-size:.6875rem;font-weight:500}
 .mp__section_2--main-content .row .col:first-child{width:calc(100% - 487px)}
 .mp__ttl{color:#fff;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;line-height:1;margin-top:131px;font-size:.625rem}
-.mp__title{color:#fff;font-family:yu-mincho-pr6n,sans-serif;letter-spacing:.22em;text-align:center;padding:20px 0 15px 0;line-height:1;font-size:1.875rem}
+.mp__title{color:#fff;font-family:yu-mincho-pr6n,sans-serif;letter-spacing:.22em;text-align:center;padding:20px 0 15px 0;line-height:1;font-weight:500;font-size:1.875rem}
 .mp__title br{display:none}
 .mp__sub{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.2em;text-align:center;z-index:1;position:relative;font-size:.8125rem;line-height:2}
 .mp__bg_1{position:absolute;top:-99px;right:67px;width:352px;z-index:-1;opacity:.3}
@@ -4199,7 +4199,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .interview .section_2-cntnt-rows--reverse{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .interview .section_2-cntnt-rows--reverse .section_2-cntnt-rows-2{padding-right:0}
 .interview .section_2-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:130px;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.interview .section_2 .sec2-bg1{display:block;width:172px;top:30px;right:-20px}
+.interview .section_2 .sec2-bg1{display:block;width:172px;top:30px;right:-9px}
 .interview .section_2 .sec2-bg2{display:none}
 .interview .section_2 .sec2-bg3{display:none}
 .interview .section_2 .sec2-bg2-sp{left:0;top:19.4%}

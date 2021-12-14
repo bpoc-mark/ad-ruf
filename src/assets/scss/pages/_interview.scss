@@ -175,6 +175,7 @@
 			font-family: yu-gothic-pr6n, sans-serif;
 			text-align: center;
 			letter-spacing: 0.2em;
+			padding-top: 10px;
 	
 			@include is-sp {
 				@include font-line(13.5, 20);
@@ -511,8 +512,8 @@
 	
 		.bg_1 {
 			position: absolute;
-			top: -90px;
-			right: 9%;
+			top: -96px;
+			right: 10%;
 	
 			@include is-sp {
 				width: 176px;
@@ -727,7 +728,7 @@
 				display: block;
 				width: 172px;
 				top: 30px;
-				right: -20px;
+				right: -9px;
 			}
 		}
 	
@@ -1015,6 +1016,7 @@
 	
 				.txt {
 					letter-spacing: 0.1em;
+					padding: 23px 0;
 				}
 				@include is-sp {
 					flex-direction: column;
