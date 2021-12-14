@@ -578,8 +578,8 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            将来売却することは<br>
-                            可能ですか
+                        将来売却することは<br>
+                        可能ですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
