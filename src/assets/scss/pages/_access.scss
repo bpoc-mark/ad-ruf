@@ -474,6 +474,13 @@
 			}
 		}
 
+		.acc--fd{
+
+			.txt{
+				padding: 23px 0;
+			}
+		}
+
 		@include is-sp {
 			padding-bottom: 75px;
 		}
@@ -588,6 +595,7 @@
 							@include is-sp {
 								padding-bottom: 69px;
 								@include font-line(13.4, 27);
+								letter-spacing: 0.1em;
 							}
 						}
 
@@ -707,7 +715,7 @@
 	&__bg_1 {
 		position: absolute;
 		top: -57px;
-		right: 103px;
+		right: 96px;
 		width: 316px;
 
 		@include is-sp {
@@ -763,7 +771,7 @@
 	&--btn {
 		background-color: #fff;
 		margin: 0;
-		color: #258acf;
+		// color: #258acf;
 		letter-spacing: 0.2em;
 
 		@include is-sp {
