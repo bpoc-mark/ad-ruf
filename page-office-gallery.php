@@ -6,7 +6,7 @@ $imagedir = get_template_directory_uri();
 <div class="page__content office_gal">
     <div class="c-banner">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="c-ruf-txt"><img
-                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">丸の内 株式会社ルーフ</a>
+                src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">株式会社ルーフ</a>
         <div class="c-inner">
             <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/office_gal/office_banner.png" alt="">
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/page/office_gal/office_banner_sp.png" alt="">
@@ -26,7 +26,7 @@ $imagedir = get_template_directory_uri();
     <div class="section_1">
 
         <!-- //CONTENT 1 -->
-        <div class="office_gal--items">
+        <div class="office_gal--items office_gal--shadow">
             <div class="l-wrap">
                 <img class="office_gal__bg_1 pc" src="<?php echo $imagedir ?>/release/image/page/case/bg_1.png" alt="">
                 <img class="office_gal__bg_1 sp"
@@ -67,7 +67,7 @@ $imagedir = get_template_directory_uri();
         </div>
 
         <!-- //CONTENT 2 -->
-        <div class="office_gal--items">
+        <div class="office_gal--items sp-pb">
             <div class="l-wrap">
                 <img class="office_gal__bg_2 pc"
                     src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
@@ -120,7 +120,7 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
         <!-- //CONTENT 3 -->
-        <div class="office_gal--items">
+        <div class="office_gal--items office_gal--shadow2">
             <div class="l-wrap">
                 <img class="office_gal__bg_3"
                     src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content3.png" alt="">
@@ -169,7 +169,7 @@ $imagedir = get_template_directory_uri();
             <div class="l-wrap">
                 <img class="office_gal__bg_2 pc"
                     src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2.png" alt="">
-                <img class="office_gal__bg_4 sp"
+                <img class="office_gal__bg_4 sp sp-bg4"
                     src="<?php echo $imagedir ?>/release/image/page/office_gal/bg_content2_sp.png" alt="">
                 <div class="office_gal--contents">
                     <div class="office_gal--contents__col1">
