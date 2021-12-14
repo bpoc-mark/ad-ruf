@@ -1899,11 +1899,11 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 .pp__main-content--row .left,.pp__main-content--row .right{width:47%}
 .pp__main-content--row .left .col,.pp__main-content--row .right .col{padding-bottom:60px}
 .pp__main-content--row .left .col .p-l-30,.pp__main-content--row .right .col .p-l-30{padding-left:30px}
-.pp__main-content--row .left .col--ttl,.pp__main-content--row .right .col--ttl{font-size:1rem;line-height:1.625;font-family:yu-gothic-pr6n,sans-serif;font-weight:700;letter-spacing:.1em;padding-bottom:10px;border-bottom:1px solid #494342;color:#258acf}
+.pp__main-content--row .left .col--ttl,.pp__main-content--row .right .col--ttl{font-size:1rem;line-height:1.625;font-family:yu-gothic-pr6n,sans-serif;font-weight:700;letter-spacing:.1em;padding-bottom:10px;border-bottom:1px solid #494342;color:#0059b4}
 .pp__main-content--row .left .col--cont01,.pp__main-content--row .right .col--cont01{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;font-size:.8125rem;line-height:2;font-family:yu-gothic-pr6n,sans-serif;font-weight:700;letter-spacing:0}
 .pp__main-content--row .left .col--cont01--txt,.pp__main-content--row .right .col--cont01--txt{font-weight:500;color:#000;text-align:justify;padding-left:15px}
 .pp__main-content--row .left .col--cont01--txt:nth-child(2),.pp__main-content--row .right .col--cont01--txt:nth-child(2){padding-top:30px}
-.pp__main-content--row .left .col--cont01--num,.pp__main-content--row .right .col--cont01--num{color:#258acf}
+.pp__main-content--row .left .col--cont01--num,.pp__main-content--row .right .col--cont01--num{color:#0059b4}
 .pp__main-content--row .left .col--cont-info,.pp__main-content--row .right .col--cont-info{margin-top:30px;border:1px solid #000;padding:27px 0 30px 28px}
 .pp__main-content--row .left .col--cont-info p,.pp__main-content--row .right .col--cont-info p{font-size:.8125rem;line-height:2;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;letter-spacing:.08em;color:#000}
 .pp__main-content--row .left .col:last-child,.pp__main-content--row .right .col:last-child{padding-bottom:0}
