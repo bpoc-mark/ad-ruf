@@ -1845,6 +1845,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .bcksub .bck img{display:n
 .office_gal .section_3 .cards .cards-card-img{position:relative}
 .office_gal .section_3 .cards .cards-card-img-txt{position:absolute;top:39%;left:7%;text-align:left}
 .office_gal .section_3 .cards .cards-card-img-txt-ttl{font-family:yu-mincho-pr6n,sans-serif;font-size:18px;color:#fff}
+.office_gal .section_3 .cards .cards-card-img-txt-ttl .l-spacing{letter-spacing:.1em}
 .office_gal .section_3 .cards .cards-card-img-txt-ttl p{line-height:25px;font-weight:500;letter-spacing:.3em}
 .office_gal .section_3 .cards .cards-card-img-txt-sub{font-family:century-gothic,sans-serif;color:#fff}
 .office_gal .section_3 .cards .cards-card-img-txt-sub p{font-size:8px;line-height:12px;letter-spacing:.26em}
