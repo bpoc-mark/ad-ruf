@@ -37,6 +37,18 @@
   }
 }
 
+.u-d-toggle {
+  @include is-min(376px) {
+    display: none;
+  }
+  @include is-max(375px) {
+    display: block;
+  }
+  @include is-max(350px) {
+    display: none;
+  }
+}
+
 .u-d-f {
   display: flex !important;
 }

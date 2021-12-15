@@ -11,7 +11,7 @@ $imagedir = get_template_directory_uri();
             <img class="bnr_sp" src="<?php echo $imagedir ?>/release/image/realestate/rem_bg_banner-sp.png" alt="">
             <div class="c-banner--ttl">
                 <p>収 益 不 動 産 <br class="br-sp">の 管 理</p>
-                <p>Real Estate<br class="br-sp">Management</p>
+                <p>Real Estate<br class="br-sp"> Management</p>
             </div>
         </div>
         <!-- <div class="bread_crumps">
@@ -32,11 +32,11 @@ $imagedir = get_template_directory_uri();
                     Real Estate Management
                 </p>
                 <p class="sect_1__headers">
-                    <span class="ttl_small">ルーフは、面倒な保守管理や修繕工事、苦情処理改善まで</span> <br>
+                    <span class="ttl_small">ルーフは<span class="u-d-n-sp">、</span>面倒な保守管理や修繕工事、苦情処理改善まで</span> <br>
                     不動産経営に<br class="br-sp">関わること全てサポート
                 </p>
                 <p class="header_subtext">
-                    ルーフは、豊富なバリューアップの経験を武器に<br class="u-d-n-sp br-sp">最適な不動産管理を行い、<br class="u-d-n-pc">お預かりした大切な収益不動産の価値を高めます。
+                    ルーフは、豊富なバリューアップの経験を武器に<br class="u-d-n-pc">最適な不動産管理を行い、<br class="u-d-n-sp"><br class="u-d-n-pc">お預かりした大切な収益不動産の価値を高めます。
                 </p>
                 <div class="sect_1__box-big">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-2.png" alt="">
@@ -148,10 +148,10 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
-                    Real Estate Management
+                    Real Estate Purchase
                 </div>
                 <div class="sect_4__header">
-                    ルーフの収益不動産の管理 3つの特徴
+                    ルーフの収益不動産<br class="u-d-n-pc">の管理 3つの特徴
                 </div>
                 <div class="sect_4__header--sub">
                     ルーフがお客様の収益不動産の管理に対して、<br>
@@ -212,14 +212,14 @@ $imagedir = get_template_directory_uri();
             <div class="sect_5__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_5_box-2.png.png" alt="">
             </div>
-            <div class="sect_5__inner-realestate">
+            <div class="sect_5__inner-realestate s5_pt">
                 <div class="sect_5__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
                         余計な管理コストを <br>
                         かけない
                     </p>
                     <p class="text">
-                        丸の内ルーフは、必要以上に工事を行うなど、オーナー様の不利益になることは絶対にしません。建物の改修や美観維持にコストをかければ、資産価値を高め、入居促進につながります。しかし、経費をかけ過ぎれば、不動産経営は成立しません。リフォームは、見た目重視ではなく、機能重視。ランニングコストを下げ、資産価値を上げます。また、不動産を保有する重みを知っているからこそ、オーナー様には修繕費を包み隠さずお伝えいたします。
+                        ルーフは、必要以上に工事を行うなど、オーナー様の不利益になることは絶対にしません。建物の改修や美観維持にコストをかければ、資産価値を高め、入居促進につながります。しかし、経費をかけ過ぎれば、不動産経営は成立しません。リフォームは、見た目重視ではなく、機能重視。ランニングコストを下げ、資産価値を上げます。また、不動産を保有する重みを知っているからこそ、オーナー様には修繕費を包み隠さずお伝えいたします。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -507,7 +507,8 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
             </div>
             <div class="sect_8__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
@@ -537,7 +538,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             入居者がいる状態で管理会社
-                            をRUFに変更することは可能
+                            を<br class="u-d-toggle">RUFに変更することは<br class="u-d-toggle">可能
                             ですか？
                         </p>
                     </div>
@@ -552,8 +553,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産管理を依頼できる
-                            エリアを教えてください。
+                            不動産管理を依頼できる<br class="u-d-n-sp"><br class="u-d-toggle">エリアを教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -568,7 +568,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             所有するマンションの<br class="u-d-n-sp">
-                            築年数が長いのですが、<br class="u-d-n-sp">
+                            築年数が<br class="u-d-toggle">長いのですが、<br class="u-d-n-sp"><br class="u-d-toggle">
                             賃貸収入は得られますか？
                         </p>
                     </div>
@@ -586,8 +586,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            入居者募集の際の審査の
-                            内容を教えてください。
+                            入居者募集の際の<br class="u-d-toggle">審査の<br class="u-d-n-sp">内容を教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -601,8 +600,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            賃主が入居者と直接やり<br class="u-d-n-sp">
-                            取りすることはありますか？
+                            賃主が入居者と直接<br class="u-d-toggle">やり<br class="u-d-n-sp">取りすることはありますか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -618,7 +616,7 @@ $imagedir = get_template_directory_uri();
                         <p class="qtext">
                             現在任せている不動産<br class="u-d-n-sp">
                             管理会社の管理料が高い<br class="u-d-n-sp">
-                            気がします。見積もりを出し
+                            気がします。<br class="u-d-toggle">見積もりを出し
                             てもらうことは可能ですか？
                         </p>
                     </div>

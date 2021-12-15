@@ -36,7 +36,7 @@ $imagedir = get_template_directory_uri();
                     首都圏を中心に多数の<br class="u-d-n-pc">物件を運用しています。
                 </p>
                 <p class="header_subtext">
-                    不動産収益を向上させるには「買って終わり」ではなく、<br class="u-d-n-pc">その後の運用も大切です。<br class="br-pc">
+                    不動産収益を向上させるには「買って終わり」ではなく、<br class="u-d-n-pc">その後の運用も大切です。<br class="u-d-n-pc">
                     ルーフでは、市場と将来を見据えた確かな<br class="u-d-n-pc">運用でお客様の利益の最大化を図ります。
                 </p>
                 <div class="sect_1__box-big">
@@ -565,7 +565,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__bottom">
                         <p class="Answer">A</p>
                         <p class="atext">
-                            資産家や経営者という高所得の方の他、一般のサラリーマンの方や公務員の方々など様々な方が不動産運用をされています。
+                            資産家や経営者という高所得の方の他、一般のサラリーマンの方や公務員の方々など様々な方が不動産運用をされています。<br class="u-d-toggle">
                             尚、公務員の方は副業に制限がございますが、不動産投資は資産形成の一部という認識ですので問題ございません。但し、地方団体によってはできない場合もございますので一度勤務先への確認をお勧めしております。
                         </p>
                     </div>
@@ -591,7 +591,7 @@ $imagedir = get_template_directory_uri();
                 <div class="c-card07">
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
-                        <p class="qtext">
+                        <p class="qtext qtext-wrap">
                             マンション経営の利回り率は<br>
                             どれぐらいですか？
                         </p>
