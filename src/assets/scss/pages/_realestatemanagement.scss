@@ -172,7 +172,7 @@
 			padding-bottom: 23px;
 
 			@include is-max(750px) {
-				padding-bottom: 15px;
+				padding-bottom: 50px;
 				@include font-line(25, 32);
 			}
 
@@ -1632,6 +1632,11 @@
 			position: absolute;
 			left: 60%;
 			top: -12%;
+
+			@include is-sp {
+				width: 130px;
+				top: -53%;
+			}
 		}
 
 		&__box-big-new2 {

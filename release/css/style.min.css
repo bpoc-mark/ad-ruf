@@ -3004,6 +3004,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .bcksub .bck img{display:n
 .column .sect_2 .l-wrap .right .column-access-ranking .post_wrap_row .post_info .cat:not(:last-child){margin-right:5px}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
+}@media only screen and (min-width:376px){.u-d-toggle{display:none}
 }@media only screen and (min-width:750px){.c-card07:nth-of-type(7){padding-right:unset;border-bottom:2px dashed #aeaeae}
 .mp__bg_4{display:none}
 .mp__bg_5{display:none}
@@ -4474,6 +4475,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .real_estate_management .sect_7-cntnt-txt-desc{font-size:.84375rem;line-height:1.4814814815;letter-spacing:.1em;text-align:justify}
 .real_estate_management .sect_7-cntnt .crd-wrppr{-webkit-column-gap:0;-moz-column-gap:0;column-gap:0}
 .real_estate_management .sect_7-cntnt{padding:0 0 100px 0}
+.real_estate_management .sect_8__box-big-new{width:130px;top:-53%}
 .real_estate_management .sect_8__box-big-new2{display:none}
 .real_estate_management .sect_8__box-big-new3{display:none}
 .real_estate_management .sect_8 .Answer{line-height:1}
@@ -5057,7 +5059,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .office_gal--contents__col2 .bottom{left:11.76% !important}
 .real_estate_management .sect_1__center{padding:170px 0 150px 0}
 .real_estate_management .sect_1__eng_ttl{font-size:12.5px}
-.real_estate_management .sect_1__headers{padding-bottom:15px;font-size:1.5625rem;line-height:1.28}
+.real_estate_management .sect_1__headers{padding-bottom:50px;font-size:1.5625rem;line-height:1.28}
 .real_estate_management .sect_1__headers .ttl_small{font-size:.8125rem;line-height:1.9230769231}
 .real_estate_management .sect_1__box-sm{width:50%;top:70px;right:15px}
 .real_estate_management .sect_1__box-big{display:none}
@@ -5382,6 +5384,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 .top-header-bnnr-txt01{top:70px;right:8%}
 .top-header-bnnr-txt02{right:7%;top:118px}
 .float-menu .brgr-mail-mail-txt{letter-spacing:0;font-size:.8125rem}
+.u-d-toggle{display:block}
 .assetmanagement .sect_1__headers{letter-spacing:2px;font-size:6.7vw}
 .assetmanagement .sect_1__headers .ttl_small{font-size:.6875rem;line-height:1.3636363636}
 .ci__main-content--row .col .info_right{width:calc(100% - 82.5px)}
@@ -5453,6 +5456,7 @@ input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{ma
 }@media only screen and (max-width:350px){.c-card10-center-text{top:52%}
 .c-slider .prev-arrow{top:21%}
 .c-slider .next-arrow{top:21%}
+.u-d-toggle{display:none}
 .about .section_2-cntnt-row1{width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .about .section_2-cntnt-row1-ttl{margin-left:0}
 .about .section_2-cntnt-row1-ttl-txt-01{font-size:36px}

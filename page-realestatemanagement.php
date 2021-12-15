@@ -507,7 +507,8 @@ $imagedir = get_template_directory_uri();
     <section class="sect_8">
         <div class="l-wrap">
             <div class="sect_8__box-big-new">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="u-d-n-sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-1.png.png" alt="">
+                <img class="u-d-n-pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_6_box-1-sp.png" alt="">
             </div>
             <div class="sect_8__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_8_box-2.png.png" alt="">
@@ -537,7 +538,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             入居者がいる状態で管理会社
-                            をRUFに変更することは可能
+                            を<br class="u-d-toggle">RUFに変更することは<br class="u-d-toggle">可能
                             ですか？
                         </p>
                     </div>
@@ -552,8 +553,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            不動産管理を依頼できる
-                            エリアを教えてください。
+                            不動産管理を依頼できる<br class="u-d-n-sp"><br class="u-d-toggle">エリアを教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -568,7 +568,7 @@ $imagedir = get_template_directory_uri();
                         <p class="Question">Q</p>
                         <p class="qtext">
                             所有するマンションの<br class="u-d-n-sp">
-                            築年数が長いのですが、<br class="u-d-n-sp">
+                            築年数が<br class="u-d-toggle">長いのですが、<br class="u-d-n-sp"><br class="u-d-toggle">
                             賃貸収入は得られますか？
                         </p>
                     </div>
@@ -586,8 +586,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            入居者募集の際の審査の
-                            内容を教えてください。
+                            入居者募集の際の<br class="u-d-toggle">審査の<br class="u-d-n-sp">内容を教えてください。
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -601,8 +600,7 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                            賃主が入居者と直接やり<br class="u-d-n-sp">
-                            取りすることはありますか？
+                            賃主が入居者と直接<br class="u-d-toggle">やり<br class="u-d-n-sp">取りすることはありますか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">
@@ -618,7 +616,7 @@ $imagedir = get_template_directory_uri();
                         <p class="qtext">
                             現在任せている不動産<br class="u-d-n-sp">
                             管理会社の管理料が高い<br class="u-d-n-sp">
-                            気がします。見積もりを出し
+                            気がします。<br class="u-d-toggle">見積もりを出し
                             てもらうことは可能ですか？
                         </p>
                     </div>
