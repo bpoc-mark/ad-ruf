@@ -1518,9 +1518,9 @@ template{display:none}
 .contact-frm .col-2 div:nth-child(1),.contact-frm .col-2 div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;width:50%}
 .contact-frm .col-2 div label{width:100px;padding-left:30px}
 .contact-frm input[type="checkbox"]{margin-top:-30px}
-.contact-frm input[type="checkbox"]{width:28px;height:28px;margin:0;margin-right:1px;position:relative;display:block;float:left;position:relative;cursor:pointer;-webkit-text-fill-color:#fff !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-.contact-frm input[type="checkbox"]:after{content:"";vertical-align:middle;text-align:center;line-height:13px;position:absolute;cursor:pointer;height:28px;width:28px;left:0;top:0;font-size:10px;-webkit-box-shadow:inset 0 1px 1px #5f95fc,0 1px 0 #5f95fc;box-shadow:inset 0 1px 1px #5f95fc,0 1px 0 #5f95fc;background:#ad1e32;border:1px solid #003780}
-.contact-frm input[type="checkbox"]:checked:after{content:"\2714";color:#fff !important;-webkit-text-fill-color:#fff !important;font-size:25px;padding:8px 0 0 3px;font-family:"FontAwesome";-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.contact-frm input[type="checkbox"]{width:28px;height:28px;margin:0;margin-right:1px;position:relative;display:block;float:left;position:relative;cursor:pointer;-webkit-text-fill-color:white !important;-webkit-appearance:inherit}
+.contact-frm input[type="checkbox"]:after{content:"";vertical-align:middle;text-align:center;line-height:13px;position:absolute;cursor:pointer;height:28px;width:28px;color:white !important;left:0;top:0;font-size:10px;background:#ad1e32;border:1px solid #258acf}
+.contact-frm input[type="checkbox"]:checked:after{content:url("https://ad-ruf.hipetest.com/wp-content/uploads/2021/12/checkmark_4.png");color:white !important;-webkit-text-fill-color:white !important;font-size:25px;padding:0;-webkit-appearance:inherit}
 .contact-frm .selct{position:relative;margin:0;float:left;margin:0}
 .contact-frm select{outline:0;scroll-behavior:smooth}
 .contact-frm .selct:before{content:"\f0d8";font:normal normal normal 17px/1 FontAwesome;right:0;top:5px;height:24.5px;padding:2px 6px 0 6px;border-left:1px solid #0ebeff;position:absolute;pointer-events:none;background-color:#003780;color:#fff;z-index:150}
@@ -4254,7 +4254,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .interview .section_3-cntnt-rows--last{margin-bottom:25px}
 .interview .section_3-cntnt-rows--reverse{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .interview .section_3-cntnt-rows--reverse .section_3-cntnt-rows-1{width:100%;padding-left:0}
-.interview .section_3-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:130px;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.interview .section_3-cntnt-btns{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:155px;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .interview .section_3 .sec3-bg1{width:176px;right:-3%;top:-12%}
 .interview .section_3--2 .clipPath{padding-bottom:75px}
 .bread_crumps .txt{font-size:.78125rem}
