@@ -532,14 +532,23 @@
 		text-align: center;
 		display: inline-block;
 
+		&:hover{
+			&::after{
+				top: -30px;
+				content: "";
+			}
+		}
+
 		&::after {
 			content: "";
 			background-image: url(../image/page/contact/arrow_up.png);
 			width: 20px;
 			height: 20px;
+			transform: translateX(-50%);
 			position: absolute;
+			transition: 0.3s ease-in-out;
 			background-repeat: no-repeat;
-			left: 36%;
+			left: 48%;
 			top: -20px;
 		}
 	}

@@ -57,7 +57,7 @@
 		padding: 100px 0 20px 0;
 		clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
 		margin-top: -100px;
-		padding-bottom: 101px;
+		padding-bottom: 30px;
 		padding-top: 80px;
 
 		@include is-sp {
@@ -1703,4 +1703,13 @@ form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm{
 			}
 		}
 	}	
+}
+
+body.page-template-default.page.page-id-43{
+
+	background: linear-gradient(to right, #000017, #0059c6);
+	
+	.p-cntct.cntct{
+		display: none;
+	}
 }

@@ -121,7 +121,8 @@ template{display:none}
 .c-buttonCase-left img{width:12px;height:12px;position:absolute;left:20px;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 .c-pageTop{text-align:center;margin-top:95px}
 .c-pageTop .txt{color:#95c6e7;letter-spacing:.395em;font-size:.8125rem;position:relative;text-align:center;display:inline-block}
-.c-pageTop .txt::after{content:"";background-image:url(../image/page/contact/arrow_up.png);width:20px;height:20px;position:absolute;background-repeat:no-repeat;left:36%;top:-20px}
+.c-pageTop .txt:hover::after{top:-30px;content:""}
+.c-pageTop .txt::after{content:"";background-image:url(../image/page/contact/arrow_up.png);width:20px;height:20px;-webkit-transform:translateX(-50%);transform:translateX(-50%);position:absolute;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out;background-repeat:no-repeat;left:48%;top:-20px}
 .c-buttonREP{border:1px solid #81b3d4;border-radius:30px;width:290px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;background-color:#fff;margin-top:15px;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 .c-buttonREP:hover img{right:15px}
 .c-buttonREP.red{background-color:#a72f37;border:0;color:#fff;margin-top:50px}
@@ -1411,7 +1412,7 @@ template{display:none}
 .contact-frm .c-banner--ttl{line-height:34px;top:40%}
 .contact-frm .c-banner--ttl .br-sp{display:none}
 .contact-frm input{font-family:yu-gothic-pr6n,sans-serif;font-weight:600;letter-spacing:.28em}
-.contact-frm .sect_1{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);padding:100px 0 20px 0;-webkit-clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);margin-top:-100px;padding-bottom:101px;padding-top:80px}
+.contact-frm .sect_1{background:-webkit-gradient(linear,right top,left top,from(#0059c6),to(#000017));background:linear-gradient(to left,#0059c6,#000017);padding:100px 0 20px 0;-webkit-clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);clip-path:polygon(0 2%,100% 0,100% 100%,0 100%);margin-top:-100px;padding-bottom:30px;padding-top:80px}
 .contact-frm .sect_1 .l-wrap{max-width:1200px}
 .contact-frm__bg-white{background-color:#fff;margin:11px 0 0 0;padding:30px 30px 60px 30px}
 .contact-frm__bg-txt{background-color:#e2f3fb;padding:10px 0}
@@ -1573,6 +1574,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .btm-txt{display:none}
 form.wpcf7-form.invalid .contact-frm__flex.ten{display:none}
 form.wpcf7-form.init .bcksub .bck img{display:none}
 form.wpcf7-form.custom-wpcf7c-confirmed.customConfirm .bcksub .bck img{display:none}
+body.page-template-default.page.page-id-43{background:-webkit-gradient(linear,left top,right top,from(#000017),to(#0059c6));background:linear-gradient(to right,#000017,#0059c6)}
+body.page-template-default.page.page-id-43 .p-cntct.cntct{display:none}
 .group-business{position:relative}
 .group-business .c-banner{padding:0 0 100px 0;background:-webkit-gradient(linear,left top,right top,from(#0059c6),to(#000017));background:linear-gradient(to right,#0059c6,#000017)}
 .group-business .c-banner--ttl{top:45%}

@@ -28,7 +28,7 @@ $imagedir = get_template_directory_uri();
                     <p class="txt">電話でのお問い合わせはこちら</p>
                 </div>
                 <div class="p2">
-                    <p class="txt"><a href="tel:0120-173-602"><img src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png" alt="Living Room"><span>&nbsp;0120-173-602</span></a></p>
+                    <p class="txt"><a><img src="<?= get_template_directory_uri(); ?>/release/image/page/contact/contact_icon.png" alt="Contact"><span>&nbsp;0120-173-602</span></a></p>
                 </div>
                 <div class="p3">
                     <p class="txt">TEL: 03-3211-0123（代表）<br>
@@ -73,15 +73,13 @@ $imagedir = get_template_directory_uri();
 
             </div>
             <div class="c-pageTop">
-                <a href="#">
+                <a href="#page-top">
                     <p class="txt">PAGE TOP</p>
                 </a>
             </div>
     </section>
 </div>
 
-<style>
 
-</style>
 
 <?php get_footer(); ?>
