@@ -1192,16 +1192,21 @@
 	}
 
 	input[type="checkbox"] {
-		-webkit-font-smoothing: antialiased;
-		text-rendering: optimizeSpeed;
 		width: 28px;
 		height: 28px;
 		margin: 0;
 		margin-right: 1px;
+		position: relative;
 		display: block;
 		float: left;
 		position: relative;
 		cursor: pointer;
+		-webkit-text-fill-color: #fff !important;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		
 	}
 
 	input[type="checkbox"]:after {
@@ -1225,9 +1230,15 @@
 
 	input[type="checkbox"]:checked:after {
 		content: "\2714";
-		color: #fff;
+		color: #fff !important;
+		-webkit-text-fill-color: #fff !important;
 		font-size: 25px;
 		padding: 8px 0 0 3px;
+		font-family: "FontAwesome";
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 	}
 
 	.selct {
