@@ -62,6 +62,13 @@
 		}
 	}
 
+	.qtext-wrap {
+		white-space: nowrap;
+		@include is-sp {
+			white-space: unset;
+		}
+	}
+
 	// clip top
 	.top-clip {
 		width: 800px;
@@ -237,6 +244,7 @@
 				@include font-line(13, 25);
 				text-align: center;
 				letter-spacing: 0.1em;
+				white-space: nowrap;
 			}
 
 			@include is-max(400px) {
@@ -1353,8 +1361,13 @@
 					}
 
 					.pi2 {
+						white-space: nowrap;
 						@include is-max(1026px) {
 							letter-spacing: 0.1em;
+						}
+
+						@include is-max(1000px) {
+							white-space: unset;
 						}
 
 						@include is-max(500px) {
@@ -1421,6 +1434,10 @@
 			width: 82%;
 
 			@include is-max(1071px) {
+				clip-path: polygon(0 58%, 44% 18%, 100% 67%, 0% 100%);
+			}
+
+			@include is-sp {
 				clip-path: polygon(0 58%, 44% 51%, 100% 88%, 0% 100%);
 			}
 		}
