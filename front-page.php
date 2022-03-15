@@ -387,15 +387,12 @@
                             </div>
                         </div>
 
-                        <div class="c-cards09">
+                        <!-- <div class="c-cards09">
                             <div class="c-cards09-img">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
                                 <div class="c-cards09-img-num">
                                     <p>03</p>
                                 </div>
-                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
-                                    <p>VIEW <br>MORE</p>
-                                </a> -->
                             </div>
                             <div class="c-cards09-desc">
                                 <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
@@ -405,7 +402,7 @@
                                 </p>
                                 <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="c-cards09">
                             <div class="c-cards09-img">
@@ -419,6 +416,25 @@
                             </div>
                             <div class="c-cards09-desc">
                                 <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
+                                <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
+                                </p>
+                                <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                            </div>
+                        </div>
+                        <div class="c-cards09">
+                            <div class="c-cards09-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img5.png" alt="">
+                                <div class="c-cards09-img-num">
+                                    <p>05</p>
+                                </div>
+                                <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a> -->
+                            </div>
+                            <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>">
                                     <p>VIEW <br>MORE</p>
                                 </a>
                                 <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評

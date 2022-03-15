@@ -161,23 +161,26 @@ $imagedir = get_template_directory_uri();
                                 <div class="info_right">
                                     <div class="info_right-cont info_right-cont-flex">
                                         <div class="col_1">
-                                            <p><span class="bullets">●</span>みずほ銀行　横山町支店</p>
-                                            <p><span class="bullets">●</span>三井住友銀行　人形町支店</p>
-                                            <p><span class="bullets">●</span>三菱UFJ銀行　大伝馬町支店</p>
-                                            <p><span class="bullets">●</span>りそな銀行　東京中央支店</p>
-                                            <p><span class="bullets">●</span>千葉銀行　四街道支店</p>
-                                            <p><span class="bullets">●</span>きらぼし銀行　八丁堀支店</p>
-                                            <p><span class="bullets">●</span>東日本銀行　本店営業部</p>
+                                            <p><span class="bullets">●</span>みずほ銀行</p>
+                                            <p><span class="bullets">●</span>三菱UFJ銀行</p>
+                                            <p><span class="bullets">●</span>三井住友銀行</p>
+                                            <p><span class="bullets">●</span>りそな銀行</p>
+                                            <p><span class="bullets">●</span>千葉銀行</p>
+                                            <p><span class="bullets">●</span>関西みらい銀行</p>
+                                            <p><span class="bullets">●</span>東日本銀行</p>
+                                            <p><span class="bullets">●</span>武蔵野銀行</p>
+                                            <p><span class="bullets">●</span>きらぼし銀行</p>
                                         </div>
                                         <div class="col_2">
-                                            <p> <span class="bullets">●</span>武蔵野銀行　本店営業部</p>
-                                            <p><span class="bullets">●</span>関西アーバン銀行　東京支店</p>
+                                            <p> <span class="bullets">●</span>SBJ銀行</p>
+                                            <p><span class="bullets">●</span>京葉銀行</p>
+                                            <p><span class="bullets">●</span>横浜銀行</p>
+                                            <p><span class="bullets">●</span>香川銀行</p>
+                                            <p><span class="bullets">●</span>群馬銀行</p>
+                                            <p><span class="bullets">●</span>静岡銀行</p>
                                             <p><span class="bullets">●</span>西武信用金庫</p>
-                                            <p><span class="bullets">●</span>群馬銀行　上野支店</p>
-                                            <p><span class="bullets">●</span>静岡銀行　沼津支店</p>
-                                            <p><span class="bullets">●</span>日本政策金融公庫　東京支店<span class="u-d-n-sp">（旧、中小企業金融公庫）</p>
-                                            <p><span class="u-d-n-pc"><span class="bullets">●</span>（旧、中小企業金融公庫）</p>
-                                            <p><span class="bullets">●</span>商工中金　東京支店</p>
+                                            <p><span class="bullets">●</span>商工組合中央金庫</p>
+                                            <p><span class="bullets">●</span>あおぞら銀行</p>
                                         </div>
                                     </div>
                                 </div>
@@ -192,32 +195,47 @@ $imagedir = get_template_directory_uri();
                                 <div class="info_right lw">
                                     <div class="info_right-cont info_right-cont-flex">
                                         <div class="col_1">
-                                            <p><span class="bullets">●</span>三菱地所</p>
-                                            <p><span class="bullets">●</span>三菱地所リアルエステートサービス</p>
-                                            <p><span class="bullets">●</span>三菱ＵＦＪ信託銀行</p>
-                                            <p><span class="bullets">●</span>三菱ＵＦＪ不動産販売</p>
-                                            <p><span class="bullets">●</span>東急不動産</p>
-                                            <p><span class="bullets">●</span>東急リバブル</p>
-                                            <p><span class="bullets">●</span>野村不動産</p>
-                                            <p><span class="bullets">●</span>野村不動産アーバンネット</p>
-                                            <p><span class="bullets">●</span>三井不動産レジデンシャル</p>
-                                            <p><span class="bullets">●</span>三井不動産リアルティ</p>
-                                            <p><span class="bullets">●</span>三井リハウスグループ</p>
+                                            <p><span class="bullets">●</span>株式会社青山財産ネットワークス</p>
+                                            <p><span class="bullets">●</span>小田急不動産株式会社</p>
+                                            <p><span class="bullets">●</span>株式会社キットモット</p>
+                                            <p><span class="bullets">●</span>株式会社ケン・コーポレーション</p>
+                                            <p><span class="bullets">●</span>コリアーズ・インターナショナル・ジャパン株式会社</p>
+                                            <p><span class="bullets">●</span>サンフロンティア不動産株式会社</p>
+                                            <p><span class="bullets">●</span>シービーアールイー株式会社</p>
+                                            <p><span class="bullets">●</span>株式会社シーラ</p>
+                                            <p><span class="bullets">●</span>スターツピタットハウス株式会社</p>
+                                            <p><span class="bullets">●</span>スターツコーポレートサービス株式会社</p>
+                                            <p><span class="bullets">●</span>住商建物株式会社</p>
+                                            <p><span class="bullets">●</span>住友不動産販売株式会社</p>
+                                            <p><span class="bullets">●</span>住友林業ホームサービス株式会社</p>
+                                            <p><span class="bullets">●</span>住友林業レジデンシャル株式会社</p>
+                                            <p><span class="bullets">●</span>生和コーポレーション株式会社</p>
+                                            <p><span class="bullets">●</span>株式会社テンポアップ</p>
+                                            <p><span class="bullets">●</span>東急リバブル株式会社</p>
+                                            <p><span class="bullets">●</span>株式会社東京カンテイ</p>
+                                            <p><span class="bullets">●</span>東京建物不動産販売株式会社</p>
                                         </div>
                                         <div class="col_2">
-                                            <p><span class="bullets">●</span>三井住友信託銀行</p>
-                                            <p><span class="bullets">●</span>SMBC信託銀行</p>
-                                            <p><span class="bullets">●</span>森ビルグループ</p>
-                                            <p><span class="bullets">●</span>長谷工グループ</p>
-
-                                            <p><span class="bullets">●</span>みずほ信託銀行</p>
-                                            <p><span class="bullets">●</span>みずほ信不動産販売</p>
-                                            <p><span class="bullets">●</span>東京建物不動産販売</p>
-                                            <p><span class="bullets">●</span>日本土地建物</p>
-                                            <p><span class="bullets">●</span>住友不動産販売</p>
-                                            <p><span class="bullets">●</span>京急不動産</p>
-                                            <p><span class="bullets">●</span>ケン・コーポレーション</p>
-                                            <p style="margin-left: 34px;"><span class="bullets"></span>（順不同）</p>
+                                            <p><span class="bullets">●</span>東洋不動産株式会社</p>
+                                            <p><span class="bullets">●</span>トーセイ・アセット・アドバイザーズ株式会社</p>
+                                            <p><span class="bullets">●</span>日本資産総研株式会社</p>
+                                            <p><span class="bullets">●</span>野村不動産ソリューションズ株式会社</p>
+                                            <p><span class="bullets">●</span>ヒューリック株式会社</p>
+                                            <p><span class="bullets">●</span>株式会社ビーロット</p>
+                                            <p><span class="bullets">●</span>株式会社福田財産コンサル</p>
+                                            <p><span class="bullets">●</span>ブラックストーン・グループ・ジャパン株式会社</p>
+                                            <p><span class="bullets">●</span>みずほ信託銀行株式会社</p>
+                                            <p><span class="bullets">●</span>みずほ不動産販売株式会社</p>
+                                            <p><span class="bullets">●</span>三菱地所リアルエステートサービス株式会社</p>
+                                            <p><span class="bullets">●</span>三菱UFJ信託銀行株式会社</p>
+                                            <p><span class="bullets">●</span>三井住友信託銀行株式会社</p>
+                                            <p><span class="bullets">●</span>三井住友トラスト不動産株式会社</p>
+                                            <p><span class="bullets">●</span>三井不動産リアルティ株式会社</p>
+                                            <p><span class="bullets">●</span>三菱地所株式会社</p>
+                                            <p><span class="bullets">●</span>三菱地所リアルエステートサービス株式会社</p>
+                                            <p><span class="bullets">●</span>モルガン・スタンレー・キャピタル株式会社</p>
+                                            <p><span class="bullets">●</span>PAGインベストメント・マネジメント株式会社</p>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

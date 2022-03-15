@@ -34,7 +34,12 @@ $imagedir = get_template_directory_uri();
                 <p class="c-case01__sub result_sub">私たちルーフは創業以来、赤字を出すことなく、<br>利益水準を持続的に成長させてきました。</p>
 
                 <div class="section_1__charts u-d-n-sp">
-                    <img src="<?php echo $imagedir ?>/release/image/page/result/chart_1.png" alt="">
+                    <img src="<?php echo $imagedir ?>/release/image/page/result/chart_1.png" usemap="#image-map">
+
+                    <map name="image-map">
+                        <area alt="第2期　H14.4 218.43" title="第2期　H14.4 218.43" href="" coords="92,397,134,445" shape="rect" style="cursor: default; pointer-events: none;">
+                    </map>
+                    <!-- <img src="<?php echo $imagedir ?>/release/image/page/result/chart_1.png" alt=""> -->
                     <img src="<?php echo $imagedir ?>/release/image/page/result/chart_2.png" alt="">
                 </div>
 

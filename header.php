@@ -181,10 +181,10 @@
                                             <a
                                                 href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">バリューアップ事例02</a>
                                         </li>
-                                        <li class="nav-links-ul-02-submenu-link">
+                                        <!-- <li class="nav-links-ul-02-submenu-link">
                                             <a
                                                 href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">バリューアップ事例03</a>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-links-ul-02-submenu-link">
                                             <a
                                                 href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">バリューアップ事例04</a>

@@ -163,7 +163,7 @@
                                     <a class="c-link__arr" href="">></a>
                                 </li> -->
                                 <li class="c-link">
-                                    <a class="c-link__inner cap-sp" href="">YouTube</a>
+                                    <a class="c-link__inner cap-sp" href="https://www.youtube.com/channel/UCE8BhX-bvhJcw_D7JtJLecg" target="__blank">YouTube</a>
                                     <a class="c-link__arr" href="">></a>
                                 </li>
                             </ul>

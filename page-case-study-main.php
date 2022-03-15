@@ -85,7 +85,7 @@ $imagedir = get_template_directory_uri();
                                     </p>
                                 </div>
                             </div>
-
+                            <!-- 
                             <div class="col">
                                 <div class="c-card08">
                                     <div class="c-card08__top">
@@ -106,7 +106,7 @@ $imagedir = get_template_directory_uri();
                                         フルリノベーション
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="col">
                                 <div class="c-card08">
