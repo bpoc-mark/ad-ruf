@@ -2552,7 +2552,7 @@ body.page-template-default.page.page-id-43 .p-cntct.cntct{display:none}
 .result .section_1 .l-wrap .bg-sq{position:absolute;right:82px;top:-94px}
 .result .section_1__ttl{color:#fff;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;line-height:1;font-size:.625rem}
 .result .section_1__charts{padding-top:60px}
-.result .section_1__charts img:nth-of-type(2){padding-top:40px}
+.result .section_1__charts img:nth-of-type(2){margin-top:40px}
 .result .section_1__chart-ins{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;padding:40px 0 60px 0;letter-spacing:.2em;font-size:.8125rem;line-height:2}
 .result .section_1__result_btns{max-width:640px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .result .result_ttl{letter-spacing:.1em;font-weight:500}
@@ -4703,7 +4703,7 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .result .section_1 .l-wrap .bg-sq{width:178px;right:10px;top:-83px}
 .result .section_1__ttl{color:#9dc2e1}
 .result .section_1__charts{padding-top:0}
-.result .section_1__charts img:nth-of-type(2){padding-top:25px}
+.result .section_1__charts img:nth-of-type(2){margin-top:25px}
 .result .section_1__chart-ins{letter-spacing:.1em;padding-bottom:53px}
 .result .section_1__result_btns .c-buttonCase.button-2{margin-top:20px}
 .result .result_ttl{font-size:1.5625rem;letter-spacing:.01em}

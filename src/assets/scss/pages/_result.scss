@@ -150,10 +150,10 @@
 
 			img {
 				&:nth-of-type(2) {
-					padding-top: 40px;
+					margin-top: 40px;
 
 					@include is-sp {
-						padding-top: 25px;
+						margin-top: 25px;
 					}
 				}
 			}
