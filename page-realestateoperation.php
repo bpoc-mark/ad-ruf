@@ -373,7 +373,7 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -393,7 +393,7 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img5.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
@@ -577,8 +577,8 @@ $imagedir = get_template_directory_uri();
                     <div class="c-card07__top">
                         <p class="Question">Q</p>
                         <p class="qtext">
-                        将来売却することは<br>
-                        可能ですか？
+                            将来売却することは<br>
+                            可能ですか？
                         </p>
                     </div>
                     <div class="c-card07__bottom">

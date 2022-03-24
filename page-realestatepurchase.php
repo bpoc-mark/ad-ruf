@@ -180,7 +180,7 @@ $imagedir = get_template_directory_uri();
             <div class="sect_4__inner-realestate">
                 <div class="sect_4__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                    20年で500棟以上の買取実績
+                        20年で500棟以上の買取実績
                     </p>
                     <p class="text">
                         ルーフは、高い収益力が期待できる不動産が集中している東京、神奈川、千葉、埼玉の首都圏エリアを中心に事業を展開しています。買取実績は20年間で500棟以上。一人ひとりのスタッフが経験豊富なエキスパートのため、圧倒的なスピードでの意思決定が可能です。例えば他社で買取に1ヶ月かかる場合、ルーフなら1週間で完結することができます。<br class="u-d-n-pc">
@@ -236,7 +236,7 @@ $imagedir = get_template_directory_uri();
                 <div class="sect_5__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">売却時の<br>リフォームは不要</p>
                     <p class="text">
-                    ルーフには、不動産の問題点を正常化させる「解決力」があります。例えば、築年数が古い、修繕が必要、隣地との境界が曖昧、滞納者が存在するなど、物件にネガティブな条件がある場合でもご遠慮なくご相談ください。リフォームを含め、買取後に全てサポートするのでお客様のお手間が一切かかりません。また、必要以上の価格交渉の材料に使うこともありませんのでご安心ください。
+                        ルーフには、不動産の問題点を正常化させる「解決力」があります。例えば、築年数が古い、修繕が必要、隣地との境界が曖昧、滞納者が存在するなど、物件にネガティブな条件がある場合でもご遠慮なくご相談ください。リフォームを含め、買取後に全てサポートするのでお客様のお手間が一切かかりません。また、必要以上の価格交渉の材料に使うこともありませんのでご安心ください。
                     </p>
                     <div class="point">
                         <p class="point_ttl">
@@ -394,7 +394,7 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
@@ -414,7 +414,7 @@ $imagedir = get_template_directory_uri();
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img5.png" alt="">
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>

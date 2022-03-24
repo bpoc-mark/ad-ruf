@@ -112,10 +112,10 @@ $imagedir = get_template_directory_uri();
                                 <div class="c-card08">
                                     <div class="c-card08__top">
                                         <div class="num">
-                                            <p>04</p>
+                                            <p>03</p>
                                         </div>
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case04.png" alt="">
-                                        <a href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -134,11 +134,11 @@ $imagedir = get_template_directory_uri();
                                 <div class="c-card08">
                                     <div class="c-card08__top">
                                         <div class="num">
-                                            <p>05</p>
+                                            <p>04</p>
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case05.png" alt="">
-                                        <a href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -157,11 +157,11 @@ $imagedir = get_template_directory_uri();
                                 <div class="c-card08">
                                     <div class="c-card08__top">
                                         <div class="num">
-                                            <p>06</p>
+                                            <p>05</p>
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case06.png" alt="">
-                                        <a href="<?php echo get_permalink(get_page_by_path('case-study6')) ?>" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study5')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -180,11 +180,11 @@ $imagedir = get_template_directory_uri();
                                 <div class="c-card08">
                                     <div class="c-card08__top">
                                         <div class="num">
-                                            <p>07</p>
+                                            <p>06</p>
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case07.png" alt="">
-                                        <a href="<?php echo get_permalink(get_page_by_path('case-study7')) ?>" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study6')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>
@@ -213,11 +213,11 @@ $imagedir = get_template_directory_uri();
                                 <div class="c-card08">
                                     <div class="c-card08__top">
                                         <div class="num">
-                                            <p>08</p>
+                                            <p>07</p>
                                         </div>
 
                                         <img src="<?php echo $imagedir ?>/release/image/page/case/csm-case08.png" alt="">
-                                        <a href="<?php echo get_permalink(get_page_by_path('case-study08')) ?>" class="view_more">
+                                        <a href="<?php echo get_permalink(get_page_by_path('case-study7')) ?>" class="view_more">
                                             <p class="">VIEW MORE <img src="<?php echo $imagedir ?>/release/image/page/case/csm-right-arrow.png" alt=""></p>
                                         </a>
                                     </div>

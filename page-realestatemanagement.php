@@ -341,17 +341,17 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
+                            <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
-                            <p class="c-cards09-desc-ttl">築30年の大規模 <br>リノベーション
+                            <p class="c-cards09-desc-ttl">築30年の大規模<br>リノベーション
                             </p>
-                            <p class="c-cards09-desc-txt"> 室内フルリフォームで<br>快適空間。</p>
+                            <p class="c-cards09-desc-txt">室内フルリフォームで<br>快適空間</p>
                         </div>
                     </div>
 
@@ -361,49 +361,65 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
+                            <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
-                            <p class="c-cards09-desc-ttl">エントランスの <br>バリューアップ
+                            <p class="c-cards09-desc-ttl">エントランスの<br>バリューアップ
                             </p>
                             <p class="c-cards09-desc-txt">住宅地エリアで<br>目を引く存在に</p>
                         </div>
                     </div>
 
-                    <div class="c-cards09">
-                        <div class="c-cards09-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
-                            <div class="c-cards09-img-num">
-                                <p>03</p>
+                    <!-- <div class="c-cards09">
+                            <div class="c-cards09-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img3.png" alt="">
+                                <div class="c-cards09-img-num">
+                                    <p>03</p>
+                                </div>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
-                        </div>
-                        <div class="c-cards09-desc">
-                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
-                                <p>VIEW <br>MORE</p>
-                            </a>
-                            <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
-                            </p>
-                            <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
-                        </div>
-                    </div>
+                            <div class="c-cards09-desc">
+                                <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a>
+                                <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
+                                </p>
+                                <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
+                            </div>
+                        </div> -->
 
                     <div class="c-cards09">
                         <div class="c-cards09-img">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img4.png" alt="">
                             <div class="c-cards09-img-num">
+                                <p>03</p>
+                            </div>
+                            <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a> -->
+                        </div>
+                        <div class="c-cards09-desc">
+                            <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
+                                <p>VIEW <br>MORE</p>
+                            </a>
+                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
+                            </p>
+                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                        </div>
+                    </div>
+                    <div class="c-cards09">
+                        <div class="c-cards09-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sec5_img5.png" alt="">
+                            <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
+                            <!-- <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
+                                    <p>VIEW <br>MORE</p>
+                                </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">

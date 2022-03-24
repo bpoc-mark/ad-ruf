@@ -2551,12 +2551,21 @@ body.page-template-default.page.page-id-43 .p-cntct.cntct{display:none}
 .result .section_1 .clip-path{padding:160px 0 100px 0;text-align:center}
 .result .section_1 .l-wrap .bg-sq{position:absolute;right:82px;top:-94px}
 .result .section_1__ttl{color:#fff;font-weight:400;font-family:century-gothic,sans-serif;text-align:center;letter-spacing:.32em;line-height:1;font-size:.625rem}
-.result .section_1__charts{padding-top:60px}
+.result .section_1__charts--block{background-color:#fff;padding:40px}
 .result .section_1__charts img:nth-of-type(2){margin-top:40px}
 .result .section_1__chart-ins{color:#fff;font-family:yu-gothic-pr6n,sans-serif;font-weight:500;padding:40px 0 60px 0;letter-spacing:.2em;font-size:.8125rem;line-height:2}
 .result .section_1__result_btns{max-width:640px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .result .result_ttl{letter-spacing:.1em;font-weight:500}
 .result .br-sp{display:none}
+.result .chartjs-render-monitor{-webkit-animation:chartjs-render-animation .001s;animation:chartjs-render-animation .001s}
+.result .chartjs-size-monitor,.result .chartjs-size-monitor-expand,.result .chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}
+.result .chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}
+.result .chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+.result .p-content-block__body{margin:50px 0 0 0}
+.result .p-content-block__body .p-result-chart__ttl{color:#2759ad;margin-bottom:1em;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.result .p-content-block__body .p-result-chart__ttl span{color:#666;font-size:.875rem;line-height:1}
+.result .p-content-block__body .p-result-chart__block{background-color:#fff;padding:40px}
+.result .p-content-block__body .p-result-chart__block:nth-of-type(2){margin-top:40px}
 .sore{position:relative}
 .sore .c-banner--ttl p:first-child{font-size:1.875rem;letter-spacing:0 !important;line-height:41px}
 .sore .c-banner--ttl p:last-child{line-height:45px}
@@ -3091,6 +3100,8 @@ body.page-template-default.page.page-id-43 .p-cntct.cntct{display:none}
 .real_estate_purchase .sect_5__box-big-new .pc{display:block}
 .real_estate_purchase .sect_6__box-big-new .pc{display:block}
 .real_estate_purchase .br-pc{display:block}
+.result .p-content-block__body #chart-income{height:400px !important}
+.result .p-content-block__body #chart-current-profit{height:180px !important}
 }@media only screen and (min-width:1000px){.c-card07:last-child,.c-card07:nth-of-type(3){border:0}
 .c-card07:nth-of-type(7){border:none !important}
 }@media only screen and (min-width:1024px){.real_estate_management .sect_2__inner-realestate--left .text{padding-bottom:30px}
@@ -4708,6 +4719,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 .result .section_1__result_btns .c-buttonCase.button-2{margin-top:20px}
 .result .result_ttl{font-size:1.5625rem;letter-spacing:.01em}
 .result .br-sp{display:block}
+.result .p-content-block__body{margin:0}
+.result .p-content-block__body .p-result-chart__block{padding:4vw}
 .sore .c-banner--ttl p:last-child{line-height:18px}
 .sore .c-banner--ttl{font-size:1.5625rem;line-height:34px;letter-spacing:-1px !important}
 .sore__ttl{font-size:.75rem;line-height:1;padding-top:27px}
@@ -5185,7 +5198,8 @@ form.wpcf7-form.custom-wpcf7c-confirmed .bcksub .sub input{width:100% !important
 input.wpcf7-form-control.wpcf7-back.btn-back.wpcf7c-elm-step2.wpcf7c-btn-back{margin:0}
 }@media only screen and (max-width:640px){.message .section_1::after{height:6%;-webkit-clip-path:polygon(0 54%,45% 0,100% 69%,0 100%);clip-path:polygon(0 54%,45% 0,100% 69%,0 100%);width:80%}
 .message .section_1 .clipPath{-webkit-clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%);clip-path:polygon(100% 0,100% 100%,84% 98%,0 100%,0 4%)}
-}@media only screen and (max-width:600px){.top .sect_2 .c-buttonCase{margin-bottom:15px}
+}@media only screen and (max-width:600px){.result .p-result-chart__chart,.result .p-result-chart__chart--sales{height:48vw}
+.top .sect_2 .c-buttonCase{margin-bottom:15px}
 }@media only screen and (max-width:575px){.page__footer .nav-footer-col1 img{width:100px}
 .page__footer .nav-footer-col4 .link .link__inner .c-link__inner{font-size:.78125rem;line-height:4}
 }@media only screen and (max-width:560px){.about .section_3 .cards .cards-card-img-txt-ttl p{font-size:3.1vw}
@@ -5601,4 +5615,8 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 100%{-webkit-transform:translateX(-136vw);transform:translateX(-136vw)}
 }@keyframes scrolling{0%{-webkit-transform:translateX(0);transform:translateX(0)}
 100%{-webkit-transform:translateX(-136vw);transform:translateX(-136vw)}
+}@-webkit-keyframes chartjs-render-animation{from{opacity:.99}
+to{opacity:1}
+}@keyframes chartjs-render-animation{from{opacity:.99}
+to{opacity:1}
 }
