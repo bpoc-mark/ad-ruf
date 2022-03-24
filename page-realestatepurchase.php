@@ -406,9 +406,9 @@ $imagedir = get_template_directory_uri();
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
-                            <p class="c-cards09-desc-ttl">境界部分にも <br>アプローチ
+                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
                             </p>
-                            <p class="c-cards09-desc-txt"> 居住者の満足度向上も<br>叶えた事例</p>
+                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
                         </div>
                     </div>
 
@@ -426,9 +426,9 @@ $imagedir = get_template_directory_uri();
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
                                 <p>VIEW <br>MORE</p>
                             </a>
-                            <p class="c-cards09-desc-ttl">居室部分の<br>リノーベションが好評
+                            <p class="c-cards09-desc-ttl">オートロック<br>新規設置により
                             </p>
-                            <p class="c-cards09-desc-txt"> 空室率の大幅改善に<br>つながった成功例</p>
+                            <p class="c-cards09-desc-txt">賃料アップと満室<br>稼働を実現した事例</p>
                         </div>
                     </div>
                 </div>
