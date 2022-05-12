@@ -27,7 +27,7 @@ $imagedir = get_template_directory_uri();
             <img class="acc__bg_1_sp u-d-n-pc" src="<?php echo $imagedir ?>/release/image/page/access/bg_1_sp.png" alt="">
             <p class="acc__ttl">Access</p>
             <h1 class="acc__title">【丸の内】ルーフの<br class="u-d-n-pc">アクセス情報</h1>
-            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> ルーフまでアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
+            <p class="acc__sub">東京都の丸の内に構える株式会社ルーフ。<br> ルーフまでのアクセス情報や最<br class="u-d-n-pc">寄駅からの道順をご紹介いたします。</p>
         </div>
 
         <div class="acc__main-content">

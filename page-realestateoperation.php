@@ -36,8 +36,8 @@ $imagedir = get_template_directory_uri();
                     首都圏を中心に多数の<br class="u-d-n-pc">物件を運用しています。
                 </p>
                 <p class="header_subtext">
-                    不動産収益を向上させるには「買って終わり」ではなく、<br class="u-d-n-pc">その後の運用も大切です。<br class="u-d-n-pc">
-                    ルーフでは、市場と将来を見据えた確かな<br class="u-d-n-pc">運用でお客様の利益の最大化を図ります。
+                    不動産収益を向上させるには「買って終わり」ではなく、その後の運用も大切です。<br class="u-d-n-sp">
+                    ルーフでは、市場と将来を見据えた確かな運用でお客様の利益の最大化を図ります。
                 </p>
                 <div class="sect_1__box-big">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_1_box-2.png" alt="">

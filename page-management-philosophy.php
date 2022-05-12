@@ -16,11 +16,8 @@ $imagedir = get_template_directory_uri();
             <div class="person-bnr">
                 <img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/managementphilosophy/bnr-person.png" alt="">
             </div>
-            <div class="ruf"><img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/managementphilosophy/ruf-img.png" alt=""></div>
+            <!-- <div class="ruf"><img class="bnr_pc" src="<?php echo $imagedir ?>/release/image/page/managementphilosophy/ruf-img.png" alt=""></div> -->
         </div>
-        <!-- <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 企 業 情 報 <span>＞</span> 経 営 理 念</p>
-        </div> -->
         <div class="c-bread_crumps">
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>

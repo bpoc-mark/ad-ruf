@@ -14,9 +14,6 @@ $imagedir = get_template_directory_uri();
 				<p>Case Studies01</p>
 			</div>
 		</div>
-		<!-- <div class="bread_crumps">
-			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 01</p>
-		</div> -->
 		<div class="c-bread_crumps">
 			<?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
 		</div>
@@ -62,8 +59,7 @@ $imagedir = get_template_directory_uri();
 						<div class="c-case--items__contents--row_2__txt">
 							<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 							<p class="c-case--items__contents--row_2__txt sub">外観の<br>ビフォーアフター</p>
-							<p class="c-case--items__contents--row_2__txt desc">築30年が経ち、2017年4月にリノベーションを行いました。共用部分だけでなく、室内のフルリフォームも行い、<br class="u-d-n-sp">
-								とてもキレイなマンションへと生まれ変わりました。ご家族で快適に暮らせるようニーズに合わせた改修を行いました。</p>
+							<p class="c-case--items__contents--row_2__txt desc">築30年が経ち、2017年4月にリノベーションを行いました。<br class="u-d-n-sp">共用部分だけでなく、室内のフルリフォームも行い、とてもキレイなマンションへと生まれ変わりました。<br class="u-d-n-sp">ご家族で快適に暮らせるようニーズに合わせた改修を行いました。</p>
 						</div>
 					</div>
 				</div>
@@ -226,7 +222,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt">
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">通路の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">安全面を考慮し当初の駐輪場は駐車場横へと移動し、<br class="u-d-n-sp">すっきりした通路へ改修しました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">安全面を考慮し当初の駐輪場は駐車場横へと移動し、すっきりした通路へ改修しました。</p>
 					</div>
 				</div>
 			</div>
@@ -266,8 +262,7 @@ $imagedir = get_template_directory_uri();
 					<div class="c-case--items__contents--row_2__txt row2__txt--02">
 						<p class="c-case--items__contents--row_2__txt ttl">1988年竣工、4階建、鉄筋コンクリート</p>
 						<p class="c-case--items__contents--row_2__txt sub">室内の<br>ビフォーアフター</p>
-						<p class="c-case--items__contents--row_2__txt desc">キッチン、水まわり、換気扇などリノベーションで一新し、<br class="u-d-n-sp">
-							リビングはナチュラルなイメージのフローリングにしました。</p>
+						<p class="c-case--items__contents--row_2__txt desc">キッチン、水まわり、換気扇などリノベーションで一新し、リビングはナチュラルなイメージのフローリングにしました。</p>
 					</div>
 				</div>
 			</div>

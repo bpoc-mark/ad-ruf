@@ -244,7 +244,6 @@
 				@include font-line(13, 25);
 				text-align: center;
 				letter-spacing: 0.1em;
-				white-space: nowrap;
 			}
 
 			@include is-max(400px) {
@@ -872,7 +871,7 @@
 					font-family: "Bebas Neue";
 					font-weight: 400;
 					@include font-line(40);
-					color: #fff;
+					color: #0058c3;
 				}
 
 				.pic {

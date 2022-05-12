@@ -767,6 +767,10 @@
 				align-items: flex-start;
 			}
 
+			@include is-max(900px){
+				justify-content: center;
+			}
+
 			@include is-max(750px) {
 				flex-direction: column-reverse;
 				display: grid;
@@ -775,7 +779,7 @@
 
 			&--left,
 			&--right {
-				width: 50%;
+				width: 490px;
 				position: relative;
 				z-index: 4;
 
@@ -786,14 +790,22 @@
 
 			&--left {
 				padding-left: 95px;
+				width: calc(100% - 490px);
 
 				@include is-max(900px) {
 					padding-left: 20px;
 				}
 
+				@include is-max(900px) {
+					width: 100%;
+					order: 1;
+					padding-top: 25px;
+				}
+
 				@include is-max(750px) {
 					padding-left: unset;
 					order: 3;
+					padding-top: 0
 				}
 
 				.txt_ttl {
@@ -1877,6 +1889,10 @@
 
 	.pic {
 		width: 100%;
+		image-rendering: pixelated;
+		@include is-max(400px){
+			image-rendering: -webkit-optimize-contrast;
+		}
 	}
 
 	.qtext {

@@ -174,13 +174,11 @@ $imagedir = get_template_directory_uri();
                                         <div class="col_2">
                                             <p> <span class="bullets">●</span>SBJ銀行</p>
                                             <p><span class="bullets">●</span>京葉銀行</p>
-                                            <p><span class="bullets">●</span>横浜銀行</p>
                                             <p><span class="bullets">●</span>香川銀行</p>
                                             <p><span class="bullets">●</span>群馬銀行</p>
                                             <p><span class="bullets">●</span>静岡銀行</p>
-                                            <p><span class="bullets">●</span>西武信用金庫</p>
                                             <p><span class="bullets">●</span>商工組合中央金庫</p>
-                                            <p><span class="bullets">●</span>あおぞら銀行</p>
+                                            <p><span class="bullets">●</span>城北信用金庫</p>
                                         </div>
                                     </div>
                                 </div>
