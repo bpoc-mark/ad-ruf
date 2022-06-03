@@ -4,6 +4,9 @@
 	.c-img_box03__txt {
 		height: 100% !important;
 	}
+	.c-img_box03{
+		display: none;
+	}
 	.c-banner {
 		padding: 0 0 100px 0;
 		background: linear-gradient(to right, #0059c6, #000017);
@@ -655,6 +658,9 @@
 					padding-top: 25px;
 					width: 100%;
 				}
+				@include is-max(750px){
+					padding-top: 0;
+				}
 				@include is-max(750px) {
 					padding-left: unset;
 					order: 3;
@@ -750,6 +756,11 @@
 
 		.c-buttonREP {
 			margin-top: 50px;
+			margin-left: initial;
+
+			@include is-max(900px) {
+				margin-left: auto;
+			}
 		}
 	}
 
@@ -1765,7 +1776,17 @@
 			}
 		}
 	}
-
+	.pic.pc{
+		@include is-max(750px){
+			display: none;
+		}
+	}
+	.pic.sp {
+		display: none;
+		@include is-max(750px) {
+			display: block;
+		}
+	}
 	.pic {
 		width: 100%;
 		image-rendering: pixelated;

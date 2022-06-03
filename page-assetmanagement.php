@@ -14,9 +14,6 @@ $imagedir = get_template_directory_uri();
                 <p>Asset <br class="u-d-n-pc">Management</p>
             </div>
         </div>
-        <!-- <div class="bread_crumps">
-            <p class="txt">TOP <span>></span> 事 業 内 容 <span>＞</span> アセットマネジメント</p>
-        </div> -->
         <div class="c-bread_crumps">
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
@@ -79,24 +76,9 @@ $imagedir = get_template_directory_uri();
                             <span>●</span>リスク管理を徹底したい
                         </p>
                     </div>
-                    <!-- <a class="c-buttonREP" href="#">
-                        <p class="txt">収益不動産の買取について</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                    </a> -->
                 </div>
                 <div class="sect_2__inner-realestate--right">
                     <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img3.png" alt="">
-                    <!-- <div class="c-img_box02">
-                        <div class="c-img_box02--ttl">
-                            見極める<br>価値を
-                        </div>
-                        <div class="c-img_box02--sub">
-                            RUFの収益不動産の売買は
-                        </div>
-                        <div class="c-img_box02--logo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/RUF_logo.svg" alt="">
-                        </div>
-                    </div> -->
                 </div>
                 <p class="txt_ttl u-d-n-pc">
                     ルーフの<br>
@@ -107,7 +89,6 @@ $imagedir = get_template_directory_uri();
         </div>
     </section>
 
-
     <section class="sect_4">
         <div class="l-wrap">
             <div class="sect_4__box-big-new">
@@ -116,9 +97,6 @@ $imagedir = get_template_directory_uri();
             </div>
             <div class="sect_4__box-big-new2">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-2.png" alt="">
-            </div>
-            <div class="sect_4__box-big-new3">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-3.png" alt="">
             </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
@@ -160,9 +138,14 @@ $imagedir = get_template_directory_uri();
                             <span>●</span>オーナー様の資産形成を力強くサポート
                         </p>
                     </div>
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
+                        <p class="txt">実績を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </a>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img1.png" alt="">
+                    <img class="pic pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img1.png" alt="">
+                    <img class="pic sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/am_img1-sp.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -174,11 +157,6 @@ $imagedir = get_template_directory_uri();
                 <p class="txt_ttl u-d-n-pc">
                     オーナー様目線の<br>アセットマネジメント
                 </p>
-                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
-                    <p class="txt">実績を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </a>
-
             </div>
         </div>
     </section>
@@ -322,9 +300,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
@@ -342,9 +317,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
@@ -362,9 +334,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
@@ -382,9 +351,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">
@@ -403,86 +369,6 @@ $imagedir = get_template_directory_uri();
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/case/btn_arrow.svg" alt="">
             </a>
         </div>
-        <!-- <div class="sect_7--inner-casestudy">
-                <div class="c-card06">
-                    <div class="c-card06__top">
-                        <div class="c-card06_pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/card_img1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="c-card06__bottom">
-                        <p class="card_ttl">
-                            築30年の大規模<br>
-                            リノベーション
-                        </p>
-                        <p class="desc">
-                            室内フルリフォームで<br>
-                            快適空間
-                        </p>
-                    </div>
-                </div>
-
-                <div class="c-card06">
-                    <div class="c-card06__top">
-                        <div class="c-card06_pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/card_img2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="c-card06__bottom">
-                        <p class="card_ttl">
-                            エントランスの <br>
-                            バリューアップ
-                        </p>
-                        <p class="desc">
-                            住宅地エリアで <br>
-                            目を引く存在に
-                        </p>
-                    </div>
-                </div>
-
-                <div class="c-card06">
-                    <div class="c-card06__top">
-                        <div class="c-card06_pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/card_img3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="c-card06__bottom">
-                        <p class="card_ttl">
-                            境界部分にも <br>
-                            アプローチ
-                        </p>
-                        <p class="desc">
-                            居住者の満足度向上も <br>
-                            叶えた事例
-                        </p>
-                    </div>
-                </div>
-
-                <div class="c-card06">
-                    <div class="c-card06__top">
-                        <div class="c-card06_pic">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/card_img4.png" alt="">
-                        </div>
-                    </div>
-                    <div class="c-card06__bottom">
-                        <p class="card_ttl">
-                            居室部分の <br>
-                            リノーベションが好評
-                        </p>
-                        <p class="desc">
-                            空室率の大幅改善に <br>
-                            つながった成功例
-                        </p>
-                    </div>
-                </div>
-
-            </div> -->
-        <!-- 
-            <div class="c-buttonREP">
-                <p class="txt">その他の事例を見る</p>
-                <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-            </div> -->
-
     </section>
 
     <section class="sect_8">
