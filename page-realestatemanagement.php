@@ -14,9 +14,6 @@ $imagedir = get_template_directory_uri();
                 <p>Real Estate<br class="br-sp"> Management</p>
             </div>
         </div>
-        <!-- <div class="bread_crumps">
-            <p class="txt">TOP <span>></span>事 業 内 容<span>＞</span>収 益 不 動 産 の 管 理</p>
-        </div> -->
         <div class="c-bread_crumps">
             <?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
         </div>
@@ -146,6 +143,9 @@ $imagedir = get_template_directory_uri();
             <div class="sect_4__box-big-new3">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-3.png" alt="">
             </div>
+            <div class="sect_4__box-big-new4">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/sect_4_box-4@2x.png" alt="">
+            </div>
             <div class="sect_4--top-realestate">
                 <div class="sect_4__eng--ttl">
                     Real Estate Purchase
@@ -161,7 +161,7 @@ $imagedir = get_template_directory_uri();
             <div class="sect_4__inner-realestate">
                 <div class="sect_4__inner-realestate--left">
                     <p class="txt_ttl u-d-n-sp">
-                        高品質なプロパティマネジメント
+                        高品質なプロパティ<br>マネジメント
                     </p>
                     <p class="text">
                         不動産価値の最大化と収益性向上のために何をすべきか。ルーフの強みは、豊富な経験とノウハウを活かした、オーナー様視点の高品質なプロパティマネジメントです。収益不動産でもっとも大切な「実質利回り」にこだわり、リーシング、保守管理、修繕工事など不動産経営に関わるすべての業務をワンストップで提供いたします。専門的な知識と技術で対応いたしますので、ルーフにお任せください。</span>
@@ -180,9 +180,14 @@ $imagedir = get_template_directory_uri();
                             ● <span>業務をワンストップで提供</span>
                         </p>
                     </div>
+                    <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
+                        <p class="txt">実績を見る</p>
+                        <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
+                    </a>
                 </div>
                 <div class="sect_4__inner-realestate--right">
-                    <img class="pic" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4.png" alt="">
+                    <img class="pic pc" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4.png" alt="">
+                    <img class="pic sp" src="<?php echo get_template_directory_uri(); ?>/release/image/realestate/rem-img-sec4-sp.png" alt="">
                     <div class="c-img_box03">
                         <div class="c-img_box03__txt">
                             <p class="c-img_box03__ttl">Point</p>
@@ -194,11 +199,6 @@ $imagedir = get_template_directory_uri();
                 <p class="txt_ttl u-d-n-pc">
                     高品質なプロパティ<br class="br-sp">マネジメント
                 </p>
-                <a class="c-buttonREP" href="<?php echo get_permalink(get_page_by_path('case-study-main')) ?>">
-                    <p class="txt">実績を見る</p>
-                    <img src="<?php echo $imagedir ?>/release/image/page/case/btn_arrow.svg" alt="">
-                </a>
-
             </div>
         </div>
     </section>
@@ -341,9 +341,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>01</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study1')) ?>">
@@ -361,9 +358,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>02</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study2')) ?>">
@@ -381,9 +375,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>03</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study3')) ?>">
@@ -401,9 +392,6 @@ $imagedir = get_template_directory_uri();
                             <div class="c-cards09-img-num">
                                 <p>04</p>
                             </div>
-                            <!-- <a class="c-cards09-img-view" href="#">
-                                <p>VIEW <br>MORE</p>
-                            </a> -->
                         </div>
                         <div class="c-cards09-desc">
                             <a class="c-cards09-img-view" href="<?php echo get_permalink(get_page_by_path('case-study4')) ?>">

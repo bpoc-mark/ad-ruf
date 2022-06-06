@@ -14,9 +14,6 @@ $imagedir = get_template_directory_uri();
 				<p>Case Studies03</p>
 			</div>
 		</div>
-		<!-- <div class="bread_crumps">
-			<p class="txt">TOP <span>></span> バ リ ュ ー ア ッ プ 事 例 <span>></span> 事 例 04</p>
-		</div> -->
 		<div class="c-bread_crumps">
 			<?php if (function_exists('aioseo_breadcrumbs')) aioseo_breadcrumbs(); ?>
 		</div>

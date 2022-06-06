@@ -1,6 +1,9 @@
 .real_estate_management {
 	position: relative;
-
+	
+	.c-img_box03 {
+		display: none;
+	}
 	.c-banner {
 		padding: 0 0 100px 0;
 		background: linear-gradient(to right, #0059c4, #000017);
@@ -656,7 +659,8 @@
 		&__box-big-new2 {
 			position: absolute;
 			left: 0;
-			top: 160px;
+			width: 110px;
+			top: 137px;
 
 			@include is-sp {
 				display: none;
@@ -671,23 +675,17 @@
 			@include is-sp {
 				display: none;
 			}
+		} 
+		&__box-big-new4 {
+			position: absolute;
+			left: 0;
+			width: 250px;
+			top: 583px;
+
+			@include is-max(900px) {
+				display: none;
+			}
 		}
-
-		// &::after {
-		// 	content: "";
-		// 	position: absolute;
-		// 	width: 100%;
-		// 	bottom: -61px;
-		// 	height: 60px;
-		// 	background: linear-gradient(to left, #0059c6, #000017);
-		// 	-webkit-clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-		// 	clip-path: polygon(20% 95%, 100% 0, 100% 100%, 0 100%, 0 0);
-
-		// 	@include is-sp {
-		// 		height: 30px;
-		// 	}
-		// }
-
 		.txt_ttl {
 			@include font-line(24, 30);
 			text-align: left;
@@ -894,6 +892,10 @@
 
 		.c-buttonREP {
 			margin-top: 50px;
+			margin-left: initial;
+			@include is-max(900px){
+				margin-left: auto;
+			}
 		}
 	}
 
@@ -1886,7 +1888,19 @@
 			}
 		}
 	}
+	.pic.pc {
+		@include is-max(750px) {
+			display: none;
+		}
+	}
 
+	.pic.sp {
+		display: none;
+
+		@include is-max(750px) {
+			display: block;
+		}
+	}
 	.pic {
 		width: 100%;
 		image-rendering: pixelated;
