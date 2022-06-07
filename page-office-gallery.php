@@ -137,13 +137,13 @@ $imagedir = get_template_directory_uri();
                         <img src="<?php echo $imagedir ?>/release/image/page/office_gal/og_sect1_img3.png" alt="">
                         <div class="c-img_box top">
                             <div class="c-img_box__txt">
-                                <p class="c-img_box__ttl">共有<br>
+                                <p class="c-img_box__ttl">共用<br>
                                     ラウンジ</p>
                             </div>
                         </div>
                         <div class="c-img_box bottom">
                             <div class="c-img_box__txt">
-                                <p class="c-img_box__ttl">共有<br>
+                                <p class="c-img_box__ttl">共用<br>
                                     ラウンジ</p>
                             </div>
                         </div>
