@@ -54,23 +54,17 @@
                     </div>
                 </div>
             </div>
-
-            <div class="top-header-bnnr-txt01">
+            <!-- <div class="top-header-bnnr-txt01">
                 <p class="top-header-bnnr-txt01-hon">
                     あなたの不動産
                 </p>
-            </div>
+            </div> -->
             <div class="top-header-bnnr-txt02">
                 <p class="top-header-bnnr-txt02-ver">
-                    収益を最大化。
+                    あなたの不動産 収益を最大化。
                 </p>
             </div>
             <div class="fade"></div>
-            <!-- <div class="bdg-wrppr u-d-n-sp">
-                <div class="c-bdg bdg--blue">
-                    <p>あたり</p>
-                </div>
-            </div> -->
         </div>
         <div class="top-clip-wrppr">
             <div class="pth"></div>
@@ -312,19 +306,6 @@
                             </div>
                             <div class="col--box">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/sect4_bimg01.png" alt="Asset Management">
-                                <!-- <img class="bg_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/top-page/oe-img-4.png" alt="">
-                                <p class="top-text01">
-                                    <span>A</span>sset
-                                </p>
-                                <p class="top-text02">
-                                    <span>M</span>anagement
-                                </p>
-                                <p class="badge u-d-n-sp">あたり</p>
-                                <p class="num">04</p>
-                                <div class="info">
-                                    <p class="info-ttl">世代を超えて歴史を紡ぐ</p>
-                                    <p class="info-sub">RUFの資産運用(アセットマネジメント)</p>
-                                </div> -->
                             </div>
                         </div>
                     </div>
